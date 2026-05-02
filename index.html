@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#FAFAF8" />
+
+    <!-- Primary SEO -->
+    <title>Lapland Nature: Arctic Wilderness, Aurora & National Parks | LaplandNature</title>
+    <meta name="description" content="Finnish Lapland's arctic wilderness — five national parks, the longest aurora season in Europe, the kaamos polar night, and hiking trails from 5 km to 82 km. Plan your wilderness trip." />
+    <meta name="keywords" content="lapland nature, finnish lapland wilderness, arctic circle finland, lapland national parks, lapland northern lights, lapland hiking trails, kaamos, midnight sun" />
+    <meta name="author" content="LaplandNature editorial — verified by local Lapland experts" />
+    <link rel="canonical" href="https://laplandnature.com/" />
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="LaplandNature" />
+    <meta property="og:title" content="Lapland Nature: Arctic Wilderness, Aurora & National Parks | LaplandNature" />
+    <meta property="og:description" content="Finnish Lapland's arctic wilderness — five national parks, the longest aurora season in Europe, the kaamos polar night, and hiking trails from 5 km to 82 km." />
+    <meta property="og:url" content="https://laplandnature.com/" />
+    <meta property="og:image" content="https://laplandnature.com/images/hero-home.webp" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@laplandvibes" />
+    <meta name="twitter:title" content="Lapland Nature: Arctic Wilderness, Aurora & National Parks" />
+    <meta name="twitter:description" content="Finnish Lapland's arctic wilderness — five national parks, aurora season, kaamos, and hiking trails. From the team behind LaplandVibes." />
+    <meta name="twitter:image" content="https://laplandnature.com/images/hero-home.webp" />
+
+    <!-- Google Fonts — LV ecosystem brand fonts (Bebas Neue + DM Sans) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet" />
+
+    <!-- Hero LCP preload — homepage hero loads /images/hero-home.webp as the
+         largest-contentful element. Preloading shaves ~200–500 ms off mobile
+         LCP since the request fires before the JS bundle parses. -->
+    <link rel="preload" as="image" href="/images/hero-home.webp" fetchpriority="high" type="image/webp" />
+
+    <!-- Affiliate redirect warm-up — cuts ~200–500 ms off the first click -->
+    <link rel="preconnect" href="https://go.laplandvibes.com" crossorigin />
+    <link rel="dns-prefetch" href="https://fi.hotels.com" />
+    <link rel="dns-prefetch" href="https://www.economybookings.com" />
+    <link rel="dns-prefetch" href="https://www.getyourguide.com" />
+
+    <!-- Sitemap hint -->
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+
+    <!-- GetYourGuide Integration Analyzer (per-page placement analytics, partner VRMKD7N) -->
+    <script async defer
+      src="https://widget.getyourguide.com/dist/pa.umd.production.min.js"
+      data-gyg-partner-id="VRMKD7N"></script>
+
+    <!-- Google Analytics 4 — GDPR consent mode v2, default DENIED until banner accepted -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6MF4NX4PYJ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('consent', 'default', {
+        analytics_storage: 'denied',
+        ad_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied',
+        wait_for_update: 500,
+      });
+      if (localStorage.getItem('laplandnature_cookie_consent') === 'accepted') {
+        gtag('consent', 'update', {
+          analytics_storage: 'granted',
+          ad_storage: 'granted',
+          ad_user_data: 'granted',
+          ad_personalization: 'granted'
+        });
+      }
+      gtag('config', 'G-6MF4NX4PYJ', {
+        anonymize_ip: true,
+        linker: {
+          domains: [
+            'laplandvibes.com',
+            'laplandnature.com',
+            'laplandstays.com',
+            'laplandbars.com',
+            'laplanddeals.com',
+            'laplanddining.com',
+            'laplandfood.com',
+            'laplandgifts.com',
+            'laplandnightlife.com',
+            'laplandtransport.com',
+            'laplandhuskysafaris.com',
+            'laplandskiresorts.com'
+          ]
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
