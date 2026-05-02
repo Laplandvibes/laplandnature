@@ -1,0 +1,13 @@
+{
+  "name": "LaplandNature",
+  "short_name": "LaplandNature",
+  "description": "Finnish Lapland's arctic wilderness — national parks, aurora, wildlife and hiking trails",
+  "icons": [
+    { "src": "/favicon-32.png", "sizes": "32x32", "type": "image/png" },
+    { "src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ],
+  "theme_color": "#FAFAF8",
+  "background_color": "#FAFAF8",
+  "display": "standalone",
+  "start_url": "/"
+}

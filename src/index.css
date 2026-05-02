@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import "tailwindcss";
+@source "../../shared/**/*.{ts,tsx}";
+
+/*
+  laplandnature.com — light/fresh design variant of the LV ecosystem.
+  Vesa-approved exception (2026-04-27): nature/wilderness content reads
+  better on a light background. Snow page bg, deep-night body text,
+  vibe-pink + aurora-green dual accent. CookieBanner + Footer remain
+  the canonical Finnish-flag shared components — they carry the LV
+  national identity in this light variant.
+*/
+
+@theme {
+  --font-heading: 'Bebas Neue', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+
+  /* Canonical LV tokens */
+  --color-deep-night: #0F172A;
+  --color-night: #0F172A;
+  --color-asphalt: #1F2937;
+  --color-charcoal: #1F2937;
+  --color-snow: #F9FAFB;
+  --color-vibe-pink: #EC4899;
+  --color-pink: #EC4899;
+  --color-arctic-cyan: #06B6D4;
+  --color-finland-blue: #002F6C;
+  --color-aurora-green: #10B981;
+
+  /* Light-variant nature accents */
+  --color-aurora: #10B981;
+  --color-forest: #065F46;
+  --color-moss: #4D7C0F;
+  --color-cream: #FAFAF8;
+  --color-mist: #E5E7EB;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-body);
+    color: var(--color-deep-night);
+    background-color: var(--color-cream);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    letter-spacing: 0.02em;
+  }
+
+  ::selection {
+    background-color: var(--color-aurora-green);
+    color: var(--color-snow);
+  }
+}
+
+@keyframes aurora {
+  0%   { background-position: 0% 50%; }
+  25%  { background-position: 50% 100%; }
+  50%  { background-position: 100% 50%; }
+  75%  { background-position: 50% 0%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
