@@ -1,5 +1,5 @@
 import SEO from '../components/SEO'
-import PrivacyContent from '../../../shared/Legal/PrivacyContent'
+import PrivacyContent from '../shared/Legal/PrivacyContent'
 
 export default function PrivacyPolicy() {
   return (
