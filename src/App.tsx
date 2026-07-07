@@ -1,37 +1,91 @@
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
-import { useEffect } from 'react'
+import { useEffect, useReducer, lazy, Suspense, type ReactNode } from 'react'
 import Nav from './components/Nav'
 import Footer from '../../shared/Footer'
 import CookieBanner from '../../shared/CookieBanner'
 import NewsletterPopup from './components/NewsletterPopup'
-import Home from './pages/Home'
-import NorthernLights from './pages/NorthernLights'
-import NationalParks from './pages/NationalParks'
-import Wildlife from './pages/Wildlife'
-import Seasons from './pages/Seasons'
-import HikingTrails from './pages/HikingTrails'
-import Conservation from './pages/Conservation'
-import EditorialPolicy from './pages/EditorialPolicy'
-import PrivacyPolicy from './pages/PrivacyPolicy'
-import Terms from './pages/Terms'
-import CookiePolicy from './pages/CookiePolicy'
-import NotFound from './pages/NotFound'
+const Home = lazy(() => import('./pages/Home'))
+const NorthernLights = lazy(() => import('./pages/NorthernLights'))
+const NationalParks = lazy(() => import('./pages/NationalParks'))
+const Wildlife = lazy(() => import('./pages/Wildlife'))
+const Seasons = lazy(() => import('./pages/Seasons'))
+const HikingTrails = lazy(() => import('./pages/HikingTrails'))
+const Conservation = lazy(() => import('./pages/Conservation'))
+const EditorialPolicy = lazy(() => import('./pages/EditorialPolicy'))
+const PrivacyPolicy = lazy(() => import('./pages/PrivacyPolicy'))
+const Terms = lazy(() => import('./pages/Terms'))
+const CookiePolicy = lazy(() => import('./pages/CookiePolicy'))
+const NotFound = lazy(() => import('./pages/NotFound'))
 import { trackPageView, initScrollDepth, initOutboundTracking } from './lib/analytics'
+import LocaleAutoRedirect from './i18n/LocaleAutoRedirect'
+import { useHtmlLang, useLang, useLocalePath } from './i18n/useLang'
+import { COPY, loadCopy } from './locales/copy'
 
-const FOOTER_PILLARS = [
-  { name: 'Northern Lights', href: '/northern-lights' },
-  { name: 'National Parks', href: '/national-parks' },
-  { name: 'Wildlife', href: '/wildlife' },
-  { name: 'Hiking Trails', href: '/hiking-trails' },
-  { name: 'Seasons', href: '/seasons' },
-  { name: 'Conservation', href: '/conservation' },
-]
+/**
+ * Non-EN copy lives in per-language lazy chunks (see locales/copy.ts).
+ * Gate the UI until the active language's chunk is registered in COPY, so
+ * every consumer keeps reading COPY[lang] synchronously. EN is bundled
+ * eagerly — English visitors never hit the gate.
+ */
+function CopyGate({ children }: { children: ReactNode }) {
+  const lang = useLang()
+  const [, bump] = useReducer((x: number) => x + 1, 0)
+  useEffect(() => {
+    let alive = true
+    if (!COPY[lang]) loadCopy(lang).then(() => { if (alive) bump() })
+    return () => { alive = false }
+  }, [lang])
+  if (!COPY[lang]) return <div className="min-h-screen bg-cream" />
+  return <>{children}</>
+}
 
-const FOOTER_EDITORIAL_NOTE = 'Independently maintained by Lapeso Oy in Finnish Lapland · last reviewed April 2026 · we earn an affiliate commission on some bookings, but it never shapes which destinations or operators we recommend.'
+function LocaleSync() {
+  const lang = useHtmlLang()
+  useEffect(() => {
+    document.documentElement.lang = lang
+  }, [lang])
+  return null
+}
 
-const FOOTER_EXTRA_LEGAL = [
-  { to: '/editorial-policy', label: 'Editorial Policy' },
-]
+function LocalisedCookieBanner() {
+  const lang = useLang()
+  return <CookieBanner consentKey="laplandnature_cookie_consent" lang={lang} />
+}
+
+function FooterShell() {
+  const lang = useLang()
+  const c = COPY[lang]
+  const to = useLocalePath()
+  const FOOTER_PILLARS = [
+    { name: c.nav.northernLights, href: to('/northern-lights') },
+    { name: c.nav.nationalParks, href: to('/national-parks') },
+    { name: c.nav.wildlife, href: to('/wildlife') },
+    { name: c.nav.hiking, href: to('/hiking-trails') },
+    { name: c.nav.seasons, href: to('/seasons') },
+    { name: c.nav.conservation, href: to('/conservation') },
+  ]
+  const FOOTER_EXTRA_LEGAL = [
+    { to: to('/editorial-policy'), label:
+        lang === 'fi' ? 'Toimituslinja' :
+        lang === 'de' ? 'Redaktionsrichtlinie' :
+        lang === 'ja' ? '編集方針' :
+        lang === 'es' ? 'Política editorial' :
+        lang === 'pt-BR' ? 'Política editorial' :
+        lang === 'zh-CN' ? '编辑方针' :
+        lang === 'ko' ? '편집 정책' :
+        lang === 'fr' ? 'Politique éditoriale' :
+        lang === 'it' ? 'Politica editoriale' :
+        lang === 'nl' ? 'Redactioneel beleid' :
+        'Editorial Policy' },
+  ]
+  return (
+    <Footer
+      pillarLinks={FOOTER_PILLARS}
+      editorialNote={c.footerCookie.affiliateNote}
+      extraLegalLinks={FOOTER_EXTRA_LEGAL}
+    />
+  )
+}
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -85,31 +139,35 @@ export default function App() {
       <ScrollToTop />
       <AnalyticsBootstrap />
       <AffiliateLinkWarmup />
+      <LocaleAutoRedirect />
+      <LocaleSync />
+      <CopyGate>
       <Nav />
       <div className="min-h-screen flex flex-col bg-cream">
-        <main className="flex-1">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/northern-lights" element={<NorthernLights />} />
-            <Route path="/national-parks" element={<NationalParks />} />
-            <Route path="/wildlife" element={<Wildlife />} />
-            <Route path="/seasons" element={<Seasons />} />
-            <Route path="/hiking-trails" element={<HikingTrails />} />
-            <Route path="/conservation" element={<Conservation />} />
-            <Route path="/editorial-policy" element={<EditorialPolicy />} />
-            <Route path="/privacy" element={<PrivacyPolicy />} />
-            <Route path="/terms" element={<Terms />} />
-            <Route path="/cookie-policy" element={<CookiePolicy />} />
+        <main className="flex-1 pt-16">
+          <Suspense fallback={<div className="min-h-screen" />}>
+            <Routes>
+            {(['', '/fi', '/de', '/ja', '/es', '/br', '/cn', '/kr', '/fr', '/it', '/nl'] as const).flatMap((prefix) => [
+              <Route key={`${prefix}/`} path={prefix === '' ? '/' : prefix} element={<Home />} />,
+              <Route key={`${prefix}/northern-lights`} path={`${prefix}/northern-lights`} element={<NorthernLights />} />,
+              <Route key={`${prefix}/national-parks`} path={`${prefix}/national-parks`} element={<NationalParks />} />,
+              <Route key={`${prefix}/wildlife`} path={`${prefix}/wildlife`} element={<Wildlife />} />,
+              <Route key={`${prefix}/seasons`} path={`${prefix}/seasons`} element={<Seasons />} />,
+              <Route key={`${prefix}/hiking-trails`} path={`${prefix}/hiking-trails`} element={<HikingTrails />} />,
+              <Route key={`${prefix}/conservation`} path={`${prefix}/conservation`} element={<Conservation />} />,
+              <Route key={`${prefix}/editorial-policy`} path={`${prefix}/editorial-policy`} element={<EditorialPolicy />} />,
+              <Route key={`${prefix}/privacy`} path={`${prefix}/privacy`} element={<PrivacyPolicy />} />,
+              <Route key={`${prefix}/terms`} path={`${prefix}/terms`} element={<Terms />} />,
+              <Route key={`${prefix}/cookie-policy`} path={`${prefix}/cookie-policy`} element={<CookiePolicy />} />,
+            ])}
             <Route path="*" element={<NotFound />} />
           </Routes>
+          </Suspense>
         </main>
-        <Footer
-          pillarLinks={FOOTER_PILLARS}
-          editorialNote={FOOTER_EDITORIAL_NOTE}
-          extraLegalLinks={FOOTER_EXTRA_LEGAL}
-        />
+        <FooterShell />
       </div>
-      <CookieBanner consentKey="laplandnature_cookie_consent" />
+      </CopyGate>
+      <LocalisedCookieBanner />
       <NewsletterPopup />
     </BrowserRouter>
   )

@@ -1,5 +1,6 @@
 import SharedNewsletterPopup from '../../../shared/NewsletterPopup'
 import { trackNewsletterSignup } from '../lib/analytics'
+import { useLang } from '../i18n/useLang'
 
 /**
  * Site wrapper for the shared LV newsletter popup.
@@ -12,9 +13,11 @@ import { trackNewsletterSignup } from '../lib/analytics'
  * Trigger: 25 s OR 55 % scroll. Suppressed on /privacy, /terms, /cookie-policy.
  */
 export default function NewsletterPopup() {
+  const langRaw = useLang();
   return (
     <SharedNewsletterPopup
-      siteId="laplandnature"
+lang={langRaw as 'en' | 'fi' | 'de' | 'ja' | 'es' | 'pt-BR' | 'zh-CN' | 'ko' | 'fr' | 'it' | 'nl'}
+            siteId="laplandnature"
       brandWord="NATURE"
       endpoint="/api/newsletter"
       onSubscribed={(source) => trackNewsletterSignup(source)}

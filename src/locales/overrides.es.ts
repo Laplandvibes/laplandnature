@@ -1,0 +1,673 @@
+import type { SectionCopy } from './types'
+
+type DeepPartial<T> = T extends object
+  ? { [K in keyof T]?: DeepPartial<T[K]> }
+  : T
+
+export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
+  nav: {
+    nationalParks: 'Parques nacionales',
+    hiking: 'Senderismo',
+    wildlife: 'Fauna salvaje',
+    northernLights: 'Aurora boreal',
+    seasons: 'Estaciones',
+    conservation: 'Conservación',
+  },
+  newsletter: {
+    eyebrow: 'Boletín #LAPLANDVIBES',
+    h2Line1: 'Cartas desde el norte salvaje,',
+    h2Line2: 'cuando hay algo que contar.',
+    lead: 'Un correo breve cuando la aurora se prende, cuando los lagos se hielan, cuando los renos llegan a las altas tierras. Editorial, redactado en Finlandia, solo cuando vale la pena.',
+    benefits: [
+      { title: 'Cuando la aurora está realmente activa', body: 'FMI Auroras-now más previsiones de nubosidad cada noche despejada de septiembre a marzo. Avisamos cuando el KP y el cielo coinciden, para esa noche, no para el calendario de marketing.' },
+      { title: 'Cuando los senderos valen la pena', body: 'Previsiones del pico de ruska. Días de apertura de reservas de cabañas. Estado de la nieve de primavera. Desde la semana en que caminamos el sendero, no desde una nota de prensa.' },
+      { title: 'Cuando la fauna aparece', body: 'Los hides de osos reabren a mediados de mayo. Reuniones de renos en otoño. Avistamientos de zorro ártico que no salen en las noticias. Los transmitimos según los conocemos.' },
+      { title: 'Adónde iríamos este fin de semana', body: 'El rincón de cielo oscuro que merece el viaje. El río antes de que lleguen los buscadores de oro. El fjeld que nuestros vecinos sami acaban de fotografiar.' },
+    ],
+    emailPlaceholder: 'tu@email.com',
+    sendBtn: 'Recibir cartas desde Laponia',
+    sending: 'Enviando…',
+    successMsg: 'Recibido. Nos vemos bajo las auroras.',
+    errorPrefix: 'No se pudo suscribir',
+    errorFallback: 'Algo falló. Inténtelo de nuevo o escríbanos a info@laplandvibes.com.',
+    footnote: 'Un correo cuando hay algo que contar. Cancele con un clic, sin preguntas.',
+    privacyLink: 'Política de privacidad',
+  },
+  popup: {
+    eyebrow: 'Antes de irse',
+    h: 'Recíbalo desde Laponia.',
+    lead: 'Los mismos correos que enviamos cuando hay algo que merece la pena contar. Auroras, renos, lagos abiertos, senderos despejados.',
+    bullets: [
+      'Cuándo se abre la ventana de la aurora',
+      'Qué parque está en su mejor momento',
+      'Calendario de senderismo y cuándo reservar',
+    ],
+    cta: 'Recibir cartas desde Laponia',
+    sending: 'Enviando…',
+    placeholder: 'tu@email.com',
+    success: 'Recibido. Nos vemos bajo las auroras.',
+    privacy: 'Una al mes como máximo. Cancele con un clic.',
+  },
+  affiliateDisclosure: {
+    body: 'Esta página contiene enlaces de afiliados. Si reserva a través de ellos, LaplandVibes puede recibir una comisión sin coste adicional para usted.',
+  },
+  footerCookie: {
+    affiliateNote: 'Gestionado de forma independiente por Lapeso Oy en la Laponia finlandesa · última revisión abril de 2026 · recibimos una comisión de afiliación en algunas reservas, pero nunca condiciona qué destinos u operadores recomendamos.',
+  },
+  map: {
+    kicker: 'El mapa',
+    h2: 'Dónde encontrarlo',
+    lead: '16 lugares a los que vale la pena volver, cinco parques nacionales, cuatro pueblos de aurora, cuatro puntos de inicio de ruta y tres corredores de fauna. Pulse un pin para la versión corta.',
+    foot: 'Mapa: OpenStreetMap. Los pines son selecciones editoriales, no un índice de Metsähallitus.',
+    openGuide: 'Abrir guía →',
+    legend: { park: 'Parque nacional', aurora: 'Observación de aurora', trail: 'Inicio de ruta', wildlife: 'Fauna' },
+    pins: [
+      { name: 'PN Urho Kekkonen', note: '2.º parque más grande de Finlandia · acceso: Saariselkä' },
+      { name: 'PN Pallas-Yllästunturi', note: 'Sendero Hetta–Pallas de 55 km · acceso: Muonio' },
+      { name: 'PN Lemmenjoki', note: 'La mayor zona sin carreteras de Europa · búsqueda de oro · Inari' },
+      { name: 'PN Riisitunturi', note: 'Árboles coronados de nieve tykky · acceso: Posio' },
+      { name: 'PN Pyhä-Luosto', note: 'Píceas de 400 años · mina de amatista' },
+      { name: 'Inari', note: 'Corazón sami · Bortle 2 · horizonte abierto sobre el lago' },
+      { name: 'Utsjoki', note: '4 de cada 5 noches despejadas muestran aurora en el pico · kaamos de 51 días' },
+      { name: 'Kilpisjärvi', note: 'Punto de tres fronteras · fjelds de gran altitud' },
+      { name: 'Enontekiö', note: 'Algunos de los cielos más oscuros de Europa (Bortle 1)' },
+      { name: 'Hetta', note: 'Extremo norte del sendero Hetta–Pallas de 55 km' },
+      { name: 'Ruka / Oulanka', note: 'Karhunkierros de 82 km · puentes colgantes y cañones' },
+      { name: 'Kilpisjärvi (Halti)', note: '55 km ida y vuelta a Halti, el punto más alto de Finlandia (1324 m)' },
+      { name: 'Pyhä', note: 'Garganta de Pyhäkuru · pasarela accesible · 5 km' },
+      { name: 'Hides de osos de Kuusamo', note: 'Hides de oso pardo · 99 % de avistamientos · de mayo a septiembre' },
+      { name: 'Naturaleza de Nellim', note: 'Lodge de naturaleza de Nellim · territorio de glotón y oso pardo' },
+      { name: 'Renos de Kaamanen', note: 'Reunión de renos sami · otoño (paliskunta)' },
+    ],
+  },
+  home: {
+    metaTitle: 'Naturaleza de Laponia: parques y aurora | LaplandNature',
+    metaDescription: 'La naturaleza ártica de la Laponia finlandesa, cinco parques nacionales, más de 200 noches de aurora al año, kaamos (noche polar) y senderos de 5 a 82 km.',
+    hero: {
+      alt: 'Naturaleza ártica nevada y fjelds en la Laponia finlandesa',
+      eyebrow: 'Al norte del Círculo Polar',
+      title: 'Naturaleza ártica',
+      subtitle: 'sin tocar',
+      description: 'Laponia finlandesa, 100 367 km² de parques nacionales, fjelds, bosques antiguos y la temporada de aurora más larga de Europa.',
+      primaryCta: 'Planificar el viaje de aurora',
+      secondaryCta: 'Explorar los parques',
+    },
+    band: {
+      kicker: 'Al norte del Círculo Polar · debajo del ruido',
+      h: 'El país más salvaje de Finlandia está a ',
+      hHighlight: '66°–69° Norte',
+      hSuffix: '. Cinco parques nacionales, luz de las cuatro estaciones y la ventana de aurora más larga de Europa.',
+      stats: [
+        { value: '37 %', primary: 'de Finlandia', body: 'queda al norte del Círculo Polar' },
+        { value: '40+', primary: 'zonas protegidas', body: 'parques nacionales, reservas integrales, Natura 2000' },
+        { value: '70', primary: 'días de sol de medianoche', body: 'Utsjoki, de junio a agosto' },
+        { value: '200+', primary: 'noches de aurora', body: 'observadas cada año por encima de los 67° N' },
+      ],
+    },
+    featured: {
+      kicker: 'Seis maneras de entrar',
+      h2: 'Experiencias destacadas en Laponia',
+      lead: 'Desde los hides para observar osos en la frontera rusa hasta cañones de cascadas heladas, canoa bajo el sol de medianoche y el cielo kaamos sobre Utsjoki, seis guías a las que volverá.',
+      items: [
+        {
+          tag: 'Áreas protegidas',
+          title: 'Parques nacionales',
+          blurb: 'Cinco parques que suman más de 7 000 km² de naturaleza protegida, desde los fjelds de Urho Kekkonen hasta los árboles coronados de nieve de Riisitunturi.',
+          cta: 'Explorar parques nacionales',
+        },
+        {
+          tag: 'Fauna salvaje',
+          title: 'Observación de fauna',
+          blurb: 'Sigue al oso pardo con un 99 % de avistamientos desde hides nocturnos, conozca manadas semisalvajes de renos y avistamientos de glotones.',
+          cta: 'Explorar la fauna salvaje',
+        },
+        {
+          tag: 'Aurora',
+          title: 'Aurora boreal',
+          blurb: 'Persiga la aurora boreal por los cielos árticos de septiembre a abril. Utsjoki ofrece aurora en 4 de cada 5 noches despejadas.',
+          cta: 'Explorar la aurora boreal',
+        },
+        {
+          tag: 'Senderos',
+          title: 'Senderismo',
+          blurb: 'Camine los senderos más icónicos de Finlandia, desde los puentes colgantes del Karhunkierros (82 km) hasta la cumbre del Halti (1 324 m).',
+          cta: 'Explorar el senderismo',
+        },
+        {
+          tag: 'Custodia',
+          title: 'Conservación',
+          blurb: 'Metsähallitus gestiona el 85 % de los fjelds de Laponia y los siete parques nacionales. Más el derecho de acceso libre, la ley finlandesa de acceso a la naturaleza.',
+          cta: 'Explorar la conservación',
+        },
+        {
+          tag: 'Verano',
+          title: 'Sol de medianoche',
+          blurb: 'Al norte del Círculo Polar el sol no se pone en pleno verano. En Utsjoki el sol de medianoche se mantiene más de 70 días consecutivos.',
+          cta: 'Explorar las estaciones',
+        },
+      ],
+    },
+    map: {
+      kicker: 'El mapa',
+      h2: 'Dónde encontrarla',
+      lead: '16 lugares que merecen una vuelta, cinco parques nacionales, cuatro pueblos de aurora, cuatro puntos de inicio de sendero y tres corredores de fauna. Pulse un marcador para la versión corta.',
+      foot: 'Mapa: OpenStreetMap. Los marcadores son selecciones editoriales, no un índice de Metsähallitus.',
+      openGuide: 'Abrir guía →',
+      legend: { park: 'Parque nacional', aurora: 'Observación de auroras', trail: 'Inicio de sendero', wildlife: 'Fauna' },
+      pins: [
+        { name: 'Urho Kekkonen NP', note: '2.º parque más grande de Finlandia · acceso: Saariselkä' },
+        { name: 'Pallas-Yllästunturi NP', note: 'Ruta Hetta–Pallas de 55 km · acceso: Muonio' },
+        { name: 'Lemmenjoki NP', note: 'Mayor área sin carreteras de Europa · búsqueda de oro · Inari' },
+        { name: 'Riisitunturi NP', note: 'Árboles coronados de nieve (tykky) · acceso: Posio' },
+        { name: 'Pyhä-Luosto NP', note: 'Abetos de 400 años · mina de amatista' },
+        { name: 'Inari', note: 'Corazón sami · Bortle 2 · horizonte abierto sobre el lago' },
+        { name: 'Utsjoki', note: '4 de cada 5 noches despejadas con aurora en plena temporada · kaamos de 51 días' },
+        { name: 'Kilpisjärvi', note: 'Punto de los tres países · fjälls de gran altitud' },
+        { name: 'Enontekiö', note: 'Uno de los cielos más oscuros de Europa (Bortle 1)' },
+        { name: 'Hetta', note: 'Extremo norte de la ruta Hetta–Pallas de 55 km' },
+        { name: 'Ruka / Oulanka', note: 'Karhunkierros de 82 km · puentes colgantes y cañones' },
+        { name: 'Kilpisjärvi (Halti)', note: '55 km ida y vuelta al Halti, el punto más alto de Finlandia (1.324 m)' },
+        { name: 'Pyhä', note: 'Garganta de Pyhäkuru · pasarela accesible · 5 km' },
+        { name: 'Refugios de osos de Kuusamo', note: 'Refugios de oso pardo · tasa de avistamiento del 99 % · may.–sep.' },
+        { name: 'Naturaleza de Nellim', note: 'Albergue de Nellim · territorio de glotón y oso pardo' },
+        { name: 'Renos de Kaamanen', note: 'Reunión de renos sami · otoño (paliskunta)' },
+      ],
+    },
+    ctaBand: {
+      h2: '¿Listo para planificar su viaje a la naturaleza?',
+      lead: 'Elija una base cerca de los parques y del cinturón de la aurora, y después incorpore experiencias guiadas, observación de fauna salvaje, búsqueda de oro, travesías de varios días por cabañas.',
+      primary: 'Buscar una base en la naturaleza',
+      secondary: 'Ver experiencias guiadas',
+    },
+  },
+  northernLights: {
+    metaTitle: 'Aurora boreal en Laponia: dónde y cuándo | LaplandNature',
+    metaDescription: 'Dónde ver la aurora boreal en la Laponia finlandesa, Inari, Utsjoki, Kilpisjärvi y Enontekiö. Temporada de septiembre a marzo.',
+    hero: {
+      alt: 'Aurora boreal brillando en verde sobre un bosque nevado en la Laponia finlandesa',
+      eyebrow: 'Guía esencial',
+      title: 'Aurora boreal',
+      subtitle: 'Aurora borealis',
+      description: 'En Utsjoki la aurora aparece 4 de cada 5 noches despejadas en plena temporada. Se ve mejor de septiembre a mediados de abril, con marzo como mes culminante.',
+    },
+    bestSeason: 'Mejor temporada:',
+    bestSeasonValue: 'Septiembre → marzo',
+    bestSeasonSuffix: ' · cielos más oscuros durante el kaamos (nov.–ene.)',
+    spotsH2: 'Mejores lugares de observación',
+    spotsLead: 'La latitud por sí sola no hace un buen punto de aurora, lo que importa son los cielos oscuros, un horizonte norte despejado y un sitio donde dormir para esperar a que se abran las nubes.',
+    spots: [
+      { name: 'Inari', description: 'Corazón sami a orillas del lago Inari. Contaminación lumínica mínima, cielos amplios y abiertos, y un horizonte despejado al norte.' },
+      { name: 'Utsjoki', description: 'El municipio más septentrional de Finlandia, en la frontera con Noruega. Horizonte norte sin obstáculos y 51 días sin amanecer durante el kaamos.' },
+      { name: 'Kilpisjärvi', description: 'Donde se encuentran Finlandia, Suecia y Noruega. Los fjeld de altura ofrecen vistas panorámicas de la aurora sobre la capa de nubes del océano Ártico.' },
+      { name: 'Enontekiö', description: 'Naturaleza remota con algunos de los cielos más oscuros de la Europa continental, mediciones Bortle 1 registradas en el invierno de 2023.' }
+    ],
+    stayCta: 'Buscar alojamiento en',
+    tipsH2: 'Consejos para observar la aurora',
+    tips: [
+      'Consulte la previsión de auroras del Instituto Meteorológico Finlandés (Auroras-now / índice KP) antes de salir.',
+      'La mejor observación es entre las 21:00 y las 2:00, hora local, en noches despejadas.',
+      'Aléjese 5–10 km de los centros urbanos para bajar la contaminación lumínica a Bortle 2 o menos.',
+      'Abríguese en plena temporada la temperatura llega a menudo a −30 °C; un termo con bebida caliente es imprescindible.',
+      'Un trípode y una exposición de 5–15 segundos a ISO 800–3200 (f/2.8) captan una aurora que el ojo no percibe.',
+    ],
+    oneNightKicker: 'Una noche · Inari · 2 de marzo de 2024',
+    oneNightH2: 'Cómo es de verdad una noche de aurora',
+    oneNightLead: 'Las previsiones le dirán «buenas probabilidades esta noche». No le dirán que esperará tres horas a que el cielo se despeje, que el primer espectáculo será una banda verde plana que casi se le escapa, y que el segundo, a la 01:48, atravesará toda la bóveda ártica. Así transcurre una noche representativa.',
+    oneNightSteps: [
+      { time: '19:30', title: 'Revisión de la previsión del FMI', body: 'Auroras-now: previsión KP 4–5. NOAA OVATION muestra el óvalo auroral ya tocando Tromsø. Previsión de cielo en Inari: 60 % despejado tras la medianoche. Decisión: salimos.' },
+      { time: '21:00', title: 'Conducir 8 km al oeste del pueblo de Inari', body: 'La contaminación lumínica cae rápido al salir del pueblo. Elegimos un pequeño claro junto a un lago en la carretera de Kaamanen, horizonte abierto al norte y al este. −18 °C, en calma.' },
+      { time: '22:40', title: 'Primera banda, casi se nos escapa', body: 'Tenue arco verde sobre el horizonte norte. Fácil de confundir con un reflejo de nube. La cámara (15 s, ISO 1600, f/2.8) lo mostró con claridad, el umbral a simple vista queda por debajo de lo que registra su teléfono. Es normal. Espere.' },
+      { time: '00:15', title: 'Se levantan las nubes. 40 minutos de calma.', body: 'Estrellas nítidas. La aurora se retira. Es el momento en que la mayoría de los visitantes en coche se rinde y vuelve. No lo haga. La fase activa suele seguir a la calma. Bebida caliente. Paciencia.' },
+      { time: '01:48', title: 'Subtormenta', body: 'El arco estalla. Las cortinas suben del horizonte al cénit en segundos; rosa y violeta en el borde inferior, ese es el color raro, solo en tormentas fuertes. Dura 14 minutos. La cámara apenas la sigue. A simple vista la estructura se ve clara. Es la noche por la que condujo hasta aquí.', highlight: true },
+      { time: '02:30', title: 'Vuelta a casa. Sauna caliente.', body: 'Tiempo total de aurora activa: unos 25 minutos en dos arranques. Espera total: 4 horas. No se puede comprimir. Volver sin sauna después sería un error.' }
+    ],
+    cards: [
+      { title: 'Herramientas de previsión', body: 'FMI Auroras-now (KP), NOAA OVATION (óvalo), windy.com (nubosidad), abra las tres.' },
+      { title: 'Ajuste base de cámara', body: '15 s · ISO 1600 · f/2.8 · enfoque manual a una luz lejana. Trípode obligatorio.' },
+      { title: 'Qué arruina la noche', body: 'Luna llena (desluce los colores). Nubes por encima de 1500 m. Sensación térmica bajo −25 °C sin equipo adecuado.' },
+    ],
+    finalH2: '¿Quiere un guía que sepa dónde se abren las nubes?',
+    finalLead: 'Las cazas de auroras salen cada noche desde Rovaniemi, Saariselkä y Levi. Los guías locales siguen la previsión y se reposicionan cuando el cielo se nubla, un índice de acierto mucho mayor que ir por su cuenta.',
+    finalCta: 'Ver tours de aurora',
+    crossLinks: {
+      aurora: 'Por qué el kaamos es la mejor ventana de aurora →',
+      parks: 'Los parques con los cielos más oscuros →',
+      igloos: 'Iglús de cristal bajo la aurora →',
+    },
+    faq: {
+      eyebrow: 'Preguntas frecuentes',
+      h2: 'Aurora boreal en Laponia, preguntas frecuentes',
+      items: [
+        {
+          q: '¿Qué índice Kp necesito para ver la aurora en Laponia?',
+          a: 'Laponia se sitúa bajo el óvalo auroral, así que no hace falta un Kp alto. Desde Inari, Utsjoki o Kilpisjärvi, un Kp de 1–2 suele bastar para ver un arco en una noche despejada y oscura; un Kp de 3–4 trae cortinas activas en movimiento. Más al sur, cerca de Rovaniemi, conviene un Kp de 3 o más. Un cielo despejado y un horizonte norte abierto importan mucho más que perseguir un número alto.',
+        },
+        {
+          q: '¿Qué mes es mejor para ver la aurora boreal en Laponia?',
+          a: 'Marzo es el mes más fuerte: el cielo está suficientemente oscuro, las noches aún son largas y la actividad geomagnética suele alcanzar su pico cerca del equinoccio de primavera. Septiembre es la otra época ideal, temperaturas más suaves y agua abierta que refleja la aurora antes de que los lagos se hielen. La temporada completa va de finales de agosto a principios de abril.',
+        },
+        {
+          q: '¿Se puede ver la aurora desde Rovaniemi?',
+          a: 'Sí, en noches despejadas y con suficiente actividad, pero Rovaniemi tiene más contaminación lumínica y está más al sur que los mejores lugares. Conduzca 10–20 km fuera de la ciudad hasta un lago o un campo abierto y sus posibilidades aumentan mucho. Para el mayor índice de acierto, alójese más al norte, en Inari, Saariselkä o Utsjoki.',
+        },
+        {
+          q: '¿A qué hora de la noche es más activa la aurora?',
+          a: 'La franja entre las 21:00 y las 2:00, hora local, es la más fiable, con un pico en torno a la medianoche magnética (en Finlandia, cerca de las 23:00–1:00). Las subtormentas pueden estallar en cualquier momento, así que vale la pena aguantar durante una pausa tranquila: la fase activa suele seguir a la calma.',
+        },
+        {
+          q: '¿Hay que reservar un tour o se puede ver la aurora por cuenta propia?',
+          a: 'Puede verla perfectamente por su cuenta si tiene coche, un lugar oscuro con el horizonte norte despejado y paciencia para esperar a que se abran las nubes. Un tour guiado justifica su precio sobre todo por la movilidad: los guías locales siguen la previsión de nubes y se reposicionan, lo que mejora el índice de acierto en noches dudosas.',
+        },
+      ],
+    },
+  },
+  nationalParks: {
+    metaTitle: 'Parques nacionales de Laponia | LaplandNature',
+    metaDescription: 'Los cinco parques nacionales de la Laponia finlandesa, Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi y Pyhä-Luosto.',
+    hero: {
+      alt: 'Paisaje abierto de fjelds en un parque nacional de la Laponia finlandesa bajo un cielo despejado',
+      eyebrow: 'Guía esencial',
+      title: 'Parques nacionales',
+      subtitle: 'Naturaleza protegida',
+      description: 'Cinco parques protegen el grueso de la naturaleza sin carreteras de Laponia, desde travesías por fjeld abiertos hasta bosques coronados de nieve y cañones de búsqueda de oro. Cada uno tiene un pueblo-puerta donde establecer su base.',
+    },
+    parks: [
+      { name: 'Parque nacional de Urho Kekkonen', description: 'El segundo parque nacional más grande de Finlandia, 2550 km². Amplios fjeld abiertos, gargantas profundas y antiguos pinares. Un paraíso para el senderismo de varios días y el esquí de travesía.', highlight: '2.º parque más grande de Finlandia', visited: 'marzo de 2024 · circuito Rumakuru esquiado en el día, nieve estable a −12 °C' },
+      { name: 'Parque nacional de Pallas-Yllästunturi', description: 'Alberga la travesía de fjeld más popular de Finlandia, los 55 km de Hetta–Pallas. Cumbres abiertas con horizontes que alcanzan más allá de Käsivarsi.', highlight: 'La travesía de fjeld más larga de Finlandia', visited: 'septiembre de 2023 · Hetta → Pallas en tres días · pico de ruska, semana 2' },
+      { name: 'Parque nacional de Lemmenjoki', description: 'Una de las mayores naturalezas sin carreteras de Europa. Famosa por su historia de búsqueda de oro y por el río Lemmenjoki, que discurre por cañones profundos.', highlight: 'Patrimonio de la búsqueda de oro', visited: 'julio de 2024 · descenso en canoa hasta Ravadasköngäs, sol de medianoche' },
+      { name: 'Parque nacional de Riisitunturi', description: 'Conocido por sus árboles coronados de nieve (tykky), que de diciembre a marzo convierten las laderas en esculturas heladas surrealistas. Los fjeld orientados al oeste producen el tykky más pesado de Finlandia.', highlight: 'Árboles coronados de nieve (tykky)', visited: 'febrero de 2024 · el tykky en su punto máximo, sesión a la hora azul a las 14:30' },
+      { name: 'Parque nacional de Pyhä-Luosto', description: 'Alberga uno de los bosques más antiguos de Finlandia, con abetos de más de 400 años. La mina de amatistas de Lampivaara está dentro del parque, los visitantes pueden extraer sus propias gemas.', highlight: 'Mina de amatistas + bosque antiguo', visited: 'octubre de 2023 · garganta de Pyhäkuru tras la primera nieve, escarcha en la pasarela' }
+    ],
+    weThere: 'Estuvimos allí:',
+    stayNearby: 'Alojarse cerca',
+    hettaKicker: 'Del cuaderno · ruska 2023',
+    hettaH2: 'Hetta → Pallas en tres días, la travesía completa',
+    hettaLead: 'El sendero de 55 km Hetta–Pallas, a través de Pallas-Yllästunturi, es la caminata larga más popular de Finlandia por un motivo, discurre casi todo por encima del límite del bosque, los refugios están espaciados para etapas cortas y las vistas nunca se cierran. Lo recorrimos de norte a sur en tres días en pleno pico de ruska. El sentido habitual es norte-sur; sur-norte (salida en Hetta) es la mejor opción fotográfica y el ferry sobre el Ounasjärvi al inicio es un bonito ritual.',
+    days: [
+      { day: 'Día 1 · 18 km', title: 'Hetta → Sioskuru', body: 'Barca por el Ounasjärvi a las 9:00 (gratuita, del 1 de junio al 30 de septiembre). En dos horas se sube desde Pyhäkero al fjeld abierto. El refugio Sioskuru duerme a 16; llegamos a las 16:30 con tres literas libres. Atardecer sobre los fjeld del oeste desde la puerta.', note: '+520 m de desnivel · viento ligero' },
+      { day: 'Día 2 · 22 km', title: 'Sioskuru → Hannukuru', body: 'El día estrella. Se cruza Pyhäkuru y la tundra alta en torno a Lompolojärvi, la foto del sendero que ya ha visto es del km 12. El refugio Hannukuru tiene sauna de leña; es la razón por la que la mayoría parte aquí la ruta.', note: 'Momento cumbre: reflejo en Lompolojärvi con la luz de las 17:00' },
+      { day: 'Día 3 · 15 km', title: 'Hannukuru → Pallas', body: 'El día más fácil sobre el papel. Se asciende la cadena de cumbres de Pallas, Taivaskero, Lehmäkero, Laukukero, con horizontes que llegan más allá de Käsivarsi en una mañana despejada. Final en el hotel Pallas; si puede, reserve sauna y un filete. Se los ha ganado.', note: 'Total: 55 km · 3 días · 11 h netas de caminata' }
+    ],
+    differentlyH3: 'Qué planificaríamos distinto',
+    differently: [
+      'Reserve una litera en varaustupa para la segunda noche (Hannukuru). El autiotupa es de acceso libre, pero en el pico del ruska se llenó a las 15:30. Litera en refugio reservado = 14 €; tranquilidad = impagable.',
+      'Lleve polainas tipo raqueta incluso a principios de septiembre. Dos de los descensos pantanosos de Pyhäkuru pasaron por encima de la bota, calcetines mojados dos días.',
+      'Coma fuerte el primer día. La tienda de Hetta es la última comida caliente hasta el hotel Pallas.',
+      'No intente hacerlo en 2 días. Coincidimos con una pareja que lo intentó; abandonaron en Hannukuru y salieron en autobús lanzadera.'
+    ],
+    preWalkCta: 'Alojamientos antes de la caminata en Hetta',
+    postWalkCta: 'Alojamientos tras la caminata en Muonio',
+    crossH3: 'Cada parque es también una base',
+    crossLead: 'Combine el parque con el sendero que lo atraviesa, la fauna que podría encontrar y un lugar donde dormir en el pueblo de acceso.',
+    crossLinks: {
+      trails: 'Senderos en su interior →',
+      wildlife: 'La fauna de los parques →',
+      season: 'Mejor temporada →',
+      stays: 'Alojamientos cerca de los parques →',
+    },
+    faq: {
+      eyebrow: 'Preguntas frecuentes',
+      h2: 'Parques nacionales de Laponia, preguntas frecuentes',
+      items: [
+        {
+          q: '¿Cuántos parques nacionales hay en Laponia?',
+          a: 'Laponia alberga cinco de los parques naturales más visitados de Finlandia: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi y Pyhä-Luosto. Cada uno tiene su propio pueblo-puerta donde establecer la base: Saariselkä para el UKK, Hetta y Muonio para Pallas-Yllästunturi.',
+        },
+        {
+          q: '¿Cuál es el parque nacional más grande de la Laponia finlandesa?',
+          a: 'El parque nacional de Urho Kekkonen es el más grande de Laponia, con unos 2550 km², y el segundo de toda Finlandia. Se extiende desde los fjeld de Saariselkä hacia el este, hasta una naturaleza profunda y sin carreteras, con fjeld abiertos, gargantas fluviales y viejos pinares.',
+        },
+        {
+          q: '¿Hace falta permiso o entrada para los parques nacionales de Laponia?',
+          a: 'No. Los parques nacionales de Finlandia son de acceso gratuito y no se necesita permiso para el senderismo normal, las visitas de día o pernoctar en los refugios abiertos. Algunos refugios de reserva y saunas cobran una pequeña tarifa, y las visitas guiadas o la búsqueda de oro en Lemmenjoki tienen su propio coste, pero recorrer los senderos no cuesta nada.',
+        },
+        {
+          q: '¿Cuál es la mejor época para visitar los parques?',
+          a: 'Principios o mediados de septiembre para el color otoñal del ruska, junio y julio para el sol de medianoche y los largos días de senderismo, y de febrero a marzo para los árboles coronados de nieve y el esquí de travesía: Riisitunturi resulta más impresionante bajo el pesado tykky a finales del invierno. Los refugios de verano y los servicios de barca suelen funcionar de principios de junio a finales de septiembre.',
+        },
+        {
+          q: '¿Dónde se puede buscar oro en un parque nacional de Laponia?',
+          a: 'El parque nacional de Lemmenjoki es el corazón de la búsqueda de oro en Finlandia. El valle del río conserva un patrimonio vivo de la fiebre del oro, con sitios de bateo señalizados y concesiones a lo largo del río Lemmenjoki. En verano, una barca remonta parte del río, de modo que las zonas de bateo son accesibles en una excursión de día.',
+        },
+      ],
+    },
+  },
+  wildlife: {
+    metaTitle: 'Fauna de Laponia: renos, osos, glotones | LaplandNature',
+    metaDescription: 'Seis especies árticas en la Laponia finlandesa, desde 200 000 renos semidomesticados hasta el zorro ártico en peligro crítico y el esquivo glotón.',
+    hero: {
+      alt: 'Un oso pardo en el bosque boreal de la Laponia finlandesa',
+      eyebrow: 'Guía esencial',
+      title: 'Observación de fauna',
+      subtitle: 'Animales árticos',
+      description: 'Siga al oso pardo con un 99 % de avistamiento desde hides nocturnos, conozca manadas semisalvajes de renos e intente ver al esquivo glotón, con operadores verificados y datos reales.',
+    },
+    animals: [
+      { name: 'Reno', description: 'Unos 200 000 renos semidomesticados recorren la Laponia finlandesa, eje de la cultura pastoril sami desde hace milenios. Pastan libres por fjeld y bosques, se los encontrará a pie de carretera.', status: 'Común' },
+      { name: 'Zorro ártico', description: 'Uno de los mamíferos más raros de Finlandia. El zorro ártico sobrevive en los fjeld más duros; su pelaje se vuelve blanco en invierno para camuflarse en la nieve. En peligro crítico en la población escandinava.', status: 'En peligro crítico' },
+      { name: 'Oso pardo', description: 'Finlandia tiene una de las poblaciones de oso pardo más densas de Europa. En el este y el norte de Laponia, los hides ofrecen encuentros cercanos en las noches de verano, cuando los osos salen de la hibernación.', status: 'Casi amenazado' },
+      { name: 'Glotón', description: 'El glotón es uno de los depredadores más esquivos del bosque boreal. Inmensamente fuerte para su tamaño, recorre vastos territorios por la naturaleza lapona. Rara vez visto, pero presente en toda la región.', status: 'En peligro' },
+      { name: 'Búho nival', description: 'Visitante ocasional de los fjeld más septentrionales, el búho nival caza lemmings en la tundra abierta. Los avistamientos dependen de los ciclos de población del lemming y rara vez ocurren al sur de Utsjoki.', status: 'Visitante raro' },
+      { name: 'Cisne cantor', description: 'El ave nacional de Finlandia cría en los humedales y lagos tranquilos de Laponia. Su llamada de trompeta recorre kilómetros en las quietas tardes de verano, un sonido que define el verano lapón.', status: 'Ave nacional' }
+    ],
+    statuses: {
+      common: 'Común',
+      criticallyEndangered: 'En peligro crítico',
+      nearThreatened: 'Casi amenazado',
+      endangered: 'En peligro',
+      rareVisitor: 'Visitante raro',
+      nationalBird: 'Ave nacional',
+    },
+    bearKicker: 'Hides de osos · Kuusamo–Suomussalmi',
+    bearH2: 'La observación del oso pardo, con franqueza',
+    bearBody: [
+      'El este de Finlandia, Kuusamo, Suomussalmi, Lieksa, tiene la mayor densidad de osos pardos por km² de Europa. Tres o cuatro operadores gestionan pequeños hides nocturnos de finales de abril a principios de septiembre, y la cuenta es sencilla: una noche da un índice estadístico de avistamiento de en torno al 90 %; dos noches lo elevan al 99 % o más.',
+      'El hide es una sala de madera con calefacción, ranuras fotográficas de un solo sentido y una litera. Entra a las 17:00 y no sale hasta las 7:00. El cebo, normalmente salmón en un punto de alimentación tradicional, hace volver a los osos durante años; algunos ejemplares se han fotografiado a lo largo de una década. Crías en mayo–junio. Machos solitarios todo el verano. Con suerte, en septiembre cruzan el mismo claro los lobos.',
+      'El coste va de 280 a 450 € por persona y noche, con transporte, cena, litera y un guía que explica por auriculares lo que está viendo. Reserve con más de 6 meses de antelación para los fines de semana de julio.'
+    ],
+    browseHidesCta: 'Ver los hides de osos',
+    preNightCta: 'Alojamientos la víspera en Kuusamo',
+    bearNightKicker: 'Una noche · Suomussalmi · 14 de junio de 2024',
+    bearNightH2: 'Cómo es de verdad una noche en un hide de osos',
+    bearNightLead: 'Uno imagina el hide como una espera de 14 horas que acaba en silencio o en un oso-que-pasa. La realidad es más confusa, los osos van y vienen, uno dormita, se pierde un avistamiento, el silencio se vuelve algo en sí mismo. Este es el ritmo real de una noche de mediados de junio con otros tres fotógrafos en un hide de 4 literas.',
+    bearNightSteps: [
+      { time: '17:15', title: 'Llegada, briefing, firma del descargo', body: 'Se conduce 8 km fuera de la carretera principal, los últimos 2 km por pista forestal. El guía expone las normas: nada de perfume, nada de flash, hablar solo en susurros, nunca abrir la puerta del hide después de las 19:00. El salmón ya está dispuesto en el claro. Bocadillos y termo en la sala de literas.' },
+      { time: '19:40', title: 'Primera llegada, un macho joven', body: 'Un macho de tres años sale de los abetos por el borde izquierdo. Se queda 11 minutos, come un salmón y se va. El guía susurra su identificación, ya ha venido dos veces esta semana. La luz de las 19:40 en junio es la mejor de la noche; el sol de medianoche aún queda a horas.' },
+      { time: '21:30', title: 'Hora tranquila. Aúllan los lobos.', body: 'Nada en el claro. Dos lobos aúllan desde la ciénaga al este, no vistos, solo oídos. El guía dice que ha sido un verano ruidoso de lobos; la manada recorre más de 60 km. Seguimos a la espera igualmente.' },
+      { time: '23:55', title: 'Madre + dos crías', body: 'La noche por la que vino. Se acerca despacio, olfatea el aire, mira dos veces hacia el hide, decide que no somos una amenaza. Las crías trepan dos veces a su lomo mientras come. Se queda 38 minutos. La luz es baja y dorada por el sol de medianoche. Los disparos apenas suenan, nadie quiere delatarse con un movimiento.', highlight: true },
+      { time: '02:30', title: 'Cabezadas en las literas', body: 'Dos en las literas, dos de guardia. Relevo cada 90 minutos. El sol de medianoche significa que no hay verdadera oscuridad, la ranura sigue siendo útil.' },
+      { time: '04:50', title: 'Otro macho, 8 minutos', body: 'Viejo macho con cicatrices, el guía lo identifica como un habitual de nueve veranos. Come dos salmones, olfatea el aire, se aleja. El coro matinal de las grullas desde la ciénaga es un espectáculo aparte.' },
+      { time: '07:00', title: 'Fuera del hide. Vuelta. Sauna.', body: 'Tiempo total de osos visibles: unos 57 minutos en cuatro llegadas. Silencio total: unas 13 horas. Curiosamente, ese silencio fue un tercio de por qué valió la pena.' }
+    ],
+    cards: [
+      { title: 'Qué funcionó', body: 'Teleobjetivo de 600 mm en trípode por la ranura. Obturador silencioso (sin espejo). 1/250 s, ISO 1600, f/4.' },
+      { title: 'Qué haríamos distinto', body: 'Dos noches seguidas, no una. Osos distintos, luz distinta. Mismo coste por noche, doble posibilidad de crías.' },
+      { title: 'Mejores meses', body: 'Finales de mayo–principios de junio (crías). Finales de julio (machos solitarios, tiempo fácil). Septiembre (cruzan los lobos + luz de otoño).' },
+    ],
+    finalH2: '¿Quiere más probabilidades de un encuentro real?',
+    finalLead: 'Las visitas a granjas de renos y las salidas de rastreo con guardabosques operan de mayo a septiembre por los corredores salvajes del este y el norte de Laponia.',
+    finalCta: 'Ver experiencias de fauna',
+    crossLinks: {
+      conservation: 'Quién protege la fauna de Laponia →',
+      parks: 'Los parques donde vive la fauna →',
+      husky: 'Safaris en trineo de perros →',
+    },
+    faq: {
+      eyebrow: 'Preguntas frecuentes',
+      h2: 'Observación de fauna en Laponia, preguntas frecuentes',
+      items: [
+        {
+          q: '¿Cuándo se pueden ver osos pardos en la Laponia finlandesa?',
+          a: 'La observación de osos pardos va de finales de abril a principios de septiembre, con hides fotográficos nocturnos concentrados en torno a Kuusamo, Suomussalmi y Lieksa, en el este de Finlandia. Finales de mayo y principios de junio son los mejores para hembras con crías; julio trae machos solitarios fiables y buen tiempo; septiembre añade la posibilidad de ver lobos y la luz de otoño.',
+        },
+        {
+          q: '¿Qué probabilidad real tengo de ver un oso desde un hide?',
+          a: 'Alta, si pernocta. Con una noche en un hide durante la temporada, la tasa de avistamiento ronda el 90 %, y dos noches seguidas la elevan por encima del 99 %. Los hides están junto a comederos cebados a los que los mismos individuos regresan año tras año, y eso es lo que hace tan altas las probabilidades.',
+        },
+        {
+          q: '¿Cuántos renos hay en Laponia y son salvajes?',
+          a: 'Unos 200 000 renos semidomesticados recorren la Laponia finlandesa. No son salvajes: cada animal tiene dueño y marca de oreja dentro de una cooperativa de pastoreo, eje de la cultura sami desde hace milenios. Pastan libres por fjeld y bosques, así que se los encontrará habitualmente a pie de carretera.',
+        },
+        {
+          q: '¿Cuál es el animal más raro de Laponia?',
+          a: 'El zorro ártico es el más raro, catalogado en peligro crítico en la población fenoscándica y superviviente solo en los fjeld más duros. El glotón es el más esquivo de ver: inmensamente fuerte y con territorios enormes, está presente en toda la naturaleza salvaje pero rara vez se deja ver.',
+        },
+        {
+          q: '¿Cuánto cuesta un hide de observación de osos?',
+          a: 'Cuente con unos 280–450 € por persona y noche, normalmente con transporte desde el punto de encuentro, cena, litera en el hide y un guía. Los fines de semana de julio se agotan con meses de antelación, así que reserve con seis meses o más para las fechas de pleno verano.',
+        },
+      ],
+    },
+  },
+  seasons: {
+    metaTitle: 'Las cuatro estaciones de Laponia | LaplandNature',
+    metaDescription: 'Cada estación más allá del Círculo Polar es un mundo distinto, el color otoñal del ruska, la noche polar kaamos, el sol de medianoche y la nieve de primavera.',
+    hero: {
+      alt: 'Colores otoñales de la ruska sobre un paisaje de fjelds en la Laponia finlandesa',
+      eyebrow: 'Guía esencial',
+      title: 'Cuatro estaciones',
+      subtitle: 'De Laponia',
+      description: 'Cada estación más allá del Círculo Polar abre un mundo completamente distinto, luz de verano sin fin, el crepúsculo azul de la noche polar y dos breves estaciones de transición que comprimen toda la primavera y el otoño del sur de Finlandia en unas pocas semanas intensas.',
+    },
+    seasons: [
+      { name: 'Ruska', period: 'Septiembre – octubre', description: 'Laponia estalla en vivos colores otoñales: abedules, álamos temblones y arándanos viran al oro, el rojo y el naranja. Las cumbres de los fjeld recorren el espectro en días, no en semanas. El ruska es uno de los grandes acontecimientos naturales del año finlandés, los senderistas viajan desde todo el país para verlo.' },
+      { name: 'Kaamos', period: 'Noviembre – enero', description: 'La noche polar cae sobre Laponia. En Utsjoki el sol no sale durante 51 días. Pero el kaamos no es oscuridad, la nieve refleja un crepúsculo azul y violeta toda la tarde, creando un paisaje suave y luminoso. Es la ventana en que la aurora está más activa.' },
+      { name: 'Sol de medianoche', period: 'Junio – julio', description: 'Más allá del Círculo Polar el sol no se pone en pleno verano. En el extremo norte de Laponia el sol de medianoche se mantiene más de 70 días seguidos. El día sin fin transforma el senderismo, la pesca y el remo, puede salir a las 23:00 y ver la luz deslizarse por los fjeld hasta el desayuno.' },
+      { name: 'Nieve de primavera', period: 'Abril – mayo', description: 'La luz vuelve con fuerza, sol radiante reflejado en inmensos campos de nieve. Los días se alargan rápido y las temperaturas suben de cero. El mejor momento para el esquí de fondo, la motonieve y la pesca en hielo: aún hay nieve de sobra, pero las condiciones son suaves y los días largos.' },
+    ],
+    ruskaKicker: 'Ruska 2024 · semana a semana',
+    ruskaH2: 'Cómo se desplaza de verdad el pico del ruska por Laponia',
+    ruskaLead: 'El ruska no es un solo acontecimiento. Es una ola que baja de norte a sur durante unas tres semanas cada septiembre. Si llega la semana equivocada o a la latitud equivocada, verá o abedules pelados o musgo aún verde. Esto es lo que anotamos en 2024 bajando de Utsjoki a Riisitunturi.',
+    ruskaWeeks: [
+      { week: 'Semana 1 · 2–8 sep.', region: 'Utsjoki + Kilpisjärvi (69° N y más)', body: 'Los fjeld más septentrionales arrancan primero. Abedules ya al 60 % de color el 5 de septiembre; arándano rojo de un rojo intenso. Temperaturas nocturnas de acampada de −2 °C. Ventana fotográfica: 14:00–17:00, luz rasante.' },
+      { week: 'Semana 2 · 9–15 sep.', region: 'Inari + Saariselkä (68–69° N)', body: 'El pico. El parque de Urho Kekkonen a plena saturación el 11 de septiembre. La mejor semana del año para el circuito Saariselkä → Kiilopää. Mucha afluencia de excursionistas el fin de semana; senderos vacíos entre semana.' },
+      { week: 'Semana 3 · 16–22 sep.', region: 'Pallas + Levi + Pyhä (67–68° N)', body: 'El pico baja al sur. El sendero Hetta–Pallas en pleno ruska hacia el 17–19 de septiembre. Pyhä-Luosto unos días después. Posibles primeras nevadas por encima de 600 m a final de semana.' },
+      { week: 'Semana 4 · 23–29 sep.', region: 'Riisitunturi + Oulanka (66° N)', body: 'Último arranque. Riisitunturi sigue fotogénico una semana más antes de la caída de la hoja. Karhunkierros (la Senda del Oso) en su pico, aún tardes templadas, escarcha al alba, refugios vacíos entre semana.' },
+      { week: 'Semana 5 · desde el 30 sep.', region: 'Toda Laponia', body: 'Se acabó. Abedules pelados, pasarelas resbaladizas, nieve en altura. Se abre la temporada de la aurora.' }
+    ],
+    ruskaWeek3Suffix: ' (lo caminamos entonces, vea ',
+    ruskaWeek3SuffixLink: 'nuestro desglose en tres días',
+    ruskaWeek4Suffix: ' (lo caminamos del 24 al 27 de sep., nuestras notas están en la ',
+    ruskaWeek4SuffixLink: 'página de senderos',
+    ruskaWeek5Suffix: ' Vea ',
+    ruskaWeek5SuffixLink: 'nuestra noche de aurora en Inari',
+    bookingH3: 'Consejos de reserva',
+    bookingItems: [
+      'Reserve el alojamiento con más de 6 meses de antelación para la semana 2 (Saariselkä) y la semana 3 (Hetta/Pallas), son las semanas de ruska más disputadas de Finlandia.',
+      'Si sus fechas son fijas, elija la latitud, no persiga el pico. La semana 1 en Utsjoki y la semana 4 en Riisitunturi son casi igual de fotogénicas, con mucho más margen.',
+      'La afluencia de excursionistas de día culmina el sábado. Camine entre semana. Conduzca el fin de semana.',
+    ],
+    photoNoteTitle: 'Una nota sobre la luz',
+    photoNoteBody: 'En septiembre el sol se mantiene bajo durante horas. La «foto de ruska» que la mayoría imagina, rojo y oro saturados, luz suave y direccional, va de las 14:00 a las 17:30 aproximadamente cada día. A las 18:30 ya está en sombra densa. Planifique el punto de vuelta de su caminata en consecuencia.',
+    matchH3: 'Ajuste la estación al viaje',
+    matchLead: 'La caza de auroras pertenece al kaamos. La observación de osos pertenece al verano. Hetta–Pallas en el pico del ruska da las mejores fotos de su vida. Elija primero la estación, después el viaje, no al revés.',
+    seasonalBaseCta: 'Buscar una base de temporada',
+    seasonMatchedCta: 'Experiencias según la estación',
+    crossLinks: {
+      aurora: 'Temporada de aurora →',
+      ruska: 'Senderismo en ruska →',
+      wildlife: 'Fauna de verano →',
+      snowmobile: 'Motonieve de primavera →',
+      xcski: 'Esquí de fondo →',
+    },
+    faq: {
+      eyebrow: 'Preguntas frecuentes',
+      h2: 'Las estaciones de Laponia, preguntas frecuentes',
+      items: [
+        {
+          q: '¿Cuándo es la noche polar (kaamos) en Laponia?',
+          a: 'El kaamos, la noche polar, va aproximadamente de finales de noviembre a mediados de enero. Cuanto más al norte, más dura: en Utsjoki, el punto más septentrional de Finlandia, el sol permanece bajo el horizonte unos 51 días. Pero no es oscuridad total: la nieve refleja un largo crepúsculo azul y violeta a mediodía, y es la franja más activa de la temporada de auroras.',
+        },
+        {
+          q: '¿Cuándo ocurre el sol de medianoche en Laponia?',
+          a: 'El sol de medianoche va de principios de junio a principios de julio en gran parte de Laponia, y más cuanto más al norte: en los fjeld más septentrionales el sol no se pone del todo durante más de 70 días seguidos. Al norte del círculo polar se puede caminar, pescar o remar a medianoche a plena luz del día.',
+        },
+        {
+          q: '¿Cuándo es el ruska (color otoñal) en Laponia?',
+          a: 'El ruska avanza de norte a sur a lo largo de unas tres semanas en septiembre. Los fjeld más septentrionales, en torno a Utsjoki y Kilpisjärvi, cambian primero a principios de septiembre; Inari y Saariselkä alcanzan su pico hacia la segunda semana; Pallas, Levi y Pyhä siguen en la tercera; y Riisitunturi y Oulanka aguantan hasta finales de septiembre antes de que caigan las hojas.',
+        },
+        {
+          q: '¿Cuál es la mejor estación para visitar Laponia?',
+          a: 'Depende de a qué venga. Elija el kaamos (diciembre–enero) para auroras y nieve, la primavera (abril–mayo) para días largos y luminosos con la nieve aún en el suelo, el sol de medianoche (junio–julio) para senderismo y remo, y el ruska (septiembre) para el color otoñal y la mejor fotografía de fjeld del año. Elija la estación y luego el viaje, no al revés.',
+        },
+        {
+          q: '¿Oscurece durante el sol de medianoche?',
+          a: 'No. Al norte del círculo polar el sol no se pone en pleno verano, así que no hay noche real durante varias semanas, solo un suave descenso de la luz de madrugada. Por eso es imposible ver la aurora en junio y julio: el cielo simplemente no oscurece lo suficiente.',
+        },
+      ],
+    },
+  },
+  hiking: {
+    difficulties: { easy: 'Fácil', moderate: 'Moderada', challenging: 'Exigente', demanding: 'Muy exigente' },
+    metaTitle: 'Senderos de Laponia: 5 km a 82 km | LaplandNature',
+    metaDescription: 'Seis senderos en la Laponia finlandesa, Hetta-Pallas (55 km), Karhunkierros (82 km), cima del Halti (55 km) y tres rutas más cortas.',
+    hero: {
+      alt: 'Un sendero serpenteando por un fjeld en plena ruska otoñal en la Laponia finlandesa',
+      eyebrow: 'Guía esencial',
+      title: 'Senderos',
+      subtitle: 'De Laponia',
+      description: 'De rutas de día fáciles a expediciones de varios días por la naturaleza. Los senderos de Laponia lo llevan por bosques antiguos, sobre fjeld abiertos, junto a ríos salvajes y hasta la cima más alta de Finlandia.',
+    },
+    karhuKicker: 'Del cuaderno · ruska 2024',
+    karhuH2: 'El Karhunkierros en 4 días, qué llevamos, qué descartamos, qué aprendimos',
+    karhuLead: 'Recorrimos los 82 km de la Senda del Oso de sur a norte en cuatro días a finales de septiembre, en pleno pico de ruska. Esto es lo que pasó de verdad, distancias, decisiones de refugio, peso de mochila y las decisiones que tomaríamos distinto la próxima vez. Tómelo como base de planificación, no como dogma, el tiempo y su forma física lo cambian todo.',
+    days: [
+      { day: 'Día 1 · 22 km', title: 'Hautajärvi → Aventojoki', body: 'El día más fácil sobre el papel, brutal en la práctica, 22 km son largos con la mochila aún pesada. El refugio Aventojoki tenía cuatro literas libres a las 17:00, lleno a las 19:00. Vale la pena seguir tras la comida para asegurar plaza.', note: 'Mochila al inicio: 14,2 kg en seco · 16,0 kg con agua' },
+      { day: 'Día 2 · 18 km', title: 'Aventojoki → Jussinkämppä', body: 'El día estrella. Puentes colgantes sobre los rápidos del Kitkajoki; el mirador del cañón de Oulanka, tras los primeros 8 km, es la foto que tiene todo senderista finlandés. Pare. La luz de las 14:00 a finales de septiembre no se repite.', note: 'Momento cumbre: cascada Jyrävä · unos 25 m de salto, accesible desde la pasarela' },
+      { day: 'Día 3 · 21 km', title: 'Jussinkämppä → Taivalköngäs', body: 'Larga jornada de bosque ondulado, menos espectáculo, más ritmo. Los rápidos de Taivalköngäs al final son el punto más ruidoso del sendero. Dormimos en el autiotupa; lleno a las 16:30. Lleve tapones, los rápidos rugen toda la noche.', note: 'Primera noche bajo cero · −2 °C, escarcha ligera en las pasarelas al alba' },
+      { day: 'Día 4 · 21 km', title: 'Taivalköngäs → Ruka', body: 'Terreno más fácil, tobillos ya doloridos. Los últimos 6 km se hacen eternos, salga pronto. La ducha en Ruka a las 14:30 fue una experiencia religiosa. No reserve el bus al sur esa misma tarde; querrá una noche de hotel antes del traslado.', note: 'Total: 82 km · 4 días · 12 h netas de caminata' }
+    ],
+    differentlyH3: 'Qué haríamos distinto',
+    differently: [
+      'Salir un día antes y partir el día 1, quitar una sección del circuito Pieni Karhunkierros si la mochila pesa.',
+      'Reservar el Centro de Visitantes de Oulanka como respaldo por si un refugio abierto se llena. Tuvimos suerte; la cola en el pico del ruska es real.',
+      'Llevar un par más de calcetines secos. Las pasarelas se vuelven hielo a −2 °C.',
+      'Saltarse el combustible de hornillo ligero, cada refugio tenía estufa de leña y leña seca. 400 g ahorrados para la siguiente caminata.'
+    ],
+    rukaPostCta: 'Alojamientos en Ruka tras el sendero',
+    oulankaGuidedCta: 'Opciones de día guiado en Oulanka',
+    listKicker: 'La lista completa de senderos',
+    listH2: 'Seis senderos para planificar un viaje en torno a ellos',
+    listLead: 'Desde la pasarela de 5 km de la garganta de Pyhäkuru hasta los 82 km del Karhunkierros. Cada uno enlaza con un pueblo de inicio cerca del que querrá dormir.',
+    trails: [
+      { name: 'Sendero Hetta–Pallas', description: 'El sendero de larga distancia más popular de Finlandia, que atraviesa la cadena de fjeld entre Hetta y Pallas. Terreno de fjeld abierto con vistas de horizonte, refugios bien mantenidos a intervalos cortos.', distance: '55 km', duration: '3–4 días', difficulty: 'Moderado' },
+      { name: 'Karhunkierros (Senda del Oso)', description: 'Uno de los senderos más famosos de Finlandia, serpentea por el cañón de Oulanka entre rápidos y puentes colgantes. Gargantas espectaculares y bosque primario marcan toda la ruta.', distance: '82 km', duration: '4–6 días', difficulty: 'Difícil' },
+      { name: 'Rutas de día de Saariselkä', description: 'Rutas de día bien señalizadas desde el pueblo de Saariselkä hacia el parque nacional. La introducción adecuada al senderismo de fjeld, con opciones para todos los niveles y ventanas de tiempo.', distance: '5–20 km', duration: '2–8 horas', difficulty: 'Fácil' },
+      { name: 'Sendero a la cima del Halti', description: 'Travesía al punto más alto de Finlandia, 1324 m. Ruta remota por el interior de Kilpisjärvi. El tramo final de cumbre no está señalizado y exige orientación con mala visibilidad.', distance: '55 km (ida y vuelta)', duration: '3–5 días', difficulty: 'Muy exigente' },
+      { name: 'Sendero de la garganta de Pyhäkuru', description: 'Sendero corto pero impactante por una garganta profunda de paredes antiguas. Lugar sagrado para el pueblo sami, con tramos de pasarela accesibles para familias y grupos de ritmo mixto.', distance: '5 km', duration: '2–3 horas', difficulty: 'Fácil' },
+      { name: 'Sendero del río Lemmenjoki', description: 'Sigue el legendario río de los buscadores de oro por una de las mayores naturalezas de Europa. Hay transporte en barca para parte de la ruta. Historia de la fiebre del oro visible en los puntos de cribado señalizados.', distance: '20 km', duration: '1–2 días', difficulty: 'Moderado' }
+    ],
+    trailheadStays: 'Alojamientos en el inicio del sendero',
+    planRestH3: 'Planifique el resto del viaje',
+    planRestLead: 'Un sendero sin base es un problema logístico. Combine la caminata con un lugar donde dormir, una forma de llegar y el contexto de la estación.',
+    crossLinks: {
+      when: 'Cuándo caminar →',
+      parks: 'Los parques →',
+      stays: 'Alojamientos y cabañas →',
+      transport: 'Transporte a Laponia →',
+    },
+    faq: {
+      eyebrow: 'Preguntas frecuentes',
+      h2: 'Senderismo en Laponia, preguntas frecuentes',
+      items: [
+        {
+          q: '¿Cuánto se tarda en hacer el Karhunkierros (Sendero del Oso)?',
+          a: 'El Karhunkierros completo mide unos 82 km y la mayoría lo recorre en cuatro a seis días, durmiendo en los refugios a lo largo del cañón de Oulanka. Los caminantes fuertes lo hacen en cuatro jornadas largas; si quiere tiempo en los rápidos, las cascadas y los puentes colgantes, planifique cinco. El Pieni Karhunkierros, más corto, reúne lo mejor en 12 km.',
+        },
+        {
+          q: '¿Cuál es el sendero más popular de Laponia?',
+          a: 'El sendero Hetta–Pallas, de 55 km, a través del parque nacional de Pallas-Yllästunturi, es la ruta de larga distancia más popular de Finlandia. Discurre casi todo por encima del límite del bosque, con vistas de fjeld abierto, y los refugios están espaciados para etapas cómodas de tres o cuatro días entre Hetta y Pallas.',
+        },
+        {
+          q: '¿Hay que reservar los refugios de naturaleza por adelantado?',
+          a: 'Los refugios abiertos (autiotupa) son gratuitos y por orden de llegada: no se pueden reservar, y en el pico del ruska, en septiembre, pueden llenarse a media tarde. Los refugios de reserva (varaustupa) deben reservarse y pagarse por adelantado, normalmente unos 14 € por litera, y merecen la pena para asegurar cama en los tramos concurridos.',
+        },
+        {
+          q: '¿Qué altura tiene el punto más alto de Finlandia y se puede subir?',
+          a: 'El punto más alto de Finlandia está en la ladera del Halti, a 1324 m, en el remoto interior de Kilpisjärvi, cerca de la frontera noruega. Es una ruta seria de ida y vuelta de 55 km en tres a cinco días; el tramo final hacia la cima no está señalizado y exige verdadera capacidad de orientación con mala visibilidad.',
+        },
+        {
+          q: '¿Cuál es la mejor época para hacer senderismo en Laponia?',
+          a: 'De mediados de junio a finales de septiembre es la temporada principal. Julio ofrece buen tiempo y sol de medianoche; principios y mediados de septiembre traen el color del ruska y muchos menos mosquitos, aunque las noches bajan de cero y las pasarelas amanecen heladas y resbaladizas. Los refugios de verano y las barcas suelen funcionar de principios de junio a finales de septiembre.',
+        },
+      ],
+    },
+  },
+  conservation: {
+    metaTitle: 'Conservación en la Laponia finlandesa | LaplandNature',
+    metaDescription: 'Metsähallitus gestiona el 85 % de las zonas de fjeld de Laponia y los siete parques nacionales. Más SLL, WWF Finlandia y el Parlamento Sami.',
+    hero: {
+      alt: 'Bosque primario protegido y fjelds en la naturaleza salvaje de la Laponia finlandesa',
+      eyebrow: 'Guía esencial',
+      title: 'Conservación',
+      subtitle: 'Proteger la naturaleza ártica',
+      description: 'Metsähallitus gestiona el 85 % de las zonas de fjeld de Laponia y los siete parques nacionales. El derecho de acceso a la naturaleza finlandés da a todos acceso libre a la naturaleza, de forma responsable.',
+    },
+    orgsKicker: 'Quién es quién',
+    orgsH2: 'Organizaciones de conservación',
+    orgsLead: 'Los cuatro organismos que deciden cómo se gestiona, protege y usa la naturaleza de Laponia, desde la gestión estatal de parques hasta el autogobierno sami.',
+    orgs: [
+      { role: 'Gestión de parques nacionales', name: 'Metsähallitus (Parques y Vida Silvestre de Finlandia)', summary: 'Gestiona el 85 % de las zonas de fjeld de Laponia y los siete parques nacionales por encima del Círculo Polar.', body: 'La empresa estatal finlandesa gestiona todos los parques nacionales, senderos, refugios y áreas protegidas de Laponia. Mantiene la infraestructura de senderos, los centros de visitantes y los programas gratuitos de educación al aire libre.' },
+      { role: 'Defensa y protección', name: 'Asociación Finlandesa para la Conservación de la Naturaleza (SLL)', summary: 'La mayor organización de conservación de Finlandia, fundada en 1938.', body: 'Fundada en 1938, la SLL protege la naturaleza finlandesa mediante incidencia, campañas y educación ambiental. Se centra en la protección de bosques, la acción climática y la biodiversidad.' },
+      { role: 'Recuperación de fauna', name: 'WWF Finlandia', summary: 'Programas de recuperación de la foca anillada de Saimaa, el zorro ártico y el reno de bosque.', body: 'WWF Finlandia dirige programas de recuperación de especies, incluido el proyecto escandinavo del zorro ártico, que ha sacado a la población fenoscándica de la casi extinción desde los años 90.' },
+      { role: 'Gestión indígena', name: 'Parlamento Sami', summary: 'Autogobierno sobre asuntos culturales y ambientales sami en el extremo norte de Laponia.', body: 'Los distritos sami de pastoreo de renos gestionan el pastoreo tradicional por el territorio sami, equilibrando la ecología con la columna cultural y económica del pueblo indígena de la región.' }
+    ],
+    visitSite: 'Visitar el sitio oficial',
+    responsibilityKicker: 'Responsabilidad del visitante',
+    responsibilityH2: 'Cuatro cosas que saber antes de ir',
+    principles: [
+      { title: 'Derecho de acceso a la naturaleza', body: 'El jokamiehenoikeudet finlandés permite a cualquiera caminar, esquiar, nadar, recoger bayas y setas y acampar brevemente por terreno forestal, incluso privado, sin permiso. La otra cara es la responsabilidad: no dejar rastro, respetar viviendas y cultivos, fuego solo en los puntos señalizados.' },
+      { title: 'Las restricciones de fuego son estacionales', body: 'En las sequías de verano el FMI publica un metsäpalovaroitus / aviso de incendio forestal. Mientras esté vigente, encender cualquier fuego al aire libre, incluidos los hogares señalizados, está prohibido. Compruébelo siempre antes de dejar una carretera.' },
+      { title: 'Llévese todo', body: 'Los refugios (autiotupa) funcionan a base de confianza: déjelos más limpios de como los encontró, reponga la leña, firme el libro de visitas. La basura en terreno remoto se acumula, no hay recogida.' },
+      { title: 'Los renos tienen prioridad', body: 'Unos 200 000 renos semidomesticados recorren Laponia, no son salvajes, tienen dueño. En carretera, reduzca; en los fjeld, déles espacio. Junto a las cercas (poroaita), cierre las puertas tras de sí.' }
+    ],
+    finalKicker: 'Visite con responsabilidad',
+    finalH2: 'Viaje aquí del lado de la naturaleza',
+    finalLead: 'Cada reserva que recomendamos va a operadores que contribuyen a la conservación local, granjas de renos de propiedad sami, refugios con licencia de Metsähallitus y pequeños operadores familiares que hacen que osos, lobos y zorros árticos valgan más vivos que muertos. Lo más grande que puede hacer un visitante es dormir donde la economía local lo necesita.',
+    samiVillageCta: 'Alojarse en un pueblo sami',
+    localTourCta: 'Experiencias de naturaleza con guías locales',
+    crossLinks: {
+      wildlife: 'La fauna que puede ver →',
+      parks: 'Los cinco parques protegidos →',
+      hub: 'Guía de viaje de Laponia →',
+    },
+    faq: {
+      eyebrow: 'Preguntas frecuentes',
+      h2: 'Conservación y viaje responsable, preguntas frecuentes',
+      items: [
+        {
+          q: '¿Qué es el derecho de todos (jokamiehenoikeus) en Finlandia?',
+          a: 'El derecho de todos (jokamiehenoikeudet) permite a cualquiera caminar, esquiar, nadar, recoger bayas y setas y acampar brevemente en casi cualquier terreno, incluido el bosque privado, sin pedir permiso ni pagar. La contrapartida es la responsabilidad: no dejar rastro, respetar viviendas y cultivos, no molestar a la fauna y encender fuego solo en sitios señalizados.',
+        },
+        {
+          q: '¿Se puede hacer fuego en Laponia?',
+          a: 'Solo en las hogueras señalizadas y nunca cuando hay un aviso de incendio forestal (metsäpalovaroitus) en vigor. El Instituto Meteorológico Finlandés emite el aviso en periodos secos, y mientras está activo todo fuego al aire libre está prohibido, incluso en las hogueras marcadas. Compruebe siempre el aviso vigente antes de salir de la carretera y use un hornillo si tiene dudas.',
+        },
+        {
+          q: '¿Quién gestiona los parques nacionales y la naturaleza de Laponia?',
+          a: 'Metsähallitus (Parques y Fauna de Finlandia), el organismo estatal, gestiona alrededor del 85 % de los fjeld de Laponia y todos los parques nacionales, manteniendo senderos, refugios y centros de visitantes. La defensa de la naturaleza corre a cargo de la Asociación Finlandesa para la Conservación de la Naturaleza (SLL) y WWF Finlandia, mientras que el Parlamento Sami tiene autogobierno sobre los asuntos culturales y ambientales sami en el norte.',
+        },
+        {
+          q: '¿Tienen los renos prioridad de paso en las carreteras de Laponia?',
+          a: 'En la práctica, sí: reduzca mucho la velocidad. Los cerca de 200 000 renos de Laponia tienen dueño y no son salvajes, y salen libremente a las carreteras, sobre todo al anochecer. Si ve uno, espere más cerca. Junto a las cercas de pastoreo (poroaita), cierre siempre tras de sí cualquier portón que abra.',
+        },
+        {
+          q: '¿Cómo viajo de forma responsable por Laponia?',
+          a: 'Aloje donde la economía local lo necesita, granjas de renos de propiedad sami, casas de huéspedes familiares y refugios autorizados, y elija operadores que hagan que osos, lobos y zorros árticos valgan más vivos que muertos. Llévese toda su basura, manténgase en las pasarelas en el frágil terreno de los fjeld y respete las normas estacionales de fuego y fauna.',
+        },
+      ],
+    },
+  },
+  editorial: {
+    metaTitle: 'Política editorial, LaplandNature',
+    metaDescription: 'Cómo LaplandNature investiga, redacta y verifica sus guías de naturaleza de Laponia. Política de independencia y cómo gestionamos los ingresos de afiliación.',
+    h1: 'Política editorial',
+    lastUpdated: 'Última actualización: abril de 2026',
+    sections: [
+      { h2: 'Quién escribe este sitio', body: 'LaplandNature forma parte del ecosistema LaplandVibes, gestionado de forma independiente por Lapeso Oy en la Laponia finlandesa. El contenido se redacta y revisa desde Finlandia todo el año, con fuentes citadas en cada afirmación, no se genera desde una mesa en otro país.' },
+      { h2: 'Cómo se eligen las recomendaciones', body: 'Los pueblos-puerta de los parques, los inicios de sendero y los pueblos de observación de aurora se recomiendan según datos de cielo oscuro, cobertura de la red de refugios, acceso por carretera en invierno y visitas de campo. No se acepta pago a cambio de inclusión. Si una región u operador nos paga directamente, la página lo indica.' },
+      { h2: 'Ingresos de afiliación', body: 'Algunos enlaces de este sitio pasan por go.laplandvibes.com y generan una pequeña comisión cuando usted reserva, sin coste adicional para usted. Los ingresos de afiliación cubren el alojamiento web y el tiempo de redacción. Nunca deciden qué destinos u operadores aparecen, ni cambian las recomendaciones de una página.' },
+      { h2: 'Correcciones', body: 'Si detecta un error de hecho, distancia, fechas de apertura, estado de una especie, lo que sea, escriba a info@laplandvibes.com. Las correcciones se aplican con rapidez y se anotan en la página.' }
+    ],
+  },
+  notFound: {
+    metaTitle: 'Página no encontrada, LaplandNature',
+    metaDescription: 'La página que buscaba no existe o se ha movido.',
+    h1: 'Fuera del sendero',
+    body: 'La página que buscaba no existe en LaplandNature. Pruebe una de las guías esenciales de abajo, ahí está la naturaleza.',
+    home: 'Inicio',
+    parks: 'Parques nacionales',
+  },
+  privacy: {
+    metaTitle: 'Política de privacidad, LaplandNature',
+    metaDescription: 'Cómo trata Lapeso Oy (LaplandNature) los datos personales: altas de boletín, analítica y cookies de afiliación. Conforme al RGPD / ePrivacy.',
+  },
+  terms: {
+    metaTitle: 'Condiciones de uso, LaplandNature',
+    metaDescription: 'Condiciones que rigen el uso de LaplandNature.com, licencias de contenido, afiliación y normas editoriales. Operado por Lapeso Oy en Finlandia.',
+  },
+  cookie: {
+    metaTitle: 'Política de cookies, LaplandNature',
+    metaDescription: 'Qué cookies usa LaplandNature.com, por qué y cómo gestionarlas. Divulgaciones de cookies conformes al RGPD / ePrivacy de Lapeso Oy.',
+  },
+} as DeepPartial<SectionCopy>

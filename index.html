@@ -1,10 +1,71 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- LV-LOCALE-TITLE (managed by scripts/inject_locale_titles.mjs) -->
+    <script>
+      (function () {
+        try {
+          var T = {"en":"Lapland Nature: Arctic Wilderness, Aurora & National Parks | LaplandNature","fi":"Lapin luonto: arktinen erämaa, revontulet ja kansallispuistot | LaplandNature","de":"Lapplands Natur: arktische Wildnis, Nordlichter & Nationalparks | LaplandNature","ja":"ラップランドの自然: 北極の荒野、オーロラ、国立公園 | LaplandNature","es":"Naturaleza de Laponia: páramos árticos, aurora y parques nacionales | LaplandNature","pt-br":"Natureza da Lapônia: deserto ártico, aurora e parques nacionais | LaplandNature","zh-cn":"拉普兰自然: 北极荒野、极光与国家公园 | LaplandNature","kr":"라플란드 자연: 북극 황야, 오로라, 국립공원 | LaplandNature","fr":"Nature de Laponie : nature arctique, aurores et parcs nationaux | LaplandNature","it":"Natura della Lapponia: deserto artico, aurora e parchi nazionali | LaplandNature","nl":"Lapland Natuur: arctische wildernis, noorderlicht & nationale parken | LaplandNature"};
+          var path = location.pathname || '/';
+          var map = { fi: 'fi', de: 'de', ja: 'ja', es: 'es', br: 'pt-br', cn: 'zh-cn', kr: 'kr', fr: 'fr', it: 'it', nl: 'nl' };
+          var loc = 'en';
+          for (var p in map) {
+            if (path === '/' + p || path.indexOf('/' + p + '/') === 0) { loc = map[p]; break; }
+          }
+          if (T[loc]) document.title = T[loc];
+        } catch (e) { /* fail silent */ }
+      })();
+    </script>
+    <!-- /LV-LOCALE-TITLE -->
+    <!-- LV-SYNC-LOCALE-REDIRECT (managed by scripts/inject_sync_redirect.mjs) -->
+    <script>
+      (function () {
+        try {
+          var path = location.pathname || '/';
+          // Already on a locale prefix? — never override
+          var prefixes = ['/fi','/de','/ja','/es','/br','/cn','/kr','/fr','/it','/nl'];
+          for (var i = 0; i < prefixes.length; i++) {
+            if (path === prefixes[i] || path.indexOf(prefixes[i] + '/') === 0) return;
+          }
+          // Only redirect from bare root or sub-pages without a locale prefix
+          var map = { fi: 'fi', de: 'de', ja: 'ja', es: 'es', 'pt-br': 'br', 'zh-cn': 'cn', ko: 'kr', fr: 'fr', it: 'it', nl: 'nl' };
+          var stored = null;
+          try { stored = localStorage.getItem('lv_locale_choice'); } catch (e) {}
+          var target = null;
+          if (stored) {
+            var k = stored.toLowerCase();
+            if (map[k]) target = '/' + map[k];
+            else if (k === 'en') return; // explicit EN choice — stay
+          }
+          if (!target) {
+            var langs = navigator.languages || [navigator.language || 'en'];
+            for (var j = 0; j < langs.length; j++) {
+              var l = (langs[j] || '').toLowerCase();
+              if (l.indexOf('en') === 0) return; // EN browser — stay on /
+              if (l.indexOf('fi') === 0) { target = '/fi'; break; }
+              if (l.indexOf('de') === 0) { target = '/de'; break; }
+              if (l.indexOf('ja') === 0) { target = '/ja'; break; }
+              if (l.indexOf('es') === 0) { target = '/es'; break; }
+              if (l.indexOf('pt') === 0) { target = '/br'; break; }
+              if (l.indexOf('zh') === 0) { target = '/cn'; break; }
+              if (l.indexOf('ko') === 0) { target = '/kr'; break; }
+              if (l.indexOf('fr') === 0) { target = '/fr'; break; }
+              if (l.indexOf('it') === 0) { target = '/it'; break; }
+              if (l.indexOf('nl') === 0) { target = '/nl'; break; }
+            }
+          }
+          if (!target) return;
+          var dest = path === '/' ? target : target + path;
+          if (location.search) dest += location.search;
+          if (location.hash) dest += location.hash;
+          location.replace(dest);
+        } catch (err) { /* fail silent — fall through to React-based redirect */ }
+      })();
+    </script>
+    <!-- /LV-SYNC-LOCALE-REDIRECT -->
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-    <meta name="theme-color" content="#FAFAF8" />
-
     <!-- Primary SEO -->
     <title>Lapland Nature: Arctic Wilderness, Aurora & National Parks | LaplandNature</title>
     <meta name="description" content="Finnish Lapland's arctic wilderness — five national parks, the longest aurora season in Europe, the kaamos polar night, and hiking trails from 5 km to 82 km. Plan your wilderness trip." />
@@ -13,29 +74,18 @@
     <link rel="canonical" href="https://laplandnature.com/" />
 
     <!-- Favicons -->
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="manifest" href="/site.webmanifest" />
-
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="LaplandNature" />
     <meta property="og:title" content="Lapland Nature: Arctic Wilderness, Aurora & National Parks | LaplandNature" />
     <meta property="og:description" content="Finnish Lapland's arctic wilderness — five national parks, the longest aurora season in Europe, the kaamos polar night, and hiking trails from 5 km to 82 km." />
     <meta property="og:url" content="https://laplandnature.com/" />
-    <meta property="og:image" content="https://laplandnature.com/images/hero-home.webp" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
     <meta property="og:locale" content="en_US" />
 
     <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@laplandvibes" />
     <meta name="twitter:title" content="Lapland Nature: Arctic Wilderness, Aurora & National Parks" />
     <meta name="twitter:description" content="Finnish Lapland's arctic wilderness — five national parks, aurora season, kaamos, and hiking trails. From the team behind LaplandVibes." />
-    <meta name="twitter:image" content="https://laplandnature.com/images/hero-home.webp" />
-
     <!-- Google Fonts — LV ecosystem brand fonts (Bebas Neue + DM Sans) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -101,6 +151,26 @@
         }
       });
     </script>
+      <!-- Open Graph image (1200×630 JPEG) -->
+    <meta property="og:image" content="https://laplandnature.com/og-default.jpg?v=20260626b" />
+    <meta property="og:image:secure_url" content="https://laplandnature.com/og-default.jpg?v=20260626b" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="LaplandNature — frozen waterfall in pristine Finnish Lapland forest at dawn" />
+    <!-- Twitter card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://laplandnature.com/og-default.jpg?v=20260626b" />
+    <meta name="twitter:image:alt" content="LaplandNature — frozen waterfall in pristine Finnish Lapland forest at dawn" />
+      <!-- Favicon stack (LV ecosystem unified design) -->
+    <link rel="icon" href="/favicon.svg?v=20260626b" type="image/svg+xml" />
+    <link rel="alternate icon" href="/favicon.ico?v=20260626b" sizes="32x32" type="image/png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=20260626b" sizes="180x180" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="theme-color" content="#0F172A" />
+    <meta name="apple-mobile-web-app-title" content="LaplandNature" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
   </head>
   <body>
     <div id="root"></div>
