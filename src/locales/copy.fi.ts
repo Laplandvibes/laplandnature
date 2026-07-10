@@ -92,6 +92,7 @@ const fi: SectionCopy = {
     metaTitle: 'Lapin luonto: erämaa ja kansallispuistot | LaplandNature',
     metaDescription: 'Suomen Lapin arktinen erämaa, viisi kansallispuistoa, yli 200 revontuliyötä, kaamoksen pimeys ja vaellusreittejä 5 km:stä 82 km:iin.',
     hero: {
+      alt: 'Lumen peittämää arktista erämaata ja tuntureita Suomen Lapissa',
       eyebrow: 'Napapiirin pohjoispuolella',
       title: 'Koskematon arktinen',
       subtitle: 'erämaa',
@@ -171,6 +172,7 @@ const fi: SectionCopy = {
     metaTitle: 'Revontulet Lapissa: missä ja milloin näkee | LaplandNature',
     metaDescription: 'Missä nähdä revontulet Suomen Lapissa, Inari, Utsjoki, Kilpisjärvi ja Enontekiö. Revontulikausi syyskuusta maaliskuuhun, pimeimmät yöt kaamoksen aikaan.',
     hero: {
+      alt: 'Vihreänä hehkuvat revontulet lumisen metsän yllä Suomen Lapissa',
       eyebrow: 'Lapin yötaivas',
       title: 'Revontulet',
       subtitle: 'Aurora borealis',
@@ -288,6 +290,7 @@ const fi: SectionCopy = {
     metaTitle: 'Lapin kansallispuistot: 5 erämaata | LaplandNature',
     metaDescription: 'Suomen Lapin viisi kansallispuistoa, Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi ja Pyhä-Luosto. Porttikylät ja paras vierailuaika.',
     hero: {
+      alt: 'Avointa tunturimaisemaa Suomen Lapin kansallispuistossa kirkkaan taivaan alla',
       eyebrow: 'Lapin erämaa',
       title: 'Kansallispuistot',
       subtitle: 'Viisi suojeltua aluetta',
@@ -398,6 +401,7 @@ const fi: SectionCopy = {
     metaTitle: 'Lapin eläimistö: porot, karhut, ahma ja muut | LaplandNature',
     metaDescription: 'Kuusi ikonista arktista lajia jotka voit kohdata Suomen Lapissa, 200 000 puolikesyä porosta erittäin uhanalaiseen naaliin ja vaikeasti tavoitettavaan ahmaan.',
     hero: {
+      alt: 'Karhu Suomen Lapin havumetsässä',
       eyebrow: 'Eläimet Lapissa',
       title: 'Eläinten tarkkailu',
       subtitle: 'Karhu, poro, ahma',
@@ -537,6 +541,7 @@ const fi: SectionCopy = {
     metaTitle: 'Lapin neljä vuodenaikaa: ruska–kaamos | LaplandNature',
     metaDescription: 'Jokainen vuodenaika napapiirin pohjoispuolella on oma maailmansa, ruskan värit, kaamoksen pimeys, keskiyön aurinko ja kevätlumi. Milloin tulla.',
     hero: {
+      alt: 'Syksyn ruskan värit Suomen Lapin tunturimaisemassa',
       eyebrow: 'Lapin vuosi',
       title: 'Neljä vuodenaikaa',
       subtitle: 'Napapiirin pohjoispuolella',
@@ -650,6 +655,7 @@ const fi: SectionCopy = {
     metaTitle: 'Lapin vaellusreitit: 5 km–82 km | LaplandNature',
     metaDescription: 'Kuusi vaellusreittiä Suomen Lapissa, Hetta–Pallas (55 km), Karhunkierros (82 km), Halti (55 km) ja kolme lyhyempää reittiä. Etäisyydet, kestot ja porttikylät.',
     hero: {
+      alt: 'Vaellusreitti mutkittelee ruskan värittämällä tunturilla Suomen Lapissa',
       eyebrow: 'Lapin retket',
       title: 'Vaellusreitit',
       subtitle: 'Päiväretkistä monipäiväisiin',
@@ -781,6 +787,7 @@ const fi: SectionCopy = {
     metaTitle: 'Luonnonsuojelu Lapissa | LaplandNature',
     metaDescription: 'Metsähallitus hallinnoi 85 % Lapin tuntureista ja kaikki seitsemän kansallispuistoa. Lisäksi SLL, WWF Suomi, Saamelaiskäräjät ja jokamiehenoikeudet.',
     hero: {
+      alt: 'Suojeltua vanhaa metsää ja tuntureita Suomen Lapin erämaassa',
       eyebrow: 'Luonto ja suojelu',
       title: 'Luonnonsuojelu',
       subtitle: 'Kuka vaalii Lapin erämaata',

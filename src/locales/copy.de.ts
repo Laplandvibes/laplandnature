@@ -92,6 +92,7 @@ const de: SectionCopy = {
     metaTitle: 'Lapplands Natur: Wildnis & Nationalparks | LaplandNature',
     metaDescription: 'Die arktische Wildnis Finnisch-Lapplands, fünf Nationalparks, über 200 Nordlicht-Nächte, die Polarnacht (Kaamos) und Wanderwege von 5 bis 82 km.',
     hero: {
+      alt: 'Schneebedeckte arktische Wildnis und Fjells in Finnisch-Lappland',
       eyebrow: 'Nördlich des Polarkreises',
       title: 'Unberührte arktische',
       subtitle: 'Wildnis',
@@ -171,6 +172,7 @@ const de: SectionCopy = {
     metaTitle: 'Nordlichter in Lappland: Wo und wann | LaplandNature',
     metaDescription: 'Wo Sie die Nordlichter in Finnisch-Lappland sehen, Inari, Utsjoki, Kilpisjärvi und Enontekiö. Saison September bis März, dunkelster Himmel im Kaamos.',
     hero: {
+      alt: 'Grün leuchtende Polarlichter über einem verschneiten Wald in Finnisch-Lappland',
       eyebrow: 'Säulen-Guide',
       title: 'Nordlichter',
       subtitle: 'Aurora borealis',
@@ -288,6 +290,7 @@ const de: SectionCopy = {
     metaTitle: 'Lapplands Nationalparks: 5 Wildnisse | LaplandNature',
     metaDescription: 'Die fünf Nationalparks Finnisch-Lapplands, Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi und Pyhä-Luosto. Tordörfer und beste Reisezeit.',
     hero: {
+      alt: 'Offene Fjell-Landschaft in einem Nationalpark in Finnisch-Lappland unter klarem Himmel',
       eyebrow: 'Säulen-Guide',
       title: 'Nationalparks',
       subtitle: 'Geschützte Wildnis',
@@ -398,6 +401,7 @@ const de: SectionCopy = {
     metaTitle: 'Lapplands Tierwelt: Rentier, Bär, Vielfraß | LaplandNature',
     metaDescription: 'Sechs ikonische arktische Arten in Finnisch-Lappland, von 200.000 halbdomestizierten Rentieren über den bedrohten Polarfuchs bis zum scheuen Vielfraß.',
     hero: {
+      alt: 'Ein Braunbär im borealen Wald von Finnisch-Lappland',
       eyebrow: 'Säulen-Guide',
       title: 'Wildtierbeobachtung',
       subtitle: 'Arktische Tiere',
@@ -537,6 +541,7 @@ const de: SectionCopy = {
     metaTitle: 'Lapplands vier Jahreszeiten: Ruska–Kaamos | LaplandNature',
     metaDescription: 'Jede Jahreszeit nördlich des Polarkreises ist eine andere Welt, Ruska-Herbstfarben, Polarnacht (Kaamos), Mitternachtssonne und Frühlingsschnee.',
     hero: {
+      alt: 'Herbstliche Ruska-Farben über einer Fjell-Landschaft in Finnisch-Lappland',
       eyebrow: 'Säulen-Guide',
       title: 'Vier Jahreszeiten',
       subtitle: 'Lapplands',
@@ -650,6 +655,7 @@ const de: SectionCopy = {
     metaTitle: 'Lapplands Wanderwege: 5 km bis 82 km | LaplandNature',
     metaDescription: 'Sechs Wanderwege in Finnisch-Lappland, Hetta–Pallas (55 km), Karhunkierros (82 km), Halti (55 km) und drei kürzere Routen. Distanz, Dauer und Basen.',
     hero: {
+      alt: 'Ein Wanderweg schlängelt sich über einen herbstlichen Ruska-Fjell in Finnisch-Lappland',
       eyebrow: 'Säulen-Guide',
       title: 'Wanderwege',
       subtitle: 'Lapplands',
@@ -781,6 +787,7 @@ const de: SectionCopy = {
     metaTitle: 'Naturschutz in Finnisch-Lappland | LaplandNature',
     metaDescription: 'Metsähallitus verwaltet 85 % der Fjäll-Gebiete und alle sieben Nationalparks Lapplands. Dazu SLL, WWF Finnland, das Sámi-Parlament und das Jedermannsrecht.',
     hero: {
+      alt: 'Geschützter Urwald und Fjells in der Wildnis von Finnisch-Lappland',
       eyebrow: 'Säulen-Guide',
       title: 'Naturschutz',
       subtitle: 'Schutz der arktischen Wildnis',
