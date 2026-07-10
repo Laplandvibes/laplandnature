@@ -11,7 +11,7 @@ const en: SectionCopy = {
   },
   newsletter: {
     eyebrow: 'The #LAPLANDVIBES newsletter',
-    h2Line1: 'Field notes from the Arctic.',
+    h2Line1: 'Arctic season notes.',
     h2Line2: 'Written when there is something to say.',
     lead: 'A short note when the aurora window opens, the bear hides reopen, or a hut-trek worth booking hits the calendar. Written from Finland, in English. Sources cited, never on a fixed schedule.',
     benefits: [
@@ -47,7 +47,7 @@ const en: SectionCopy = {
     lead: 'We will send a short heads-up the next time FMI KP and Lapland cloud-cover line up. Sources cited, opt out anytime.',
     bullets: [
       'KP + cloud-cover heads-ups, September → March',
-      'Field notes from the trail we just walked',
+      'Trail season updates: what is open and worth booking',
       'No fixed schedule, only when there is something worth sending',
     ],
     cta: 'Send me aurora alerts',

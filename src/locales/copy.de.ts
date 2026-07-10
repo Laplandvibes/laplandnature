@@ -11,7 +11,7 @@ const de: SectionCopy = {
   },
   newsletter: {
     eyebrow: 'Der #LAPLANDVIBES-Newsletter',
-    h2Line1: 'Feldnotizen aus der Arktis.',
+    h2Line1: 'Notizen zur arktischen Saison.',
     h2Line2: 'Geschrieben, wenn es etwas zu sagen gibt.',
     lead: 'Eine kurze Notiz, wenn sich das Nordlicht-Fenster öffnet, die Bärenverstecke wieder öffnen oder eine Hüttenwanderung im Kalender steht. Geschrieben in Finnland, auf Deutsch. Quellen genannt, ohne festen Zeitplan.',
     benefits: [
@@ -47,7 +47,7 @@ const de: SectionCopy = {
     lead: 'Wir senden Ihnen eine kurze Vorwarnung, sobald FMI-KP und Wolkenlage in Lappland zusammenpassen. Quellen genannt, jederzeit abbestellbar.',
     bullets: [
       'KP- und Wolken-Warnungen, September bis März',
-      'Feldnotizen vom gerade begangenen Weg',
+      'Updates zur Wandersaison: was offen und buchenswert ist',
       'Kein fester Zeitplan, nur wenn es etwas zu senden gibt',
     ],
     cta: 'Nordlicht-Warnungen senden',

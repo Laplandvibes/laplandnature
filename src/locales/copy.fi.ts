@@ -11,7 +11,7 @@ const fi: SectionCopy = {
   },
   newsletter: {
     eyebrow: '#LAPLANDVIBES-uutiskirje',
-    h2Line1: 'Muistiinpanoja arktiselta.',
+    h2Line1: 'Muistiinpanoja arktisesta kaudesta.',
     h2Line2: 'Kirjoitettu kun on jotain sanottavaa.',
     lead: 'Lyhyt viesti kun revontuli-ikkuna avautuu, karhukatselut alkavat tai tupareitti jonka itse varaisimme osuu kalenteriin. Kirjoitettu Suomesta, suomeksi. Lähteet näkyvillä.',
     benefits: [
@@ -47,7 +47,7 @@ const fi: SectionCopy = {
     lead: 'Lähetämme lyhyen ilmoituksen kun IL:n KP ja Lapin pilvitilanne osuvat yksiin. Lähteet näkyvillä, perutaan yhdellä klikkauksella.',
     bullets: [
       'KP- ja pilvi-ilmoitukset, syyskuusta maaliskuuhun',
-      'Kentältä juuri kävellyltä reitiltä',
+      'Reittikauden päivitykset: mikä on auki ja varaamisen arvoista',
       'Ei aikataulua, vain kun on jotain lähetettävää',
     ],
     cta: 'Lähetä revontuli-ilmoitukset',
