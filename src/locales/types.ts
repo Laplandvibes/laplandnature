@@ -6,6 +6,7 @@ export type SectionCopy = {
     northernLights: string
     seasons: string
     conservation: string
+    freshwater: string
   }
   newsletter: {
     eyebrow: string
@@ -225,8 +226,36 @@ export type SectionCopy = {
     finalLead: string
     samiVillageCta: string
     localTourCta: string
-    crossLinks: { wildlife: string; parks: string; hub: string }
+    crossLinks: { wildlife: string; parks: string; freshwater: string; hub: string }
     faq: { eyebrow: string; h2: string; items: { q: string; a: string }[] }
+  }
+  freshwater: {
+    metaTitle: string
+    metaDescription: string
+    hero: { eyebrow: string; title: string; subtitle: string; description: string; alt?: string }
+    introKicker: string
+    introH2: string
+    introLead: string
+    chaptersKicker: string
+    chaptersH2: string
+    lakes: { title: string; body1: string; body2: string }
+    rivers: { title: string; body1: string; body2: string }
+    mires: { title: string; body1: string; body2: string }
+    forests: { title: string; body1: string; body2: string }
+    fish: {
+      kicker: string
+      title: string
+      lead: string
+      stories: { title: string; body: string }[]
+      feeNote: string
+      pillarCta: string
+    }
+    finalKicker: string
+    finalH2: string
+    finalLead: string
+    crossLinks: { conservation: string; wildlife: string; fishing: string; hub: string }
+    faq: { eyebrow: string; h2: string; items: { q: string; a: string }[] }
+    verifyLine: string
   }
   editorial: {
     metaTitle: string

@@ -30,6 +30,10 @@
     "fallbackTitle": "Conservation | LaplandNature"
   },
   {
+    "path": "/freshwater",
+    "fallbackTitle": "Freshwater Lapland | LaplandNature"
+  },
+  {
     "path": "/editorial-policy",
     "fallbackTitle": "Editorial Policy | LaplandNature"
   },

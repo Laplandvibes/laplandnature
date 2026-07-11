@@ -17,6 +17,7 @@ const cardImages = [
   'card-hiking.webp',
   'card-conservation.webp',
   'card-midnight-sun.webp',
+  'card-freshwater.webp',
 ]
 
 const cardHrefs = [
@@ -26,6 +27,7 @@ const cardHrefs = [
   '/hiking-trails',
   '/conservation',
   '/seasons',
+  '/freshwater',
 ]
 
 const cardTagBgs = [
@@ -35,6 +37,7 @@ const cardTagBgs = [
   'bg-emerald-500',
   'bg-emerald-500',
   'bg-amber-500',
+  'bg-sky-500',
 ]
 
 const ICONS = [Compass, Trees, Sun, Sparkles]

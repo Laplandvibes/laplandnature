@@ -46,6 +46,7 @@ const ROUTE_TO_SECTION = {
   '/seasons': 'seasons',
   '/hiking-trails': 'hiking',
   '/conservation': 'conservation',
+  '/freshwater': 'freshwater',
   '/editorial-policy': 'editorial',
   '/privacy': 'privacy',
   '/terms': 'terms',

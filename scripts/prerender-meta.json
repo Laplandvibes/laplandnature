@@ -425,6 +425,294 @@
       "description": "Hoe LaplandNature zijn natuurgidsen over Lapland onderzoekt, schrijft en verifieert. Onafhankelijkheidsbeleid en omgang met affiliate-inkomsten."
     }
   },
+  "/freshwater": {
+    "en": {
+      "title": "Freshwater Lapland: Lakes, Rivers, Mires & Fish",
+      "description": "Finland has roughly 188,000 lakes and ponds (SYKE). Lapland holds some of the cleanest of them, plus the unregulated Tornio-Muonio river system, aapa mires and the forests that keep the water cold. Why clean water is the region's rarest asset.",
+      "faq": [
+        {
+          "q": "How many lakes does Finland have?",
+          "a": "Around 188,000 lakes and ponds of at least 0.05 hectares, according to SYKE's national lake register (Järvi-meriwiki). The count depends on the size threshold used, roughly 57,000 lakes if you only count those larger than one hectare, so the headline figure always refers to the 0.05-hectare cut-off. Lapland holds some of the cleanest of them."
+        },
+        {
+          "q": "Is the Tornio really a free-flowing river?",
+          "a": "Yes. Together with Sweden's Kalix (Kalixälven), the Tornio-Muonio system is one of only two large unregulated river systems left in Finland and the EU, according to ymparisto.fi, meaning it has not been dammed for hydropower. Its main tributary, the Ounasjoki, is also protected from damming. That undammed state is why it is still a working wild-salmon river."
+        },
+        {
+          "q": "Why do aapa mires matter for fishing?",
+          "a": "A mire acts like the kidney of a watershed: it stores meltwater and rain, releases it slowly through dry spells, and filters out sediment and nutrients before they reach a river. That keeps the water downstream cold, clear and steady, which is exactly what spawning salmon and trout need. Draining mires makes rivers warmer and siltier and weakens the fishery."
+        },
+        {
+          "q": "Can I fish for salmon on the Teno in 2026?",
+          "a": "No. Atlantic-salmon fishing on the Teno (Tenojoki) is prohibited for 2026 under the Finland-Norway Teno fishing-agreement protocol, in force through 31 December 2026, because the salmon stocks are too weak. A permit for other species is available, but salmon must be left alone. Always check the current rules at tenonkalatalousalue.fi before travelling."
+        },
+        {
+          "q": "Do I need a permit to fish in Lapland?",
+          "a": "For most lure and gear fishing, yes: anglers aged 18-69 pay the national fisheries management fee (47 € year, 16 € week, 6 € day, via eraluvat.fi), and many waters need a separate area permit on top. Simple rod-and-line and ice fishing under Everyman's Right is free, and under-18s and those aged 70 and over are exempt from the national fee."
+        }
+      ]
+    },
+    "fi": {
+      "title": "Freshwater Lapland: Lakes, Rivers, Mires & Fish",
+      "description": "Finland has roughly 188,000 lakes and ponds (SYKE). Lapland holds some of the cleanest of them, plus the unregulated Tornio-Muonio river system, aapa mires and the forests that keep the water cold. Why clean water is the region's rarest asset.",
+      "faq": [
+        {
+          "q": "How many lakes does Finland have?",
+          "a": "Around 188,000 lakes and ponds of at least 0.05 hectares, according to SYKE's national lake register (Järvi-meriwiki). The count depends on the size threshold used, roughly 57,000 lakes if you only count those larger than one hectare, so the headline figure always refers to the 0.05-hectare cut-off. Lapland holds some of the cleanest of them."
+        },
+        {
+          "q": "Is the Tornio really a free-flowing river?",
+          "a": "Yes. Together with Sweden's Kalix (Kalixälven), the Tornio-Muonio system is one of only two large unregulated river systems left in Finland and the EU, according to ymparisto.fi, meaning it has not been dammed for hydropower. Its main tributary, the Ounasjoki, is also protected from damming. That undammed state is why it is still a working wild-salmon river."
+        },
+        {
+          "q": "Why do aapa mires matter for fishing?",
+          "a": "A mire acts like the kidney of a watershed: it stores meltwater and rain, releases it slowly through dry spells, and filters out sediment and nutrients before they reach a river. That keeps the water downstream cold, clear and steady, which is exactly what spawning salmon and trout need. Draining mires makes rivers warmer and siltier and weakens the fishery."
+        },
+        {
+          "q": "Can I fish for salmon on the Teno in 2026?",
+          "a": "No. Atlantic-salmon fishing on the Teno (Tenojoki) is prohibited for 2026 under the Finland-Norway Teno fishing-agreement protocol, in force through 31 December 2026, because the salmon stocks are too weak. A permit for other species is available, but salmon must be left alone. Always check the current rules at tenonkalatalousalue.fi before travelling."
+        },
+        {
+          "q": "Do I need a permit to fish in Lapland?",
+          "a": "For most lure and gear fishing, yes: anglers aged 18-69 pay the national fisheries management fee (47 € year, 16 € week, 6 € day, via eraluvat.fi), and many waters need a separate area permit on top. Simple rod-and-line and ice fishing under Everyman's Right is free, and under-18s and those aged 70 and over are exempt from the national fee."
+        }
+      ]
+    },
+    "de": {
+      "title": "Freshwater Lapland: Lakes, Rivers, Mires & Fish",
+      "description": "Finland has roughly 188,000 lakes and ponds (SYKE). Lapland holds some of the cleanest of them, plus the unregulated Tornio-Muonio river system, aapa mires and the forests that keep the water cold. Why clean water is the region's rarest asset.",
+      "faq": [
+        {
+          "q": "How many lakes does Finland have?",
+          "a": "Around 188,000 lakes and ponds of at least 0.05 hectares, according to SYKE's national lake register (Järvi-meriwiki). The count depends on the size threshold used, roughly 57,000 lakes if you only count those larger than one hectare, so the headline figure always refers to the 0.05-hectare cut-off. Lapland holds some of the cleanest of them."
+        },
+        {
+          "q": "Is the Tornio really a free-flowing river?",
+          "a": "Yes. Together with Sweden's Kalix (Kalixälven), the Tornio-Muonio system is one of only two large unregulated river systems left in Finland and the EU, according to ymparisto.fi, meaning it has not been dammed for hydropower. Its main tributary, the Ounasjoki, is also protected from damming. That undammed state is why it is still a working wild-salmon river."
+        },
+        {
+          "q": "Why do aapa mires matter for fishing?",
+          "a": "A mire acts like the kidney of a watershed: it stores meltwater and rain, releases it slowly through dry spells, and filters out sediment and nutrients before they reach a river. That keeps the water downstream cold, clear and steady, which is exactly what spawning salmon and trout need. Draining mires makes rivers warmer and siltier and weakens the fishery."
+        },
+        {
+          "q": "Can I fish for salmon on the Teno in 2026?",
+          "a": "No. Atlantic-salmon fishing on the Teno (Tenojoki) is prohibited for 2026 under the Finland-Norway Teno fishing-agreement protocol, in force through 31 December 2026, because the salmon stocks are too weak. A permit for other species is available, but salmon must be left alone. Always check the current rules at tenonkalatalousalue.fi before travelling."
+        },
+        {
+          "q": "Do I need a permit to fish in Lapland?",
+          "a": "For most lure and gear fishing, yes: anglers aged 18-69 pay the national fisheries management fee (47 € year, 16 € week, 6 € day, via eraluvat.fi), and many waters need a separate area permit on top. Simple rod-and-line and ice fishing under Everyman's Right is free, and under-18s and those aged 70 and over are exempt from the national fee."
+        }
+      ]
+    },
+    "ja": {
+      "title": "Freshwater Lapland: Lakes, Rivers, Mires & Fish",
+      "description": "Finland has roughly 188,000 lakes and ponds (SYKE). Lapland holds some of the cleanest of them, plus the unregulated Tornio-Muonio river system, aapa mires and the forests that keep the water cold. Why clean water is the region's rarest asset.",
+      "faq": [
+        {
+          "q": "How many lakes does Finland have?",
+          "a": "Around 188,000 lakes and ponds of at least 0.05 hectares, according to SYKE's national lake register (Järvi-meriwiki). The count depends on the size threshold used, roughly 57,000 lakes if you only count those larger than one hectare, so the headline figure always refers to the 0.05-hectare cut-off. Lapland holds some of the cleanest of them."
+        },
+        {
+          "q": "Is the Tornio really a free-flowing river?",
+          "a": "Yes. Together with Sweden's Kalix (Kalixälven), the Tornio-Muonio system is one of only two large unregulated river systems left in Finland and the EU, according to ymparisto.fi, meaning it has not been dammed for hydropower. Its main tributary, the Ounasjoki, is also protected from damming. That undammed state is why it is still a working wild-salmon river."
+        },
+        {
+          "q": "Why do aapa mires matter for fishing?",
+          "a": "A mire acts like the kidney of a watershed: it stores meltwater and rain, releases it slowly through dry spells, and filters out sediment and nutrients before they reach a river. That keeps the water downstream cold, clear and steady, which is exactly what spawning salmon and trout need. Draining mires makes rivers warmer and siltier and weakens the fishery."
+        },
+        {
+          "q": "Can I fish for salmon on the Teno in 2026?",
+          "a": "No. Atlantic-salmon fishing on the Teno (Tenojoki) is prohibited for 2026 under the Finland-Norway Teno fishing-agreement protocol, in force through 31 December 2026, because the salmon stocks are too weak. A permit for other species is available, but salmon must be left alone. Always check the current rules at tenonkalatalousalue.fi before travelling."
+        },
+        {
+          "q": "Do I need a permit to fish in Lapland?",
+          "a": "For most lure and gear fishing, yes: anglers aged 18-69 pay the national fisheries management fee (47 € year, 16 € week, 6 € day, via eraluvat.fi), and many waters need a separate area permit on top. Simple rod-and-line and ice fishing under Everyman's Right is free, and under-18s and those aged 70 and over are exempt from the national fee."
+        }
+      ]
+    },
+    "es": {
+      "title": "Freshwater Lapland: Lakes, Rivers, Mires & Fish",
+      "description": "Finland has roughly 188,000 lakes and ponds (SYKE). Lapland holds some of the cleanest of them, plus the unregulated Tornio-Muonio river system, aapa mires and the forests that keep the water cold. Why clean water is the region's rarest asset.",
+      "faq": [
+        {
+          "q": "How many lakes does Finland have?",
+          "a": "Around 188,000 lakes and ponds of at least 0.05 hectares, according to SYKE's national lake register (Järvi-meriwiki). The count depends on the size threshold used, roughly 57,000 lakes if you only count those larger than one hectare, so the headline figure always refers to the 0.05-hectare cut-off. Lapland holds some of the cleanest of them."
+        },
+        {
+          "q": "Is the Tornio really a free-flowing river?",
+          "a": "Yes. Together with Sweden's Kalix (Kalixälven), the Tornio-Muonio system is one of only two large unregulated river systems left in Finland and the EU, according to ymparisto.fi, meaning it has not been dammed for hydropower. Its main tributary, the Ounasjoki, is also protected from damming. That undammed state is why it is still a working wild-salmon river."
+        },
+        {
+          "q": "Why do aapa mires matter for fishing?",
+          "a": "A mire acts like the kidney of a watershed: it stores meltwater and rain, releases it slowly through dry spells, and filters out sediment and nutrients before they reach a river. That keeps the water downstream cold, clear and steady, which is exactly what spawning salmon and trout need. Draining mires makes rivers warmer and siltier and weakens the fishery."
+        },
+        {
+          "q": "Can I fish for salmon on the Teno in 2026?",
+          "a": "No. Atlantic-salmon fishing on the Teno (Tenojoki) is prohibited for 2026 under the Finland-Norway Teno fishing-agreement protocol, in force through 31 December 2026, because the salmon stocks are too weak. A permit for other species is available, but salmon must be left alone. Always check the current rules at tenonkalatalousalue.fi before travelling."
+        },
+        {
+          "q": "Do I need a permit to fish in Lapland?",
+          "a": "For most lure and gear fishing, yes: anglers aged 18-69 pay the national fisheries management fee (47 € year, 16 € week, 6 € day, via eraluvat.fi), and many waters need a separate area permit on top. Simple rod-and-line and ice fishing under Everyman's Right is free, and under-18s and those aged 70 and over are exempt from the national fee."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Freshwater Lapland: Lakes, Rivers, Mires & Fish",
+      "description": "Finland has roughly 188,000 lakes and ponds (SYKE). Lapland holds some of the cleanest of them, plus the unregulated Tornio-Muonio river system, aapa mires and the forests that keep the water cold. Why clean water is the region's rarest asset.",
+      "faq": [
+        {
+          "q": "How many lakes does Finland have?",
+          "a": "Around 188,000 lakes and ponds of at least 0.05 hectares, according to SYKE's national lake register (Järvi-meriwiki). The count depends on the size threshold used, roughly 57,000 lakes if you only count those larger than one hectare, so the headline figure always refers to the 0.05-hectare cut-off. Lapland holds some of the cleanest of them."
+        },
+        {
+          "q": "Is the Tornio really a free-flowing river?",
+          "a": "Yes. Together with Sweden's Kalix (Kalixälven), the Tornio-Muonio system is one of only two large unregulated river systems left in Finland and the EU, according to ymparisto.fi, meaning it has not been dammed for hydropower. Its main tributary, the Ounasjoki, is also protected from damming. That undammed state is why it is still a working wild-salmon river."
+        },
+        {
+          "q": "Why do aapa mires matter for fishing?",
+          "a": "A mire acts like the kidney of a watershed: it stores meltwater and rain, releases it slowly through dry spells, and filters out sediment and nutrients before they reach a river. That keeps the water downstream cold, clear and steady, which is exactly what spawning salmon and trout need. Draining mires makes rivers warmer and siltier and weakens the fishery."
+        },
+        {
+          "q": "Can I fish for salmon on the Teno in 2026?",
+          "a": "No. Atlantic-salmon fishing on the Teno (Tenojoki) is prohibited for 2026 under the Finland-Norway Teno fishing-agreement protocol, in force through 31 December 2026, because the salmon stocks are too weak. A permit for other species is available, but salmon must be left alone. Always check the current rules at tenonkalatalousalue.fi before travelling."
+        },
+        {
+          "q": "Do I need a permit to fish in Lapland?",
+          "a": "For most lure and gear fishing, yes: anglers aged 18-69 pay the national fisheries management fee (47 € year, 16 € week, 6 € day, via eraluvat.fi), and many waters need a separate area permit on top. Simple rod-and-line and ice fishing under Everyman's Right is free, and under-18s and those aged 70 and over are exempt from the national fee."
+        }
+      ]
+    },
+    "zh-CN": {
+      "title": "Freshwater Lapland: Lakes, Rivers, Mires & Fish",
+      "description": "Finland has roughly 188,000 lakes and ponds (SYKE). Lapland holds some of the cleanest of them, plus the unregulated Tornio-Muonio river system, aapa mires and the forests that keep the water cold. Why clean water is the region's rarest asset.",
+      "faq": [
+        {
+          "q": "How many lakes does Finland have?",
+          "a": "Around 188,000 lakes and ponds of at least 0.05 hectares, according to SYKE's national lake register (Järvi-meriwiki). The count depends on the size threshold used, roughly 57,000 lakes if you only count those larger than one hectare, so the headline figure always refers to the 0.05-hectare cut-off. Lapland holds some of the cleanest of them."
+        },
+        {
+          "q": "Is the Tornio really a free-flowing river?",
+          "a": "Yes. Together with Sweden's Kalix (Kalixälven), the Tornio-Muonio system is one of only two large unregulated river systems left in Finland and the EU, according to ymparisto.fi, meaning it has not been dammed for hydropower. Its main tributary, the Ounasjoki, is also protected from damming. That undammed state is why it is still a working wild-salmon river."
+        },
+        {
+          "q": "Why do aapa mires matter for fishing?",
+          "a": "A mire acts like the kidney of a watershed: it stores meltwater and rain, releases it slowly through dry spells, and filters out sediment and nutrients before they reach a river. That keeps the water downstream cold, clear and steady, which is exactly what spawning salmon and trout need. Draining mires makes rivers warmer and siltier and weakens the fishery."
+        },
+        {
+          "q": "Can I fish for salmon on the Teno in 2026?",
+          "a": "No. Atlantic-salmon fishing on the Teno (Tenojoki) is prohibited for 2026 under the Finland-Norway Teno fishing-agreement protocol, in force through 31 December 2026, because the salmon stocks are too weak. A permit for other species is available, but salmon must be left alone. Always check the current rules at tenonkalatalousalue.fi before travelling."
+        },
+        {
+          "q": "Do I need a permit to fish in Lapland?",
+          "a": "For most lure and gear fishing, yes: anglers aged 18-69 pay the national fisheries management fee (47 € year, 16 € week, 6 € day, via eraluvat.fi), and many waters need a separate area permit on top. Simple rod-and-line and ice fishing under Everyman's Right is free, and under-18s and those aged 70 and over are exempt from the national fee."
+        }
+      ]
+    },
+    "ko": {
+      "title": "Freshwater Lapland: Lakes, Rivers, Mires & Fish",
+      "description": "Finland has roughly 188,000 lakes and ponds (SYKE). Lapland holds some of the cleanest of them, plus the unregulated Tornio-Muonio river system, aapa mires and the forests that keep the water cold. Why clean water is the region's rarest asset.",
+      "faq": [
+        {
+          "q": "How many lakes does Finland have?",
+          "a": "Around 188,000 lakes and ponds of at least 0.05 hectares, according to SYKE's national lake register (Järvi-meriwiki). The count depends on the size threshold used, roughly 57,000 lakes if you only count those larger than one hectare, so the headline figure always refers to the 0.05-hectare cut-off. Lapland holds some of the cleanest of them."
+        },
+        {
+          "q": "Is the Tornio really a free-flowing river?",
+          "a": "Yes. Together with Sweden's Kalix (Kalixälven), the Tornio-Muonio system is one of only two large unregulated river systems left in Finland and the EU, according to ymparisto.fi, meaning it has not been dammed for hydropower. Its main tributary, the Ounasjoki, is also protected from damming. That undammed state is why it is still a working wild-salmon river."
+        },
+        {
+          "q": "Why do aapa mires matter for fishing?",
+          "a": "A mire acts like the kidney of a watershed: it stores meltwater and rain, releases it slowly through dry spells, and filters out sediment and nutrients before they reach a river. That keeps the water downstream cold, clear and steady, which is exactly what spawning salmon and trout need. Draining mires makes rivers warmer and siltier and weakens the fishery."
+        },
+        {
+          "q": "Can I fish for salmon on the Teno in 2026?",
+          "a": "No. Atlantic-salmon fishing on the Teno (Tenojoki) is prohibited for 2026 under the Finland-Norway Teno fishing-agreement protocol, in force through 31 December 2026, because the salmon stocks are too weak. A permit for other species is available, but salmon must be left alone. Always check the current rules at tenonkalatalousalue.fi before travelling."
+        },
+        {
+          "q": "Do I need a permit to fish in Lapland?",
+          "a": "For most lure and gear fishing, yes: anglers aged 18-69 pay the national fisheries management fee (47 € year, 16 € week, 6 € day, via eraluvat.fi), and many waters need a separate area permit on top. Simple rod-and-line and ice fishing under Everyman's Right is free, and under-18s and those aged 70 and over are exempt from the national fee."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Freshwater Lapland: Lakes, Rivers, Mires & Fish",
+      "description": "Finland has roughly 188,000 lakes and ponds (SYKE). Lapland holds some of the cleanest of them, plus the unregulated Tornio-Muonio river system, aapa mires and the forests that keep the water cold. Why clean water is the region's rarest asset.",
+      "faq": [
+        {
+          "q": "How many lakes does Finland have?",
+          "a": "Around 188,000 lakes and ponds of at least 0.05 hectares, according to SYKE's national lake register (Järvi-meriwiki). The count depends on the size threshold used, roughly 57,000 lakes if you only count those larger than one hectare, so the headline figure always refers to the 0.05-hectare cut-off. Lapland holds some of the cleanest of them."
+        },
+        {
+          "q": "Is the Tornio really a free-flowing river?",
+          "a": "Yes. Together with Sweden's Kalix (Kalixälven), the Tornio-Muonio system is one of only two large unregulated river systems left in Finland and the EU, according to ymparisto.fi, meaning it has not been dammed for hydropower. Its main tributary, the Ounasjoki, is also protected from damming. That undammed state is why it is still a working wild-salmon river."
+        },
+        {
+          "q": "Why do aapa mires matter for fishing?",
+          "a": "A mire acts like the kidney of a watershed: it stores meltwater and rain, releases it slowly through dry spells, and filters out sediment and nutrients before they reach a river. That keeps the water downstream cold, clear and steady, which is exactly what spawning salmon and trout need. Draining mires makes rivers warmer and siltier and weakens the fishery."
+        },
+        {
+          "q": "Can I fish for salmon on the Teno in 2026?",
+          "a": "No. Atlantic-salmon fishing on the Teno (Tenojoki) is prohibited for 2026 under the Finland-Norway Teno fishing-agreement protocol, in force through 31 December 2026, because the salmon stocks are too weak. A permit for other species is available, but salmon must be left alone. Always check the current rules at tenonkalatalousalue.fi before travelling."
+        },
+        {
+          "q": "Do I need a permit to fish in Lapland?",
+          "a": "For most lure and gear fishing, yes: anglers aged 18-69 pay the national fisheries management fee (47 € year, 16 € week, 6 € day, via eraluvat.fi), and many waters need a separate area permit on top. Simple rod-and-line and ice fishing under Everyman's Right is free, and under-18s and those aged 70 and over are exempt from the national fee."
+        }
+      ]
+    },
+    "it": {
+      "title": "Freshwater Lapland: Lakes, Rivers, Mires & Fish",
+      "description": "Finland has roughly 188,000 lakes and ponds (SYKE). Lapland holds some of the cleanest of them, plus the unregulated Tornio-Muonio river system, aapa mires and the forests that keep the water cold. Why clean water is the region's rarest asset.",
+      "faq": [
+        {
+          "q": "How many lakes does Finland have?",
+          "a": "Around 188,000 lakes and ponds of at least 0.05 hectares, according to SYKE's national lake register (Järvi-meriwiki). The count depends on the size threshold used, roughly 57,000 lakes if you only count those larger than one hectare, so the headline figure always refers to the 0.05-hectare cut-off. Lapland holds some of the cleanest of them."
+        },
+        {
+          "q": "Is the Tornio really a free-flowing river?",
+          "a": "Yes. Together with Sweden's Kalix (Kalixälven), the Tornio-Muonio system is one of only two large unregulated river systems left in Finland and the EU, according to ymparisto.fi, meaning it has not been dammed for hydropower. Its main tributary, the Ounasjoki, is also protected from damming. That undammed state is why it is still a working wild-salmon river."
+        },
+        {
+          "q": "Why do aapa mires matter for fishing?",
+          "a": "A mire acts like the kidney of a watershed: it stores meltwater and rain, releases it slowly through dry spells, and filters out sediment and nutrients before they reach a river. That keeps the water downstream cold, clear and steady, which is exactly what spawning salmon and trout need. Draining mires makes rivers warmer and siltier and weakens the fishery."
+        },
+        {
+          "q": "Can I fish for salmon on the Teno in 2026?",
+          "a": "No. Atlantic-salmon fishing on the Teno (Tenojoki) is prohibited for 2026 under the Finland-Norway Teno fishing-agreement protocol, in force through 31 December 2026, because the salmon stocks are too weak. A permit for other species is available, but salmon must be left alone. Always check the current rules at tenonkalatalousalue.fi before travelling."
+        },
+        {
+          "q": "Do I need a permit to fish in Lapland?",
+          "a": "For most lure and gear fishing, yes: anglers aged 18-69 pay the national fisheries management fee (47 € year, 16 € week, 6 € day, via eraluvat.fi), and many waters need a separate area permit on top. Simple rod-and-line and ice fishing under Everyman's Right is free, and under-18s and those aged 70 and over are exempt from the national fee."
+        }
+      ]
+    },
+    "nl": {
+      "title": "Freshwater Lapland: Lakes, Rivers, Mires & Fish",
+      "description": "Finland has roughly 188,000 lakes and ponds (SYKE). Lapland holds some of the cleanest of them, plus the unregulated Tornio-Muonio river system, aapa mires and the forests that keep the water cold. Why clean water is the region's rarest asset.",
+      "faq": [
+        {
+          "q": "How many lakes does Finland have?",
+          "a": "Around 188,000 lakes and ponds of at least 0.05 hectares, according to SYKE's national lake register (Järvi-meriwiki). The count depends on the size threshold used, roughly 57,000 lakes if you only count those larger than one hectare, so the headline figure always refers to the 0.05-hectare cut-off. Lapland holds some of the cleanest of them."
+        },
+        {
+          "q": "Is the Tornio really a free-flowing river?",
+          "a": "Yes. Together with Sweden's Kalix (Kalixälven), the Tornio-Muonio system is one of only two large unregulated river systems left in Finland and the EU, according to ymparisto.fi, meaning it has not been dammed for hydropower. Its main tributary, the Ounasjoki, is also protected from damming. That undammed state is why it is still a working wild-salmon river."
+        },
+        {
+          "q": "Why do aapa mires matter for fishing?",
+          "a": "A mire acts like the kidney of a watershed: it stores meltwater and rain, releases it slowly through dry spells, and filters out sediment and nutrients before they reach a river. That keeps the water downstream cold, clear and steady, which is exactly what spawning salmon and trout need. Draining mires makes rivers warmer and siltier and weakens the fishery."
+        },
+        {
+          "q": "Can I fish for salmon on the Teno in 2026?",
+          "a": "No. Atlantic-salmon fishing on the Teno (Tenojoki) is prohibited for 2026 under the Finland-Norway Teno fishing-agreement protocol, in force through 31 December 2026, because the salmon stocks are too weak. A permit for other species is available, but salmon must be left alone. Always check the current rules at tenonkalatalousalue.fi before travelling."
+        },
+        {
+          "q": "Do I need a permit to fish in Lapland?",
+          "a": "For most lure and gear fishing, yes: anglers aged 18-69 pay the national fisheries management fee (47 € year, 16 € week, 6 € day, via eraluvat.fi), and many waters need a separate area permit on top. Simple rod-and-line and ice fishing under Everyman's Right is free, and under-18s and those aged 70 and over are exempt from the national fee."
+        }
+      ]
+    }
+  },
   "/hiking-trails": {
     "en": {
       "title": "Lapland Hiking Trails: 5 km Day Hikes to 82 km Routes",

@@ -15,6 +15,7 @@ export type FaqNavKey =
   | 'northernLights'
   | 'seasons'
   | 'conservation'
+  | 'freshwater'
 
 const FAQ_ROUTE: Record<FaqNavKey, string> = {
   nationalParks: '/national-parks',
@@ -23,6 +24,7 @@ const FAQ_ROUTE: Record<FaqNavKey, string> = {
   northernLights: '/northern-lights',
   seasons: '/seasons',
   conservation: '/conservation',
+  freshwater: '/freshwater',
 }
 
 export default function FaqLinks({ keys }: { keys?: FaqNavKey[] }) {

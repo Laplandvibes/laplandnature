@@ -195,6 +195,9 @@ export default function Conservation() {
             <Link to={to('/national-parks')} className="px-4 py-2 rounded-full bg-aurora-green/10 text-aurora-green border border-aurora-green/25 hover:bg-aurora-green hover:text-snow transition-colors font-semibold">
               {c.crossLinks.parks}
             </Link>
+            <Link to={to('/freshwater')} className="px-4 py-2 rounded-full bg-aurora-green/10 text-aurora-green border border-aurora-green/25 hover:bg-aurora-green hover:text-snow transition-colors font-semibold">
+              {c.crossLinks.freshwater}
+            </Link>
             <HubLink href="https://laplandvibes.com" placement="conservation_hub_cta" className="px-4 py-2 rounded-full bg-vibe-pink/10 text-vibe-pink border border-vibe-pink/25 hover:bg-vibe-pink hover:text-snow transition-colors font-semibold">
               {c.crossLinks.hub}
             </HubLink>

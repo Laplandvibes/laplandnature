@@ -24,6 +24,7 @@ export default function Nav() {
     { href: to('/northern-lights'), label: c.northernLights },
     { href: to('/seasons'), label: c.seasons },
     { href: to('/conservation'), label: c.conservation },
+    { href: to('/freshwater'), label: c.freshwater },
   ]
 
   useEffect(() => {
