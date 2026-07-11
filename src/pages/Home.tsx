@@ -7,6 +7,8 @@ import LaplandMap from '../components/LaplandMap'
 import Newsletter from '../components/Newsletter'
 import { useLang, useLocalePath } from '../i18n/useLang'
 import { COPY } from '../locales/copy'
+import HomeAdSlots, { MainPartnerBanner } from '../../../shared/HomeAdSlots'
+import { AD_SLOTS } from '../data/adSlots'
 
 const cardImages = [
   'card-national-parks.webp',
@@ -116,6 +118,10 @@ export default function Home() {
         </div>
       </HeroImage>
 
+      {/* PÄÄKUMPPANI-banneri heti heron alla — sivun paras mainospaikka,
+          tyhjänä kompakti house-ad → LV Media -portaali (cream-tausta → light) */}
+      <MainPartnerBanner config={AD_SLOTS} locale={lang} surface="light" />
+
       <section
         className="relative overflow-hidden"
         style={{
@@ -179,6 +185,11 @@ export default function Home() {
           }}
         />
       </section>
+
+      {/* Kumppaniosio heti ensimmäisen sisältöosion (tilastoband) jälkeen:
+          kakkospääkumppani + 6 premium-paikkaa — pääkumppanit eivät näy
+          vierekkäin (banneri ↑ heron alla). Cream-tausta → surface="light". */}
+      <HomeAdSlots config={AD_SLOTS} locale={lang} surface="light" />
 
       <section className="py-16 sm:py-24 px-4 sm:px-6">
         <div className="max-w-6xl mx-auto">
