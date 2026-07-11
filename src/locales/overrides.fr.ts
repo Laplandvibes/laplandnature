@@ -12,6 +12,7 @@ export const FR_OVERRIDES: DeepPartial<SectionCopy> = {
     northernLights: 'Aurore boréale',
     seasons: 'Saisons',
     conservation: 'Conservation',
+    freshwater: 'Eaux douces',
   },
   newsletter: {
     eyebrow: 'Newsletter #LAPLANDVIBES',
@@ -105,7 +106,7 @@ export const FR_OVERRIDES: DeepPartial<SectionCopy> = {
       ],
     },
     featured: {
-      kicker: 'Six portes d\'entrée',
+      kicker: 'Sept portes d\'entrée',
       h2: 'Expériences phares de Laponie',
       lead: 'Des affûts d\'ours près de la frontière russe aux canyons de cascades gelées, du canoë sous le soleil de minuit au ciel kaamos au-dessus d\'Utsjoki, sept guides à revisiter.',
       items: [
@@ -115,6 +116,7 @@ export const FR_OVERRIDES: DeepPartial<SectionCopy> = {
         { tag: 'Sentiers', title: 'Randonnée', blurb: 'Parcourez les sentiers les plus emblématiques de Finlande, des ponts suspendus du Karhunkierros (82 km) au sommet du Halti (1 324 m).', cta: 'Explorer la randonnée' },
         { tag: 'Intendance', title: 'Conservation', blurb: 'Metsähallitus gère 85 % des fjells de Laponie et les sept parcs nationaux. Plus le droit d\'accès à la nature, la loi finlandaise d\'accès libre.', cta: 'Explorer la conservation' },
         { tag: 'Été', title: 'Soleil de minuit', blurb: 'Au-delà du cercle polaire, le soleil ne se couche pas en plein été. À Utsjoki, le soleil de minuit dure plus de 70 jours d\'affilée.', cta: 'Explorer les saisons' },
+        { tag: 'Eau', title: 'Eaux douces', blurb: 'Environ 188 000 lacs, la rivière Tornio à écoulement libre et les tourbières aapa. Pourquoi l\'eau froide et pure est la ressource la plus rare de Laponie, et ce qui y maintient le poisson.', cta: 'Explorer les eaux douces' },
       ],
     },
     map: {
@@ -529,6 +531,103 @@ export const FR_OVERRIDES: DeepPartial<SectionCopy> = {
       { h2: 'Revenus d\'affiliation', body: 'Certains liens de ce site passent par go.laplandvibes.com et nous versent une petite commission lorsque vous réservez, sans surcoût pour vous. Les revenus d\'affiliation couvrent l\'hébergement et le temps de rédaction. Ils ne décident jamais des destinations ou opérateurs présentés, et ne modifient pas les recommandations d\'une page.' },
       { h2: 'Corrections', body: 'Si vous repérez une erreur factuelle, distance, dates d\'ouverture, statut faunique, quoi que ce soit, écrivez à info@laplandvibes.com. Les corrections sont apportées rapidement et signalées sur la page.' }
     ],
+  },
+  freshwater: {
+    metaTitle: 'Eaux douces de Laponie : lacs, rivières, tourbières et poissons',
+    metaDescription: 'La Finlande compte environ 188 000 lacs et étangs (SYKE). La Laponie en abrite les plus purs, avec le système fluvial non aménagé du Tornio-Muonio, les tourbières aapa et les forêts qui gardent l\'eau froide. Pourquoi l\'eau pure est la ressource la plus rare de la région.',
+    hero: {
+      eyebrow: 'Guide phare',
+      title: 'Eaux douces de Laponie',
+      subtitle: 'Le pays des mille lacs',
+      description: 'L\'eau froide et pure est le luxe le plus rare de Laponie. Lacs, rivières libres, tourbières aapa et vieilles forêts forment un seul système, et la pêche ne reste bonne ici que tant que l\'ensemble se porte bien.',
+      alt: 'Lac de Laponie lisse comme un miroir au soleil de minuit, avec une tourbière aapa ouverte au premier plan',
+    },
+    introKicker: 'Pourquoi l\'eau d\'abord',
+    introH2: 'L\'eau pure, c\'est tout l\'enjeu',
+    introLead: 'Chaque poisson, chaque renne, chaque récolte de baies en Laponie dépend de la même eau qui circule dans le même paysage. La Finlande compte environ 188 000 lacs et étangs d\'au moins 0,05 hectare (registre des lacs de SYKE), et le nord en abrite les moins perturbés. Considérez les lacs, les rivières, les tourbières et les forêts comme quatre parties d\'un même système vivant, et la raison de les protéger devient évidente : perdez l\'eau et vous perdez tout ce qui se trouve en aval.',
+    chaptersKicker: 'Les quatre parties',
+    chaptersH2: 'Un système, quatre parties',
+    lakes: {
+      title: 'Lacs',
+      body1: 'On appelle souvent la Finlande le pays des mille lacs, et le chiffre réel est bien plus élevé : environ 188 000 lacs et étangs d\'au moins 0,05 hectare, selon le registre Järvi-meriwiki de SYKE. Ceux de Laponie comptent parmi les plus limpides, alimentés par la fonte des neiges et des bassins versants ombragés plutôt que par le ruissellement agricole.',
+      body2: 'Le lac Inari (Inarijärvi), au cœur du territoire sami, est l\'un des plus grands lacs de Finlande et alimente le système du Paatsjoki qui s\'écoule vers le nord jusqu\'à l\'océan Arctique. Son eau froide et riche en oxygène abrite l\'omble chevalier, la truite fario et le corégone, des espèces qui ne prospèrent que là où l\'eau reste froide et pure.',
+    },
+    rivers: {
+      title: 'Rivières libres',
+      body1: 'La plupart des grandes rivières européennes sont barrées pour l\'hydroélectricité. Le système du Tornio-Muonio fait exception : avec le Kalix suédois (Kalixälven), c\'est l\'un des deux seuls grands systèmes fluviaux non régulés qui subsistent en Finlande et dans l\'UE, selon ymparisto.fi. Une rivière sans barrage est libre de déborder, de déplacer les graviers et de reconstruire les frayères dont le saumon a besoin.',
+      body2: 'Cet état de libre écoulement explique pourquoi le Tornio est redevenu une véritable rivière à saumon sauvage après des décennies de déclin. Son principal affluent, l\'Ounasjoki, est lui aussi protégé de tout barrage hydroélectrique. Ce ne sont pas des hasards pittoresques ; ce sont des choix délibérés de laisser une rivière tranquille, et c\'est la raison pour laquelle il reste des poissons à pêcher.',
+    },
+    mires: {
+      title: 'Tourbières aapa',
+      body1: 'Une tourbière n\'est pas une terre perdue. Dans la pensée finlandaise de l\'eau, une tourbière est le rein du bassin versant : elle stocke la pluie et l\'eau de fonte, la restitue lentement pendant les périodes sèches, et filtre les sédiments et les nutriments avant même qu\'ils n\'atteignent une rivière. Drainez la tourbière et la rivière en aval coule plus brune, plus chaude et plus irrégulière, au détriment des poissons qui fraient.',
+      body2: 'Les tourbières aapa de Laponie, les vastes fens structurés du nord, sont aussi d\'importants réservoirs de carbone. La Finlande protège les zones humides d\'importance internationale au titre de la convention de Ramsar (49 sites, selon ym.fi) ; Martimoaapa-Lumiaapa-Penikat, un complexe de tourbières aapa près de Ranua, en fait partie. Garder les tourbières humides préserve à la fois l\'eau et le climat.',
+    },
+    forests: {
+      title: 'Forêts et bassins versants',
+      body1: 'La forêt qui entoure un ruisseau accomplit un travail discret et essentiel. Un couvert fermé ombrage l\'eau et la garde froide, et l\'eau froide retient plus d\'oxygène, exactement ce dont la truite et l\'omble ont besoin. Abattez les arbres jusqu\'à la berge et l\'eau se réchauffe, affaiblissant la pêcherie par le haut.',
+      body2: 'Les racines des arbres et des arbustes fixent le sol du bassin versant, si bien que la pluie s\'infiltre au lieu de raviner les berges et de déverser du limon sur les graviers où fraient les poissons. La forêt ancienne, avec ses systèmes racinaires profonds et son bois mort à décomposition lente, fait partie du cycle de l\'eau, elle n\'en est pas séparée. Protéger la forêt, c\'est protéger la rivière.',
+    },
+    fish: {
+      kicker: 'En aval de tout cela',
+      title: 'Les stocks de poissons : le système qui tient les comptes',
+      lead: 'Les poissons sont le bulletin de notes honnête de tout ce qui précède. Quand les lacs, les rivières, les tourbières et les forêts se portent bien, la pêche est bonne ; quand ce n\'est pas le cas, les poissons disparaissent en premier. Quatre récits des rivières de Laponie montrent à quel point les deux sont liés.',
+      stories: [
+        {
+          title: 'Le Teno : fermé pour protéger le saumon',
+          body: 'Le Teno (Tenojoki) était l\'une des grandes rivières à saumon atlantique du monde. Ses stocks sont désormais si faibles que la pêche au saumon y est interdite pour 2026 en vertu du protocole de l\'accord de pêche du Teno entre la Finlande et la Norvège, en vigueur jusqu\'au 31 décembre 2026. Un permis pour d\'autres espèces existe, mais le saumon est laissé tranquille. Consultez les règles en vigueur sur tenonkalatalousalue.fi.',
+        },
+        {
+          title: 'Le Tornio : une rivière sauvage qui se rétablit',
+          body: 'Sur le Tornio, à l\'écoulement libre, l\'histoire va dans l\'autre sens : des limites prudentes et coordonnées ont aidé le saumon sauvage à revenir. La saison 2026 est étroitement encadrée, dates courtes, quotas faibles, fermetures hebdomadaires et tailles minimales, tout est réglé pour poursuivre le rétablissement. Vérifiez les conditions en vigueur sur la page de la zone eräluvat.fi avant de pêcher.',
+        },
+        {
+          title: 'Le saumon rose : un nouveau venu indésirable',
+          body: 'Le saumon rose ou saumon à bosse (Oncorhynchus gorbuscha) est une espèce envahissante, originaire du Pacifique Nord et propagée dans le nord de la Norvège et le Teno depuis environ 2017. Ses effectifs varient fortement d\'une année à l\'autre et il concurrence le saumon indigène. La Finlande le classe comme envahissant (vieraslajit.fi) ; Luke surveille la remontée de chaque saison.',
+        },
+        {
+          title: 'La redevance qui finance le poisson',
+          body: 'Toute personne de 18 à 69 ans pêchant au leurre ou à l\'engin en Finlande paie la redevance nationale de gestion halieutique, 47 € à l\'année, 16 € la semaine ou 6 € la journée (eraluvat.fi). Elle finance le suivi des stocks, la restauration et l\'aménagement des passes à poissons. Les moins de 18 ans et les 70 ans et plus en sont exemptés, et la simple pêche à la ligne au titre du droit d\'accès à la nature est gratuite.',
+        },
+      ],
+      feeNote: 'Les règles et les dates sont redéfinies chaque année. Vérifiez toujours la saison, les quotas et les redevances en vigueur sur les pages officielles avant de réserver ou de pêcher.',
+      pillarCta: 'Planifier un séjour pêche (guide des activités)',
+    },
+    finalKicker: 'Protégez-la, puis profitez-en',
+    finalH2: 'L\'eau vaut la peine d\'être protégée',
+    finalLead: 'On n\'achète pas une eau froide et pure ; on ne peut que la préserver ou la perdre. Choisissez des opérateurs qui pêchent dans les limites, tenez-vous aux itinéraires balisés à travers les tourbières fragiles, et laissez les berges et la forêt telles que vous les avez trouvées. La meilleure chose qu\'un visiteur puisse faire pour les poissons de Laponie, c\'est de traiter son eau comme le luxe qu\'elle est.',
+    crossLinks: {
+      conservation: 'Qui protège la wilderness →',
+      wildlife: 'La faune qu\'elle soutient →',
+      fishing: 'La pêche en Laponie (activités) →',
+      hub: 'Guide de voyage plus large en Laponie →',
+    },
+    faq: {
+      eyebrow: 'Questions fréquentes',
+      h2: 'Eaux douces de Laponie, questions fréquentes',
+      items: [
+        {
+          q: 'Combien de lacs compte la Finlande ?',
+          a: 'Environ 188 000 lacs et étangs d\'au moins 0,05 hectare, selon le registre national des lacs de SYKE (Järvi-meriwiki). Le décompte dépend du seuil de taille retenu, environ 57 000 lacs si l\'on ne compte que ceux de plus d\'un hectare, si bien que le chiffre phare renvoie toujours au seuil de 0,05 hectare. La Laponie en abrite les plus purs.',
+        },
+        {
+          q: 'Le Tornio est-il vraiment une rivière à écoulement libre ?',
+          a: 'Oui. Avec le Kalix suédois (Kalixälven), le système du Tornio-Muonio est l\'un des deux seuls grands systèmes fluviaux non régulés qui subsistent en Finlande et dans l\'UE, selon ymparisto.fi, c\'est-à-dire qu\'il n\'a pas été barré pour l\'hydroélectricité. Son principal affluent, l\'Ounasjoki, est lui aussi protégé de tout barrage. C\'est cet état sans barrage qui explique qu\'il reste une véritable rivière à saumon sauvage.',
+        },
+        {
+          q: 'Pourquoi les tourbières aapa comptent-elles pour la pêche ?',
+          a: 'Une tourbière agit comme le rein d\'un bassin versant : elle stocke l\'eau de fonte et la pluie, la restitue lentement pendant les périodes sèches, et filtre les sédiments et les nutriments avant qu\'ils n\'atteignent une rivière. Cela garde l\'eau en aval froide, claire et régulière, exactement ce dont le saumon et la truite ont besoin pour frayer. Drainer les tourbières rend les rivières plus chaudes et plus chargées de limon et affaiblit la pêcherie.',
+        },
+        {
+          q: 'Puis-je pêcher le saumon sur le Teno en 2026 ?',
+          a: 'Non. La pêche au saumon atlantique sur le Teno (Tenojoki) est interdite pour 2026 en vertu du protocole de l\'accord de pêche du Teno entre la Finlande et la Norvège, en vigueur jusqu\'au 31 décembre 2026, car les stocks de saumon sont trop faibles. Un permis pour d\'autres espèces est disponible, mais le saumon doit être laissé tranquille. Vérifiez toujours les règles en vigueur sur tenonkalatalousalue.fi avant de partir.',
+        },
+        {
+          q: 'Ai-je besoin d\'un permis pour pêcher en Laponie ?',
+          a: 'Pour la plupart des pêches au leurre et à l\'engin, oui : les pêcheurs de 18 à 69 ans paient la redevance nationale de gestion halieutique (47 € l\'année, 16 € la semaine, 6 € la journée, via eraluvat.fi), et de nombreuses eaux exigent en plus un permis de zone distinct. La simple pêche à la ligne et la pêche sur glace au titre du droit d\'accès à la nature sont gratuites, et les moins de 18 ans comme les 70 ans et plus sont exemptés de la redevance nationale.',
+        },
+      ],
+    },
+    verifyLine: 'Sources : SYKE (registre des lacs Järvi-meriwiki), ymparisto.fi (Tornio-Muonio Natura 2000), ym.fi (zones humides Ramsar), Metsähallitus, Luke, eräluvat.fi et l\'accord Finlande-Norvège sur le Teno. Les règles, redevances et saisons de pêche sont redéfinies chaque année, vérifiez les chiffres en vigueur sur les pages officielles avant de partir.',
   },
   notFound: {
     metaTitle: 'Page introuvable, LaplandNature',

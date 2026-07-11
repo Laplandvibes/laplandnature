@@ -12,6 +12,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
     northernLights: 'Aurora boreal',
     seasons: 'Estações',
     conservation: 'Conservação',
+    freshwater: 'Água doce',
   },
   newsletter: {
     eyebrow: 'Newsletter #LAPLANDVIBES',
@@ -105,7 +106,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
       ],
     },
     featured: {
-      kicker: 'Seis portas de entrada',
+      kicker: 'Sete portas de entrada',
       h2: 'Experiências em destaque na Lapônia',
       lead: 'Dos esconderijos de observação de ursos na fronteira russa aos cânions de cachoeira congelada, canoagem sob o sol da meia-noite e o céu kaamos sobre Utsjoki, sete guias para voltar mais de uma vez.',
       items: [
@@ -144,6 +145,12 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
           title: 'Sol da meia-noite',
           blurb: 'Acima do Círculo Polar Ártico o sol não se põe no auge do verão. Em Utsjoki o sol da meia-noite se mantém por mais de 70 dias seguidos.',
           cta: 'Explorar as estações',
+        },
+        {
+          tag: 'Água',
+          title: 'Água doce',
+          blurb: 'Cerca de 188 000 lagos, o rio Tornio de curso livre e as turfeiras aapa. Por que a água fria e limpa é o bem mais raro da Lapônia, e o que mantém os peixes nela.',
+          cta: 'Explorar a água doce',
         },
       ],
     },
@@ -559,6 +566,103 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
       { h2: 'Receita de afiliação', body: 'Alguns links deste site passam por go.laplandvibes.com e geram uma pequena comissão quando você reserva, sem custo adicional para você. A receita de afiliação cobre a hospedagem e o tempo de escrita. Nunca decide quais destinos ou operadores aparecem nem muda as recomendações de uma página.' },
       { h2: 'Correções', body: 'Se encontrar um erro factual, distância, datas de abertura, status de uma espécie, o que for, escreva para info@laplandvibes.com. As correções são feitas com rapidez e anotadas na página.' }
     ],
+  },
+  freshwater: {
+    metaTitle: 'Água doce na Lapônia: lagos, rios, turfeiras e peixes',
+    metaDescription: 'A Finlândia tem cerca de 188 000 lagos e lagoas (SYKE). A Lapônia abriga alguns dos mais limpos, além do sistema fluvial não regulado do Tornio-Muonio, das turfeiras aapa e das florestas que mantêm a água fria. Por que a água limpa é o bem mais raro da região.',
+    hero: {
+      eyebrow: 'Guia essencial',
+      title: 'Água doce na Lapônia',
+      subtitle: 'A terra dos mil lagos',
+      description: 'A água fria e limpa é o luxo mais raro da Lapônia. Lagos, rios de curso livre, turfeiras aapa e florestas antigas formam um único sistema, e aqui a pesca só continua boa enquanto o conjunto inteiro está saudável.',
+      alt: 'Lago lapão liso como um espelho sob o sol da meia-noite, com uma turfeira aapa aberta em primeiro plano',
+    },
+    introKicker: 'Por que a água vem primeiro',
+    introH2: 'A água limpa é tudo',
+    introLead: 'Cada peixe, cada rena, cada colheita de frutas silvestres na Lapônia depende da mesma água que corre pela mesma paisagem. A Finlândia tem cerca de 188 000 lagos e lagoas de pelo menos 0,05 hectare (o registro de lagos da SYKE), e o norte abriga alguns dos menos perturbados. Considere os lagos, rios, turfeiras e florestas como quatro partes de um mesmo sistema vivo e a razão para protegê-los fica evidente: perca a água e você perderá tudo o que está rio abaixo.',
+    chaptersKicker: 'As quatro partes',
+    chaptersH2: 'Um sistema, quatro partes',
+    lakes: {
+      title: 'Lagos',
+      body1: 'A Finlândia é muitas vezes chamada de terra dos mil lagos, e o número real é bem maior: cerca de 188 000 lagos e lagoas de pelo menos 0,05 hectare, segundo o registro Järvi-meriwiki da SYKE. Os da Lapônia estão entre os mais cristalinos, alimentados pelo degelo e por bacias sombreadas, e não pelo escoamento agrícola.',
+      body2: 'O lago Inari (Inarijärvi), no coração do território sami, é um dos maiores lagos da Finlândia e alimenta o sistema do Paatsjoki, que drena para o norte até o oceano Ártico. Sua água fria e rica em oxigênio abriga o salvelino-do-ártico, a truta-marrom e o coregono, espécies que só prosperam onde a água permanece fria e limpa.',
+    },
+    rivers: {
+      title: 'Rios de curso livre',
+      body1: 'A maioria dos grandes rios europeus é barrada para gerar energia hidrelétrica. O sistema do Tornio-Muonio é uma das exceções: junto com o Kalix sueco (Kalixälven), é um dos apenas dois grandes sistemas fluviais não regulados que restam na Finlândia e na UE, segundo ymparisto.fi. Um rio sem barragens é livre para transbordar, mover o cascalho e reconstruir os leitos de desova de que o salmão precisa.',
+      body2: 'Esse estado de curso livre é a razão pela qual o Tornio voltou a ser um rio de salmão selvagem em atividade após décadas de declínio. Seu principal afluente, o Ounasjoki, também é protegido do barramento hidrelétrico. Não são acasos pitorescos; são escolhas deliberadas de deixar um rio em paz, e são a razão pela qual ainda há peixes para pescar.',
+    },
+    mires: {
+      title: 'Turfeiras aapa',
+      body1: 'Uma turfeira não é terra desperdiçada. No pensamento finlandês sobre a água, um pântano é o rim da bacia: armazena a chuva e a água do degelo, libera-a lentamente nos períodos secos e filtra sedimentos e nutrientes antes que cheguem a um rio. Drene a turfeira e o rio rio abaixo corre mais turvo, mais quente e mais irregular, pior para os peixes que desovam.',
+      body2: 'As turfeiras aapa da Lapônia, os vastos brejos estruturados do norte, são também grandes reservatórios de carbono. A Finlândia protege as zonas úmidas de importância internacional no âmbito da Convenção de Ramsar (49 sítios, segundo ym.fi); Martimoaapa-Lumiaapa-Penikat, um complexo de turfeiras aapa perto de Ranua, é um deles. Manter as turfeiras úmidas conserva tanto a água quanto o clima em melhor estado.',
+    },
+    forests: {
+      title: 'Florestas e bacias',
+      body1: 'A floresta ao redor de um riacho faz um trabalho silencioso e essencial. Uma copa fechada dá sombra à água e a mantém fria, e a água fria retém mais oxigênio, exatamente o que a truta e o salvelino precisam. Corte as árvores até a margem e a água esquenta, enfraquecendo a pescaria de cima para baixo.',
+      body2: 'As raízes de árvores e arbustos fixam o solo da bacia, de modo que a chuva se infiltra em vez de erodir as margens e despejar lodo sobre o cascalho onde os peixes desovam. A floresta primária, com seus sistemas de raízes profundas e sua madeira morta de decomposição lenta, faz parte do ciclo da água, não é separada dele. Proteger a floresta é proteger o rio.',
+    },
+    fish: {
+      kicker: 'Rio abaixo de tudo isso',
+      title: 'Estoques de peixes: o sistema que faz o placar',
+      lead: 'Os peixes são o boletim honesto de tudo o que está acima. Quando os lagos, rios, turfeiras e florestas estão saudáveis, a pesca é boa; quando não estão, os peixes desaparecem primeiro. Quatro histórias dos rios da Lapônia mostram o quanto os dois estão ligados.',
+      stories: [
+        {
+          title: 'O Teno: fechado para proteger o salmão',
+          body: 'O Teno (Tenojoki) foi um dos grandes rios de salmão do Atlântico do mundo. Seus estoques estão agora tão fracos que a pesca de salmão está proibida para 2026 no âmbito do protocolo do acordo de pesca do Teno entre Finlândia e Noruega, em vigor até 31 de dezembro de 2026. Existe uma licença para outras espécies, mas o salmão é deixado em paz. Consulte as regras vigentes em tenonkalatalousalue.fi.',
+        },
+        {
+          title: 'O Tornio: um rio selvagem em recuperação',
+          body: 'No Tornio de curso livre, a história corre no sentido contrário: limites cuidadosos e coordenados ajudaram o salmão selvagem a voltar. A temporada de 2026 é rigorosamente gerida, datas curtas, cotas baixas, fechamentos semanais e tamanhos mínimos, tudo definido para manter a recuperação em curso. Verifique as condições vigentes na página da área em eräluvat.fi antes de pescar.',
+        },
+        {
+          title: 'O salmão-rosa: um recém-chegado não convidado',
+          body: 'O salmão-rosa ou salmão-corcunda (Oncorhynchus gorbuscha) é uma espécie invasora, nativa do Pacífico Norte e espalhada pelo norte da Noruega e pelo Teno desde cerca de 2017. Os números oscilam muito de ano para ano e ele compete com o salmão nativo. A Finlândia o classifica como invasor (vieraslajit.fi); a Luke monitora a subida de cada temporada.',
+        },
+        {
+          title: 'A taxa que financia o peixe',
+          body: 'Qualquer pessoa de 18 a 69 anos que pesque com isca artificial ou apetrecho na Finlândia paga a taxa nacional de gestão pesqueira, 47 € por ano, 16 € por uma semana ou 6 € por um dia (eraluvat.fi). Ela financia o monitoramento de estoques, a restauração e as passagens para peixes. Menores de 18 anos e pessoas de 70 anos ou mais são isentos, e a simples pesca com vara ao amparo do direito de acesso à natureza é gratuita.',
+        },
+      ],
+      feeNote: 'As regras e as datas são redefinidas a cada ano. Confirme sempre a temporada, as cotas e as taxas vigentes nas páginas oficiais antes de reservar ou pescar.',
+      pillarCta: 'Planejar uma viagem de pesca (guia de atividades)',
+    },
+    finalKicker: 'Proteja-a, depois aproveite',
+    finalH2: 'A água vale a pena ser protegida',
+    finalLead: 'Água fria e limpa não se compra; só é possível conservá-la ou perdê-la. Escolha operadores que pescam dentro dos limites, mantenha-se nas rotas sinalizadas ao atravessar as frágeis turfeiras e deixe as margens e a floresta como você as encontrou. A melhor coisa que um visitante pode fazer pelos peixes da Lapônia é tratar sua água como o luxo que ela é.',
+    crossLinks: {
+      conservation: 'Quem protege a natureza selvagem →',
+      wildlife: 'A fauna que ela sustenta →',
+      fishing: 'Pesca na Lapônia (atividades) →',
+      hub: 'Guia de viagem mais amplo da Lapônia →',
+    },
+    faq: {
+      eyebrow: 'Perguntas frequentes',
+      h2: 'Água doce na Lapônia, perguntas frequentes',
+      items: [
+        {
+          q: 'Quantos lagos a Finlândia tem?',
+          a: 'Cerca de 188 000 lagos e lagoas de pelo menos 0,05 hectare, segundo o registro nacional de lagos da SYKE (Järvi-meriwiki). A contagem depende do limiar de tamanho usado, cerca de 57 000 lagos se forem contados apenas os maiores que um hectare, de modo que o número de destaque sempre se refere ao limiar de 0,05 hectare. A Lapônia abriga alguns dos mais limpos.',
+        },
+        {
+          q: 'O Tornio é mesmo um rio de curso livre?',
+          a: 'Sim. Junto com o Kalix sueco (Kalixälven), o sistema do Tornio-Muonio é um dos apenas dois grandes sistemas fluviais não regulados que restam na Finlândia e na UE, segundo ymparisto.fi, ou seja, não foi barrado para energia hidrelétrica. Seu principal afluente, o Ounasjoki, também é protegido do barramento. É esse estado sem barragens que explica por que ele ainda é um rio de salmão selvagem em atividade.',
+        },
+        {
+          q: 'Por que as turfeiras aapa importam para a pesca?',
+          a: 'Uma turfeira age como o rim de uma bacia: armazena água do degelo e chuva, libera-a lentamente nos períodos secos e filtra sedimentos e nutrientes antes que cheguem a um rio. Isso mantém a água rio abaixo fria, clara e estável, exatamente o que o salmão e a truta precisam para desovar. Drenar as turfeiras deixa os rios mais quentes e turvos e enfraquece a pescaria.',
+        },
+        {
+          q: 'Posso pescar salmão no Teno em 2026?',
+          a: 'Não. A pesca de salmão do Atlântico no Teno (Tenojoki) está proibida para 2026 no âmbito do protocolo do acordo de pesca do Teno entre Finlândia e Noruega, em vigor até 31 de dezembro de 2026, porque os estoques de salmão estão fracos demais. Há uma licença disponível para outras espécies, mas o salmão deve ser deixado em paz. Verifique sempre as regras vigentes em tenonkalatalousalue.fi antes de viajar.',
+        },
+        {
+          q: 'Preciso de licença para pescar na Lapônia?',
+          a: 'Para a maior parte da pesca com isca artificial e apetrecho, sim: pescadores de 18 a 69 anos pagam a taxa nacional de gestão pesqueira (47 € por ano, 16 € por semana, 6 € por dia, via eraluvat.fi), e muitas águas exigem, além disso, uma licença de área à parte. A simples pesca com vara e a pesca no gelo ao amparo do direito de acesso à natureza são gratuitas, e menores de 18 anos e pessoas de 70 anos ou mais são isentos da taxa nacional.',
+        },
+      ],
+    },
+    verifyLine: 'Fontes: SYKE (registro de lagos Järvi-meriwiki), ymparisto.fi (Tornio-Muonio Natura 2000), ym.fi (zonas úmidas Ramsar), Metsähallitus, Luke, eräluvat.fi e o acordo Finlândia-Noruega sobre o Teno. As regras, taxas e temporadas de pesca são redefinidas a cada ano, confirme os números vigentes nas páginas oficiais antes de viajar.',
   },
   notFound: {
     metaTitle: 'Página não encontrada, LaplandNature',

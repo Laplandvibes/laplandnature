@@ -12,6 +12,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
     northernLights: 'Aurora boreale',
     seasons: 'Stagioni',
     conservation: 'Conservazione',
+    freshwater: 'Acque dolci',
   },
   newsletter: {
     eyebrow: 'Newsletter #LAPLANDVIBES',
@@ -105,7 +106,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
       ],
     },
     featured: {
-      kicker: 'Sei porte d\'ingresso',
+      kicker: 'Sette porte d\'ingresso',
       h2: 'Esperienze di punta in Lapponia',
       lead: 'Dai capanni di avvistamento orsi al confine russo ai canyon di cascate ghiacciate, dalla canoa sotto il sole di mezzanotte al cielo kaamos su Utsjoki, sette guide a cui tornare.',
       items: [
@@ -115,6 +116,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
         { tag: 'Sentieri', title: 'Trekking', blurb: 'Cammina sui sentieri più iconici della Finlandia, dai ponti sospesi del Karhunkierros (82 km) alla vetta dell\'Halti (1.324 m).', cta: 'Esplora il trekking' },
         { tag: 'Tutela', title: 'Conservazione', blurb: 'Metsähallitus gestisce l\'85 % dei fjell della Lapponia e tutti i sette parchi nazionali. In più il diritto di accesso alla natura, la legge finlandese di accesso libero.', cta: 'Esplora la conservazione' },
         { tag: 'Estate', title: 'Sole di mezzanotte', blurb: 'Oltre il circolo polare il sole non tramonta in piena estate. A Utsjoki il sole di mezzanotte rimane per oltre 70 giorni di fila.', cta: 'Esplora le stagioni' },
+        { tag: 'Acqua', title: 'Acque dolci', blurb: 'Circa 188.000 laghi, il fiume Tornio a flusso libero e le torbiere aapa. Perché l\'acqua fredda e pulita è la risorsa più rara della Lapponia, e cosa vi mantiene i pesci.', cta: 'Esplora le acque dolci' },
       ],
     },
     map: {
@@ -529,6 +531,103 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
       { h2: 'Ricavi di affiliazione', body: 'Alcuni link di questo sito passano da go.laplandvibes.com e generano una piccola commissione quando Lei prenota, senza alcun costo aggiuntivo. I ricavi di affiliazione coprono l\'hosting e il tempo di scrittura. Non determinano mai quali destinazioni o operatori vengano presentati né cambiano le raccomandazioni in una pagina.' },
       { h2: 'Correzioni', body: 'Se nota un errore di fatto, distanza, date di apertura, status faunistico, qualunque cosa, scriva a info@laplandvibes.com. Le correzioni vengono apportate rapidamente e segnalate sulla pagina.' }
     ],
+  },
+  freshwater: {
+    metaTitle: 'Acque dolci di Lapponia: laghi, fiumi, torbiere e pesci',
+    metaDescription: 'La Finlandia conta circa 188.000 laghi e stagni (SYKE). La Lapponia ne custodisce i più puri, insieme al sistema fluviale non regolato del Tornio-Muonio, alle torbiere aapa e alle foreste che mantengono fredda l\'acqua. Perché l\'acqua pulita è la risorsa più rara della regione.',
+    hero: {
+      eyebrow: 'Guida di riferimento',
+      title: 'Acque dolci di Lapponia',
+      subtitle: 'La terra dei mille laghi',
+      description: 'L\'acqua fredda e pulita è il lusso più raro della Lapponia. Laghi, fiumi a flusso libero, torbiere aapa e foreste antiche formano un unico sistema, e qui la pesca resta buona solo finché tutto l\'insieme sta bene.',
+      alt: 'Lago lappone liscio come uno specchio sotto il sole di mezzanotte, con una torbiera aapa aperta in primo piano',
+    },
+    introKicker: 'Perché l\'acqua prima di tutto',
+    introH2: 'L\'acqua pulita è tutto',
+    introLead: 'Ogni pesce, ogni renna, ogni raccolto di bacche in Lapponia dipende dalla stessa acqua che scorre nello stesso paesaggio. La Finlandia conta circa 188.000 laghi e stagni di almeno 0,05 ettari (registro dei laghi di SYKE), e il nord ne custodisce alcuni tra i meno disturbati. Considera laghi, fiumi, torbiere e foreste come le quattro parti di un unico sistema vivente e la ragione per proteggerli diventa ovvia: perdi l\'acqua e perdi tutto ciò che sta a valle.',
+    chaptersKicker: 'Le quattro parti',
+    chaptersH2: 'Un sistema, quattro parti',
+    lakes: {
+      title: 'Laghi',
+      body1: 'La Finlandia è spesso chiamata la terra dei mille laghi, e la cifra reale è molto più alta: circa 188.000 laghi e stagni di almeno 0,05 ettari, secondo il registro Järvi-meriwiki di SYKE. Quelli della Lapponia sono tra i più limpidi, alimentati dallo scioglimento delle nevi e da bacini ombreggiati anziché dal dilavamento agricolo.',
+      body2: 'Il lago Inari (Inarijärvi), nel cuore della terra sami, è uno dei laghi più grandi della Finlandia e alimenta il sistema del Paatsjoki che scorre verso nord fino all\'oceano Artico. La sua acqua fredda e ricca di ossigeno ospita salmerino artico, trota fario e coregone, specie che prosperano solo dove l\'acqua resta fredda e pulita.',
+    },
+    rivers: {
+      title: 'Fiumi a flusso libero',
+      body1: 'La maggior parte dei grandi fiumi europei è sbarrata per l\'idroelettrico. Il sistema del Tornio-Muonio è una delle eccezioni: insieme al Kalix svedese (Kalixälven) è uno dei soli due grandi sistemi fluviali non regolati rimasti in Finlandia e nell\'UE, secondo ymparisto.fi. Un fiume senza dighe è libero di esondare, spostare la ghiaia e ricostruire le zone di frega di cui il salmone ha bisogno.',
+      body2: 'Quello stato di flusso libero è il motivo per cui il Tornio è di nuovo un fiume da salmone selvatico dopo decenni di declino. Il suo affluente principale, l\'Ounasjoki, è anch\'esso protetto dallo sbarramento idroelettrico. Non sono casualità paesaggistiche; sono scelte deliberate di lasciare un fiume in pace, e sono la ragione per cui ci sono ancora pesci da pescare.',
+    },
+    mires: {
+      title: 'Torbiere aapa',
+      body1: 'Una torbiera non è terra sprecata. Nel pensiero finlandese sull\'acqua una palude è il rene del bacino idrografico: immagazzina pioggia e acqua di fusione, la rilascia lentamente durante i periodi secchi e filtra sedimenti e nutrienti prima ancora che raggiungano un fiume. Drena la torbiera e il fiume a valle scorre più bruno, più caldo e più irregolare, peggio per i pesci che si riproducono.',
+      body2: 'Le torbiere aapa della Lapponia, le vaste torbiere a motivi del nord, sono anche importanti serbatoi di carbonio. La Finlandia protegge le zone umide di importanza internazionale nell\'ambito della Convenzione di Ramsar (49 siti, secondo ym.fi); Martimoaapa-Lumiaapa-Penikat, un complesso di torbiere aapa vicino a Ranua, è uno di questi. Mantenere le torbiere umide mantiene in salute sia l\'acqua sia il clima.',
+    },
+    forests: {
+      title: 'Foreste e bacini idrografici',
+      body1: 'La foresta intorno a un torrente svolge un lavoro silenzioso ed essenziale. Una volta chiusa la copertura ombreggia l\'acqua e la mantiene fredda, e l\'acqua fredda trattiene più ossigeno, esattamente ciò di cui trote e salmerini hanno bisogno. Abbatti gli alberi fino alla riva e l\'acqua si scalda, indebolendo la pesca dall\'alto verso il basso.',
+      body2: 'Le radici di alberi e arbusti trattengono il suolo del bacino, così la pioggia si infiltra invece di erodere le rive e riversare limo sulla ghiaia dove i pesci depongono le uova. La foresta vetusta, con le sue radici profonde e il legno morto a lenta decomposizione, fa parte del ciclo dell\'acqua, non ne è separata. Proteggere la foresta significa proteggere il fiume.',
+    },
+    fish: {
+      kicker: 'A valle di tutto questo',
+      title: 'Gli stock ittici: il sistema che tiene il punteggio',
+      lead: 'I pesci sono la pagella onesta di tutto ciò che sta sopra. Quando laghi, fiumi, torbiere e foreste sono in salute la pesca è buona; quando non lo sono, i pesci scompaiono per primi. Quattro storie dai fiumi della Lapponia mostrano quanto strettamente le due cose siano legate.',
+      stories: [
+        {
+          title: 'Il Teno: chiuso per proteggere il salmone',
+          body: 'Il Teno (Tenojoki) era uno dei grandi fiumi da salmone atlantico al mondo. I suoi stock sono ora così deboli che la pesca al salmone è vietata per il 2026 nell\'ambito del protocollo dell\'accordo di pesca sul Teno tra Finlandia e Norvegia, in vigore fino al 31 dicembre 2026. Esiste un permesso per altre specie, ma il salmone viene lasciato in pace. Consulta le regole in vigore su tenonkalatalousalue.fi.',
+        },
+        {
+          title: 'Il Tornio: un fiume selvatico in ripresa',
+          body: 'Sul Tornio a flusso libero la storia va nella direzione opposta: limiti attenti e coordinati hanno aiutato il salmone selvatico a tornare. La stagione 2026 è gestita in modo rigoroso, date brevi, quote basse, chiusure settimanali e taglie minime, tutto stabilito per far proseguire la ripresa. Verifica le condizioni in vigore sulla pagina dell\'area eräluvat.fi prima di pescare.',
+        },
+        {
+          title: 'Il salmone rosa: un nuovo arrivato non invitato',
+          body: 'Il salmone rosa o salmone gobbo (Oncorhynchus gorbuscha) è una specie invasiva, originaria del Pacifico settentrionale e diffusasi nella Norvegia settentrionale e nel Teno dal 2017 circa. I numeri oscillano molto di anno in anno e compete con il salmone autoctono. La Finlandia lo classifica come invasivo (vieraslajit.fi); Luke monitora la risalita di ogni stagione.',
+        },
+        {
+          title: 'Il canone che finanzia il pesce',
+          body: 'Chiunque abbia tra i 18 e i 69 anni e peschi con esca artificiale o attrezzi in Finlandia paga il canone nazionale per la gestione della pesca, 47 € all\'anno, 16 € per una settimana o 6 € per un giorno (eraluvat.fi). Finanzia il monitoraggio degli stock, il ripristino e gli interventi per il passaggio dei pesci. I minori di 18 anni e chi ha 70 anni o più ne è esente, e la semplice pesca con canna e lenza nell\'ambito del diritto di accesso alla natura è gratuita.',
+        },
+      ],
+      feeNote: 'Regole e date vengono ridecise ogni anno. Verifica sempre stagione, quote e canoni in vigore sulle pagine ufficiali prima di prenotare o pescare.',
+      pillarCta: 'Pianifica un viaggio di pesca (guida alle attività)',
+    },
+    finalKicker: 'Proteggila, poi goditela',
+    finalH2: 'L\'acqua vale la pena di essere protetta',
+    finalLead: 'Non si può comprare acqua fredda e pulita; la si può solo conservare o perdere. Scegli operatori che pescano entro i limiti, resta sui percorsi segnati attraverso le fragili torbiere e lascia le rive e la foresta come le hai trovate. La cosa migliore che un visitatore possa fare per i pesci della Lapponia è trattarne l\'acqua come il lusso che è.',
+    crossLinks: {
+      conservation: 'Chi protegge la natura selvaggia →',
+      wildlife: 'La fauna che sostiene →',
+      fishing: 'Pesca in Lapponia (attività) →',
+      hub: 'Guida di viaggio più ampia sulla Lapponia →',
+    },
+    faq: {
+      eyebrow: 'Domande frequenti',
+      h2: 'Acque dolci di Lapponia, domande frequenti',
+      items: [
+        {
+          q: 'Quanti laghi ha la Finlandia?',
+          a: 'Circa 188.000 laghi e stagni di almeno 0,05 ettari, secondo il registro nazionale dei laghi di SYKE (Järvi-meriwiki). Il conteggio dipende dalla soglia di dimensione usata, circa 57.000 laghi se si contano solo quelli più grandi di un ettaro, per cui la cifra di riferimento rimanda sempre alla soglia di 0,05 ettari. La Lapponia ne custodisce alcuni tra i più puri.',
+        },
+        {
+          q: 'Il Tornio è davvero un fiume a flusso libero?',
+          a: 'Sì. Insieme al Kalix svedese (Kalixälven), il sistema del Tornio-Muonio è uno dei soli due grandi sistemi fluviali non regolati rimasti in Finlandia e nell\'UE, secondo ymparisto.fi, cioè non è stato sbarrato per l\'idroelettrico. Anche il suo affluente principale, l\'Ounasjoki, è protetto dallo sbarramento. È quello stato senza dighe a spiegare perché è ancora un fiume da salmone selvatico.',
+        },
+        {
+          q: 'Perché le torbiere aapa contano per la pesca?',
+          a: 'Una torbiera agisce come il rene di un bacino idrografico: immagazzina acqua di fusione e pioggia, la rilascia lentamente nei periodi secchi e filtra sedimenti e nutrienti prima che raggiungano un fiume. Questo mantiene l\'acqua a valle fredda, limpida e costante, esattamente ciò di cui salmoni e trote hanno bisogno per riprodursi. Drenare le torbiere rende i fiumi più caldi e più torbidi e indebolisce la pesca.',
+        },
+        {
+          q: 'Posso pescare il salmone nel Teno nel 2026?',
+          a: 'No. La pesca al salmone atlantico nel Teno (Tenojoki) è vietata per il 2026 nell\'ambito del protocollo dell\'accordo di pesca sul Teno tra Finlandia e Norvegia, in vigore fino al 31 dicembre 2026, perché gli stock di salmone sono troppo deboli. È disponibile un permesso per altre specie, ma il salmone va lasciato in pace. Verifica sempre le regole in vigore su tenonkalatalousalue.fi prima di partire.',
+        },
+        {
+          q: 'Serve un permesso per pescare in Lapponia?',
+          a: 'Per la maggior parte della pesca con esca artificiale e attrezzi, sì: i pescatori tra i 18 e i 69 anni pagano il canone nazionale per la gestione della pesca (47 € l\'anno, 16 € la settimana, 6 € il giorno, tramite eraluvat.fi), e molte acque richiedono in più un permesso di zona separato. La semplice pesca con canna e lenza e la pesca sul ghiaccio nell\'ambito del diritto di accesso alla natura sono gratuite, e i minori di 18 anni e chi ha 70 anni o più sono esenti dal canone nazionale.',
+        },
+      ],
+    },
+    verifyLine: 'Fonti: SYKE (registro dei laghi Järvi-meriwiki), ymparisto.fi (Tornio-Muonio Natura 2000), ym.fi (zone umide Ramsar), Metsähallitus, Luke, eräluvat.fi e l\'accordo Finlandia-Norvegia sul Teno. Regole, canoni e stagioni di pesca vengono ridecisi ogni anno, verifica le cifre in vigore sulle pagine ufficiali prima di partire.',
   },
   notFound: {
     metaTitle: 'Pagina non trovata, LaplandNature',

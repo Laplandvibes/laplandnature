@@ -12,6 +12,7 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
     northernLights: 'Aurora boreal',
     seasons: 'Estaciones',
     conservation: 'Conservación',
+    freshwater: 'Agua dulce',
   },
   newsletter: {
     eyebrow: 'Boletín #LAPLANDVIBES',
@@ -105,7 +106,7 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
       ],
     },
     featured: {
-      kicker: 'Seis maneras de entrar',
+      kicker: 'Siete maneras de entrar',
       h2: 'Experiencias destacadas en Laponia',
       lead: 'Desde los hides para observar osos en la frontera rusa hasta cañones de cascadas heladas, canoa bajo el sol de medianoche y el cielo kaamos sobre Utsjoki, siete guías a las que volverá.',
       items: [
@@ -144,6 +145,12 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
           title: 'Sol de medianoche',
           blurb: 'Al norte del Círculo Polar el sol no se pone en pleno verano. En Utsjoki el sol de medianoche se mantiene más de 70 días consecutivos.',
           cta: 'Explorar las estaciones',
+        },
+        {
+          tag: 'Agua',
+          title: 'Agua dulce',
+          blurb: 'Unos 188 000 lagos, el río Tornio de curso libre y las turberas aapa. Por qué el agua fría y limpia es el bien más escaso de Laponia, y qué mantiene los peces en ella.',
+          cta: 'Explorar el agua dulce',
         },
       ],
     },
@@ -649,6 +656,103 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
       { h2: 'Ingresos de afiliación', body: 'Algunos enlaces de este sitio pasan por go.laplandvibes.com y generan una pequeña comisión cuando usted reserva, sin coste adicional para usted. Los ingresos de afiliación cubren el alojamiento web y el tiempo de redacción. Nunca deciden qué destinos u operadores aparecen, ni cambian las recomendaciones de una página.' },
       { h2: 'Correcciones', body: 'Si detecta un error de hecho, distancia, fechas de apertura, estado de una especie, lo que sea, escriba a info@laplandvibes.com. Las correcciones se aplican con rapidez y se anotan en la página.' }
     ],
+  },
+  freshwater: {
+    metaTitle: 'Agua dulce en Laponia: lagos, ríos, turberas y peces',
+    metaDescription: 'Finlandia tiene unos 188 000 lagos y estanques (SYKE). Laponia alberga algunos de los más limpios, junto al sistema fluvial no regulado del Tornio-Muonio, las turberas aapa y los bosques que mantienen fría el agua. Por qué el agua limpia es el bien más escaso de la región.',
+    hero: {
+      eyebrow: 'Guía esencial',
+      title: 'Agua dulce en Laponia',
+      subtitle: 'La tierra de los mil lagos',
+      description: 'El agua fría y limpia es el lujo más escaso de Laponia. Lagos, ríos de curso libre, turberas aapa y bosques antiguos forman un solo sistema, y aquí la pesca solo se mantiene buena mientras todo el conjunto está sano.',
+      alt: 'Lago lapón liso como un espejo bajo el sol de medianoche, con una turbera aapa abierta en primer plano',
+    },
+    introKicker: 'Por qué el agua primero',
+    introH2: 'El agua limpia lo es todo',
+    introLead: 'Cada pez, cada reno, cada cosecha de bayas de Laponia depende de la misma agua que recorre el mismo paisaje. Finlandia tiene unos 188 000 lagos y estanques de al menos 0,05 hectáreas (el registro de lagos de SYKE), y el norte alberga algunos de los menos alterados. Considere los lagos, ríos, turberas y bosques como cuatro partes de un mismo sistema vivo y la razón para protegerlos se vuelve evidente: pierda el agua y perderá todo lo que está aguas abajo.',
+    chaptersKicker: 'Las cuatro partes',
+    chaptersH2: 'Un sistema, cuatro partes',
+    lakes: {
+      title: 'Lagos',
+      body1: 'A Finlandia se la llama a menudo la tierra de los mil lagos, y la cifra real es mucho mayor: unos 188 000 lagos y estanques de al menos 0,05 hectáreas, según el registro Järvi-meriwiki de SYKE. Los de Laponia están entre los más cristalinos, alimentados por el deshielo y cuencas sombreadas en lugar de por la escorrentía agrícola.',
+      body2: 'El lago Inari (Inarijärvi), en el corazón del territorio sami, es uno de los mayores lagos de Finlandia y alimenta el sistema del Paatsjoki, que drena hacia el norte hasta el océano Ártico. Su agua fría y rica en oxígeno acoge al salvelino ártico, la trucha común y el coregono, especies que solo prosperan donde el agua se mantiene fría y limpia.',
+    },
+    rivers: {
+      title: 'Ríos de curso libre',
+      body1: 'La mayoría de los grandes ríos europeos están represados para producir energía hidroeléctrica. El sistema del Tornio-Muonio es una de las excepciones: junto con el Kalix sueco (Kalixälven) es uno de los dos únicos grandes sistemas fluviales no regulados que quedan en Finlandia y la UE, según ymparisto.fi. Un río sin presas es libre de desbordarse, mover la grava y reconstruir los lechos de desove que necesita el salmón.',
+      body2: 'Ese estado de curso libre es la razón por la que el Tornio vuelve a ser un río de salmón salvaje en activo tras décadas de declive. Su principal afluente, el Ounasjoki, también está protegido frente a las presas hidroeléctricas. No son casualidades pintorescas; son decisiones deliberadas de dejar un río en paz, y son la razón por la que todavía hay peces que pescar.',
+    },
+    mires: {
+      title: 'Turberas aapa',
+      body1: 'Una turbera no es un páramo baldío. En el pensamiento finlandés sobre el agua, una ciénaga es el riñón de la cuenca: almacena la lluvia y el agua de deshielo, la libera lentamente en las épocas secas y filtra los sedimentos y nutrientes antes de que lleguen a un río. Drene la turbera y el río aguas abajo correrá más turbio, más cálido y más irregular, peor para los peces que desovan.',
+      body2: 'Las turberas aapa de Laponia, los vastos humedales estructurados del norte, son también grandes reservorios de carbono. Finlandia protege los humedales de importancia internacional al amparo del Convenio de Ramsar (49 sitios, según ym.fi); Martimoaapa-Lumiaapa-Penikat, un complejo de turberas aapa cerca de Ranua, es uno de ellos. Mantener húmedas las turberas conserva en mejor estado tanto el agua como el clima.',
+    },
+    forests: {
+      title: 'Bosques y cuencas',
+      body1: 'El bosque que rodea un arroyo hace un trabajo silencioso y esencial. Una cubierta cerrada da sombra al agua y la mantiene fría, y el agua fría retiene más oxígeno, justo lo que necesitan la trucha y el salvelino. Tale los árboles hasta la orilla y el agua se calienta, debilitando la pesquería de arriba abajo.',
+      body2: 'Las raíces de árboles y arbustos fijan el suelo de la cuenca, de modo que la lluvia se infiltra en lugar de socavar las orillas y verter limo sobre la grava donde desovan los peces. El bosque antiguo, con sus profundos sistemas de raíces y su madera muerta de lenta descomposición, forma parte del ciclo del agua, no está separado de él. Proteger el bosque es proteger el río.',
+    },
+    fish: {
+      kicker: 'Aguas abajo de todo ello',
+      title: 'Las poblaciones de peces: el sistema que lleva la cuenta',
+      lead: 'Los peces son el boletín de notas honesto de todo lo anterior. Cuando los lagos, ríos, turberas y bosques están sanos, la pesca es buena; cuando no lo están, los peces desaparecen primero. Cuatro historias de los ríos de Laponia muestran lo estrechamente ligadas que están ambas cosas.',
+      stories: [
+        {
+          title: 'El Teno: cerrado para proteger al salmón',
+          body: 'El Teno (Tenojoki) fue uno de los grandes ríos de salmón atlántico del mundo. Sus poblaciones son ahora tan débiles que la pesca de salmón está prohibida para 2026 en virtud del protocolo del acuerdo de pesca del Teno entre Finlandia y Noruega, en vigor hasta el 31 de diciembre de 2026. Existe un permiso para otras especies, pero al salmón se le deja en paz. Consulte las normas vigentes en tenonkalatalousalue.fi.',
+        },
+        {
+          title: 'El Tornio: un río salvaje en recuperación',
+          body: 'En el Tornio de curso libre la historia va al revés: unos límites cuidadosos y coordinados han ayudado a que el salmón salvaje regrese. La temporada 2026 está estrictamente gestionada, fechas breves, cupos bajos, cierres semanales y tallas mínimas, todo fijado para mantener la recuperación. Compruebe las condiciones vigentes en la página de la zona en eräluvat.fi antes de pescar.',
+        },
+        {
+          title: 'El salmón rosado: un recién llegado no invitado',
+          body: 'El salmón rosado o jorobado (Oncorhynchus gorbuscha) es una especie invasora, originaria del Pacífico Norte y extendida al norte de Noruega y al Teno desde alrededor de 2017. Sus números oscilan mucho de un año a otro y compite con el salmón autóctono. Finlandia lo cataloga como invasor (vieraslajit.fi); Luke monitoriza la remontada de cada temporada.',
+        },
+        {
+          title: 'La tasa que financia el pez',
+          body: 'Toda persona de entre 18 y 69 años que pesque con señuelo o aparejo en Finlandia paga la tasa nacional de gestión pesquera, 47 € al año, 16 € por una semana o 6 € por un día (eraluvat.fi). Financia el seguimiento de las poblaciones, la restauración y los pasos para peces. Los menores de 18 años y los mayores de 70 están exentos, y la simple pesca con caña al amparo del derecho de acceso a la naturaleza es gratuita.',
+        },
+      ],
+      feeNote: 'Las normas y las fechas se redefinen cada año. Confirme siempre la temporada, los cupos y las tasas vigentes en las páginas oficiales antes de reservar o pescar.',
+      pillarCta: 'Planificar un viaje de pesca (guía de actividades)',
+    },
+    finalKicker: 'Protéjala y luego disfrútela',
+    finalH2: 'El agua merece protección',
+    finalLead: 'El agua fría y limpia no se compra; solo se puede conservar o perder. Elija operadores que pesquen dentro de los límites, cíñase a las rutas señalizadas al cruzar las frágiles turberas y deje las orillas y el bosque tal como los encontró. Lo mejor que un visitante puede hacer por los peces de Laponia es tratar su agua como el lujo que es.',
+    crossLinks: {
+      conservation: 'Quién protege la naturaleza →',
+      wildlife: 'La fauna que sostiene →',
+      fishing: 'Pesca en Laponia (actividades) →',
+      hub: 'Guía de viaje más amplia de Laponia →',
+    },
+    faq: {
+      eyebrow: 'Preguntas frecuentes',
+      h2: 'Agua dulce en Laponia, preguntas frecuentes',
+      items: [
+        {
+          q: '¿Cuántos lagos tiene Finlandia?',
+          a: 'Unos 188 000 lagos y estanques de al menos 0,05 hectáreas, según el registro nacional de lagos de SYKE (Järvi-meriwiki). El recuento depende del umbral de tamaño empleado, unos 57 000 lagos si solo se cuentan los mayores de una hectárea, de modo que la cifra de referencia siempre remite al umbral de 0,05 hectáreas. Laponia alberga algunos de los más limpios.',
+        },
+        {
+          q: '¿Es el Tornio realmente un río de curso libre?',
+          a: 'Sí. Junto con el Kalix sueco (Kalixälven), el sistema del Tornio-Muonio es uno de los dos únicos grandes sistemas fluviales no regulados que quedan en Finlandia y la UE, según ymparisto.fi, es decir, no ha sido represado para energía hidroeléctrica. Su principal afluente, el Ounasjoki, también está protegido frente a las presas. Ese estado sin presas es la razón por la que sigue siendo un río de salmón salvaje en activo.',
+        },
+        {
+          q: '¿Por qué importan las turberas aapa para la pesca?',
+          a: 'Una turbera actúa como el riñón de una cuenca: almacena agua de deshielo y lluvia, la libera lentamente en las épocas secas y filtra los sedimentos y nutrientes antes de que lleguen a un río. Eso mantiene el agua aguas abajo fría, clara y estable, justo lo que necesitan el salmón y la trucha para desovar. Drenar las turberas vuelve los ríos más cálidos y turbios y debilita la pesquería.',
+        },
+        {
+          q: '¿Puedo pescar salmón en el Teno en 2026?',
+          a: 'No. La pesca de salmón atlántico en el Teno (Tenojoki) está prohibida para 2026 en virtud del protocolo del acuerdo de pesca del Teno entre Finlandia y Noruega, en vigor hasta el 31 de diciembre de 2026, porque las poblaciones de salmón son demasiado débiles. Hay un permiso disponible para otras especies, pero al salmón hay que dejarlo en paz. Compruebe siempre las normas vigentes en tenonkalatalousalue.fi antes de viajar.',
+        },
+        {
+          q: '¿Necesito un permiso para pescar en Laponia?',
+          a: 'Para la mayoría de la pesca con señuelo y aparejo, sí: los pescadores de entre 18 y 69 años pagan la tasa nacional de gestión pesquera (47 € al año, 16 € la semana, 6 € el día, a través de eraluvat.fi), y muchas aguas exigen además un permiso de zona aparte. La simple pesca con caña y la pesca en hielo al amparo del derecho de acceso a la naturaleza son gratuitas, y los menores de 18 años y los mayores de 70 están exentos de la tasa nacional.',
+        },
+      ],
+    },
+    verifyLine: 'Fuentes: SYKE (registro de lagos Järvi-meriwiki), ymparisto.fi (Tornio-Muonio Natura 2000), ym.fi (humedales Ramsar), Metsähallitus, Luke, eräluvat.fi y el acuerdo Finlandia-Noruega sobre el Teno. Las normas, tasas y temporadas de pesca se redefinen cada año, confirme las cifras vigentes en las páginas oficiales antes de viajar.',
   },
   notFound: {
     metaTitle: 'Página no encontrada, LaplandNature',

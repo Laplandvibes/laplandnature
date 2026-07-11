@@ -12,6 +12,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
     northernLights: 'Noorderlicht',
     seasons: 'Seizoenen',
     conservation: 'Natuurbehoud',
+    freshwater: 'Zoet water',
   },
   newsletter: {
     eyebrow: 'Nieuwsbrief #LAPLANDVIBES',
@@ -105,7 +106,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
       ],
     },
     featured: {
-      kicker: 'Zes ingangen',
+      kicker: 'Zeven ingangen',
       h2: 'Uitgelichte ervaringen in Lapland',
       lead: 'Van berenobservatiehutten aan de Russische grens tot ravijnen met bevroren watervallen, kano onder de middernachtzon en de kaamos-hemel boven Utsjoki, zeven gidsen waar u op terugkomt.',
       items: [
@@ -115,6 +116,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
         { tag: 'Paden', title: 'Wandelen', blurb: 'Loop de iconische paden van Finland, van de hangbruggen van de Karhunkierros (82 km) tot de top van de Halti (1.324 m).', cta: 'Ontdek het wandelen' },
         { tag: 'Beheer', title: 'Natuurbehoud', blurb: 'Metsähallitus beheert 85 % van de fjells in Lapland en alle zeven nationale parken. Plus het Finse natuurrecht, vrije toegang tot de natuur.', cta: 'Ontdek het natuurbehoud' },
         { tag: 'Zomer', title: 'Middernachtzon', blurb: 'Boven de poolcirkel gaat de zon in hartje zomer niet onder. In Utsjoki blijft de middernachtzon meer dan 70 dagen achtereen schijnen.', cta: 'Ontdek de seizoenen' },
+        { tag: 'Water', title: 'Zoet water', blurb: 'Rond 188.000 meren, de vrij stromende rivier de Tornio en aapa-venen. Waarom schoon koud water Laplands zeldzaamste bezit is, en wat de vis erin houdt.', cta: 'Ontdek het zoet water' },
       ],
     },
     map: {
@@ -529,6 +531,103 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
       { h2: 'Affiliate-inkomsten', body: 'Enkele links op deze site lopen via go.laplandvibes.com en leveren een kleine commissie op wanneer u boekt, zonder extra kosten voor u. De affiliate-inkomsten dekken hosting en schrijftijd. Zij bepalen nooit welke bestemmingen of aanbieders worden getoond en veranderen geen aanbevelingen op een pagina.' },
       { h2: 'Correcties', body: 'Vindt u een feitelijke fout, afstand, openingsdata, faunastatus, wat dan ook, schrijf dan naar info@laplandvibes.com. Correcties worden snel doorgevoerd en op de pagina vermeld.' }
     ],
+  },
+  freshwater: {
+    metaTitle: 'Zoet water in Lapland: meren, rivieren, venen en vis',
+    metaDescription: 'Finland telt ongeveer 188.000 meren en poelen (SYKE). Lapland herbergt enkele van de schoonste, plus het ongereguleerde riviersysteem van de Tornio-Muonio, aapa-venen en de bossen die het water koud houden. Waarom schoon water het zeldzaamste bezit van de regio is.',
+    hero: {
+      eyebrow: 'Pijlergids',
+      title: 'Zoet water in Lapland',
+      subtitle: 'Het land van duizend meren',
+      description: 'Schoon koud water is Laplands zeldzaamste luxe. Meren, vrij stromende rivieren, aapa-venen en oude bossen vormen één systeem, en het vissen blijft hier alleen goed zolang het geheel gezond blijft.',
+      alt: 'Spiegelglad Laplandmeer onder de middernachtzon, met een open aapa-veen op de voorgrond',
+    },
+    introKicker: 'Waarom eerst het water',
+    introH2: 'Schoon water is de kern van alles',
+    introLead: 'Elke vis, elk rendier, elke bessenoogst in Lapland is afhankelijk van hetzelfde water dat door hetzelfde landschap stroomt. Finland telt ongeveer 188.000 meren en poelen van minstens 0,05 hectare (het merenregister van SYKE), en het noorden herbergt enkele van de minst verstoorde ervan. Beschouw de meren, rivieren, venen en bossen als vier delen van één levend systeem en de reden om ze te beschermen wordt duidelijk: verlies het water en u verliest alles stroomafwaarts.',
+    chaptersKicker: 'De vier delen',
+    chaptersH2: 'Eén systeem, vier delen',
+    lakes: {
+      title: 'Meren',
+      body1: 'Finland wordt vaak het land van duizend meren genoemd, en het werkelijke getal ligt veel hoger: ongeveer 188.000 meren en poelen van minstens 0,05 hectare, volgens het Järvi-meriwiki-register van SYKE. Die van Lapland behoren tot de helderste, gevoed door smeltwater en beschaduwde stroomgebieden in plaats van door afspoeling van landbouwgrond.',
+      body2: 'Het Inarimeer (Inarijärvi), in het hart van het Samische thuisland, is een van de grootste meren van Finland en voedt het riviersysteem van de Paatsjoki dat noordwaarts naar de Noordelijke IJszee afwatert. Het koude, zuurstofrijke water herbergt riddervis, beekforel en houting, soorten die alleen gedijen waar het water koud en schoon blijft.',
+    },
+    rivers: {
+      title: 'Vrij stromende rivieren',
+      body1: 'De meeste grote Europese rivieren zijn afgedamd voor waterkracht. Het Tornio-Muonio-systeem is een van de uitzonderingen: samen met de Zweedse Kalix (Kalixälven) is het een van slechts twee grote ongereguleerde riviersystemen die in Finland en de EU resteren, volgens ymparisto.fi. Een niet-afgedamde rivier kan vrij overstromen, grind verplaatsen en de paaibedden herstellen die zalm nodig heeft.',
+      body2: 'Die vrij stromende toestand is de reden dat de Tornio na decennia van achteruitgang weer een werkende wildezalmrivier is. Ook haar belangrijkste zijrivier, de Ounasjoki, is beschermd tegen afdamming voor waterkracht. Dit zijn geen schilderachtige toevalligheden; het zijn bewuste keuzes om een rivier met rust te laten, en ze zijn de reden dat er nog vis te vangen valt.',
+    },
+    mires: {
+      title: 'Aapa-venen',
+      body1: 'Een veen is geen woeste grond. In het Finse denken over water is een veen de nier van het stroomgebied: het slaat regen en smeltwater op, geeft het langzaam vrij tijdens droge perioden en filtert sediment en voedingsstoffen weg voordat die ooit een rivier bereiken. Ontwater het veen en de rivier stroomafwaarts stroomt bruiner, warmer en grilliger, slechter voor paaiende vis.',
+      body2: 'Laplands aapa-venen, de uitgestrekte gestructureerde laagvenen van het noorden, zijn ook grote koolstofvoorraden. Finland beschermt wetlands van internationaal belang onder de Ramsar-conventie (49 gebieden, volgens ym.fi); Martimoaapa-Lumiaapa-Penikat, een aapa-veencomplex bij Ranua, is zo\'n gebied. Venen nat houden houdt zowel het water als het klimaat in betere staat.',
+    },
+    forests: {
+      title: 'Bossen en stroomgebieden',
+      body1: 'Het bos rond een beek doet stil, essentieel werk. Een gesloten kronendak beschaduwt het water en houdt het koud, en koud water bevat meer zuurstof, precies wat forel en riddervis nodig hebben. Kap de bomen tot aan de oever en het water warmt op, waardoor de visstand van bovenaf verzwakt.',
+      body2: 'De wortels van bomen en struiken binden de bodem van het stroomgebied, zodat regen wegzakt in plaats van de oevers uit te schuren en slib te storten op het grind waar vissen paaien. Oerbos, met zijn diepe wortelstelsels en traag verterend dood hout, maakt deel uit van de waterkringloop, staat er niet los van. Het bos beschermen is de rivier beschermen.',
+    },
+    fish: {
+      kicker: 'Stroomafwaarts van dit alles',
+      title: 'Visbestanden: het systeem dat de stand bijhoudt',
+      lead: 'Vis is de eerlijke rapportkaart van alles hierboven. Wanneer de meren, rivieren, venen en bossen gezond zijn, is het vissen goed; wanneer dat niet zo is, verdwijnt de vis het eerst. Vier verhalen uit de rivieren van Lapland laten zien hoe nauw de twee met elkaar verweven zijn.',
+      stories: [
+        {
+          title: 'De Teno: gesloten om de zalm te beschermen',
+          body: 'De Teno (Tenojoki) was een van de grote Atlantische-zalmrivieren ter wereld. Zijn bestanden zijn nu zo zwak dat het vissen op zalm voor 2026 verboden is onder het protocol van het Fins-Noorse visserijverdrag voor de Teno, van kracht tot en met 31 december 2026. Een vergunning voor andere soorten bestaat, maar de zalm wordt met rust gelaten. Bekijk de geldende regels op tenonkalatalousalue.fi.',
+        },
+        {
+          title: 'De Tornio: een wilde rivier in herstel',
+          body: 'Op de vrij stromende Tornio loopt het verhaal andersom: zorgvuldige, gecoördineerde beperkingen hebben de wilde zalm helpen terugkeren. Het seizoen 2026 wordt strak beheerd, korte data, lage vangstlimieten, wekelijkse sluitingen en minimummaten, allemaal ingesteld om het herstel gaande te houden. Controleer de geldende voorwaarden op de gebiedspagina van eräluvat.fi voordat u gaat vissen.',
+        },
+        {
+          title: 'Roze zalm: een ongenode nieuwkomer',
+          body: 'De roze of bultrugzalm (Oncorhynchus gorbuscha) is een invasieve soort, van oorsprong uit de noordelijke Stille Oceaan en sinds ongeveer 2017 verspreid naar Noord-Noorwegen en de Teno. De aantallen schommelen sterk van jaar tot jaar en de soort concurreert met de inheemse zalm. Finland vermeldt hem als invasief (vieraslajit.fi); Luke monitort de trek van elk seizoen.',
+        },
+        {
+          title: 'De heffing die de vis financiert',
+          body: 'Iedereen van 18 tot 69 jaar die in Finland met kunstaas of vistuig vist, betaalt de nationale visbeheerheffing, 47 € voor het jaar, 16 € voor een week of 6 € voor een dag (eraluvat.fi). Die financiert bestandsmonitoring, herstel en werk aan vispassages. Wie jonger is dan 18 of 70 jaar en ouder is vrijgesteld, en eenvoudig hengelen onder het natuurrecht is gratis.',
+        },
+      ],
+      feeNote: 'Regels en data worden elk jaar opnieuw vastgesteld. Bevestig altijd het geldende seizoen, de quota en de heffingen op de officiële pagina\'s voordat u boekt of gaat vissen.',
+      pillarCta: 'Plan een visreis (activiteitengids)',
+    },
+    finalKicker: 'Bescherm het, geniet er dan van',
+    finalH2: 'Het water is het beschermen waard',
+    finalLead: 'Schoon koud water kunt u niet kopen; u kunt het alleen behouden of verliezen. Kies aanbieders die binnen de grenzen vissen, blijf op de gemarkeerde routes door kwetsbare venen en laat de oevers en het bos achter zoals u ze aantrof. Het beste wat een bezoeker voor Laplands vis kan doen, is het water behandelen als de luxe die het is.',
+    crossLinks: {
+      conservation: 'Wie de wildernis beschermt →',
+      wildlife: 'De dieren die het onderhoudt →',
+      fishing: 'Vissen in Lapland (activiteiten) →',
+      hub: 'Bredere reisgids voor Lapland →',
+    },
+    faq: {
+      eyebrow: 'Veelgestelde vragen',
+      h2: 'Zoet water in Lapland, veelgestelde vragen',
+      items: [
+        {
+          q: 'Hoeveel meren heeft Finland?',
+          a: 'Ongeveer 188.000 meren en poelen van minstens 0,05 hectare, volgens het nationale merenregister van SYKE (Järvi-meriwiki). Het aantal hangt af van de gehanteerde ondergrens, ongeveer 57.000 meren als u alleen die groter dan een hectare telt, dus het kopcijfer verwijst altijd naar de grens van 0,05 hectare. Lapland herbergt enkele van de schoonste ervan.',
+        },
+        {
+          q: 'Is de Tornio echt een vrij stromende rivier?',
+          a: 'Ja. Samen met de Zweedse Kalix (Kalixälven) is het Tornio-Muonio-systeem een van slechts twee grote ongereguleerde riviersystemen die in Finland en de EU resteren, volgens ymparisto.fi, wat betekent dat het niet is afgedamd voor waterkracht. Ook zijn belangrijkste zijrivier, de Ounasjoki, is beschermd tegen afdamming. Die niet-afgedamde staat is de reden dat het nog een werkende wildezalmrivier is.',
+        },
+        {
+          q: 'Waarom zijn aapa-venen belangrijk voor het vissen?',
+          a: 'Een veen werkt als de nier van een stroomgebied: het slaat smeltwater en regen op, geeft het langzaam vrij tijdens droge perioden en filtert sediment en voedingsstoffen weg voordat die een rivier bereiken. Dat houdt het water stroomafwaarts koud, helder en gelijkmatig, precies wat paaiende zalm en forel nodig hebben. Venen ontwateren maakt rivieren warmer en troebeler en verzwakt de visstand.',
+        },
+        {
+          q: 'Mag ik in 2026 op zalm vissen in de Teno?',
+          a: 'Nee. Het vissen op Atlantische zalm in de Teno (Tenojoki) is voor 2026 verboden onder het protocol van het Fins-Noorse visserijverdrag voor de Teno, van kracht tot en met 31 december 2026, omdat de zalmbestanden te zwak zijn. Er is een vergunning voor andere soorten beschikbaar, maar de zalm moet met rust worden gelaten. Controleer altijd de geldende regels op tenonkalatalousalue.fi voordat u afreist.',
+        },
+        {
+          q: 'Heb ik een vergunning nodig om te vissen in Lapland?',
+          a: 'Voor het meeste vissen met kunstaas en vistuig wel: hengelaars van 18 tot 69 jaar betalen de nationale visbeheerheffing (47 € per jaar, 16 € per week, 6 € per dag, via eraluvat.fi), en veel wateren vragen daarbovenop een aparte gebiedsvergunning. Eenvoudig hengelen en ijsvissen onder het natuurrecht is gratis, en wie jonger is dan 18 of 70 jaar en ouder is vrijgesteld van de nationale heffing.',
+        },
+      ],
+    },
+    verifyLine: 'Bronnen: SYKE (Järvi-meriwiki-merenregister), ymparisto.fi (Tornio-Muonio Natura 2000), ym.fi (Ramsar-wetlands), Metsähallitus, Luke, eräluvat.fi en het Fins-Noorse Teno-verdrag. Jaarlijkse visregels, heffingen en seizoenen worden elk jaar opnieuw vastgesteld, bevestig de geldende cijfers op de officiële pagina\'s voordat u afreist.',
   },
   notFound: {
     metaTitle: 'Pagina niet gevonden, LaplandNature',
