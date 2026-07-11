@@ -107,7 +107,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
     featured: {
       kicker: '六种进入方式',
       h2: '拉普兰精选体验',
-      lead: '从俄罗斯边境的观熊隐蔽屋,到冰瀑峡谷、午夜阳光下的独木舟,以及 Utsjoki 上方的 kaamos 极夜天空，六份值得反复回看的指南。',
+      lead: '从俄罗斯边境的观熊隐蔽屋,到冰瀑峡谷、午夜阳光下的独木舟,以及 Utsjoki 上方的 kaamos 极夜天空，七份值得反复回看的指南。',
       items: [
         {
           tag: '保护区',

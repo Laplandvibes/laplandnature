@@ -116,7 +116,7 @@ const en: SectionCopy = {
     featured: {
       kicker: 'Six ways in',
       h2: 'Featured Lapland Experiences',
-      lead: 'From bear-watching hides at the Russian border to frozen-waterfall canyons, midnight-sun canoeing and the kaamos sky over Utsjoki, six guides worth coming back to.',
+      lead: 'From bear-watching hides at the Russian border to frozen-waterfall canyons, midnight-sun canoeing and the kaamos sky over Utsjoki, seven guides worth coming back to.',
       items: [
         {
           tag: 'Protected areas',
@@ -906,7 +906,7 @@ const en: SectionCopy = {
     lakes: {
       title: 'Lakes',
       body1: "Finland is often called the land of a thousand lakes, and the real figure is far larger: roughly 188,000 lakes and ponds of at least 0.05 hectares, according to SYKE's Järvi-meriwiki register. Lapland's are among the clearest, fed by snowmelt and shaded catchments rather than farm run-off.",
-      body2: "Lake Inari (Inarijärvi), in the heart of the Sámi homeland, is one of Finland's largest lakes and the reservoir at the top of the Paatsjoki system draining to the Arctic Ocean. Its cold, oxygen-rich water carries Arctic char, brown trout and whitefish, species that only thrive where the water stays cold and clean.",
+      body2: "Lake Inari (Inarijärvi), in the heart of the Sámi homeland, is one of Finland's largest lakes and feeds the Paatsjoki river system draining north toward the Arctic Ocean. Its cold, oxygen-rich water carries Arctic char, brown trout and whitefish, species that only thrive where the water stays cold and clean.",
     },
     rivers: {
       title: 'Free-flowing rivers',

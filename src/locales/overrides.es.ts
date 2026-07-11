@@ -107,7 +107,7 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
     featured: {
       kicker: 'Seis maneras de entrar',
       h2: 'Experiencias destacadas en Laponia',
-      lead: 'Desde los hides para observar osos en la frontera rusa hasta cañones de cascadas heladas, canoa bajo el sol de medianoche y el cielo kaamos sobre Utsjoki, seis guías a las que volverá.',
+      lead: 'Desde los hides para observar osos en la frontera rusa hasta cañones de cascadas heladas, canoa bajo el sol de medianoche y el cielo kaamos sobre Utsjoki, siete guías a las que volverá.',
       items: [
         {
           tag: 'Áreas protegidas',

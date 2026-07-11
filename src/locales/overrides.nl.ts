@@ -107,7 +107,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
     featured: {
       kicker: 'Zes ingangen',
       h2: 'Uitgelichte ervaringen in Lapland',
-      lead: 'Van berenobservatiehutten aan de Russische grens tot ravijnen met bevroren watervallen, kano onder de middernachtzon en de kaamos-hemel boven Utsjoki, zes gidsen waar u op terugkomt.',
+      lead: 'Van berenobservatiehutten aan de Russische grens tot ravijnen met bevroren watervallen, kano onder de middernachtzon en de kaamos-hemel boven Utsjoki, zeven gidsen waar u op terugkomt.',
       items: [
         { tag: 'Beschermde gebieden', title: 'Nationale parken', blurb: 'Vijf parken, samen meer dan 7.000 km² beschermde natuur, van de fjells van Urho Kekkonen tot de met sneeuw gekroonde bomen van Riisitunturi.', cta: 'Ontdek de nationale parken' },
         { tag: 'Wilde dieren', title: 'Wildlife-observatie', blurb: 'Spoor de bruine beer met 99 % zichtkans op vanuit nachtelijke hutten, ontmoet halfwilde rendierkuddes en vang een glimp op van de veelvraat.', cta: 'Ontdek de wilde dieren' },

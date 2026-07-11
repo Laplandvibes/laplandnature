@@ -107,7 +107,7 @@ export const FR_OVERRIDES: DeepPartial<SectionCopy> = {
     featured: {
       kicker: 'Six portes d\'entrée',
       h2: 'Expériences phares de Laponie',
-      lead: 'Des affûts d\'ours près de la frontière russe aux canyons de cascades gelées, du canoë sous le soleil de minuit au ciel kaamos au-dessus d\'Utsjoki, six guides à revisiter.',
+      lead: 'Des affûts d\'ours près de la frontière russe aux canyons de cascades gelées, du canoë sous le soleil de minuit au ciel kaamos au-dessus d\'Utsjoki, sept guides à revisiter.',
       items: [
         { tag: 'Zones protégées', title: 'Parcs nationaux', blurb: 'Cinq parcs, plus de 7 000 km² de nature protégée, des fjells d\'Urho Kekkonen aux arbres couronnés de neige de Riisitunturi.', cta: 'Explorer les parcs nationaux' },
         { tag: 'Faune', title: 'Observation de la faune', blurb: 'Suivez l\'ours brun avec 99 % d\'observations depuis les affûts nocturnes, rencontrez des troupeaux semi-sauvages de rennes et tentez d\'apercevoir un glouton.', cta: 'Explorer la faune' },

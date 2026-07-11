@@ -1310,7 +1310,7 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://laplandnature.com/nl/conservation/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://laplandnature.com/conservation/" />
   </url>
-    <url>
+  <url>
     <loc>https://laplandnature.com/freshwater/</loc>
     <lastmod>2026-07-11</lastmod>
     <priority>0.8</priority>
@@ -1497,7 +1497,7 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://laplandnature.com/nl/freshwater/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://laplandnature.com/freshwater/" />
   </url>
-<url>
+  <url>
     <loc>https://laplandnature.com/editorial-policy/</loc>
     <lastmod>2026-06-10</lastmod>
     <priority>0.3</priority>

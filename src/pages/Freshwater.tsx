@@ -41,10 +41,10 @@ export default function Freshwater() {
   }
 
   const chapters = [
-    { key: 'lakes' as const, icon: Droplets, accent: 'text-sky-700', bg: 'bg-sky-500/10', data: c.lakes },
-    { key: 'rivers' as const, icon: Waves, accent: 'text-aurora-green', bg: 'bg-aurora-green/10', data: c.rivers },
-    { key: 'mires' as const, icon: Sprout, accent: 'text-emerald-700', bg: 'bg-emerald-500/10', data: c.mires },
-    { key: 'forests' as const, icon: TreePine, accent: 'text-emerald-800', bg: 'bg-emerald-600/10', data: c.forests },
+    { key: 'lakes' as const, icon: Droplets, accent: 'text-sky-700', bg: 'bg-sky-500/10', data: c.lakes, alt: 'Aerial view of a calm Lapland lake dotted with small forested islands under soft summer light' },
+    { key: 'rivers' as const, icon: Waves, accent: 'text-aurora-green', bg: 'bg-aurora-green/10', data: c.rivers, alt: 'A free-flowing northern river running clear over pale gravel banks and gentle rapids in midsummer' },
+    { key: 'mires' as const, icon: Sprout, accent: 'text-emerald-700', bg: 'bg-emerald-500/10', data: c.mires, alt: 'An aapa mire with reflective peat pools and white cottongrass under warm evening light, fells in the distance' },
+    { key: 'forests' as const, icon: TreePine, accent: 'text-emerald-800', bg: 'bg-emerald-600/10', data: c.forests, alt: 'A small clear stream winding over mossy stones through shady old-growth spruce forest' },
   ]
 
   return (
@@ -92,20 +92,33 @@ export default function Freshwater() {
             {chapters.map((ch, i) => {
               const Icon = ch.icon
               return (
-                <article key={ch.key} className="rounded-2xl border border-deep-night/10 bg-snow p-6 sm:p-7 hover:shadow-md hover:border-aurora-green/40 transition-all">
-                  <div className="flex items-start gap-4 mb-4">
-                    <div className={`w-11 h-11 rounded-xl ${ch.bg} flex items-center justify-center shrink-0`}>
-                      <Icon className={`w-5 h-5 ${ch.accent}`} />
-                    </div>
-                    <div>
-                      <p className={`text-xs font-semibold uppercase tracking-wider ${ch.accent} mb-1`}>
-                        {`0${i + 1}`}
-                      </p>
-                      <h3 className="font-heading text-2xl text-deep-night tracking-wide leading-tight">{ch.data.title}</h3>
-                    </div>
+                <article key={ch.key} className="rounded-2xl border border-deep-night/10 bg-snow overflow-hidden hover:shadow-md hover:border-aurora-green/40 transition-all flex flex-col">
+                  <div className="relative aspect-[16/10] overflow-hidden">
+                    <img
+                      src={`/images/freshwater-${ch.key}.webp`}
+                      alt={ch.alt}
+                      loading="lazy"
+                      decoding="async"
+                      className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+                      width={1400}
+                      height={875}
+                    />
                   </div>
-                  <p className="text-deep-night/75 text-sm leading-relaxed mb-3">{ch.data.body1}</p>
-                  <p className="text-deep-night/75 text-sm leading-relaxed">{ch.data.body2}</p>
+                  <div className="p-6 sm:p-7">
+                    <div className="flex items-start gap-4 mb-4">
+                      <div className={`w-11 h-11 rounded-xl ${ch.bg} flex items-center justify-center shrink-0`}>
+                        <Icon className={`w-5 h-5 ${ch.accent}`} />
+                      </div>
+                      <div>
+                        <p className={`text-xs font-semibold uppercase tracking-wider ${ch.accent} mb-1`}>
+                          {`0${i + 1}`}
+                        </p>
+                        <h3 className="font-heading text-2xl text-deep-night tracking-wide leading-tight">{ch.data.title}</h3>
+                      </div>
+                    </div>
+                    <p className="text-deep-night/75 text-sm leading-relaxed mb-3">{ch.data.body1}</p>
+                    <p className="text-deep-night/75 text-sm leading-relaxed">{ch.data.body2}</p>
+                  </div>
                 </article>
               )
             })}

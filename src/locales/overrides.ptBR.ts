@@ -107,7 +107,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
     featured: {
       kicker: 'Seis portas de entrada',
       h2: 'Experiências em destaque na Lapônia',
-      lead: 'Dos esconderijos de observação de ursos na fronteira russa aos cânions de cachoeira congelada, canoagem sob o sol da meia-noite e o céu kaamos sobre Utsjoki, seis guias para voltar mais de uma vez.',
+      lead: 'Dos esconderijos de observação de ursos na fronteira russa aos cânions de cachoeira congelada, canoagem sob o sol da meia-noite e o céu kaamos sobre Utsjoki, sete guias para voltar mais de uma vez.',
       items: [
         {
           tag: 'Áreas protegidas',

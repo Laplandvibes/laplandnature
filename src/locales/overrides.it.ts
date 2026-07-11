@@ -107,7 +107,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
     featured: {
       kicker: 'Sei porte d\'ingresso',
       h2: 'Esperienze di punta in Lapponia',
-      lead: 'Dai capanni di avvistamento orsi al confine russo ai canyon di cascate ghiacciate, dalla canoa sotto il sole di mezzanotte al cielo kaamos su Utsjoki, sei guide a cui tornare.',
+      lead: 'Dai capanni di avvistamento orsi al confine russo ai canyon di cascate ghiacciate, dalla canoa sotto il sole di mezzanotte al cielo kaamos su Utsjoki, sette guide a cui tornare.',
       items: [
         { tag: 'Aree protette', title: 'Parchi nazionali', blurb: 'Cinque parchi, oltre 7.000 km² di natura protetta, dai fjell di Urho Kekkonen agli alberi coronati di neve di Riisitunturi.', cta: 'Esplora i parchi nazionali' },
         { tag: 'Fauna', title: 'Avvistamento della fauna', blurb: 'Segui l\'orso bruno con il 99 % di avvistamenti dai capanni notturni, incontra branchi semiselvatici di renne e cerca di scorgere un ghiottone.', cta: 'Esplora la fauna' },
