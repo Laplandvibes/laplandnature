@@ -184,18 +184,21 @@ export default function Nav() {
           </div>
 
           <div className="xl:hidden flex items-center gap-2">
-            <select
-              value={lang}
-              onChange={(e) => switchTo(e.target.value as LangCode)}
-              aria-label="Language"
-              className={`bg-transparent border rounded px-2 py-1 text-xs font-semibold uppercase ${opaque ? 'border-deep-night/30 text-deep-night' : 'border-snow/40 text-snow'}`}
-            >
-              {ALL_LANGS.map((l) => (
-                <option key={l.code} value={l.code} className="bg-cream text-deep-night">
-                  {l.label}
-                </option>
-              ))}
-            </select>
+            <div className="relative inline-flex items-center">
+              <select
+                value={lang}
+                onChange={(e) => switchTo(e.target.value as LangCode)}
+                aria-label="Language"
+                className={`appearance-none bg-transparent border rounded pl-2 pr-6 py-1 text-xs font-semibold uppercase ${opaque ? 'border-deep-night/30 text-deep-night' : 'border-snow/40 text-snow'}`}
+              >
+                {ALL_LANGS.map((l) => (
+                  <option key={l.code} value={l.code} className="bg-cream text-deep-night">
+                    {l.label}
+                  </option>
+                ))}
+              </select>
+              <ChevronDown aria-hidden="true" className={`pointer-events-none absolute right-2 top-1/2 -translate-y-1/2 w-3 h-3 ${opaque ? 'text-deep-night' : 'text-snow'}`} />
+            </div>
             <button
               className={`p-2 rounded-lg transition-colors ${opaque ? 'text-deep-night' : 'text-snow'}`}
               onClick={() => setOpen(!open)}
