@@ -72,7 +72,7 @@ const de: SectionCopy = {
     legend: { park: 'Nationalpark', aurora: 'Nordlicht-Standort', trail: 'Wanderweg-Start', wildlife: 'Tierwelt' },
     pins: [
       { name: 'Urho-Kekkonen-NP', note: 'Finnlands zweitgrößter Park · Tor: Saariselkä' },
-      { name: 'Pallas-Yllästunturi-NP', note: '55 km Hetta–Pallas-Weg · Tor: Muonio' },
+      { name: 'Pallas-Yllästunturi-NP', note: '55 km Hetta–Pallas-Weg · Tor: Muonio' },
       { name: 'Lemmenjoki-NP', note: 'Europas größte straßenlose Wildnis · Goldwäsche · Inari' },
       { name: 'Riisitunturi-NP', note: 'Schneegekrönte Bäume (Tykky) · Tor: Posio' },
       { name: 'Pyhä-Luosto-NP', note: '400 Jahre alte Fichten · Amethyst-Mine' },
@@ -80,10 +80,10 @@ const de: SectionCopy = {
       { name: 'Utsjoki', note: '4 von 5 klaren Nächten zeigen Nordlichter in der Hochsaison · 51-Tage-Polarnacht' },
       { name: 'Kilpisjärvi', note: 'Dreiländereck · hochalpine Fjälls' },
       { name: 'Enontekiö', note: 'Einer der dunkelsten Himmel Europas (Bortle 1)' },
-      { name: 'Hetta', note: 'Nordende des 55 km Hetta–Pallas-Wegs' },
-      { name: 'Ruka / Oulanka', note: '82 km Karhunkierros · Hängebrücken + Schluchten' },
-      { name: 'Kilpisjärvi (Halti)', note: '55 km Hin- und Rückweg zum Halti, Finnlands höchstem Punkt (1.324 m)' },
-      { name: 'Pyhä', note: 'Pyhäkuru-Schlucht · barrierefreier Bohlenweg · 5 km' },
+      { name: 'Hetta', note: 'Nordende des 55 km Hetta–Pallas-Wegs' },
+      { name: 'Ruka / Oulanka', note: '82 km Karhunkierros · Hängebrücken + Schluchten' },
+      { name: 'Kilpisjärvi (Halti)', note: '55 km Hin- und Rückweg zum Halti, Finnlands höchstem Punkt (1.324 m)' },
+      { name: 'Pyhä', note: 'Pyhäkuru-Schlucht · barrierefreier Bohlenweg · 5 km' },
       { name: 'Kuusamo Bärenverstecke', note: 'Braunbären-Verstecke · 99 % Sichtungsquote · Mai–September' },
       { name: 'Nellim-Wildnis', note: 'Nellim-Wildnislodge · Revier von Vielfraß und Braunbär' },
       { name: 'Kaamanen-Rentiere', note: 'Sámi-Rentier-Zusammentrieb · Herbst (paliskunta)' },
@@ -91,13 +91,13 @@ const de: SectionCopy = {
   },
   home: {
     metaTitle: 'Lapplands Natur: Wildnis & Nationalparks | LaplandNature',
-    metaDescription: 'Die arktische Wildnis Finnisch-Lapplands, fünf Nationalparks, über 200 Nordlicht-Nächte, die Polarnacht (Kaamos) und Wanderwege von 5 bis 82 km.',
+    metaDescription: 'Die arktische Wildnis Finnisch-Lapplands, fünf Nationalparks, über 200 Nordlicht-Nächte, die Polarnacht (Kaamos) und Wanderwege von 5 bis 82 km.',
     hero: {
       alt: 'Schneebedeckte arktische Wildnis und Fjells in Finnisch-Lappland',
       eyebrow: 'Nördlich des Polarkreises',
       title: 'Unberührte arktische',
       subtitle: 'Wildnis',
-      description: 'Finnisch-Lappland, 100.367 km² Nationalparks, Fjälls, Urwälder und die längste Nordlicht-Saison Europas.',
+      description: 'Finnisch-Lappland, 100.367 km² Nationalparks, Fjälls, Urwälder und die längste Nordlicht-Saison Europas.',
       primaryCta: 'Nordlicht-Reise planen',
       secondaryCta: 'Die Parks erkunden',
     },
@@ -121,7 +121,7 @@ const de: SectionCopy = {
         {
           tag: 'Schutzgebiete',
           title: 'Nationalparks',
-          blurb: 'Fünf Parks mit über 7.000 km² geschützter Wildnis, von den Fjälls des Urho-Kekkonen-Parks bis zu den schneegekrönten Bäumen Riisitunturis.',
+          blurb: 'Fünf Parks mit über 7.000 km² geschützter Wildnis, von den Fjälls des Urho-Kekkonen-Parks bis zu den schneegekrönten Bäumen Riisitunturis.',
           cta: 'Nationalparks erkunden',
         },
         {
@@ -139,7 +139,7 @@ const de: SectionCopy = {
         {
           tag: 'Wege',
           title: 'Wanderwege',
-          blurb: 'Gehen Sie Finnlands berühmteste Wege, von den Hängebrücken des 82 km Karhunkierros bis zum 1.324 m hohen Halti.',
+          blurb: 'Gehen Sie Finnlands berühmteste Wege, von den Hängebrücken des 82 km Karhunkierros bis zum 1.324 m hohen Halti.',
           cta: 'Wanderwege erkunden',
         },
         {
@@ -213,8 +213,8 @@ const de: SectionCopy = {
     tips: [
       'Prüfen Sie die Nordlicht-Prognose des Finnischen Meteorologischen Instituts (Auroras-now / KP-Index), bevor Sie aufbrechen.',
       'Beste Sichtzeit zwischen 21 und 02 Uhr Ortszeit in klaren Nächten.',
-      'Entfernen Sie sich 5–10 km vom Ortskern, um die Lichtverschmutzung auf Bortle 2 oder darunter zu senken.',
-      'Ziehen Sie sich in Schichten an, Temperaturen erreichen oft −30 °C in der Hochsaison; eine Thermoskanne mit Heißgetränk ist Pflicht.',
+      'Entfernen Sie sich 5–10 km vom Ortskern, um die Lichtverschmutzung auf Bortle 2 oder darunter zu senken.',
+      'Ziehen Sie sich in Schichten an, Temperaturen erreichen oft −30 °C in der Hochsaison; eine Thermoskanne mit Heißgetränk ist Pflicht.',
       'Stativ und 5–15 Sekunden Belichtungszeit bei ISO 800–3200 (f/2.8) erfassen Nordlichter, die das Auge nicht sieht.',
     ],
     oneNightKicker: 'Eine Nacht · Inari · 2. März 2024',
@@ -228,8 +228,8 @@ const de: SectionCopy = {
       },
       {
         time: '21:00',
-        title: '8 km westlich von Inari fahren',
-        body: 'Die Lichtverschmutzung sinkt außerhalb des Orts schnell. Wir wählen eine kleine Seelichtung an der Kaamanen-Straße, offener Horizont nach Norden und Osten. −18 °C, windstill.',
+        title: '8 km westlich von Inari fahren',
+        body: 'Die Lichtverschmutzung sinkt außerhalb des Orts schnell. Wir wählen eine kleine Seelichtung an der Kaamanen-Straße, offener Horizont nach Norden und Osten. −18 °C, windstill.',
       },
       {
         time: '22:40',
@@ -256,7 +256,7 @@ const de: SectionCopy = {
     cards: [
       { title: 'Prognose-Werkzeuge', body: 'FMI Auroras-now (KP), NOAA OVATION (Oval), windy.com (Wolkendecke), alle drei offen halten.' },
       { title: 'Kamera-Grundeinstellung', body: '15 s · ISO 1600 · f/2.8 · manueller Fokus auf ein fernes Licht. Stativ Pflicht.' },
-      { title: 'Was die Nacht ruiniert', body: 'Vollmond (wäscht Farben aus). Wolken über 1500 m. Windkühle unter −25 °C ohne richtige Ausrüstung.' },
+      { title: 'Was die Nacht ruiniert', body: 'Vollmond (wäscht Farben aus). Wolken über 1500 m. Windkühle unter −25 °C ohne richtige Ausrüstung.' },
     ],
     finalH2: 'Möchten Sie einen Guide, der die Wolkenlücken kennt?',
     finalLead: 'Nordlicht-Jagden starten nächtlich aus Rovaniemi, Saariselkä und Levi. Lokale Guides folgen der Prognose und wechseln den Standort, wenn der Himmel zuzieht, deutlich höhere Trefferquote als allein.',
@@ -280,7 +280,7 @@ const de: SectionCopy = {
         },
         {
           q: 'Kann man die Polarlichter von Rovaniemi aus sehen?',
-          a: 'Ja, in klaren Nächten mit ausreichender Aktivität, doch Rovaniemi hat mehr Lichtverschmutzung und liegt südlicher als die besten Standorte. Fahren Sie 10–20 km aus der Stadt heraus an einen See oder ein offenes Feld, dann steigen die Chancen deutlich. Für die höchste Trefferquote übernachten Sie weiter nördlich in Inari, Saariselkä oder Utsjoki.',
+          a: 'Ja, in klaren Nächten mit ausreichender Aktivität, doch Rovaniemi hat mehr Lichtverschmutzung und liegt südlicher als die besten Standorte. Fahren Sie 10–20 km aus der Stadt heraus an einen See oder ein offenes Feld, dann steigen die Chancen deutlich. Für die höchste Trefferquote übernachten Sie weiter nördlich in Inari, Saariselkä oder Utsjoki.',
         },
         {
           q: 'Zu welcher Tageszeit sind die Polarlichter am aktivsten?',
@@ -306,13 +306,13 @@ const de: SectionCopy = {
     parks: [
       {
         name: 'Urho-Kekkonen-Nationalpark',
-        description: 'Finnlands zweitgrößter Nationalpark mit 2.550 km². Weite offene Fjälls, tiefe Flussschluchten und uralte Kiefernwälder. Ein Paradies für mehrtägige Wanderungen und Skitouren im Hinterland.',
+        description: 'Finnlands zweitgrößter Nationalpark mit 2.550 km². Weite offene Fjälls, tiefe Flussschluchten und uralte Kiefernwälder. Ein Paradies für mehrtägige Wanderungen und Skitouren im Hinterland.',
         highlight: 'Finnlands 2. größter Park',
-        visited: 'März 2024 · Tagesski-Tour auf der Rumakuru-Runde, Schnee stabil bei −12 °C',
+        visited: 'März 2024 · Tagesski-Tour auf der Rumakuru-Runde, Schnee stabil bei −12 °C',
       },
       {
         name: 'Pallas-Yllästunturi-Nationalpark',
-        description: 'Heimat des beliebtesten Fjäll-Kettenwegs Finnlands, der 55 km langen Hetta–Pallas-Route. Offene Fjäll-Kämme mit Horizont bis hinter das Käsivarsi-Gebiet.',
+        description: 'Heimat des beliebtesten Fjäll-Kettenwegs Finnlands, der 55 km langen Hetta–Pallas-Route. Offene Fjäll-Kämme mit Horizont bis hinter das Käsivarsi-Gebiet.',
         highlight: 'Längste Fjäll-Überquerung Finnlands',
         visited: 'September 2023 · Hetta → Pallas in drei Tagen · Ruska-Höhepunktwoche 2',
       },
@@ -339,30 +339,30 @@ const de: SectionCopy = {
     stayNearby: 'In der Nähe übernachten',
     hettaKicker: 'Aus dem Notizbuch · Ruska 2023',
     hettaH2: 'Hetta → Pallas in drei Tagen, die komplette Überquerung',
-    hettaLead: 'Der 55 km lange Hetta–Pallas-Weg durch den Pallas-Yllästunturi ist nicht ohne Grund die beliebteste Langwanderung Finnlands, fast vollständig oberhalb der Baumgrenze, Hütten in kurzen Etappenabständen, die Aussicht reißt nie ab. Wir gingen ihn von Nord nach Süd in drei Tagen zur Ruska-Hochzeit. Nordwärts ist die übliche Richtung; südwärts (Start in Hetta) ist die fotografisch bessere Wahl und die Fähre über den Ounasjärvi am Anfang ist ein schönes Ritual.',
+    hettaLead: 'Der 55 km lange Hetta–Pallas-Weg durch den Pallas-Yllästunturi ist nicht ohne Grund die beliebteste Langwanderung Finnlands, fast vollständig oberhalb der Baumgrenze, Hütten in kurzen Etappenabständen, die Aussicht reißt nie ab. Wir gingen ihn von Nord nach Süd in drei Tagen zur Ruska-Hochzeit. Nordwärts ist die übliche Richtung; südwärts (Start in Hetta) ist die fotografisch bessere Wahl und die Fähre über den Ounasjärvi am Anfang ist ein schönes Ritual.',
     days: [
       {
-        day: 'Tag 1 · 18 km',
+        day: 'Tag 1 · 18 km',
         title: 'Hetta → Sioskuru',
         body: 'Boot über den Ounasjärvi um 09:00 (kostenlos, fährt 1. Juni – 30. September). Aufstieg vom Pyhäkero auf den offenen Fjäll innerhalb von zwei Stunden. Sioskuru-Hütte schläft 16; angekommen 16:30 mit drei freien Betten. Sonnenuntergang über den westlichen Fjälls von der Tür aus.',
         note: '+520 m Höhenunterschied · leichter Wind',
       },
       {
-        day: 'Tag 2 · 22 km',
+        day: 'Tag 2 · 22 km',
         title: 'Sioskuru → Hannukuru',
         body: 'Der Aushänge-Tag. Sie überqueren Pyhäkuru und die Hochtundra um Lompolojärvi, das Foto des Weges, das Sie schon gesehen haben, ist von Kilometer 12. Die Hannukuru-Hütte hat eine holzbeheizte Sauna; deshalb teilen die meisten Wanderer die Route so auf.',
         note: 'Höhepunkt: Lompolojärvi-Spiegelung im 17-Uhr-Licht',
       },
       {
-        day: 'Tag 3 · 15 km',
+        day: 'Tag 3 · 15 km',
         title: 'Hannukuru → Pallas',
         body: 'Auf dem Papier der leichteste Tag. Aufstieg auf die Pallas-Gipfelkette, Taivaskero, Lehmäkero, Laukukero, mit Horizonten bis hinter das Käsivarsi-Gebiet an klaren Morgen. Endet am Pallas-Hotel; wenn möglich, buchen Sie Sauna und Steak. Sie haben beides verdient.',
-        note: 'Gesamt: 55 km · 3 Tage · 11 h reine Gehzeit',
+        note: 'Gesamt: 55 km · 3 Tage · 11 h reine Gehzeit',
       },
     ],
     differentlyH3: 'Was wir anders planen würden',
     differently: [
-      'Reservieren Sie ein Varaustupa-Bett für die zweite Nacht (Hannukuru). Die Autiotupa ist offen, war zur Ruska-Hochzeit aber um 15:30 voll. Reservierungshütte = 14 €, Seelenfrieden = unbezahlbar.',
+      'Reservieren Sie ein Varaustupa-Bett für die zweite Nacht (Hannukuru). Die Autiotupa ist offen, war zur Ruska-Hochzeit aber um 15:30 voll. Reservierungshütte = 14 €, Seelenfrieden = unbezahlbar.',
       'Nehmen Sie Schneeschuh-Gamaschen auch im frühen September mit. Zwei der sumpfigen Abstiege vom Pyhäkuru gingen über den Stiefel, zwei Tage nasse Socken.',
       'Essen Sie am ersten Tag reichlich. Der Laden in Hetta ist das letzte warme Essen vor dem Pallas-Hotel.',
       'Versuchen Sie das nicht in 2 Tagen. Wir trafen ein Paar, das es versuchte; sie brachen in Hannukuru ab und wurden per Bus abgeholt.',
@@ -387,7 +387,7 @@ const de: SectionCopy = {
         },
         {
           q: 'Welcher ist der größte Nationalpark im finnischen Lappland?',
-          a: 'Der Urho-Kekkonen-Nationalpark ist mit rund 2.550 km² der größte in Lappland und der zweitgrößte in ganz Finnland. Er reicht von den Saariselkä-Fjälls ostwärts in tiefe, straßenlose Wildnis, mit offenen Fjälls, Flussschluchten und altem Kiefernwald.',
+          a: 'Der Urho-Kekkonen-Nationalpark ist mit rund 2.550 km² der größte in Lappland und der zweitgrößte in ganz Finnland. Er reicht von den Saariselkä-Fjälls ostwärts in tiefe, straßenlose Wildnis, mit offenen Fjälls, Flussschluchten und altem Kiefernwald.',
         },
         {
           q: 'Braucht man eine Genehmigung oder Eintritt für Lapplands Nationalparks?',
@@ -406,7 +406,7 @@ const de: SectionCopy = {
   },
   wildlife: {
     metaTitle: 'Lapplands Tierwelt: Rentier, Bär, Vielfraß | LaplandNature',
-    metaDescription: 'Sechs ikonische arktische Arten in Finnisch-Lappland, von 200.000 halbdomestizierten Rentieren über den bedrohten Polarfuchs bis zum scheuen Vielfraß.',
+    metaDescription: 'Sechs ikonische arktische Arten in Finnisch-Lappland, von 200.000 halbdomestizierten Rentieren über den bedrohten Polarfuchs bis zum scheuen Vielfraß.',
     hero: {
       alt: 'Ein Braunbär im borealen Wald von Finnisch-Lappland',
       eyebrow: 'Säulen-Guide',
@@ -417,7 +417,7 @@ const de: SectionCopy = {
     animals: [
       {
         name: 'Rentier',
-        description: 'Etwa 200.000 halbdomestizierte Rentiere streifen durch Finnisch-Lappland und sind seit Jahrtausenden zentral für die Sámi-Hirtenkultur. Sie weiden frei auf Fjälls und Wäldern, Sie begegnen ihnen am Straßenrand.',
+        description: 'Etwa 200.000 halbdomestizierte Rentiere streifen durch Finnisch-Lappland und sind seit Jahrtausenden zentral für die Sámi-Hirtenkultur. Sie weiden frei auf Fjälls und Wäldern, Sie begegnen ihnen am Straßenrand.',
         status: 'Häufig',
       },
       {
@@ -459,7 +459,7 @@ const de: SectionCopy = {
     bearBody: [
       'Ostfinnland, Kuusamo, Suomussalmi, Lieksa, hat die dichteste Braunbärpopulation Europas pro Quadratkilometer. Drei oder vier Anbieter betreiben kleine Nacht-Verstecke von Ende April bis Anfang September, und die Mathematik ist einfach: eine Nacht, statistische Sichtungsquote bei rund 90 %. Zwei Nächte, Sie sind bei 99 %+.',
       'Das Versteck ist ein beheizter Holzraum mit Einwegblende für die Fotografie und einer Liege. Sie kommen um 17:00 an und verlassen es nicht vor 07:00. Der Köder, meist Lachs an einer traditionellen Futterstelle, hält die Bären über Jahre wiederkehrend; einige Individuen wurden über ein Jahrzehnt fotografiert. Jungtiere im Mai–Juni. Einzelmännchen den Sommer über. Wölfe queren dieselbe Lichtung im September, wenn Sie Glück haben.',
-      'Die Kosten liegen bei 280–450 € pro Person und Nacht, inklusive Transport, Abendessen, Liege und einem Guide, der per Kopfhörer erklärt, was Sie sehen. Buchen Sie für Juli-Wochenenden über 6 Monate im Voraus.',
+      'Die Kosten liegen bei 280–450 € pro Person und Nacht, inklusive Transport, Abendessen, Liege und einem Guide, der per Kopfhörer erklärt, was Sie sehen. Buchen Sie für Juli-Wochenenden über 6 Monate im Voraus.',
     ],
     browseHidesCta: 'Bären-Verstecke anzeigen',
     preNightCta: 'Unterkünfte in Kuusamo vor der Nacht',
@@ -470,7 +470,7 @@ const de: SectionCopy = {
       {
         time: '17:15',
         title: 'Ankunft, Einweisung, Haftungsverzicht',
-        body: '8 km abseits der Hauptstraße, die letzten 2 km auf einem Waldweg. Guide erklärt die Regeln: kein Parfüm, kein Blitz, nur Flüstern, die Versteck-Tür nicht nach 19:00 öffnen. Der Lachs liegt schon auf der Lichtung. Sandwiches und Thermoskanne im Schlafraum.',
+        body: '8 km abseits der Hauptstraße, die letzten 2 km auf einem Waldweg. Guide erklärt die Regeln: kein Parfüm, kein Blitz, nur Flüstern, die Versteck-Tür nicht nach 19:00 öffnen. Der Lachs liegt schon auf der Lichtung. Sandwiches und Thermoskanne im Schlafraum.',
       },
       {
         time: '19:40',
@@ -531,7 +531,7 @@ const de: SectionCopy = {
         },
         {
           q: 'Wie viele Rentiere gibt es in Lappland, und sind sie wild?',
-          a: 'Rund 200.000 halbdomestizierte Rentiere streifen durch das finnische Lappland. Sie sind nicht wild, jedes Tier gehört einer Person und ist innerhalb einer Hirtengenossenschaft mit einem Ohrzeichen versehen; sie stehen seit Jahrtausenden im Zentrum der samischen Kultur. Sie weiden frei über Fjälls und Wälder, daher begegnen Sie ihnen regelmäßig am Straßenrand.',
+          a: 'Rund 200.000 halbdomestizierte Rentiere streifen durch das finnische Lappland. Sie sind nicht wild, jedes Tier gehört einer Person und ist innerhalb einer Hirtengenossenschaft mit einem Ohrzeichen versehen; sie stehen seit Jahrtausenden im Zentrum der samischen Kultur. Sie weiden frei über Fjälls und Wälder, daher begegnen Sie ihnen regelmäßig am Straßenrand.',
         },
         {
           q: 'Was ist das seltenste Tier Lapplands?',
@@ -539,7 +539,7 @@ const de: SectionCopy = {
         },
         {
           q: 'Was kostet eine Bärenbeobachtungshütte?',
-          a: 'Rechnen Sie mit etwa 280–450 € pro Person für eine Nacht, in der Regel inklusive Transfer vom Treffpunkt, Abendessen, einem Schlafplatz in der Hütte und einem Guide. Juli-Wochenenden sind Monate im Voraus ausgebucht, reservieren Sie für Hochsommer-Termine also sechs Monate oder mehr im Voraus.',
+          a: 'Rechnen Sie mit etwa 280–450 € pro Person für eine Nacht, in der Regel inklusive Transfer vom Treffpunkt, Abendessen, einem Schlafplatz in der Hütte und einem Guide. Juli-Wochenenden sind Monate im Voraus ausgebucht, reservieren Sie für Hochsommer-Termine also sechs Monate oder mehr im Voraus.',
         },
       ],
     },
@@ -583,7 +583,7 @@ const de: SectionCopy = {
       {
         week: 'Woche 1 · 2.–8.9.',
         region: 'Utsjoki + Kilpisjärvi (69°N+)',
-        body: 'Die nördlichsten Fjälls beginnen zuerst. Birke bis zum 5.9. zu 60 % verfärbt; Preiselbeerbüsche tiefrot. Camp-Temperatur −2 °C nachts. Fotofenster: 14:00–17:00, flacher Lichteinfall.',
+        body: 'Die nördlichsten Fjälls beginnen zuerst. Birke bis zum 5.9. zu 60 % verfärbt; Preiselbeerbüsche tiefrot. Camp-Temperatur −2 °C nachts. Fotofenster: 14:00–17:00, flacher Lichteinfall.',
       },
       {
         week: 'Woche 2 · 9.–15.9.',
@@ -659,8 +659,8 @@ const de: SectionCopy = {
     },
   },
   hiking: {
-    metaTitle: 'Lapplands Wanderwege: 5 km bis 82 km | LaplandNature',
-    metaDescription: 'Sechs Wanderwege in Finnisch-Lappland, Hetta–Pallas (55 km), Karhunkierros (82 km), Halti (55 km) und drei kürzere Routen. Distanz, Dauer und Basen.',
+    metaTitle: 'Lapplands Wanderwege: 5 km bis 82 km | LaplandNature',
+    metaDescription: 'Sechs Wanderwege in Finnisch-Lappland, Hetta–Pallas (55 km), Karhunkierros (82 km), Halti (55 km) und drei kürzere Routen. Distanz, Dauer und Basen.',
     hero: {
       alt: 'Ein Wanderweg schlängelt sich über einen herbstlichen Ruska-Fjell in Finnisch-Lappland',
       eyebrow: 'Säulen-Guide',
@@ -670,85 +670,85 @@ const de: SectionCopy = {
     },
     karhuKicker: 'Aus dem Notizbuch · Ruska 2024',
     karhuH2: 'Karhunkierros in 4 Tagen, was wir packten, was wir wegließen, was wir lernten',
-    karhuLead: 'Wir gingen den vollen 82 km langen Bärenweg von Süd nach Nord in vier Tagen Ende September, zur Ruska-Hochzeit. Unten, was wirklich passierte, Distanzen, Hüttenentscheidungen, Rucksackgewicht und die Entscheidungen, die wir beim nächsten Mal anders treffen würden. Behandeln Sie es als Planungsbasis, nicht als Evangelium, Wetter und Ihre Fitness ändern alles.',
+    karhuLead: 'Wir gingen den vollen 82 km langen Bärenweg von Süd nach Nord in vier Tagen Ende September, zur Ruska-Hochzeit. Unten, was wirklich passierte, Distanzen, Hüttenentscheidungen, Rucksackgewicht und die Entscheidungen, die wir beim nächsten Mal anders treffen würden. Behandeln Sie es als Planungsbasis, nicht als Evangelium, Wetter und Ihre Fitness ändern alles.',
     days: [
       {
-        day: 'Tag 1 · 22 km',
+        day: 'Tag 1 · 22 km',
         title: 'Hautajärvi → Aventojoki',
-        body: 'Auf dem Papier der leichteste Tag, in der Praxis brutal, 22 km sind lang, wenn die Rucksäcke noch schwer sind. Aventojoki-Hütte hatte um 17:00 vier freie Betten, um 19:00 voll. Es lohnt sich, über das Mittagessen hinaus zu pushen, um einen Platz zu sichern.',
-        note: 'Rucksack am Start: 14,2 kg trocken · 16,0 kg mit Wasser',
+        body: 'Auf dem Papier der leichteste Tag, in der Praxis brutal, 22 km sind lang, wenn die Rucksäcke noch schwer sind. Aventojoki-Hütte hatte um 17:00 vier freie Betten, um 19:00 voll. Es lohnt sich, über das Mittagessen hinaus zu pushen, um einen Platz zu sichern.',
+        note: 'Rucksack am Start: 14,2 kg trocken · 16,0 kg mit Wasser',
       },
       {
-        day: 'Tag 2 · 18 km',
+        day: 'Tag 2 · 18 km',
         title: 'Aventojoki → Jussinkämppä',
-        body: 'Der Aushänge-Tag. Hängebrücken über die Kitkajoki-Stromschnellen; der Oulanka-Schluchten-Aussichtspunkt nach den ersten 8 km ist das Foto, das jeder finnische Wanderer hat. Halt. Das Licht um 14:00 im späten September ist unwiederholbar.',
+        body: 'Der Aushänge-Tag. Hängebrücken über die Kitkajoki-Stromschnellen; der Oulanka-Schluchten-Aussichtspunkt nach den ersten 8 km ist das Foto, das jeder finnische Wanderer hat. Halt. Das Licht um 14:00 im späten September ist unwiederholbar.',
         note: 'Höhepunkt: Jyrävä-Wasserfall · ca. 25 m Fall, vom Bohlenweg erreichbar',
       },
       {
-        day: 'Tag 3 · 21 km',
+        day: 'Tag 3 · 21 km',
         title: 'Jussinkämppä → Taivalköngäs',
         body: 'Langer welliger Waldtag, weniger dramatische Merkmale, mehr Rhythmus. Die Taivalköngäs-Stromschnellen am Ende sind der lauteste Punkt des Wegs. Wir schliefen in der Autiotupa; sie war um 16:30 voll. Ohrstöpsel mitbringen, die Stromschnellen rauschen die ganze Nacht.',
-        note: 'Erste Minusgrad-Nacht · −2 °C, leichter Reif auf den Bohlen am Morgen',
+        note: 'Erste Minusgrad-Nacht · −2 °C, leichter Reif auf den Bohlen am Morgen',
       },
       {
-        day: 'Tag 4 · 21 km',
+        day: 'Tag 4 · 21 km',
         title: 'Taivalköngäs → Ruka',
-        body: 'Leichteres Gelände, die Knöchel schon empfindlich. Die letzten 6 km ziehen, früh los. Die Ruka-Dusche um 14:30 fühlte sich wie eine religiöse Erfahrung an. Buchen Sie nicht denselben Abend den Bus nach Süden; Sie wollen vorher eine Hotelnacht.',
-        note: 'Gesamtdauer: 82 km · 4 Tage · 12 h reine Gehzeit',
+        body: 'Leichteres Gelände, die Knöchel schon empfindlich. Die letzten 6 km ziehen, früh los. Die Ruka-Dusche um 14:30 fühlte sich wie eine religiöse Erfahrung an. Buchen Sie nicht denselben Abend den Bus nach Süden; Sie wollen vorher eine Hotelnacht.',
+        note: 'Gesamtdauer: 82 km · 4 Tage · 12 h reine Gehzeit',
       },
     ],
     differentlyH3: 'Was wir anders machen würden',
     differently: [
       'Einen Tag früher starten und Tag 1 aufteilen, einen Abschnitt der Pieni-Karhunkierros-Schleife weglassen, wenn der Rucksack schwer ist.',
       'Eine Übernachtung im Oulanka-Besucherzentrum als Rückfall reservieren, falls eine offene Hütte voll ist. Wir hatten Glück; die Schlange ist zur Ruska-Hochzeit real.',
-      'Ein zusätzliches Paar trockener Socken einpacken. Bohlenwege werden bei −2 °C eisglatt.',
+      'Ein zusätzliches Paar trockener Socken einpacken. Bohlenwege werden bei −2 °C eisglatt.',
       'Den Leichtgewichts-Kocherbrennstoff weglassen, jede Wildnishütte hatte einen Holzofen und trockenes Brennholz. 400 g für die nächste Wanderung gespart.',
     ],
     rukaPostCta: 'Unterkünfte in Ruka nach dem Weg',
     oulankaGuidedCta: 'Geführte Oulanka-Tagestouren',
     listKicker: 'Die vollständige Wegeliste',
     listH2: 'Sechs Wege, um die sich eine Reise planen lässt',
-    listLead: 'Vom 5 km Pyhäkuru-Schlucht-Bohlenweg bis zum 82 km Karhunkierros oben. Jeder verbindet ein Ausgangsdorf, in dem Sie übernachten möchten.',
+    listLead: 'Vom 5 km Pyhäkuru-Schlucht-Bohlenweg bis zum 82 km Karhunkierros oben. Jeder verbindet ein Ausgangsdorf, in dem Sie übernachten möchten.',
     trails: [
       {
         name: 'Hetta–Pallas-Weg',
         description: 'Finnlands beliebtester Fernwanderweg, durch die Fjäll-Kette zwischen Hetta und Pallas. Offenes Fjäll-Gelände mit Horizontblicken, gut gepflegte Wildnishütten in Etappen.',
-        distance: '55 km',
+        distance: '55 km',
         duration: '3–4 Tage',
         difficulty: 'Mittel',
       },
       {
         name: 'Karhunkierros (Bärenweg)',
         description: 'Einer der berühmtesten Wege Finnlands, windet sich durch die Oulanka-Schlucht, an Stromschnellen und Hängebrücken vorbei. Dramatische Flussschluchten und Urwald prägen die gesamte Route.',
-        distance: '82 km',
+        distance: '82 km',
         duration: '4–6 Tage',
         difficulty: 'Anspruchsvoll',
       },
       {
         name: 'Saariselkä Tagestouren',
         description: 'Gut markierte Tagestouren ab Saariselkä-Dorf in den Nationalpark. Die richtige Einführung ins Fjäll-Wandern mit Optionen für alle Fitnesslevel und Wetterfenster.',
-        distance: '5–20 km',
+        distance: '5–20 km',
         duration: '2–8 h',
         difficulty: 'Leicht',
       },
       {
         name: 'Halti-Gipfelweg',
         description: 'Wanderung zum höchsten Punkt Finnlands, 1.324 m. Abgelegene Wildnisroute durch das Hinterland von Kilpisjärvi. Der letzte Gipfelabschnitt ist unmarkiert und erfordert Navigationsvermögen bei schlechter Sicht.',
-        distance: '55 km (hin und zurück)',
+        distance: '55 km (hin und zurück)',
         duration: '3–5 Tage',
         difficulty: 'Sehr anspruchsvoll',
       },
       {
         name: 'Pyhäkuru-Schluchten-Weg',
         description: 'Kurzer, aber eindrucksvoller Weg durch eine tiefe Schlucht mit uralten Felswänden. Heilige Stätte der Sámi, mit barrierefreien Bohlenabschnitten für Familien und gemischte Gruppen.',
-        distance: '5 km',
+        distance: '5 km',
         duration: '2–3 h',
         difficulty: 'Leicht',
       },
       {
         name: 'Lemmenjoki-Fluss-Weg',
         description: 'Folgt dem legendären Goldwasch-Fluss durch eines der größten Wildnisgebiete Europas. Bootstransport für einen Teil der Route verfügbar. Reiche Goldrausch-Geschichte an markierten Wasch-Plätzen sichtbar.',
-        distance: '20 km',
+        distance: '20 km',
         duration: '1–2 Tage',
         difficulty: 'Mittel',
       },
@@ -769,19 +769,19 @@ const de: SectionCopy = {
       items: [
         {
           q: 'Wie lange dauert der Karhunkierros (Bärenpfad)?',
-          a: 'Der komplette Karhunkierros ist etwa 82 km lang, und die meisten Wanderer bewältigen ihn in vier bis sechs Tagen mit Übernachtung in den Wildnishütten entlang der Oulanka-Schlucht. Starke Geher schaffen ihn in vier langen Tagen; wenn Sie Zeit an den Stromschnellen, Wasserfällen und Hängebrücken wollen, planen Sie fünf. Die kürzere Pieni-Karhunkierros-Runde fasst die Höhepunkte auf 12 km zusammen.',
+          a: 'Der komplette Karhunkierros ist etwa 82 km lang, und die meisten Wanderer bewältigen ihn in vier bis sechs Tagen mit Übernachtung in den Wildnishütten entlang der Oulanka-Schlucht. Starke Geher schaffen ihn in vier langen Tagen; wenn Sie Zeit an den Stromschnellen, Wasserfällen und Hängebrücken wollen, planen Sie fünf. Die kürzere Pieni-Karhunkierros-Runde fasst die Höhepunkte auf 12 km zusammen.',
         },
         {
           q: 'Was ist der beliebteste Wanderweg in Lappland?',
-          a: 'Der 55 km lange Hetta–Pallas-Weg durch den Pallas-Yllästunturi-Nationalpark ist Finnlands beliebtester Fernwanderweg. Er verläuft fast vollständig oberhalb der Baumgrenze mit offenen Fjäll-Ausblicken, und die Hütten liegen in passenden Abständen für bequeme Etappen von drei bis vier Tagen zwischen Hetta und Pallas.',
+          a: 'Der 55 km lange Hetta–Pallas-Weg durch den Pallas-Yllästunturi-Nationalpark ist Finnlands beliebtester Fernwanderweg. Er verläuft fast vollständig oberhalb der Baumgrenze mit offenen Fjäll-Ausblicken, und die Hütten liegen in passenden Abständen für bequeme Etappen von drei bis vier Tagen zwischen Hetta und Pallas.',
         },
         {
           q: 'Muss man die Wildnishütten im Voraus buchen?',
-          a: 'Offene Wildnishütten (autiotupa) sind kostenlos und werden nach dem Prinzip „wer zuerst kommt“ vergeben, man kann sie nicht reservieren, und zur Ruska-Hochzeit im September können sie schon am frühen Nachmittag voll sein. Reservierungshütten (varaustupa) müssen im Voraus gebucht und bezahlt werden, meist rund 14 € pro Schlafplatz, und lohnen sich für ein garantiertes Bett auf stark frequentierten Abschnitten.',
+          a: 'Offene Wildnishütten (autiotupa) sind kostenlos und werden nach dem Prinzip „wer zuerst kommt“ vergeben, man kann sie nicht reservieren, und zur Ruska-Hochzeit im September können sie schon am frühen Nachmittag voll sein. Reservierungshütten (varaustupa) müssen im Voraus gebucht und bezahlt werden, meist rund 14 € pro Schlafplatz, und lohnen sich für ein garantiertes Bett auf stark frequentierten Abschnitten.',
         },
         {
           q: 'Wie hoch ist Finnlands höchster Punkt, und kann man ihn erwandern?',
-          a: 'Finnlands höchster Punkt liegt an der Flanke des Halti auf 1.324 m, tief im Hinterland von Kilpisjärvi nahe der norwegischen Grenze. Es ist eine ernsthafte Hin- und Rückroute von 55 km über drei bis fünf Tage; der letzte Anstieg ist unmarkiert und erfordert bei schlechter Sicht echtes Orientierungsvermögen.',
+          a: 'Finnlands höchster Punkt liegt an der Flanke des Halti auf 1.324 m, tief im Hinterland von Kilpisjärvi nahe der norwegischen Grenze. Es ist eine ernsthafte Hin- und Rückroute von 55 km über drei bis fünf Tage; der letzte Anstieg ist unmarkiert und erfordert bei schlechter Sicht echtes Orientierungsvermögen.',
         },
         {
           q: 'Wann wandert man in Lappland am besten?',
@@ -847,7 +847,7 @@ const de: SectionCopy = {
       },
       {
         title: 'Rentiere haben Vorfahrt',
-        body: 'Etwa 200.000 halbdomestizierte Rentiere streifen durch Lappland, sie haben Besitzer, sind nicht wild. Auf der Straße langsamer fahren; auf den Fjälls Abstand halten. An Zäunen (poroaita) das Tor hinter sich schließen.',
+        body: 'Etwa 200.000 halbdomestizierte Rentiere streifen durch Lappland, sie haben Besitzer, sind nicht wild. Auf der Straße langsamer fahren; auf den Fjälls Abstand halten. An Zäunen (poroaita) das Tor hinter sich schließen.',
       },
     ],
     finalKicker: 'Verantwortlich reisen',
@@ -942,7 +942,7 @@ const de: SectionCopy = {
         },
         {
           title: 'Die Gebühr, die die Fische finanziert',
-          body: 'Wer zwischen 18 und 69 Jahren in Finnland mit Köder oder Gerät angelt, zahlt die staatliche Fischereipflegegebühr, 47 € für das Jahr, 16 € für eine Woche oder 6 € für einen Tag (eraluvat.fi). Sie finanziert Bestandsüberwachung, Renaturierung und den Bau von Fischwegen. Unter 18-Jährige und Personen ab 70 sind befreit, und einfaches Angeln mit Rute und Schnur im Rahmen des Jedermannsrechts ist kostenlos.',
+          body: 'Wer zwischen 18 und 69 Jahren in Finnland mit Köder oder Gerät angelt, zahlt die staatliche Fischereipflegegebühr, 47 € für das Jahr, 16 € für eine Woche oder 6 € für einen Tag (eraluvat.fi). Sie finanziert Bestandsüberwachung, Renaturierung und den Bau von Fischwegen. Unter 18-Jährige und Personen ab 70 sind befreit, und einfaches Angeln mit Rute und Schnur im Rahmen des Jedermannsrechts ist kostenlos.',
         },
       ],
       feeNote: 'Regeln und Termine werden jedes Jahr neu festgelegt. Bestätigen Sie stets die aktuelle Saison, Quoten und Gebühren auf den offiziellen Seiten, bevor Sie buchen oder angeln.',
@@ -979,7 +979,7 @@ const de: SectionCopy = {
         },
         {
           q: 'Brauche ich zum Angeln in Lappland eine Genehmigung?',
-          a: 'Für die meiste Köder- und Gerätefischerei ja: Angler zwischen 18 und 69 zahlen die staatliche Fischereipflegegebühr (47 € Jahr, 16 € Woche, 6 € Tag, über eraluvat.fi), und viele Gewässer erfordern zusätzlich eine gesonderte Gebietsgenehmigung. Einfaches Angeln mit Rute und Schnur sowie Eisangeln im Rahmen des Jedermannsrechts ist kostenlos, und unter 18-Jährige sowie Personen ab 70 sind von der staatlichen Gebühr befreit.',
+          a: 'Für die meiste Köder- und Gerätefischerei ja: Angler zwischen 18 und 69 zahlen die staatliche Fischereipflegegebühr (47 € Jahr, 16 € Woche, 6 € Tag, über eraluvat.fi), und viele Gewässer erfordern zusätzlich eine gesonderte Gebietsgenehmigung. Einfaches Angeln mit Rute und Schnur sowie Eisangeln im Rahmen des Jedermannsrechts ist kostenlos, und unter 18-Jährige sowie Personen ab 70 sind von der staatlichen Gebühr befreit.',
         },
       ],
     },

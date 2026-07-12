@@ -64,7 +64,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
     legend: { park: 'Parco nazionale', aurora: 'Osservazione dell\'aurora', trail: 'Partenza del sentiero', wildlife: 'Fauna' },
     pins: [
       { name: 'PN Urho Kekkonen', note: '2° parco più grande della Finlandia · accesso: Saariselkä' },
-      { name: 'PN Pallas-Yllästunturi', note: 'Sentiero Hetta–Pallas di 55 km · accesso: Muonio' },
+      { name: 'PN Pallas-Yllästunturi', note: 'Sentiero Hetta–Pallas di 55 km · accesso: Muonio' },
       { name: 'PN Lemmenjoki', note: 'La più ampia area senza strade d\'Europa · ricerca dell\'oro · Inari' },
       { name: 'PN Riisitunturi', note: 'Alberi incoronati di neve tykky · accesso: Posio' },
       { name: 'PN Pyhä-Luosto', note: 'Abeti rossi di 400 anni · miniera di ametista' },
@@ -72,10 +72,10 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
       { name: 'Utsjoki', note: '4 notti serene su 5 mostrano l\'aurora al picco · kaamos di 51 giorni' },
       { name: 'Kilpisjärvi', note: 'Punto delle tre frontiere · fjell d\'alta quota' },
       { name: 'Enontekiö', note: 'Tra i cieli più bui d\'Europa (Bortle 1)' },
-      { name: 'Hetta', note: 'Estremità nord del sentiero Hetta–Pallas di 55 km' },
-      { name: 'Ruka / Oulanka', note: 'Karhunkierros di 82 km · ponti sospesi e canyon' },
-      { name: 'Kilpisjärvi (Halti)', note: '55 km andata e ritorno fino all\'Halti, il punto più alto della Finlandia (1.324 m)' },
-      { name: 'Pyhä', note: 'Gola di Pyhäkuru · passerella accessibile · 5 km' },
+      { name: 'Hetta', note: 'Estremità nord del sentiero Hetta–Pallas di 55 km' },
+      { name: 'Ruka / Oulanka', note: 'Karhunkierros di 82 km · ponti sospesi e canyon' },
+      { name: 'Kilpisjärvi (Halti)', note: '55 km andata e ritorno fino all\'Halti, il punto più alto della Finlandia (1.324 m)' },
+      { name: 'Pyhä', note: 'Gola di Pyhäkuru · passerella accessibile · 5 km' },
       { name: 'Capanni per orsi di Kuusamo', note: 'Capanni per l\'orso bruno · 99% di avvistamenti · da maggio a settembre' },
       { name: 'Natura di Nellim', note: 'Lodge naturalistico di Nellim · territorio di ghiottone e orso bruno' },
       { name: 'Renne di Kaamanen', note: 'Raduno delle renne sámi · autunno (paliskunta)' },
@@ -83,13 +83,13 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   home: {
     metaTitle: 'Natura della Lapponia: parchi e aurora | LaplandNature',
-    metaDescription: 'La natura artica della Lapponia finlandese, cinque parchi nazionali, oltre 200 notti di aurora all\'anno, kaamos (notte polare) e sentieri da 5 a 82 km.',
+    metaDescription: 'La natura artica della Lapponia finlandese, cinque parchi nazionali, oltre 200 notti di aurora all\'anno, kaamos (notte polare) e sentieri da 5 a 82 km.',
     hero: {
       alt: 'Natura artica innevata e colline di tundra nella Lapponia finlandese',
       eyebrow: 'Oltre il circolo polare',
       title: 'Una natura artica',
       subtitle: 'intatta',
-      description: 'Lapponia finlandese, 100.367 km² di parchi nazionali, fjell, foreste antiche e la stagione di aurore più lunga d\'Europa.',
+      description: 'Lapponia finlandese, 100.367 km² di parchi nazionali, fjell, foreste antiche e la stagione di aurore più lunga d\'Europa.',
       primaryCta: 'Pianifica il viaggio dell\'aurora',
       secondaryCta: 'Esplora i parchi',
     },
@@ -110,10 +110,10 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
       h2: 'Esperienze di punta in Lapponia',
       lead: 'Dai capanni di avvistamento orsi al confine russo ai canyon di cascate ghiacciate, dalla canoa sotto il sole di mezzanotte al cielo kaamos su Utsjoki, sette guide a cui tornare.',
       items: [
-        { tag: 'Aree protette', title: 'Parchi nazionali', blurb: 'Cinque parchi, oltre 7.000 km² di natura protetta, dai fjell di Urho Kekkonen agli alberi coronati di neve di Riisitunturi.', cta: 'Esplora i parchi nazionali' },
+        { tag: 'Aree protette', title: 'Parchi nazionali', blurb: 'Cinque parchi, oltre 7.000 km² di natura protetta, dai fjell di Urho Kekkonen agli alberi coronati di neve di Riisitunturi.', cta: 'Esplora i parchi nazionali' },
         { tag: 'Fauna', title: 'Avvistamento della fauna', blurb: 'Segui l\'orso bruno con il 99 % di avvistamenti dai capanni notturni, incontra branchi semiselvatici di renne e cerca di scorgere un ghiottone.', cta: 'Esplora la fauna' },
         { tag: 'Aurora', title: 'Aurora boreale', blurb: 'Insegui l\'aurora boreale nei cieli artici da settembre ad aprile. A Utsjoki l\'aurora compare in 4 notti limpide su 5.', cta: 'Esplora l\'aurora boreale' },
-        { tag: 'Sentieri', title: 'Trekking', blurb: 'Cammina sui sentieri più iconici della Finlandia, dai ponti sospesi del Karhunkierros (82 km) alla vetta dell\'Halti (1.324 m).', cta: 'Esplora il trekking' },
+        { tag: 'Sentieri', title: 'Trekking', blurb: 'Cammina sui sentieri più iconici della Finlandia, dai ponti sospesi del Karhunkierros (82 km) alla vetta dell\'Halti (1.324 m).', cta: 'Esplora il trekking' },
         { tag: 'Tutela', title: 'Conservazione', blurb: 'Metsähallitus gestisce l\'85 % dei fjell della Lapponia e tutti i sette parchi nazionali. In più il diritto di accesso alla natura, la legge finlandese di accesso libero.', cta: 'Esplora la conservazione' },
         { tag: 'Estate', title: 'Sole di mezzanotte', blurb: 'Oltre il circolo polare il sole non tramonta in piena estate. A Utsjoki il sole di mezzanotte rimane per oltre 70 giorni di fila.', cta: 'Esplora le stagioni' },
         { tag: 'Acqua', title: 'Acque dolci', blurb: 'Circa 188.000 laghi, il fiume Tornio a flusso libero e le torbiere aapa. Perché l\'acqua fredda e pulita è la risorsa più rara della Lapponia, e cosa vi mantiene i pesci.', cta: 'Esplora le acque dolci' },
@@ -128,7 +128,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
       legend: { park: 'Parco nazionale', aurora: 'Osservazione aurore', trail: 'Inizio sentiero', wildlife: 'Fauna' },
       pins: [
         { name: 'Urho Kekkonen NP', note: '2º parco più grande della Finlandia · accesso: Saariselkä' },
-        { name: 'Pallas-Yllästunturi NP', note: 'Sentiero Hetta–Pallas di 55 km · accesso: Muonio' },
+        { name: 'Pallas-Yllästunturi NP', note: 'Sentiero Hetta–Pallas di 55 km · accesso: Muonio' },
         { name: 'Lemmenjoki NP', note: 'Più vasta area senza strade d\'Europa · ricerca dell\'oro · Inari' },
         { name: 'Riisitunturi NP', note: 'Alberi incoronati di neve (tykky) · accesso: Posio' },
         { name: 'Pyhä-Luosto NP', note: 'Abeti di 400 anni · miniera di ametista' },
@@ -136,10 +136,10 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
         { name: 'Utsjoki', note: '4 notti serene su 5 con aurora nel picco · kaamos di 51 giorni' },
         { name: 'Kilpisjärvi', note: 'Punto dei tre Paesi · fjäll d\'alta quota' },
         { name: 'Enontekiö', note: 'Tra i cieli più bui d\'Europa (Bortle 1)' },
-        { name: 'Hetta', note: 'Estremità nord del sentiero Hetta–Pallas di 55 km' },
-        { name: 'Ruka / Oulanka', note: 'Karhunkierros di 82 km · ponti sospesi e canyon' },
-        { name: 'Kilpisjärvi (Halti)', note: '55 km andata e ritorno all\'Halti, vetta più alta della Finlandia (1.324 m)' },
-        { name: 'Pyhä', note: 'Gola di Pyhäkuru · passerella accessibile · 5 km' },
+        { name: 'Hetta', note: 'Estremità nord del sentiero Hetta–Pallas di 55 km' },
+        { name: 'Ruka / Oulanka', note: 'Karhunkierros di 82 km · ponti sospesi e canyon' },
+        { name: 'Kilpisjärvi (Halti)', note: '55 km andata e ritorno all\'Halti, vetta più alta della Finlandia (1.324 m)' },
+        { name: 'Pyhä', note: 'Gola di Pyhäkuru · passerella accessibile · 5 km' },
         { name: 'Capanni per orsi di Kuusamo', note: 'Capanni per l\'orso bruno · tasso di avvistamento del 99 % · mag.–set.' },
         { name: 'Natura di Nellim', note: 'Lodge selvaggio di Nellim · areale di ghiottone e orso bruno' },
         { name: 'Renne di Kaamanen', note: 'Raduno delle renne sami · autunno (paliskunta)' },
@@ -178,8 +178,8 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
     tips: [
       'Controlla le previsioni dell\'aurora dell\'Istituto meteorologico finlandese (Auroras-now / indice KP) prima di uscire.',
       'L\'osservazione migliore è tra le 21:00 e le 2:00, ora locale, nelle notti serene.',
-      'Allontanati di 5–10 km dai centri abitati per abbassare l\'inquinamento luminoso a Bortle 2 o meno.',
-      'Copriti bene, in alta stagione le temperature raggiungono spesso i −30 °C; un thermos di bevanda calda è d\'obbligo.',
+      'Allontanati di 5–10 km dai centri abitati per abbassare l\'inquinamento luminoso a Bortle 2 o meno.',
+      'Copriti bene, in alta stagione le temperature raggiungono spesso i −30 °C; un thermos di bevanda calda è d\'obbligo.',
       'Un treppiede e un\'esposizione di 5–15 secondi a ISO 800–3200 (f/2.8) catturano un\'aurora che l\'occhio non vede.',
     ],
     oneNightKicker: 'Una notte · Inari · 2 marzo 2024',
@@ -187,7 +187,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
     oneNightLead: 'Le previsioni Le diranno «buone probabilità stanotte». Non Le diranno che aspetterà tre ore che il cielo si apra, che il primo spettacolo sarà una banda verde piatta che quasi Le sfugge, e che il secondo, all\'01:48, squarcerà l\'intera volta artica. Ecco come si svolge una notte rappresentativa.',
     oneNightSteps: [
       { time: '19:30', title: 'Controllo delle previsioni FMI', body: 'Auroras-now: previsione KP 4–5. NOAA OVATION mostra l\'ovale aurorale già a contatto con Tromsø. Previsione del cielo a Inari: 60 % sereno dopo mezzanotte. Decisione: si parte.' },
-      { time: '21:00', title: 'Spostamento 8 km a ovest del villaggio di Inari', body: 'L\'inquinamento luminoso cala rapidamente fuori dall\'abitato. Scegliamo una piccola radura sulla riva di un lago lungo la strada di Kaamanen, orizzonte aperto a nord e a est. −18 °C, calmo.' },
+      { time: '21:00', title: 'Spostamento 8 km a ovest del villaggio di Inari', body: 'L\'inquinamento luminoso cala rapidamente fuori dall\'abitato. Scegliamo una piccola radura sulla riva di un lago lungo la strada di Kaamanen, orizzonte aperto a nord e a est. −18 °C, calmo.' },
       { time: '22:40', title: 'Prima fascia, per poco non la vediamo', body: 'Tenue arco verde sull\'orizzonte settentrionale. Facile scambiarlo per un riflesso di nube. La fotocamera (15 s, ISO 1600, f/2.8) lo ha mostrato con chiarezza, la soglia di percezione a occhio nudo è inferiore a ciò che registra il suo telefono. È normale. Aspetti.' },
       { time: '00:15', title: 'Le nuvole si alzano. Quaranta minuti di quiete.', body: 'Stelle nitide. L\'aurora si ritira. È il momento in cui la maggior parte dei visitatori in auto rinuncia e torna indietro. Non lo faccia. La fase attiva spesso segue questa stasi. Bevanda calda. Pazienza.' },
       { time: '01:48', title: 'Sottotempesta', body: 'L\'arco esplode. I sipari salgono dall\'orizzonte allo zenit in pochi secondi; rosa e viola al bordo inferiore, è il colore raro, solo nelle tempeste forti. Dura 14 minuti. La fotocamera fatica a starci dietro. A occhio nudo la struttura è nitida. È la notte per cui ha guidato fin qui.', highlight: true },
@@ -196,7 +196,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
     cards: [
       { title: 'Strumenti di previsione', body: 'FMI Auroras-now (KP), NOAA OVATION (ovale), windy.com (nuvolosità), apra tutti e tre.' },
       { title: 'Impostazioni di base', body: '15 s · ISO 1600 · f/2.8 · messa a fuoco manuale su una luce lontana. Treppiede obbligatorio.' },
-      { title: 'Cosa rovina la notte', body: 'Luna piena (slava i colori). Nuvole oltre i 1500 m. Vento gelido sotto i −25 °C senza attrezzatura adeguata.' },
+      { title: 'Cosa rovina la notte', body: 'Luna piena (slava i colori). Nuvole oltre i 1500 m. Vento gelido sotto i −25 °C senza attrezzatura adeguata.' },
     ],
     finalH2: 'Vuole una guida che conosca le aperture del cielo?',
     finalLead: 'Le cacce all\'aurora partono ogni notte da Rovaniemi, Saariselkä e Levi. Le guide locali seguono le previsioni e si spostano quando il cielo si copre, il tasso di successo è molto più alto rispetto al viaggio in solitaria.',
@@ -212,7 +212,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
       items: [
         { q: 'Quale indice Kp serve per vedere l\'aurora in Lapponia?', a: 'La Lapponia finlandese si trova sotto l\'ovale aurorale, perciò non Le occorre un Kp elevato. Da Inari, Utsjoki o Kilpisjärvi un Kp di 1–2 è spesso sufficiente per scorgere un arco visibile in una notte limpida e buia; un Kp di 3–4 porta sipari attivi e in movimento. Più a sud, vicino a Rovaniemi, in genere conviene avere un Kp di 3 o superiore. Un cielo sereno e un orizzonte nord aperto contano molto più che inseguire un numero alto.' },
         { q: 'In quale mese si vede meglio l\'aurora boreale in Lapponia?', a: 'Marzo è il mese singolo più forte: i cieli sono abbastanza bui, le notti ancora lunghe e l\'attività geomagnetica tende a raggiungere il picco intorno all\'equinozio di primavera. Settembre è l\'altro momento ideale, temperature più miti e specchi d\'acqua aperti che riflettono l\'aurora prima che i laghi gelino. La stagione completa va da fine agosto a inizio aprile.' },
-        { q: 'Si può vedere l\'aurora da Rovaniemi?', a: 'Sì, nelle notti limpide e con attività sufficiente, ma Rovaniemi ha più inquinamento luminoso e si trova più a sud rispetto ai punti migliori. Si allontani di 10–20 km dalla città, verso la riva di un lago o un campo aperto, e le Sue probabilità aumentano nettamente. Per la frequenza di successo più alta, scelga una base più a nord, a Inari, Saariselkä o Utsjoki.' },
+        { q: 'Si può vedere l\'aurora da Rovaniemi?', a: 'Sì, nelle notti limpide e con attività sufficiente, ma Rovaniemi ha più inquinamento luminoso e si trova più a sud rispetto ai punti migliori. Si allontani di 10–20 km dalla città, verso la riva di un lago o un campo aperto, e le Sue probabilità aumentano nettamente. Per la frequenza di successo più alta, scelga una base più a nord, a Inari, Saariselkä o Utsjoki.' },
         { q: 'A che ora della notte l\'aurora è più attiva?', a: 'La finestra tra circa le 21:00 e le 2:00 ora locale è la più affidabile, con l\'attività che spesso raggiunge il picco intorno alla mezzanotte magnetica (vicino alle 23:00–1:00 in Finlandia). Le sottotempeste possono scatenarsi in qualsiasi momento, perciò vale la pena restare fuori anche durante una fase di quiete, la fase attiva segue spesso una stasi.' },
         { q: 'Serve prenotare un tour o si può vedere l\'aurora da soli?', a: 'La può senz\'altro vedere da solo se dispone di un\'auto, di un punto buio con orizzonte nord aperto e della pazienza di aspettare che le nuvole si aprano. Una caccia guidata ripaga il suo costo soprattutto grazie alla mobilità: le guide locali seguono le previsioni della nuvolosità e si spostano nella regione, e questo alza il tasso di successo nelle notti incerte.' },
       ],
@@ -229,8 +229,8 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
       description: 'Cinque parchi tutelano la maggior parte della wilderness senza strade della Lapponia, dalle traversate dei fjell aperti alle foreste coronate di neve e ai canyon dove si cerca l\'oro. Ognuno ha un villaggio-porta dove stabilire la propria base.',
     },
     parks: [
-      { name: 'Parco nazionale di Urho Kekkonen', description: 'Il secondo parco nazionale più grande della Finlandia, 2.550 km². Vasti fjell aperti, profonde gole fluviali e antiche pinete. Un paradiso per il trekking di più giorni e lo sci backcountry.', highlight: '2° parco più grande della Finlandia', visited: 'marzo 2024 · anello Rumakuru sci di fondo, neve stabile a −12 °C' },
-      { name: 'Parco nazionale di Pallas-Yllästunturi', description: 'Ospita il più lungo sentiero di trekking popolare sui fjell della Finlandia, i 55 km Hetta–Pallas. Cime aperte con orizzonti che arrivano fino al Käsivarsi.', highlight: 'Traversata di fjell più lunga di Finlandia', visited: 'settembre 2023 · Hetta → Pallas in tre giorni · picco ruska settimana 2' },
+      { name: 'Parco nazionale di Urho Kekkonen', description: 'Il secondo parco nazionale più grande della Finlandia, 2.550 km². Vasti fjell aperti, profonde gole fluviali e antiche pinete. Un paradiso per il trekking di più giorni e lo sci backcountry.', highlight: '2° parco più grande della Finlandia', visited: 'marzo 2024 · anello Rumakuru sci di fondo, neve stabile a −12 °C' },
+      { name: 'Parco nazionale di Pallas-Yllästunturi', description: 'Ospita il più lungo sentiero di trekking popolare sui fjell della Finlandia, i 55 km Hetta–Pallas. Cime aperte con orizzonti che arrivano fino al Käsivarsi.', highlight: 'Traversata di fjell più lunga di Finlandia', visited: 'settembre 2023 · Hetta → Pallas in tre giorni · picco ruska settimana 2' },
       { name: 'Parco nazionale di Lemmenjoki', description: 'Una delle più vaste aree wilderness senza strade d\'Europa. Famosa per la storia della ricerca dell\'oro e per il fiume Lemmenjoki che scorre in canyon profondi.', highlight: 'Patrimonio della ricerca dell\'oro', visited: 'luglio 2024 · canoa nel basso fiume fino a Ravadasköngäs, sole di mezzanotte' },
       { name: 'Parco nazionale di Riisitunturi', description: 'Famoso per gli alberi coronati di neve (tykky) che da dicembre a marzo trasformano i pendii in surreali sculture ghiacciate. I fjell esposti a ovest producono il tykky più pesante della Finlandia.', highlight: 'Alberi coronati di neve (tykky)', visited: 'febbraio 2024 · tykky al massimo del peso, scatto blue-hour alle 14:30' },
       { name: 'Parco nazionale di Pyhä-Luosto', description: 'Ospita una delle foreste più antiche di Finlandia con abeti rossi di oltre 400 anni. La miniera di ametiste di Lampivaara è all\'interno del parco, i visitatori possono scavarsi le proprie gemme.', highlight: 'Miniera di ametiste + foresta antica', visited: 'ottobre 2023 · gola di Pyhäkuru dopo la prima neve, brina sul boardwalk' }
@@ -239,15 +239,15 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
     stayNearby: 'Dormire nei dintorni',
     hettaKicker: 'Dal taccuino · ruska 2023',
     hettaH2: 'Hetta → Pallas in tre giorni, la traversata completa',
-    hettaLead: 'Il sentiero di 55 km Hetta–Pallas, che attraversa Pallas-Yllästunturi, è il lungo cammino più popolare della Finlandia per un motivo, è quasi interamente sopra il limite della vegetazione, i rifugi sono distanziati per tappe brevi e la vista non si chiude mai. L\'abbiamo percorso da nord a sud in tre giorni al culmine del ruska. La direzione convenzionale è nord-sud; sud-nord (partenza da Hetta) è la scelta migliore per le fotografie e il traghetto sull\'Ounasjärvi alla partenza è un bel rituale.',
+    hettaLead: 'Il sentiero di 55 km Hetta–Pallas, che attraversa Pallas-Yllästunturi, è il lungo cammino più popolare della Finlandia per un motivo, è quasi interamente sopra il limite della vegetazione, i rifugi sono distanziati per tappe brevi e la vista non si chiude mai. L\'abbiamo percorso da nord a sud in tre giorni al culmine del ruska. La direzione convenzionale è nord-sud; sud-nord (partenza da Hetta) è la scelta migliore per le fotografie e il traghetto sull\'Ounasjärvi alla partenza è un bel rituale.',
     days: [
-      { day: 'Giorno 1 · 18 km', title: 'Hetta → Sioskuru', body: 'Traghetto sull\'Ounasjärvi alle 9:00 (gratuito, dal 1° giugno al 30 settembre). In due ore si esce da Pyhäkero sul fjell aperto. Il rifugio Sioskuru ha 16 posti; siamo arrivati alle 16:30 con tre cuccette ancora libere. Tramonto sui fjell occidentali dalla porta.', note: '+520 m di dislivello · vento leggero' },
-      { day: 'Giorno 2 · 22 km', title: 'Sioskuru → Hannukuru', body: 'La giornata simbolo. Si attraversa Pyhäkuru e l\'alta tundra intorno a Lompolojärvi, la fotografia del sentiero che ha già visto è del km 12. Il rifugio Hannukuru ha una sauna a legna; è il motivo per cui molti camminatori dividono qui il percorso.', note: 'Punto saliente: riflesso sul Lompolojärvi alla luce delle 17:00' },
-      { day: 'Giorno 3 · 15 km', title: 'Hannukuru → Pallas', body: 'La giornata più facile sulla carta. Si percorre la cresta di vetta di Pallas, Taivaskero, Lehmäkero, Laukukero, con orizzonti che arrivano fino al Käsivarsi in una mattina limpida. Arrivo all\'hotel Pallas; se può, prenoti sauna e una bistecca. Se le è meritate entrambe.', note: 'Totale: 55 km · 3 giorni · 11 ore di cammino netto' }
+      { day: 'Giorno 1 · 18 km', title: 'Hetta → Sioskuru', body: 'Traghetto sull\'Ounasjärvi alle 9:00 (gratuito, dal 1° giugno al 30 settembre). In due ore si esce da Pyhäkero sul fjell aperto. Il rifugio Sioskuru ha 16 posti; siamo arrivati alle 16:30 con tre cuccette ancora libere. Tramonto sui fjell occidentali dalla porta.', note: '+520 m di dislivello · vento leggero' },
+      { day: 'Giorno 2 · 22 km', title: 'Sioskuru → Hannukuru', body: 'La giornata simbolo. Si attraversa Pyhäkuru e l\'alta tundra intorno a Lompolojärvi, la fotografia del sentiero che ha già visto è del km 12. Il rifugio Hannukuru ha una sauna a legna; è il motivo per cui molti camminatori dividono qui il percorso.', note: 'Punto saliente: riflesso sul Lompolojärvi alla luce delle 17:00' },
+      { day: 'Giorno 3 · 15 km', title: 'Hannukuru → Pallas', body: 'La giornata più facile sulla carta. Si percorre la cresta di vetta di Pallas, Taivaskero, Lehmäkero, Laukukero, con orizzonti che arrivano fino al Käsivarsi in una mattina limpida. Arrivo all\'hotel Pallas; se può, prenoti sauna e una bistecca. Se le è meritate entrambe.', note: 'Totale: 55 km · 3 giorni · 11 ore di cammino netto' }
     ],
     differentlyH3: 'Cosa pianificheremmo diversamente',
     differently: [
-      'Prenoti un letto in varaustupa per la seconda notte (Hannukuru). L\'autiotupa è ad accesso libero, ma al culmine del ruska era pieno entro le 15:30. Cuccetta in rifugio prenotato = 14 €; tranquillità d\'animo = inestimabile.',
+      'Prenoti un letto in varaustupa per la seconda notte (Hannukuru). L\'autiotupa è ad accesso libero, ma al culmine del ruska era pieno entro le 15:30. Cuccetta in rifugio prenotato = 14 €; tranquillità d\'animo = inestimabile.',
       'Porti ghette stile racchette anche a inizio settembre. Due discese fangose da Pyhäkuru sono andate sopra lo scarpone, calze bagnate per due giorni.',
       'Mangi pesante il primo giorno. Il negozio a Hetta è l\'ultimo pasto caldo prima dell\'hotel Pallas.',
       'Non provi a farlo in 2 giorni. Abbiamo incontrato una coppia che ci ha provato; hanno mollato a Hannukuru e sono usciti in bus-navetta.'
@@ -267,7 +267,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
       h2: 'Parchi nazionali della Lapponia, domande frequenti',
       items: [
         { q: 'Quanti parchi nazionali ci sono in Lapponia?', a: 'La Lapponia racchiude cinque dei parchi naturali più visitati della Finlandia: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi e Pyhä-Luosto. Ognuno ha il proprio villaggio-porta dove stabilire la base, da Saariselkä per l\'UKK fino a Hetta e Muonio per Pallas-Yllästunturi.' },
-        { q: 'Qual è il parco nazionale più grande della Lapponia finlandese?', a: 'Il Parco nazionale di Urho Kekkonen è il più grande della Lapponia, con circa 2.550 km², e il secondo più grande di tutta la Finlandia. Si estende dai fjell di Saariselkä verso est, fino a una profonda wilderness senza strade, con fjell aperti, gole fluviali e antiche pinete.' },
+        { q: 'Qual è il parco nazionale più grande della Lapponia finlandese?', a: 'Il Parco nazionale di Urho Kekkonen è il più grande della Lapponia, con circa 2.550 km², e il secondo più grande di tutta la Finlandia. Si estende dai fjell di Saariselkä verso est, fino a una profonda wilderness senza strade, con fjell aperti, gole fluviali e antiche pinete.' },
         { q: 'Serve un permesso o un biglietto d\'ingresso per i parchi nazionali della Lapponia?', a: 'No. I parchi nazionali finlandesi sono gratuiti e non occorre alcun permesso per il normale trekking, le visite in giornata o il pernottamento nei rifugi liberi. Alcuni rifugi su prenotazione e le saune prevedono una piccola tariffa, e le attività guidate o la ricerca dell\'oro a Lemmenjoki hanno costi propri, ma camminare lungo i sentieri non costa nulla.' },
         { q: 'Qual è il periodo migliore per visitare i parchi?', a: 'Inizio-metà settembre per i colori d\'autunno del ruska, giugno e luglio per il sole di mezzanotte e le lunghe giornate di trekking, e da febbraio a marzo per gli alberi incoronati di neve e lo sci alpinismo, Riisitunturi dà il meglio di sé sotto il pesante tykky di fine inverno. I rifugi estivi e i servizi di traghetto funzionano di solito da inizio giugno a fine settembre.' },
         { q: 'Dove si può cercare l\'oro in un parco nazionale della Lapponia?', a: 'Il Parco nazionale di Lemmenjoki è il cuore della ricerca dell\'oro in Finlandia. La valle del fiume ha un\'eredità viva della corsa all\'oro, con siti di ricerca segnalati e concessioni autorizzate lungo il fiume Lemmenjoki. In estate un servizio in barca risale parte del fiume, rendendo le aree di ricerca raggiungibili in giornata.' },
@@ -305,7 +305,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
     bearBody: [
       'La Finlandia orientale, Kuusamo, Suomussalmi, Lieksa, ha la più alta densità di orsi bruni per km² d\'Europa. Tre o quattro operatori gestiscono piccoli capanni notturni da fine aprile a inizio settembre, e il conto è semplice: una notte porta a un tasso statistico di avvistamento del 90 % circa, due notti al 99 % e oltre.',
       'Il capanno è una stanza di legno riscaldata con feritoie fotografiche unidirezionali e cuccette. Si entra alle 17:00 e non si esce prima delle 7:00. L\'esca, di solito salmone su un sito di alimentazione tradizionale, fa tornare gli orsi per anni; alcuni individui sono stati fotografati lungo un decennio. Cuccioli a maggio–giugno. Maschi solitari per tutta l\'estate. Con un po\' di fortuna, in settembre attraversano la stessa radura anche i lupi.',
-      'Il costo va da 280 a 450 € a persona a notte, comprensivo di trasporto, cena, cuccetta e di una guida che spiega quanto sta vedendo via cuffie. Prenoti con oltre 6 mesi di anticipo per i fine settimana di luglio.'
+      'Il costo va da 280 a 450 € a persona a notte, comprensivo di trasporto, cena, cuccetta e di una guida che spiega quanto sta vedendo via cuffie. Prenoti con oltre 6 mesi di anticipo per i fine settimana di luglio.'
     ],
     browseHidesCta: 'Sfoglia i capanni per orsi',
     preNightCta: 'Alloggi la sera prima a Kuusamo',
@@ -313,16 +313,16 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
     bearNightH2: 'Com\'è davvero una notte in un capanno per orsi',
     bearNightLead: 'Si immagina il capanno come un\'attesa di 14 ore che finisce o nel silenzio o in un orso-che-passa. La realtà è più disordinata, gli orsi vanno e vengono, ci si appisola, si perde un avvistamento, il silenzio diventa una cosa a sé. Ecco il ritmo reale di una notte di metà giugno con altri tre fotografi in un capanno a 4 cuccette.',
     bearNightSteps: [
-      { time: '17:15', title: 'Arrivo, briefing, firma della liberatoria', body: 'Si percorrono 8 km fuori dalla strada principale, gli ultimi 2 km su pista forestale. La guida espone le regole: niente profumo, niente flash, si parla solo a bassissima voce, non si apre mai la porta del capanno dopo le 19:00. Salmoni già disposti nella radura. Panini e thermos nella stanza delle cuccette.' },
+      { time: '17:15', title: 'Arrivo, briefing, firma della liberatoria', body: 'Si percorrono 8 km fuori dalla strada principale, gli ultimi 2 km su pista forestale. La guida espone le regole: niente profumo, niente flash, si parla solo a bassissima voce, non si apre mai la porta del capanno dopo le 19:00. Salmoni già disposti nella radura. Panini e thermos nella stanza delle cuccette.' },
       { time: '19:40', title: 'Primo arrivo, un giovane maschio', body: 'Un maschio di tre anni esce dall\'abetaia sul margine sinistro. Resta 11 minuti, mangia un salmone, se ne va. La guida sussurra l\'identificazione, questa settimana è già passato due volte. La luce delle 19:40 in giugno è la migliore della notte; il sole di mezzanotte è ancora ore avanti.' },
-      { time: '21:30', title: 'Ora silenziosa. Richiamo dei lupi.', body: 'Nessuno nella radura. Due lupi ululano dalla palude a est, invisibili, solo uditi. La guida dice che è un\'estate rumorosa per i lupi; il branco copre oltre 60 km. Restiamo comunque in attesa.' },
+      { time: '21:30', title: 'Ora silenziosa. Richiamo dei lupi.', body: 'Nessuno nella radura. Due lupi ululano dalla palude a est, invisibili, solo uditi. La guida dice che è un\'estate rumorosa per i lupi; il branco copre oltre 60 km. Restiamo comunque in attesa.' },
       { time: '23:55', title: 'Madre + due cuccioli', body: 'La notte per cui è venuto. Si avvicina lenta, saggia l\'aria, lancia un doppio sguardo verso il capanno, decide che non siamo una minaccia. I cuccioli le si arrampicano due volte sulla schiena mentre mangia. Resta 38 minuti. La luce è bassa e dorata per via del sole di mezzanotte. Gli scatti sono appena percepibili, nessuno vuole tradirsi con un movimento.', highlight: true },
       { time: '02:30', title: 'Si sonnecchia nelle cuccette', body: 'Due in cuccetta, due di guardia. Cambio ogni 90 minuti. Con il sole di mezzanotte non c\'è vera oscurità, la feritoia resta utilizzabile.' },
       { time: '04:50', title: 'Un altro maschio, 8 minuti', body: 'Vecchio maschio sfregiato, la guida lo riconosce come abituale da nove estati. Mangia due salmoni, annusa l\'aria, se ne va. Il coro mattutino delle gru dalla palude è uno spettacolo a sé.' },
       { time: '07:00', title: 'Fuori dal capanno. Rientro. Sauna.', body: 'Tempo totale di orsi visibili: circa 57 minuti in quattro apparizioni. Silenzio totale: circa 13 ore. Stranamente, quel silenzio è stato un terzo del motivo per cui ne è valsa la pena.' }
     ],
     cards: [
-      { title: 'Cosa ha funzionato', body: 'Teleobiettivo 600 mm su treppiede attraverso la feritoia. Otturatore silenzioso (mirrorless). 1/250 s, ISO 1600, f/4.' },
+      { title: 'Cosa ha funzionato', body: 'Teleobiettivo 600 mm su treppiede attraverso la feritoia. Otturatore silenzioso (mirrorless). 1/250 s, ISO 1600, f/4.' },
       { title: 'Cosa faremmo diversamente', body: 'Due notti consecutive, non una. Orsi diversi, luce diversa. Stesso costo a notte, doppia possibilità di cuccioli.' },
       { title: 'Mesi migliori', body: 'Fine maggio–inizio giugno (cuccioli). Fine luglio (maschi solitari, clima facile). Settembre (passaggio dei lupi + luce d\'autunno).' },
     ],
@@ -342,7 +342,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
         { q: 'Quante probabilità ho di vedere davvero un orso da un capanno?', a: 'Alte, se pernotta. Con una notte nel capanno durante la stagione, il tasso di avvistamento si aggira intorno al 90%, e due notti consecutive lo portano oltre il 99%. I capanni sono postazioni di alimentazione con esca a cui gli stessi orsi tornano anno dopo anno.' },
         { q: 'Quante renne ci sono in Lapponia e sono selvatiche?', a: 'Circa 200.000 renne semidomestiche percorrono la Lapponia finlandese. Non sono selvatiche, ogni animale ha un proprietario ed è marcato all\'orecchio all\'interno di una cooperativa di pastori, al centro della cultura sami da migliaia di anni. Pascolano libere su fjell e foreste, perciò le incontrerà regolarmente a bordo strada.' },
         { q: 'Qual è l\'animale più raro della Lapponia?', a: 'La volpe artica è il più raro, classificata in pericolo critico nella popolazione fennoscandinava e sopravvive solo negli ambienti più aspri dell\'alta quota dei fjell. Il ghiottone è il più sfuggente da vedere, immensamente forte e con territori vastissimi, è presente in tutta la wilderness ma raramente avvistato.' },
-        { q: 'Quanto costa un capanno per l\'avvistamento degli orsi?', a: 'Si aspetti all\'incirca 280–450 € a persona per una notte, di solito con trasporto dal punto d\'incontro, cena, cuccetta nel capanno e una guida. I fine settimana di luglio si esauriscono con mesi di anticipo, perciò prenoti con sei mesi o più di anticipo per le date di alta stagione estiva.' },
+        { q: 'Quanto costa un capanno per l\'avvistamento degli orsi?', a: 'Si aspetti all\'incirca 280–450 € a persona per una notte, di solito con trasporto dal punto d\'incontro, cena, cuccetta nel capanno e una guida. I fine settimana di luglio si esauriscono con mesi di anticipo, perciò prenoti con sei mesi o più di anticipo per le date di alta stagione estiva.' },
       ],
     },
   },
@@ -366,7 +366,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
     ruskaH2: 'Come il picco del ruska si muove davvero attraverso la Lapponia',
     ruskaLead: 'Il ruska non è un singolo evento. È un\'onda che scende da nord a sud per circa tre settimane, ogni settembre. Se arriva nella settimana sbagliata o alla latitudine sbagliata, vedrà o betulle già spoglie o muschi ancora verdi. Di seguito ciò che abbiamo annotato nel 2024 scendendo da Utsjoki a Riisitunturi.',
     ruskaWeeks: [
-      { week: 'Settimana 1 · 2–8 set.', region: 'Utsjoki + Kilpisjärvi (69° N e oltre)', body: 'I fjell più settentrionali partono per primi. Betulle già al 60 % di colorazione il 5 settembre; mirtilli rossi di un rosso profondo. Temperature notturne in bivacco di −2 °C. Finestra fotografica: 14:00–17:00, luce radente.' },
+      { week: 'Settimana 1 · 2–8 set.', region: 'Utsjoki + Kilpisjärvi (69° N e oltre)', body: 'I fjell più settentrionali partono per primi. Betulle già al 60 % di colorazione il 5 settembre; mirtilli rossi di un rosso profondo. Temperature notturne in bivacco di −2 °C. Finestra fotografica: 14:00–17:00, luce radente.' },
       { week: 'Settimana 2 · 9–15 set.', region: 'Inari + Saariselkä (68–69° N)', body: 'Il picco. Il parco di Urho Kekkonen alla piena saturazione l\'11 settembre. La migliore settimana dell\'anno per l\'anello Saariselkä → Kiilopää. Affluenza intensa di escursionisti nel fine settimana; sentieri vuoti infrasettimanalmente.' },
       { week: 'Settimana 3 · 16–22 set.', region: 'Pallas + Levi + Pyhä (67–68° N)', body: 'Il picco scende a sud. Il sentiero Hetta–Pallas in pieno ruska intorno al 17–19 settembre. Pyhä-Luosto pochi giorni dopo. Possibili prime nevicate sopra i 600 m a fine settimana.' },
       { week: 'Settimana 4 · 23–29 set.', region: 'Riisitunturi + Oulanka (66° N)', body: 'Ultimo grido. Riisitunturi resta fotogenico per un\'ultima settimana prima della caduta delle foglie. Karhunkierros (Sentiero dell\'orso) al culmine, ancora qualche pomeriggio mite, brina all\'alba, rifugi vuoti infrasettimana.' },
@@ -411,8 +411,8 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   hiking: {
     difficulties: { easy: 'Facile', moderate: 'Moderato', challenging: 'Impegnativo', demanding: 'Molto impegnativo' },
-    metaTitle: 'Sentieri di trekking in Lapponia: 5–82 km | LaplandNature',
-    metaDescription: 'Sei sentieri di trekking nella Lapponia finlandese, Hetta-Pallas (55 km), Karhunkierros (82 km), vetta dell\'Halti (55 km) e tre itinerari più brevi.',
+    metaTitle: 'Sentieri di trekking in Lapponia: 5–82 km | LaplandNature',
+    metaDescription: 'Sei sentieri di trekking nella Lapponia finlandese, Hetta-Pallas (55 km), Karhunkierros (82 km), vetta dell\'Halti (55 km) e tre itinerari più brevi.',
     hero: {
       alt: 'Un sentiero escursionistico che serpeggia su una collina di tundra nei colori della ruska, in Lapponia finlandese',
       eyebrow: 'Guida di riferimento',
@@ -422,32 +422,32 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
     },
     karhuKicker: 'Dal taccuino · ruska 2024',
     karhuH2: 'Karhunkierros in 4 giorni, cosa abbiamo portato, cosa abbiamo lasciato, cosa abbiamo imparato',
-    karhuLead: 'Abbiamo percorso gli 82 km del Bear Trail da sud a nord in quattro giorni a fine settembre, al picco del ruska. Di seguito ciò che è realmente accaduto, distanze, scelte sui rifugi, peso dello zaino e le decisioni che prenderemmo diversamente la prossima volta. Lo prenda come una base di pianificazione, non come verità assoluta, il meteo e la Sua forma fisica cambiano tutto.',
+    karhuLead: 'Abbiamo percorso gli 82 km del Bear Trail da sud a nord in quattro giorni a fine settembre, al picco del ruska. Di seguito ciò che è realmente accaduto, distanze, scelte sui rifugi, peso dello zaino e le decisioni che prenderemmo diversamente la prossima volta. Lo prenda come una base di pianificazione, non come verità assoluta, il meteo e la Sua forma fisica cambiano tutto.',
     days: [
-      { day: 'Giorno 1 · 22 km', title: 'Hautajärvi → Aventojoki', body: 'La giornata più facile sulla carta, brutale nella pratica, 22 km sono lunghi quando lo zaino è ancora pesante. Il rifugio Aventojoki aveva quattro cuccette libere alle 17:00, pieno entro le 19:00. Vale la pena spingere oltre il pranzo per assicurarsi un posto.', note: 'Zaino in partenza: 14,2 kg a secco · 16,0 kg con acqua' },
-      { day: 'Giorno 2 · 18 km', title: 'Aventojoki → Jussinkämppä', body: 'La giornata simbolo. Ponti sospesi sulle rapide del Kitkajoki; il belvedere del canyon di Oulanka dopo i primi 8 km è la foto che ha ogni escursionista finlandese. Si fermi. La luce delle 14:00 a fine settembre non si ripete.', note: 'Punto saliente: cascata Jyrävä · salto di circa 25 m, accessibile dal boardwalk' },
-      { day: 'Giorno 3 · 21 km', title: 'Jussinkämppä → Taivalköngäs', body: 'Lunga giornata in foresta ondulata, meno scenografica, più ritmica. Le rapide di Taivalköngäs alla fine sono il punto più rumoroso del sentiero. Abbiamo dormito nell\'autiotupa; pieno alle 16:30. Porti tappi per le orecchie, le rapide scorrono tutta la notte.', note: 'Prima notte sotto zero · −2 °C, brina leggera sui boardwalk all\'alba' },
-      { day: 'Giorno 4 · 21 km', title: 'Taivalköngäs → Ruka', body: 'Terreno più facile, caviglie già doloranti. Gli ultimi 6 km si trascinano, parta presto. La doccia a Ruka alle 14:30 è stata un\'esperienza religiosa. Non prenoti il bus a sud la stessa sera; vorrà una notte d\'albergo prima del transfer.', note: 'Totale: 82 km · 4 giorni · 12 ore di cammino netto' }
+      { day: 'Giorno 1 · 22 km', title: 'Hautajärvi → Aventojoki', body: 'La giornata più facile sulla carta, brutale nella pratica, 22 km sono lunghi quando lo zaino è ancora pesante. Il rifugio Aventojoki aveva quattro cuccette libere alle 17:00, pieno entro le 19:00. Vale la pena spingere oltre il pranzo per assicurarsi un posto.', note: 'Zaino in partenza: 14,2 kg a secco · 16,0 kg con acqua' },
+      { day: 'Giorno 2 · 18 km', title: 'Aventojoki → Jussinkämppä', body: 'La giornata simbolo. Ponti sospesi sulle rapide del Kitkajoki; il belvedere del canyon di Oulanka dopo i primi 8 km è la foto che ha ogni escursionista finlandese. Si fermi. La luce delle 14:00 a fine settembre non si ripete.', note: 'Punto saliente: cascata Jyrävä · salto di circa 25 m, accessibile dal boardwalk' },
+      { day: 'Giorno 3 · 21 km', title: 'Jussinkämppä → Taivalköngäs', body: 'Lunga giornata in foresta ondulata, meno scenografica, più ritmica. Le rapide di Taivalköngäs alla fine sono il punto più rumoroso del sentiero. Abbiamo dormito nell\'autiotupa; pieno alle 16:30. Porti tappi per le orecchie, le rapide scorrono tutta la notte.', note: 'Prima notte sotto zero · −2 °C, brina leggera sui boardwalk all\'alba' },
+      { day: 'Giorno 4 · 21 km', title: 'Taivalköngäs → Ruka', body: 'Terreno più facile, caviglie già doloranti. Gli ultimi 6 km si trascinano, parta presto. La doccia a Ruka alle 14:30 è stata un\'esperienza religiosa. Non prenoti il bus a sud la stessa sera; vorrà una notte d\'albergo prima del transfer.', note: 'Totale: 82 km · 4 giorni · 12 ore di cammino netto' }
     ],
     differentlyH3: 'Cosa faremmo diversamente',
     differently: [
       'Partire un giorno prima e spezzare il giorno 1, togliere una sezione dell\'anello Pieni Karhunkierros se lo zaino pesa.',
       'Prenotare il Centro visitatori di Oulanka come riserva nel caso un rifugio aperto sia pieno. Siamo stati fortunati; la coda al picco del ruska è reale.',
-      'Portare un paio in più di calze asciutte. I boardwalk diventano ghiacciati a −2 °C.',
+      'Portare un paio in più di calze asciutte. I boardwalk diventano ghiacciati a −2 °C.',
       'Saltare il combustibile per fornello leggero, ogni rifugio wilderness aveva stufa a legna e legna asciutta. Risparmiati 400 g per la marcia successiva.'
     ],
     rukaPostCta: 'Alloggi a Ruka dopo il sentiero',
     oulankaGuidedCta: 'Escursioni guidate giornaliere a Oulanka',
     listKicker: 'L\'elenco completo dei sentieri',
     listH2: 'Sei sentieri per cui vale la pena pianificare un viaggio',
-    listLead: 'Dal boardwalk di 5 km del Pyhäkuru agli 82 km del Karhunkierros sopra. Ciascuno è collegato a un villaggio di partenza vicino al quale vorrà dormire.',
+    listLead: 'Dal boardwalk di 5 km del Pyhäkuru agli 82 km del Karhunkierros sopra. Ciascuno è collegato a un villaggio di partenza vicino al quale vorrà dormire.',
     trails: [
-      { name: 'Sentiero Hetta–Pallas', description: 'Il sentiero di lunga percorrenza più popolare della Finlandia, attraversa la catena dei fjell tra Hetta e Pallas. Terreno di fjell aperto con viste d\'orizzonte, rifugi wilderness ben tenuti a intervalli ravvicinati.', distance: '55 km', duration: '3–4 giorni', difficulty: 'Medio' },
-      { name: 'Karhunkierros (Sentiero dell\'orso)', description: 'Uno dei sentieri più famosi della Finlandia, serpeggia nel canyon dell\'Oulanka tra rapide e ponti sospesi. Spettacolari gole fluviali e foresta primaria scandiscono l\'intero percorso.', distance: '82 km', duration: '4–6 giorni', difficulty: 'Impegnativo' },
-      { name: 'Sentieri giornalieri di Saariselkä', description: 'Sentieri giornalieri ben segnati dal villaggio di Saariselkä verso il parco nazionale. La giusta introduzione al trekking sui fjell, con opzioni per ogni livello di forma e finestra meteo.', distance: '5–20 km', duration: '2–8 ore', difficulty: 'Facile' },
-      { name: 'Sentiero della vetta del Halti', description: 'Trekking verso il punto più alto della Finlandia, 1.324 m. Percorso wilderness remoto attraverso l\'entroterra di Kilpisjärvi. La sezione finale non è segnata e richiede capacità di orientamento con scarsa visibilità.', distance: '55 km (andata e ritorno)', duration: '3–5 giorni', difficulty: 'Molto impegnativo' },
-      { name: 'Sentiero della gola di Pyhäkuru', description: 'Sentiero breve ma sorprendente attraverso una gola profonda con antiche pareti rocciose. Luogo sacro per i sami, con sezioni di boardwalk accessibili a famiglie e gruppi di passo misto.', distance: '5 km', duration: '2–3 ore', difficulty: 'Facile' },
-      { name: 'Sentiero del fiume Lemmenjoki', description: 'Segue il leggendario fiume della ricerca dell\'oro attraverso una delle più vaste aree wilderness d\'Europa. Trasporto in barca disponibile per una parte del percorso. Storia della corsa all\'oro visibile nei siti di setacciamento segnati.', distance: '20 km', duration: '1–2 giorni', difficulty: 'Medio' }
+      { name: 'Sentiero Hetta–Pallas', description: 'Il sentiero di lunga percorrenza più popolare della Finlandia, attraversa la catena dei fjell tra Hetta e Pallas. Terreno di fjell aperto con viste d\'orizzonte, rifugi wilderness ben tenuti a intervalli ravvicinati.', distance: '55 km', duration: '3–4 giorni', difficulty: 'Medio' },
+      { name: 'Karhunkierros (Sentiero dell\'orso)', description: 'Uno dei sentieri più famosi della Finlandia, serpeggia nel canyon dell\'Oulanka tra rapide e ponti sospesi. Spettacolari gole fluviali e foresta primaria scandiscono l\'intero percorso.', distance: '82 km', duration: '4–6 giorni', difficulty: 'Impegnativo' },
+      { name: 'Sentieri giornalieri di Saariselkä', description: 'Sentieri giornalieri ben segnati dal villaggio di Saariselkä verso il parco nazionale. La giusta introduzione al trekking sui fjell, con opzioni per ogni livello di forma e finestra meteo.', distance: '5–20 km', duration: '2–8 ore', difficulty: 'Facile' },
+      { name: 'Sentiero della vetta del Halti', description: 'Trekking verso il punto più alto della Finlandia, 1.324 m. Percorso wilderness remoto attraverso l\'entroterra di Kilpisjärvi. La sezione finale non è segnata e richiede capacità di orientamento con scarsa visibilità.', distance: '55 km (andata e ritorno)', duration: '3–5 giorni', difficulty: 'Molto impegnativo' },
+      { name: 'Sentiero della gola di Pyhäkuru', description: 'Sentiero breve ma sorprendente attraverso una gola profonda con antiche pareti rocciose. Luogo sacro per i sami, con sezioni di boardwalk accessibili a famiglie e gruppi di passo misto.', distance: '5 km', duration: '2–3 ore', difficulty: 'Facile' },
+      { name: 'Sentiero del fiume Lemmenjoki', description: 'Segue il leggendario fiume della ricerca dell\'oro attraverso una delle più vaste aree wilderness d\'Europa. Trasporto in barca disponibile per una parte del percorso. Storia della corsa all\'oro visibile nei siti di setacciamento segnati.', distance: '20 km', duration: '1–2 giorni', difficulty: 'Medio' }
     ],
     trailheadStays: 'Alloggi al punto di partenza',
     planRestH3: 'Pianifichi il resto del viaggio',
@@ -462,10 +462,10 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
       eyebrow: 'Domande frequenti',
       h2: 'Trekking in Lapponia, domande frequenti',
       items: [
-        { q: 'Quanto tempo richiede il Karhunkierros (Sentiero dell\'orso)?', a: 'Il Karhunkierros completo misura circa 82 km e la maggior parte dei camminatori lo percorre in quattro-sei giorni, dormendo nei rifugi liberi lungo il canyon di Oulanka. I camminatori allenati lo concludono in quattro lunghe giornate; se desidera prendersi del tempo alle rapide, alle cascate e ai ponti sospesi, metta in conto cinque giorni. L\'anello più breve del Pieni Karhunkierros copre i punti salienti in 12 km.' },
-        { q: 'Qual è il sentiero di trekking più popolare della Lapponia?', a: 'Il sentiero Hetta–Pallas di 55 km, che attraversa il Parco nazionale di Pallas-Yllästunturi, è l\'itinerario di lunga percorrenza più popolare della Finlandia. Si svolge quasi interamente sopra il limite degli alberi, con vedute sui fjell aperti, e i rifugi sono distanziati per comode tappe di tre-quattro giorni tra Hetta e Pallas.' },
-        { q: 'Bisogna prenotare in anticipo i rifugi liberi?', a: 'I rifugi liberi (autiotupa) sono gratuiti e funzionano a chi prima arriva, primo alloggia, non si possono prenotare, e al picco del ruska a settembre possono riempirsi già a metà pomeriggio. I rifugi su prenotazione (varaustupa) vanno prenotati e pagati in anticipo, di solito intorno ai 14 € a cuccetta, e valgono la pena per garantirsi un letto sui tratti affollati.' },
-        { q: 'Quanto è alto il punto più elevato della Finlandia e si può salire?', a: 'Il punto più alto della Finlandia si trova sulla spalla dell\'Halti, a 1.324 m, nel profondo entroterra di Kilpisjärvi vicino al confine norvegese. È un impegnativo percorso andata e ritorno di 55 km in tre-cinque giorni; l\'avvicinamento finale non è segnalato e richiede una vera capacità di orientamento in caso di scarsa visibilità.' },
+        { q: 'Quanto tempo richiede il Karhunkierros (Sentiero dell\'orso)?', a: 'Il Karhunkierros completo misura circa 82 km e la maggior parte dei camminatori lo percorre in quattro-sei giorni, dormendo nei rifugi liberi lungo il canyon di Oulanka. I camminatori allenati lo concludono in quattro lunghe giornate; se desidera prendersi del tempo alle rapide, alle cascate e ai ponti sospesi, metta in conto cinque giorni. L\'anello più breve del Pieni Karhunkierros copre i punti salienti in 12 km.' },
+        { q: 'Qual è il sentiero di trekking più popolare della Lapponia?', a: 'Il sentiero Hetta–Pallas di 55 km, che attraversa il Parco nazionale di Pallas-Yllästunturi, è l\'itinerario di lunga percorrenza più popolare della Finlandia. Si svolge quasi interamente sopra il limite degli alberi, con vedute sui fjell aperti, e i rifugi sono distanziati per comode tappe di tre-quattro giorni tra Hetta e Pallas.' },
+        { q: 'Bisogna prenotare in anticipo i rifugi liberi?', a: 'I rifugi liberi (autiotupa) sono gratuiti e funzionano a chi prima arriva, primo alloggia, non si possono prenotare, e al picco del ruska a settembre possono riempirsi già a metà pomeriggio. I rifugi su prenotazione (varaustupa) vanno prenotati e pagati in anticipo, di solito intorno ai 14 € a cuccetta, e valgono la pena per garantirsi un letto sui tratti affollati.' },
+        { q: 'Quanto è alto il punto più elevato della Finlandia e si può salire?', a: 'Il punto più alto della Finlandia si trova sulla spalla dell\'Halti, a 1.324 m, nel profondo entroterra di Kilpisjärvi vicino al confine norvegese. È un impegnativo percorso andata e ritorno di 55 km in tre-cinque giorni; l\'avvicinamento finale non è segnalato e richiede una vera capacità di orientamento in caso di scarsa visibilità.' },
         { q: 'Qual è il periodo migliore per fare trekking in Lapponia?', a: 'Da metà giugno a fine settembre è la stagione principale. Luglio offre clima caldo e il sole di mezzanotte; inizio-metà settembre porta i colori del ruska e molte meno zanzare, anche se le notti scendono sotto lo zero e le passerelle si fanno scivolose di ghiaccio all\'alba. I rifugi estivi e i traghetti funzionano in genere da inizio giugno a fine settembre.' },
       ],
     },
@@ -486,7 +486,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
     orgs: [
       { role: 'Gestione dei parchi nazionali', name: 'Metsähallitus (Parchi e fauna selvatica di Finlandia)', summary: 'Gestisce l\'85 % delle aree di fjell della Lapponia e tutti e sette i parchi nazionali oltre il Circolo Polare Artico.', body: 'L\'azienda di Stato finlandese gestisce tutti i parchi nazionali, i sentieri, i rifugi wilderness e le aree protette della Lapponia. Si occupa dell\'infrastruttura dei sentieri, dei centri visitatori e dei programmi gratuiti di educazione ambientale.' },
       { role: 'Advocacy e protezione', name: 'Associazione finlandese per la conservazione della natura (SLL)', summary: 'La più grande organizzazione di conservazione della Finlandia, fondata nel 1938.', body: 'Fondata nel 1938, la SLL tutela la natura finlandese attraverso advocacy, campagne ed educazione ambientale. Si concentra su tutela delle foreste, azione climatica e biodiversità.' },
-      { role: 'Recupero della fauna', name: 'WWF Finlandia', summary: 'Programmi di recupero della foca dagli anelli di Saimaa, della volpe artica e della renna forestale.', body: 'WWF Finlandia gestisce programmi di recupero delle specie, tra cui il progetto scandinavo sulla volpe artica che dagli anni \'90 ha riportato la popolazione fennoscandinava dalla quasi-estinzione.' },
+      { role: 'Recupero della fauna', name: 'WWF Finlandia', summary: 'Programmi di recupero della foca dagli anelli di Saimaa, della volpe artica e della renna forestale.', body: 'WWF Finlandia gestisce programmi di recupero delle specie, tra cui il progetto scandinavo sulla volpe artica che dagli anni \'90 ha riportato la popolazione fennoscandinava dalla quasi-estinzione.' },
       { role: 'Custodia indigena', name: 'Parlamento sami', summary: 'Autogoverno sulle questioni culturali e ambientali sami nella Lapponia più settentrionale.', body: 'I distretti sami di pastorizia delle renne gestiscono il pascolo tradizionale sulla terra sami, conciliando l\'ecologia con la spina dorsale culturale ed economica del popolo indigeno della regione.' }
     ],
     principles: [
@@ -586,7 +586,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
         },
         {
           title: 'Il canone che finanzia il pesce',
-          body: 'Chiunque abbia tra i 18 e i 69 anni e peschi con esca artificiale o attrezzi in Finlandia paga il canone nazionale per la gestione della pesca, 47 € all\'anno, 16 € per una settimana o 6 € per un giorno (eraluvat.fi). Finanzia il monitoraggio degli stock, il ripristino e gli interventi per il passaggio dei pesci. I minori di 18 anni e chi ha 70 anni o più ne è esente, e la semplice pesca con canna e lenza nell\'ambito del diritto di accesso alla natura è gratuita.',
+          body: 'Chiunque abbia tra i 18 e i 69 anni e peschi con esca artificiale o attrezzi in Finlandia paga il canone nazionale per la gestione della pesca, 47 € all\'anno, 16 € per una settimana o 6 € per un giorno (eraluvat.fi). Finanzia il monitoraggio degli stock, il ripristino e gli interventi per il passaggio dei pesci. I minori di 18 anni e chi ha 70 anni o più ne è esente, e la semplice pesca con canna e lenza nell\'ambito del diritto di accesso alla natura è gratuita.',
         },
       ],
       feeNote: 'Regole e date vengono ridecise ogni anno. Verifica sempre stagione, quote e canoni in vigore sulle pagine ufficiali prima di prenotare o pescare.',
@@ -623,7 +623,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
         },
         {
           q: 'Serve un permesso per pescare in Lapponia?',
-          a: 'Per la maggior parte della pesca con esca artificiale e attrezzi, sì: i pescatori tra i 18 e i 69 anni pagano il canone nazionale per la gestione della pesca (47 € l\'anno, 16 € la settimana, 6 € il giorno, tramite eraluvat.fi), e molte acque richiedono in più un permesso di zona separato. La semplice pesca con canna e lenza e la pesca sul ghiaccio nell\'ambito del diritto di accesso alla natura sono gratuite, e i minori di 18 anni e chi ha 70 anni o più sono esenti dal canone nazionale.',
+          a: 'Per la maggior parte della pesca con esca artificiale e attrezzi, sì: i pescatori tra i 18 e i 69 anni pagano il canone nazionale per la gestione della pesca (47 € l\'anno, 16 € la settimana, 6 € il giorno, tramite eraluvat.fi), e molte acque richiedono in più un permesso di zona separato. La semplice pesca con canna e lenza e la pesca sul ghiaccio nell\'ambito del diritto di accesso alla natura sono gratuite, e i minori di 18 anni e chi ha 70 anni o più sono esenti dal canone nazionale.',
         },
       ],
     },

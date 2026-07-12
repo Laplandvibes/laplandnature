@@ -214,7 +214,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
       '出发前查看芬兰气象研究所(FMI)的极光预报(Auroras-now / KP 指数)。',
       '晴朗夜晚,当地时间晚上 9 点到凌晨 2 点之间观赏最佳。',
       '离开城镇中心 5，10 公里,把光污染降到 Bortle 2 或更低。',
-      '穿暖一点，旺季气温常达 −30 °C;一壶热饮必不可少。',
+      '穿暖一点，旺季气温常达 −30 °C;一壶热饮必不可少。',
       '三脚架配合 ISO 800，3200(f/2.8)曝光 5，15 秒,能拍下肉眼错过的极光。',
     ],
     oneNightKicker: '一夜 · 伊纳里 · 2024 年 3 月 2 日',
@@ -222,7 +222,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
     oneNightLead: '预报只会告诉你“今晚机会不错”。它不会告诉你,你要等三个小时天空才放晴,第一场会是一道几乎被你忽略的平淡绿带,而第二场，凌晨 1 点 48 分，会划过整片北极穹顶。下面是一个有代表性的夜晚如何展开。',
     oneNightSteps: [
       { time: '19:30', title: '查看 FMI 预报', body: 'Auroras-now:预报 KP 4，5。NOAA OVATION 显示极光卵形带已触及特罗姆瑟。伊纳里天空预报:午夜后 60% 晴朗。决定:出发。' },
-      { time: '21:00', title: '驱车前往伊纳里村以西 8 公里', body: '一出村,光污染迅速下降。我们在通往 Kaamanen 的公路边选了一处小湖空地，北面和东面地平线开阔。−18 °C,无风。' },
+      { time: '21:00', title: '驱车前往伊纳里村以西 8 公里', body: '一出村,光污染迅速下降。我们在通往 Kaamanen 的公路边选了一处小湖空地，北面和东面地平线开阔。−18 °C,无风。' },
       { time: '22:40', title: '第一道光带，差点错过', body: '北方地平线上一道微弱的绿色弧光。很容易被当成云的反光。相机(15 秒,ISO 1600,f/2.8)清晰地拍了下来，肉眼的察觉阈值低于手机所能记录的。这很正常。耐心等。' },
       { time: '00:15', title: '云层散开。40 分钟的沉寂。', body: '星光锐利。极光退去。这正是大多数开车来的访客放弃返程的时刻。别这样。活跃期往往紧随这段沉寂而来。来杯热饮。耐心。' },
       { time: '01:48', title: '亚暴', body: '弧光骤然爆发。帘幕在几秒内从地平线直冲天顶;下缘泛起粉色与紫色，那是罕见的颜色,只在更强的风暴中出现。持续 14 分钟。相机几乎跟不上。肉眼也能清晰看到结构。这就是你驱车而来要等的那一夜。', highlight: true },
@@ -231,7 +231,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
     cards: [
       { title: '预报工具', body: 'FMI Auroras-now(KP)、NOAA OVATION(卵形带)、windy.com(云量)，三个都打开。' },
       { title: '相机基准设置', body: '15 秒 · ISO 1600 · f/2.8 · 对远处灯光手动对焦。三脚架必备。' },
-      { title: '毁掉一夜的因素', body: '满月(冲淡颜色)。1500 米以上的云层。无适当装备时低于 −25 °C 的风寒。' },
+      { title: '毁掉一夜的因素', body: '满月(冲淡颜色)。1500 米以上的云层。无适当装备时低于 −25 °C 的风寒。' },
     ],
     finalH2: '想要一位知道云层何处散开的向导吗?',
     finalLead: '极光追逐团每晚从罗瓦涅米、Saariselkä 和 Levi 出发。当地向导紧盯预报,天空转阴时重新选点，命中率远高于独自前往。',
@@ -264,7 +264,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
       description: '五座公园守护着拉普兰大部分无路可通的荒野，从开阔的 fjeld 纵走,到雪冠覆盖的森林与淘金峡谷。每座公园都有各自的门户村庄可作为据点。',
     },
     parks: [
-      { name: 'Urho Kekkonen 国家公园', description: '芬兰第二大国家公园,面积 2550 平方公里。辽阔开阔的 fjeld、幽深的河谷,以及古老的松林。多日徒步与越野滑雪的天堂。', highlight: '芬兰第二大公园', visited: '2024 年 3 月 · 当日滑行 Rumakuru 环线,−12 °C 雪况稳定' },
+      { name: 'Urho Kekkonen 国家公园', description: '芬兰第二大国家公园,面积 2550 平方公里。辽阔开阔的 fjeld、幽深的河谷,以及古老的松林。多日徒步与越野滑雪的天堂。', highlight: '芬兰第二大公园', visited: '2024 年 3 月 · 当日滑行 Rumakuru 环线,−12 °C 雪况稳定' },
       { name: 'Pallas-Yllästunturi 国家公园', description: '芬兰最受欢迎的 fjeld 纵走步道，55 公里的 Hetta–Pallas 所在地。开阔的山顶,视野可远及 Käsivarsi。', highlight: '芬兰最长的 fjeld 纵走', visited: '2023 年 9 月 · 三天走完 Hetta → Pallas · ruska 巅峰第二周' },
       { name: 'Lemmenjoki 国家公园', description: '欧洲最大的无路荒野之一。以淘金历史和穿行深谷的 Lemmenjoki 河而闻名。', highlight: '淘金遗产', visited: '2024 年 7 月 · 划独木舟下行至 Ravadasköngäs,午夜阳光' },
       { name: 'Riisitunturi 国家公园', description: '以雪冠树(tykky)闻名,12 月到 3 月将山坡化作超现实的冰雕。朝西的 fjeld 孕育出芬兰最重的 tykky。', highlight: '雪冠树(tykky)', visited: '2024 年 2 月 · tykky 达到最重,14:30 蓝调时刻拍摄' },
@@ -401,7 +401,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
     ruskaH2: 'ruska 巅峰如何真正横扫拉普兰',
     ruskaLead: 'ruska 并非单一事件。它是一道波浪,每年九月用大约三周时间自北向南席卷而下。若你在错的那一周抵达，或停留在错的纬度，看到的要么是落尽叶子的桦树,要么是仍然青绿的苔藓。以下是我们 2024 年从 Utsjoki 一路南下到 Riisitunturi 的记录。',
     ruskaWeeks: [
-      { week: '第 1 周 · 9 月 2，8 日', region: 'Utsjoki + 基尔皮斯耶尔维(69°N 以上)', body: '最北的 fjeld 率先变色。9 月 5 日桦树已转色 60%;越橘灌丛深红。营地夜间气温 −2 °C。拍摄窗口:14:00，17:00,光线角度低。' },
+      { week: '第 1 周 · 9 月 2，8 日', region: 'Utsjoki + 基尔皮斯耶尔维(69°N 以上)', body: '最北的 fjeld 率先变色。9 月 5 日桦树已转色 60%;越橘灌丛深红。营地夜间气温 −2 °C。拍摄窗口:14:00，17:00,光线角度低。' },
       { week: '第 2 周 · 9 月 9，15 日', region: '伊纳里 + Saariselkä(68，69°N)', body: '巅峰。9 月 11 日 Urho Kekkonen 国家公园色彩饱和到顶。一年中走 Saariselkä → Kiilopää 环线的最佳一周。周末徒步人潮汹涌;平日步道空旷。' },
       { week: '第 3 周 · 9 月 16，22 日', region: 'Pallas + Levi + Pyhä(67，68°N)', body: '巅峰南移。Hetta–Pallas 步道在 9 月 17，19 日前后进入 ruska 全盛。Pyhä-Luosto 稍晚几天。周末将近时,600 米以上可能迎来初雪。' },
       { week: '第 4 周 · 9 月 23，29 日', region: 'Riisitunturi + Oulanka(66°N)', body: '最后的高潮。落叶之前,Riisitunturi 还能上镜一周。Karhunkierros(熊径)进入巅峰，午后仍有暖意,黎明结霜,平日山屋空旷。' },
@@ -461,14 +461,14 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
     days: [
       { day: '第 1 天 · 22 公里', title: 'Hautajärvi → Aventojoki', body: '纸面上最轻松的一天,实则艰苦，背包仍重时,22 公里很长。Aventojoki 山屋 17:00 还有四个空铺,19:00 已满。值得过了午餐继续推进以抢到一个位子。', note: '出发背包:干重 14.2 公斤 · 含水 16.0 公斤' },
       { day: '第 2 天 · 18 公里', title: 'Aventojoki → Jussinkämppä', body: '标志性的一天。Kitkajoki 急流之上的吊桥;前 8 公里之后的 Oulanka 峡谷观景点,是每位芬兰徒步者都拥有的那张照片。停下来。九月末 14:00 的光线不会重来。', note: '亮点:Jyrävä 瀑布 · 落差约 25 米,可从栈道抵达' },
-      { day: '第 3 天 · 21 公里', title: 'Jussinkämppä → Taivalköngäs', body: '漫长起伏的森林之日，戏剧性地形较少,节奏感更强。终点处的 Taivalköngäs 急流是全程最喧闹之处。我们睡在 autiotupa;16:30 即满。带上耳塞，急流彻夜奔流。', note: '首个零下之夜 · −2 °C,黎明栈道结薄霜' },
+      { day: '第 3 天 · 21 公里', title: 'Jussinkämppä → Taivalköngäs', body: '漫长起伏的森林之日，戏剧性地形较少,节奏感更强。终点处的 Taivalköngäs 急流是全程最喧闹之处。我们睡在 autiotupa;16:30 即满。带上耳塞，急流彻夜奔流。', note: '首个零下之夜 · −2 °C,黎明栈道结薄霜' },
       { day: '第 4 天 · 21 公里', title: 'Taivalköngäs → Ruka', body: '地形更平缓,脚踝却已酸痛。最后 6 公里令人煎熬，早点出发。14:30 在 Ruka 冲的那个澡宛如宗教体验。别订当晚南下的巴士;你会想在转车前先住一晚酒店。', note: '合计:82 公里 · 4 天 · 纯徒步 12 小时' }
     ],
     differentlyH3: '下次我们会有所不同',
     differently: [
       '提前一天出发并把第 1 天拆开，背包过重时舍去 Pieni Karhunkierros 环线的一段。',
       '把 Oulanka 游客中心的过夜作为备选,以防某座开放山屋客满。我们运气好;ruska 巅峰的排队是真实存在的。',
-      '多带一双干袜子。−2 °C 时栈道会结冰打滑。',
+      '多带一双干袜子。−2 °C 时栈道会结冰打滑。',
       '别带轻便炉具燃料，每座荒野山屋都有柴炉和干柴。为下一段徒步省下 400 克。'
     ],
     rukaPostCta: '步道之后在 Ruka 的住宿',

@@ -72,7 +72,7 @@ const en: SectionCopy = {
     legend: { park: 'National park', aurora: 'Aurora viewing', trail: 'Trailhead', wildlife: 'Wildlife' },
     pins: [
       { name: 'Urho Kekkonen NP', note: "Finland's 2nd largest park · gateway: Saariselkä" },
-      { name: 'Pallas-Yllästunturi NP', note: '55 km Hetta–Pallas trail · gateway: Muonio' },
+      { name: 'Pallas-Yllästunturi NP', note: '55 km Hetta–Pallas trail · gateway: Muonio' },
       { name: 'Lemmenjoki NP', note: "Europe's largest roadless area · gold-panning · Inari" },
       { name: 'Riisitunturi NP', note: 'Tykky snow-crowned trees · gateway: Posio' },
       { name: 'Pyhä-Luosto NP', note: '400-year-old spruces · amethyst mine' },
@@ -80,10 +80,10 @@ const en: SectionCopy = {
       { name: 'Utsjoki', note: '4 of 5 clear nights show aurora during peak · 51-day kaamos' },
       { name: 'Kilpisjärvi', note: 'Three-country corner · high-altitude fells' },
       { name: 'Enontekiö', note: 'Some of the darkest skies in Europe (Bortle 1)' },
-      { name: 'Hetta', note: 'North end of the 55 km Hetta–Pallas trail' },
-      { name: 'Ruka / Oulanka', note: '82 km Karhunkierros · suspension bridges + canyons' },
-      { name: 'Kilpisjärvi (Halti)', note: "55 km round-trip to Halti, Finland's highest point (1,324 m)" },
-      { name: 'Pyhä', note: 'Pyhäkuru gorge · accessible boardwalk · 5 km' },
+      { name: 'Hetta', note: 'North end of the 55 km Hetta–Pallas trail' },
+      { name: 'Ruka / Oulanka', note: '82 km Karhunkierros · suspension bridges + canyons' },
+      { name: 'Kilpisjärvi (Halti)', note: "55 km round-trip to Halti, Finland's highest point (1,324 m)" },
+      { name: 'Pyhä', note: 'Pyhäkuru gorge · accessible boardwalk · 5 km' },
       { name: 'Kuusamo bear hides', note: 'Brown-bear hides · 99% sighting rate · May–Sept' },
       { name: 'Nellim wilderness', note: 'Nellim wilderness lodge · wolverine + brown bear range' },
       { name: 'Kaamanen reindeer', note: 'Sámi reindeer round-up · autumn (paliskunta)' },
@@ -91,12 +91,12 @@ const en: SectionCopy = {
   },
   home: {
     metaTitle: 'Lapland Nature 2026: Aurora, Parks & Wildlife Guide',
-    metaDescription: "Finnish Lapland's arctic wilderness, five national parks, 200+ aurora-viewing nights, the kaamos polar night and hiking trails from 5 km to 82 km. Plan your wilderness trip.",
+    metaDescription: "Finnish Lapland's arctic wilderness, five national parks, 200+ aurora-viewing nights, the kaamos polar night and hiking trails from 5 km to 82 km. Plan your wilderness trip.",
     hero: {
       eyebrow: 'Above the Arctic Circle',
       title: 'Untouched arctic',
       subtitle: 'wilderness',
-      description: 'Finnish Lapland, 100,367 km² of national parks, fells, ancient forests and the longest aurora season in Europe.',
+      description: 'Finnish Lapland, 100,367 km² of national parks, fells, ancient forests and the longest aurora season in Europe.',
       primaryCta: 'Plan your aurora trip',
       secondaryCta: 'Explore the parks',
       alt: 'Snow-covered arctic wilderness and fells in Finnish Lapland',
@@ -121,7 +121,7 @@ const en: SectionCopy = {
         {
           tag: 'Protected areas',
           title: 'National Parks',
-          blurb: "Five parks spanning over 7,000 km² of protected wilderness, from Urho Kekkonen fells to Riisitunturi's snow-crowned trees.",
+          blurb: "Five parks spanning over 7,000 km² of protected wilderness, from Urho Kekkonen fells to Riisitunturi's snow-crowned trees.",
           cta: 'Explore National Parks',
         },
         {
@@ -139,7 +139,7 @@ const en: SectionCopy = {
         {
           tag: 'Trails',
           title: 'Hiking Trails',
-          blurb: "Walk Finland's most iconic trails, from the 82 km Karhunkierros suspension bridges to the 1,324 m Halti summit.",
+          blurb: "Walk Finland's most iconic trails, from the 82 km Karhunkierros suspension bridges to the 1,324 m Halti summit.",
           cta: 'Explore Hiking Trails',
         },
         {
@@ -213,8 +213,8 @@ const en: SectionCopy = {
     tips: [
       'Check the Finnish Meteorological Institute aurora forecast (Auroras-now / KP-index) before heading out.',
       'Best viewing is between 9 PM and 2 AM local time on clear nights.',
-      'Move 5–10 km away from town centres to drop light pollution to Bortle 2 or lower.',
-      'Layer up, temperatures often hit −30 °C during peak season; thermos of warm drink mandatory.',
+      'Move 5–10 km away from town centres to drop light pollution to Bortle 2 or lower.',
+      'Layer up, temperatures often hit −30 °C during peak season; thermos of warm drink mandatory.',
       'A tripod and 5–15 second exposure at ISO 800–3200 (f/2.8) captures aurora your eye misses.',
     ],
     oneNightKicker: 'One night · Inari · 2 March 2024',
@@ -228,8 +228,8 @@ const en: SectionCopy = {
       },
       {
         time: '21:00',
-        title: 'Drive 8 km west of Inari village',
-        body: 'Light pollution drops fast outside town. We pick a small lake clearing on the Kaamanen road, open horizon to north and east. −18 °C, calm.',
+        title: 'Drive 8 km west of Inari village',
+        body: 'Light pollution drops fast outside town. We pick a small lake clearing on the Kaamanen road, open horizon to north and east. −18 °C, calm.',
       },
       {
         time: '22:40',
@@ -256,7 +256,7 @@ const en: SectionCopy = {
     cards: [
       { title: 'Forecast tools', body: 'FMI Auroras-now (KP), NOAA OVATION (oval), windy.com (cloud cover), open all three.' },
       { title: 'Camera baseline', body: '15 s · ISO 1600 · f/2.8 · manual focus on a distant light. Tripod mandatory.' },
-      { title: 'What kills the night', body: 'Full moon (washes out colours). Cloud past 1500 m. Wind chill below −25 °C without proper gear.' },
+      { title: 'What kills the night', body: 'Full moon (washes out colours). Cloud past 1500 m. Wind chill below −25 °C without proper gear.' },
     ],
     finalH2: 'Want a guide who knows the cloud breaks?',
     finalLead: 'Aurora hunts run nightly from Rovaniemi, Saariselkä and Levi. Local guides chase the forecast and reposition when the sky clouds, far higher hit rate than going alone.',
@@ -280,7 +280,7 @@ const en: SectionCopy = {
         },
         {
           q: 'Can you see the aurora from Rovaniemi?',
-          a: 'Yes, on clear nights with enough activity, but Rovaniemi has more light pollution and sits further south than the prime spots. Drive 10–20 km out of the city to a lakeside or open field and your chances rise sharply. For the highest hit rate, base further north in Inari, Saariselkä or Utsjoki.',
+          a: 'Yes, on clear nights with enough activity, but Rovaniemi has more light pollution and sits further south than the prime spots. Drive 10–20 km out of the city to a lakeside or open field and your chances rise sharply. For the highest hit rate, base further north in Inari, Saariselkä or Utsjoki.',
         },
         {
           q: 'What time of night is the aurora most active?',
@@ -306,13 +306,13 @@ const en: SectionCopy = {
     parks: [
       {
         name: 'Urho Kekkonen National Park',
-        description: "Finland's second largest national park covering 2,550 km². Vast open fells, deep river gorges, and ancient pine forests. A paradise for multi-day hiking and backcountry skiing.",
+        description: "Finland's second largest national park covering 2,550 km². Vast open fells, deep river gorges, and ancient pine forests. A paradise for multi-day hiking and backcountry skiing.",
         highlight: "Finland's 2nd largest park",
-        visited: 'March 2024 · day-skied Rumakuru loop, snow stable at −12 °C',
+        visited: 'March 2024 · day-skied Rumakuru loop, snow stable at −12 °C',
       },
       {
         name: 'Pallas-Yllästunturi National Park',
-        description: "Home to Finland's longest popular fell-chain hiking trail, the 55 km Hetta–Pallas route. Open fell tops with horizons reaching past Käsivarsi.",
+        description: "Home to Finland's longest popular fell-chain hiking trail, the 55 km Hetta–Pallas route. Open fell tops with horizons reaching past Käsivarsi.",
         highlight: 'Longest fell traverse in Finland',
         visited: 'September 2023 · walked Hetta → Pallas in three days · ruska peak week 2',
       },
@@ -339,25 +339,25 @@ const en: SectionCopy = {
     stayNearby: 'Stay nearby',
     hettaKicker: 'From the notebook · ruska 2023',
     hettaH2: 'Hetta → Pallas in three days, the full traverse',
-    hettaLead: 'The 55 km Hetta–Pallas trail through Pallas-Yllästunturi is the most popular long walk in Finland for a reason, it is almost entirely above the treeline, the huts are spaced for short days, and the views never close in. We walked it north-to-south over three days at ruska peak. Northbound is the conventional direction; southbound (Hetta start) is the better photographic call and the ferry across Ounasjärvi at the start is a nice ritual.',
+    hettaLead: 'The 55 km Hetta–Pallas trail through Pallas-Yllästunturi is the most popular long walk in Finland for a reason, it is almost entirely above the treeline, the huts are spaced for short days, and the views never close in. We walked it north-to-south over three days at ruska peak. Northbound is the conventional direction; southbound (Hetta start) is the better photographic call and the ferry across Ounasjärvi at the start is a nice ritual.',
     days: [
       {
-        day: 'Day 1 · 18 km',
+        day: 'Day 1 · 18 km',
         title: 'Hetta → Sioskuru',
         body: 'Boat across Ounasjärvi at 09:00 (free, runs 1 June – 30 Sep). Climb out of Pyhäkero onto the open fell within two hours. Sioskuru hut sleeps 16; arrived at 16:30 with three bunks left. Sunset over the western fells from the door.',
         note: '+520 m elevation · light wind',
       },
       {
-        day: 'Day 2 · 22 km',
+        day: 'Day 2 · 22 km',
         title: 'Sioskuru → Hannukuru',
         body: 'The signature day. You cross Pyhäkuru and the high tundra around Lompolojärvi, the photo of the trail you have seen before is from km 12. Hannukuru hut has a wood-fired sauna; it is the reason most walkers split the route this way.',
         note: 'Highlight: Lompolojärvi reflection at 17:00 light',
       },
       {
-        day: 'Day 3 · 15 km',
+        day: 'Day 3 · 15 km',
         title: 'Hannukuru → Pallas',
         body: 'Easiest day on paper. Climb Pallas summit chain, Taivaskero, Lehmäkero, Laukukero, with horizons that reach past Käsivarsi on a clear morning. End at Pallas Hotel; if you can, book a sauna and a steak. You earned both.',
-        note: 'Total: 55 km · 3 days · 11 hrs net hiking',
+        note: 'Total: 55 km · 3 days · 11 hrs net hiking',
       },
     ],
     differentlyH3: "What we'd plan differently",
@@ -387,7 +387,7 @@ const en: SectionCopy = {
         },
         {
           q: 'Which is the largest national park in Finnish Lapland?',
-          a: 'Urho Kekkonen National Park is the largest in Lapland at about 2,550 km², and the second largest in all of Finland. It runs from the Saariselkä fells eastward into deep roadless wilderness, with open fells, river gorges and old pine forest.',
+          a: 'Urho Kekkonen National Park is the largest in Lapland at about 2,550 km², and the second largest in all of Finland. It runs from the Saariselkä fells eastward into deep roadless wilderness, with open fells, river gorges and old pine forest.',
         },
         {
           q: 'Do you need a permit or entrance fee for Lapland national parks?',
@@ -470,7 +470,7 @@ const en: SectionCopy = {
       {
         time: '17:15',
         title: 'Arrival, briefing, sign the waiver',
-        body: 'Drive 8 km off the main road, last 2 km on a forest track. Guide explains the rules: no perfume, no flash, talk only at whisper, never open the hide door after 19:00. Salmon already laid out at the clearing. Sandwiches and thermos in the bunk room.',
+        body: 'Drive 8 km off the main road, last 2 km on a forest track. Guide explains the rules: no perfume, no flash, talk only at whisper, never open the hide door after 19:00. Salmon already laid out at the clearing. Sandwiches and thermos in the bunk room.',
       },
       {
         time: '19:40',
@@ -505,7 +505,7 @@ const en: SectionCopy = {
       },
     ],
     cards: [
-      { title: 'What worked', body: '600 mm tele on a tripod through the slot. Silent shutter on (mirrorless). 1/250 s, ISO 1600, f/4.' },
+      { title: 'What worked', body: '600 mm tele on a tripod through the slot. Silent shutter on (mirrorless). 1/250 s, ISO 1600, f/4.' },
       { title: "What we'd do differently", body: 'Two consecutive nights, not one. Different bears, different light. Same cost per night, doubled chance of cubs.' },
       { title: 'Best months', body: 'Late May–early June (cubs). Late July (lone males, easy weather). September (wolves cross + autumn light).' },
     ],
@@ -583,7 +583,7 @@ const en: SectionCopy = {
       {
         week: 'Week 1 · Sep 2–8',
         region: 'Utsjoki + Kilpisjärvi (69°N+)',
-        body: 'Northernmost fells go first. Birch already 60% turned by Sep 5; lingonberry bushes deep red. Camp temps −2 °C overnight. Photography window: 14:00–17:00, light angle low.',
+        body: 'Northernmost fells go first. Birch already 60% turned by Sep 5; lingonberry bushes deep red. Camp temps −2 °C overnight. Photography window: 14:00–17:00, light angle low.',
       },
       {
         week: 'Week 2 · Sep 9–15',
@@ -659,8 +659,8 @@ const en: SectionCopy = {
     },
   },
   hiking: {
-    metaTitle: 'Lapland Hiking Trails: 5 km Day Hikes to 82 km Routes',
-    metaDescription: 'Six hiking trails in Finnish Lapland, Hetta-Pallas (55 km), Karhunkierros (82 km), Halti summit (55 km), and three shorter routes. Distance, duration, difficulty and trailhead bases.',
+    metaTitle: 'Lapland Hiking Trails: 5 km Day Hikes to 82 km Routes',
+    metaDescription: 'Six hiking trails in Finnish Lapland, Hetta-Pallas (55 km), Karhunkierros (82 km), Halti summit (55 km), and three shorter routes. Distance, duration, difficulty and trailhead bases.',
     hero: {
       eyebrow: 'Pillar guide',
       title: 'Hiking Trails',
@@ -670,85 +670,85 @@ const en: SectionCopy = {
     },
     karhuKicker: 'From the notebook · ruska 2024',
     karhuH2: 'Karhunkierros in 4 days, what we packed, what we skipped, what we learned',
-    karhuLead: 'We walked the full 82 km Bear Trail south-to-north over four days in late September, ruska peak. Below is what actually happened, distances, hut decisions, pack weight, and the calls we would make differently next time. Treat this as a planning baseline, not gospel, weather and your fitness shift everything.',
+    karhuLead: 'We walked the full 82 km Bear Trail south-to-north over four days in late September, ruska peak. Below is what actually happened, distances, hut decisions, pack weight, and the calls we would make differently next time. Treat this as a planning baseline, not gospel, weather and your fitness shift everything.',
     days: [
       {
-        day: 'Day 1 · 22 km',
+        day: 'Day 1 · 22 km',
         title: 'Hautajärvi → Aventojoki',
-        body: 'Easiest day on paper, brutal in practice, 22 km is long when packs are still heavy. Aventojoki hut had four open bunks at 17:00, full by 19:00. Worth pushing past lunch to claim a slot.',
-        note: 'Pack at start: 14.2 kg dry · 16.0 kg with water',
+        body: 'Easiest day on paper, brutal in practice, 22 km is long when packs are still heavy. Aventojoki hut had four open bunks at 17:00, full by 19:00. Worth pushing past lunch to claim a slot.',
+        note: 'Pack at start: 14.2 kg dry · 16.0 kg with water',
       },
       {
-        day: 'Day 2 · 18 km',
+        day: 'Day 2 · 18 km',
         title: 'Aventojoki → Jussinkämppä',
-        body: 'The signature day. Suspension bridges over Kitkajoki rapids; Oulanka canyon viewpoint after the first 8 km is the photo every Finnish hiker has. Stop. The light at 14:00 in late September is unrepeatable.',
+        body: 'The signature day. Suspension bridges over Kitkajoki rapids; Oulanka canyon viewpoint after the first 8 km is the photo every Finnish hiker has. Stop. The light at 14:00 in late September is unrepeatable.',
         note: 'Highlight: Jyrävä waterfall · ~25 m drop, accessible from boardwalk',
       },
       {
-        day: 'Day 3 · 21 km',
+        day: 'Day 3 · 21 km',
         title: 'Jussinkämppä → Taivalköngäs',
         body: 'Long undulating forest day, fewer dramatic features, more rhythm. Taivalköngäs rapids at the end are the loudest point on the trail. We slept in the autiotupa; it filled at 16:30. Bring earplugs, the rapids run all night.',
-        note: 'First sub-zero night · −2 °C, light frost on the boardwalks at dawn',
+        note: 'First sub-zero night · −2 °C, light frost on the boardwalks at dawn',
       },
       {
-        day: 'Day 4 · 21 km',
+        day: 'Day 4 · 21 km',
         title: 'Taivalköngäs → Ruka',
-        body: "Easier terrain, ankles already sore. The last 6 km drag, leave early. Ruka shower at 14:30 felt like a religious experience. Don't book the southbound bus the same evening; you will want a hotel night before transit.",
-        note: 'Total elapsed: 82 km · 4 days · 12 hours net hiking time',
+        body: "Easier terrain, ankles already sore. The last 6 km drag, leave early. Ruka shower at 14:30 felt like a religious experience. Don't book the southbound bus the same evening; you will want a hotel night before transit.",
+        note: 'Total elapsed: 82 km · 4 days · 12 hours net hiking time',
       },
     ],
     differentlyH3: "What we'd do differently",
     differently: [
       'Start a day earlier and split day 1, drop one Pieni Karhunkierros loop section if pack is heavy.',
       'Reserve the Oulanka Visitor Centre overnight as a backup if any open hut hits capacity. We were lucky; the queue is real in ruska peak.',
-      'Pack one more pair of dry socks. Boardwalks turn ice-slick at −2 °C.',
+      'Pack one more pair of dry socks. Boardwalks turn ice-slick at −2 °C.',
       'Skip the lightweight stove fuel, every wilderness hut had wood-stove + dry firewood. Saved 400 g for the next walk.',
     ],
     rukaPostCta: 'Stays in Ruka after the trail',
     oulankaGuidedCta: 'Guided Oulanka day-walk options',
     listKicker: 'The full trail list',
     listH2: 'Six trails worth planning a trip around',
-    listLead: "From the 5 km Pyhäkuru gorge boardwalk to the 82 km Karhunkierros above. Each links a trailhead village you'll want to stay near.",
+    listLead: "From the 5 km Pyhäkuru gorge boardwalk to the 82 km Karhunkierros above. Each links a trailhead village you'll want to stay near.",
     trails: [
       {
         name: 'Hetta–Pallas Trail',
         description: "Finland's most popular long-distance hiking trail, traversing the fell chain between Hetta and Pallas. Open-fell terrain with horizon views, well-maintained wilderness huts at staged intervals.",
-        distance: '55 km',
+        distance: '55 km',
         duration: '3–4 days',
         difficulty: 'Moderate',
       },
       {
         name: 'Karhunkierros (Bear Trail)',
         description: 'One of the most famous trails in Finland, winds through the Oulanka canyon past rapids and suspension bridges. Dramatic river gorges and old-growth forest mark the entire route.',
-        distance: '82 km',
+        distance: '82 km',
         duration: '4–6 days',
         difficulty: 'Challenging',
       },
       {
         name: 'Saariselkä Day Trails',
         description: 'Well-marked day trails starting from Saariselkä village into the national park. The right introduction to fell hiking with options across all fitness levels and weather windows.',
-        distance: '5–20 km',
+        distance: '5–20 km',
         duration: '2–8 hours',
         difficulty: 'Easy',
       },
       {
         name: 'Halti Summit Trail',
         description: "Trek to Finland's highest point at 1,324 m. Remote wilderness route through the Kilpisjärvi backcountry. The final summit section is unmarked and requires navigation skill in poor visibility.",
-        distance: '55 km (round trip)',
+        distance: '55 km (round trip)',
         duration: '3–5 days',
         difficulty: 'Demanding',
       },
       {
         name: 'Pyhäkuru Gorge Trail',
         description: 'Short but striking trail through a deep gorge with ancient rock walls. A sacred site for the Sámi people, with accessible boardwalk sections that suit families and mixed-pace groups.',
-        distance: '5 km',
+        distance: '5 km',
         duration: '2–3 hours',
         difficulty: 'Easy',
       },
       {
         name: 'Lemmenjoki River Trail',
         description: "Follows the legendary gold-panning river through one of Europe's largest wilderness areas. Boat transport is available for part of the route. Rich gold-rush history visible at marked panning sites.",
-        distance: '20 km',
+        distance: '20 km',
         duration: '1–2 days',
         difficulty: 'Moderate',
       },
@@ -769,11 +769,11 @@ const en: SectionCopy = {
       items: [
         {
           q: 'How long does the Karhunkierros (Bear Trail) take?',
-          a: 'The full Karhunkierros is about 82 km and most hikers walk it in four to six days, sleeping in the wilderness huts along the Oulanka canyon. Strong walkers do it in four long days; if you want time at the rapids, waterfalls and suspension bridges, plan five. The shorter Pieni Karhunkierros loop covers the highlights in 12 km.',
+          a: 'The full Karhunkierros is about 82 km and most hikers walk it in four to six days, sleeping in the wilderness huts along the Oulanka canyon. Strong walkers do it in four long days; if you want time at the rapids, waterfalls and suspension bridges, plan five. The shorter Pieni Karhunkierros loop covers the highlights in 12 km.',
         },
         {
           q: 'What is the most popular hiking trail in Lapland?',
-          a: 'The 55 km Hetta–Pallas trail through Pallas-Yllästunturi National Park is Finland\'s most popular long-distance route. It runs almost entirely above the treeline with open-fell views, and the huts are spaced for comfortable three- to four-day stages between Hetta and Pallas.',
+          a: 'The 55 km Hetta–Pallas trail through Pallas-Yllästunturi National Park is Finland\'s most popular long-distance route. It runs almost entirely above the treeline with open-fell views, and the huts are spaced for comfortable three- to four-day stages between Hetta and Pallas.',
         },
         {
           q: 'Do you need to book wilderness huts in advance?',
@@ -781,7 +781,7 @@ const en: SectionCopy = {
         },
         {
           q: 'How high is Finland\'s highest point, and can you hike it?',
-          a: 'Finland\'s highest point is on the shoulder of Halti at 1,324 m, deep in the Kilpisjärvi backcountry near the Norwegian border. It is a serious 55 km round-trip route over three to five days; the final approach is unmarked and needs real navigation skill in poor visibility.',
+          a: 'Finland\'s highest point is on the shoulder of Halti at 1,324 m, deep in the Kilpisjärvi backcountry near the Norwegian border. It is a serious 55 km round-trip route over three to five days; the final approach is unmarked and needs real navigation skill in poor visibility.',
         },
         {
           q: 'When is the best time to hike in Lapland?',
@@ -942,7 +942,7 @@ const en: SectionCopy = {
         },
         {
           title: 'The fee that funds the fish',
-          body: "Anyone aged 18-69 fishing with a lure or gear in Finland pays the national fisheries management fee, 47 € for the year, 16 € for a week or 6 € for a day (eraluvat.fi). It funds stock monitoring, restoration and fish-passage work. Under-18s and those aged 70+ are exempt, and simple rod-and-line fishing under Everyman's Right is free.",
+          body: "Anyone aged 18-69 fishing with a lure or gear in Finland pays the national fisheries management fee, 47 € for the year, 16 € for a week or 6 € for a day (eraluvat.fi). It funds stock monitoring, restoration and fish-passage work. Under-18s and those aged 70+ are exempt, and simple rod-and-line fishing under Everyman's Right is free.",
         },
       ],
       feeNote: "Rules and dates are re-decided every year. Always confirm the current season, quotas and fees on the official pages before booking or fishing.",
@@ -979,7 +979,7 @@ const en: SectionCopy = {
         },
         {
           q: 'Do I need a permit to fish in Lapland?',
-          a: "For most lure and gear fishing, yes: anglers aged 18-69 pay the national fisheries management fee (47 € year, 16 € week, 6 € day, via eraluvat.fi), and many waters need a separate area permit on top. Simple rod-and-line and ice fishing under Everyman's Right is free, and under-18s and those aged 70 and over are exempt from the national fee.",
+          a: "For most lure and gear fishing, yes: anglers aged 18-69 pay the national fisheries management fee (47 € year, 16 € week, 6 € day, via eraluvat.fi), and many waters need a separate area permit on top. Simple rod-and-line and ice fishing under Everyman's Right is free, and under-18s and those aged 70 and over are exempt from the national fee.",
         },
       ],
     },

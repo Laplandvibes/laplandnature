@@ -64,7 +64,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
     legend: { park: 'Nationaal park', aurora: 'Noorderlicht kijken', trail: 'Startpunt route', wildlife: 'Wilde dieren' },
     pins: [
       { name: 'NP Urho Kekkonen', note: 'Op één na grootste park van Finland · toegang: Saariselkä' },
-      { name: 'NP Pallas-Yllästunturi', note: 'Hetta–Pallas-route van 55 km · toegang: Muonio' },
+      { name: 'NP Pallas-Yllästunturi', note: 'Hetta–Pallas-route van 55 km · toegang: Muonio' },
       { name: 'NP Lemmenjoki', note: 'Grootste wegloze wildernis van Europa · goud wassen · Inari' },
       { name: 'NP Riisitunturi', note: 'Met tykky-sneeuw bekroonde bomen · toegang: Posio' },
       { name: 'NP Pyhä-Luosto', note: '400 jaar oude sparren · amethistmijn' },
@@ -72,10 +72,10 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
       { name: 'Utsjoki', note: '4 van de 5 heldere nachten tonen noorderlicht op het hoogtepunt · kaamos van 51 dagen' },
       { name: 'Kilpisjärvi', note: 'Drielandenpunt · hooggelegen fjells' },
       { name: 'Enontekiö', note: 'Een van de donkerste hemels van Europa (Bortle 1)' },
-      { name: 'Hetta', note: 'Noordelijk eindpunt van de Hetta–Pallas-route van 55 km' },
-      { name: 'Ruka / Oulanka', note: 'Karhunkierros van 82 km · hangbruggen en canyons' },
-      { name: 'Kilpisjärvi (Halti)', note: '55 km heen en terug naar de Halti, het hoogste punt van Finland (1.324 m)' },
-      { name: 'Pyhä', note: 'Pyhäkuru-kloof · toegankelijk vlonderpad · 5 km' },
+      { name: 'Hetta', note: 'Noordelijk eindpunt van de Hetta–Pallas-route van 55 km' },
+      { name: 'Ruka / Oulanka', note: 'Karhunkierros van 82 km · hangbruggen en canyons' },
+      { name: 'Kilpisjärvi (Halti)', note: '55 km heen en terug naar de Halti, het hoogste punt van Finland (1.324 m)' },
+      { name: 'Pyhä', note: 'Pyhäkuru-kloof · toegankelijk vlonderpad · 5 km' },
       { name: 'Berenhutten van Kuusamo', note: 'Hutten voor de bruine beer · 99% kans op waarneming · mei–september' },
       { name: 'Wildernis van Nellim', note: 'Wildernislodge Nellim · leefgebied van veelvraat en bruine beer' },
       { name: 'Rendieren van Kaamanen', note: 'Sámi-rendierbijeenkomst · herfst (paliskunta)' },
@@ -83,13 +83,13 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   home: {
     metaTitle: 'Natuur van Lapland: parken en noorderlicht | LaplandNature',
-    metaDescription: 'De Arctische natuur van Fins Lapland, vijf nationale parken, meer dan 200 nachten noorderlicht per jaar, kaamos (poolnacht) en wandelpaden van 5 tot 82 km.',
+    metaDescription: 'De Arctische natuur van Fins Lapland, vijf nationale parken, meer dan 200 nachten noorderlicht per jaar, kaamos (poolnacht) en wandelpaden van 5 tot 82 km.',
     hero: {
       alt: 'Besneeuwde arctische wildernis en fjells in Fins Lapland',
       eyebrow: 'Boven de poolcirkel',
       title: 'Onaangeroerde',
       subtitle: 'Arctische natuur',
-      description: 'Fins Lapland, 100.367 km² aan nationale parken, fjells, oerbossen, en het langste noorderlichtseizoen van Europa.',
+      description: 'Fins Lapland, 100.367 km² aan nationale parken, fjells, oerbossen, en het langste noorderlichtseizoen van Europa.',
       primaryCta: 'Plan de noorderlichtreis',
       secondaryCta: 'Ontdek de parken',
     },
@@ -110,10 +110,10 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
       h2: 'Uitgelichte ervaringen in Lapland',
       lead: 'Van berenobservatiehutten aan de Russische grens tot ravijnen met bevroren watervallen, kano onder de middernachtzon en de kaamos-hemel boven Utsjoki, zeven gidsen waar u op terugkomt.',
       items: [
-        { tag: 'Beschermde gebieden', title: 'Nationale parken', blurb: 'Vijf parken, samen meer dan 7.000 km² beschermde natuur, van de fjells van Urho Kekkonen tot de met sneeuw gekroonde bomen van Riisitunturi.', cta: 'Ontdek de nationale parken' },
+        { tag: 'Beschermde gebieden', title: 'Nationale parken', blurb: 'Vijf parken, samen meer dan 7.000 km² beschermde natuur, van de fjells van Urho Kekkonen tot de met sneeuw gekroonde bomen van Riisitunturi.', cta: 'Ontdek de nationale parken' },
         { tag: 'Wilde dieren', title: 'Wildlife-observatie', blurb: 'Spoor de bruine beer met 99 % zichtkans op vanuit nachtelijke hutten, ontmoet halfwilde rendierkuddes en vang een glimp op van de veelvraat.', cta: 'Ontdek de wilde dieren' },
         { tag: 'Noorderlicht', title: 'Noorderlicht', blurb: 'Jaag op het noorderlicht in de Arctische hemel van september tot april. Utsjoki levert noorderlicht in 4 van de 5 heldere nachten.', cta: 'Ontdek het noorderlicht' },
-        { tag: 'Paden', title: 'Wandelen', blurb: 'Loop de iconische paden van Finland, van de hangbruggen van de Karhunkierros (82 km) tot de top van de Halti (1.324 m).', cta: 'Ontdek het wandelen' },
+        { tag: 'Paden', title: 'Wandelen', blurb: 'Loop de iconische paden van Finland, van de hangbruggen van de Karhunkierros (82 km) tot de top van de Halti (1.324 m).', cta: 'Ontdek het wandelen' },
         { tag: 'Beheer', title: 'Natuurbehoud', blurb: 'Metsähallitus beheert 85 % van de fjells in Lapland en alle zeven nationale parken. Plus het Finse natuurrecht, vrije toegang tot de natuur.', cta: 'Ontdek het natuurbehoud' },
         { tag: 'Zomer', title: 'Middernachtzon', blurb: 'Boven de poolcirkel gaat de zon in hartje zomer niet onder. In Utsjoki blijft de middernachtzon meer dan 70 dagen achtereen schijnen.', cta: 'Ontdek de seizoenen' },
         { tag: 'Water', title: 'Zoet water', blurb: 'Rond 188.000 meren, de vrij stromende rivier de Tornio en aapa-venen. Waarom schoon koud water Laplands zeldzaamste bezit is, en wat de vis erin houdt.', cta: 'Ontdek het zoet water' },
@@ -128,7 +128,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
       legend: { park: 'Nationaal park', aurora: 'Noorderlicht kijken', trail: 'Startpunt route', wildlife: 'Dieren' },
       pins: [
         { name: 'Urho Kekkonen NP', note: 'Op een na grootste park van Finland · toegang: Saariselkä' },
-        { name: 'Pallas-Yllästunturi NP', note: '55 km Hetta–Pallas-route · toegang: Muonio' },
+        { name: 'Pallas-Yllästunturi NP', note: '55 km Hetta–Pallas-route · toegang: Muonio' },
         { name: 'Lemmenjoki NP', note: 'Grootste wegloze wildernis van Europa · goud wassen · Inari' },
         { name: 'Riisitunturi NP', note: 'Met sneeuw bekroonde bomen (tykky) · toegang: Posio' },
         { name: 'Pyhä-Luosto NP', note: '400 jaar oude sparren · amethistmijn' },
@@ -136,10 +136,10 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
         { name: 'Utsjoki', note: '4 van de 5 heldere nachten noorderlicht in het hoogseizoen · kaamos van 51 dagen' },
         { name: 'Kilpisjärvi', note: 'Drielandenpunt · hooggelegen fjälls' },
         { name: 'Enontekiö', note: 'Een van de donkerste hemels van Europa (Bortle 1)' },
-        { name: 'Hetta', note: 'Noordelijke kop van de 55 km Hetta–Pallas-route' },
-        { name: 'Ruka / Oulanka', note: '82 km Karhunkierros · hangbruggen en canyons' },
-        { name: 'Kilpisjärvi (Halti)', note: '55 km heen en terug naar de Halti, hoogste punt van Finland (1.324 m)' },
-        { name: 'Pyhä', note: 'Pyhäkuru-kloof · toegankelijk vlonderpad · 5 km' },
+        { name: 'Hetta', note: 'Noordelijke kop van de 55 km Hetta–Pallas-route' },
+        { name: 'Ruka / Oulanka', note: '82 km Karhunkierros · hangbruggen en canyons' },
+        { name: 'Kilpisjärvi (Halti)', note: '55 km heen en terug naar de Halti, hoogste punt van Finland (1.324 m)' },
+        { name: 'Pyhä', note: 'Pyhäkuru-kloof · toegankelijk vlonderpad · 5 km' },
         { name: 'Berenhutten van Kuusamo', note: 'Bruine-berenhutten · 99 % waarnemingskans · mei–sept.' },
         { name: 'Wildernis van Nellim', note: 'Wildernislodge Nellim · leefgebied van veelvraat en bruine beer' },
         { name: 'Rendieren van Kaamanen', note: 'Sami-rendierbijeenkomst · herfst (paliskunta)' },
@@ -178,8 +178,8 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
     tips: [
       'Bekijk de noorderlichtvoorspelling van het Finse Meteorologisch Instituut (Auroras-now / KP-index) voordat u op pad gaat.',
       'Het best te zien tussen 21:00 en 2:00 lokale tijd op heldere nachten.',
-      'Ga 5–10 km buiten de dorpskernen om de lichtvervuiling tot Bortle 2 of lager te brengen.',
-      'Kleed u warm aan, in het hoogseizoen daalt de temperatuur vaak tot −30 °C; een thermos met warme drank is verplicht.',
+      'Ga 5–10 km buiten de dorpskernen om de lichtvervuiling tot Bortle 2 of lager te brengen.',
+      'Kleed u warm aan, in het hoogseizoen daalt de temperatuur vaak tot −30 °C; een thermos met warme drank is verplicht.',
       'Een statief en een belichting van 5–15 seconden bij ISO 800–3200 (f/2.8) vangen noorderlicht dat uw oog mist.',
     ],
     oneNightKicker: 'Eén nacht · Inari · 2 maart 2024',
@@ -187,7 +187,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
     oneNightLead: 'Voorspellingen zeggen u «goede kans vanavond». Ze zeggen niet dat u drie uur wacht tot de hemel opklaart, dat de eerste show een vlakke groene band is die u bijna mist, en dat de tweede, om 01:48, over de hele Arctische koepel scheurt. Zo verloopt een representatieve nacht.',
     oneNightSteps: [
       { time: '19:30', title: 'FMI-voorspelling controleren', body: 'Auroras-now: voorspelling KP 4–5. NOAA OVATION toont de aurora-ovaal die Tromsø al raakt. Hemelvoorspelling voor Inari: 60 % helder na middernacht. Beslissing: erop uit.' },
-      { time: '21:00', title: 'Rit 8 km westelijk van het dorp Inari', body: 'Buiten het dorp neemt de lichtvervuiling snel af. Wij kiezen een kleine open plek aan een meer langs de weg naar Kaamanen, open horizon naar het noorden en het oosten. −18 °C, windstil.' },
+      { time: '21:00', title: 'Rit 8 km westelijk van het dorp Inari', body: 'Buiten het dorp neemt de lichtvervuiling snel af. Wij kiezen een kleine open plek aan een meer langs de weg naar Kaamanen, open horizon naar het noorden en het oosten. −18 °C, windstil.' },
       { time: '22:40', title: 'Eerste band, bijna gemist', body: 'Vage groene boog boven de noordelijke horizon. Makkelijk aan te zien voor wolkenreflectie. De camera (15 s, ISO 1600, f/2.8) toonde hem duidelijk, de grens van het blote oog ligt onder wat uw telefoon vastlegt. Dit is normaal. Wachten.' },
       { time: '00:15', title: 'Bewolking trekt op. 40 stille minuten.', body: 'Sterren scherp. De aurora trekt zich terug. Dit is het moment waarop de meeste autobezoekers het opgeven en terugrijden. Niet doen. De actieve fase volgt vaak op de stilte. Warme drank. Geduld.' },
       { time: '01:48', title: 'Substorm', body: 'De boog explodeert. Gordijnen schieten in seconden van horizon tot zenit; roze en paars aan de onderrand, dat is de zeldzame kleur, alleen bij sterkere stormen. Duurt 14 minuten. De camera kan het amper bijhouden. Met het blote oog zijn de structuren duidelijk. Dit is de nacht waarvoor u kwam.', highlight: true },
@@ -196,7 +196,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
     cards: [
       { title: 'Voorspellingstools', body: 'FMI Auroras-now (KP), NOAA OVATION (ovaal), windy.com (bewolking), open alle drie.' },
       { title: 'Camera-basisinstelling', body: '15 s · ISO 1600 · f/2.8 · handmatig scherpstellen op een ver lichtpunt. Statief verplicht.' },
-      { title: 'Wat de nacht bederft', body: 'Volle maan (vervaagt de kleuren). Bewolking boven 1500 m. Gevoelstemperatuur onder −25 °C zonder goede uitrusting.' },
+      { title: 'Wat de nacht bederft', body: 'Volle maan (vervaagt de kleuren). Bewolking boven 1500 m. Gevoelstemperatuur onder −25 °C zonder goede uitrusting.' },
     ],
     finalH2: 'Wilt u een gids die de wolkengaten kent?',
     finalLead: 'Noorderlichtjachten vertrekken elke nacht vanuit Rovaniemi, Saariselkä en Levi. Lokale gidsen volgen de voorspelling en verplaatsen zich als de hemel betrekt, een veel hogere succeskans dan u alleen heeft.',
@@ -212,7 +212,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
       items: [
         { q: 'Welke Kp-index heb ik nodig om het noorderlicht in Lapland te zien?', a: 'Fins Lapland ligt onder de aurora-ovaal, dus u heeft geen hoge Kp nodig. Vanuit Inari, Utsjoki of Kilpisjärvi volstaat een Kp van 1–2 vaak al voor een zichtbare boog op een heldere, donkere nacht; Kp 3–4 brengt actieve, bewegende gordijnen. Verder naar het zuiden, rond Rovaniemi, wilt u doorgaans Kp 3 of hoger. Een heldere hemel en een open noordelijke horizon tellen veel zwaarder dan het najagen van een hoog getal.' },
         { q: 'In welke maand is het noorderlicht in Lapland het sterkst?', a: 'Maart is de sterkste afzonderlijke maand: de hemel is donker genoeg, de nachten zijn nog lang en de geomagnetische activiteit piekt meestal rond de lente-equinox. September is het andere ideale moment, mildere temperaturen en open water dat het noorderlicht weerspiegelt voordat de meren bevriezen. Het volledige seizoen loopt van eind augustus tot begin april.' },
-        { q: 'Kunt u het noorderlicht vanuit Rovaniemi zien?', a: 'Ja, op heldere nachten met voldoende activiteit, maar Rovaniemi heeft meer lichtvervuiling en ligt zuidelijker dan de beste plekken. Rijd 10–20 km de stad uit naar een meeroever of een open veld en uw kansen stijgen sterk. Voor de hoogste trefkans verblijft u noordelijker in Inari, Saariselkä of Utsjoki.' },
+        { q: 'Kunt u het noorderlicht vanuit Rovaniemi zien?', a: 'Ja, op heldere nachten met voldoende activiteit, maar Rovaniemi heeft meer lichtvervuiling en ligt zuidelijker dan de beste plekken. Rijd 10–20 km de stad uit naar een meeroever of een open veld en uw kansen stijgen sterk. Voor de hoogste trefkans verblijft u noordelijker in Inari, Saariselkä of Utsjoki.' },
         { q: 'Op welk tijdstip van de nacht is het noorderlicht het actiefst?', a: 'Het venster tussen ongeveer 21.00 en 2.00 uur lokale tijd is het betrouwbaarst, met de activiteit die vaak piekt rond magnetische middernacht (in Finland dicht bij 23.00–1.00 uur). Substormen kunnen op elk moment losbarsten, dus het loont om tijdens een rustige periode buiten te blijven, de actieve fase volgt vaak op een windstilte.' },
         { q: 'Moet u een tour boeken, of kunt u het noorderlicht op eigen houtje zien?', a: 'U kunt het zeker zelf zien als u een auto heeft, een donkere plek met een open noordelijke horizon en het geduld om te wachten tot de wolken openbreken. Een begeleide jacht verdient zijn prijs vooral door mobiliteit: lokale gidsen volgen de bewolkingsvoorspelling en verplaatsen zich door de regio, wat de slaagkans op grensgevallen-nachten verhoogt.' },
       ],
@@ -229,8 +229,8 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
       description: 'Vijf parken beschermen het leeuwendeel van de wegloze wildernis van Lapland, van traversen over open fjells tot met sneeuw gekroonde bossen en goudwaskloven. Elk park heeft een eigen toegangsdorp om vanuit te vertrekken.',
     },
     parks: [
-      { name: 'Nationaal park Urho Kekkonen', description: 'Het op één na grootste nationaal park van Finland: 2.550 km². Uitgestrekte open fjells, diepe rivierkloven en oeroude dennenbossen. Een paradijs voor meerdaagse trektochten en backcountry-skiën.', highlight: '2ᵉ grootste park van Finland', visited: 'maart 2024 · Rumakuru-lus op ski\'s, sneeuw stabiel bij −12 °C' },
-      { name: 'Nationaal park Pallas-Yllästunturi', description: 'Hier loopt de langste populaire fjell-trektocht van Finland: de 55 km Hetta–Pallas-route. Open fjelltoppen met horizonten tot voorbij Käsivarsi.', highlight: 'Langste fjelltraversse van Finland', visited: 'september 2023 · Hetta → Pallas in drie dagen · ruska-piek week 2' },
+      { name: 'Nationaal park Urho Kekkonen', description: 'Het op één na grootste nationaal park van Finland: 2.550 km². Uitgestrekte open fjells, diepe rivierkloven en oeroude dennenbossen. Een paradijs voor meerdaagse trektochten en backcountry-skiën.', highlight: '2ᵉ grootste park van Finland', visited: 'maart 2024 · Rumakuru-lus op ski\'s, sneeuw stabiel bij −12 °C' },
+      { name: 'Nationaal park Pallas-Yllästunturi', description: 'Hier loopt de langste populaire fjell-trektocht van Finland: de 55 km Hetta–Pallas-route. Open fjelltoppen met horizonten tot voorbij Käsivarsi.', highlight: 'Langste fjelltraversse van Finland', visited: 'september 2023 · Hetta → Pallas in drie dagen · ruska-piek week 2' },
       { name: 'Nationaal park Lemmenjoki', description: 'Een van de grootste wegloze wildernisgebieden van Europa. Bekend om zijn geschiedenis van goudwassen en de rivier Lemmenjoki die door diepe kloven stroomt.', highlight: 'Goudwas-erfgoed', visited: 'juli 2024 · benedenloop gepeddeld tot Ravadasköngäs, middernachtzon' },
       { name: 'Nationaal park Riisitunturi', description: 'Beroemd om zijn met sneeuw gekroonde bomen (tykky) die de hellingen van december tot maart in surrealistische ijssculpturen veranderen. De westgerichte fjells leveren de zwaarste tykky van Finland.', highlight: 'Met sneeuw gekroonde bomen (tykky)', visited: 'februari 2024 · tykky op piekgewicht, blue-hour shoot om 14:30' },
       { name: 'Nationaal park Pyhä-Luosto', description: 'Een van de oudste bossen van Finland met sparren van meer dan 400 jaar oud. De amethistmijn van Lampivaara ligt in het park, bezoekers graven hun eigen edelstenen.', highlight: 'Amethistmijn + oerbos', visited: 'oktober 2023 · Pyhäkuru-kloof na de eerste sneeuw, rijp op het loopvlak' }
@@ -239,15 +239,15 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
     stayNearby: 'Overnachten in de buurt',
     hettaKicker: 'Uit het notitieboek · ruska 2023',
     hettaH2: 'Hetta → Pallas in drie dagen, de volledige doorsteek',
-    hettaLead: 'Het pad van 55 km Hetta–Pallas door Pallas-Yllästunturi is met reden de populairste langeafstandswandeling van Finland, bijna geheel boven de boomgrens, hutten op korte etappes en uitzichten die nooit dichtgaan. Wij liepen het van noord naar zuid in drie dagen op het hoogtepunt van de ruska. Noord-zuid is gangbaar; zuid-noord (start in Hetta) is fotografisch beter en de veerboot over Ounasjärvi bij de start is een mooi ritueel.',
+    hettaLead: 'Het pad van 55 km Hetta–Pallas door Pallas-Yllästunturi is met reden de populairste langeafstandswandeling van Finland, bijna geheel boven de boomgrens, hutten op korte etappes en uitzichten die nooit dichtgaan. Wij liepen het van noord naar zuid in drie dagen op het hoogtepunt van de ruska. Noord-zuid is gangbaar; zuid-noord (start in Hetta) is fotografisch beter en de veerboot over Ounasjärvi bij de start is een mooi ritueel.',
     days: [
-      { day: 'Dag 1 · 18 km', title: 'Hetta → Sioskuru', body: 'Veerboot over de Ounasjärvi om 9:00 (gratis, vaart van 1 juni tot 30 september). Binnen twee uur uit Pyhäkero op het open fjell. De hut Sioskuru biedt 16 slaapplaatsen; om 16:30 aangekomen, nog drie bedden vrij. Zonsondergang over de westelijke fjells vanaf de voordeur.', note: '+520 m stijging · lichte wind' },
-      { day: 'Dag 2 · 22 km', title: 'Sioskuru → Hannukuru', body: 'De karakteristieke dag. U trekt Pyhäkuru over en de hoge toendra rond Lompolojärvi, de bekende foto van het pad is van km 12. De hut Hannukuru heeft een houtgestookte sauna; daarom splitsen de meeste wandelaars de route hier.', note: 'Hoogtepunt: weerspiegeling op Lompolojärvi bij het 17:00-licht' },
-      { day: 'Dag 3 · 15 km', title: 'Hannukuru → Pallas', body: 'Op papier de makkelijkste dag. U beklimt de topketen van Pallas, Taivaskero, Lehmäkero, Laukukero, met horizonten die op een heldere ochtend voorbij Käsivarsi reiken. Eindigt bij het Pallas-hotel; reserveer indien mogelijk een sauna en een steak. U hebt beide verdiend.', note: 'Totaal: 55 km · 3 dagen · 11 uur netto wandeltijd' }
+      { day: 'Dag 1 · 18 km', title: 'Hetta → Sioskuru', body: 'Veerboot over de Ounasjärvi om 9:00 (gratis, vaart van 1 juni tot 30 september). Binnen twee uur uit Pyhäkero op het open fjell. De hut Sioskuru biedt 16 slaapplaatsen; om 16:30 aangekomen, nog drie bedden vrij. Zonsondergang over de westelijke fjells vanaf de voordeur.', note: '+520 m stijging · lichte wind' },
+      { day: 'Dag 2 · 22 km', title: 'Sioskuru → Hannukuru', body: 'De karakteristieke dag. U trekt Pyhäkuru over en de hoge toendra rond Lompolojärvi, de bekende foto van het pad is van km 12. De hut Hannukuru heeft een houtgestookte sauna; daarom splitsen de meeste wandelaars de route hier.', note: 'Hoogtepunt: weerspiegeling op Lompolojärvi bij het 17:00-licht' },
+      { day: 'Dag 3 · 15 km', title: 'Hannukuru → Pallas', body: 'Op papier de makkelijkste dag. U beklimt de topketen van Pallas, Taivaskero, Lehmäkero, Laukukero, met horizonten die op een heldere ochtend voorbij Käsivarsi reiken. Eindigt bij het Pallas-hotel; reserveer indien mogelijk een sauna en een steak. U hebt beide verdiend.', note: 'Totaal: 55 km · 3 dagen · 11 uur netto wandeltijd' }
     ],
     differentlyH3: 'Wat wij anders zouden plannen',
     differently: [
-      'Reserveer een bed in een varaustupa voor nacht twee (Hannukuru). De autiotupa is vrij toegankelijk, maar tijdens de ruska-piek was hij om 15:30 al vol. Bed in reserveringshut = 14 €; gemoedsrust = onbetaalbaar.',
+      'Reserveer een bed in een varaustupa voor nacht twee (Hannukuru). De autiotupa is vrij toegankelijk, maar tijdens de ruska-piek was hij om 15:30 al vol. Bed in reserveringshut = 14 €; gemoedsrust = onbetaalbaar.',
       'Neem ook begin september gamaschen in sneeuwschoenstijl mee. Twee van de drassige afdalingen van Pyhäkuru kwamen boven de schoen uit, twee dagen natte sokken.',
       'Eet stevig op dag één. De winkel in Hetta is de laatste warme maaltijd tot aan het Pallas-hotel.',
       'Probeer dit niet in 2 dagen. Wij ontmoetten een stel dat het probeerde; zij gaven het op bij Hannukuru en namen de pendelbus terug.'
@@ -267,7 +267,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
       h2: 'Nationale parken van Lapland, veelgestelde vragen',
       items: [
         { q: 'Hoeveel nationale parken zijn er in Lapland?', a: 'Lapland telt vijf van de meest bezochte wildernisparken van Finland: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi en Pyhä-Luosto. Elk park heeft zijn eigen toegangsdorp om vanuit te vertrekken, van Saariselkä voor Urho Kekkonen tot Hetta en Muonio voor Pallas-Yllästunturi.' },
-        { q: 'Welk is het grootste nationale park van Fins Lapland?', a: 'Het nationale park Urho Kekkonen is met ongeveer 2.550 km² het grootste van Lapland en het op een na grootste van heel Finland. Het strekt zich uit van de fjells van Saariselkä oostwaarts tot in diepe, wegloze wildernis, met open fjells, rivierkloven en oud dennenbos.' },
+        { q: 'Welk is het grootste nationale park van Fins Lapland?', a: 'Het nationale park Urho Kekkonen is met ongeveer 2.550 km² het grootste van Lapland en het op een na grootste van heel Finland. Het strekt zich uit van de fjells van Saariselkä oostwaarts tot in diepe, wegloze wildernis, met open fjells, rivierkloven en oud dennenbos.' },
         { q: 'Heeft u een vergunning of toegangsgeld nodig voor de nationale parken van Lapland?', a: 'Nee. De nationale parken van Finland zijn gratis toegankelijk en er is geen vergunning nodig voor gewone wandelingen, dagbezoeken of overnachten in open wildernishutten. Sommige reserveringshutten en sauna\'s vragen een kleine bijdrage, en begeleide activiteiten of goud wassen bij Lemmenjoki kennen hun eigen kosten, maar het lopen van de paden kost niets.' },
         { q: 'Wanneer kunt u de parken het best bezoeken?', a: 'Begin tot half september voor de herfstkleuren van de ruska, juni en juli voor de middernachtzon en lange wandeldagen, en februari tot maart voor met sneeuw gekroonde bomen en toertochten op ski\'s, Riisitunturi is op zijn indrukwekkendst onder zware tykky in de late winter. Zomerhutten en veerdiensten varen doorgaans van begin juni tot eind september.' },
         { q: 'Waar kunt u goud wassen in een nationaal park van Lapland?', a: 'Het nationale park Lemmenjoki is het hart van het goudwassen in Finland. Het rivierdal heeft een levend goudkoorts-erfgoed, met gemarkeerde wasplekken en vergunde claims langs de rivier de Lemmenjoki. In de zomer vaart een bootdienst een eind stroomopwaarts, waardoor de wasgebieden op een dagtocht bereikbaar zijn.' },
@@ -276,7 +276,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   wildlife: {
     metaTitle: 'Wilde dieren in Lapland: rendieren, beren | LaplandNature',
-    metaDescription: 'Zes iconische Arctische soorten in Fins Lapland, van 200.000 halfgedomesticeerde rendieren tot de ernstig bedreigde poolvos en de schuwe veelvraat.',
+    metaDescription: 'Zes iconische Arctische soorten in Fins Lapland, van 200.000 halfgedomesticeerde rendieren tot de ernstig bedreigde poolvos en de schuwe veelvraat.',
     hero: {
       alt: 'Een bruine beer in het boreale bos van Fins Lapland',
       eyebrow: 'Pijlergids',
@@ -285,7 +285,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
       description: 'Volg de bruine beer met 99 % spotkans vanuit nachtelijke hutten, ontmoet halfwilde rendierkuddes en spot moeilijk vindbare veelvraten, met geverifieerde aanbieders en echte gegevens.',
     },
     animals: [
-      { name: 'Rendier', description: 'Zo\'n 200.000 halfgedomesticeerde rendieren trekken door Fins Lapland, al duizenden jaren centraal in de Sami-veehouderscultuur. Ze grazen vrij over fjells en bossen, u komt ze tegen langs de weg.', status: 'Algemeen' },
+      { name: 'Rendier', description: 'Zo\'n 200.000 halfgedomesticeerde rendieren trekken door Fins Lapland, al duizenden jaren centraal in de Sami-veehouderscultuur. Ze grazen vrij over fjells en bossen, u komt ze tegen langs de weg.', status: 'Algemeen' },
       { name: 'Poolvos', description: 'Een van de zeldzaamste zoogdieren van Finland. De poolvos overleeft in de ruwste fjellomgevingen; de vacht wordt \'s winters wit voor sneeuwcamouflage. In de Scandinavische populatie kritiek bedreigd.', status: 'Kritiek bedreigd' },
       { name: 'Bruine beer', description: 'Finland heeft een van de dichtste populaties bruine beren van Europa. In het oosten en noorden van Lapland bieden observatiehutten \'s zomers nabije ontmoetingen wanneer de beren uit winterslaap komen.', status: 'Gevoelig' },
       { name: 'Veelvraat', description: 'De veelvraat is een van de moeilijkst te spotten roofdieren van het boreale woud. Voor zijn formaat enorm sterk en hij doorkruist immense territoria in de Laplandse wildernis. Zelden gezien, maar overal in de regio aanwezig.', status: 'Bedreigd' },
@@ -305,7 +305,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
     bearBody: [
       'Oost-Finland, Kuusamo, Suomussalmi, Lieksa, heeft de hoogste dichtheid bruine beren per vierkante kilometer van Europa. Drie of vier aanbieders runnen kleine nachtelijke kijkhutten van eind april tot begin september, en de rekensom is eenvoudig: één nacht levert een statistisch waarnemingspercentage van rond de 90 % op, twee nachten brengen u boven de 99 %.',
       'De hut is een verwarmde houten ruimte met eenrichtings-fotosleuven en een slaapplaats. U gaat erin om 17:00 en gaat er pas weer uit om 7:00. Het aas, meestal zalm op een traditioneel voederpunt, laat beren jarenlang terugkomen; sommige individuen zijn tien jaar lang vastgelegd. Welpen in mei–juni. Solitaire mannetjes de hele zomer. Met geluk steken in september ook wolven over dezelfde open plek.',
-      'De kosten lopen van 280–450 € per persoon per nacht, inclusief vervoer, diner, slaapplaats en een gids die via koptelefoon uitlegt wat u ziet. Boek meer dan zes maanden vooraf voor weekenden in juli.'
+      'De kosten lopen van 280–450 € per persoon per nacht, inclusief vervoer, diner, slaapplaats en een gids die via koptelefoon uitlegt wat u ziet. Boek meer dan zes maanden vooraf voor weekenden in juli.'
     ],
     browseHidesCta: 'Bekijk de berenhutten',
     preNightCta: 'Overnachten de avond ervoor in Kuusamo',
@@ -313,16 +313,16 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
     bearNightH2: 'Hoe een echte nacht in een berenhut eruitziet',
     bearNightLead: 'Men stelt zich de hut voor als een wachttijd van 14 uur die eindigt in stilte of in een beer-die-passeert. De werkelijkheid is rommeliger, beren komen en gaan, u dommelt weg, u mist een waarneming, de stilte wordt een ding op zich. Dit is het echte ritme van één nacht half juni met drie andere fotografen in een hut met 4 bedden.',
     bearNightSteps: [
-      { time: '17:15', title: 'Aankomst, briefing, vrijwaring ondertekenen', body: '8 km vanaf de hoofdweg, de laatste 2 km over een bospad. De gids zet de regels uiteen: geen parfum, geen flits, alleen fluisterend praten, de deur van de hut nooit na 19:00 openen. De zalm ligt al klaar op de open plek. Sandwiches en thermos in de slaapruimte.' },
+      { time: '17:15', title: 'Aankomst, briefing, vrijwaring ondertekenen', body: '8 km vanaf de hoofdweg, de laatste 2 km over een bospad. De gids zet de regels uiteen: geen parfum, geen flits, alleen fluisterend praten, de deur van de hut nooit na 19:00 openen. De zalm ligt al klaar op de open plek. Sandwiches en thermos in de slaapruimte.' },
       { time: '19:40', title: 'Eerste verschijning, een jong mannetje', body: 'Een driejarig mannetje komt uit de spar aan de linkerrand. Blijft 11 minuten, eet één zalm, vertrekt. De gids fluistert de identificatie, hij is deze week al twee keer geweest. Het licht van 19:40 in juni is het beste van de nacht; de middernachtzon laat nog uren op zich wachten.' },
-      { time: '21:30', title: 'Stil uur. Wolfsgehuil.', body: 'Niets op de open plek. Twee wolven huilen vanuit het moeras ten oosten van ons, niet gezien, alleen gehoord. De gids zegt dat het een rumoerige zomer is voor wolven; de roedel beslaat meer dan 60 km. We blijven toch kijken.' },
+      { time: '21:30', title: 'Stil uur. Wolfsgehuil.', body: 'Niets op de open plek. Twee wolven huilen vanuit het moeras ten oosten van ons, niet gezien, alleen gehoord. De gids zegt dat het een rumoerige zomer is voor wolven; de roedel beslaat meer dan 60 km. We blijven toch kijken.' },
       { time: '23:55', title: 'Moeder + twee welpen', body: 'De nacht waarvoor u kwam. Zij nadert langzaam, proeft de lucht, kijkt twee keer richting de hut, besluit dat wij geen bedreiging zijn. De welpen klauteren tweemaal op haar rug terwijl zij eet. Blijft 38 minuten. Het licht is gouden-laag door de middernachtzon. De camera\'s klikken nauwelijks, niemand wil verraden bewegen.', highlight: true },
       { time: '02:30', title: 'Dommelen in de slaapbedden', body: 'Twee van ons in de bedden, twee op wacht. Wisselen elke 90 minuten. Door de middernachtzon is er geen echte duisternis, de kijkspleet blijft bruikbaar.' },
       { time: '04:50', title: 'Een ander mannetje, 8 minuten', body: 'Oud, gehavend mannetje, de gids herkent hem als negen zomers vaste klant. Eet twee zalmen, snuift de lucht, loopt weg. Het ochtendkoor van kraanvogels uit het moeras is een schouwspel op zich.' },
       { time: '07:00', title: 'Uit de hut. Terug. Sauna.', body: 'Totale zichtbare berentijd: ruwweg 57 minuten verdeeld over vier verschijningen. Totale stilte: zo\'n 13 uur. Vreemd genoeg was die stilte voor een derde de reden waarom het de moeite waard was.' }
     ],
     cards: [
-      { title: 'Wat werkte', body: '600 mm-telelens op statief door de sleuf. Stille sluiter (mirrorless). 1/250 s, ISO 1600, f/4.' },
+      { title: 'Wat werkte', body: '600 mm-telelens op statief door de sleuf. Stille sluiter (mirrorless). 1/250 s, ISO 1600, f/4.' },
       { title: 'Wat wij anders zouden doen', body: 'Twee opeenvolgende nachten, niet één. Andere beren, ander licht. Zelfde kosten per nacht, dubbele kans op welpen.' },
       { title: 'Beste maanden', body: 'Eind mei–begin juni (welpen). Eind juli (solitaire mannetjes, makkelijk weer). September (wolven steken over + herfstlicht).' },
     ],
@@ -340,7 +340,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
       items: [
         { q: 'Wanneer kunt u bruine beren zien in Fins Lapland?', a: 'Het bekijken van bruine beren loopt van eind april tot begin september, met nachtelijke fotohutten geconcentreerd rond Kuusamo, Suomussalmi en Lieksa in het oosten van Finland. Eind mei en begin juni zijn het best voor moeders met jongen; juli brengt betrouwbaar eenzame mannetjes en aangenaam weer; september voegt de kans toe op overstekende wolven en herfstlicht.' },
         { q: 'Hoe groot is de kans dat ik echt een beer zie vanuit een hut?', a: 'Groot, als u blijft overnachten. Met één nacht in een hut tijdens het seizoen ligt de waarnemingskans rond de 90%, en twee opeenvolgende nachten brengen die boven de 99%. De hutten staan bij vaste voederplekken waar dezelfde individuele beren jaar na jaar terugkeren.' },
-        { q: 'Hoeveel rendieren zijn er in Lapland, en zijn ze wild?', a: 'Ongeveer 200.000 halfgedomesticeerde rendieren trekken door Fins Lapland. Ze zijn niet wild, elk dier is in eigendom en geoormerkt binnen een herderscoöperatie, al duizenden jaren centraal in de Sámi-cultuur. Ze grazen vrij over de fjells en door de bossen, dus u komt ze geregeld langs de weg tegen.' },
+        { q: 'Hoeveel rendieren zijn er in Lapland, en zijn ze wild?', a: 'Ongeveer 200.000 halfgedomesticeerde rendieren trekken door Fins Lapland. Ze zijn niet wild, elk dier is in eigendom en geoormerkt binnen een herderscoöperatie, al duizenden jaren centraal in de Sámi-cultuur. Ze grazen vrij over de fjells en door de bossen, dus u komt ze geregeld langs de weg tegen.' },
         { q: 'Wat is het zeldzaamste dier in Lapland?', a: 'De poolvos is het zeldzaamst, in de Fennoscandische populatie aangemerkt als ernstig bedreigd en alleen overlevend in de ruwste hooggelegen fjell-omgeving. De veelvraat is het lastigst te zien, enorm sterk en zwervend over reusachtige territoria, is hij in de hele wildernis aanwezig maar zelden waar te nemen.' },
         { q: 'Hoeveel kost een berenkijkhut?', a: 'Reken op ongeveer € 280–450 per persoon voor één nacht, doorgaans inclusief vervoer vanaf het verzamelpunt, avondeten, een slaapplaats in de hut en een gids. Weekenden in juli zijn maanden van tevoren volgeboekt, dus reserveer zes maanden of meer vooruit voor topdata in de zomer.' },
       ],
@@ -366,7 +366,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
     ruskaH2: 'Hoe de ruska-piek werkelijk over Lapland trekt',
     ruskaLead: 'De ruska is geen enkele gebeurtenis. Het is een golf die elk jaar in september ongeveer drie weken lang van noord naar zuid trekt. Komt u in de verkeerde week of op de verkeerde breedtegraad, dan ziet u of kale berken of nog groen mos. Hieronder wat wij in 2024 vastlegden tijdens de rit van Utsjoki naar Riisitunturi.',
     ruskaWeeks: [
-      { week: 'Week 1 · 2–8 sept.', region: 'Utsjoki + Kilpisjärvi (69°N en hoger)', body: 'De noordelijkste fjells beginnen als eerste. Berken op 5 september al voor 60 % verkleurd; bosbessenstruiken diep rood. Kampeertemperaturen \'s nachts rond −2 °C. Fotograferenstijdvenster: 14:00–17:00, schuin licht.' },
+      { week: 'Week 1 · 2–8 sept.', region: 'Utsjoki + Kilpisjärvi (69°N en hoger)', body: 'De noordelijkste fjells beginnen als eerste. Berken op 5 september al voor 60 % verkleurd; bosbessenstruiken diep rood. Kampeertemperaturen \'s nachts rond −2 °C. Fotograferenstijdvenster: 14:00–17:00, schuin licht.' },
       { week: 'Week 2 · 9–15 sept.', region: 'Inari + Saariselkä (68–69°N)', body: 'De piek. Nationaal park Urho Kekkonen op volle verzadiging rond 11 september. De beste week van het jaar voor de Saariselkä → Kiilopää-lus. Drukke dagwandelaars in het weekend; doordeweeks lege paden.' },
       { week: 'Week 3 · 16–22 sept.', region: 'Pallas + Levi + Pyhä (67–68°N)', body: 'De piek schuift naar het zuiden. Het Hetta–Pallas-pad in volle ruska rond 17–19 september. Pyhä-Luosto enkele dagen later. Eerste sneeuwval mogelijk boven de 600 m tegen het einde van de week.' },
       { week: 'Week 4 · 23–29 sept.', region: 'Riisitunturi + Oulanka (66°N)', body: 'Laatste hoogtepunt. Riisitunturi blijft een laatste week fotogeniek voordat de bladeren vallen. Karhunkierros (Berenpad) op zijn top, nog enkele zachte middagen, vorst bij dageraad, doordeweeks lege hutten.' },
@@ -411,8 +411,8 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   hiking: {
     difficulties: { easy: 'Makkelijk', moderate: 'Gemiddeld', challenging: 'Uitdagend', demanding: 'Zwaar' },
-    metaTitle: 'Wandelpaden in Lapland: 5 tot 82 km | LaplandNature',
-    metaDescription: 'Zes wandelpaden in Fins Lapland, Hetta-Pallas (55 km), Karhunkierros (82 km), Halti-top (55 km) en drie kortere routes.',
+    metaTitle: 'Wandelpaden in Lapland: 5 tot 82 km | LaplandNature',
+    metaDescription: 'Zes wandelpaden in Fins Lapland, Hetta-Pallas (55 km), Karhunkierros (82 km), Halti-top (55 km) en drie kortere routes.',
     hero: {
       alt: 'Een wandelpad dat zich over een herfstkleurige fjell in Fins Lapland slingert',
       eyebrow: 'Pijlergids',
@@ -422,32 +422,32 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
     },
     karhuKicker: 'Uit het notitieboek · ruska 2024',
     karhuH2: 'Karhunkierros in 4 dagen, wat wij meenamen, wat wij oversloegen, wat wij leerden',
-    karhuLead: 'Wij liepen de volledige 82 km van het Bear Trail van zuid naar noord in vier dagen eind september, op het hoogtepunt van de ruska. Hieronder wat er werkelijk gebeurde, afstanden, hutkeuzes, rugzakgewicht en beslissingen die wij volgende keer anders zouden nemen. Beschouw dit als een planningsbasis, niet als evangelie, weer en uw conditie veranderen alles.',
+    karhuLead: 'Wij liepen de volledige 82 km van het Bear Trail van zuid naar noord in vier dagen eind september, op het hoogtepunt van de ruska. Hieronder wat er werkelijk gebeurde, afstanden, hutkeuzes, rugzakgewicht en beslissingen die wij volgende keer anders zouden nemen. Beschouw dit als een planningsbasis, niet als evangelie, weer en uw conditie veranderen alles.',
     days: [
-      { day: 'Dag 1 · 22 km', title: 'Hautajärvi → Aventojoki', body: 'Op papier de makkelijkste dag, in de praktijk zwaar, 22 km is lang als de rugzakken nog vol zijn. De hut Aventojoki had om 17:00 vier vrije slaapplaatsen, vol om 19:00. Het loont om na de lunch door te lopen om een plek te bemachtigen.', note: 'Rugzak bij vertrek: 14,2 kg droog · 16,0 kg met water' },
-      { day: 'Dag 2 · 18 km', title: 'Aventojoki → Jussinkämppä', body: 'De karakteristieke dag. Hangbruggen over de stroomversnellingen van de Kitkajoki; het uitzichtpunt op de Oulanka-kloof na de eerste 8 km is de foto die elke Finse wandelaar heeft. Stop. Het licht om 14:00 eind september is onherhaalbaar.', note: 'Hoogtepunt: Jyrävä-waterval · ongeveer 25 m val, bereikbaar vanaf de boardwalk' },
-      { day: 'Dag 3 · 21 km', title: 'Jussinkämppä → Taivalköngäs', body: 'Lange, golvende bosdag, minder dramatische verschijning, meer ritme. De stroomversnellingen van Taivalköngäs aan het einde zijn het luidste punt van het pad. We sliepen in de autiotupa; vol om 16:30. Neem oordoppen mee, het water bruist de hele nacht.', note: 'Eerste nacht onder nul · −2 °C, lichte vorst op de boardwalk bij dageraad' },
-      { day: 'Dag 4 · 21 km', title: 'Taivalköngäs → Ruka', body: 'Makkelijker terrein, enkels al pijnlijk. De laatste 6 km slepen zich voort, vertrek vroeg. De douche in Ruka om 14:30 voelde als een religieuze ervaring. Boek niet dezelfde avond nog de bus zuidwaarts; u wilt eerst een hotelnacht.', note: 'Totaal: 82 km · 4 dagen · 12 uur netto wandeltijd' }
+      { day: 'Dag 1 · 22 km', title: 'Hautajärvi → Aventojoki', body: 'Op papier de makkelijkste dag, in de praktijk zwaar, 22 km is lang als de rugzakken nog vol zijn. De hut Aventojoki had om 17:00 vier vrije slaapplaatsen, vol om 19:00. Het loont om na de lunch door te lopen om een plek te bemachtigen.', note: 'Rugzak bij vertrek: 14,2 kg droog · 16,0 kg met water' },
+      { day: 'Dag 2 · 18 km', title: 'Aventojoki → Jussinkämppä', body: 'De karakteristieke dag. Hangbruggen over de stroomversnellingen van de Kitkajoki; het uitzichtpunt op de Oulanka-kloof na de eerste 8 km is de foto die elke Finse wandelaar heeft. Stop. Het licht om 14:00 eind september is onherhaalbaar.', note: 'Hoogtepunt: Jyrävä-waterval · ongeveer 25 m val, bereikbaar vanaf de boardwalk' },
+      { day: 'Dag 3 · 21 km', title: 'Jussinkämppä → Taivalköngäs', body: 'Lange, golvende bosdag, minder dramatische verschijning, meer ritme. De stroomversnellingen van Taivalköngäs aan het einde zijn het luidste punt van het pad. We sliepen in de autiotupa; vol om 16:30. Neem oordoppen mee, het water bruist de hele nacht.', note: 'Eerste nacht onder nul · −2 °C, lichte vorst op de boardwalk bij dageraad' },
+      { day: 'Dag 4 · 21 km', title: 'Taivalköngäs → Ruka', body: 'Makkelijker terrein, enkels al pijnlijk. De laatste 6 km slepen zich voort, vertrek vroeg. De douche in Ruka om 14:30 voelde als een religieuze ervaring. Boek niet dezelfde avond nog de bus zuidwaarts; u wilt eerst een hotelnacht.', note: 'Totaal: 82 km · 4 dagen · 12 uur netto wandeltijd' }
     ],
     differentlyH3: 'Wat wij anders zouden doen',
     differently: [
       'Vertrek een dag eerder en splits dag 1, laat een stuk van de Pieni Karhunkierros-lus weg als de rugzak zwaar is.',
       'Reserveer het bezoekerscentrum van Oulanka als back-up mocht een open hut vol zijn. Wij hadden geluk; de wachtrij op het hoogtepunt van de ruska is reëel.',
-      'Neem een extra paar droge sokken mee. De boardwalks worden bij −2 °C ijzig glad.',
+      'Neem een extra paar droge sokken mee. De boardwalks worden bij −2 °C ijzig glad.',
       'Sla lichte brandstof voor een kooktoestel over, elke wildernishut had een houtkachel met droog hout. 400 g uitgespaard voor de volgende wandeling.'
     ],
     rukaPostCta: 'Overnachten in Ruka na het pad',
     oulankaGuidedCta: 'Begeleide dagwandelingen in Oulanka',
     listKicker: 'De volledige padenlijst',
     listH2: 'Zes paden waarvoor het de moeite waard is een reis te plannen',
-    listLead: 'Van de boardwalk van 5 km in de Pyhäkuru-kloof tot de 82 km van de Karhunkierros hierboven. Elk pad sluit aan bij een startdorp waar u dichtbij wilt slapen.',
+    listLead: 'Van de boardwalk van 5 km in de Pyhäkuru-kloof tot de 82 km van de Karhunkierros hierboven. Elk pad sluit aan bij een startdorp waar u dichtbij wilt slapen.',
     trails: [
-      { name: 'Hetta–Pallas-pad', description: 'Het populairste langeafstandspad van Finland, dwars door de fjell-keten tussen Hetta en Pallas. Open fjell-terrein met horizonzichten, goed onderhouden wildernishutten op korte afstanden.', distance: '55 km', duration: '3–4 dagen', difficulty: 'Gemiddeld' },
-      { name: 'Karhunkierros (Berenpad)', description: 'Een van de beroemdste paden van Finland, slingert door de Oulanka-kloof langs stroomversnellingen en hangbruggen. Spectaculaire rivierkloven en oerbos langs de hele route.', distance: '82 km', duration: '4–6 dagen', difficulty: 'Zwaar' },
-      { name: 'Dagroutes Saariselkä', description: 'Goed gemarkeerde dagroutes vanaf het dorp Saariselkä het nationaal park in. De juiste introductie tot fjell-wandelen, met opties voor elk fitnessniveau en weervenster.', distance: '5–20 km', duration: '2–8 uur', difficulty: 'Makkelijk' },
-      { name: 'Halti-topweg', description: 'Trek naar het hoogste punt van Finland, 1.324 m. Afgelegen wildernisroute door het achterland van Kilpisjärvi. De slottoptraverse is niet gemarkeerd en vraagt navigatievaardigheid bij slecht zicht.', distance: '55 km (heen en terug)', duration: '3–5 dagen', difficulty: 'Zeer zwaar' },
-      { name: 'Pyhäkuru-kloofpad', description: 'Kort maar opvallend pad door een diepe kloof met oeroude rotswanden. Een heilige plek voor de Sami, met toegankelijke boardwalk-secties geschikt voor gezinnen en gemengde groepen.', distance: '5 km', duration: '2–3 uur', difficulty: 'Makkelijk' },
-      { name: 'Lemmenjoki-rivierpad', description: 'Volgt de legendarische goudwasrivier door een van de grootste wildernissen van Europa. Op een deel van de route is bootvervoer mogelijk. Gouden-koortsgeschiedenis zichtbaar bij gemarkeerde wasplekken.', distance: '20 km', duration: '1–2 dagen', difficulty: 'Gemiddeld' }
+      { name: 'Hetta–Pallas-pad', description: 'Het populairste langeafstandspad van Finland, dwars door de fjell-keten tussen Hetta en Pallas. Open fjell-terrein met horizonzichten, goed onderhouden wildernishutten op korte afstanden.', distance: '55 km', duration: '3–4 dagen', difficulty: 'Gemiddeld' },
+      { name: 'Karhunkierros (Berenpad)', description: 'Een van de beroemdste paden van Finland, slingert door de Oulanka-kloof langs stroomversnellingen en hangbruggen. Spectaculaire rivierkloven en oerbos langs de hele route.', distance: '82 km', duration: '4–6 dagen', difficulty: 'Zwaar' },
+      { name: 'Dagroutes Saariselkä', description: 'Goed gemarkeerde dagroutes vanaf het dorp Saariselkä het nationaal park in. De juiste introductie tot fjell-wandelen, met opties voor elk fitnessniveau en weervenster.', distance: '5–20 km', duration: '2–8 uur', difficulty: 'Makkelijk' },
+      { name: 'Halti-topweg', description: 'Trek naar het hoogste punt van Finland, 1.324 m. Afgelegen wildernisroute door het achterland van Kilpisjärvi. De slottoptraverse is niet gemarkeerd en vraagt navigatievaardigheid bij slecht zicht.', distance: '55 km (heen en terug)', duration: '3–5 dagen', difficulty: 'Zeer zwaar' },
+      { name: 'Pyhäkuru-kloofpad', description: 'Kort maar opvallend pad door een diepe kloof met oeroude rotswanden. Een heilige plek voor de Sami, met toegankelijke boardwalk-secties geschikt voor gezinnen en gemengde groepen.', distance: '5 km', duration: '2–3 uur', difficulty: 'Makkelijk' },
+      { name: 'Lemmenjoki-rivierpad', description: 'Volgt de legendarische goudwasrivier door een van de grootste wildernissen van Europa. Op een deel van de route is bootvervoer mogelijk. Gouden-koortsgeschiedenis zichtbaar bij gemarkeerde wasplekken.', distance: '20 km', duration: '1–2 dagen', difficulty: 'Gemiddeld' }
     ],
     trailheadStays: 'Overnachten bij het startpunt',
     planRestH3: 'Plan de rest van de reis',
@@ -462,10 +462,10 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
       eyebrow: 'Veelgestelde vragen',
       h2: 'Wandelen in Lapland, veelgestelde vragen',
       items: [
-        { q: 'Hoe lang duurt de Karhunkierros (Berenronde)?', a: 'De volledige Karhunkierros is ongeveer 82 km en de meeste wandelaars lopen hem in vier tot zes dagen, slapend in de wildernishutten langs de canyon van de Oulanka. Sterke wandelaars doen het in vier lange dagen; wilt u tijd bij de stroomversnellingen, watervallen en hangbruggen, plan dan vijf dagen. De kortere lus Pieni Karhunkierros vat de hoogtepunten samen in 12 km.' },
-        { q: 'Wat is het populairste wandelpad van Lapland?', a: 'De 55 km lange Hetta–Pallas-route door het nationale park Pallas-Yllästunturi is de populairste langeafstandsroute van Finland. Hij loopt vrijwel volledig boven de boomgrens met open fjell-uitzichten, en de hutten liggen op comfortabele afstanden voor etappes van drie tot vier dagen tussen Hetta en Pallas.' },
+        { q: 'Hoe lang duurt de Karhunkierros (Berenronde)?', a: 'De volledige Karhunkierros is ongeveer 82 km en de meeste wandelaars lopen hem in vier tot zes dagen, slapend in de wildernishutten langs de canyon van de Oulanka. Sterke wandelaars doen het in vier lange dagen; wilt u tijd bij de stroomversnellingen, watervallen en hangbruggen, plan dan vijf dagen. De kortere lus Pieni Karhunkierros vat de hoogtepunten samen in 12 km.' },
+        { q: 'Wat is het populairste wandelpad van Lapland?', a: 'De 55 km lange Hetta–Pallas-route door het nationale park Pallas-Yllästunturi is de populairste langeafstandsroute van Finland. Hij loopt vrijwel volledig boven de boomgrens met open fjell-uitzichten, en de hutten liggen op comfortabele afstanden voor etappes van drie tot vier dagen tussen Hetta en Pallas.' },
         { q: 'Moet u wildernishutten vooraf reserveren?', a: 'Open wildernishutten (autiotupa) zijn gratis en werken op volgorde van aankomst, u kunt ze niet reserveren, en op het hoogtepunt van de ruska in september kunnen ze al halverwege de middag vol zitten. Reserveringshutten (varaustupa) moeten vooraf worden geboekt en betaald, meestal rond € 14 per slaapplaats, en zijn een gegarandeerd bed waard op drukke trajecten.' },
-        { q: 'Hoe hoog is het hoogste punt van Finland, en kunt u het belopen?', a: 'Het hoogste punt van Finland ligt op de schouder van de Halti, op 1.324 m, diep in het achterland van Kilpisjärvi nabij de Noorse grens. Het is een serieuze route van 55 km heen en terug over drie tot vijf dagen; de laatste aanloop is ongemarkeerd en vergt echte navigatievaardigheid bij slecht zicht.' },
+        { q: 'Hoe hoog is het hoogste punt van Finland, en kunt u het belopen?', a: 'Het hoogste punt van Finland ligt op de schouder van de Halti, op 1.324 m, diep in het achterland van Kilpisjärvi nabij de Noorse grens. Het is een serieuze route van 55 km heen en terug over drie tot vijf dagen; de laatste aanloop is ongemarkeerd en vergt echte navigatievaardigheid bij slecht zicht.' },
         { q: 'Wanneer kunt u het best wandelen in Lapland?', a: 'Half juni tot eind september is het hoofdseizoen. Juli biedt warm weer en de middernachtzon; begin tot half september brengt de ruska-kleuren en veel minder muggen, al zakken de nachten onder het vriespunt en worden vlonderpaden bij dageraad ijzig glad. Zomerhutten en veerdiensten varen doorgaans van begin juni tot eind september.' },
       ],
     },
@@ -496,7 +496,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
       { title: 'Natuurrecht (Everyman\'s Right)', body: 'Het Finse jokamiehenoikeudet staat iedereen toe om over bosgebied, ook privébezit, te wandelen, te skiën, te zwemmen, bessen en paddenstoelen te plukken en kort te kamperen zonder toestemming. Daartegenover staat verantwoordelijkheid: laat geen sporen achter, respecteer woningen en gewassen, vuur alleen op aangewezen plekken.' },
       { title: 'Vuurbeperkingen zijn seizoensgebonden', body: 'Bij zomerdroogte publiceert het FMI een metsäpalovaroitus / bosbrandwaarschuwing. Zolang deze van kracht is, is elk open vuur, ook in gemarkeerde vuurplaatsen, verboden. Controleer altijd voordat u een weg verlaat.' },
       { title: 'Neem alles mee terug', body: 'Wildernishutten (autiotupa) draaien op vertrouwen: laat ze schoner achter dan u ze aantrof, vul het brandhout aan, teken het gastenboek. Afval in afgelegen terrein stapelt zich op, er is geen ophaaldienst.' },
-      { title: 'Rendieren hebben voorrang', body: 'Zo\'n 200.000 halfgedomesticeerde rendieren trekken door Lapland, zij zijn niet wild, zij hebben eigenaren. Vertraag op de weg; geef ze ruimte op de fjells. Sluit bij hekken (poroaita) de poorten achter u.' }
+      { title: 'Rendieren hebben voorrang', body: 'Zo\'n 200.000 halfgedomesticeerde rendieren trekken door Lapland, zij zijn niet wild, zij hebben eigenaren. Vertraag op de weg; geef ze ruimte op de fjells. Sluit bij hekken (poroaita) de poorten achter u.' }
     ],
     finalKicker: 'Reis verantwoord',
     finalH2: 'Reis hier aan de kant van de wildernis',
@@ -586,7 +586,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
         },
         {
           title: 'De heffing die de vis financiert',
-          body: 'Iedereen van 18 tot 69 jaar die in Finland met kunstaas of vistuig vist, betaalt de nationale visbeheerheffing, 47 € voor het jaar, 16 € voor een week of 6 € voor een dag (eraluvat.fi). Die financiert bestandsmonitoring, herstel en werk aan vispassages. Wie jonger is dan 18 of 70 jaar en ouder is vrijgesteld, en eenvoudig hengelen onder het natuurrecht is gratis.',
+          body: 'Iedereen van 18 tot 69 jaar die in Finland met kunstaas of vistuig vist, betaalt de nationale visbeheerheffing, 47 € voor het jaar, 16 € voor een week of 6 € voor een dag (eraluvat.fi). Die financiert bestandsmonitoring, herstel en werk aan vispassages. Wie jonger is dan 18 of 70 jaar en ouder is vrijgesteld, en eenvoudig hengelen onder het natuurrecht is gratis.',
         },
       ],
       feeNote: 'Regels en data worden elk jaar opnieuw vastgesteld. Bevestig altijd het geldende seizoen, de quota en de heffingen op de officiële pagina\'s voordat u boekt of gaat vissen.',
@@ -623,7 +623,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
         },
         {
           q: 'Heb ik een vergunning nodig om te vissen in Lapland?',
-          a: 'Voor het meeste vissen met kunstaas en vistuig wel: hengelaars van 18 tot 69 jaar betalen de nationale visbeheerheffing (47 € per jaar, 16 € per week, 6 € per dag, via eraluvat.fi), en veel wateren vragen daarbovenop een aparte gebiedsvergunning. Eenvoudig hengelen en ijsvissen onder het natuurrecht is gratis, en wie jonger is dan 18 of 70 jaar en ouder is vrijgesteld van de nationale heffing.',
+          a: 'Voor het meeste vissen met kunstaas en vistuig wel: hengelaars van 18 tot 69 jaar betalen de nationale visbeheerheffing (47 € per jaar, 16 € per week, 6 € per dag, via eraluvat.fi), en veel wateren vragen daarbovenop een aparte gebiedsvergunning. Eenvoudig hengelen en ijsvissen onder het natuurrecht is gratis, en wie jonger is dan 18 of 70 jaar en ouder is vrijgesteld van de nationale heffing.',
         },
       ],
     },

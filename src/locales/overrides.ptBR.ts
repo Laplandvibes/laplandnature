@@ -64,7 +64,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
     legend: { park: 'Parque nacional', aurora: 'Observação de aurora', trail: 'Início de trilha', wildlife: 'Fauna' },
     pins: [
       { name: 'PN Urho Kekkonen', note: '2.º maior parque da Finlândia · acesso: Saariselkä' },
-      { name: 'PN Pallas-Yllästunturi', note: 'Trilha Hetta–Pallas de 55 km · acesso: Muonio' },
+      { name: 'PN Pallas-Yllästunturi', note: 'Trilha Hetta–Pallas de 55 km · acesso: Muonio' },
       { name: 'PN Lemmenjoki', note: 'Maior área sem estradas da Europa · garimpo de ouro · Inari' },
       { name: 'PN Riisitunturi', note: 'Árvores coroadas de neve tykky · acesso: Posio' },
       { name: 'PN Pyhä-Luosto', note: 'Abetos de 400 anos · mina de ametista' },
@@ -72,10 +72,10 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
       { name: 'Utsjoki', note: '4 de cada 5 noites limpas mostram aurora no pico · kaamos de 51 dias' },
       { name: 'Kilpisjärvi', note: 'Ponto de três fronteiras · fjelds de grande altitude' },
       { name: 'Enontekiö', note: 'Alguns dos céus mais escuros da Europa (Bortle 1)' },
-      { name: 'Hetta', note: 'Extremo norte da trilha Hetta–Pallas de 55 km' },
-      { name: 'Ruka / Oulanka', note: 'Karhunkierros de 82 km · pontes suspensas e cânions' },
-      { name: 'Kilpisjärvi (Halti)', note: '55 km ida e volta até Halti, o ponto mais alto da Finlândia (1324 m)' },
-      { name: 'Pyhä', note: 'Desfiladeiro de Pyhäkuru · passarela acessível · 5 km' },
+      { name: 'Hetta', note: 'Extremo norte da trilha Hetta–Pallas de 55 km' },
+      { name: 'Ruka / Oulanka', note: 'Karhunkierros de 82 km · pontes suspensas e cânions' },
+      { name: 'Kilpisjärvi (Halti)', note: '55 km ida e volta até Halti, o ponto mais alto da Finlândia (1324 m)' },
+      { name: 'Pyhä', note: 'Desfiladeiro de Pyhäkuru · passarela acessível · 5 km' },
       { name: 'Hides de ursos de Kuusamo', note: 'Hides de urso-pardo · 99 % de avistamentos · de maio a setembro' },
       { name: 'Natureza de Nellim', note: 'Lodge de natureza de Nellim · território de carcaju e urso-pardo' },
       { name: 'Renas de Kaamanen', note: 'Reunião de renas sámi · outono (paliskunta)' },
@@ -83,13 +83,13 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   home: {
     metaTitle: 'Natureza da Lapônia: parques e aurora | LaplandNature',
-    metaDescription: 'A natureza ártica da Lapônia finlandesa, cinco parques nacionais, mais de 200 noites de aurora por ano, kaamos (noite polar) e trilhas de 5 a 82 km.',
+    metaDescription: 'A natureza ártica da Lapônia finlandesa, cinco parques nacionais, mais de 200 noites de aurora por ano, kaamos (noite polar) e trilhas de 5 a 82 km.',
     hero: {
       alt: 'Natureza ártica coberta de neve e fjells na Lapônia finlandesa',
       eyebrow: 'Acima do Círculo Polar Ártico',
       title: 'Natureza ártica',
       subtitle: 'intocada',
-      description: 'Lapônia finlandesa, 100 367 km² de parques nacionais, fjelds, florestas antigas e a temporada de aurora mais longa da Europa.',
+      description: 'Lapônia finlandesa, 100 367 km² de parques nacionais, fjelds, florestas antigas e a temporada de aurora mais longa da Europa.',
       primaryCta: 'Planejar a viagem da aurora',
       secondaryCta: 'Explorar os parques',
     },
@@ -113,7 +113,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
         {
           tag: 'Áreas protegidas',
           title: 'Parques nacionais',
-          blurb: 'Cinco parques somando mais de 7 000 km² de natureza protegida, dos fjelds de Urho Kekkonen às árvores coroadas de neve de Riisitunturi.',
+          blurb: 'Cinco parques somando mais de 7 000 km² de natureza protegida, dos fjelds de Urho Kekkonen às árvores coroadas de neve de Riisitunturi.',
           cta: 'Explorar parques nacionais',
         },
         {
@@ -131,7 +131,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
         {
           tag: 'Trilhas',
           title: 'Trilhas',
-          blurb: 'Caminhe pelas trilhas mais icônicas da Finlândia, das pontes suspensas do Karhunkierros (82 km) ao cume do Halti (1 324 m).',
+          blurb: 'Caminhe pelas trilhas mais icônicas da Finlândia, das pontes suspensas do Karhunkierros (82 km) ao cume do Halti (1 324 m).',
           cta: 'Explorar as trilhas',
         },
         {
@@ -149,7 +149,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
         {
           tag: 'Água',
           title: 'Água doce',
-          blurb: 'Cerca de 188 000 lagos, o rio Tornio de curso livre e as turfeiras aapa. Por que a água fria e limpa é o bem mais raro da Lapônia, e o que mantém os peixes nela.',
+          blurb: 'Cerca de 188 000 lagos, o rio Tornio de curso livre e as turfeiras aapa. Por que a água fria e limpa é o bem mais raro da Lapônia, e o que mantém os peixes nela.',
           cta: 'Explorar a água doce',
         },
       ],
@@ -163,7 +163,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
       legend: { park: 'Parque nacional', aurora: 'Observação de auroras', trail: 'Início da trilha', wildlife: 'Fauna' },
       pins: [
         { name: 'Urho Kekkonen NP', note: '2.º maior parque da Finlândia · acesso: Saariselkä' },
-        { name: 'Pallas-Yllästunturi NP', note: 'Trilha Hetta–Pallas de 55 km · acesso: Muonio' },
+        { name: 'Pallas-Yllästunturi NP', note: 'Trilha Hetta–Pallas de 55 km · acesso: Muonio' },
         { name: 'Lemmenjoki NP', note: 'Maior área sem estradas da Europa · garimpo de ouro · Inari' },
         { name: 'Riisitunturi NP', note: 'Árvores coroadas de neve (tykky) · acesso: Posio' },
         { name: 'Pyhä-Luosto NP', note: 'Abetos de 400 anos · mina de ametista' },
@@ -171,10 +171,10 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
         { name: 'Utsjoki', note: '4 de cada 5 noites limpas com aurora no auge · kaamos de 51 dias' },
         { name: 'Kilpisjärvi', note: 'Tríplice fronteira · fjälls de grande altitude' },
         { name: 'Enontekiö', note: 'Um dos céus mais escuros da Europa (Bortle 1)' },
-        { name: 'Hetta', note: 'Extremo norte da trilha Hetta–Pallas de 55 km' },
-        { name: 'Ruka / Oulanka', note: 'Karhunkierros de 82 km · pontes suspensas e cânions' },
-        { name: 'Kilpisjärvi (Halti)', note: '55 km ida e volta ao Halti, ponto mais alto da Finlândia (1.324 m)' },
-        { name: 'Pyhä', note: 'Desfiladeiro de Pyhäkuru · passarela acessível · 5 km' },
+        { name: 'Hetta', note: 'Extremo norte da trilha Hetta–Pallas de 55 km' },
+        { name: 'Ruka / Oulanka', note: 'Karhunkierros de 82 km · pontes suspensas e cânions' },
+        { name: 'Kilpisjärvi (Halti)', note: '55 km ida e volta ao Halti, ponto mais alto da Finlândia (1.324 m)' },
+        { name: 'Pyhä', note: 'Desfiladeiro de Pyhäkuru · passarela acessível · 5 km' },
         { name: 'Esconderijos de ursos de Kuusamo', note: 'Esconderijos de urso-pardo · taxa de avistamento de 99 % · mai.–set.' },
         { name: 'Natureza de Nellim', note: 'Lodge selvagem de Nellim · território de carcaju e urso-pardo' },
         { name: 'Renas de Kaamanen', note: 'Reunião de renas sami · outono (paliskunta)' },
@@ -213,8 +213,8 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
     tips: [
       'Consulte a previsão de auroras do Instituto Meteorológico Finlandês (Auroras-now / índice KP) antes de sair.',
       'A melhor observação é entre 21h e 2h, hora local, em noites limpas.',
-      'Afaste-se 5–10 km dos centros urbanos para baixar a poluição luminosa a Bortle 2 ou menos.',
-      'Agasalhe-se, na alta temporada a temperatura chega com frequência a −30 °C; uma garrafa térmica com bebida quente é obrigatória.',
+      'Afaste-se 5–10 km dos centros urbanos para baixar a poluição luminosa a Bortle 2 ou menos.',
+      'Agasalhe-se, na alta temporada a temperatura chega com frequência a −30 °C; uma garrafa térmica com bebida quente é obrigatória.',
       'Um tripé e uma exposição de 5–15 segundos a ISO 800–3200 (f/2.8) capturam uma aurora que o olho não vê.',
     ],
     oneNightKicker: 'Uma noite · Inari · 2 de março de 2024',
@@ -222,7 +222,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
     oneNightLead: 'As previsões dirão "boas chances hoje". Não dirão que você vai esperar três horas o céu abrir, que o primeiro show será uma faixa verde plana que quase se perde, e que o segundo, à 1h48, vai rasgar toda a cúpula ártica. É assim que transcorre uma noite representativa.',
     oneNightSteps: [
       { time: '19:30', title: 'Conferência da previsão do FMI', body: 'Auroras-now: previsão KP 4–5. NOAA OVATION mostra o oval auroral já tocando Tromsø. Previsão de céu em Inari: 60% limpo após a meia-noite. Decisão: vamos.' },
-      { time: '21:00', title: 'Dirigir 8 km a oeste do vilarejo de Inari', body: 'A poluição luminosa cai rápido ao sair do vilarejo. Escolhemos uma pequena clareira à beira de um lago na estrada de Kaamanen, horizonte aberto ao norte e a leste. −18 °C, calmo.' },
+      { time: '21:00', title: 'Dirigir 8 km a oeste do vilarejo de Inari', body: 'A poluição luminosa cai rápido ao sair do vilarejo. Escolhemos uma pequena clareira à beira de um lago na estrada de Kaamanen, horizonte aberto ao norte e a leste. −18 °C, calmo.' },
       { time: '22:40', title: 'Primeira faixa, quase passou batido', body: 'Tênue arco verde no horizonte norte. Fácil confundir com reflexo de nuvem. A câmera (15 s, ISO 1600, f/2.8) mostrou com clareza o limiar a olho nu fica abaixo do que o seu telefone registra. É normal. Espere.' },
       { time: '00:15', title: 'As nuvens se levantam. 40 minutos de calma.', body: 'Estrelas nítidas. A aurora recua. É o momento em que a maioria dos visitantes de carro desiste e volta. Não faça isso. A fase ativa costuma vir depois da calmaria. Bebida quente. Paciência.' },
       { time: '01:48', title: 'Subtempestade', body: 'O arco explode. As cortinas sobem do horizonte ao zênite em segundos; rosa e roxo na borda inferior, é a cor rara, só nas tempestades fortes. Dura 14 minutos. A câmera mal acompanha. A olho nu a estrutura fica nítida. É a noite pela qual você dirigiu até aqui.', highlight: true },
@@ -231,7 +231,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
     cards: [
       { title: 'Ferramentas de previsão', body: 'FMI Auroras-now (KP), NOAA OVATION (oval), windy.com (nebulosidade), abra as três.' },
       { title: 'Ajuste-base da câmera', body: '15 s · ISO 1600 · f/2.8 · foco manual numa luz distante. Tripé obrigatório.' },
-      { title: 'O que arruína a noite', body: 'Lua cheia (apaga as cores). Nuvens acima de 1500 m. Sensação térmica abaixo de −25 °C sem equipamento adequado.' },
+      { title: 'O que arruína a noite', body: 'Lua cheia (apaga as cores). Nuvens acima de 1500 m. Sensação térmica abaixo de −25 °C sem equipamento adequado.' },
     ],
     finalH2: 'Quer um guia que saiba onde as nuvens abrem?',
     finalLead: 'As caças à aurora saem toda noite de Rovaniemi, Saariselkä e Levi. Os guias locais acompanham a previsão e se reposicionam quando o céu encobre, taxa de acerto muito maior do que ir sozinho.',
@@ -247,7 +247,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
       items: [
         { q: 'Que índice KP eu preciso para ver a aurora na Lapônia?', a: 'A Lapônia finlandesa fica sob o oval auroral, então você não precisa de um KP alto. De Inari, Utsjoki ou Kilpisjärvi, um KP de 1 a 2 já costuma bastar para ver um arco numa noite limpa e escura; com KP de 3 a 4 vêm cortinas ativas e em movimento. Mais ao sul, perto de Rovaniemi, em geral você quer KP 3 ou mais. Um céu limpo e um horizonte norte aberto contam muito mais do que perseguir um número grande.' },
         { q: 'Qual mês tem a melhor aurora boreal na Lapônia?', a: 'Março é o mês mais forte: o céu já está escuro o bastante, as noites ainda são longas e a atividade geomagnética tende a atingir o pico perto do equinócio de primavera. Setembro é o outro ótimo momento, temperaturas mais amenas e a água ainda aberta refletindo a aurora antes de os lagos congelarem. A temporada completa vai do fim de agosto ao início de abril.' },
-        { q: 'Dá para ver a aurora de Rovaniemi?', a: 'Sim, em noites limpas e com atividade suficiente, mas Rovaniemi tem mais poluição luminosa e fica mais ao sul do que os melhores pontos. Dirija 10 a 20 km para fora da cidade até a margem de um lago ou um campo aberto e suas chances sobem muito. Para a maior taxa de acerto, fique mais ao norte, em Inari, Saariselkä ou Utsjoki.' },
+        { q: 'Dá para ver a aurora de Rovaniemi?', a: 'Sim, em noites limpas e com atividade suficiente, mas Rovaniemi tem mais poluição luminosa e fica mais ao sul do que os melhores pontos. Dirija 10 a 20 km para fora da cidade até a margem de um lago ou um campo aberto e suas chances sobem muito. Para a maior taxa de acerto, fique mais ao norte, em Inari, Saariselkä ou Utsjoki.' },
         { q: 'Em que hora da noite a aurora é mais ativa?', a: 'A janela entre cerca de 21h e 2h, hora local, é a mais confiável, com a atividade muitas vezes no auge perto da meia-noite magnética (por volta das 23h à 1h na Finlândia). As subtempestades podem disparar a qualquer momento, então vale a pena ficar lá fora durante um período calmo, a fase ativa costuma vir logo depois de uma calmaria.' },
         { q: 'Preciso reservar um tour ou dá para ver a aurora por conta própria?', a: 'Você pode ver por conta própria, sem dúvida, se tiver um carro, um ponto escuro com horizonte norte aberto e paciência para esperar as nuvens abrirem. Uma caça guiada justifica o custo sobretudo pela mobilidade: os guias locais acompanham a previsão de nebulosidade e se reposicionam pela região, o que eleva a taxa de sucesso nas noites incertas.' },
       ],
@@ -264,8 +264,8 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
       description: 'Cinco parques protegem o grosso da natureza sem estradas da Lapônia, de travessias por fjelds abertos a florestas coroadas de neve e cânions de garimpo. Cada um tem um vilarejo-porta onde montar base.',
     },
     parks: [
-      { name: 'Parque Nacional de Urho Kekkonen', description: 'O segundo maior parque nacional da Finlândia, 2.550 km². Vastos fjelds abertos, gargantas profundas e antigos pinheirais. Um paraíso para o trekking de vários dias e o esqui backcountry.', highlight: '2º maior parque da Finlândia', visited: 'março de 2024 · circuito Rumakuru esquiado no dia, neve estável a −12 °C' },
-      { name: 'Parque Nacional de Pallas-Yllästunturi', description: 'Abriga a travessia de fjelds mais popular da Finlândia, os 55 km de Hetta–Pallas. Cumes abertos com horizontes que alcançam além de Käsivarsi.', highlight: 'A travessia de fjelds mais longa da Finlândia', visited: 'setembro de 2023 · Hetta → Pallas em três dias · pico do ruska, semana 2' },
+      { name: 'Parque Nacional de Urho Kekkonen', description: 'O segundo maior parque nacional da Finlândia, 2.550 km². Vastos fjelds abertos, gargantas profundas e antigos pinheirais. Um paraíso para o trekking de vários dias e o esqui backcountry.', highlight: '2º maior parque da Finlândia', visited: 'março de 2024 · circuito Rumakuru esquiado no dia, neve estável a −12 °C' },
+      { name: 'Parque Nacional de Pallas-Yllästunturi', description: 'Abriga a travessia de fjelds mais popular da Finlândia, os 55 km de Hetta–Pallas. Cumes abertos com horizontes que alcançam além de Käsivarsi.', highlight: 'A travessia de fjelds mais longa da Finlândia', visited: 'setembro de 2023 · Hetta → Pallas em três dias · pico do ruska, semana 2' },
       { name: 'Parque Nacional de Lemmenjoki', description: 'Uma das maiores naturezas sem estradas da Europa. Famoso pela história de garimpo e pelo rio Lemmenjoki, que corre por cânions profundos.', highlight: 'Patrimônio do garimpo de ouro', visited: 'julho de 2024 · descida de canoa até Ravadasköngäs, sol da meia-noite' },
       { name: 'Parque Nacional de Riisitunturi', description: 'Conhecido pelas árvores coroadas de neve (tykky) que, de dezembro a março, transformam as encostas em esculturas geladas surreais. Os fjelds voltados a oeste produzem o tykky mais pesado da Finlândia.', highlight: 'Árvores coroadas de neve (tykky)', visited: 'fevereiro de 2024 · tykky no peso máximo, ensaio na hora azul às 14h30' },
       { name: 'Parque Nacional de Pyhä-Luosto', description: 'Abriga uma das florestas mais antigas da Finlândia, com abetos de mais de 400 anos. A mina de ametistas de Lampivaara fica dentro do parque, os visitantes garimpam as próprias gemas.', highlight: 'Mina de ametistas + floresta antiga', visited: 'outubro de 2023 · garganta de Pyhäkuru após a primeira neve, geada na passarela' }
@@ -274,15 +274,15 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
     stayNearby: 'Hospedar-se por perto',
     hettaKicker: 'Do caderno · ruska 2023',
     hettaH2: 'Hetta → Pallas em três dias, a travessia completa',
-    hettaLead: 'A trilha de 55 km Hetta–Pallas, através de Pallas-Yllästunturi, é a caminhada longa mais popular da Finlândia por um motivo, corre quase toda acima do limite das árvores, os refúgios ficam espaçados para etapas curtas e a vista nunca se fecha. Caminhamos de norte a sul em três dias no pico do ruska. O sentido habitual é norte-sul; sul-norte (saída em Hetta) é a melhor escolha fotográfica e a balsa sobre o Ounasjärvi na largada é um belo ritual.',
+    hettaLead: 'A trilha de 55 km Hetta–Pallas, através de Pallas-Yllästunturi, é a caminhada longa mais popular da Finlândia por um motivo, corre quase toda acima do limite das árvores, os refúgios ficam espaçados para etapas curtas e a vista nunca se fecha. Caminhamos de norte a sul em três dias no pico do ruska. O sentido habitual é norte-sul; sul-norte (saída em Hetta) é a melhor escolha fotográfica e a balsa sobre o Ounasjärvi na largada é um belo ritual.',
     days: [
-      { day: 'Dia 1 · 18 km', title: 'Hetta → Sioskuru', body: 'Barco pelo Ounasjärvi às 9h (gratuito, de 1º de junho a 30 de setembro). Em duas horas se sobe de Pyhäkero ao fjeld aberto. O refúgio Sioskuru dorme 16; chegamos às 16h30 com três beliches livres. Pôr do sol sobre os fjelds do oeste a partir da porta.', note: '+520 m de desnível · vento leve' },
-      { day: 'Dia 2 · 22 km', title: 'Sioskuru → Hannukuru', body: 'O dia símbolo. Atravessa-se Pyhäkuru e a tundra alta em torno de Lompolojärvi, a foto da trilha que você já viu é do km 12. O refúgio Hannukuru tem sauna a lenha; é por isso que a maioria divide a rota assim.', note: 'Ponto alto: reflexo no Lompolojärvi com a luz das 17h' },
-      { day: 'Dia 3 · 15 km', title: 'Hannukuru → Pallas', body: 'O dia mais fácil no papel. Sobe-se a crista de Pallas, Taivaskero, Lehmäkero, Laukukero, com horizontes que alcançam além de Käsivarsi numa manhã limpa. Fim no hotel Pallas; se puder, reserve sauna e um bife. Você mereceu os dois.', note: 'Total: 55 km · 3 dias · 11 h líquidas de caminhada' }
+      { day: 'Dia 1 · 18 km', title: 'Hetta → Sioskuru', body: 'Barco pelo Ounasjärvi às 9h (gratuito, de 1º de junho a 30 de setembro). Em duas horas se sobe de Pyhäkero ao fjeld aberto. O refúgio Sioskuru dorme 16; chegamos às 16h30 com três beliches livres. Pôr do sol sobre os fjelds do oeste a partir da porta.', note: '+520 m de desnível · vento leve' },
+      { day: 'Dia 2 · 22 km', title: 'Sioskuru → Hannukuru', body: 'O dia símbolo. Atravessa-se Pyhäkuru e a tundra alta em torno de Lompolojärvi, a foto da trilha que você já viu é do km 12. O refúgio Hannukuru tem sauna a lenha; é por isso que a maioria divide a rota assim.', note: 'Ponto alto: reflexo no Lompolojärvi com a luz das 17h' },
+      { day: 'Dia 3 · 15 km', title: 'Hannukuru → Pallas', body: 'O dia mais fácil no papel. Sobe-se a crista de Pallas, Taivaskero, Lehmäkero, Laukukero, com horizontes que alcançam além de Käsivarsi numa manhã limpa. Fim no hotel Pallas; se puder, reserve sauna e um bife. Você mereceu os dois.', note: 'Total: 55 km · 3 dias · 11 h líquidas de caminhada' }
     ],
     differentlyH3: 'O que planejaríamos diferente',
     differently: [
-      'Reserve um beliche no varaustupa para a segunda noite (Hannukuru). O autiotupa é de acesso livre, mas no pico do ruska lotou às 15h30. Beliche em refúgio reservado = 14 €; tranquilidade = impagável.',
+      'Reserve um beliche no varaustupa para a segunda noite (Hannukuru). O autiotupa é de acesso livre, mas no pico do ruska lotou às 15h30. Beliche em refúgio reservado = 14 €; tranquilidade = impagável.',
       'Leve polainas estilo raquete mesmo no início de setembro. Duas das descidas alagadas de Pyhäkuru passaram da bota, meias molhadas por dois dias.',
       'Coma reforçado no primeiro dia. A loja em Hetta é a última refeição quente até o hotel Pallas.',
       'Não tente fazer em 2 dias. Encontramos um casal que tentou; desistiram em Hannukuru e saíram de ônibus.'
@@ -302,7 +302,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
       h2: 'Parques nacionais da Lapônia, perguntas frequentes',
       items: [
         { q: 'Quantos parques nacionais existem na Lapônia?', a: 'A Lapônia abriga cinco dos parques selvagens mais visitados da Finlândia: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi e Pyhä-Luosto. Cada um tem seu próprio vilarejo-porta para servir de base, de Saariselkä para o UKK a Hetta e Muonio para o Pallas-Yllästunturi.' },
-        { q: 'Qual é o maior parque nacional da Lapônia finlandesa?', a: 'O Parque Nacional de Urho Kekkonen é o maior da Lapônia, com cerca de 2.550 km², e o segundo maior de toda a Finlândia. Vai dos fjelds de Saariselkä em direção ao leste, entrando numa natureza profunda e sem estradas, com fjelds abertos, gargantas de rios e pinheirais antigos.' },
+        { q: 'Qual é o maior parque nacional da Lapônia finlandesa?', a: 'O Parque Nacional de Urho Kekkonen é o maior da Lapônia, com cerca de 2.550 km², e o segundo maior de toda a Finlândia. Vai dos fjelds de Saariselkä em direção ao leste, entrando numa natureza profunda e sem estradas, com fjelds abertos, gargantas de rios e pinheirais antigos.' },
         { q: 'Preciso de autorização ou pagar entrada nos parques nacionais da Lapônia?', a: 'Não. Os parques nacionais da Finlândia têm entrada gratuita e não há autorização para caminhadas comuns, visitas de um dia ou pernoite nos refúgios abertos. Alguns refúgios reserváveis e saunas cobram uma pequena taxa, e atividades guiadas ou o garimpo de ouro em Lemmenjoki têm seus próprios custos, mas percorrer as trilhas não custa nada.' },
         { q: 'Qual é a melhor época para visitar os parques?', a: 'Do início a meados de setembro para as cores de outono do ruska, junho e julho para o sol da meia-noite e longos dias de caminhada, e de fevereiro a março para árvores coroadas de neve e esqui de travessia, Riisitunturi fica mais marcante sob o tykky pesado no fim do inverno. Os refúgios de verão e os serviços de balsa costumam funcionar do início de junho ao fim de setembro.' },
         { q: 'Onde dá para garimpar ouro num parque nacional da Lapônia?', a: 'O Parque Nacional de Lemmenjoki é o coração do garimpo de ouro da Finlândia. O vale do rio tem uma herança viva da corrida do ouro, com pontos de garimpo sinalizados e concessões licenciadas ao longo do rio Lemmenjoki. No verão há um serviço de barco que sobe parte do rio, deixando as áreas de garimpo acessíveis num passeio de um dia.' },
@@ -340,7 +340,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
     bearBody: [
       'O leste da Finlândia, Kuusamo, Suomussalmi, Lieksa, tem a maior densidade de ursos-pardos por km² da Europa. Três ou quatro operadores mantêm pequenos esconderijos noturnos do fim de abril ao início de setembro, e a conta é simples: uma noite dá uma taxa estatística de avistamento de cerca de 90%; duas noites levam a 99% ou mais.',
       'O esconderijo é uma sala de madeira aquecida, com fendas fotográficas de mão única e um beliche. Você entra às 17h e não sai até as 7h. A isca, em geral salmão num ponto de alimentação tradicional, faz os ursos voltarem por anos; alguns indivíduos foram fotografados ao longo de uma década. Filhotes em maio–junho. Machos solitários o verão todo. Com sorte, em setembro os lobos cruzam a mesma clareira.',
-      'O custo vai de 280 a 450 € por pessoa por noite, com transporte, jantar, beliche e um guia que explica por fones o que você está vendo. Reserve com mais de 6 meses de antecedência para os fins de semana de julho.'
+      'O custo vai de 280 a 450 € por pessoa por noite, com transporte, jantar, beliche e um guia que explica por fones o que você está vendo. Reserve com mais de 6 meses de antecedência para os fins de semana de julho.'
     ],
     browseHidesCta: 'Ver os esconderijos de ursos',
     preNightCta: 'Hospedagens na véspera em Kuusamo',
@@ -348,16 +348,16 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
     bearNightH2: 'Como é de verdade uma noite num esconderijo de ursos',
     bearNightLead: 'Imagina-se o esconderijo como uma espera de 14 horas que acaba em silêncio ou num urso-que-passa. A realidade é mais bagunçada, os ursos vão e voltam, você cochila, perde um avistamento, o silêncio vira uma coisa em si. Este é o ritmo real de uma noite de meados de junho com outros três fotógrafos num esconderijo de 4 beliches.',
     bearNightSteps: [
-      { time: '17:15', title: 'Chegada, briefing, assinatura do termo', body: 'Dirige-se 8 km fora da estrada principal, os últimos 2 km em trilha florestal. O guia expõe as regras: nada de perfume, nada de flash, falar só sussurrando, nunca abrir a porta do esconderijo depois das 19h. O salmão já está disposto na clareira. Sanduíches e garrafa térmica na sala dos beliches.' },
+      { time: '17:15', title: 'Chegada, briefing, assinatura do termo', body: 'Dirige-se 8 km fora da estrada principal, os últimos 2 km em trilha florestal. O guia expõe as regras: nada de perfume, nada de flash, falar só sussurrando, nunca abrir a porta do esconderijo depois das 19h. O salmão já está disposto na clareira. Sanduíches e garrafa térmica na sala dos beliches.' },
       { time: '19:40', title: 'Primeira chegada, um macho jovem', body: 'Um macho de três anos sai dos abetos pela borda esquerda. Fica 11 minutos, come um salmão, vai embora. O guia sussurra a identificação, ele já veio duas vezes esta semana. A luz das 19h40 em junho é a melhor da noite; o sol da meia-noite ainda está a horas.' },
-      { time: '21:30', title: 'Hora tranquila. Uivam os lobos.', body: 'Nada na clareira. Dois lobos uivam do pântano a leste, não vistos, só ouvidos. O guia diz que foi um verão barulhento de lobos; a alcateia percorre mais de 60 km. Seguimos à espera mesmo assim.' },
+      { time: '21:30', title: 'Hora tranquila. Uivam os lobos.', body: 'Nada na clareira. Dois lobos uivam do pântano a leste, não vistos, só ouvidos. O guia diz que foi um verão barulhento de lobos; a alcateia percorre mais de 60 km. Seguimos à espera mesmo assim.' },
       { time: '23:55', title: 'Mãe + dois filhotes', body: 'A noite pela qual você veio. Ela se aproxima devagar, fareja o ar, dá duas olhadas para o esconderijo, decide que não somos ameaça. Os filhotes sobem duas vezes nas costas dela enquanto come. Fica 38 minutos. A luz é baixa e dourada por causa do sol da meia-noite. Os cliques mal se ouvem, ninguém quer se denunciar com um movimento.', highlight: true },
       { time: '02:30', title: 'Cochilando nos beliches', body: 'Dois nos beliches, dois de guarda. Troca a cada 90 minutos. O sol da meia-noite significa que não há escuridão de verdade, a fenda continua útil.' },
       { time: '04:50', title: 'Outro macho, 8 minutos', body: 'Velho macho com cicatrizes o guia o identifica como frequentador de nove verões. Come dois salmões, fareja o ar, vai embora. O coro matinal dos grous vindo do pântano é um espetáculo à parte.' },
       { time: '07:00', title: 'Fora do esconderijo. Volta. Sauna.', body: 'Tempo total de ursos visíveis: cerca de 57 minutos em quatro chegadas. Silêncio total: cerca de 13 horas. Curiosamente, esse silêncio foi um terço do motivo de ter valido a pena.' }
     ],
     cards: [
-      { title: 'O que funcionou', body: 'Teleobjetiva de 600 mm no tripé pela fenda. Obturador silencioso (mirrorless). 1/250 s, ISO 1600, f/4.' },
+      { title: 'O que funcionou', body: 'Teleobjetiva de 600 mm no tripé pela fenda. Obturador silencioso (mirrorless). 1/250 s, ISO 1600, f/4.' },
       { title: 'O que faríamos diferente', body: 'Duas noites seguidas, não uma. Ursos diferentes, luz diferente. Mesmo custo por noite, dobro de chance de filhotes.' },
       { title: 'Melhores meses', body: 'Fim de maio–início de junho (filhotes). Fim de julho (machos solitários, clima fácil). Setembro (lobos cruzam + luz de outono).' },
     ],
@@ -377,7 +377,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
         { q: 'Qual a chance real de eu ver um urso de um esconderijo?', a: 'Alta, se você passar a noite. Com uma noite no esconderijo durante a temporada, a taxa de avistamento fica em torno de 90%, e duas noites seguidas a levam para além de 99%. Os esconderijos são pontos de alimentação com isca aos quais os mesmos ursos voltam ano após ano, é isso que torna as chances tão fortes.' },
         { q: 'Quantas renas existem na Lapônia, e elas são selvagens?', a: 'Cerca de 200 mil renas semidomesticadas percorrem a Lapônia finlandesa. Elas não são selvagens, cada animal tem dono e marca dentro de um distrito de criação, central para a cultura sami há milhares de anos. Pastam livres por fjelds e florestas, então você vai encontrá-las à beira da estrada o tempo todo.' },
         { q: 'Qual é o animal mais raro da Lapônia?', a: 'A raposa-do-ártico é o mais raro, classificada como em perigo crítico na população fenoscandinava e sobrevivendo apenas nos ambientes de fjeld mais duros e altos. O glutão é o mais difícil de avistar, imensamente forte e percorrendo territórios enormes, está presente por toda a natureza, mas raramente é visto.' },
-        { q: 'Quanto custa um esconderijo de observação de ursos?', a: 'Espere algo entre 280 € e 450 € por pessoa por uma noite, em geral incluindo o transporte a partir do ponto de encontro, o jantar, um beliche no esconderijo e um guia. Os fins de semana de julho esgotam meses antes, então reserve com seis meses ou mais de antecedência para as datas de pico do verão.' },
+        { q: 'Quanto custa um esconderijo de observação de ursos?', a: 'Espere algo entre 280 € e 450 € por pessoa por uma noite, em geral incluindo o transporte a partir do ponto de encontro, o jantar, um beliche no esconderijo e um guia. Os fins de semana de julho esgotam meses antes, então reserve com seis meses ou mais de antecedência para as datas de pico do verão.' },
       ],
     },
   },
@@ -401,7 +401,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
     ruskaH2: 'Como o pico do ruska se desloca de verdade pela Lapônia',
     ruskaLead: 'O ruska não é um único evento. É uma onda que desce de norte a sul por cerca de três semanas todo setembro. Se você chegar na semana errada ou na latitude errada, verá bétulas peladas ou musgo ainda verde. Eis o que anotamos em 2024 descendo de Utsjoki a Riisitunturi.',
     ruskaWeeks: [
-      { week: 'Semana 1 · 2–8 set.', region: 'Utsjoki + Kilpisjärvi (69° N e acima)', body: 'Os fjelds mais setentrionais começam primeiro. Bétulas já com 60% de cor em 5 de setembro; mirtilo-vermelho de um vermelho intenso. Temperaturas noturnas de acampamento de −2 °C. Janela fotográfica: 14h–17h, luz rasante.' },
+      { week: 'Semana 1 · 2–8 set.', region: 'Utsjoki + Kilpisjärvi (69° N e acima)', body: 'Os fjelds mais setentrionais começam primeiro. Bétulas já com 60% de cor em 5 de setembro; mirtilo-vermelho de um vermelho intenso. Temperaturas noturnas de acampamento de −2 °C. Janela fotográfica: 14h–17h, luz rasante.' },
       { week: 'Semana 2 · 9–15 set.', region: 'Inari + Saariselkä (68–69° N)', body: 'O pico. O parque de Urho Kekkonen em plena saturação em 11 de setembro. A melhor semana do ano para o circuito Saariselkä → Kiilopää. Muito fluxo de caminhantes de dia no fim de semana; trilhas vazias durante a semana.' },
       { week: 'Semana 3 · 16–22 set.', region: 'Pallas + Levi + Pyhä (67–68° N)', body: 'O pico desce ao sul. A trilha Hetta–Pallas em pleno ruska por volta de 17–19 de setembro. Pyhä-Luosto alguns dias depois. Possíveis primeiras nevadas acima de 600 m no fim da semana.' },
       { week: 'Semana 4 · 23–29 set.', region: 'Riisitunturi + Oulanka (66° N)', body: 'Último fôlego. Riisitunturi segue fotogênico por mais uma semana antes da queda das folhas. Karhunkierros (a Trilha do Urso) no auge, ainda algumas tardes amenas, geada ao amanhecer, refúgios vazios durante a semana.' },
@@ -446,8 +446,8 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   hiking: {
     difficulties: { easy: 'Fácil', moderate: 'Moderada', challenging: 'Difícil', demanding: 'Exigente' },
-    metaTitle: 'Trilhas da Lapônia: 5 km a 82 km | LaplandNature',
-    metaDescription: 'Seis trilhas na Lapônia finlandesa, Hetta-Pallas (55 km), Karhunkierros (82 km), cume do Halti (55 km) e três rotas mais curtas.',
+    metaTitle: 'Trilhas da Lapônia: 5 km a 82 km | LaplandNature',
+    metaDescription: 'Seis trilhas na Lapônia finlandesa, Hetta-Pallas (55 km), Karhunkierros (82 km), cume do Halti (55 km) e três rotas mais curtas.',
     hero: {
       alt: 'Uma trilha serpenteando por um fjell nas cores da ruska de outono na Lapônia finlandesa',
       eyebrow: 'Guia essencial',
@@ -457,32 +457,32 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
     },
     karhuKicker: 'Do caderno · ruska 2024',
     karhuH2: 'O Karhunkierros em 4 dias o que levamos, o que cortamos, o que aprendemos',
-    karhuLead: 'Percorremos os 82 km da Trilha do Urso de sul a norte em quatro dias no fim de setembro, no pico do ruska. Eis o que aconteceu de verdade, distâncias, decisões de refúgio, peso da mochila e as decisões que tomaríamos diferente na próxima. Use como base de planejamento, não como dogma o tempo e o seu preparo mudam tudo.',
+    karhuLead: 'Percorremos os 82 km da Trilha do Urso de sul a norte em quatro dias no fim de setembro, no pico do ruska. Eis o que aconteceu de verdade, distâncias, decisões de refúgio, peso da mochila e as decisões que tomaríamos diferente na próxima. Use como base de planejamento, não como dogma o tempo e o seu preparo mudam tudo.',
     days: [
-      { day: 'Dia 1 · 22 km', title: 'Hautajärvi → Aventojoki', body: 'O dia mais fácil no papel, brutal na prática, 22 km são longos com a mochila ainda pesada. O refúgio Aventojoki tinha quatro beliches livres às 17h, lotado às 19h. Vale a pena seguir após o almoço para garantir lugar.', note: 'Mochila na largada: 14,2 kg seca · 16,0 kg com água' },
-      { day: 'Dia 2 · 18 km', title: 'Aventojoki → Jussinkämppä', body: 'O dia símbolo. Pontes suspensas sobre as corredeiras do Kitkajoki; o mirante do cânion de Oulanka, após os primeiros 8 km, é a foto que todo caminhante finlandês tem. Pare. A luz das 14h no fim de setembro não se repete.', note: 'Ponto alto: cachoeira Jyrävä · cerca de 25 m de queda, acessível pela passarela' },
-      { day: 'Dia 3 · 21 km', title: 'Jussinkämppä → Taivalköngäs', body: 'Longo dia de floresta ondulada, menos espetáculo, mais ritmo. As corredeiras de Taivalköngäs no fim são o ponto mais barulhento da trilha. Dormimos no autiotupa; lotado às 16h30. Leve protetores de ouvido, as corredeiras correm a noite toda.', note: 'Primeira noite abaixo de zero · −2 °C, geada leve nas passarelas ao amanhecer' },
-      { day: 'Dia 4 · 21 km', title: 'Taivalköngäs → Ruka', body: 'Terreno mais fácil, tornozelos já doloridos. Os últimos 6 km se arrastam, saia cedo. O banho em Ruka às 14h30 foi uma experiência religiosa. Não reserve o ônibus ao sul na mesma noite; você vai querer uma noite de hotel antes do traslado.', note: 'Total: 82 km · 4 dias · 12 h líquidas de caminhada' }
+      { day: 'Dia 1 · 22 km', title: 'Hautajärvi → Aventojoki', body: 'O dia mais fácil no papel, brutal na prática, 22 km são longos com a mochila ainda pesada. O refúgio Aventojoki tinha quatro beliches livres às 17h, lotado às 19h. Vale a pena seguir após o almoço para garantir lugar.', note: 'Mochila na largada: 14,2 kg seca · 16,0 kg com água' },
+      { day: 'Dia 2 · 18 km', title: 'Aventojoki → Jussinkämppä', body: 'O dia símbolo. Pontes suspensas sobre as corredeiras do Kitkajoki; o mirante do cânion de Oulanka, após os primeiros 8 km, é a foto que todo caminhante finlandês tem. Pare. A luz das 14h no fim de setembro não se repete.', note: 'Ponto alto: cachoeira Jyrävä · cerca de 25 m de queda, acessível pela passarela' },
+      { day: 'Dia 3 · 21 km', title: 'Jussinkämppä → Taivalköngäs', body: 'Longo dia de floresta ondulada, menos espetáculo, mais ritmo. As corredeiras de Taivalköngäs no fim são o ponto mais barulhento da trilha. Dormimos no autiotupa; lotado às 16h30. Leve protetores de ouvido, as corredeiras correm a noite toda.', note: 'Primeira noite abaixo de zero · −2 °C, geada leve nas passarelas ao amanhecer' },
+      { day: 'Dia 4 · 21 km', title: 'Taivalköngäs → Ruka', body: 'Terreno mais fácil, tornozelos já doloridos. Os últimos 6 km se arrastam, saia cedo. O banho em Ruka às 14h30 foi uma experiência religiosa. Não reserve o ônibus ao sul na mesma noite; você vai querer uma noite de hotel antes do traslado.', note: 'Total: 82 km · 4 dias · 12 h líquidas de caminhada' }
     ],
     differentlyH3: 'O que faríamos diferente',
     differently: [
       'Sair um dia antes e dividir o dia 1, cortar um trecho do circuito Pieni Karhunkierros se a mochila estiver pesada.',
       'Reservar o Centro de Visitantes de Oulanka como reserva caso um refúgio aberto lote. Tivemos sorte; a fila no pico do ruska é real.',
-      'Levar um par a mais de meias secas. As passarelas viram gelo a −2 °C.',
+      'Levar um par a mais de meias secas. As passarelas viram gelo a −2 °C.',
       'Dispensar o combustível de fogareiro leve, todo refúgio tinha fogão a lenha e lenha seca. 400 g economizados para a caminhada seguinte.'
     ],
     rukaPostCta: 'Hospedagens em Ruka após a trilha',
     oulankaGuidedCta: 'Opções de dia guiado em Oulanka',
     listKicker: 'A lista completa de trilhas',
     listH2: 'Seis trilhas para planejar uma viagem em torno delas',
-    listLead: 'Da passarela de 5 km da garganta de Pyhäkuru aos 82 km do Karhunkierros. Cada uma conecta a um vilarejo de partida perto do qual você vai querer dormir.',
+    listLead: 'Da passarela de 5 km da garganta de Pyhäkuru aos 82 km do Karhunkierros. Cada uma conecta a um vilarejo de partida perto do qual você vai querer dormir.',
     trails: [
-      { name: 'Trilha Hetta–Pallas', description: 'A trilha de longa distância mais popular da Finlândia, que atravessa a cadeia de fjelds entre Hetta e Pallas. Terreno de fjeld aberto com vistas de horizonte, refúgios bem conservados a intervalos curtos.', distance: '55 km', duration: '3–4 dias', difficulty: 'Moderado' },
-      { name: 'Karhunkierros (Trilha do Urso)', description: 'Uma das trilhas mais famosas da Finlândia, serpenteia pelo cânion de Oulanka entre corredeiras e pontes suspensas. Gargantas espetaculares e floresta primária marcam toda a rota.', distance: '82 km', duration: '4–6 dias', difficulty: 'Difícil' },
-      { name: 'Rotas de dia de Saariselkä', description: 'Rotas de dia bem sinalizadas a partir do vilarejo de Saariselkä para dentro do parque nacional. A introdução certa ao trekking de fjeld, com opções para todos os níveis e janelas de tempo.', distance: '5–20 km', duration: '2–8 horas', difficulty: 'Fácil' },
-      { name: 'Trilha do cume do Halti', description: 'Travessia ao ponto mais alto da Finlândia, 1.324 m. Rota remota pelo interior de Kilpisjärvi. O trecho final do cume não é sinalizado e exige orientação com má visibilidade.', distance: '55 km (ida e volta)', duration: '3–5 dias', difficulty: 'Muito exigente' },
-      { name: 'Trilha da garganta de Pyhäkuru', description: 'Trilha curta mas marcante por uma garganta profunda de paredes antigas. Lugar sagrado para o povo sami, com trechos de passarela acessíveis a famílias e grupos de ritmo misto.', distance: '5 km', duration: '2–3 horas', difficulty: 'Fácil' },
-      { name: 'Trilha do rio Lemmenjoki', description: 'Segue o lendário rio dos garimpeiros por uma das maiores naturezas da Europa. Há transporte de barco para parte da rota. História da corrida do ouro visível nos pontos de garimpo sinalizados.', distance: '20 km', duration: '1–2 dias', difficulty: 'Moderado' }
+      { name: 'Trilha Hetta–Pallas', description: 'A trilha de longa distância mais popular da Finlândia, que atravessa a cadeia de fjelds entre Hetta e Pallas. Terreno de fjeld aberto com vistas de horizonte, refúgios bem conservados a intervalos curtos.', distance: '55 km', duration: '3–4 dias', difficulty: 'Moderado' },
+      { name: 'Karhunkierros (Trilha do Urso)', description: 'Uma das trilhas mais famosas da Finlândia, serpenteia pelo cânion de Oulanka entre corredeiras e pontes suspensas. Gargantas espetaculares e floresta primária marcam toda a rota.', distance: '82 km', duration: '4–6 dias', difficulty: 'Difícil' },
+      { name: 'Rotas de dia de Saariselkä', description: 'Rotas de dia bem sinalizadas a partir do vilarejo de Saariselkä para dentro do parque nacional. A introdução certa ao trekking de fjeld, com opções para todos os níveis e janelas de tempo.', distance: '5–20 km', duration: '2–8 horas', difficulty: 'Fácil' },
+      { name: 'Trilha do cume do Halti', description: 'Travessia ao ponto mais alto da Finlândia, 1.324 m. Rota remota pelo interior de Kilpisjärvi. O trecho final do cume não é sinalizado e exige orientação com má visibilidade.', distance: '55 km (ida e volta)', duration: '3–5 dias', difficulty: 'Muito exigente' },
+      { name: 'Trilha da garganta de Pyhäkuru', description: 'Trilha curta mas marcante por uma garganta profunda de paredes antigas. Lugar sagrado para o povo sami, com trechos de passarela acessíveis a famílias e grupos de ritmo misto.', distance: '5 km', duration: '2–3 horas', difficulty: 'Fácil' },
+      { name: 'Trilha do rio Lemmenjoki', description: 'Segue o lendário rio dos garimpeiros por uma das maiores naturezas da Europa. Há transporte de barco para parte da rota. História da corrida do ouro visível nos pontos de garimpo sinalizados.', distance: '20 km', duration: '1–2 dias', difficulty: 'Moderado' }
     ],
     trailheadStays: 'Hospedagens no início da trilha',
     planRestH3: 'Planeje o resto da viagem',
@@ -497,10 +497,10 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
       eyebrow: 'Perguntas frequentes',
       h2: 'Trilhas na Lapônia, perguntas frequentes',
       items: [
-        { q: 'Quanto tempo leva o Karhunkierros, a Trilha do Urso?', a: 'O Karhunkierros completo tem cerca de 82 km e a maioria dos caminhantes o percorre em quatro a seis dias, dormindo nos refúgios ao longo do cânion de Oulanka. Quem anda forte faz em quatro dias longos; se quiser tempo nas corredeiras, cachoeiras e pontes suspensas, planeje cinco. O circuito mais curto, o Pieni Karhunkierros, cobre os destaques em 12 km.' },
-        { q: 'Qual é a trilha mais popular da Lapônia?', a: 'A trilha Hetta–Pallas, de 55 km, pelo Parque Nacional de Pallas-Yllästunturi, é a rota de longa distância mais popular da Finlândia. Corre quase toda acima do limite das árvores, com vistas de fjeld aberto, e os refúgios ficam espaçados para etapas confortáveis de três a quatro dias entre Hetta e Pallas.' },
-        { q: 'Preciso reservar os refúgios com antecedência?', a: 'Os refúgios abertos (autiotupa) são gratuitos e por ordem de chegada, não dá para reservar, e no pico do ruska, em setembro, podem lotar já no meio da tarde. Os refúgios reserváveis (varaustupa) precisam ser reservados e pagos com antecedência, em geral cerca de 14 € o beliche, e valem a pena para garantir uma cama nos trechos movimentados.' },
-        { q: 'Qual é a altura do ponto mais alto da Finlândia, e dá para subir?', a: 'O ponto mais alto da Finlândia fica no ombro do Halti, a 1.324 m, no interior remoto de Kilpisjärvi, perto da fronteira com a Noruega. É uma rota séria de 55 km ida e volta, de três a cinco dias; a aproximação final não é sinalizada e exige real habilidade de orientação com pouca visibilidade.' },
+        { q: 'Quanto tempo leva o Karhunkierros, a Trilha do Urso?', a: 'O Karhunkierros completo tem cerca de 82 km e a maioria dos caminhantes o percorre em quatro a seis dias, dormindo nos refúgios ao longo do cânion de Oulanka. Quem anda forte faz em quatro dias longos; se quiser tempo nas corredeiras, cachoeiras e pontes suspensas, planeje cinco. O circuito mais curto, o Pieni Karhunkierros, cobre os destaques em 12 km.' },
+        { q: 'Qual é a trilha mais popular da Lapônia?', a: 'A trilha Hetta–Pallas, de 55 km, pelo Parque Nacional de Pallas-Yllästunturi, é a rota de longa distância mais popular da Finlândia. Corre quase toda acima do limite das árvores, com vistas de fjeld aberto, e os refúgios ficam espaçados para etapas confortáveis de três a quatro dias entre Hetta e Pallas.' },
+        { q: 'Preciso reservar os refúgios com antecedência?', a: 'Os refúgios abertos (autiotupa) são gratuitos e por ordem de chegada, não dá para reservar, e no pico do ruska, em setembro, podem lotar já no meio da tarde. Os refúgios reserváveis (varaustupa) precisam ser reservados e pagos com antecedência, em geral cerca de 14 € o beliche, e valem a pena para garantir uma cama nos trechos movimentados.' },
+        { q: 'Qual é a altura do ponto mais alto da Finlândia, e dá para subir?', a: 'O ponto mais alto da Finlândia fica no ombro do Halti, a 1.324 m, no interior remoto de Kilpisjärvi, perto da fronteira com a Noruega. É uma rota séria de 55 km ida e volta, de três a cinco dias; a aproximação final não é sinalizada e exige real habilidade de orientação com pouca visibilidade.' },
         { q: 'Qual é a melhor época para caminhar na Lapônia?', a: 'De meados de junho ao fim de setembro é a temporada principal. Julho oferece clima quente e o sol da meia-noite; do início a meados de setembro vêm as cores do ruska e bem menos mosquitos, embora as noites caiam abaixo de zero e as passarelas fiquem escorregadias de gelo ao amanhecer. Os refúgios de verão e as balsas em geral funcionam do início de junho ao fim de setembro.' },
       ],
     },
@@ -569,7 +569,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   freshwater: {
     metaTitle: 'Água doce na Lapônia: lagos, rios, turfeiras e peixes',
-    metaDescription: 'A Finlândia tem cerca de 188 000 lagos e lagoas (SYKE). A Lapônia abriga alguns dos mais limpos, além do sistema fluvial não regulado do Tornio-Muonio, das turfeiras aapa e das florestas que mantêm a água fria. Por que a água limpa é o bem mais raro da região.',
+    metaDescription: 'A Finlândia tem cerca de 188 000 lagos e lagoas (SYKE). A Lapônia abriga alguns dos mais limpos, além do sistema fluvial não regulado do Tornio-Muonio, das turfeiras aapa e das florestas que mantêm a água fria. Por que a água limpa é o bem mais raro da região.',
     hero: {
       eyebrow: 'Guia essencial',
       title: 'Água doce na Lapônia',
@@ -579,12 +579,12 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
     },
     introKicker: 'Por que a água vem primeiro',
     introH2: 'A água limpa é tudo',
-    introLead: 'Cada peixe, cada rena, cada colheita de frutas silvestres na Lapônia depende da mesma água que corre pela mesma paisagem. A Finlândia tem cerca de 188 000 lagos e lagoas de pelo menos 0,05 hectare (o registro de lagos da SYKE), e o norte abriga alguns dos menos perturbados. Considere os lagos, rios, turfeiras e florestas como quatro partes de um mesmo sistema vivo e a razão para protegê-los fica evidente: perca a água e você perderá tudo o que está rio abaixo.',
+    introLead: 'Cada peixe, cada rena, cada colheita de frutas silvestres na Lapônia depende da mesma água que corre pela mesma paisagem. A Finlândia tem cerca de 188 000 lagos e lagoas de pelo menos 0,05 hectare (o registro de lagos da SYKE), e o norte abriga alguns dos menos perturbados. Considere os lagos, rios, turfeiras e florestas como quatro partes de um mesmo sistema vivo e a razão para protegê-los fica evidente: perca a água e você perderá tudo o que está rio abaixo.',
     chaptersKicker: 'As quatro partes',
     chaptersH2: 'Um sistema, quatro partes',
     lakes: {
       title: 'Lagos',
-      body1: 'A Finlândia é muitas vezes chamada de terra dos mil lagos, e o número real é bem maior: cerca de 188 000 lagos e lagoas de pelo menos 0,05 hectare, segundo o registro Järvi-meriwiki da SYKE. Os da Lapônia estão entre os mais cristalinos, alimentados pelo degelo e por bacias sombreadas, e não pelo escoamento agrícola.',
+      body1: 'A Finlândia é muitas vezes chamada de terra dos mil lagos, e o número real é bem maior: cerca de 188 000 lagos e lagoas de pelo menos 0,05 hectare, segundo o registro Järvi-meriwiki da SYKE. Os da Lapônia estão entre os mais cristalinos, alimentados pelo degelo e por bacias sombreadas, e não pelo escoamento agrícola.',
       body2: 'O lago Inari (Inarijärvi), no coração do território sami, é um dos maiores lagos da Finlândia e alimenta o sistema do Paatsjoki, que drena para o norte até o oceano Ártico. Sua água fria e rica em oxigênio abriga o salvelino-do-ártico, a truta-marrom e o coregono, espécies que só prosperam onde a água permanece fria e limpa.',
     },
     rivers: {
@@ -621,7 +621,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
         },
         {
           title: 'A taxa que financia o peixe',
-          body: 'Qualquer pessoa de 18 a 69 anos que pesque com isca artificial ou apetrecho na Finlândia paga a taxa nacional de gestão pesqueira, 47 € por ano, 16 € por uma semana ou 6 € por um dia (eraluvat.fi). Ela financia o monitoramento de estoques, a restauração e as passagens para peixes. Menores de 18 anos e pessoas de 70 anos ou mais são isentos, e a simples pesca com vara ao amparo do direito de acesso à natureza é gratuita.',
+          body: 'Qualquer pessoa de 18 a 69 anos que pesque com isca artificial ou apetrecho na Finlândia paga a taxa nacional de gestão pesqueira, 47 € por ano, 16 € por uma semana ou 6 € por um dia (eraluvat.fi). Ela financia o monitoramento de estoques, a restauração e as passagens para peixes. Menores de 18 anos e pessoas de 70 anos ou mais são isentos, e a simples pesca com vara ao amparo do direito de acesso à natureza é gratuita.',
         },
       ],
       feeNote: 'As regras e as datas são redefinidas a cada ano. Confirme sempre a temporada, as cotas e as taxas vigentes nas páginas oficiais antes de reservar ou pescar.',
@@ -642,7 +642,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
       items: [
         {
           q: 'Quantos lagos a Finlândia tem?',
-          a: 'Cerca de 188 000 lagos e lagoas de pelo menos 0,05 hectare, segundo o registro nacional de lagos da SYKE (Järvi-meriwiki). A contagem depende do limiar de tamanho usado, cerca de 57 000 lagos se forem contados apenas os maiores que um hectare, de modo que o número de destaque sempre se refere ao limiar de 0,05 hectare. A Lapônia abriga alguns dos mais limpos.',
+          a: 'Cerca de 188 000 lagos e lagoas de pelo menos 0,05 hectare, segundo o registro nacional de lagos da SYKE (Järvi-meriwiki). A contagem depende do limiar de tamanho usado, cerca de 57 000 lagos se forem contados apenas os maiores que um hectare, de modo que o número de destaque sempre se refere ao limiar de 0,05 hectare. A Lapônia abriga alguns dos mais limpos.',
         },
         {
           q: 'O Tornio é mesmo um rio de curso livre?',
@@ -658,7 +658,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
         },
         {
           q: 'Preciso de licença para pescar na Lapônia?',
-          a: 'Para a maior parte da pesca com isca artificial e apetrecho, sim: pescadores de 18 a 69 anos pagam a taxa nacional de gestão pesqueira (47 € por ano, 16 € por semana, 6 € por dia, via eraluvat.fi), e muitas águas exigem, além disso, uma licença de área à parte. A simples pesca com vara e a pesca no gelo ao amparo do direito de acesso à natureza são gratuitas, e menores de 18 anos e pessoas de 70 anos ou mais são isentos da taxa nacional.',
+          a: 'Para a maior parte da pesca com isca artificial e apetrecho, sim: pescadores de 18 a 69 anos pagam a taxa nacional de gestão pesqueira (47 € por ano, 16 € por semana, 6 € por dia, via eraluvat.fi), e muitas águas exigem, além disso, uma licença de área à parte. A simples pesca com vara e a pesca no gelo ao amparo do direito de acesso à natureza são gratuitas, e menores de 18 anos e pessoas de 70 anos ou mais são isentos da taxa nacional.',
         },
       ],
     },

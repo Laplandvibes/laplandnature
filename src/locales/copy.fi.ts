@@ -72,7 +72,7 @@ const fi: SectionCopy = {
     legend: { park: 'Kansallispuisto', aurora: 'Revontulipaikka', trail: 'Reitin lähtö', wildlife: 'Eläimet' },
     pins: [
       { name: 'Urho Kekkosen kp', note: 'Suomen 2. suurin puisto · portti: Saariselkä' },
-      { name: 'Pallas-Yllästunturi kp', note: '55 km Hetta–Pallas-reitti · portti: Muonio' },
+      { name: 'Pallas-Yllästunturi kp', note: '55 km Hetta–Pallas-reitti · portti: Muonio' },
       { name: 'Lemmenjoen kp', note: 'Euroopan suurin tiettömän alueen erämaa · kullankaivuu · Inari' },
       { name: 'Riisitunturin kp', note: 'Tykkylumi · portti: Posio' },
       { name: 'Pyhä-Luoston kp', note: '400-vuotiaat kuuset · ametistikaivos' },
@@ -80,10 +80,10 @@ const fi: SectionCopy = {
       { name: 'Utsjoki', note: '4 viidestä kirkkaasta yöstä näyttää revontulet huipulla · 51 päivän kaamos' },
       { name: 'Kilpisjärvi', note: 'Kolmen valtakunnan rajapyykki · korkeat tunturit' },
       { name: 'Enontekiö', note: 'Euroopan pimeimpiä taivaita (Bortle 1)' },
-      { name: 'Hetta', note: '55 km Hetta–Pallas -reitin pohjoispää' },
-      { name: 'Ruka / Oulanka', note: '82 km Karhunkierros · riippusillat + kanjonit' },
-      { name: 'Kilpisjärvi (Halti)', note: '55 km edestakaisin Haltille, Suomen korkein piste (1 324 m)' },
-      { name: 'Pyhä', note: 'Pyhäkurun rotko · esteetön pitkospuu · 5 km' },
+      { name: 'Hetta', note: '55 km Hetta–Pallas -reitin pohjoispää' },
+      { name: 'Ruka / Oulanka', note: '82 km Karhunkierros · riippusillat + kanjonit' },
+      { name: 'Kilpisjärvi (Halti)', note: '55 km edestakaisin Haltille, Suomen korkein piste (1 324 m)' },
+      { name: 'Pyhä', note: 'Pyhäkurun rotko · esteetön pitkospuu · 5 km' },
       { name: 'Kuusamon karhukatselut', note: 'Karhukojuilta · 99 % havaintoluku · touko–syyskuu' },
       { name: 'Nellim erämaa', note: 'Nellimin erämaakoju · ahman ja karhun reviiri' },
       { name: 'Kaamasen porot', note: 'Saamelaisten poroerotus · syksy (paliskunta)' },
@@ -91,13 +91,13 @@ const fi: SectionCopy = {
   },
   home: {
     metaTitle: 'Lapin luonto: erämaa ja kansallispuistot | LaplandNature',
-    metaDescription: 'Suomen Lapin arktinen erämaa, viisi kansallispuistoa, yli 200 revontuliyötä, kaamoksen pimeys ja vaellusreittejä 5 km:stä 82 km:iin.',
+    metaDescription: 'Suomen Lapin arktinen erämaa, viisi kansallispuistoa, yli 200 revontuliyötä, kaamoksen pimeys ja vaellusreittejä 5 km:stä 82 km:iin.',
     hero: {
       alt: 'Lumen peittämää arktista erämaata ja tuntureita Suomen Lapissa',
       eyebrow: 'Napapiirin pohjoispuolella',
       title: 'Koskematon arktinen',
       subtitle: 'erämaa',
-      description: 'Suomen Lappi, 100 367 km² kansallispuistoja, tuntureita, ikimetsiä ja Euroopan pisin revontulikausi.',
+      description: 'Suomen Lappi, 100 367 km² kansallispuistoja, tuntureita, ikimetsiä ja Euroopan pisin revontulikausi.',
       primaryCta: 'Suunnittele revontulireissu',
       secondaryCta: 'Tutustu puistoihin',
     },
@@ -121,7 +121,7 @@ const fi: SectionCopy = {
         {
           tag: 'Suojelualueet',
           title: 'Kansallispuistot',
-          blurb: 'Viisi puistoa, yhteensä yli 7 000 km² suojeltua erämaata, Urho Kekkosen tuntureista Riisitunturin tykkypuihin.',
+          blurb: 'Viisi puistoa, yhteensä yli 7 000 km² suojeltua erämaata, Urho Kekkosen tuntureista Riisitunturin tykkypuihin.',
           cta: 'Tutustu kansallispuistoihin',
         },
         {
@@ -139,7 +139,7 @@ const fi: SectionCopy = {
         {
           tag: 'Reitit',
           title: 'Vaellusreitit',
-          blurb: 'Käy Suomen ikonisimmilla reiteillä, 82 km Karhunkierroksen riippusilloista 1 324 metrin Haltille.',
+          blurb: 'Käy Suomen ikonisimmilla reiteillä, 82 km Karhunkierroksen riippusilloista 1 324 metrin Haltille.',
           cta: 'Tutustu reitteihin',
         },
         {
@@ -157,7 +157,7 @@ const fi: SectionCopy = {
         {
           tag: 'Vesistöt',
           title: 'Vesistöt',
-          blurb: 'Noin 188 000 järveä, vapaana virtaava Tornionjoki ja aapasuot. Miksi puhdas kylmä vesi on Lapin harvinaisin voimavara, ja mikä pitää kalat siinä.',
+          blurb: 'Noin 188 000 järveä, vapaana virtaava Tornionjoki ja aapasuot. Miksi puhdas kylmä vesi on Lapin harvinaisin voimavara, ja mikä pitää kalat siinä.',
           cta: 'Tutustu vesistöihin',
         },
       ],
@@ -213,8 +213,8 @@ const fi: SectionCopy = {
     tips: [
       'Tarkista Ilmatieteen laitoksen revontuliennuste (Auroras-now / KP-indeksi) ennen lähtöä.',
       'Paras katseluaika kirkkaana yönä on klo 21–02.',
-      'Siirry 5–10 km taajamasta pois pudottaaksesi valosaasteen Bortle 2 -tasolle tai alle.',
-      'Pue kerroksittain, lämpötila yltää huippukauden aikana usein −30 °C:een; termospullo lämmintä juomaa on pakollinen.',
+      'Siirry 5–10 km taajamasta pois pudottaaksesi valosaasteen Bortle 2 -tasolle tai alle.',
+      'Pue kerroksittain, lämpötila yltää huippukauden aikana usein −30 °C:een; termospullo lämmintä juomaa on pakollinen.',
       'Jalusta ja 5–15 sekunnin valotus ISO 800–3200 (f/2.8) -asetuksilla tallentaa revontulia joita silmä ei näe.',
     ],
     oneNightKicker: 'Yksi yö · Inari · 2. maaliskuuta 2024',
@@ -228,8 +228,8 @@ const fi: SectionCopy = {
       },
       {
         time: '21:00',
-        title: 'Aja 8 km Inarin kylästä länteen',
-        body: 'Valosaaste putoaa nopeasti kylän ulkopuolella. Valitsemme pienen järviaukion Kaamasen tieltä, avoin horisontti pohjoiseen ja itään. −18 °C, tyyni.',
+        title: 'Aja 8 km Inarin kylästä länteen',
+        body: 'Valosaaste putoaa nopeasti kylän ulkopuolella. Valitsemme pienen järviaukion Kaamasen tieltä, avoin horisontti pohjoiseen ja itään. −18 °C, tyyni.',
       },
       {
         time: '22:40',
@@ -256,7 +256,7 @@ const fi: SectionCopy = {
     cards: [
       { title: 'Ennustyökalut', body: 'IL:n Auroras-now (KP), NOAA OVATION (ovaali), windy.com (pilvi), pidä kaikki kolme auki.' },
       { title: 'Kameran perusasetus', body: '15 s · ISO 1600 · f/2.8 · manuaalitarkennus etäiseen valoon. Jalusta pakollinen.' },
-      { title: 'Mikä pilaa yön', body: 'Täysikuu (huuhtelee värit). Pilveä yli 1500 m. Tuulen viilennys alle −25 °C ilman kunnon varustetta.' },
+      { title: 'Mikä pilaa yön', body: 'Täysikuu (huuhtelee värit). Pilveä yli 1500 m. Tuulen viilennys alle −25 °C ilman kunnon varustetta.' },
     ],
     finalH2: 'Haluatko oppaan joka tuntee pilviraot?',
     finalLead: 'Revontuliretkiä lähtee öittäin Rovaniemeltä, Saariselältä ja Leviltä. Paikalliset oppaat seuraavat ennustetta ja siirtyvät kun taivas pilvistyy, paljon parempi osumaprosentti kuin yksin.',
@@ -280,7 +280,7 @@ const fi: SectionCopy = {
         },
         {
           q: 'Näkeekö revontulet Rovaniemeltä?',
-          a: 'Kyllä, kirkkaina öinä ja riittävällä aktiivisuudella, mutta Rovaniemellä on enemmän valosaastetta ja se sijaitsee etelämpänä kuin parhaat paikat. Aja 10–20 km kaupungista järven rantaan tai avoimelle pellolle, niin mahdollisuudet paranevat selvästi. Korkeimman osumaprosentin saa majoittumalla pohjoisempana Inarissa, Saariselällä tai Utsjoella.',
+          a: 'Kyllä, kirkkaina öinä ja riittävällä aktiivisuudella, mutta Rovaniemellä on enemmän valosaastetta ja se sijaitsee etelämpänä kuin parhaat paikat. Aja 10–20 km kaupungista järven rantaan tai avoimelle pellolle, niin mahdollisuudet paranevat selvästi. Korkeimman osumaprosentin saa majoittumalla pohjoisempana Inarissa, Saariselällä tai Utsjoella.',
         },
         {
           q: 'Mihin aikaan yöstä revontulet ovat aktiivisimmillaan?',
@@ -306,13 +306,13 @@ const fi: SectionCopy = {
     parks: [
       {
         name: 'Urho Kekkosen kansallispuisto',
-        description: 'Suomen toiseksi suurin kansallispuisto, 2 550 km². Avoimia tuntureita, syviä jokirotkoja ja ikimäntymetsiä. Paratiisi monipäiväiseen vaellukseen ja takamaahiihtoon.',
+        description: 'Suomen toiseksi suurin kansallispuisto, 2 550 km². Avoimia tuntureita, syviä jokirotkoja ja ikimäntymetsiä. Paratiisi monipäiväiseen vaellukseen ja takamaahiihtoon.',
         highlight: 'Suomen 2. suurin puisto',
-        visited: 'Maaliskuu 2024 · päiväretki Rumakurun lenkki, lumi vakaa −12 °C',
+        visited: 'Maaliskuu 2024 · päiväretki Rumakurun lenkki, lumi vakaa −12 °C',
       },
       {
         name: 'Pallas-Yllästunturin kansallispuisto',
-        description: 'Suomen suosituin tunturireitti, 55 km Hetta–Pallas. Avoimet tunturilaet, horisontti yli Käsivarren.',
+        description: 'Suomen suosituin tunturireitti, 55 km Hetta–Pallas. Avoimet tunturilaet, horisontti yli Käsivarren.',
         highlight: 'Suomen pisin tunturiylitys',
         visited: 'Syyskuu 2023 · käveltiin Hetta → Pallas kolmessa päivässä · ruskan huippuviikko 2',
       },
@@ -339,30 +339,30 @@ const fi: SectionCopy = {
     stayNearby: 'Yöpyminen lähellä',
     hettaKicker: 'Muistivihko · ruska 2023',
     hettaH2: 'Hetta → Pallas kolmessa päivässä, koko ylitys',
-    hettaLead: '55 km Hetta–Pallas -reitti Pallas-Yllästunturin halki on Suomen suosituin pitkä kävely syystä, se kulkee lähes kokonaan puurajan yläpuolella, autiotuvat ovat lyhyiden päivien välein, eivätkä näkymät häviä. Käveltiin pohjoisesta etelään kolmessa päivässä ruskan huipulla. Pohjoiseen on tavallinen suunta; etelään (Hetta-lähtö) on parempi valokuvauksellisesti ja Ounasjärven lautta on kiva alkurituaali.',
+    hettaLead: '55 km Hetta–Pallas -reitti Pallas-Yllästunturin halki on Suomen suosituin pitkä kävely syystä, se kulkee lähes kokonaan puurajan yläpuolella, autiotuvat ovat lyhyiden päivien välein, eivätkä näkymät häviä. Käveltiin pohjoisesta etelään kolmessa päivässä ruskan huipulla. Pohjoiseen on tavallinen suunta; etelään (Hetta-lähtö) on parempi valokuvauksellisesti ja Ounasjärven lautta on kiva alkurituaali.',
     days: [
       {
-        day: 'Päivä 1 · 18 km',
+        day: 'Päivä 1 · 18 km',
         title: 'Hetta → Sioskuru',
         body: 'Lautta Ounasjärven yli klo 09:00 (ilmainen, kulkee 1.6.–30.9.). Nousu Pyhäkerolta avoimelle tunturille kahdessa tunnissa. Sioskurun autiotuvassa nukkuu 16; saavuimme klo 16:30, kolme petipaikkaa vapaana. Auringonlasku läntisten tuntureiden yli ovelta.',
         note: '+520 m korkeuseroa · tuuli kevyt',
       },
       {
-        day: 'Päivä 2 · 22 km',
+        day: 'Päivä 2 · 22 km',
         title: 'Sioskuru → Hannukuru',
         body: 'Tunnusmerkkipäivä. Ylität Pyhäkurun ja korkean tundran Lompolojärven ympäri, reitin kuva jonka olet nähnyt aiemmin on kilometriltä 12. Hannukurun tuvassa on puulämmitteinen sauna; siksi useimmat jakavat reitin näin.',
         note: 'Kohokohta: Lompolojärven heijastus klo 17 valossa',
       },
       {
-        day: 'Päivä 3 · 15 km',
+        day: 'Päivä 3 · 15 km',
         title: 'Hannukuru → Pallas',
         body: 'Helpoin päivä paperilla. Nouse Pallaksen huippuketjuun, Taivaskero, Lehmäkero, Laukukero, horisontit yltävät yli Käsivarren kirkkaana aamuna. Päättyy Pallas-hotelliin; jos voit, varaa sauna ja pihvi. Ansaitsit molemmat.',
-        note: 'Yhteensä: 55 km · 3 päivää · 11 h netto vaellusaikaa',
+        note: 'Yhteensä: 55 km · 3 päivää · 11 h netto vaellusaikaa',
       },
     ],
     differentlyH3: 'Mitä suunnittelisimme toisin',
     differently: [
-      'Varaa varaustupapaikka yöksi kahteen (Hannukuru). Autiotupa on avoin mutta ruskan huipulla se täyttyi klo 15:30. Varaustupa = 14 €, mielenrauha = korvaamaton.',
+      'Varaa varaustupapaikka yöksi kahteen (Hannukuru). Autiotupa on avoin mutta ruskan huipulla se täyttyi klo 15:30. Varaustupa = 14 €, mielenrauha = korvaamaton.',
       'Ota lumikenkä-säärystimet mukaan jo alkusyksyllä. Kaksi Pyhäkurun rinnealuetta meni saappaan yli, märät sukat kaksi päivää.',
       'Syö raskaasti ensimmäisenä päivänä. Hetan kauppa on viimeinen lämmin ruokapaikka ennen Pallas-hotellia.',
       'Älä yritä tätä kahdessa päivässä. Tapasimme pariskunnan joka yritti; he luovuttivat Hannukurulla ja shuttle-bussi otti pois.',
@@ -381,7 +381,7 @@ const fi: SectionCopy = {
         },
         {
           q: 'Mikä on Lapin suurin kansallispuisto?',
-          a: 'Urho Kekkosen kansallispuisto on Lapin suurin, noin 2 550 km², ja koko Suomen toiseksi suurin. Se ulottuu Saariselän tuntureilta itään syvään tiettömään erämaahan, avoimia tuntureita, jokirotkoja ja vanhaa mäntymetsää.',
+          a: 'Urho Kekkosen kansallispuisto on Lapin suurin, noin 2 550 km², ja koko Suomen toiseksi suurin. Se ulottuu Saariselän tuntureilta itään syvään tiettömään erämaahan, avoimia tuntureita, jokirotkoja ja vanhaa mäntymetsää.',
         },
         {
           q: 'Tarvitseeko Lapin kansallispuistoihin lupaa tai pääsymaksua?',
@@ -406,7 +406,7 @@ const fi: SectionCopy = {
   },
   wildlife: {
     metaTitle: 'Lapin eläimistö: porot, karhut, ahma ja muut | LaplandNature',
-    metaDescription: 'Kuusi ikonista arktista lajia jotka voit kohdata Suomen Lapissa, 200 000 puolikesyä porosta erittäin uhanalaiseen naaliin ja vaikeasti tavoitettavaan ahmaan.',
+    metaDescription: 'Kuusi ikonista arktista lajia jotka voit kohdata Suomen Lapissa, 200 000 puolikesyä porosta erittäin uhanalaiseen naaliin ja vaikeasti tavoitettavaan ahmaan.',
     hero: {
       alt: 'Karhu Suomen Lapin havumetsässä',
       eyebrow: 'Eläimet Lapissa',
@@ -417,7 +417,7 @@ const fi: SectionCopy = {
     animals: [
       {
         name: 'Poro',
-        description: 'Noin 200 000 puolikesyä poroa kulkee Suomen Lapissa, keskeinen osa saamelaiskulttuurin paliskuntaperinnettä tuhansien vuosien ajan. Ne laiduntavat vapaasti tuntureilla ja metsissä, kohtaat niitä tiellä.',
+        description: 'Noin 200 000 puolikesyä poroa kulkee Suomen Lapissa, keskeinen osa saamelaiskulttuurin paliskuntaperinnettä tuhansien vuosien ajan. Ne laiduntavat vapaasti tuntureilla ja metsissä, kohtaat niitä tiellä.',
         status: 'Yleinen',
       },
       {
@@ -459,7 +459,7 @@ const fi: SectionCopy = {
     bearBody: [
       'Itä-Suomessa, Kuusamo, Suomussalmi, Lieksa, on Euroopan tihein karhupopulaatio per neliökilometri. Kolme tai neljä operaattoria pyörittää pieniä yön yli -kojuja huhtikuun lopusta syyskuun alkuun, ja matematiikka on yksinkertaista: yksi yö, tilastollinen havaintoluku on noin 90 %. Kaksi yötä ja olet 99 %+.',
       'Koju on lämmitetty puuhuone, jossa on yksisuuntaiset valokuvausluukut ja petipaikka. Saavut klo 17, et lähde ennen klo 7. Syötti, yleensä lohi perinteisellä ruokintapaikalla, pitää karhut palaamassa vuosien ajan; joitakin yksilöitä on kuvattu kymmenen vuoden ajan. Pentuja touko–kesäkuussa. Yksinäisiä uroksia läpi kesän. Sudet ylittävät saman aukean syyskuussa jos olet onnekas.',
-      'Hinta on 280–450 € henkilöltä yöltä, sisältäen kuljetuksen, päivällisen, petipaikan ja oppaan joka selittää korvakuulokkeilla mitä näet. Varaa yli 6 kuukautta etukäteen heinäkuun viikonloppuihin.',
+      'Hinta on 280–450 € henkilöltä yöltä, sisältäen kuljetuksen, päivällisen, petipaikan ja oppaan joka selittää korvakuulokkeilla mitä näet. Varaa yli 6 kuukautta etukäteen heinäkuun viikonloppuihin.',
     ],
     browseHidesCta: 'Selaa karhukatseluja',
     preNightCta: 'Yöpyminen Kuusamossa ennen kojua',
@@ -470,7 +470,7 @@ const fi: SectionCopy = {
       {
         time: '17:15',
         title: 'Saapuminen, infotuokio, vastuuvapaus',
-        body: 'Aja 8 km päätieltä pois, viimeiset 2 km metsätietä. Opas selittää säännöt: ei hajusteita, ei salamaa, vain kuiskausta, ei oven avaamista klo 19 jälkeen. Lohi laitettuna aukealle. Voileivät ja termospullo huoneessa.',
+        body: 'Aja 8 km päätieltä pois, viimeiset 2 km metsätietä. Opas selittää säännöt: ei hajusteita, ei salamaa, vain kuiskausta, ei oven avaamista klo 19 jälkeen. Lohi laitettuna aukealle. Voileivät ja termospullo huoneessa.',
       },
       {
         time: '19:40',
@@ -480,7 +480,7 @@ const fi: SectionCopy = {
       {
         time: '21:30',
         title: 'Hiljainen tunti. Sudet ulvovat.',
-        body: 'Ei mitään aukealla. Kaksi sutta ulvoo idän suosta, ei nähty, vain kuultu. Opas sanoo että susille on ollut äänekäs kesä; lauma kulkee yli 60 km. Jäämme silti katsomaan.',
+        body: 'Ei mitään aukealla. Kaksi sutta ulvoo idän suosta, ei nähty, vain kuultu. Opas sanoo että susille on ollut äänekäs kesä; lauma kulkee yli 60 km. Jäämme silti katsomaan.',
       },
       {
         time: '23:55',
@@ -505,7 +505,7 @@ const fi: SectionCopy = {
       },
     ],
     cards: [
-      { title: 'Mikä toimi', body: '600 mm tele jalustalla luukun läpi. Hiljainen suljin päällä (peilitön). 1/250 s, ISO 1600, f/4.' },
+      { title: 'Mikä toimi', body: '600 mm tele jalustalla luukun läpi. Hiljainen suljin päällä (peilitön). 1/250 s, ISO 1600, f/4.' },
       { title: 'Mitä tekisimme toisin', body: 'Kaksi peräkkäistä yötä, ei yhtä. Eri karhut, eri valo. Sama hinta per yö, kaksinkertainen mahdollisuus nähdä pentuja.' },
       { title: 'Parhaat kuukaudet', body: 'Touko–kesäkuun alku (pennut). Heinäkuun loppu (yksinäiset urokset, helppo sää). Syyskuu (sudet + syksyn valo).' },
     ],
@@ -526,7 +526,7 @@ const fi: SectionCopy = {
         },
         {
           q: 'Kuinka monta poroa Lapissa on, ja ovatko ne villejä?',
-          a: 'Lapissa kuljeskelee noin 200 000 puolikesyä poroa. Ne eivät ole villejä, jokainen eläin on omistettu ja korvamerkitty paliskunnassa, ja porot ovat olleet saamelaisen kulttuurin ytimessä tuhansia vuosia. Ne laiduntavat vapaasti tuntureilla ja metsissä, joten niitä kohtaa säännöllisesti tienvarsilla.',
+          a: 'Lapissa kuljeskelee noin 200 000 puolikesyä poroa. Ne eivät ole villejä, jokainen eläin on omistettu ja korvamerkitty paliskunnassa, ja porot ovat olleet saamelaisen kulttuurin ytimessä tuhansia vuosia. Ne laiduntavat vapaasti tuntureilla ja metsissä, joten niitä kohtaa säännöllisesti tienvarsilla.',
         },
         {
           q: 'Mikä on Lapin harvinaisin eläin?',
@@ -583,7 +583,7 @@ const fi: SectionCopy = {
       {
         week: 'Viikko 1 · 2.–8.9.',
         region: 'Utsjoki + Kilpisjärvi (69°N+)',
-        body: 'Pohjoisimmat tunturit muuttuvat ensin. Koivu jo 60 % kääntynyt 5.9.; puolukanvarvut tummanpunaisia. Yölämpö −2 °C. Valokuvausikkuna: 14–17, valokulma matala.',
+        body: 'Pohjoisimmat tunturit muuttuvat ensin. Koivu jo 60 % kääntynyt 5.9.; puolukanvarvut tummanpunaisia. Yölämpö −2 °C. Valokuvausikkuna: 14–17, valokulma matala.',
       },
       {
         week: 'Viikko 2 · 9.–15.9.',
@@ -659,8 +659,8 @@ const fi: SectionCopy = {
     },
   },
   hiking: {
-    metaTitle: 'Lapin vaellusreitit: 5 km–82 km | LaplandNature',
-    metaDescription: 'Kuusi vaellusreittiä Suomen Lapissa, Hetta–Pallas (55 km), Karhunkierros (82 km), Halti (55 km) ja kolme lyhyempää reittiä. Etäisyydet, kestot ja porttikylät.',
+    metaTitle: 'Lapin vaellusreitit: 5 km–82 km | LaplandNature',
+    metaDescription: 'Kuusi vaellusreittiä Suomen Lapissa, Hetta–Pallas (55 km), Karhunkierros (82 km), Halti (55 km) ja kolme lyhyempää reittiä. Etäisyydet, kestot ja porttikylät.',
     hero: {
       alt: 'Vaellusreitti mutkittelee ruskan värittämällä tunturilla Suomen Lapissa',
       eyebrow: 'Lapin retket',
@@ -670,85 +670,85 @@ const fi: SectionCopy = {
     },
     karhuKicker: 'Muistivihko · ruska 2024',
     karhuH2: 'Karhunkierros 4 päivässä, mitä pakkasimme, mitä jätimme, mitä opimme',
-    karhuLead: 'Käveltiin koko 82 km Karhunkierros etelästä pohjoiseen neljässä päivässä syyskuun lopulla, ruskan huipulla. Alla mitä todella tapahtui, etäisyydet, tupavalinnat, repun paino ja päätökset joita tekisimme toisin. Käytä tätä suunnittelupohjana, ei evankeliumina, sää ja kuntosi muuttavat kaiken.',
+    karhuLead: 'Käveltiin koko 82 km Karhunkierros etelästä pohjoiseen neljässä päivässä syyskuun lopulla, ruskan huipulla. Alla mitä todella tapahtui, etäisyydet, tupavalinnat, repun paino ja päätökset joita tekisimme toisin. Käytä tätä suunnittelupohjana, ei evankeliumina, sää ja kuntosi muuttavat kaiken.',
     days: [
       {
-        day: 'Päivä 1 · 22 km',
+        day: 'Päivä 1 · 22 km',
         title: 'Hautajärvi → Aventojoki',
-        body: 'Helpoin päivä paperilla, raaka käytännössä, 22 km on pitkä kun reput vielä painavat. Aventojoen tuvassa oli neljä vapaata petiä klo 17, täynnä klo 19. Kannattaa puskea lounaan ohi varatakseen paikan.',
-        note: 'Repun lähtöpaino: 14,2 kg kuiva · 16,0 kg veden kanssa',
+        body: 'Helpoin päivä paperilla, raaka käytännössä, 22 km on pitkä kun reput vielä painavat. Aventojoen tuvassa oli neljä vapaata petiä klo 17, täynnä klo 19. Kannattaa puskea lounaan ohi varatakseen paikan.',
+        note: 'Repun lähtöpaino: 14,2 kg kuiva · 16,0 kg veden kanssa',
       },
       {
-        day: 'Päivä 2 · 18 km',
+        day: 'Päivä 2 · 18 km',
         title: 'Aventojoki → Jussinkämppä',
-        body: 'Tunnusmerkkipäivä. Kitkajoen koskien yli riippusiltoja; Oulangan kanjonin näköalapaikka 8 km:n jälkeen on kuva jonka jokainen suomalainen vaeltaja omistaa. Pysähdy. Klo 14 valo syyskuun lopulla on toistumaton.',
+        body: 'Tunnusmerkkipäivä. Kitkajoen koskien yli riippusiltoja; Oulangan kanjonin näköalapaikka 8 km:n jälkeen on kuva jonka jokainen suomalainen vaeltaja omistaa. Pysähdy. Klo 14 valo syyskuun lopulla on toistumaton.',
         note: 'Kohokohta: Jyrävän putous · noin 25 m, pitkospuilta',
       },
       {
-        day: 'Päivä 3 · 21 km',
+        day: 'Päivä 3 · 21 km',
         title: 'Jussinkämppä → Taivalköngäs',
         body: 'Pitkä aaltoileva metsäpäivä, vähemmän dramaattisia kohteita, enemmän rytmiä. Taivalkönkään kosket lopussa ovat reitin äänekkäin piste. Nukuimme autiotuvassa; se täyttyi klo 16:30. Ota korvatulpat, kosket kuuluvat koko yön.',
-        note: 'Ensimmäinen pakkasyö · −2 °C, kevyt kuura pitkospuilla aamulla',
+        note: 'Ensimmäinen pakkasyö · −2 °C, kevyt kuura pitkospuilla aamulla',
       },
       {
-        day: 'Päivä 4 · 21 km',
+        day: 'Päivä 4 · 21 km',
         title: 'Taivalköngäs → Ruka',
-        body: 'Helpompi maasto, nilkat jo arat. Viimeiset 6 km vetävät, lähde aikaisin. Ruka-suihku klo 14:30 tuntui uskonnolliselta kokemukselta. Älä varaa eteläänpäin lähtevää bussia samaksi illaksi; haluat hotelliyön ennen siirtymistä.',
-        note: 'Kokonaisaika: 82 km · 4 päivää · 12 h netto vaellusta',
+        body: 'Helpompi maasto, nilkat jo arat. Viimeiset 6 km vetävät, lähde aikaisin. Ruka-suihku klo 14:30 tuntui uskonnolliselta kokemukselta. Älä varaa eteläänpäin lähtevää bussia samaksi illaksi; haluat hotelliyön ennen siirtymistä.',
+        note: 'Kokonaisaika: 82 km · 4 päivää · 12 h netto vaellusta',
       },
     ],
     differentlyH3: 'Mitä tekisimme toisin',
     differently: [
       'Lähde päivää aiemmin ja jaa päivä 1, jätä yksi Pieni Karhunkierros -lenkin osa pois jos reppu on raskas.',
       'Varaa Oulangan luontokeskuksen yöpyminen varalle jos joku avoin tupa täyttyy. Olimme onnekkaita; jono on todellinen ruskan huipulla.',
-      'Pakkaa yksi pari kuivia sukkia lisää. Pitkospuut muuttuvat jääliukkaiksi −2 °C:ssa.',
+      'Pakkaa yksi pari kuivia sukkia lisää. Pitkospuut muuttuvat jääliukkaiksi −2 °C:ssa.',
       'Jätä keventävä retkikeitin pois, jokaisessa autiotuvassa oli puuhella ja kuivat halot. Säästi 400 g seuraavaan kävelyyn.',
     ],
     rukaPostCta: 'Yöpyminen Rukalla reitin jälkeen',
     oulankaGuidedCta: 'Opastetut Oulangan päiväretket',
     listKicker: 'Koko reittilista',
     listH2: 'Kuusi reittiä joiden ympärille suunnitella reissu',
-    listLead: '5 km Pyhäkurun pitkospuusta 82 km Karhunkierrokseen. Jokaiseen liittyy porttikylä jonka lähellä haluat yöpyä.',
+    listLead: '5 km Pyhäkurun pitkospuusta 82 km Karhunkierrokseen. Jokaiseen liittyy porttikylä jonka lähellä haluat yöpyä.',
     trails: [
       {
         name: 'Hetta–Pallas -reitti',
         description: 'Suomen suosituin pitkä vaellusreitti, kulkee Hetan ja Pallaksen välistä tunturijonoa. Avointa tunturimaastoa horisonttinäkymin, hyvin huolletut autiotuvat.',
-        distance: '55 km',
+        distance: '55 km',
         duration: '3–4 päivää',
         difficulty: 'Keskivaativa',
       },
       {
         name: 'Karhunkierros',
         description: 'Yksi Suomen kuuluisimmista reiteistä, mutkittelee Oulangan kanjonissa, koskien ja riippusiltojen ohi. Dramaattiset jokirotkot ja ikimetsä leimaavat koko reittiä.',
-        distance: '82 km',
+        distance: '82 km',
         duration: '4–6 päivää',
         difficulty: 'Vaativa',
       },
       {
         name: 'Saariselän päiväreitit',
         description: 'Hyvin merkityt päiväreitit Saariselän kylästä kansallispuistoon. Oikea aloitus tunturivaellukseen, vaihtoehtoja kaikille kuntotasoille ja säätilanteille.',
-        distance: '5–20 km',
+        distance: '5–20 km',
         duration: '2–8 h',
         difficulty: 'Helppo',
       },
       {
         name: 'Haltin huippureitti',
-        description: 'Vaellus Suomen korkeimmalle pisteelle 1 324 metriin. Syrjäinen erämaa Kilpisjärven takamaalla. Viimeinen huippuosa on merkitsemätön ja vaatii navigointitaitoa huonossa näkyvyydessä.',
-        distance: '55 km (edestakaisin)',
+        description: 'Vaellus Suomen korkeimmalle pisteelle 1 324 metriin. Syrjäinen erämaa Kilpisjärven takamaalla. Viimeinen huippuosa on merkitsemätön ja vaatii navigointitaitoa huonossa näkyvyydessä.',
+        distance: '55 km (edestakaisin)',
         duration: '3–5 päivää',
         difficulty: 'Erittäin vaativa',
       },
       {
         name: 'Pyhäkurun reitti',
         description: 'Lyhyt mutta vaikuttava reitti syvän rotkon läpi ikiaikaisten kalliotenseinien välistä. Saamelaisten pyhä paikka, esteetön pitkospuuosa sopii perheille ja eritahtisille ryhmille.',
-        distance: '5 km',
+        distance: '5 km',
         duration: '2–3 h',
         difficulty: 'Helppo',
       },
       {
         name: 'Lemmenjoen reitti',
         description: 'Seuraa legendaarista kullankaivuujokea yhden Euroopan suurimmista erämaa-alueista läpi. Osalle reittiä on venekuljetus. Rikas kultaryntäyshistoria näkyvissä merkityillä kaivuupaikoilla.',
-        distance: '20 km',
+        distance: '20 km',
         duration: '1–2 päivää',
         difficulty: 'Keskivaativa',
       },
@@ -763,19 +763,19 @@ const fi: SectionCopy = {
       items: [
         {
           q: 'Kuinka kauan Karhunkierros kestää?',
-          a: 'Koko Karhunkierros on noin 82 km, ja useimmat kävelevät sen neljästä kuuteen päivässä nukkuen Oulangan rotkon varren autiotuvissa. Vahvat kävelijät tekevät sen neljässä pitkässä päivässä; jos haluat aikaa koskien, putousten ja riippusiltojen äärellä, varaa viisi. Lyhyempi Pieni Karhunkierros kattaa kohokohdat 12 kilometrissä.',
+          a: 'Koko Karhunkierros on noin 82 km, ja useimmat kävelevät sen neljästä kuuteen päivässä nukkuen Oulangan rotkon varren autiotuvissa. Vahvat kävelijät tekevät sen neljässä pitkässä päivässä; jos haluat aikaa koskien, putousten ja riippusiltojen äärellä, varaa viisi. Lyhyempi Pieni Karhunkierros kattaa kohokohdat 12 kilometrissä.',
         },
         {
           q: 'Mikä on Lapin suosituin vaellusreitti?',
-          a: '55 km:n Hetta–Pallas-reitti Pallas-Yllästunturin kansallispuistossa on Suomen suosituin pitkä reitti. Se kulkee lähes koko matkan puurajan yläpuolella avoimin tunturinäkymin, ja tuvat ovat sopivin välimatkoin mukaviin kolmen tai neljän päivän etappeihin Hetan ja Pallaksen välillä.',
+          a: '55 km:n Hetta–Pallas-reitti Pallas-Yllästunturin kansallispuistossa on Suomen suosituin pitkä reitti. Se kulkee lähes koko matkan puurajan yläpuolella avoimin tunturinäkymin, ja tuvat ovat sopivin välimatkoin mukaviin kolmen tai neljän päivän etappeihin Hetan ja Pallaksen välillä.',
         },
         {
           q: 'Pitääkö autiotuvat varata etukäteen?',
-          a: 'Autiotuvat ovat ilmaisia ja toimivat ensiksi ehtineen periaatteella, niitä ei voi varata, ja ruskan huipulla syyskuussa ne voivat täyttyä iltapäivällä. Varaustuvat on varattava ja maksettava etukäteen, yleensä noin 14 € vuode, ja se kannattaa taatun nukkumapaikan vuoksi vilkkailla osuuksilla.',
+          a: 'Autiotuvat ovat ilmaisia ja toimivat ensiksi ehtineen periaatteella, niitä ei voi varata, ja ruskan huipulla syyskuussa ne voivat täyttyä iltapäivällä. Varaustuvat on varattava ja maksettava etukäteen, yleensä noin 14 € vuode, ja se kannattaa taatun nukkumapaikan vuoksi vilkkailla osuuksilla.',
         },
         {
           q: 'Kuinka korkea on Suomen korkein kohta, ja voiko sinne vaeltaa?',
-          a: 'Suomen korkein kohta on Haltin rinteellä 1 324 metrissä, syvällä Kilpisjärven takamaastossa lähellä Norjan rajaa. Se on vakava 55 km:n edestakainen reitti kolmesta viiteen päivään; loppunousu on merkitsemätön ja vaatii todellista suunnistustaitoa huonossa näkyvyydessä.',
+          a: 'Suomen korkein kohta on Haltin rinteellä 1 324 metrissä, syvällä Kilpisjärven takamaastossa lähellä Norjan rajaa. Se on vakava 55 km:n edestakainen reitti kolmesta viiteen päivään; loppunousu on merkitsemätön ja vaatii todellista suunnistustaitoa huonossa näkyvyydessä.',
         },
         {
           q: 'Milloin Lapissa kannattaa vaeltaa?',
@@ -847,7 +847,7 @@ const fi: SectionCopy = {
       },
       {
         title: 'Porot kulkevat etusijalla',
-        body: 'Noin 200 000 puolikesyä poroa kulkee Lapissa, ne ovat omistettuja, eivät villejä. Teillä hidasta; tuntureilla anna tilaa. Aitojen (poroaita) ympärillä sulje portit perässäsi.',
+        body: 'Noin 200 000 puolikesyä poroa kulkee Lapissa, ne ovat omistettuja, eivät villejä. Teillä hidasta; tuntureilla anna tilaa. Aitojen (poroaita) ympärillä sulje portit perässäsi.',
       },
     ],
     finalKicker: 'Vieraile vastuullisesti',
@@ -879,7 +879,7 @@ const fi: SectionCopy = {
         },
         {
           q: 'Onko poroilla etuajo-oikeus Lapin teillä?',
-          a: 'Käytännössä kyllä, hiljennä reilusti. Lapin noin 200 000 poroa ovat omistettuja, eivät villejä, ja ne harhautuvat vapaasti teille etenkin hämärissä. Jos näet yhden, odota lähistöllä lisää. Poroaitojen kohdalla sulje aina avaamasi portti perässäsi.',
+          a: 'Käytännössä kyllä, hiljennä reilusti. Lapin noin 200 000 poroa ovat omistettuja, eivät villejä, ja ne harhautuvat vapaasti teille etenkin hämärissä. Jos näet yhden, odota lähistöllä lisää. Poroaitojen kohdalla sulje aina avaamasi portti perässäsi.',
         },
         {
           q: 'Miten matkustan Lapissa vastuullisesti?',
@@ -890,7 +890,7 @@ const fi: SectionCopy = {
   },
   freshwater: {
     metaTitle: 'Lapin vesistöt: järvet, joet, aavat ja kalat',
-    metaDescription: 'Suomessa on noin 188 000 järveä ja lampea (SYKE), ja Lapin vedet ovat maan puhtaimpia. Säännöstelemätön Tornion–Muonionjoki, aapasuot ja metsät pitävät veden kylmänä — siksi puhdas vesi on alueen tärkein voimavara.',
+    metaDescription: 'Suomessa on noin 188 000 järveä ja lampea (SYKE), ja Lapin vedet ovat maan puhtaimpia. Säännöstelemätön Tornion–Muonionjoki, aapasuot ja metsät pitävät veden kylmänä — siksi puhdas vesi on alueen tärkein voimavara.',
     hero: {
       eyebrow: 'Lapin vedet',
       title: 'Lapin vesistöt',
@@ -900,12 +900,12 @@ const fi: SectionCopy = {
     },
     introKicker: 'Miksi vesi ensin',
     introH2: 'Puhdas vesi on koko juttu',
-    introLead: 'Jokainen kala, jokainen poro, jokainen marjasato Lapissa on riippuvainen samasta vedestä joka liikkuu saman maiseman läpi. Suomessa on noin 188 000 vähintään 0,05 hehtaarin järveä ja lampea (SYKEn järvirekisteri), ja pohjoisen vedet ovat maan luonnontilaisimpia. Järvet, joet, suot ja metsät ovat saman elävän kokonaisuuden neljä osaa — ja juuri siksi niitä kannattaa suojella: jos vesi menetetään, menetetään kaikki muukin.',
+    introLead: 'Jokainen kala, jokainen poro, jokainen marjasato Lapissa on riippuvainen samasta vedestä joka liikkuu saman maiseman läpi. Suomessa on noin 188 000 vähintään 0,05 hehtaarin järveä ja lampea (SYKEn järvirekisteri), ja pohjoisen vedet ovat maan luonnontilaisimpia. Järvet, joet, suot ja metsät ovat saman elävän kokonaisuuden neljä osaa — ja juuri siksi niitä kannattaa suojella: jos vesi menetetään, menetetään kaikki muukin.',
     chaptersKicker: 'Neljä osaa',
     chaptersH2: 'Yksi järjestelmä, neljä osaa',
     lakes: {
       title: 'Järvet',
-      body1: 'Suomea kutsutaan usein tuhansien järvien maaksi, ja todellinen luku on paljon suurempi: noin 188 000 vähintään 0,05 hehtaarin järveä ja lampea SYKEn Järvi-meriwiki-rekisterin mukaan. Lapin järvet ovat maan kirkkaimpia: niitä ruokkivat sulamisvedet ja varjoisat valuma-alueet, eivät peltojen valumavedet.',
+      body1: 'Suomea kutsutaan usein tuhansien järvien maaksi, ja todellinen luku on paljon suurempi: noin 188 000 vähintään 0,05 hehtaarin järveä ja lampea SYKEn Järvi-meriwiki-rekisterin mukaan. Lapin järvet ovat maan kirkkaimpia: niitä ruokkivat sulamisvedet ja varjoisat valuma-alueet, eivät peltojen valumavedet.',
       body2: 'Inarijärvi, saamelaisten kotiseudun sydämessä, on yksi Suomen suurimmista järvistä ja ruokkii Paatsjoen vesistöä joka laskee pohjoiseen kohti Jäämerta. Sen kylmä, happirikas vesi kantaa nieriää, taimenta ja siikaa, lajeja jotka viihtyvät vain siellä missä vesi pysyy kylmänä ja puhtaana.',
     },
     rivers: {
@@ -942,7 +942,7 @@ const fi: SectionCopy = {
         },
         {
           title: 'Maksu, joka rahoittaa kalakantojen hoidon',
-          body: 'Jokainen 18–69-vuotias joka kalastaa vieheellä tai pyydyksellä Suomessa maksaa valtion kalastonhoitomaksun, 47 € vuodelta, 16 € viikolta tai 6 € vuorokaudelta (eraluvat.fi). Se rahoittaa kantojen seurantaa, kunnostusta ja kalateiden rakentamista. Alle 18-vuotiaat ja 70 vuotta täyttäneet on vapautettu, ja yksinkertainen onginta ja pilkintä jokamiehenoikeudella on ilmaista.',
+          body: 'Jokainen 18–69-vuotias joka kalastaa vieheellä tai pyydyksellä Suomessa maksaa valtion kalastonhoitomaksun, 47 € vuodelta, 16 € viikolta tai 6 € vuorokaudelta (eraluvat.fi). Se rahoittaa kantojen seurantaa, kunnostusta ja kalateiden rakentamista. Alle 18-vuotiaat ja 70 vuotta täyttäneet on vapautettu, ja yksinkertainen onginta ja pilkintä jokamiehenoikeudella on ilmaista.',
         },
       ],
       feeNote: 'Säännöt ja päivämäärät päätetään uudelleen joka vuosi. Varmista aina voimassa oleva kausi, kiintiöt ja maksut virallisilta sivuilta ennen varaamista tai kalastusta.',
@@ -963,7 +963,7 @@ const fi: SectionCopy = {
       items: [
         {
           q: 'Kuinka monta järveä Suomessa on?',
-          a: 'Noin 188 000 vähintään 0,05 hehtaarin järveä ja lampea SYKEn valtakunnallisen järvirekisterin (Järvi-meriwiki) mukaan. Luku riippuu käytetystä kokorajasta, noin 57 000 järveä jos lasketaan vain yli hehtaarin kokoiset, joten otsikkoluku viittaa aina 0,05 hehtaarin rajaan. Lapin järvet ovat maan puhtaimpia.',
+          a: 'Noin 188 000 vähintään 0,05 hehtaarin järveä ja lampea SYKEn valtakunnallisen järvirekisterin (Järvi-meriwiki) mukaan. Luku riippuu käytetystä kokorajasta, noin 57 000 järveä jos lasketaan vain yli hehtaarin kokoiset, joten otsikkoluku viittaa aina 0,05 hehtaarin rajaan. Lapin järvet ovat maan puhtaimpia.',
         },
         {
           q: 'Onko Tornionjoki todella vapaana virtaava joki?',
@@ -979,7 +979,7 @@ const fi: SectionCopy = {
         },
         {
           q: 'Tarvitsenko luvan kalastaakseni Lapissa?',
-          a: 'Useimpaan viehe- ja pyydyskalastukseen kyllä: 18–69-vuotiaat maksavat valtion kalastonhoitomaksun (47 € vuosi, 16 € viikko, 6 € vuorokausi, eraluvat.fi kautta), ja monet vedet vaativat lisäksi erillisen alueluvan. Yksinkertainen onginta ja pilkintä jokamiehenoikeudella on ilmaista, ja alle 18-vuotiaat sekä 70 vuotta täyttäneet on vapautettu valtion maksusta.',
+          a: 'Useimpaan viehe- ja pyydyskalastukseen kyllä: 18–69-vuotiaat maksavat valtion kalastonhoitomaksun (47 € vuosi, 16 € viikko, 6 € vuorokausi, eraluvat.fi kautta), ja monet vedet vaativat lisäksi erillisen alueluvan. Yksinkertainen onginta ja pilkintä jokamiehenoikeudella on ilmaista, ja alle 18-vuotiaat sekä 70 vuotta täyttäneet on vapautettu valtion maksusta.',
         },
       ],
     },
