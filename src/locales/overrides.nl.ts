@@ -389,7 +389,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
     matchH3: 'Stem het seizoen af op de reis',
     matchLead: 'Noorderlichtjagen hoort bij de kaamos. Berenkijken hoort bij de zomer. Hetta–Pallas op het hoogtepunt van de ruska levert de mooiste foto\'s van uw leven. Kies eerst het seizoen, dan pas de reis, niet andersom.',
     seasonalBaseCta: 'Zoek een seizoensbasis',
-    seasonMatchedCta: 'Op het seizoen afgestemde ervaringen',
+    seasonMatchedCta: 'Seizoenservaringen',
     crossLinks: {
       aurora: 'Noorderlichtseizoen →',
       ruska: 'Ruska-wandelen →',
@@ -590,7 +590,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
         },
       ],
       feeNote: 'Regels en data worden elk jaar opnieuw vastgesteld. Bevestig altijd het geldende seizoen, de quota en de heffingen op de officiële pagina\'s voordat u boekt of gaat vissen.',
-      pillarCta: 'Plan een visreis (activiteitengids)',
+      pillarCta: 'Plan een visreis',
     },
     finalKicker: 'Bescherm het, geniet er dan van',
     finalH2: 'Het water is het beschermen waard',

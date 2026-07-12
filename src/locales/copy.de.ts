@@ -623,7 +623,7 @@ const de: SectionCopy = {
     matchH3: 'Jahreszeit zur Reise wählen',
     matchLead: 'Nordlicht-Jagd gehört zur Polarnacht. Bärenbeobachtung zum Sommer. Hetta–Pallas zur Ruska-Hochzeit sind die besten Fotos Ihres Lebens. Wählen Sie zuerst die Jahreszeit, dann die Reise, nicht umgekehrt.',
     seasonalBaseCta: 'Saisonale Basis finden',
-    seasonMatchedCta: 'Saisongerechte Erlebnisse',
+    seasonMatchedCta: 'Saison-Erlebnisse',
     crossLinks: {
       aurora: 'Nordlicht-Saison →',
       ruska: 'Ruska-Wandern →',
@@ -946,7 +946,7 @@ const de: SectionCopy = {
         },
       ],
       feeNote: 'Regeln und Termine werden jedes Jahr neu festgelegt. Bestätigen Sie stets die aktuelle Saison, Quoten und Gebühren auf den offiziellen Seiten, bevor Sie buchen oder angeln.',
-      pillarCta: 'Eine Angelreise planen (Aktivitäten-Guide)',
+      pillarCta: 'Eine Angelreise planen',
     },
     finalKicker: 'Erst schützen, dann genießen',
     finalH2: 'Das Wasser ist es wert, geschützt zu werden',

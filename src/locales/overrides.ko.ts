@@ -590,7 +590,7 @@ export const KO_OVERRIDES: DeepPartial<SectionCopy> = {
         },
       ],
       feeNote: '규정과 날짜는 매년 다시 정해집니다. 예약하거나 낚시하기 전에 항상 공식 페이지에서 현행 시즌, 할당량, 수수료를 확인하세요.',
-      pillarCta: '낚시 여행 계획하기(액티비티 가이드)',
+      pillarCta: '낚시 여행 계획하기',
     },
     finalKicker: '지키고 나서 즐기세요',
     finalH2: '이 물은 지킬 가치가 있다',

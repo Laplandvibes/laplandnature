@@ -389,7 +389,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
     matchH3: 'Abbini la stagione al viaggio',
     matchLead: 'La caccia all\'aurora appartiene al kaamos. L\'avvistamento degli orsi appartiene all\'estate. Hetta–Pallas al culmine del ruska regala le foto più belle della Sua vita. Prima scelga la stagione, poi il viaggio, non viceversa.',
     seasonalBaseCta: 'Trova una base stagionale',
-    seasonMatchedCta: 'Esperienze in base alla stagione',
+    seasonMatchedCta: 'Esperienze di stagione',
     crossLinks: {
       aurora: 'Stagione dell\'aurora →',
       ruska: 'Trekking al ruska →',
@@ -590,7 +590,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
         },
       ],
       feeNote: 'Regole e date vengono ridecise ogni anno. Verifica sempre stagione, quote e canoni in vigore sulle pagine ufficiali prima di prenotare o pescare.',
-      pillarCta: 'Pianifica un viaggio di pesca (guida alle attività)',
+      pillarCta: 'Pianifica un viaggio di pesca',
     },
     finalKicker: 'Proteggila, poi goditela',
     finalH2: 'L\'acqua vale la pena di essere protetta',

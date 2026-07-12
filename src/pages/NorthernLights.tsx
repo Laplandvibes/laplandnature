@@ -66,9 +66,9 @@ export default function NorthernLights() {
 
       <section className="pt-12 sm:pt-16 pb-8 px-4 sm:px-6">
         <div className="max-w-4xl mx-auto">
-          <div className="inline-flex items-center gap-3 bg-aurora-green/10 border border-aurora-green/25 rounded-full px-4 py-2.5">
-            <Calendar className="w-4 h-4 text-aurora-green" />
-            <span className="text-deep-night/80 text-sm">
+          <div className="inline-flex items-start gap-3 bg-aurora-green/10 border border-aurora-green/25 rounded-2xl px-4 py-2.5">
+            <Calendar className="w-4 h-4 text-aurora-green shrink-0 mt-0.5" />
+            <span className="text-deep-night/80 text-sm leading-snug">
               {c.bestSeason} <span className="font-semibold text-aurora-green">{c.bestSeasonValue}</span>{c.bestSeasonSuffix}
             </span>
           </div>

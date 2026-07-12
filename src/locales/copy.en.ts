@@ -623,7 +623,7 @@ const en: SectionCopy = {
     matchH3: 'Match the season to the trip',
     matchLead: "Aurora chasing belongs to kaamos. Bear-watching belongs to summer. Hetta–Pallas at ruska peak is the best photographs you'll take in your life. Pick the season, then the trip, not the other way round.",
     seasonalBaseCta: 'Find a seasonal base',
-    seasonMatchedCta: 'Season-matched experiences',
+    seasonMatchedCta: 'Seasonal experiences',
     crossLinks: {
       aurora: 'Aurora season →',
       ruska: 'Ruska hiking →',
@@ -946,7 +946,7 @@ const en: SectionCopy = {
         },
       ],
       feeNote: "Rules and dates are re-decided every year. Always confirm the current season, quotas and fees on the official pages before booking or fishing.",
-      pillarCta: 'Plan a fishing trip (activities guide)',
+      pillarCta: 'Plan a fishing trip',
     },
     finalKicker: 'Protect it, then enjoy it',
     finalH2: 'The water is worth protecting',

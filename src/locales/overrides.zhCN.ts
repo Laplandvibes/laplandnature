@@ -625,7 +625,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
         },
       ],
       feeNote: '规则与日期每年都会重新确定。在预订或垂钓前，请务必在官方页面上确认当前的季节、配额和费用。',
-      pillarCta: '规划一次垂钓之旅（活动指南）',
+      pillarCta: '规划一次垂钓之旅',
     },
     finalKicker: '先守护，再享受',
     finalH2: '这片水值得守护',
