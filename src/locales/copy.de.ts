@@ -924,9 +924,9 @@ const de: SectionCopy = {
       body2: 'Die Wurzeln von Bäumen und Sträuchern binden den Boden des Einzugsgebiets, sodass Regen versickert, statt die Ufer auszuwaschen und Schlick auf den Kies zu spülen, wo Fische laichen. Alter Wald mit seinen tiefen Wurzelsystemen und langsam verrottendem Totholz ist Teil des Wasserkreislaufs, nicht davon getrennt. Den Wald zu schützen heißt, den Fluss zu schützen.',
     },
     fish: {
-      kicker: 'Flussabwärts von allem',
-      title: 'Fischbestände: das System führt Buch',
-      lead: 'Fische sind das ehrliche Zeugnis für alles darüber. Wenn Seen, Flüsse, Moore und Wälder gesund sind, ist das Angeln gut; wenn nicht, verschwinden die Fische zuerst. Vier Geschichten von Lapplands Flüssen zeigen, wie eng beides zusammenhängt.',
+      kicker: "Fischbestände",
+      title: "Die Fischbestände zeigen, wie es dem Wasser geht",
+      lead: "Wenn Seen, Flüsse, Moore und Wälder gesund sind, ist auch das Angeln gut — wenn nicht, verschwinden die Fische zuerst. Vier Beispiele von Lapplands Flüssen zeigen, wie direkt beides zusammenhängt.",
       stories: [
         {
           title: 'Der Teno: gesperrt zum Schutz des Lachses',

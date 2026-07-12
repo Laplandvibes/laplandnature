@@ -568,9 +568,9 @@ export const FR_OVERRIDES: DeepPartial<SectionCopy> = {
       body2: 'Les racines des arbres et des arbustes fixent le sol du bassin versant, si bien que la pluie s\'infiltre au lieu de raviner les berges et de déverser du limon sur les graviers où fraient les poissons. La forêt ancienne, avec ses systèmes racinaires profonds et son bois mort à décomposition lente, fait partie du cycle de l\'eau, elle n\'en est pas séparée. Protéger la forêt, c\'est protéger la rivière.',
     },
     fish: {
-      kicker: 'En aval de tout cela',
-      title: 'Les stocks de poissons : le système qui tient les comptes',
-      lead: 'Les poissons sont le bulletin de notes honnête de tout ce qui précède. Quand les lacs, les rivières, les tourbières et les forêts se portent bien, la pêche est bonne ; quand ce n\'est pas le cas, les poissons disparaissent en premier. Quatre récits des rivières de Laponie montrent à quel point les deux sont liés.',
+      kicker: "Stocks de poissons",
+      title: "Les poissons reflètent l'état de l'eau",
+      lead: "Quand les lacs, les rivières, les tourbières et les forêts sont en bonne santé, la pêche est bonne — sinon, les poissons disparaissent en premier. Quatre exemples tirés des rivières de Laponie montrent à quel point tout est lié.",
       stories: [
         {
           title: 'Le Teno : fermé pour protéger le saumon',

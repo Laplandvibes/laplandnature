@@ -603,9 +603,9 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
       body2: 'As raízes de árvores e arbustos fixam o solo da bacia, de modo que a chuva se infiltra em vez de erodir as margens e despejar lodo sobre o cascalho onde os peixes desovam. A floresta primária, com seus sistemas de raízes profundas e sua madeira morta de decomposição lenta, faz parte do ciclo da água, não é separada dele. Proteger a floresta é proteger o rio.',
     },
     fish: {
-      kicker: 'Rio abaixo de tudo isso',
-      title: 'Estoques de peixes: o sistema que faz o placar',
-      lead: 'Os peixes são o boletim honesto de tudo o que está acima. Quando os lagos, rios, turfeiras e florestas estão saudáveis, a pesca é boa; quando não estão, os peixes desaparecem primeiro. Quatro histórias dos rios da Lapônia mostram o quanto os dois estão ligados.',
+      kicker: "Estoques de peixes",
+      title: "Os peixes mostram o estado da água",
+      lead: "Quando lagos, rios, turfeiras e florestas estão saudáveis, a pesca é boa — quando não estão, os peixes são os primeiros a desaparecer. Quatro exemplos dos rios da Lapônia mostram como as duas coisas estão ligadas.",
       stories: [
         {
           title: 'O Teno: fechado para proteger o salmão',

@@ -890,7 +890,7 @@ const fi: SectionCopy = {
   },
   freshwater: {
     metaTitle: 'Lapin vesistöt: järvet, joet, aavat ja kalat',
-    metaDescription: 'Suomessa on noin 188 000 järveä ja lampea (SYKE). Lapissa niistä on osa puhtaimpia, lisäksi säännöstelemätön Tornion–Muonionjoen vesistö, aapasuot ja metsät jotka pitävät veden kylmänä. Miksi puhdas vesi on alueen harvinaisin voimavara.',
+    metaDescription: 'Suomessa on noin 188 000 järveä ja lampea (SYKE), ja Lapin vedet ovat maan puhtaimpia. Säännöstelemätön Tornion–Muonionjoki, aapasuot ja metsät pitävät veden kylmänä — siksi puhdas vesi on alueen tärkein voimavara.',
     hero: {
       eyebrow: 'Lapin vedet',
       title: 'Lapin vesistöt',
@@ -900,33 +900,33 @@ const fi: SectionCopy = {
     },
     introKicker: 'Miksi vesi ensin',
     introH2: 'Puhdas vesi on koko juttu',
-    introLead: 'Jokainen kala, jokainen poro, jokainen marjasato Lapissa on riippuvainen samasta vedestä joka liikkuu saman maiseman läpi. Suomessa on noin 188 000 vähintään 0,05 hehtaarin järveä ja lampea (SYKEn järvirekisteri), ja pohjoisessa niistä on osa vähiten häirittyjä. Kun kohtelee järviä, jokia, soita ja metsiä yhden elävän järjestelmän neljänä osana, syy suojella niitä käy ilmeiseksi: menetä vesi ja menetät kaiken sen alapuolelta.',
+    introLead: 'Jokainen kala, jokainen poro, jokainen marjasato Lapissa on riippuvainen samasta vedestä joka liikkuu saman maiseman läpi. Suomessa on noin 188 000 vähintään 0,05 hehtaarin järveä ja lampea (SYKEn järvirekisteri), ja pohjoisen vedet ovat maan luonnontilaisimpia. Järvet, joet, suot ja metsät ovat saman elävän kokonaisuuden neljä osaa — ja juuri siksi niitä kannattaa suojella: jos vesi menetetään, menetetään kaikki muukin.',
     chaptersKicker: 'Neljä osaa',
     chaptersH2: 'Yksi järjestelmä, neljä osaa',
     lakes: {
       title: 'Järvet',
-      body1: 'Suomea kutsutaan usein tuhansien järvien maaksi, ja todellinen luku on paljon suurempi: noin 188 000 vähintään 0,05 hehtaarin järveä ja lampea SYKEn Järvi-meriwiki-rekisterin mukaan. Lapin järvet ovat kirkkaimpia, sulamisveden ja varjoisten valuma-alueiden ruokkimia eikä peltovalumien.',
+      body1: 'Suomea kutsutaan usein tuhansien järvien maaksi, ja todellinen luku on paljon suurempi: noin 188 000 vähintään 0,05 hehtaarin järveä ja lampea SYKEn Järvi-meriwiki-rekisterin mukaan. Lapin järvet ovat maan kirkkaimpia: niitä ruokkivat sulamisvedet ja varjoisat valuma-alueet, eivät peltojen valumavedet.',
       body2: 'Inarijärvi, saamelaisten kotiseudun sydämessä, on yksi Suomen suurimmista järvistä ja ruokkii Paatsjoen vesistöä joka laskee pohjoiseen kohti Jäämerta. Sen kylmä, happirikas vesi kantaa nieriää, taimenta ja siikaa, lajeja jotka viihtyvät vain siellä missä vesi pysyy kylmänä ja puhtaana.',
     },
     rivers: {
       title: 'Vapaana virtaavat joet',
-      body1: 'Useimmat suuret eurooppalaiset joet on padottu vesivoiman vuoksi. Tornion–Muonionjoen vesistö on yksi poikkeuksista: yhdessä Ruotsin Kalixjoen (Kalixälven) kanssa se on yksi vain kahdesta suuresta säännöstelemättömästä jokijärjestelmästä joka Suomessa ja EU:ssa on jäljellä (ymparisto.fi). Padottamaton joki saa vapaasti tulvia, siirtää soraa ja rakentaa uudelleen kutusoraikot joita lohi tarvitsee.',
+      body1: 'Useimmat suuret eurooppalaiset joet on padottu vesivoiman vuoksi. Tornion–Muonionjoen vesistö on yksi poikkeuksista: yhdessä Ruotsin Kalixjoen (Kalixälven) kanssa se on toinen EU:n kahdesta viimeisestä suuresta säännöstelemättömästä jokivesistöstä (ymparisto.fi). Padottamaton joki saa vapaasti tulvia, siirtää soraa ja rakentaa uudelleen kutusoraikot joita lohi tarvitsee.',
       body2: 'Juuri tuo vapaana virtaava tila on syy siihen että Tornionjoki on jälleen toimiva villilohijoki vuosikymmenten taantuman jälkeen. Sen pääsivujoki Ounasjoki on myös suojeltu vesivoiman padotukselta. Nämä eivät ole maisemallisia sattumia; ne ovat tietoisia valintoja jättää joki rauhaan, ja ne ovat syy siihen että kalaa on yhä pyydettävissä.',
     },
     mires: {
       title: 'Aapasuot',
-      body1: 'Suo ei ole joutomaata. Suomalaisessa vesiajattelussa suo on valuma-alueen munuainen: se varastoi sadetta ja sulamisvettä, päästää sen hitaasti kuivien kausien läpi ja suodattaa kiintoaineen ja ravinteet ennen kuin ne edes päätyvät jokeen. Kuivata suo ja alapuolinen joki juoksee ruskeampana, lämpimämpänä ja äkkiväärempänä, huonompana kutukaloille.',
+      body1: 'Suo ei ole joutomaata. Suomalaisessa vesiajattelussa suo on valuma-alueen munuainen: se varastoi sadetta ja sulamisvettä, päästää sen hitaasti kuivien kausien läpi ja suodattaa kiintoaineen ja ravinteet ennen kuin ne edes päätyvät jokeen. Jos suo kuivatetaan, alapuolinen joki virtaa ruskeampana, lämpimämpänä ja tulvaherkempänä — ja on kutukaloille huonompi.',
       body2: 'Lapin aapasuot, pohjoisen laajat kuvioidut nevat, ovat myös merkittäviä hiilivarastoja. Suomi suojelee kansainvälisesti arvokkaita kosteikkoja Ramsarin sopimuksen nojalla (49 kohdetta, ym.fi); Martimoaapa-Lumiaapa-Penikat, Ranuan lähellä sijaitseva aapasuokompleksi, on yksi tällainen kohde. Soiden pitäminen märkinä pitää sekä veden että ilmaston paremmassa kunnossa.',
     },
     forests: {
       title: 'Metsät ja valuma-alueet',
-      body1: 'Puron ympärillä oleva metsä tekee hiljaista, olennaista työtä. Sulkeutunut latvusto varjostaa vettä ja pitää sen kylmänä, ja kylmä vesi sitoo enemmän happea, juuri sitä mitä taimen ja nieriä tarvitsevat. Riisu puut rantaan asti ja vesi lämpenee, mikä heikentää kalakantaa ylhäältä alaspäin.',
+      body1: 'Puron ympärillä oleva metsä tekee hiljaista, olennaista työtä. Sulkeutunut latvusto varjostaa vettä ja pitää sen kylmänä, ja kylmä vesi sitoo enemmän happea, juuri sitä mitä taimen ja nieriä tarvitsevat. Jos rannat hakataan paljaiksi, vesi lämpenee ja kalakanta heikkenee latvavesiltä alkaen.',
       body2: 'Puiden ja pensaiden juuret sitovat valuma-alueen maaperää, joten sade imeytyy sen sijaan että se syövyttäisi rantoja ja kasaisi lietettä soraikoille joilla kalat kutevat. Vanha metsä syvine juuristoineen ja hitaasti lahoavine lahopuineen on osa vesikiertoa, ei siitä erillinen. Metsän suojeleminen on joen suojelemista.',
     },
     fish: {
-      kicker: 'Kaiken alapuolella',
-      title: 'Kalakannat: järjestelmä pitää kirjaa',
-      lead: 'Kalat ovat rehellinen tulostaulu kaikelle yläpuoliselle. Kun järvet, joet, suot ja metsät voivat hyvin, kalastus on hyvää; kun eivät, kalat katoavat ensimmäisenä. Neljä tarinaa Lapin joilta osoittaa miten tiiviisti nämä kaksi ovat sidoksissa.',
+      kicker: "Kalakannat",
+      title: "Kalakannat kertovat vesien kunnon",
+      lead: "Kun järvet, joet, suot ja metsät voivat hyvin, myös kalastus on hyvää — ja kun eivät, kalat katoavat ensimmäisinä. Neljä esimerkkiä Lapin joilta näyttää, miten suoraan nämä asiat liittyvät toisiinsa.",
       stories: [
         {
           title: 'Teno: suljettu lohen suojelemiseksi',
@@ -941,7 +941,7 @@ const fi: SectionCopy = {
           body: 'Kyttyrälohi (Oncorhynchus gorbuscha) on vieraslaji, kotoisin Tyynenmeren pohjoisosista ja levinnyt Pohjois-Norjaan ja Tenolle noin vuodesta 2017. Määrät heittelevät rajusti vuodesta toiseen ja se kilpailee kotoperäisen lohen kanssa. Suomi luokittelee sen haitalliseksi vieraslajiksi (vieraslajit.fi); Luke seuraa joka kauden nousua.',
         },
         {
-          title: 'Maksu joka rahoittaa kalat',
+          title: 'Maksu, joka rahoittaa kalakantojen hoidon',
           body: 'Jokainen 18–69-vuotias joka kalastaa vieheellä tai pyydyksellä Suomessa maksaa valtion kalastonhoitomaksun, 47 € vuodelta, 16 € viikolta tai 6 € vuorokaudelta (eraluvat.fi). Se rahoittaa kantojen seurantaa, kunnostusta ja kalateiden rakentamista. Alle 18-vuotiaat ja 70 vuotta täyttäneet on vapautettu, ja yksinkertainen onginta ja pilkintä jokamiehenoikeudella on ilmaista.',
         },
       ],
@@ -950,7 +950,7 @@ const fi: SectionCopy = {
     },
     finalKicker: 'Suojele ensin, nauti sitten',
     finalH2: 'Vesi on suojelemisen arvoista',
-    finalLead: 'Puhdasta kylmää vettä ei voi ostaa; sen voi vain säilyttää tai menettää. Valitse toimijoita jotka kalastavat rajojen sisällä, pysy merkityillä reiteillä herkkien soiden yli ja jätä rannat ja metsä sellaisiksi kuin ne löysit. Paras yksittäinen asia jonka kävijä voi tehdä Lapin kalojen hyväksi on kohdella sen vettä ylellisyytenä jota se on.',
+    finalLead: 'Puhdasta kylmää vettä ei voi ostaa; sen voi vain säilyttää tai menettää. Valitse toimijoita jotka kalastavat rajojen sisällä, pysy merkityillä reiteillä herkkien soiden yli ja jätä rannat ja metsä sellaisiksi kuin ne löysit. Paras yksittäinen asia jonka kävijä voi tehdä Lapin kalojen hyväksi on kohdella vettä sinä harvinaisuutena, joka se on.',
     crossLinks: {
       conservation: 'Kuka suojelee erämaata →',
       wildlife: 'Eläimistö jota se ylläpitää →',
@@ -963,11 +963,11 @@ const fi: SectionCopy = {
       items: [
         {
           q: 'Kuinka monta järveä Suomessa on?',
-          a: 'Noin 188 000 vähintään 0,05 hehtaarin järveä ja lampea SYKEn valtakunnallisen järvirekisterin (Järvi-meriwiki) mukaan. Luku riippuu käytetystä kokorajasta, noin 57 000 järveä jos lasketaan vain yli hehtaarin kokoiset, joten otsikkoluku viittaa aina 0,05 hehtaarin rajaan. Lapissa on osa niistä puhtaimpia.',
+          a: 'Noin 188 000 vähintään 0,05 hehtaarin järveä ja lampea SYKEn valtakunnallisen järvirekisterin (Järvi-meriwiki) mukaan. Luku riippuu käytetystä kokorajasta, noin 57 000 järveä jos lasketaan vain yli hehtaarin kokoiset, joten otsikkoluku viittaa aina 0,05 hehtaarin rajaan. Lapin järvet ovat maan puhtaimpia.',
         },
         {
           q: 'Onko Tornionjoki todella vapaana virtaava joki?',
-          a: 'Kyllä. Yhdessä Ruotsin Kalixjoen (Kalixälven) kanssa Tornion–Muonionjoen vesistö on yksi vain kahdesta suuresta säännöstelemättömästä jokijärjestelmästä joka Suomessa ja EU:ssa on jäljellä (ymparisto.fi), eli sitä ei ole padottu vesivoiman vuoksi. Sen pääsivujoki Ounasjoki on myös suojeltu padotukselta. Tuo padottamaton tila on syy siihen että se on yhä toimiva villilohijoki.',
+          a: 'Kyllä. Yhdessä Ruotsin Kalixjoen (Kalixälven) kanssa Tornion–Muonionjoen vesistö on toinen EU:n kahdesta viimeisestä suuresta säännöstelemättömästä jokivesistöstä (ymparisto.fi) — sitä ei ole padottu vesivoiman vuoksi. Sen pääsivujoki Ounasjoki on myös suojeltu padotukselta. Tuo padottamaton tila on syy siihen että se on yhä toimiva villilohijoki.',
         },
         {
           q: 'Miksi aapasuot ovat tärkeitä kalastukselle?',

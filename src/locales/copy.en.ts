@@ -924,9 +924,9 @@ const en: SectionCopy = {
       body2: "Tree and shrub roots bind the soil of the catchment, so rain sinks in instead of scouring the banks and dumping silt onto the gravel where fish spawn. Old-growth forest, with its deep root systems and slow-rotting deadwood, is part of the water cycle, not separate from it. Protecting the forest is protecting the river.",
     },
     fish: {
-      kicker: 'Downstream of all of it',
-      title: 'Fish stocks: the system keeping score',
-      lead: "Fish are the honest scorecard for everything above. When the lakes, rivers, mires and forests are healthy the fishing is good; when they are not, the fish disappear first. Four stories from Lapland's rivers show how closely the two are tied.",
+      kicker: "Fish stocks",
+      title: "Fish stocks show how the water is doing",
+      lead: "When lakes, rivers, mires and forests are in good shape, fishing is good too — and when they are not, the fish are the first to disappear. Four examples from Lapland's rivers show how directly these are connected.",
       stories: [
         {
           title: 'The Teno: closed to protect the salmon',

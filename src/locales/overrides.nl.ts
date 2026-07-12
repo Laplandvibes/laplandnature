@@ -568,9 +568,9 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
       body2: 'De wortels van bomen en struiken binden de bodem van het stroomgebied, zodat regen wegzakt in plaats van de oevers uit te schuren en slib te storten op het grind waar vissen paaien. Oerbos, met zijn diepe wortelstelsels en traag verterend dood hout, maakt deel uit van de waterkringloop, staat er niet los van. Het bos beschermen is de rivier beschermen.',
     },
     fish: {
-      kicker: 'Stroomafwaarts van dit alles',
-      title: 'Visbestanden: het systeem dat de stand bijhoudt',
-      lead: 'Vis is de eerlijke rapportkaart van alles hierboven. Wanneer de meren, rivieren, venen en bossen gezond zijn, is het vissen goed; wanneer dat niet zo is, verdwijnt de vis het eerst. Vier verhalen uit de rivieren van Lapland laten zien hoe nauw de twee met elkaar verweven zijn.',
+      kicker: "Visbestanden",
+      title: "De visstand laat zien hoe het water ervoor staat",
+      lead: "Als meren, rivieren, venen en bossen gezond zijn, is het vissen goed — zo niet, dan verdwijnen de vissen het eerst. Vier voorbeelden uit de rivieren van Lapland laten zien hoe direct dat verband is.",
       stories: [
         {
           title: 'De Teno: gesloten om de zalm te beschermen',

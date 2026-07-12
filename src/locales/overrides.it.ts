@@ -568,9 +568,9 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
       body2: 'Le radici di alberi e arbusti trattengono il suolo del bacino, così la pioggia si infiltra invece di erodere le rive e riversare limo sulla ghiaia dove i pesci depongono le uova. La foresta vetusta, con le sue radici profonde e il legno morto a lenta decomposizione, fa parte del ciclo dell\'acqua, non ne è separata. Proteggere la foresta significa proteggere il fiume.',
     },
     fish: {
-      kicker: 'A valle di tutto questo',
-      title: 'Gli stock ittici: il sistema che tiene il punteggio',
-      lead: 'I pesci sono la pagella onesta di tutto ciò che sta sopra. Quando laghi, fiumi, torbiere e foreste sono in salute la pesca è buona; quando non lo sono, i pesci scompaiono per primi. Quattro storie dai fiumi della Lapponia mostrano quanto strettamente le due cose siano legate.',
+      kicker: "Stock ittici",
+      title: "I pesci rivelano lo stato dell'acqua",
+      lead: "Quando laghi, fiumi, torbiere e foreste sono in salute, anche la pesca è buona — quando non lo sono, i pesci spariscono per primi. Quattro esempi dai fiumi della Lapponia mostrano quanto le due cose siano legate.",
       stories: [
         {
           title: 'Il Teno: chiuso per proteggere il salmone',

@@ -693,9 +693,9 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
       body2: 'Las raíces de árboles y arbustos fijan el suelo de la cuenca, de modo que la lluvia se infiltra en lugar de socavar las orillas y verter limo sobre la grava donde desovan los peces. El bosque antiguo, con sus profundos sistemas de raíces y su madera muerta de lenta descomposición, forma parte del ciclo del agua, no está separado de él. Proteger el bosque es proteger el río.',
     },
     fish: {
-      kicker: 'Aguas abajo de todo ello',
-      title: 'Las poblaciones de peces: el sistema que lleva la cuenta',
-      lead: 'Los peces son el boletín de notas honesto de todo lo anterior. Cuando los lagos, ríos, turberas y bosques están sanos, la pesca es buena; cuando no lo están, los peces desaparecen primero. Cuatro historias de los ríos de Laponia muestran lo estrechamente ligadas que están ambas cosas.',
+      kicker: "Poblaciones de peces",
+      title: "Los peces reflejan el estado del agua",
+      lead: "Cuando los lagos, los ríos, las turberas y los bosques están sanos, la pesca es buena — y cuando no, los peces son los primeros en desaparecer. Cuatro ejemplos de los ríos de Laponia muestran lo directamente que ambas cosas están unidas.",
       stories: [
         {
           title: 'El Teno: cerrado para proteger al salmón',
