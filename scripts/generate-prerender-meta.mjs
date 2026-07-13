@@ -33,7 +33,7 @@ const ROUTES_FILE = resolve(__dirname, 'routes.json');
 
 // Keep in sync with ../_prerender_routes.mjs FULL_LOCALE_LIST lang codes and
 // src/i18n/useLang.ts Lang union.
-const LANGS = ['en', 'fi', 'de', 'ja', 'es', 'pt-BR', 'zh-CN', 'ko', 'fr', 'it', 'nl'];
+const LANGS = ['en', 'fi', 'de', 'ja', 'es', 'pt-BR', 'zh-CN', 'ko', 'fr', 'it', 'nl', 'sv'];
 
 // routes.json path → COPY[lang] section key holding { metaTitle, metaDescription }.
 // Only routes whose meta lives in copy.ts are listed; anything not here keeps

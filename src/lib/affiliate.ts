@@ -17,7 +17,7 @@ export type Partner =
   | 'activities'
 
 
-export type Lang = "en" | "fi" | "de" | "ja" | "es" | "pt-BR" | "zh-CN" | "ko" | "fr" | "it" | "nl";
+export type Lang = "en" | "fi" | "de" | "ja" | "es" | "pt-BR" | "zh-CN" | "ko" | "fr" | "it" | "nl" | "sv";
 
 const HOTELS_LOCALE: Record<Lang, string> = {
   en: "en_US",
@@ -31,6 +31,7 @@ const HOTELS_LOCALE: Record<Lang, string> = {
   fr: "fr_FR",
   it: "it_IT",
   nl: "nl_NL",
+  sv: "sv_SE",
 };
 
 const CARS_LANG: Record<Lang, string> = {
@@ -45,6 +46,7 @@ const CARS_LANG: Record<Lang, string> = {
   fr: "fr",
   it: "it",
   nl: "nl",
+  sv: "sv",
 };
 
 const GYG_DOMAIN: Record<Lang, string> = {
@@ -60,6 +62,8 @@ const GYG_DOMAIN: Record<Lang, string> = {
   fr: "https://www.getyourguide.fr",
   it: "https://www.getyourguide.it",
   nl: "https://www.getyourguide.nl",
+  // GYG has no dedicated .se — fallback to .com + ?language=sv.
+  sv: "https://www.getyourguide.com",
 };
 
 export interface BuildAffiliateOptions {
@@ -95,6 +99,7 @@ export function buildAffiliateUrl({
     if (lang === "ko") url.searchParams.set("language", "ko");
     if (lang === "it") url.searchParams.set("language", "it");
     if (lang === "nl") url.searchParams.set("language", "nl");
+    if (lang === "sv") url.searchParams.set("language", "sv");
     if (query) {
       for (const [k, v] of Object.entries(query)) {
         if (v !== undefined && v !== null && v !== "") {
@@ -183,7 +188,7 @@ export function gygSearchUrl(place: string, sid: string, lang: Lang = 'en'): str
   url.searchParams.set('partner_id', GYG_PARTNER_ID)
   url.searchParams.set('cmp', `lv_${SITE_ID}_${sid}`)
   const langParam: Partial<Record<Lang, string>> = {
-    fi: 'fi', ja: 'ja', es: 'es', 'pt-BR': 'pt', 'zh-CN': 'zh', ko: 'ko', it: 'it', nl: 'nl',
+    fi: 'fi', ja: 'ja', es: 'es', 'pt-BR': 'pt', 'zh-CN': 'zh', ko: 'ko', it: 'it', nl: 'nl', sv: 'sv',
   }
   if (langParam[lang]) url.searchParams.set('language', langParam[lang] as string)
   return url.toString()

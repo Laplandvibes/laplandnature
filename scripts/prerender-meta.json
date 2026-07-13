@@ -43,6 +43,10 @@
     "nl": {
       "title": "Natuur van Lapland: parken en noorderlicht | LaplandNature",
       "description": "De Arctische natuur van Fins Lapland, vijf nationale parken, meer dan 200 nachten noorderlicht per jaar, kaamos (poolnacht) en wandelpaden van 5 tot 82 km."
+    },
+    "sv": {
+      "title": "Lapplands natur 2026: norrsken, parker och djurliv",
+      "description": "Finska Lapplands arktiska vildmark, fem nationalparker, 200+ norrskensnätter, kaamos-polarnatten och vandringsleder från 5 km till 82 km. Planera din vildmarksresa."
     }
   },
   "/conservation": {
@@ -331,6 +335,32 @@
           "a": "Slaap waar de lokale economie het nodig heeft, Sámi-eigen rendierboerderijen, familiebedrijfjes als pensions en vergunde wildernishutten en kies aanbieders die beren, wolven en poolvossen levend waardevoller maken dan dood. Voer al uw afval af, blijf op vlonderpaden in kwetsbaar fjell-terrein en volg de seizoensregels voor vuur en wilde dieren."
         }
       ]
+    },
+    "sv": {
+      "title": "Naturvård i Lappland: vem som skyddar vildmarken",
+      "description": "Metsähallitus förvaltar 85 % av Lapplands fjällområden och alla sju nationalparker. Plus SLL, WWF Finland, Sametinget och allemansrätten som låter alla nå naturen ansvarsfullt.",
+      "faq": [
+        {
+          "q": "Vad är allemansrätten (jokamiehenoikeudet) i Finland?",
+          "a": "Allemansrätten (jokamiehenoikeudet) låter alla vandra, åka skidor, bada, plocka bär och svamp och tälta kort över nästan all mark, även privat skog, utan att fråga om lov eller betala. Motprestationen är ansvar: lämna inga spår, håll dig undan hem och grödor, stör inte djurlivet och gör upp eld endast på utmärkta platser."
+        },
+        {
+          "q": "Får man göra upp lägereld i Lappland?",
+          "a": "Bara på anvisade eldplatser, och inte när en varning för skogsbrand (metsäpalovaroitus) gäller. Meteorologiska institutet utfärdar varningen under torrperioder, och så länge den står är all öppen eld förbjuden, även på markerade eldstäder. Kontrollera alltid den aktuella varningen innan du lämnar en väg, och använd ett friluftskök om du är osäker."
+        },
+        {
+          "q": "Vem förvaltar Lapplands nationalparker och vildmark?",
+          "a": "Metsähallitus (Forststyrelsen, Parker & Vilt Finland), den statliga instansen, förvaltar ungefär 85 % av Lapplands fjällområden och alla nationalparker, och sköter leder, vildmarksstugor och besökscentrum. Påverkansarbetet för naturvård kommer från Finlands naturskyddsförbund (SLL) och WWF Finland, medan Sametinget har självstyre över samiska kultur- och miljöfrågor i norr."
+        },
+        {
+          "q": "Har renar företräde på Lapplands vägar?",
+          "a": "I praktiken ja, sakta rejält ner. De ungefär 200 000 renarna i Lappland ägs, de är inte vilda, och de vandrar fritt ut på vägarna, särskilt i skymningen. Ser du en, räkna med fler i närheten. Vid renstängsel (poroaita), stäng alltid varje grind du öppnar efter dig."
+        },
+        {
+          "q": "Hur kan jag resa ansvarsfullt i Lappland?",
+          "a": "Sov där den lokala ekonomin behöver det, samiskägda rengårdar, familjedrivna gästhem och vildmarksstugor med licens och välj aktörer som gör björnar, vargar och fjällrävar mer värda levande än döda. Bär ut allt ditt avfall, håll dig på spängerna i känslig fjällterräng och följ säsongsreglerna för eld och djurliv."
+        }
+      ]
     }
   },
   "/cookie-policy": {
@@ -377,6 +407,10 @@
     "nl": {
       "title": "Cookiebeleid, LaplandNature",
       "description": "Welke cookies LaplandNature.com gebruikt, waarom, en hoe u ze beheert. AVG / ePrivacy-conforme cookieverklaringen van Lapeso Oy."
+    },
+    "sv": {
+      "title": "Cookiepolicy, LaplandNature",
+      "description": "Vilka cookies LaplandNature.com använder, varför, och hur du hanterar dem. GDPR / ePrivacy-förenliga cookieförklaringar från Lapeso Oy."
     }
   },
   "/editorial-policy": {
@@ -423,6 +457,10 @@
     "nl": {
       "title": "Redactioneel beleid, LaplandNature",
       "description": "Hoe LaplandNature zijn natuurgidsen over Lapland onderzoekt, schrijft en verifieert. Onafhankelijkheidsbeleid en omgang met affiliate-inkomsten."
+    },
+    "sv": {
+      "title": "Redaktionell policy, LaplandNature",
+      "description": "Hur LaplandNature researchar, skriver och verifierar sina naturguider om Lappland. Oberoendepolicy och hur vi hanterar affiliateintäkter."
     }
   },
   "/freshwater": {
@@ -709,6 +747,32 @@
         {
           "q": "Heb ik een vergunning nodig om te vissen in Lapland?",
           "a": "Voor het meeste vissen met kunstaas en vistuig wel: hengelaars van 18 tot 69 jaar betalen de nationale visbeheerheffing (47 € per jaar, 16 € per week, 6 € per dag, via eraluvat.fi), en veel wateren vragen daarbovenop een aparte gebiedsvergunning. Eenvoudig hengelen en ijsvissen onder het natuurrecht is gratis, en wie jonger is dan 18 of 70 jaar en ouder is vrijgesteld van de nationale heffing."
+        }
+      ]
+    },
+    "sv": {
+      "title": "Sötvatten i Lappland: sjöar, älvar, myrar och fisk",
+      "description": "Finland har ungefär 188 000 sjöar och dammar (SYKE). Lappland rymmer några av de renaste, plus det oreglerade Torne–Muonio-älvsystemet, aapamyrar och skogarna som håller vattnet kallt. Varför rent vatten är regionens mest sällsynta tillgång.",
+      "faq": [
+        {
+          "q": "How many lakes does Finland have?",
+          "a": "Around 188,000 lakes and ponds of at least 0.05 hectares, according to SYKE's national lake register (Järvi-meriwiki). The count depends on the size threshold used, roughly 57,000 lakes if you only count those larger than one hectare, so the headline figure always refers to the 0.05-hectare cut-off. Lapland holds some of the cleanest of them."
+        },
+        {
+          "q": "Is the Tornio really a free-flowing river?",
+          "a": "Yes. Together with Sweden's Kalix (Kalixälven), the Tornio-Muonio system is one of only two large unregulated river systems left in Finland and the EU, according to ymparisto.fi, meaning it has not been dammed for hydropower. Its main tributary, the Ounasjoki, is also protected from damming. That undammed state is why it is still a working wild-salmon river."
+        },
+        {
+          "q": "Why do aapa mires matter for fishing?",
+          "a": "A mire acts like the kidney of a watershed: it stores meltwater and rain, releases it slowly through dry spells, and filters out sediment and nutrients before they reach a river. That keeps the water downstream cold, clear and steady, which is exactly what spawning salmon and trout need. Draining mires makes rivers warmer and siltier and weakens the fishery."
+        },
+        {
+          "q": "Can I fish for salmon on the Teno in 2026?",
+          "a": "No. Atlantic-salmon fishing on the Teno (Tenojoki) is prohibited for 2026 under the Finland-Norway Teno fishing-agreement protocol, in force through 31 December 2026, because the salmon stocks are too weak. A permit for other species is available, but salmon must be left alone. Always check the current rules at tenonkalatalousalue.fi before travelling."
+        },
+        {
+          "q": "Do I need a permit to fish in Lapland?",
+          "a": "For most lure and gear fishing, yes: anglers aged 18-69 pay the national fisheries management fee (47 € year, 16 € week, 6 € day, via eraluvat.fi), and many waters need a separate area permit on top. Simple rod-and-line and ice fishing under Everyman's Right is free, and under-18s and those aged 70 and over are exempt from the national fee."
         }
       ]
     }
@@ -999,6 +1063,32 @@
           "a": "Half juni tot eind september is het hoofdseizoen. Juli biedt warm weer en de middernachtzon; begin tot half september brengt de ruska-kleuren en veel minder muggen, al zakken de nachten onder het vriespunt en worden vlonderpaden bij dageraad ijzig glad. Zomerhutten en veerdiensten varen doorgaans van begin juni tot eind september."
         }
       ]
+    },
+    "sv": {
+      "title": "Vandringsleder i Lappland: från 5 km dagsturer till 82 km",
+      "description": "Sex vandringsleder i finska Lappland, Hetta-Pallas (55 km), Karhunkierros (82 km), Halti-toppen (55 km) och tre kortare rutter. Distans, tid, svårighet och ledstartsbaser.",
+      "faq": [
+        {
+          "q": "Hur lång tid tar Karhunkierros (Björnleden)?",
+          "a": "Hela Karhunkierros är ungefär 82 km och de flesta vandrare går den på fyra till sex dagar, med sömn i vildmarksstugorna längs Oulanka-kanjonen. Starka vandrare gör den på fyra långa dagar; vill du ha tid vid forsarna, vattenfallen och hängbroarna, planera fem. Den kortare slingan Pieni Karhunkierros fångar höjdpunkterna på 12 km."
+        },
+        {
+          "q": "Vilken är den populäraste vandringsleden i Lappland?",
+          "a": "Den 55 km långa Hetta–Pallas-leden genom Pallas-Yllästunturis nationalpark är Finlands populäraste långdistansrutt. Den går nästan helt ovanför trädgränsen med öppna fjällvyer, och stugorna ligger på bekväma avstånd för etapper på tre till fyra dagar mellan Hetta och Pallas."
+        },
+        {
+          "q": "Måste man boka vildmarksstugor i förväg?",
+          "a": "Öppna vildmarksstugor (autiotupa) är gratis och först till kvarn, du kan inte reservera dem, och vid ruska-toppen i september kan de bli fulla redan mitt på eftermiddagen. Reserveringsstugor (varaustupa) måste bokas och betalas i förväg, oftast runt 14 € per brits, och är värda det för en garanterad plats på hårt trafikerade sträckor."
+        },
+        {
+          "q": "Hur hög är Finlands högsta punkt, och kan man vandra dit?",
+          "a": "Finlands högsta punkt ligger på Haltis sluttning på 1 324 m, djupt i Kilpisjärvis inland nära norska gränsen. Det är en seriös rutt på 55 km tur och retur över tre till fem dagar; den sista anmarschen är omarkerad och kräver verklig navigationsvana vid dålig sikt."
+        },
+        {
+          "q": "När är den bästa tiden att vandra i Lappland?",
+          "a": "Mitten av juni till slutet av september är huvudsäsongen. Juli bjuder på varmt väder och midnattssol; början till mitten av september ger ruska-färger och långt färre myggor, även om nätterna sjunker under noll och spänger blir isiga i gryningen. Sommarstugor och färjor går i regel från början av juni till slutet av september."
+        }
+      ]
     }
   },
   "/national-parks": {
@@ -1285,6 +1375,32 @@
         {
           "q": "Waar kunt u goud wassen in een nationaal park van Lapland?",
           "a": "Het nationale park Lemmenjoki is het hart van het goudwassen in Finland. Het rivierdal heeft een levend goudkoorts-erfgoed, met gemarkeerde wasplekken en vergunde claims langs de rivier de Lemmenjoki. In de zomer vaart een bootdienst een eind stroomopwaarts, waardoor de wasgebieden op een dagtocht bereikbaar zijn."
+        }
+      ]
+    },
+    "sv": {
+      "title": "Lapplands nationalparker: 5 vildmarker att vandra",
+      "description": "Finska Lapplands fem nationalparker, Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi och Pyhä-Luosto. Ingångsbyar, kännetecken och bästa tiden att besöka.",
+      "faq": [
+        {
+          "q": "Hur många nationalparker finns det i Lappland?",
+          "a": "Lappland rymmer fem av Finlands mest besökta vildmarksparker: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi och Pyhä-Luosto. Var och en har sin egen ingångsby att utgå från, från Saariselkä för Urho Kekkonen till Hetta och Muonio för Pallas-Yllästunturi."
+        },
+        {
+          "q": "Vilken är den största nationalparken i finska Lappland?",
+          "a": "Urho Kekkonens nationalpark är störst i Lappland med ungefär 2 550 km², och näst störst i hela Finland. Den sträcker sig från Saariselkä-fjällen österut in i djup väglös vildmark, med öppna fjäll, älvraviner och gammal tallskog."
+        },
+        {
+          "q": "Behöver man tillstånd eller inträdesavgift för Lapplands nationalparker?",
+          "a": "Nej. Finlands nationalparker är gratis att besöka och det finns inget tillstånd för vanlig vandring, dagsbesök eller övernattning i öppna vildmarksstugor. Vissa reserveringsstugor och bastur tar en liten avgift, och guidade aktiviteter eller guldvaskning vid Lemmenjoki har sina egna kostnader, men att gå lederna kostar ingenting."
+        },
+        {
+          "q": "När är den bästa tiden att besöka parkerna?",
+          "a": "Början till mitten av september för ruska-höstfärger, juni och juli för midnattssol och långa vandringsdagar, och februari till mars för snökrönta träd och turåkning på skidor, Riisitunturi är som mest slående under tung tykky sent på vintern. Sommarstugor och färjor går vanligtvis från början av juni till slutet av september."
+        },
+        {
+          "q": "Var kan man vaska guld i en nationalpark i Lappland?",
+          "a": "Lemmenjoki nationalpark är Finlands hjärtland för guldvaskning. Älvdalen har ett levande guldruscharv, med utmärkta vaskningsplatser och licensierade inmutningar längs Lemmenjoki-älven. En båttjänst går en bit uppför älven på sommaren, vilket gör vaskningsområdena nåbara på en dagstur."
         }
       ]
     }
@@ -1575,6 +1691,32 @@
           "a": "U kunt het zeker zelf zien als u een auto heeft, een donkere plek met een open noordelijke horizon en het geduld om te wachten tot de wolken openbreken. Een begeleide jacht verdient zijn prijs vooral door mobiliteit: lokale gidsen volgen de bewolkingsvoorspelling en verplaatsen zich door de regio, wat de slaagkans op grensgevallen-nachten verhoogt."
         }
       ]
+    },
+    "sv": {
+      "title": "Norrsken i Lappland: var och när du ser det",
+      "description": "Var du ser norrskenet i finska Lappland, Inari, Utsjoki, Kilpisjärvi och Enontekiö. Norrskenssäsong september till mars, mörkast under kaamos-polarnatten.",
+      "faq": [
+        {
+          "q": "Vilket Kp-index behöver jag för att se norrskenet i Lappland?",
+          "a": "Finska Lappland ligger under norrskensovalen, så du behöver inget högt Kp. Från Inari, Utsjoki eller Kilpisjärvi räcker ofta ett Kp på 1–2 för en synlig båge en klar, mörk natt; Kp 3–4 ger aktiva, rörliga ridåer. Längre söderut nära Rovaniemi vill du oftast ha Kp 3 eller högre. En klar himmel och en öppen horisont mot norr betyder mycket mer än att jaga en hög siffra."
+        },
+        {
+          "q": "Vilken månad har det starkaste norrskenet i Lappland?",
+          "a": "Mars är den starkaste enskilda månaden: himlen är mörk nog, nätterna fortfarande långa och den geomagnetiska aktiviteten toppar ofta kring vårdagjämningen. September är den andra bra perioden, mildare temperaturer och öppet vatten som speglar norrskenet innan sjöarna fryser. Hela säsongen löper från sent i augusti till tidigt i april."
+        },
+        {
+          "q": "Kan man se norrskenet från Rovaniemi?",
+          "a": "Ja, klara nätter med tillräcklig aktivitet, men Rovaniemi har mer ljusföroreningar och ligger längre söderut än de bästa platserna. Kör 10–20 km ut ur staden till en sjöstrand eller ett öppet fält så stiger dina chanser kraftigt. För högst träffsäkerhet, bo längre norrut i Inari, Saariselkä eller Utsjoki."
+        },
+        {
+          "q": "Vilken tid på natten är norrskenet mest aktivt?",
+          "a": "Fönstret mellan ungefär kl. 21 och 02 lokal tid är mest pålitligt, med aktiviteten som ofta toppar kring magnetisk midnatt (nära kl. 23–01 i Finland). Delstormar kan bryta ut när som helst, så det lönar sig att stanna ute genom en lugn stund, den aktiva fasen följer ofta på en svacka."
+        },
+        {
+          "q": "Måste man boka en tur, eller kan man se norrskenet på egen hand?",
+          "a": "Du kan absolut se det på egen hand om du har bil, en mörk plats med öppen horisont mot norr och tålamod att vänta på att molnen ska spricka upp. En guidad jakt tjänar in sitt pris främst genom rörlighet: lokala guider följer molnprognosen och flyttar sig genom regionen, vilket höjer chansen de nätter det står och väger."
+        }
+      ]
     }
   },
   "/privacy": {
@@ -1621,6 +1763,10 @@
     "nl": {
       "title": "Privacybeleid, LaplandNature",
       "description": "Hoe Lapeso Oy (LaplandNature) persoonsgegevens verwerkt: nieuwsbriefaanmeldingen, analytics en affiliate-cookies. AVG / ePrivacy-conform."
+    },
+    "sv": {
+      "title": "Integritetspolicy, LaplandNature",
+      "description": "Hur Lapeso Oy (LaplandNature) behandlar personuppgifter: nyhetsbrevsanmälningar, analys och affiliatecookies. GDPR / ePrivacy-förenligt."
     }
   },
   "/seasons": {
@@ -1909,6 +2055,32 @@
           "a": "Nee. Boven de poolcirkel gaat de zon rond midzomer niet onder, dus er is wekenlang geen echte nacht, alleen een zachte daling van het licht in de kleine uurtjes. Dat betekent dat noorderlicht kijken in juni en juli onmogelijk is; de hemel wordt simpelweg nooit donker genoeg."
         }
       ]
+    },
+    "sv": {
+      "title": "Lapplands fyra årstider: ruska, kaamos och midnattssol",
+      "description": "Varje årstid norr om polcirkeln är en annan värld, ruska-höstfärger, kaamos-polarnatt, midnattssol och vårsnöfönstret. När du ska komma, och vad du kan vänta dig.",
+      "faq": [
+        {
+          "q": "När är kaamos-polarnatten i Lappland?",
+          "a": "Kaamos, polarnatten, infaller ungefär från sent i november till mitten av januari. Ju längre norrut du kommer, desto längre varar den: i Utsjoki, Finlands nordligaste punkt, stannar solen under horisonten i omkring 51 dagar. Det är dock inte kolmörkt, snön speglar en lång blå-och-violett skymning mitt på varje dag, och det är den mest aktiva delen av norrskenssäsongen."
+        },
+        {
+          "q": "När inträffar midnattssolen i Lappland?",
+          "a": "Midnattssolen löper från ungefär början av juni till början av juli i större delen av Lappland, och längre ju längre norrut du är, i de nordligaste fjällen går solen aldrig helt ner på över 70 dygn i rad. Norr om polcirkeln kan du vandra, fiska eller paddla vid midnatt i fullt dagsljus."
+        },
+        {
+          "q": "När är ruskan (höstfärgerna) i Lappland?",
+          "a": "Ruskan sveper från norr till söder över ungefär tre veckor i september. De nordligaste fjällen kring Utsjoki och Kilpisjärvi skiftar först, i början av september; Inari och Saariselkä toppar kring andra veckan; Pallas, Levi och Pyhä följer under tredje veckan; och Riisitunturi och Oulanka håller ut in i slutet av september innan löven faller."
+        },
+        {
+          "q": "Vilken är den bästa säsongen att besöka Lappland?",
+          "a": "Det beror på vad du kom för. Välj kaamos (december–januari) för norrsken och snö, våren (april–maj) för långa ljusa dagar med snö kvar på marken, midnattssolen (juni–juli) för vandring och paddling, och ruskan (september) för höstfärger och årets bästa fjällfotografering. Anpassa säsongen till resan, inte tvärtom."
+        },
+        {
+          "q": "Blir det mörkt under midnattssolen?",
+          "a": "Nej. Norr om polcirkeln går solen inte ner vid midsommar, så det finns ingen riktig natt på flera veckor, bara en mjuk sänkning av ljuset i de små timmarna. Det innebär att norrskensskådning är omöjlig i juni och juli; himlen blir helt enkelt aldrig mörk nog."
+        }
+      ]
     }
   },
   "/terms": {
@@ -1955,6 +2127,10 @@
     "nl": {
       "title": "Gebruiksvoorwaarden, LaplandNature",
       "description": "Voorwaarden voor het gebruik van LaplandNature.com, content-licenties en redactionele standaarden. Geëxploiteerd door Lapeso Oy in Finland."
+    },
+    "sv": {
+      "title": "Användarvillkor, LaplandNature",
+      "description": "Villkor för användning av LaplandNature.com, innehållslicensiering och redaktionella standarder. Drivs av Lapeso Oy i Finland."
     }
   },
   "/wildlife": {
@@ -2241,6 +2417,32 @@
         {
           "q": "Hoeveel kost een berenkijkhut?",
           "a": "Reken op ongeveer € 280–450 per persoon voor één nacht, doorgaans inclusief vervoer vanaf het verzamelpunt, avondeten, een slaapplaats in de hut en een gids. Weekenden in juli zijn maanden van tevoren volgeboekt, dus reserveer zes maanden of meer vooruit voor topdata in de zomer."
+        }
+      ]
+    },
+    "sv": {
+      "title": "Lapplands djurliv: renar, björnar, järv och räv",
+      "description": "Sex ikoniska arktiska arter du kan möta i finska Lappland, från 200 000 halvtama renar till den akut hotade fjällräven och den skygga järven.",
+      "faq": [
+        {
+          "q": "När kan man se brunbjörn i finska Lappland?",
+          "a": "Brunbjörnsskådning pågår från sent i april till tidigt i september, med nattgömslen för foto koncentrerade kring Kuusamo, Suomussalmi och Lieksa i östra Finland. Sent i maj och tidigt i juni är bäst för honor med ungar; juli ger pålitliga ensamma hannar och lätt väder; september lägger till chansen att se vargar korsa och höstljus."
+        },
+        {
+          "q": "Hur stor chans har jag att faktiskt se en björn från ett gömsle?",
+          "a": "Stor, om du stannar över natten. Med en natt i ett gömsle under säsongen ligger chansen att se runt 90 %, och två nätter i rad trycker upp den förbi 99 %. Gömslena ligger vid betesplatser dit samma enskilda björnar återvänder år efter år, vilket är det som gör oddsen så starka."
+        },
+        {
+          "q": "Hur många renar finns det i Lappland, och är de vilda?",
+          "a": "Ungefär 200 000 halvtama renar strövar genom finska Lappland. De är inte vilda, varje djur ägs och är öronmärkt inom ett renbeteslag, centralt i den samiska kulturen i tusentals år. De betar fritt över fjäll och skogar, så du möter dem regelbundet vid vägkanten."
+        },
+        {
+          "q": "Vilket är det mest sällsynta djuret i Lappland?",
+          "a": "Fjällräven är mest sällsynt, listad som akut hotad i den fennoskandiska populationen och överlever bara i de kärvaste högfjällsmiljöerna. Järven är svårast att få syn på, enormt stark och strövande över väldiga områden, den finns i hela vildmarken men skymtas sällan."
+        },
+        {
+          "q": "Hur mycket kostar ett björngömsle?",
+          "a": "Räkna med ungefär 280–450 € per person för en natt, oftast inklusive transport från mötesplatsen, middag, en brits i gömslet och en guide. Helger i juli är fullbokade månader i förväg, så reservera sex månader eller mer i förväg för toppdatum på sommaren."
         }
       ]
     }

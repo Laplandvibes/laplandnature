@@ -78,6 +78,7 @@ function FooterShell() {
         lang === 'fr' ? 'Politique éditoriale' :
         lang === 'it' ? 'Politica editoriale' :
         lang === 'nl' ? 'Redactioneel beleid' :
+        lang === 'sv' ? 'Redaktionell policy' :
         'Editorial Policy' },
   ]
   return (
@@ -149,7 +150,7 @@ export default function App() {
         <main className="flex-1 pt-16">
           <Suspense fallback={<div className="min-h-screen" />}>
             <Routes>
-            {(['', '/fi', '/de', '/ja', '/es', '/br', '/cn', '/kr', '/fr', '/it', '/nl'] as const).flatMap((prefix) => [
+            {(['', '/fi', '/de', '/ja', '/es', '/br', '/cn', '/kr', '/fr', '/it', '/nl', '/sv'] as const).flatMap((prefix) => [
               <Route key={`${prefix}/`} path={prefix === '' ? '/' : prefix} element={<Home />} />,
               <Route key={`${prefix}/northern-lights`} path={`${prefix}/northern-lights`} element={<NorthernLights />} />,
               <Route key={`${prefix}/national-parks`} path={`${prefix}/national-parks`} element={<NationalParks />} />,

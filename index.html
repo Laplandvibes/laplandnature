@@ -5,9 +5,9 @@
     <script>
       (function () {
         try {
-          var T = {"en":"Lapland Nature: Arctic Wilderness, Aurora & National Parks | LaplandNature","fi":"Lapin luonto: arktinen erämaa, revontulet ja kansallispuistot | LaplandNature","de":"Lapplands Natur: arktische Wildnis, Nordlichter & Nationalparks | LaplandNature","ja":"ラップランドの自然: 北極の荒野、オーロラ、国立公園 | LaplandNature","es":"Naturaleza de Laponia: páramos árticos, aurora y parques nacionales | LaplandNature","pt-br":"Natureza da Lapônia: deserto ártico, aurora e parques nacionais | LaplandNature","zh-cn":"拉普兰自然: 北极荒野、极光与国家公园 | LaplandNature","kr":"라플란드 자연: 북극 황야, 오로라, 국립공원 | LaplandNature","fr":"Nature de Laponie : nature arctique, aurores et parcs nationaux | LaplandNature","it":"Natura della Lapponia: deserto artico, aurora e parchi nazionali | LaplandNature","nl":"Lapland Natuur: arctische wildernis, noorderlicht & nationale parken | LaplandNature"};
+          var T = {"en":"Lapland Nature: Arctic Wilderness, Aurora & National Parks | LaplandNature","fi":"Lapin luonto: arktinen erämaa, revontulet ja kansallispuistot | LaplandNature","de":"Lapplands Natur: arktische Wildnis, Nordlichter & Nationalparks | LaplandNature","ja":"ラップランドの自然: 北極の荒野、オーロラ、国立公園 | LaplandNature","es":"Naturaleza de Laponia: páramos árticos, aurora y parques nacionales | LaplandNature","pt-br":"Natureza da Lapônia: deserto ártico, aurora e parques nacionais | LaplandNature","zh-cn":"拉普兰自然: 北极荒野、极光与国家公园 | LaplandNature","kr":"라플란드 자연: 북극 황야, 오로라, 국립공원 | LaplandNature","fr":"Nature de Laponie : nature arctique, aurores et parcs nationaux | LaplandNature","it":"Natura della Lapponia: deserto artico, aurora e parchi nazionali | LaplandNature","nl":"Lapland Natuur: arctische wildernis, noorderlicht & nationale parken | LaplandNature","sv":"Lapplands natur: arktisk vildmark, norrsken och nationalparker | LaplandNature"};
           var path = location.pathname || '/';
-          var map = { fi: 'fi', de: 'de', ja: 'ja', es: 'es', br: 'pt-br', cn: 'zh-cn', kr: 'kr', fr: 'fr', it: 'it', nl: 'nl' };
+          var map = { fi: 'fi', de: 'de', ja: 'ja', es: 'es', br: 'pt-br', cn: 'zh-cn', kr: 'kr', fr: 'fr', it: 'it', nl: 'nl', sv: 'sv' };
           var loc = 'en';
           for (var p in map) {
             if (path === '/' + p || path.indexOf('/' + p + '/') === 0) { loc = map[p]; break; }
@@ -23,12 +23,12 @@
         try {
           var path = location.pathname || '/';
           // Already on a locale prefix? — never override
-          var prefixes = ['/fi','/de','/ja','/es','/br','/cn','/kr','/fr','/it','/nl'];
+          var prefixes = ['/fi','/de','/ja','/es','/br','/cn','/kr','/fr','/it','/nl','/sv'];
           for (var i = 0; i < prefixes.length; i++) {
             if (path === prefixes[i] || path.indexOf(prefixes[i] + '/') === 0) return;
           }
           // Only redirect from bare root or sub-pages without a locale prefix
-          var map = { fi: 'fi', de: 'de', ja: 'ja', es: 'es', 'pt-br': 'br', 'zh-cn': 'cn', ko: 'kr', fr: 'fr', it: 'it', nl: 'nl' };
+          var map = { fi: 'fi', de: 'de', ja: 'ja', es: 'es', 'pt-br': 'br', 'zh-cn': 'cn', ko: 'kr', fr: 'fr', it: 'it', nl: 'nl', sv: 'sv' };
           var stored = null;
           try { stored = localStorage.getItem('lv_locale_choice'); } catch (e) {}
           var target = null;
@@ -52,6 +52,7 @@
               if (l.indexOf('fr') === 0) { target = '/fr'; break; }
               if (l.indexOf('it') === 0) { target = '/it'; break; }
               if (l.indexOf('nl') === 0) { target = '/nl'; break; }
+              if (l.indexOf('sv') === 0) { target = '/sv'; break; }
             }
           }
           if (!target) return;
