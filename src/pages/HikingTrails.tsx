@@ -20,7 +20,8 @@ const TRAIL_LOCATIONS = [
   'Lemmenjoki National Park',
 ]
 const TRAIL_HEADS = [
-  { dest: 'Hetta, Finland', sid: 'trailhead_hetta' },
+  // Sembo "Hetta" polygon = 1 property; the municipality Enontekiö = 7.
+  { dest: 'Enontekiö, Finland', sid: 'trailhead_hetta' },
   { dest: 'Ruka, Finland', sid: 'trailhead_oulanka' },
   { dest: 'Saariselkä, Finland', sid: 'trailhead_saariselka' },
   { dest: 'Kilpisjärvi, Finland', sid: 'trailhead_kilpisjarvi' },

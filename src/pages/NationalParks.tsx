@@ -161,7 +161,7 @@ export default function NationalParks() {
             <AffiliateCTA
               partner="hotels"
               sid="parks_hetta_pre_walk"
-              destination="Hetta, Finland"
+              destination="Enontekiö, Finland"
               className="inline-flex items-center justify-center gap-2 bg-vibe-pink hover:bg-pink-600 text-snow font-semibold px-6 py-3 rounded-full transition-colors"
             >
               {c.preWalkCta}
