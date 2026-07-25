@@ -7,6 +7,10 @@ import HeroImage from '../components/HeroImage'
 import { useLang, useLocalePath } from '../i18n/useLang'
 import { COPY } from '../locales/copy'
 import FaqLinks, { type FaqNavKey } from '../components/FaqLinks'
+import AdUnit from '../../../shared/ads/AdUnit'
+import bearKuusamoAd from '../../../shared/ads/advertisers/bearkuusamo'
+import { adLocaleEnabled } from '../../../shared/adSlotsCopy'
+import { trackPartnerClick } from '../lib/analytics'
 
 const ANIMAL_LATIN = [
   'Rangifer tarandus',
@@ -65,6 +69,8 @@ export default function Wildlife() {
   const c = COPY[lang].wildlife
   const bk = COPY[lang].bearKuusamo
   const to = useLocalePath()
+  // LV Media inventory (paid placements) ships only on fi/en/sv — shared/adSlotsCopy.
+  const adsEnabled = adLocaleEnabled(lang)
 
   const faqLd = {
     '@context': 'https://schema.org',
@@ -98,6 +104,35 @@ export default function Wildlife() {
 
       <section className="pt-8 pb-2 px-4 sm:px-6"><div className="max-w-4xl mx-auto" /></section>
 
+      {/* Bear Kuusamo — PAID PARTNER placement (flat fee, not affiliate/commission).
+          Sits immediately under the hero, full content width (matches the animal
+          grid below), so it is the first thing a bear-watching visitor sees
+          (Vesa 2026-07-25). Locale-gated to fi/en/sv like all LV Media inventory:
+          without this the AdUnit's `en` fallback would show an English ad on
+          /de, /ja etc.
+          🔴 CONTRAST RULE (Vesa 2026-07-25): a paid ad must STAND OUT, never blend
+          into the page. This page is cream, so the unit sits in a full-width
+          deep-night band — the band itself is the visual break — and uses the
+          `dark` variant (which is a translucent glass card, only legible on a dark
+          surface) plus the white Bear wordmark. Do NOT switch this to `light`:
+          a white card on a cream page disappears. */}
+      {adsEnabled && (
+        <section className="my-12 sm:my-16 py-10 sm:py-12 px-4 sm:px-6 bg-deep-night">
+          <div className="max-w-6xl mx-auto">
+            <AdUnit
+              spec={bearKuusamoAd}
+              sid="wildlife_hero_below"
+              lang={lang}
+              variant="dark"
+              imageSrc="/images/hero-bear-kuusamo.webp"
+              articleHref={to('/bear-kuusamo')}
+              onArticleClick={(_k, sid) => trackPartnerClick(`ad_article:${sid}`)}
+              onCtaClick={(_specKey, sid) => trackPartnerClick(`ad_unit:${sid}`)}
+            />
+          </div>
+        </section>
+      )}
+
       <section className="pb-16 sm:pb-20 px-4 sm:px-6">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
           {c.animals.map((animal, i) => (
@@ -129,15 +164,18 @@ export default function Wildlife() {
           </div>
 
           <div className="mt-8 flex flex-col sm:flex-row gap-3">
-            <AffiliateCTA
-              partner="activities"
-              sid="wildlife_bear_hide"
-              destination="kuusamo-l113322"
+            {/* Bear hides = PAID partner category (Bear Kuusamo, Vesa 2026-07-25):
+                this CTA goes to our own partner feature, whose tracked links book
+                directly with Bear Kuusamo. It used to be a GYG Kuusamo search —
+                which surfaced only the contract-excluded competitor. Never
+                restore a GYG search on a bear CTA. */}
+            <Link
+              to={to('/bear-kuusamo')}
               className="inline-flex items-center justify-center gap-2 bg-vibe-pink hover:bg-pink-600 text-snow font-semibold px-6 py-3 rounded-full transition-colors"
             >
               {c.browseHidesCta}
               <ArrowRight className="w-4 h-4" />
-            </AffiliateCTA>
+            </Link>
             <AffiliateCTA
               partner="hotels"
               sid="wildlife_kuusamo_base"
