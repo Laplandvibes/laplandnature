@@ -10,7 +10,7 @@ export default function EditorialPolicy() {
       <SEO
         title={c.metaTitle}
         description={c.metaDescription}
-        canonicalPath={lang === 'en' ? '/editorial-policy' : `/${lang}/editorial-policy`}
+        canonicalPath="/editorial-policy"
       />
       <div className="min-h-screen bg-cream pt-28 sm:pt-32 pb-20">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">

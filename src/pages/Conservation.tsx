@@ -7,6 +7,7 @@ import HubLink from '../components/HubLink'
 import { useLang, useLocalePath } from '../i18n/useLang'
 import { COPY } from '../locales/copy'
 import FaqLinks, { type FaqNavKey } from '../components/FaqLinks'
+import { withReferral } from '../lib/referral'
 
 const ORG_VISUAL = [
   { accent: 'text-aurora-green', icon: Shield, url: 'https://www.metsa.fi/en/' },
@@ -53,7 +54,7 @@ export default function Conservation() {
       <SEO
         title={c.metaTitle}
         description={c.metaDescription}
-        canonicalPath={lang === 'en' ? '/conservation' : `/${lang}/conservation`}
+        canonicalPath="/conservation"
         keywords={['lapland conservation', 'metsahallitus', 'sll finland', 'everymans right finland', 'sami parliament', 'arctic fox finland', 'lapland national parks management']}
         jsonLd={[CONSERVATION_JSONLD, faqLd]}
       />
@@ -96,7 +97,7 @@ export default function Conservation() {
                   <p className={`text-sm font-semibold ${v.accent} mb-3`}>{o.summary}</p>
                   <p className="text-deep-night/75 text-sm leading-relaxed mb-5">{o.body}</p>
                   <a
-                    href={v.url}
+                    href={withReferral(v.url, 'nature_conservation')}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-1.5 text-vibe-pink hover:text-pink-600 text-sm font-semibold"

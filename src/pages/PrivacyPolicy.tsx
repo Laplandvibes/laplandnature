@@ -11,7 +11,7 @@ export default function PrivacyPolicy() {
       <SEO
         title={c.metaTitle}
         description={c.metaDescription}
-        canonicalPath={lang === 'en' ? '/privacy' : `/${lang}/privacy`}
+        canonicalPath="/privacy"
       />
       <PrivacyContent siteName="LaplandNature" lang={lang} />
     </>

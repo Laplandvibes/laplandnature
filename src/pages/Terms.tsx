@@ -11,7 +11,7 @@ export default function Terms() {
       <SEO
         title={c.metaTitle}
         description={c.metaDescription}
-        canonicalPath={lang === 'en' ? '/terms' : `/${lang}/terms`}
+        canonicalPath="/terms"
       />
       <TermsContent siteName="LaplandNature" lang={lang} />
     </>

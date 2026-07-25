@@ -51,7 +51,7 @@ export default function NationalParks() {
       <SEO
         title={c.metaTitle}
         description={c.metaDescription}
-        canonicalPath={lang === 'en' ? '/national-parks' : `/${lang}/national-parks`}
+        canonicalPath="/national-parks"
         keywords={['lapland national parks', 'urho kekkonen national park', 'pallas yllastunturi', 'lemmenjoki', 'riisitunturi', 'pyha luosto']}
         jsonLd={[PARKS_JSONLD, faqLd]}
       />

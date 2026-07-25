@@ -81,7 +81,7 @@ export default function Wildlife() {
       <SEO
         title={c.metaTitle}
         description={c.metaDescription}
-        canonicalPath={lang === 'en' ? '/wildlife' : `/${lang}/wildlife`}
+        canonicalPath="/wildlife"
         keywords={['lapland wildlife', 'finnish lapland animals', 'lapland reindeer', 'lapland bear watching', 'arctic fox finland', 'wolverine lapland']}
         jsonLd={[W_JSONLD, faqLd]}
       />

@@ -11,7 +11,7 @@ export default function CookiePolicy() {
       <SEO
         title={c.metaTitle}
         description={c.metaDescription}
-        canonicalPath={lang === 'en' ? '/cookie-policy' : `/${lang}/cookie-policy`}
+        canonicalPath="/cookie-policy"
       />
       <CookieContent siteName="LaplandNature" lang={lang} />
     </>

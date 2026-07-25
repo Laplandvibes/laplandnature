@@ -49,7 +49,7 @@ export default function NorthernLights() {
       <SEO
         title={c.metaTitle}
         description={c.metaDescription}
-        canonicalPath={lang === 'en' ? '/northern-lights' : `/${lang}/northern-lights`}
+        canonicalPath="/northern-lights"
         keywords={['northern lights lapland', 'aurora borealis finland', 'aurora viewing inari', 'kilpisjarvi aurora', 'lapland aurora season']}
         jsonLd={[NL_JSONLD, faqLd]}
       />

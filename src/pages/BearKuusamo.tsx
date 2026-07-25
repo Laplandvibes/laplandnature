@@ -68,7 +68,7 @@ export default function BearKuusamo() {
       <SEO
         title={c.metaTitle}
         description={c.metaDescription}
-        canonicalPath={lang === 'en' ? '/bear-kuusamo' : `/${lang}/bear-kuusamo`}
+        canonicalPath="/bear-kuusamo"
         ogImage="https://laplandnature.com/images/hero-bear-kuusamo.webp"
         keywords={['bear watching in Finland', 'bear tour in Finland', 'Bear Kuusamo', 'brown bear hide Kuusamo', 'bear watching Ruka', 'ethical bear watching Finland']}
         jsonLd={BK_JSONLD}

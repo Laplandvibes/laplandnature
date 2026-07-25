@@ -84,7 +84,7 @@ export default function HikingTrails() {
       <SEO
         title={c.metaTitle}
         description={c.metaDescription}
-        canonicalPath={lang === 'en' ? '/hiking-trails' : `/${lang}/hiking-trails`}
+        canonicalPath="/hiking-trails"
         keywords={['lapland hiking', 'karhunkierros', 'hetta pallas trail', 'halti finland', 'lemmenjoki hike', 'pyhakuru gorge']}
         jsonLd={[HIKING_JSONLD, faqLd]}
       />

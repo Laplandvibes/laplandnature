@@ -89,7 +89,7 @@ export default function Home() {
       <SEO
         title={c.metaTitle}
         description={c.metaDescription}
-        canonicalPath={lang === 'en' ? '/' : `/${lang}`}
+        canonicalPath="/"
         keywords={['lapland nature', 'finnish lapland wilderness', 'arctic circle finland', 'lapland national parks', 'lapland northern lights', 'lapland hiking trails']}
         jsonLd={HOME_JSONLD}
       />

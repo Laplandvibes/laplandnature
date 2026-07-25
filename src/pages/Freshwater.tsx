@@ -52,7 +52,7 @@ export default function Freshwater() {
       <SEO
         title={c.metaTitle}
         description={c.metaDescription}
-        canonicalPath={lang === 'en' ? '/freshwater' : `/${lang}/freshwater`}
+        canonicalPath="/freshwater"
         keywords={['lapland lakes', 'finland number of lakes', 'tornionjoki free flowing river', 'aapa mires ramsar', 'lapland fishing conservation', 'teno salmon 2026', 'clean water lapland']}
         jsonLd={[FRESHWATER_JSONLD, faqLd]}
       />

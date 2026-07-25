@@ -53,7 +53,7 @@ export default function Seasons() {
       <SEO
         title={c.metaTitle}
         description={c.metaDescription}
-        canonicalPath={lang === 'en' ? '/seasons' : `/${lang}/seasons`}
+        canonicalPath="/seasons"
         keywords={['lapland seasons', 'kaamos polar night', 'ruska autumn lapland', 'midnight sun finland', 'lapland spring snow']}
         jsonLd={[SEASONS_JSONLD, faqLd]}
       />
