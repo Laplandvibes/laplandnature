@@ -49,8 +49,8 @@ function difficultyColor(d: string): string {
 const HIKING_JSONLD = {
   '@context': 'https://schema.org',
   '@type': 'Article',
-  headline: 'Six hiking trails in Finnish Lapland — from 5 km to 82 km',
-  description: 'Karhunkierros, Hetta–Pallas, Halti and three more — the trails worth planning a Lapland trip around, with distance, duration and difficulty for each.',
+  headline: 'Six hiking trails in and around Finnish Lapland: from 5 km to 82 km',
+  description: 'Karhunkierros, Hetta–Pallas, Halti and three more: the trails worth planning a Lapland trip around, with distance, duration and difficulty for each.',
   author: { '@type': 'Organization', name: 'LaplandNature editorial' },
   publisher: { '@type': 'Organization', name: 'Lapeso Oy' },
   datePublished: '2026-04-27',
@@ -150,7 +150,7 @@ export default function HikingTrails() {
             <AffiliateCTA
               partner="activities"
               sid="trip_report_oulanka_guided"
-              destination="rovaniemi-l2653"
+              destination="kuusamo-l113322"
               className="inline-flex items-center justify-center gap-2 border border-deep-night/15 hover:border-vibe-pink/50 text-deep-night px-6 py-3 rounded-full transition-colors"
             >
               {c.oulankaGuidedCta}

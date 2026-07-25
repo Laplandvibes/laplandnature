@@ -43,6 +43,7 @@ const ROUTE_TO_SECTION = {
   '/northern-lights': 'northernLights',
   '/national-parks': 'nationalParks',
   '/wildlife': 'wildlife',
+  '/bear-kuusamo': 'bearKuusamo',
   '/seasons': 'seasons',
   '/hiking-trails': 'hiking',
   '/conservation': 'conservation',

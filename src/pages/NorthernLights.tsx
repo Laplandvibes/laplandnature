@@ -15,7 +15,7 @@ const NL_JSONLD = {
   '@context': 'https://schema.org',
   '@type': 'Article',
   headline: 'Northern Lights in Finnish Lapland: where, when and how to see them',
-  description: 'A practical guide to seeing the aurora borealis in Finnish Lapland — best viewing spots, season timing, and viewing tips from experienced local observers.',
+  description: 'A practical guide to seeing the aurora borealis in Finnish Lapland: best viewing spots, season timing, and viewing tips from experienced local observers.',
   author: { '@type': 'Organization', name: 'LaplandNature editorial' },
   publisher: { '@type': 'Organization', name: 'Lapeso Oy' },
   datePublished: '2026-04-27',
@@ -209,7 +209,7 @@ export default function NorthernLights() {
           <AffiliateCTA
             partner="activities"
             sid="aurora_tour_cta"
-            destination="rovaniemi-l2653"
+            destination="lappi-suomi-l2652"
             className="inline-flex items-center gap-2 bg-vibe-pink hover:bg-pink-600 text-snow font-semibold px-7 py-3.5 rounded-full transition-colors"
           >
             {c.finalCta}

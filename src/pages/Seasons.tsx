@@ -18,7 +18,7 @@ const SEASON_VISUAL = [
 const SEASONS_JSONLD = {
   '@context': 'https://schema.org',
   '@type': 'Article',
-  headline: 'Four seasons of Finnish Lapland — ruska, kaamos, midnight sun, spring',
+  headline: 'Four seasons of Finnish Lapland: ruska, kaamos, midnight sun, spring',
   description: 'Each season above the Arctic Circle is a distinct world: ruska autumn colour, kaamos polar night, midnight sun summer, and spring snow.',
   author: { '@type': 'Organization', name: 'LaplandNature editorial' },
   publisher: { '@type': 'Organization', name: 'Lapeso Oy' },
@@ -175,7 +175,7 @@ export default function Seasons() {
             <AffiliateCTA
               partner="activities"
               sid="seasons_browse_activity"
-              destination="rovaniemi-l2653"
+              destination="lappi-suomi-l2652"
               className="inline-flex items-center justify-center gap-2 border border-deep-night/15 hover:border-vibe-pink/50 text-deep-night px-6 py-3 rounded-full transition-colors"
             >
               {c.seasonMatchedCta}

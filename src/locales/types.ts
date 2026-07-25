@@ -160,6 +160,41 @@ export type SectionCopy = {
     crossLinks: { conservation: string; parks: string; husky: string }
     faq: { eyebrow: string; h2: string; items: { q: string; a: string }[] }
   }
+  bearKuusamo: {
+    metaTitle: string
+    metaDescription: string
+    partnership: string
+    hero: { eyebrow: string; title: string; subtitle: string; description: string; alt: string }
+    intro: string
+    introLinkBefore: string
+    introLinkAfter: string
+    hideKicker: string
+    hideH2: string
+    hideBody: string[]
+    treeCaption: string
+    photoCredit: string
+    waysKicker: string
+    waysH2: string
+    ways: { title: string; body: string }[]
+    season: string[]
+    bookingBefore: string
+    bookingLink: string
+    bookingAfter: string
+    whereKicker: string
+    whereH2: string
+    whereBefore: string
+    whereAfter: string
+    ctaLabel: string
+    logoAlt: string
+    photosCredit: string
+    crossKicker: string
+    crossWildlife: string
+    crossHub: string
+    wildlifeCardKicker: string
+    wildlifeCardTitle: string
+    wildlifeCardBody: string
+    wildlifeCardCta: string
+  }
   seasons: {
     metaTitle: string
     metaDescription: string

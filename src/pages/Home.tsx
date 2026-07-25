@@ -46,7 +46,7 @@ const HOME_JSONLD = [
   {
     '@context': 'https://schema.org',
     '@type': 'TouristDestination',
-    name: 'Finnish Lapland — Arctic Wilderness',
+    name: 'Finnish Lapland: Arctic Wilderness',
     description:
       'Finnish Lapland: 100,367 km² of arctic wilderness above the Arctic Circle. Northern lights, national parks, wildlife, hiking trails and four distinct seasons.',
     touristType: ['Nature lovers', 'Hikers', 'Aurora chasers', 'Wildlife photographers'],
@@ -285,7 +285,7 @@ export default function Home() {
             <AffiliateCTA
               partner="activities"
               sid="home_cta_activity"
-              destination="rovaniemi-l2653"
+              destination="lappi-suomi-l2652"
               className="inline-flex items-center justify-center gap-2 bg-aurora-green hover:bg-emerald-600 text-snow font-semibold px-7 py-3.5 rounded-full transition-colors"
             >
               {c.ctaBand.secondary}

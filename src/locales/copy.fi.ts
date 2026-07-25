@@ -81,10 +81,10 @@ const fi: SectionCopy = {
       { name: 'Kilpisjärvi', note: 'Kolmen valtakunnan rajapyykki · korkeat tunturit' },
       { name: 'Enontekiö', note: 'Euroopan pimeimpiä taivaita (Bortle 1)' },
       { name: 'Hetta', note: '55 km Hetta–Pallas -reitin pohjoispää' },
-      { name: 'Ruka / Oulanka', note: '82 km Karhunkierros · riippusillat + kanjonit' },
+      { name: 'Ruka / Oulanka', note: '82 km Karhunkierros · riippusillat + kanjonit · Kuusamo, aivan Lapin rajan eteläpuolella' },
       { name: 'Kilpisjärvi (Halti)', note: '55 km edestakaisin Haltille, Suomen korkein piste (1 324 m)' },
       { name: 'Pyhä', note: 'Pyhäkurun rotko · esteetön pitkospuu · 5 km' },
-      { name: 'Kuusamon karhukatselut', note: 'Karhukojuilta · 99 % havaintoluku · touko–syyskuu' },
+      { name: 'Kuusamon karhukatselut', note: 'Karhukojuilta · 99 % havaintoluku · touko–syyskuu · heti Lapin eteläpuolella' },
       { name: 'Nellim erämaa', note: 'Nellimin erämaakoju · ahman ja karhun reviiri' },
       { name: 'Kaamasen porot', note: 'Saamelaisten poroerotus · syksy (paliskunta)' },
     ],
@@ -427,7 +427,7 @@ const fi: SectionCopy = {
       },
       {
         name: 'Ruskeakarhu',
-        description: 'Suomessa on yksi Euroopan tiheimmistä karhupopulaatioista. Itä- ja Pohjois-Lapissa karhukojut tarjoavat läheisiä kohtaamisia kesäöinä kun karhut nousevat talvihorroksesta.',
+        description: 'Suomessa on yksi Euroopan tiheimmistä karhupopulaatioista. Parhaat karhukojut ovat Itä-Suomessa Kuusamon ja Suomussalmen seudulla, helpon poikkeaman päässä Lapista etelään, ja tarjoavat läheisiä kohtaamisia kesäöinä kun karhut nousevat talvihorroksesta.',
         status: 'Silmälläpidettävä',
       },
       {
@@ -518,7 +518,7 @@ const fi: SectionCopy = {
       items: [
         {
           q: 'Milloin Lapissa voi nähdä karhuja?',
-          a: 'Karhunkatselu kulkee huhtikuun lopusta syyskuun alkuun, ja yökuvaamiskojut keskittyvät Itä-Suomeen Kuusamon, Suomussalmen ja Lieksan seudulle. Touko-kesäkuun vaihde on paras emojen ja pentujen näkemiseen, heinäkuu tuo luotettavasti yksinäiset urokset ja helpon sään, ja syyskuu lisää mahdollisuuden nähdä susia sekä syksyn valon.',
+          a: 'Karhunkatselu kulkee huhtikuun lopusta syyskuun alkuun, ja yökuvaamiskojut keskittyvät Itä-Suomeen Kuusamon, Suomussalmen ja Lieksan seudulle, Lapin rajan eteläpuolelle. Touko-kesäkuun vaihde on paras emojen ja pentujen näkemiseen, heinäkuu tuo luotettavasti yksinäiset urokset ja helpon sään, ja syyskuu lisää mahdollisuuden nähdä susia sekä syksyn valon.',
         },
         {
           q: 'Kuinka todennäköisesti kojusta näkee karhun?',
@@ -543,6 +543,56 @@ const fi: SectionCopy = {
       parks: 'Puistot joissa eläimet elävät →',
       husky: 'Husky-safarit →',
     },
+  },
+  bearKuusamo: {
+    metaTitle: 'Bear Kuusamo: eettistä karhunkatselua Suomessa',
+    metaDescription: 'Bear Kuusamo pitää Ruka–Kuusamon alueen vanhimpia ja pohjoisimpia karhunkatselukojuja. Aitoa karhunkatselua Suomessa, aivan Lapin rajalla, 1.5.–30.9.',
+    partnership: 'Kaupallinen yhteistyö · Bear Kuusamo',
+    hero: {
+      eyebrow: 'Kaupallinen yhteistyö · Bear Kuusamo',
+      title: 'Karhunkatselua Suomessa',
+      subtitle: 'aivan Lapin rajalla',
+      description: 'Bear Kuusamo on opastanut matkaajia Kuusamon itäpuolen rajametsiin yli kaksikymmentä vuotta, Ruka–Kuusamon alueen vanhimmilla ja pohjoisimmilla karhukojuilla.',
+      alt: 'Naaraskarhu ja kaksi pentua metsänreunassa Kuusamon lähellä. Kuva: Piritta Paija / Bear Kuusamo',
+    },
+    intro: 'Kuusamon itäpuolen rajametsissä, missä havumetsä jatkuu katkeamatta kohti rajaa, ruskeakarhut astuvat puurajasta esiin pitkässä pohjoisessa hämärässä. Bear Kuusamo on opastanut matkaajia tähän hiljaisuuteen yli kaksikymmentä vuotta. Se on Ruka–Kuusamon alueen vanhin karhunkatseluyritys ja maan pohjoisin.',
+    introLinkBefore: 'Tämä on aitoa ',
+    introLinkAfter: ', ei eläintarhaa eikä esitystä. Kojut sijaitsevat suojellulla metsäkaistaleella, joka liittyy Paanajärven kansallispuistoon aivan Venäjän rajan takana. Perustaja Pekka Veteläinen ja hänen oppaansa toimivat yhteistyössä Metsähallituksen ja tutkijoiden kanssa ja kätkevät ruoan vaihtuviin paikkoihin, jotta karhut etsivät ravintonsa luontaiseen tapaan. Karhut pysyvät villeinä ja ihmiseen tottumattomina; sinä saat vain rauhallisen, hyvin sijoitetun paikan tarkkailla niitä.',
+    hideKicker: 'Kokemus',
+    hideH2: 'Yö kojussa',
+    hideBody: [
+      'Seitsemän hirsikojua on rakennettu metsänreunaan niin, että ihmisen ääni ja haju pysyvät sisällä. Panoraamaikkunat antavat katselijoille selkeän näkymän aukiolle, ja kuvaajilla on omat kamera-aukot säkkituilla ja videopäillä, joten kenenkään ei tarvitse kuvata lasin läpi. Pääkoju on esteetön, ja käymälät ovat omissa erillisissä tiloissaan.',
+      'Ikkunoista saatat nähdä ruskeakarhuja, keväällä ohi lipuvan ahman, yläpuolella liitäviä merikotkia ja korpit, joiden huudot kertovat oppaille karhun olevan lähellä.',
+    ],
+    treeCaption: 'Nuori ruskeakarhu kiipeää mäntyyn kojujen lähellä.',
+    photoCredit: 'Kuva: Piritta Paija / Bear Kuusamo',
+    waysKicker: 'Valitse retkesi',
+    waysH2: 'Kaksi tapaa lähteä',
+    ways: [
+      { title: 'Iltaretki', body: 'Noin neljä tuntia, klo 18–22: opastettu kävely kojulle ja pohjoisen illan parhaat valotunnit.' },
+      { title: 'Yöretki', body: 'Ilta jatkettuna aamuun asti, usein antoisampi näytös. Yötunnit houkuttelevat esiin huomattavasti enemmän karhuja, isoista uroksista jopa juhannuksen aikaan emoon pentuineen, ja kesäöinä karhut käyvät uimassa.' },
+    ],
+    season: [
+      'Opastus ja vakuutus sisältyvät hintaan, ja kausi kestää 1.5.–30.9. Kevät tuo emot pentuineen, ja juhannuksen aikaan aurinko ei laske täällä lainkaan, joten karhuja voi tarkkailla ja kuvata läpi valoisan yön.',
+      'Jos metsä pysyy tyhjänä, Original Bear Guarantee tuo sinut takaisin toiseksi illaksi veloituksetta.',
+    ],
+    bookingBefore: 'Ajantasaiset hinnat, päivämäärät ja saatavuus löytyvät ',
+    bookingLink: 'Bear Kuusamon omalta varaussivulta',
+    bookingAfter: '.',
+    whereKicker: 'Perille pääsy',
+    whereH2: 'Missä se sijaitsee',
+    whereBefore: 'Kuusamo sijaitsee Koillis-Suomessa, aivan Lapin rajalla, tuntureiden ja Oulangan kansallispuiston vanhojen metsien keskellä. Se on luonteva tukikohta, kun teet ',
+    whereAfter: ': lennä Kuusamoon tai aja Rukalta, ja olet kojuilla tunnissa.',
+    ctaLabel: 'Varaa suoraan Bear Kuusamolta',
+    logoAlt: 'Bear Kuusamo',
+    photosCredit: 'Kuvat: Piritta Paija / Bear Kuusamo',
+    crossKicker: 'Jatka tutkimista',
+    crossWildlife: 'Lisää Lapin eläimistöä',
+    crossHub: 'Tutustu Lapin verkostoon',
+    wildlifeCardKicker: 'Kaupallinen yhteistyö · Bear Kuusamo',
+    wildlifeCardTitle: 'Yö Bear Kuusamon kojussa',
+    wildlifeCardBody: 'Ruka–Kuusamon alueen vanhimmat ja pohjoisimmat karhukojut, aivan Lapin rajalla. Lue kumppaniartikkelimme eettisestä karhunkatselusta.',
+    wildlifeCardCta: 'Lue opas',
   },
   seasons: {
     metaTitle: 'Lapin neljä vuodenaikaa: ruska–kaamos | LaplandNature',
@@ -660,7 +710,7 @@ const fi: SectionCopy = {
   },
   hiking: {
     metaTitle: 'Lapin vaellusreitit: 5 km–82 km | LaplandNature',
-    metaDescription: 'Kuusi vaellusreittiä Suomen Lapissa, Hetta–Pallas (55 km), Karhunkierros (82 km), Halti (55 km) ja kolme lyhyempää reittiä. Etäisyydet, kestot ja porttikylät.',
+    metaDescription: 'Kuusi vaellusreittiä Suomen Lapissa ja lähialueilla, Hetta–Pallas (55 km), Karhunkierros (82 km), Halti (55 km) ja kolme lyhyempää reittiä. Etäisyydet, kestot ja porttikylät.',
     hero: {
       alt: 'Vaellusreitti mutkittelee ruskan värittämällä tunturilla Suomen Lapissa',
       eyebrow: 'Lapin retket',
@@ -890,7 +940,7 @@ const fi: SectionCopy = {
   },
   freshwater: {
     metaTitle: 'Lapin vesistöt: järvet, joet, aavat ja kalat',
-    metaDescription: 'Suomessa on noin 188 000 järveä ja lampea (SYKE), ja Lapin vedet ovat maan puhtaimpia. Säännöstelemätön Tornion–Muonionjoki, aapasuot ja metsät pitävät veden kylmänä — siksi puhdas vesi on alueen tärkein voimavara.',
+    metaDescription: 'Suomessa on noin 188 000 järveä ja lampea (SYKE), ja Lapin vedet ovat maan puhtaimpia. Säännöstelemätön Tornion–Muonionjoki, aapasuot ja metsät pitävät veden kylmänä. Siksi puhdas vesi on alueen tärkein voimavara.',
     hero: {
       eyebrow: 'Lapin vedet',
       title: 'Lapin vesistöt',
@@ -900,7 +950,7 @@ const fi: SectionCopy = {
     },
     introKicker: 'Miksi vesi ensin',
     introH2: 'Puhdas vesi on koko juttu',
-    introLead: 'Jokainen kala, jokainen poro, jokainen marjasato Lapissa on riippuvainen samasta vedestä joka liikkuu saman maiseman läpi. Suomessa on noin 188 000 vähintään 0,05 hehtaarin järveä ja lampea (SYKEn järvirekisteri), ja pohjoisen vedet ovat maan luonnontilaisimpia. Järvet, joet, suot ja metsät ovat saman elävän kokonaisuuden neljä osaa — ja juuri siksi niitä kannattaa suojella: jos vesi menetetään, menetetään kaikki muukin.',
+    introLead: 'Jokainen kala, jokainen poro, jokainen marjasato Lapissa on riippuvainen samasta vedestä joka liikkuu saman maiseman läpi. Suomessa on noin 188 000 vähintään 0,05 hehtaarin järveä ja lampea (SYKEn järvirekisteri), ja pohjoisen vedet ovat maan luonnontilaisimpia. Järvet, joet, suot ja metsät ovat saman elävän kokonaisuuden neljä osaa, ja juuri siksi niitä kannattaa suojella: jos vesi menetetään, menetetään kaikki muukin.',
     chaptersKicker: 'Neljä osaa',
     chaptersH2: 'Yksi järjestelmä, neljä osaa',
     lakes: {
@@ -915,7 +965,7 @@ const fi: SectionCopy = {
     },
     mires: {
       title: 'Aapasuot',
-      body1: 'Suo ei ole joutomaata. Suomalaisessa vesiajattelussa suo on valuma-alueen munuainen: se varastoi sadetta ja sulamisvettä, päästää sen hitaasti kuivien kausien läpi ja suodattaa kiintoaineen ja ravinteet ennen kuin ne edes päätyvät jokeen. Jos suo kuivatetaan, alapuolinen joki virtaa ruskeampana, lämpimämpänä ja tulvaherkempänä — ja on kutukaloille huonompi.',
+      body1: 'Suo ei ole joutomaata. Suomalaisessa vesiajattelussa suo on valuma-alueen munuainen: se varastoi sadetta ja sulamisvettä, päästää sen hitaasti kuivien kausien läpi ja suodattaa kiintoaineen ja ravinteet ennen kuin ne edes päätyvät jokeen. Jos suo kuivatetaan, alapuolinen joki virtaa ruskeampana, lämpimämpänä ja tulvaherkempänä, ja on kutukaloille huonompi.',
       body2: 'Lapin aapasuot, pohjoisen laajat kuvioidut nevat, ovat myös merkittäviä hiilivarastoja. Suomi suojelee kansainvälisesti arvokkaita kosteikkoja Ramsarin sopimuksen nojalla (49 kohdetta, ym.fi); Martimoaapa-Lumiaapa-Penikat, Ranuan lähellä sijaitseva aapasuokompleksi, on yksi tällainen kohde. Soiden pitäminen märkinä pitää sekä veden että ilmaston paremmassa kunnossa.',
     },
     forests: {
@@ -926,7 +976,7 @@ const fi: SectionCopy = {
     fish: {
       kicker: "Kalakannat",
       title: "Kalakannat kertovat vesien kunnon",
-      lead: "Kun järvet, joet, suot ja metsät voivat hyvin, myös kalastus on hyvää — ja kun eivät, kalat katoavat ensimmäisinä. Neljä esimerkkiä Lapin joilta näyttää, miten suoraan nämä asiat liittyvät toisiinsa.",
+      lead: "Kun järvet, joet, suot ja metsät voivat hyvin, myös kalastus on hyvää, ja kun eivät, kalat katoavat ensimmäisinä. Neljä esimerkkiä Lapin joilta näyttää, miten suoraan nämä asiat liittyvät toisiinsa.",
       stories: [
         {
           title: 'Teno: suljettu lohen suojelemiseksi',
@@ -967,7 +1017,7 @@ const fi: SectionCopy = {
         },
         {
           q: 'Onko Tornionjoki todella vapaana virtaava joki?',
-          a: 'Kyllä. Yhdessä Ruotsin Kalixjoen (Kalixälven) kanssa Tornion–Muonionjoen vesistö on toinen EU:n kahdesta viimeisestä suuresta säännöstelemättömästä jokivesistöstä (ymparisto.fi) — sitä ei ole padottu vesivoiman vuoksi. Sen pääsivujoki Ounasjoki on myös suojeltu padotukselta. Tuo padottamaton tila on syy siihen että se on yhä toimiva villilohijoki.',
+          a: 'Kyllä. Yhdessä Ruotsin Kalixjoen (Kalixälven) kanssa Tornion–Muonionjoen vesistö on toinen EU:n kahdesta viimeisestä suuresta säännöstelemättömästä jokivesistöstä (ymparisto.fi). Sitä ei ole padottu vesivoiman vuoksi. Sen pääsivujoki Ounasjoki on myös suojeltu padotukselta. Tuo padottamaton tila on syy siihen että se on yhä toimiva villilohijoki.',
         },
         {
           q: 'Miksi aapasuot ovat tärkeitä kalastukselle?',

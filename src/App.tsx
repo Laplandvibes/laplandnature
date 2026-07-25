@@ -8,6 +8,7 @@ const Home = lazy(() => import('./pages/Home'))
 const NorthernLights = lazy(() => import('./pages/NorthernLights'))
 const NationalParks = lazy(() => import('./pages/NationalParks'))
 const Wildlife = lazy(() => import('./pages/Wildlife'))
+const BearKuusamo = lazy(() => import('./pages/BearKuusamo'))
 const Seasons = lazy(() => import('./pages/Seasons'))
 const HikingTrails = lazy(() => import('./pages/HikingTrails'))
 const Conservation = lazy(() => import('./pages/Conservation'))
@@ -155,6 +156,7 @@ export default function App() {
               <Route key={`${prefix}/northern-lights`} path={`${prefix}/northern-lights`} element={<NorthernLights />} />,
               <Route key={`${prefix}/national-parks`} path={`${prefix}/national-parks`} element={<NationalParks />} />,
               <Route key={`${prefix}/wildlife`} path={`${prefix}/wildlife`} element={<Wildlife />} />,
+              <Route key={`${prefix}/bear-kuusamo`} path={`${prefix}/bear-kuusamo`} element={<BearKuusamo />} />,
               <Route key={`${prefix}/seasons`} path={`${prefix}/seasons`} element={<Seasons />} />,
               <Route key={`${prefix}/hiking-trails`} path={`${prefix}/hiking-trails`} element={<HikingTrails />} />,
               <Route key={`${prefix}/conservation`} path={`${prefix}/conservation`} element={<Conservation />} />,

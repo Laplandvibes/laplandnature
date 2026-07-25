@@ -73,10 +73,10 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
       { name: 'Kilpisjärvi', note: 'Punto de tres fronteras · fjelds de gran altitud' },
       { name: 'Enontekiö', note: 'Algunos de los cielos más oscuros de Europa (Bortle 1)' },
       { name: 'Hetta', note: 'Extremo norte del sendero Hetta–Pallas de 55 km' },
-      { name: 'Ruka / Oulanka', note: 'Karhunkierros de 82 km · puentes colgantes y cañones' },
+      { name: 'Ruka / Oulanka', note: 'Karhunkierros de 82 km · puentes colgantes y cañones · Kuusamo, justo al sur de Laponia' },
       { name: 'Kilpisjärvi (Halti)', note: '55 km ida y vuelta a Halti, el punto más alto de Finlandia (1324 m)' },
       { name: 'Pyhä', note: 'Garganta de Pyhäkuru · pasarela accesible · 5 km' },
-      { name: 'Hides de osos de Kuusamo', note: 'Hides de oso pardo · 99 % de avistamientos · de mayo a septiembre' },
+      { name: 'Hides de osos de Kuusamo', note: 'Hides de oso pardo · 99 % de avistamientos · de mayo a septiembre · justo al sur de Laponia' },
       { name: 'Naturaleza de Nellim', note: 'Lodge de naturaleza de Nellim · territorio de glotón y oso pardo' },
       { name: 'Renos de Kaamanen', note: 'Reunión de renos sami · otoño (paliskunta)' },
     ],
@@ -172,10 +172,10 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
         { name: 'Kilpisjärvi', note: 'Punto de los tres países · fjälls de gran altitud' },
         { name: 'Enontekiö', note: 'Uno de los cielos más oscuros de Europa (Bortle 1)' },
         { name: 'Hetta', note: 'Extremo norte de la ruta Hetta–Pallas de 55 km' },
-        { name: 'Ruka / Oulanka', note: 'Karhunkierros de 82 km · puentes colgantes y cañones' },
+        { name: 'Ruka / Oulanka', note: 'Karhunkierros de 82 km · puentes colgantes y cañones · Kuusamo, justo al sur de Laponia' },
         { name: 'Kilpisjärvi (Halti)', note: '55 km ida y vuelta al Halti, el punto más alto de Finlandia (1.324 m)' },
         { name: 'Pyhä', note: 'Garganta de Pyhäkuru · pasarela accesible · 5 km' },
-        { name: 'Refugios de osos de Kuusamo', note: 'Refugios de oso pardo · tasa de avistamiento del 99 % · may.–sep.' },
+        { name: 'Refugios de osos de Kuusamo', note: 'Refugios de oso pardo · tasa de avistamiento del 99 % · may.–sep. · justo al sur de Laponia' },
         { name: 'Naturaleza de Nellim', note: 'Albergue de Nellim · territorio de glotón y oso pardo' },
         { name: 'Renos de Kaamanen', note: 'Reunión de renos sami · otoño (paliskunta)' },
       ],
@@ -352,7 +352,7 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
     animals: [
       { name: 'Reno', description: 'Unos 200 000 renos semidomesticados recorren la Laponia finlandesa, eje de la cultura pastoril sami desde hace milenios. Pastan libres por fjeld y bosques, se los encontrará a pie de carretera.', status: 'Común' },
       { name: 'Zorro ártico', description: 'Uno de los mamíferos más raros de Finlandia. El zorro ártico sobrevive en los fjeld más duros; su pelaje se vuelve blanco en invierno para camuflarse en la nieve. En peligro crítico en la población escandinava.', status: 'En peligro crítico' },
-      { name: 'Oso pardo', description: 'Finlandia tiene una de las poblaciones de oso pardo más densas de Europa. En el este y el norte de Laponia, los hides ofrecen encuentros cercanos en las noches de verano, cuando los osos salen de la hibernación.', status: 'Casi amenazado' },
+      { name: 'Oso pardo', description: 'Finlandia tiene una de las poblaciones de oso pardo más densas de Europa. Los mejores hides están en el este de Finlandia, en torno a Kuusamo y Suomussalmi, un desvío fácil al sur de Laponia, y ofrecen encuentros cercanos en las noches de verano, cuando los osos salen de la hibernación.', status: 'Casi amenazado' },
       { name: 'Glotón', description: 'El glotón es uno de los depredadores más esquivos del bosque boreal. Inmensamente fuerte para su tamaño, recorre vastos territorios por la naturaleza lapona. Rara vez visto, pero presente en toda la región.', status: 'En peligro' },
       { name: 'Búho nival', description: 'Visitante ocasional de los fjeld más septentrionales, el búho nival caza lemmings en la tundra abierta. Los avistamientos dependen de los ciclos de población del lemming y rara vez ocurren al sur de Utsjoki.', status: 'Visitante raro' },
       { name: 'Cisne cantor', description: 'El ave nacional de Finlandia cría en los humedales y lagos tranquilos de Laponia. Su llamada de trompeta recorre kilómetros en las quietas tardes de verano, un sonido que define el verano lapón.', status: 'Ave nacional' }
@@ -405,7 +405,7 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
       items: [
         {
           q: '¿Cuándo se pueden ver osos pardos en la Laponia finlandesa?',
-          a: 'La observación de osos pardos va de finales de abril a principios de septiembre, con hides fotográficos nocturnos concentrados en torno a Kuusamo, Suomussalmi y Lieksa, en el este de Finlandia. Finales de mayo y principios de junio son los mejores para hembras con crías; julio trae machos solitarios fiables y buen tiempo; septiembre añade la posibilidad de ver lobos y la luz de otoño.',
+          a: 'La observación de osos pardos va de finales de abril a principios de septiembre, con hides fotográficos nocturnos concentrados en torno a Kuusamo, Suomussalmi y Lieksa, en el este de Finlandia, al sur de la propia Laponia. Finales de mayo y principios de junio son los mejores para hembras con crías; julio trae machos solitarios fiables y buen tiempo; septiembre añade la posibilidad de ver lobos y la luz de otoño.',
         },
         {
           q: '¿Qué probabilidad real tengo de ver un oso desde un hide?',
@@ -507,7 +507,7 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
   hiking: {
     difficulties: { easy: 'Fácil', moderate: 'Moderada', challenging: 'Exigente', demanding: 'Muy exigente' },
     metaTitle: 'Senderos de Laponia: 5 km a 82 km | LaplandNature',
-    metaDescription: 'Seis senderos en la Laponia finlandesa, Hetta-Pallas (55 km), Karhunkierros (82 km), cima del Halti (55 km) y tres rutas más cortas.',
+    metaDescription: 'Seis senderos en la Laponia finlandesa y alrededores, Hetta-Pallas (55 km), Karhunkierros (82 km), cima del Halti (55 km) y tres rutas más cortas.',
     hero: {
       alt: 'Un sendero serpenteando por un fjeld en plena ruska otoñal en la Laponia finlandesa',
       eyebrow: 'Guía esencial',
@@ -695,7 +695,7 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
     fish: {
       kicker: "Poblaciones de peces",
       title: "Los peces reflejan el estado del agua",
-      lead: "Cuando los lagos, los ríos, las turberas y los bosques están sanos, la pesca es buena — y cuando no, los peces son los primeros en desaparecer. Cuatro ejemplos de los ríos de Laponia muestran lo directamente que ambas cosas están unidas.",
+      lead: "Cuando los lagos, los ríos, las turberas y los bosques están sanos, la pesca es buena, y cuando no, los peces son los primeros en desaparecer. Cuatro ejemplos de los ríos de Laponia muestran lo directamente que ambas cosas están unidas.",
       stories: [
         {
           title: 'El Teno: cerrado para proteger al salmón',
@@ -773,5 +773,55 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
   cookie: {
     metaTitle: 'Política de cookies, LaplandNature',
     metaDescription: 'Qué cookies usa LaplandNature.com, por qué y cómo gestionarlas. Divulgaciones de cookies conformes al RGPD / ePrivacy de Lapeso Oy.',
+  },
+  bearKuusamo: {
+    metaTitle: 'Bear Kuusamo: observación ética de osos en Finlandia',
+    metaDescription: 'Bear Kuusamo gestiona los hides de osos más antiguos y septentrionales de la región de Ruka–Kuusamo. Auténtica observación de osos en Finlandia, al borde de Laponia, del 1 de mayo al 30 de septiembre.',
+    partnership: 'Colaboración comercial · Bear Kuusamo',
+    hero: {
+      eyebrow: 'Colaboración comercial · Bear Kuusamo',
+      title: 'Observación de osos en Finlandia',
+      subtitle: 'al borde de Laponia',
+      description: 'Durante más de veinte años, Bear Kuusamo ha guiado a viajeros hasta los bosques fronterizos al este de Kuusamo, los hides de osos más antiguos y septentrionales de la región de Ruka–Kuusamo.',
+      alt: 'Una osa parda con dos crías en el borde del bosque cerca de Kuusamo. Foto: Piritta Paija / Bear Kuusamo',
+    },
+    intro: 'En los bosques fronterizos al este de Kuusamo, donde el bosque boreal se extiende sin interrupción hacia la frontera, los osos pardos salen de la linde de los árboles en el largo crepúsculo nórdico. Bear Kuusamo lleva más de veinte años guiando a viajeros hacia esa quietud. Es la empresa de observación de osos más antigua de la región de Ruka–Kuusamo y la más septentrional del país.',
+    introLinkBefore: 'Esto es auténtica ',
+    introLinkAfter: ', no un zoo ni un espectáculo. Los hides se alzan en una franja protegida de bosque que enlaza con el Parque Nacional de Paanajärvi, justo al otro lado de la frontera rusa. El fundador, Pekka Veteläinen, y sus guías trabajan con Metsähallitus y con investigadores, y esconden el alimento en lugares cambiantes para que los osos busquen y se alimenten como lo harían de forma natural. Los osos siguen siendo salvajes y no habituados; usted solo obtiene un asiento tranquilo y bien situado para observarlos.',
+    hideKicker: 'La experiencia',
+    hideH2: 'Una noche en un hide',
+    hideBody: [
+      'Siete hides de madera se asientan en la linde del bosque, construidos para que el sonido y el olor humanos queden dentro. Los ventanales panorámicos ofrecen a los observadores una vista clara del claro, y los fotógrafos disponen de aberturas de cámara específicas con bean bags y rótulas de vídeo, de modo que nadie dispara a través del cristal. El hide principal es accesible para sillas de ruedas, y los aseos están en sus propias salas separadas.',
+      'Desde las ventanas puede ver osos pardos y, en primavera, un glotón que pasa deslizándose, pigargos europeos sobrevolando y los cuervos cuyos graznidos avisan a los guías de que un oso está cerca.',
+    ],
+    treeCaption: 'Un oso pardo joven trepa a un pino cerca de los hides.',
+    photoCredit: 'Foto: Piritta Paija / Bear Kuusamo',
+    waysKicker: 'Elija su tour',
+    waysH2: 'Dos maneras de ir',
+    ways: [
+      { title: 'Tour de tarde', body: 'Unas cuatro horas, de 6 a 10 de la tarde: una caminata guiada hasta el hide y las horas de mejor luz de la tarde nórdica.' },
+      { title: 'Tour nocturno', body: 'La tarde prolongada hasta la mañana, y a menudo el espectáculo más rico. Las horas nocturnas suelen sacar bastantes más osos, desde grandes machos hasta, incluso en pleno verano, una madre con sus crías, y en las noches de verano los osos van a nadar.' },
+    ],
+    season: [
+      'La guía y el seguro están incluidos, y la temporada va del 1 de mayo al 30 de septiembre. La primavera trae madres con crías y, en pleno verano, el sol no se pone aquí en absoluto, así que puede observar y fotografiar osos durante toda la noche luminosa.',
+      'Si el bosque queda vacío, la Original Bear Guarantee le trae de vuelta otra tarde de forma gratuita.',
+    ],
+    bookingBefore: 'Los precios, las fechas y la disponibilidad actuales están en ',
+    bookingLink: 'la propia página de reservas de Bear Kuusamo',
+    bookingAfter: '.',
+    whereKicker: 'Cómo llegar',
+    whereH2: 'Dónde está',
+    whereBefore: 'Kuusamo se sitúa en el nordeste de Finlandia, justo pegado a la frontera de Laponia, entre los fjeld y los bosques primarios en torno al Parque Nacional de Oulanka. Es la base natural para un ',
+    whereAfter: ': vuele a Kuusamo o venga en coche desde Ruka y estará en los hides en menos de una hora.',
+    ctaLabel: 'Reserve directamente con Bear Kuusamo',
+    logoAlt: 'Bear Kuusamo',
+    photosCredit: 'Fotos: Piritta Paija / Bear Kuusamo',
+    crossKicker: 'Siga explorando',
+    crossWildlife: 'Más fauna de Laponia',
+    crossHub: 'Descubra la red de Laponia',
+    wildlifeCardKicker: 'Colaboración comercial · Bear Kuusamo',
+    wildlifeCardTitle: 'Una noche en un hide de Bear Kuusamo',
+    wildlifeCardBody: 'Los hides de osos más antiguos y septentrionales de la región de Ruka–Kuusamo, al borde de Laponia. Lea nuestro artículo de colaboración sobre observación ética de osos.',
+    wildlifeCardCta: 'Leer la guía',
   },
 } as DeepPartial<SectionCopy>

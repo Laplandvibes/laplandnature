@@ -81,10 +81,10 @@ const en: SectionCopy = {
       { name: 'Kilpisjärvi', note: 'Three-country corner · high-altitude fells' },
       { name: 'Enontekiö', note: 'Some of the darkest skies in Europe (Bortle 1)' },
       { name: 'Hetta', note: 'North end of the 55 km Hetta–Pallas trail' },
-      { name: 'Ruka / Oulanka', note: '82 km Karhunkierros · suspension bridges + canyons' },
+      { name: 'Ruka / Oulanka', note: '82 km Karhunkierros · suspension bridges + canyons · Kuusamo, just south of the Lapland border' },
       { name: 'Kilpisjärvi (Halti)', note: "55 km round-trip to Halti, Finland's highest point (1,324 m)" },
       { name: 'Pyhä', note: 'Pyhäkuru gorge · accessible boardwalk · 5 km' },
-      { name: 'Kuusamo bear hides', note: 'Brown-bear hides · 99% sighting rate · May–Sept' },
+      { name: 'Kuusamo bear hides', note: 'Brown-bear hides · 99% sighting rate · May–Sept · just south of Lapland' },
       { name: 'Nellim wilderness', note: 'Nellim wilderness lodge · wolverine + brown bear range' },
       { name: 'Kaamanen reindeer', note: 'Sámi reindeer round-up · autumn (paliskunta)' },
     ],
@@ -427,7 +427,7 @@ const en: SectionCopy = {
       },
       {
         name: 'Brown Bear',
-        description: 'Finland has one of the densest brown bear populations in Europe. In eastern and northern Lapland, bear-watching hides offer close encounters during summer nights when bears emerge from hibernation.',
+        description: 'Finland has one of the densest brown bear populations in Europe. The best bear-watching hides sit in eastern Finland around Kuusamo and Suomussalmi, an easy detour south from Lapland, and offer close encounters during summer nights when bears emerge from hibernation.',
         status: 'Near Threatened',
       },
       {
@@ -523,7 +523,7 @@ const en: SectionCopy = {
       items: [
         {
           q: 'When can you see brown bears in Finnish Lapland?',
-          a: 'Brown-bear watching runs from late April to early September, with overnight photography hides concentrated around Kuusamo, Suomussalmi and Lieksa in eastern Finland. Late May and early June is best for mothers with cubs; July brings reliable lone males and easy weather; September adds the chance of wolves crossing and autumn light.',
+          a: 'Brown-bear watching runs from late April to early September, with overnight photography hides concentrated around Kuusamo, Suomussalmi and Lieksa in eastern Finland, south of Lapland itself. Late May and early June is best for mothers with cubs; July brings reliable lone males and easy weather; September adds the chance of wolves crossing and autumn light.',
         },
         {
           q: 'How likely am I to actually see a bear from a hide?',
@@ -543,6 +543,56 @@ const en: SectionCopy = {
         },
       ],
     },
+  },
+  bearKuusamo: {
+    metaTitle: 'Bear Kuusamo: Ethical Bear Watching in Finland',
+    metaDescription: 'Bear Kuusamo runs the oldest and northernmost bear hides in the Ruka–Kuusamo region. Real bear watching in Finland, on the edge of Lapland, from 1 May to 30 September.',
+    partnership: 'Commercial partnership · Bear Kuusamo',
+    hero: {
+      eyebrow: 'Commercial partnership · Bear Kuusamo',
+      title: 'Bear watching in Finland',
+      subtitle: 'on the edge of Lapland',
+      description: 'For more than twenty years, Bear Kuusamo has guided travellers into the border forests east of Kuusamo, the oldest and northernmost bear hides in the Ruka–Kuusamo region.',
+      alt: 'A female brown bear with two cubs at the forest edge near Kuusamo. Photo: Piritta Paija / Bear Kuusamo',
+    },
+    intro: 'In the border forests east of Kuusamo, where the boreal forest runs unbroken toward the frontier, brown bears step out of the treeline in the long northern dusk. Bear Kuusamo has guided travellers into that quiet for more than twenty years. It is the oldest bear-watching operation in the Ruka–Kuusamo region, and the northernmost in the country.',
+    introLinkBefore: 'This is real ',
+    introLinkAfter: ', not a zoo or a show. The hides stand in a protected stretch of forest that joins Paanajärvi National Park just across the Russian border. Founder Pekka Veteläinen and his guides work with Metsähallitus and researchers, and hide the food in changing spots so the bears forage and search the way they naturally would. The bears stay wild and unhabituated; you simply get a still, well-placed seat to watch them.',
+    hideKicker: 'The experience',
+    hideH2: 'A night in a hide',
+    hideBody: [
+      'Seven timber hides sit at the forest edge, built to keep human sound and scent inside. Panoramic windows give watchers a clear view of the clearing, and photographers have dedicated camera openings with bean bags and video heads, so nobody shoots through glass. The main hide is wheelchair-accessible, and the toilets sit in their own separate rooms.',
+      'From the windows you may see brown bears, and in spring a wolverine slipping past, white-tailed sea eagles overhead, and the ravens whose calls tell the guides a bear is close.',
+    ],
+    treeCaption: 'A young brown bear climbs a pine near the hides.',
+    photoCredit: 'Photo: Piritta Paija / Bear Kuusamo',
+    waysKicker: 'Choose your tour',
+    waysH2: 'Two ways to go',
+    ways: [
+      { title: 'Evening tour', body: 'About four hours, from 6 to 10 pm: a guided walk to the hide and the best-lit hours of the northern evening.' },
+      { title: 'Overnight tour', body: 'The evening extended until morning, and often the richer show. The night hours tend to bring out considerably more bears, from big males to, even at midsummer, a mother with her cubs, and on summer nights the bears go swimming.' },
+    ],
+    season: [
+      'Guiding and insurance are included, and the season runs 1 May to 30 September. Spring brings mothers with cubs, and at midsummer the sun does not set here at all, so you can watch and photograph bears right through the bright night.',
+      'If the forest stays empty, the Original Bear Guarantee brings you back for another evening free.',
+    ],
+    bookingBefore: 'Current prices, dates and availability are on ',
+    bookingLink: "Bear Kuusamo's own booking page",
+    bookingAfter: '.',
+    whereKicker: 'Getting there',
+    whereH2: 'Where it is',
+    whereBefore: "Kuusamo sits in Finland's north-east, right against the Lapland border, among the fells and old-growth forests around Oulanka National Park. It is the natural base for a ",
+    whereAfter: ': fly to Kuusamo, or drive over from Ruka, and you are at the hides within the hour.',
+    ctaLabel: 'Book directly with Bear Kuusamo',
+    logoAlt: 'Bear Kuusamo',
+    photosCredit: 'Photos: Piritta Paija / Bear Kuusamo',
+    crossKicker: 'Keep exploring',
+    crossWildlife: 'More Lapland wildlife',
+    crossHub: 'Explore the Lapland network',
+    wildlifeCardKicker: 'Commercial partnership · Bear Kuusamo',
+    wildlifeCardTitle: 'A night in a Bear Kuusamo hide',
+    wildlifeCardBody: 'The oldest and northernmost bear hides in the Ruka–Kuusamo region, on the edge of Lapland. Read our partner feature on ethical bear watching.',
+    wildlifeCardCta: 'Read the guide',
   },
   seasons: {
     metaTitle: "Lapland's Four Seasons: Ruska, Kaamos & Midnight Sun",
@@ -660,7 +710,7 @@ const en: SectionCopy = {
   },
   hiking: {
     metaTitle: 'Lapland Hiking Trails: 5 km Day Hikes to 82 km Routes',
-    metaDescription: 'Six hiking trails in Finnish Lapland, Hetta-Pallas (55 km), Karhunkierros (82 km), Halti summit (55 km), and three shorter routes. Distance, duration, difficulty and trailhead bases.',
+    metaDescription: 'Six hiking trails in and around Finnish Lapland, Hetta-Pallas (55 km), Karhunkierros (82 km), Halti summit (55 km), and three shorter routes. Distance, duration, difficulty and trailhead bases.',
     hero: {
       eyebrow: 'Pillar guide',
       title: 'Hiking Trails',
@@ -926,7 +976,7 @@ const en: SectionCopy = {
     fish: {
       kicker: "Fish stocks",
       title: "Fish stocks show how the water is doing",
-      lead: "When lakes, rivers, mires and forests are in good shape, fishing is good too — and when they are not, the fish are the first to disappear. Four examples from Lapland's rivers show how directly these are connected.",
+      lead: "When lakes, rivers, mires and forests are in good shape, fishing is good too, and when they are not, the fish are the first to disappear. Four examples from Lapland's rivers show how directly these are connected.",
       stories: [
         {
           title: 'The Teno: closed to protect the salmon',

@@ -10,7 +10,7 @@ import FaqLinks, { type FaqNavKey } from '../components/FaqLinks'
 const FRESHWATER_JSONLD = {
   '@context': 'https://schema.org',
   '@type': 'Article',
-  headline: 'Freshwater Lapland — lakes, free-flowing rivers, aapa mires and the fish they support',
+  headline: 'Freshwater Lapland: lakes, free-flowing rivers, aapa mires and the fish they support',
   description:
     "Why clean cold water is Lapland's rarest asset: 188,000 lakes (SYKE), the unregulated Tornio-Muonio river system, aapa mires and the forests that keep the water cold.",
   author: { '@type': 'Organization', name: 'LaplandNature editorial' },

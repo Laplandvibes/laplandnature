@@ -2,7 +2,7 @@
   {
     "path": "/",
     "fallbackTitle": "Lapland Nature 2026: Aurora, Parks & Wildlife Guide",
-    "fallbackDescription": "Explore the nature of Finnish Lapland — aurora science, national parks, Arctic wildlife, hiking trails and the seasons of the far north.",
+    "fallbackDescription": "Explore the nature of Finnish Lapland: aurora science, national parks, Arctic wildlife, hiking trails and the seasons of the far north.",
     "appendSiteName": false
   },
   {
@@ -16,6 +16,10 @@
   {
     "path": "/wildlife",
     "fallbackTitle": "Wildlife | LaplandNature"
+  },
+  {
+    "path": "/bear-kuusamo",
+    "fallbackTitle": "Bear Kuusamo: Ethical Bear Watching in Finland"
   },
   {
     "path": "/seasons",

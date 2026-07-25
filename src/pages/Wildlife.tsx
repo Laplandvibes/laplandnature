@@ -45,8 +45,8 @@ const statusColor: Record<string, string> = {
 const W_JSONLD = {
   '@context': 'https://schema.org',
   '@type': 'Article',
-  headline: 'Wildlife of Finnish Lapland — six iconic arctic species',
-  description: 'Reindeer, brown bear, wolverine, arctic fox and more — the wildlife you can realistically encounter (or hope to glimpse) across Finnish Lapland\'s wilderness.',
+  headline: 'Wildlife of Finnish Lapland: six iconic arctic species',
+  description: 'Reindeer, brown bear, wolverine, arctic fox and more: the wildlife you can realistically encounter (or hope to glimpse) across Finnish Lapland\'s wilderness.',
   author: { '@type': 'Organization', name: 'LaplandNature editorial' },
   publisher: { '@type': 'Organization', name: 'Lapeso Oy' },
   datePublished: '2026-04-27',
@@ -63,6 +63,7 @@ const FAQ_LINKS: FaqNavKey[][] = [['seasons'], [], ['conservation'], [], []]
 export default function Wildlife() {
   const lang = useLang()
   const c = COPY[lang].wildlife
+  const bk = COPY[lang].bearKuusamo
   const to = useLocalePath()
 
   const faqLd = {
@@ -131,7 +132,7 @@ export default function Wildlife() {
             <AffiliateCTA
               partner="activities"
               sid="wildlife_bear_hide"
-              destination="rovaniemi-l2653"
+              destination="kuusamo-l113322"
               className="inline-flex items-center justify-center gap-2 bg-vibe-pink hover:bg-pink-600 text-snow font-semibold px-6 py-3 rounded-full transition-colors"
             >
               {c.browseHidesCta}
@@ -146,6 +147,34 @@ export default function Wildlife() {
               {c.preNightCta}
             </AffiliateCTA>
           </div>
+
+          {/* Partner feature: Bear Kuusamo (commercial partnership) */}
+          <Link
+            to={to('/bear-kuusamo')}
+            className="mt-8 group flex flex-col sm:flex-row items-stretch rounded-2xl border border-deep-night/10 bg-cream overflow-hidden hover:border-aurora-green/40 hover:shadow-md transition-all"
+          >
+            <div className="sm:w-52 shrink-0 aspect-[16/10] sm:aspect-auto overflow-hidden">
+              <img
+                src="/images/wildlife-bear.webp"
+                alt=""
+                aria-hidden="true"
+                loading="lazy"
+                decoding="async"
+                width={1280}
+                height={543}
+                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+              />
+            </div>
+            <div className="p-6 flex-1">
+              <p className="text-xs font-semibold mb-2" style={{ color: '#007E2E' }}>{bk.wildlifeCardKicker}</p>
+              <h3 className="font-heading text-2xl text-deep-night tracking-wide mb-2 leading-tight">{bk.wildlifeCardTitle}</h3>
+              <p className="text-deep-night/70 text-sm leading-relaxed mb-3">{bk.wildlifeCardBody}</p>
+              <span className="inline-flex items-center gap-1.5 text-vibe-pink font-semibold text-sm">
+                {bk.wildlifeCardCta}
+                <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
+              </span>
+            </div>
+          </Link>
         </div>
       </section>
 
@@ -204,7 +233,7 @@ export default function Wildlife() {
           <AffiliateCTA
             partner="activities"
             sid="wildlife_tour_cta"
-            destination="rovaniemi-l2653"
+            destination="lappi-suomi-l2652"
             className="inline-flex items-center gap-2 bg-vibe-pink hover:bg-pink-600 text-snow font-semibold px-7 py-3.5 rounded-full transition-colors"
           >
             {c.finalCta}

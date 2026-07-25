@@ -18,7 +18,7 @@ const ORG_VISUAL = [
 const CONSERVATION_JSONLD = {
   '@context': 'https://schema.org',
   '@type': 'Article',
-  headline: 'Conservation in Finnish Lapland — who protects the wilderness, and how',
+  headline: 'Conservation in Finnish Lapland: who protects the wilderness, and how',
   description: 'Metsähallitus manages 85% of fell areas and all seven national parks.',
   author: { '@type': 'Organization', name: 'LaplandNature editorial' },
   publisher: { '@type': 'Organization', name: 'Lapeso Oy' },
@@ -181,7 +181,7 @@ export default function Conservation() {
             <AffiliateCTA
               partner="activities"
               sid="conservation_local_tour"
-              destination="rovaniemi-l2653"
+              destination="lappi-suomi-l2652"
               className="inline-flex items-center justify-center gap-2 border border-deep-night/15 hover:border-vibe-pink/50 text-deep-night px-6 py-3 rounded-full transition-colors"
             >
               {c.localTourCta}

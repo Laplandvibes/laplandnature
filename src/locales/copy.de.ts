@@ -81,10 +81,10 @@ const de: SectionCopy = {
       { name: 'Kilpisjärvi', note: 'Dreiländereck · hochalpine Fjälls' },
       { name: 'Enontekiö', note: 'Einer der dunkelsten Himmel Europas (Bortle 1)' },
       { name: 'Hetta', note: 'Nordende des 55 km Hetta–Pallas-Wegs' },
-      { name: 'Ruka / Oulanka', note: '82 km Karhunkierros · Hängebrücken + Schluchten' },
+      { name: 'Ruka / Oulanka', note: '82 km Karhunkierros · Hängebrücken + Schluchten · Kuusamo, knapp südlich der Grenze Lapplands' },
       { name: 'Kilpisjärvi (Halti)', note: '55 km Hin- und Rückweg zum Halti, Finnlands höchstem Punkt (1.324 m)' },
       { name: 'Pyhä', note: 'Pyhäkuru-Schlucht · barrierefreier Bohlenweg · 5 km' },
-      { name: 'Kuusamo Bärenverstecke', note: 'Braunbären-Verstecke · 99 % Sichtungsquote · Mai–September' },
+      { name: 'Kuusamo Bärenverstecke', note: 'Braunbären-Verstecke · 99 % Sichtungsquote · Mai–September · knapp südlich Lapplands' },
       { name: 'Nellim-Wildnis', note: 'Nellim-Wildnislodge · Revier von Vielfraß und Braunbär' },
       { name: 'Kaamanen-Rentiere', note: 'Sámi-Rentier-Zusammentrieb · Herbst (paliskunta)' },
     ],
@@ -427,7 +427,7 @@ const de: SectionCopy = {
       },
       {
         name: 'Braunbär',
-        description: 'Finnland hat eine der dichtesten Braunbärpopulationen Europas. In Ost- und Nordlappland bieten Bären-Verstecke in den Sommernächten, wenn die Bären aus dem Winterschlaf kommen, nahe Begegnungen.',
+        description: 'Finnland hat eine der dichtesten Braunbärpopulationen Europas. Die besten Bären-Verstecke liegen in Ostfinnland um Kuusamo und Suomussalmi, ein leichter Abstecher südlich von Lappland, und bieten in den Sommernächten, wenn die Bären aus dem Winterschlaf kommen, nahe Begegnungen.',
         status: 'Gefährdet',
       },
       {
@@ -523,7 +523,7 @@ const de: SectionCopy = {
       items: [
         {
           q: 'Wann kann man im finnischen Lappland Braunbären sehen?',
-          a: 'Die Braunbärenbeobachtung läuft von Ende April bis Anfang September, wobei sich die Fotohütten für Übernachtungen um Kuusamo, Suomussalmi und Lieksa in Ostfinnland konzentrieren. Ende Mai und Anfang Juni ist am besten für Bärinnen mit Jungen; der Juli bringt verlässlich einzelne Männchen und einfaches Wetter; der September fügt die Chance hinzu, Wölfe zu sehen, sowie das Herbstlicht.',
+          a: 'Die Braunbärenbeobachtung läuft von Ende April bis Anfang September, wobei sich die Fotohütten für Übernachtungen um Kuusamo, Suomussalmi und Lieksa in Ostfinnland konzentrieren, südlich von Lappland, konzentrieren. Ende Mai und Anfang Juni ist am besten für Bärinnen mit Jungen; der Juli bringt verlässlich einzelne Männchen und einfaches Wetter; der September fügt die Chance hinzu, Wölfe zu sehen, sowie das Herbstlicht.',
         },
         {
           q: 'Wie wahrscheinlich sehe ich aus einer Hütte tatsächlich einen Bären?',
@@ -543,6 +543,56 @@ const de: SectionCopy = {
         },
       ],
     },
+  },
+  bearKuusamo: {
+    metaTitle: 'Bear Kuusamo: ethische Bärenbeobachtung in Finnland',
+    metaDescription: 'Bear Kuusamo betreibt die ältesten und nördlichsten Bärenverstecke der Region Ruka–Kuusamo. Echte Bärenbeobachtung in Finnland, am Rande Lapplands, vom 1. Mai bis 30. September.',
+    partnership: 'Bezahlte Partnerschaft · Bear Kuusamo',
+    hero: {
+      eyebrow: 'Bezahlte Partnerschaft · Bear Kuusamo',
+      title: 'Bärenbeobachtung in Finnland',
+      subtitle: 'am Rande Lapplands',
+      description: 'Seit mehr als zwanzig Jahren führt Bear Kuusamo Reisende in die Grenzwälder östlich von Kuusamo, zu den ältesten und nördlichsten Bärenverstecken der Region Ruka–Kuusamo.',
+      alt: 'Eine Braunbärin mit zwei Jungen am Waldrand bei Kuusamo. Foto: Piritta Paija / Bear Kuusamo',
+    },
+    intro: 'In den Grenzwäldern östlich von Kuusamo, wo der boreale Nadelwald ununterbrochen zur Grenze hin verläuft, treten Braunbären in der langen nordischen Dämmerung aus dem Baumsaum. Bear Kuusamo führt Reisende seit mehr als zwanzig Jahren in diese Stille. Es ist der älteste Bärenbeobachtungsbetrieb der Region Ruka–Kuusamo und der nördlichste des Landes.',
+    introLinkBefore: 'Das ist echtes ',
+    introLinkAfter: ', kein Zoo und keine Show. Die Verstecke stehen in einem geschützten Waldstück, das gleich hinter der russischen Grenze an den Paanajärvi-Nationalpark anschließt. Gründer Pekka Veteläinen und seine Guides arbeiten mit Metsähallitus und Forschenden zusammen und verstecken das Futter an wechselnden Stellen, damit die Bären auf natürliche Weise suchen und fressen. Die Bären bleiben wild und an Menschen ungewöhnt; Sie bekommen einfach einen ruhigen, gut platzierten Platz, um sie zu beobachten.',
+    hideKicker: 'Das Erlebnis',
+    hideH2: 'Eine Nacht im Versteck',
+    hideBody: [
+      'Sieben Holzverstecke stehen am Waldrand, gebaut, um Geräusch und Geruch des Menschen im Inneren zu halten. Panoramafenster geben den Beobachtenden freie Sicht auf die Lichtung, und Fotografierende haben eigene Kameraöffnungen mit Bohnensäcken und Videoneigern, sodass niemand durch Glas fotografiert. Das Hauptversteck ist rollstuhlgerecht, und die Toiletten liegen in eigenen, getrennten Räumen.',
+      'Aus den Fenstern sehen Sie vielleicht Braunbären, im Frühjahr einen vorbeiziehenden Vielfraß, Seeadler über sich und die Kolkraben, deren Rufe den Guides verraten, dass ein Bär nah ist.',
+    ],
+    treeCaption: 'Ein junger Braunbär klettert nahe den Verstecken auf eine Kiefer.',
+    photoCredit: 'Foto: Piritta Paija / Bear Kuusamo',
+    waysKicker: 'Wählen Sie Ihre Tour',
+    waysH2: 'Zwei Wege',
+    ways: [
+      { title: 'Abendtour', body: 'Etwa vier Stunden, von 18 bis 22 Uhr: eine geführte Wanderung zum Versteck und die bestbeleuchteten Stunden des nordischen Abends.' },
+      { title: 'Übernachtungstour', body: 'Der Abend bis zum Morgen verlängert, oft das reichere Schauspiel. Die Nachtstunden bringen deutlich mehr Bären hervor, von großen Männchen bis, sogar zur Mittsommerzeit, einer Mutter mit ihren Jungen, und in Sommernächten gehen die Bären schwimmen.' },
+    ],
+    season: [
+      'Führung und Versicherung sind inbegriffen, und die Saison läuft vom 1. Mai bis 30. September. Der Frühling bringt Mütter mit Jungen, und zur Mittsommerzeit geht die Sonne hier gar nicht unter, sodass Sie Bären die ganze helle Nacht hindurch beobachten und fotografieren können.',
+      'Bleibt der Wald leer, bringt Sie die Original Bear Guarantee kostenlos für einen weiteren Abend zurück.',
+    ],
+    bookingBefore: 'Aktuelle Preise, Termine und Verfügbarkeit finden Sie auf ',
+    bookingLink: 'der eigenen Buchungsseite von Bear Kuusamo',
+    bookingAfter: '.',
+    whereKicker: 'Anreise',
+    whereH2: 'Wo es liegt',
+    whereBefore: 'Kuusamo liegt im Nordosten Finnlands, direkt an der Grenze zu Lappland, zwischen den Fjells und Urwäldern rund um den Oulanka-Nationalpark. Es ist der natürliche Ausgangspunkt für eine ',
+    whereAfter: ': Fliegen Sie nach Kuusamo oder fahren Sie von Ruka herüber, und Sie sind innerhalb einer Stunde bei den Verstecken.',
+    ctaLabel: 'Direkt bei Bear Kuusamo buchen',
+    logoAlt: 'Bear Kuusamo',
+    photosCredit: 'Fotos: Piritta Paija / Bear Kuusamo',
+    crossKicker: 'Weiter erkunden',
+    crossWildlife: 'Mehr Tierwelt Lapplands',
+    crossHub: 'Das Lappland-Netzwerk entdecken',
+    wildlifeCardKicker: 'Bezahlte Partnerschaft · Bear Kuusamo',
+    wildlifeCardTitle: 'Eine Nacht im Versteck von Bear Kuusamo',
+    wildlifeCardBody: 'Die ältesten und nördlichsten Bärenverstecke der Region Ruka–Kuusamo, am Rande Lapplands. Lesen Sie unseren Partnerbeitrag zur ethischen Bärenbeobachtung.',
+    wildlifeCardCta: 'Zum Beitrag',
   },
   seasons: {
     metaTitle: 'Lapplands vier Jahreszeiten: Ruska–Kaamos | LaplandNature',
@@ -660,7 +710,7 @@ const de: SectionCopy = {
   },
   hiking: {
     metaTitle: 'Lapplands Wanderwege: 5 km bis 82 km | LaplandNature',
-    metaDescription: 'Sechs Wanderwege in Finnisch-Lappland, Hetta–Pallas (55 km), Karhunkierros (82 km), Halti (55 km) und drei kürzere Routen. Distanz, Dauer und Basen.',
+    metaDescription: 'Sechs Wanderwege in Finnisch-Lappland und Umgebung, Hetta–Pallas (55 km), Karhunkierros (82 km), Halti (55 km) und drei kürzere Routen. Distanz, Dauer und Basen.',
     hero: {
       alt: 'Ein Wanderweg schlängelt sich über einen herbstlichen Ruska-Fjell in Finnisch-Lappland',
       eyebrow: 'Säulen-Guide',
@@ -926,7 +976,7 @@ const de: SectionCopy = {
     fish: {
       kicker: "Fischbestände",
       title: "Die Fischbestände zeigen, wie es dem Wasser geht",
-      lead: "Wenn Seen, Flüsse, Moore und Wälder gesund sind, ist auch das Angeln gut — wenn nicht, verschwinden die Fische zuerst. Vier Beispiele von Lapplands Flüssen zeigen, wie direkt beides zusammenhängt.",
+      lead: "Wenn Seen, Flüsse, Moore und Wälder gesund sind, ist auch das Angeln gut. Wenn nicht, verschwinden die Fische zuerst. Vier Beispiele von Lapplands Flüssen zeigen, wie direkt beides zusammenhängt.",
       stories: [
         {
           title: 'Der Teno: gesperrt zum Schutz des Lachses',
