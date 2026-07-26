@@ -8,6 +8,10 @@ import Newsletter from '../components/Newsletter'
 import { useLang, useLocalePath } from '../i18n/useLang'
 import { COPY } from '../locales/copy'
 import HomeAdSlots, { MainPartnerBanner } from '../../../shared/HomeAdSlots'
+import AdUnit from '../../../shared/ads/AdUnit'
+import bearKuusamoAd from '../../../shared/ads/advertisers/bearkuusamo'
+import { adLocaleEnabled } from '../../../shared/adSlotsCopy'
+import { trackPartnerClick } from '../lib/analytics'
 import { AD_SLOTS } from '../data/adSlots'
 
 const cardImages = [
@@ -73,6 +77,9 @@ export default function Home() {
   const lang = useLang()
   const c = COPY[lang].home
   const to = useLocalePath()
+  // LV:n omat mainospaikat vain fi/en/sv — muilla kielillä ne olisivat
+  // kohdeyleisölle turhia (sama portti kuin /wildlife-sijoittelussa).
+  const adsEnabled = adLocaleEnabled(lang)
 
   const featured = c.featured.items.map((it, i) => ({
     href: to(cardHrefs[i]),
@@ -245,6 +252,30 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Maksettu kumppanipaikka etusivulla (Vesa 2026-07-26): "nature-sivulla
+          voisi olla etusivulla jo tuo mainos, koska siten se herättää huomiota ja
+          muut yrittäjät uskaltautuvat mukaan" — eli näyteikkuna sekä Bear
+          Kuusamolle että myytäville paikoille. Sama dark-band-käsittely kuin
+          /wildlife-sijoittelussa: valkoinen kortti katoaisi cream-taustaan, joten
+          variant="dark" oman deep-night-kaistan sisällä. Kieliportti kuten kaikki
+          LV:n omat mainospaikat (fi/en/sv). */}
+      {adsEnabled && (
+        <section className="px-4 sm:px-6 py-12 sm:py-16 bg-deep-night">
+          <div className="max-w-6xl mx-auto">
+            <AdUnit
+              spec={bearKuusamoAd}
+              sid="home_featured_below"
+              lang={lang}
+              variant="dark"
+              imageSrc="/images/hero-bear-kuusamo.webp"
+              articleHref={to('/bear-kuusamo')}
+              onArticleClick={(_k, sid) => trackPartnerClick(`ad_article:${sid}`)}
+              onCtaClick={(_specKey, sid) => trackPartnerClick(`ad_unit:${sid}`)}
+            />
+          </div>
+        </section>
+      )}
 
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-snow border-y border-deep-night/8">
         <div className="max-w-6xl mx-auto">
