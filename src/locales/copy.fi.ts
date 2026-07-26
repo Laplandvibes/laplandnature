@@ -552,10 +552,10 @@ const fi: SectionCopy = {
       eyebrow: 'Kaupallinen yhteistyö · Bear Kuusamo',
       title: 'Karhunkatselua Suomessa',
       subtitle: 'aivan Lapin rajalla',
-      description: 'Bear Kuusamo on opastanut matkaajia Kuusamon itäpuolen rajametsiin yli kaksikymmentä vuotta, Ruka–Kuusamon alueen vanhimmilla ja pohjoisimmilla karhukojuilla.',
+      description: 'Bear Kuusamo on opastanut matkaajia Kuusamon itäpuolisiin rajametsiin yli kaksikymmentä vuotta, Ruka–Kuusamon alueen vanhimmilla ja pohjoisimmilla karhukojuilla.',
       alt: 'Naaraskarhu ja kaksi pentua metsänreunassa Kuusamon lähellä. Kuva: Piritta Paija / Bear Kuusamo',
     },
-    intro: 'Kuusamon itäpuolen rajametsissä, missä havumetsä jatkuu katkeamatta kohti rajaa, ruskeakarhut astuvat puurajasta esiin pitkässä pohjoisessa hämärässä. Bear Kuusamo on opastanut matkaajia tähän hiljaisuuteen yli kaksikymmentä vuotta. Se on Ruka–Kuusamon alueen vanhin karhunkatseluyritys ja maan pohjoisin.',
+    intro: 'Kuusamon itäpuolisissa rajametsissä, missä havumetsä jatkuu katkeamatta kohti rajaa, ruskeakarhut astuvat puurajalta esiin pitkässä pohjoisessa hämärässä. Bear Kuusamo on opastanut matkaajia tähän hiljaisuuteen yli kaksikymmentä vuotta. Se on Ruka–Kuusamon alueen vanhin karhunkatseluyritys ja maan pohjoisin.',
     introLinkBefore: 'Tämä on aitoa ',
     introLinkAfter: ', ei eläintarhaa eikä esitystä. Kojut sijaitsevat suojellulla metsäkaistaleella, joka liittyy Paanajärven kansallispuistoon aivan Venäjän rajan takana. Perustaja Pekka Veteläinen ja hänen oppaansa toimivat yhteistyössä Metsähallituksen ja tutkijoiden kanssa ja kätkevät ruoan vaihtuviin paikkoihin, jotta karhut etsivät ravintonsa luontaiseen tapaan. Karhut pysyvät villeinä ja ihmiseen tottumattomina; sinä saat vain rauhallisen, hyvin sijoitetun paikan tarkkailla niitä.',
     hideKicker: 'Kokemus',
@@ -570,7 +570,7 @@ const fi: SectionCopy = {
     waysH2: 'Kaksi tapaa lähteä',
     ways: [
       { title: 'Iltaretki', body: 'Noin neljä tuntia, klo 18–22: opastettu kävely kojulle ja pohjoisen illan parhaat valotunnit.' },
-      { title: 'Yöretki', body: 'Ilta jatkettuna aamuun asti, usein antoisampi näytös. Yötunnit houkuttelevat esiin huomattavasti enemmän karhuja, isoista uroksista jopa juhannuksen aikaan emoon pentuineen, ja kesäöinä karhut käyvät uimassa.' },
+      { title: 'Yöretki', body: 'Ilta jatkettuna aamuun asti, usein antoisampi näytös. Yötunnit houkuttelevat esiin huomattavasti enemmän karhuja, suurista uroksista pentujensa kanssa liikkuviin emoihin, joita näkee jopa juhannuksen aikaan. Kesäöinä karhut käyvät myös uimassa.' },
     ],
     season: [
       'Opastus ja vakuutus sisältyvät hintaan, ja kausi kestää 1.5.–30.9. Kevät tuo emot pentuineen, ja juhannuksen aikaan aurinko ei laske täällä lainkaan, joten karhuja voi tarkkailla ja kuvata läpi valoisan yön.',
