@@ -36,6 +36,13 @@ const bearKuusamo: Partner = {
   taglineSv: 'En natt i ett björngömsle, vid Lapplands gräns',
   url: 'https://go.laplandvibes.com/go/bearkuusamo?sid=home_card_a',
   imageSrc: '/images/hero-bear-kuusamo.webp',
+  // CTA on pakollinen myydylle paikalle: ilman sitä viereinen tyhjä
+  // "Varaa mainospaikka" -house-ad näyttää houkuttelevammalta kuin maksava
+  // asiakas (Vesa 2026-07-27). Tekstit ovat Niinan hyväksymiä.
+  ctaLabel: 'Varaa yösi',
+  ctaLabelEn: 'Plan your night',
+  ctaLabelSv: 'Boka din natt',
+  accent: '#007E2E', // Bear Kuusamon brändivihreä
 }
 
 export const AD_SLOTS: HomeAdSlotsConfig = {
