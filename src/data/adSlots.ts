@@ -43,6 +43,22 @@ const bearKuusamo: Partner = {
   ctaLabelEn: 'Plan your night',
   ctaLabelSv: 'Boka din natt',
   accent: '#007E2E', // Bear Kuusamon brändivihreä
+  // Pidempi kuvaus näkyy vain desktopissa (sm+). Sama hyväksytty teksti kuin
+  // AdUnitin `sub` shared/ads/advertisers/bearkuusamo.ts:ssä.
+  description:
+    'Kuusamon alkuperäinen karhuopas, yli kaksikymmentä vuotta itärajan metsissä. Katsele villejä ruskeakarhuja, ahmoja ja merikotkia kuvauskojusta.',
+  descriptionEn:
+    "Kuusamo's original bear guides, over twenty years in the eastern border forests. Watch wild brown bears, wolverine and sea eagles from a photography hide.",
+  descriptionSv:
+    'Kuusamos ursprungliga björnguider, över tjugo år i gränsskogarna i öster. Se vilda brunbjörnar, järv och havsörnar från ett fotogömsle.',
+  // Linkki myytyyn esittelyartikkeliin LaplandVibes-blogissa (Vesa 2026-07-27).
+  // Hubin EN-versio on juuressa, muut kielet etuliitteen takana.
+  articleUrl: 'https://laplandvibes.com/fi/blog/bear-kuusamo/',
+  articleUrlEn: 'https://laplandvibes.com/blog/bear-kuusamo/',
+  articleUrlSv: 'https://laplandvibes.com/sv/blog/bear-kuusamo/',
+  articleLabel: 'Lue esittely',
+  articleLabelEn: 'Read the feature',
+  articleLabelSv: 'Läs artikeln',
 }
 
 export const AD_SLOTS: HomeAdSlotsConfig = {
