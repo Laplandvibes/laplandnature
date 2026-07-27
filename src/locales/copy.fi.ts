@@ -562,7 +562,7 @@ const fi: SectionCopy = {
     hideH2: 'Yö kojussa',
     hideBody: [
       'Seitsemän hirsikojua on rakennettu metsänreunaan niin, että ihmisen ääni ja haju pysyvät sisällä. Panoraamaikkunat antavat katselijoille selkeän näkymän aukiolle, ja kuvaajilla on omat kamera-aukot säkkituilla ja videopäillä, joten kenenkään ei tarvitse kuvata lasin läpi. Pääkoju on esteetön, ja käymälät ovat omissa erillisissä tiloissaan.',
-      'Ikkunoista saatat nähdä ruskeakarhuja, keväällä ohi lipuvan ahman, yläpuolella liitäviä merikotkia ja korpit, joiden huudot kertovat oppaille karhun olevan lähellä.',
+      'Ikkunoista saatat nähdä ruskeakarhuja, keväällä ohi lipuvan ahman, yläpuolella liitäviä merikotkia ja korppeja, joiden huudot kertovat oppaille karhun olevan lähellä.',
     ],
     treeCaption: 'Nuori ruskeakarhu kiipeää mäntyyn kojujen lähellä.',
     photoCredit: 'Kuva: Piritta Paija / Bear Kuusamo',
