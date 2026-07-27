@@ -102,8 +102,6 @@ export default function Wildlife() {
         description={c.hero.description}
       />
 
-      <section className="pt-8 pb-2 px-4 sm:px-6"><div className="max-w-4xl mx-auto" /></section>
-
       {/* Bear Kuusamo — PAID PARTNER placement (flat fee, not affiliate/commission).
           Sits immediately under the hero, full content width (matches the animal
           grid below), so it is the first thing a bear-watching visitor sees
@@ -117,7 +115,7 @@ export default function Wildlife() {
           surface) plus the white Bear wordmark. Do NOT switch this to `light`:
           a white card on a cream page disappears. */}
       {adsEnabled && (
-        <section className="my-12 sm:my-16 py-10 sm:py-12 px-4 sm:px-6 bg-deep-night">
+        <section className="mt-8 sm:mt-10 mb-12 sm:mb-16 py-10 sm:py-12 px-4 sm:px-6 bg-deep-night">
           <div className="max-w-6xl mx-auto">
             <AdUnit
               spec={bearKuusamoAd}

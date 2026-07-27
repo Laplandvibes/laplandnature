@@ -12,11 +12,16 @@ import { trackPartnerClick } from '../lib/analytics'
 const BEAR_GREEN = '#007E2E'
 const BEAR_URL = 'https://bearkuusamo.com'
 
-// Conversion links (booking link, final CTA, logo) carry campaign UTM so Bear
-// Kuusamo can attribute bookings to us. The two SEO keyword anchors stay UTM-free
-// (clean backlinks) — they still fire the partner_click event on click.
-const BEAR_URL_UTM =
-  `${BEAR_URL}/?utm_source=laplandnature&utm_medium=partner&utm_campaign=bear-kuusamo-2026`
+// EVERY outbound Bear link carries campaign UTM, including the two SEO keyword
+// anchors. Those two used to be deliberately UTM-free ("clean backlink"), which
+// meant Bear Kuusamo had no way to see in their own analytics that a visitor came
+// from the article — the single thing they are paying for (Vesa 2026-07-27).
+// A query string does not cost link equity: bearkuusamo.com canonicalises to the
+// clean URL, so the dofollow backlink is unaffected and both sides get attribution.
+// `utm_content` = the sid, so the June 2027 referral report shows WHICH surface
+// (intro anchor, where anchor, CTA, logo) actually drove the visit.
+const bearUrl = (sid: string) =>
+  `${BEAR_URL}/?utm_source=laplandnature&utm_medium=partner&utm_campaign=bear-kuusamo-2026&utm_content=${sid}`
 
 // The two paid SEO keyword anchors stay in ENGLISH in every locale — they are
 // the purchased anchor texts and must not be translated.
@@ -102,7 +107,7 @@ export default function BearKuusamo() {
             <p className="text-base sm:text-lg">
               {c.introLinkBefore}
               <a
-                href={BEAR_URL}
+                href={bearUrl('intro_keyword')}
                 target="_blank"
                 rel="noopener"
                 className={bearLinkClass}
@@ -183,7 +188,7 @@ export default function BearKuusamo() {
             <p>
               {c.bookingBefore}
               <a
-                href={BEAR_URL_UTM}
+                href={bearUrl('booking')}
                 target="_blank"
                 rel="noopener"
                 className={bearLinkClass}
@@ -210,7 +215,7 @@ export default function BearKuusamo() {
           <p className="text-deep-night/80 leading-relaxed text-base sm:text-lg">
             {c.whereBefore}
             <a
-              href={BEAR_URL}
+              href={bearUrl('where_keyword')}
               target="_blank"
               rel="noopener"
               className={bearLinkClass}
@@ -243,7 +248,7 @@ export default function BearKuusamo() {
       <section className="py-14 sm:py-20 px-4 sm:px-6 bg-gradient-to-br from-deep-night via-deep-night to-emerald-950 text-snow">
         <div className="max-w-3xl mx-auto text-center">
           <a
-            href={BEAR_URL_UTM}
+            href={bearUrl('cta_book')}
             target="_blank"
             rel="noopener"
             onClick={() => trackPartnerClick('cta_book')}
@@ -255,7 +260,7 @@ export default function BearKuusamo() {
 
           <div className="mt-12 pt-10 border-t border-snow/12">
             <a
-              href={BEAR_URL_UTM}
+              href={bearUrl('logo')}
               target="_blank"
               rel="noopener"
               aria-label={c.logoAlt}

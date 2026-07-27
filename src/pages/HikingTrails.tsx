@@ -100,8 +100,6 @@ export default function HikingTrails() {
         description={c.hero.description}
       />
 
-      <section className="pt-8 pb-2 px-4 sm:px-6"><div className="max-w-4xl mx-auto" /></section>
-
       <section className="py-12 sm:py-16 px-4 sm:px-6 border-b border-deep-night/8">
         <div className="max-w-4xl mx-auto">
           <div className="flex items-center gap-2 text-aurora-green text-xs uppercase tracking-[0.25em] mb-3">

@@ -66,9 +66,7 @@ export default function NationalParks() {
         description={c.hero.description}
       />
 
-      <section className="pt-8 pb-2 px-4 sm:px-6"><div className="max-w-4xl mx-auto" /></section>
-
-      <section className="pb-12 sm:pb-16 px-4 sm:px-6">
+      <section className="pt-10 sm:pt-14 pb-12 sm:pb-16 px-4 sm:px-6">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
           {c.parks.map((park, i) => {
             const Icon = PARK_ICONS[i]

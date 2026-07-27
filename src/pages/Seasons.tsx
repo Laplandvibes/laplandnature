@@ -68,9 +68,7 @@ export default function Seasons() {
         description={c.hero.description}
       />
 
-      <section className="pt-8 pb-2 px-4 sm:px-6"><div className="max-w-4xl mx-auto" /></section>
-
-      <section className="pb-20 px-4 sm:px-6">
+      <section className="pt-10 sm:pt-14 pb-20 px-4 sm:px-6">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-6 sm:gap-8">
           {c.seasons.map((season, i) => {
             const v = SEASON_VISUAL[i]
