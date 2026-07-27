@@ -219,7 +219,7 @@ const fi: SectionCopy = {
     ],
     oneNightKicker: 'Yksi yö · Inari · 2. maaliskuuta 2024',
     oneNightH2: 'Miltä oikea revontuliyö näyttää',
-    oneNightLead: 'Ennusteet sanovat "hyvä mahdollisuus tänä yönä". Ne eivät kerro että odotat kolme tuntia taivaan aukenemista, että ensimmäinen näytös on litteä vihreä juova jonka melkein ohitat, ja että toinen, klo 01:48, räjähtää koko arktiselle holvelle. Näin yksi yö menee.',
+    oneNightLead: 'Ennusteet sanovat "hyvä mahdollisuus tänä yönä". Ne eivät kerro, että odotat kolme tuntia taivaan aukenemista, että ensimmäinen näytös on litteä vihreä juova, jonka melkein ohitat, ja että toinen, klo 01:48, räjähtää koko arktiselle holvelle. Näin yksi yö menee.',
     oneNightSteps: [
       {
         time: '19:30',
@@ -381,7 +381,7 @@ const fi: SectionCopy = {
         },
         {
           q: 'Mikä on Lapin suurin kansallispuisto?',
-          a: 'Urho Kekkosen kansallispuisto on Lapin suurin, noin 2 550 km², ja koko Suomen toiseksi suurin. Se ulottuu Saariselän tuntureilta itään syvään tiettömään erämaahan, avoimia tuntureita, jokirotkoja ja vanhaa mäntymetsää.',
+          a: 'Urho Kekkosen kansallispuisto on Lapin suurin, noin 2 550 km², ja koko Suomen toiseksi suurin. Se ulottuu Saariselän tuntureilta itään syvään tiettömään erämaahan: avoimia tuntureita, jokirotkoja ja vanhaa mäntymetsää.',
         },
         {
           q: 'Tarvitseeko Lapin kansallispuistoihin lupaa tai pääsymaksua?',
@@ -530,7 +530,7 @@ const fi: SectionCopy = {
         },
         {
           q: 'Mikä on Lapin harvinaisin eläin?',
-          a: 'Naali on harvinaisin, luokiteltu äärimmäisen uhanalaiseksi Fennoskandian kannassa, ja se selviää vain karuimmilla ylätuntureilla. Ahma on vaikein nähdä, uskomattoman vahva ja valtavilla reviireillä liikkuva, se on läsnä koko erämaassa mutta harvoin silmin havaittu.',
+          a: 'Naali on harvinaisin, luokiteltu äärimmäisen uhanalaiseksi Fennoskandian kannassa, ja se selviää vain karuimmilla ylätuntureilla. Ahma on vaikein nähdä, uskomattoman vahva ja valtavilla reviireillä liikkuva. Se on läsnä koko erämaassa mutta harvoin silmin havaittu.',
         },
         {
           q: 'Paljonko karhunkatselukoju maksaa?',
@@ -628,7 +628,7 @@ const fi: SectionCopy = {
     ],
     ruskaKicker: 'Ruska 2024 · viikko viikolta',
     ruskaH2: 'Miten ruskahuippu oikeasti liikkuu Lapin yli',
-    ruskaLead: 'Ruska ei ole yksi tapahtuma. Se on aalto joka pyyhkii pohjoisesta etelään noin kolmessa viikossa joka syyskuu. Jos saavut väärällä viikolla, tai väärällä leveysasteella, näet joko paljaita koivuja tai vielä vihreää sammalta. Alla mitä kirjasimme vuonna 2024 ajaessamme Utsjoelta Riisitunturille.',
+    ruskaLead: 'Ruska ei ole yksi tapahtuma. Se on aalto, joka pyyhkii pohjoisesta etelään noin kolmessa viikossa joka syyskuu. Jos saavut väärällä viikolla, tai väärällä leveysasteella, näet joko paljaita koivuja tai vielä vihreää sammalta. Alla mitä kirjasimme vuonna 2024 ajaessamme Utsjoelta Riisitunturille.',
     ruskaWeeks: [
       {
         week: 'Viikko 1 · 2.–8.9.',
@@ -852,7 +852,7 @@ const fi: SectionCopy = {
     },
     orgsKicker: 'Kuka tekee',
     orgsH2: 'Suojeluorganisaatiot',
-    orgsLead: 'Neljä tahoa päättää, miten Lapin erämaata hoidetaan, vaalitaan ja käytetään, valtion puistohallinnosta saamelaiskäräjiin.',
+    orgsLead: 'Neljä tahoa päättää, miten Lapin erämaata hoidetaan, vaalitaan ja käytetään: valtion puistohallinnosta saamelaiskäräjiin.',
     orgs: [
       {
         role: 'Kansallispuistojen hallinta',
