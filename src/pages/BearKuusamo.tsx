@@ -10,23 +10,17 @@ import { trackPartnerClick } from '../lib/analytics'
 // Bear Kuusamo brand green — used only as a restrained accent (partnership
 // label + indicator dot), never as body-text colour.
 const BEAR_GREEN = '#007E2E'
-const BEAR_URL = 'https://bearkuusamo.com'
 
-// EVERY outbound Bear link carries campaign UTM, including the two SEO keyword
-// anchors. Those two used to be deliberately UTM-free ("clean backlink"), which
-// meant Bear Kuusamo had no way to see in their own analytics that a visitor came
-// from the article — the single thing they are paying for (Vesa 2026-07-27).
-// A query string does not cost link equity: bearkuusamo.com canonicalises to the
-// clean URL, so the dofollow backlink is unaffected and both sides get attribution.
-// `utm_content` = the sid, so the June 2027 referral report shows WHICH surface
-// (intro anchor, where anchor, CTA, logo) actually drove the visit.
-const bearUrl = (sid: string) =>
-  `${BEAR_URL}/?utm_source=laplandnature&utm_medium=partner&utm_campaign=bear-kuusamo-2026&utm_content=${sid}`
-
-// The two paid SEO keyword anchors stay in ENGLISH in every locale — they are
-// the purchased anchor texts and must not be translated.
-const ANCHOR_WATCHING = 'bear watching in Finland'
-const ANCHOR_TOUR = 'bear tour in Finland'
+// bearkuusamo.com has its own language versions at /fi/, /de/, /fr/, /es/,
+// /it/ and /nl/. Links from each locale of this page must land on the matching
+// language version; every other locale goes to the EN root (Niina/Bear
+// 2026-07-30). The anchor texts are likewise localized — they live in the
+// locale copy as `anchorWatching` / `anchorTour`, not in English constants.
+const BEAR_SITE_LANGS = ['fi', 'de', 'fr', 'es', 'it', 'nl']
+const bearHome = (l: string) => {
+  const two = l.slice(0, 2)
+  return BEAR_SITE_LANGS.includes(two) ? `https://bearkuusamo.com/${two}/` : 'https://bearkuusamo.com/'
+}
 
 // Direct partner links: normal follow, target=_blank rel=noopener only.
 // NO nofollow, NO sponsored, NO noreferrer (business decision, Vesa 2026-07-24).
@@ -51,6 +45,17 @@ export default function BearKuusamo() {
   const lang = useLang()
   const c = COPY[lang].bearKuusamo
   const to = useLocalePath()
+
+  // EVERY outbound Bear link carries campaign UTM, including the two SEO keyword
+  // anchors. Those two used to be deliberately UTM-free ("clean backlink"), which
+  // meant Bear Kuusamo had no way to see in their own analytics that a visitor came
+  // from the article — the single thing they are paying for (Vesa 2026-07-27).
+  // A query string does not cost link equity: bearkuusamo.com canonicalises to the
+  // clean URL, so the dofollow backlink is unaffected and both sides get attribution.
+  // `utm_content` = the sid, so the June 2027 referral report shows WHICH surface
+  // (intro anchor, where anchor, CTA, logo) actually drove the visit.
+  const bearUrl = (sid: string) =>
+    `${bearHome(lang)}?utm_source=laplandnature&utm_medium=partner&utm_campaign=bear-kuusamo-2026&utm_content=${sid}`
 
   const PartnershipLabel = () => (
     <span
@@ -113,7 +118,7 @@ export default function BearKuusamo() {
                 className={bearLinkClass}
                 onClick={() => trackPartnerClick('intro_keyword')}
               >
-                {ANCHOR_WATCHING}
+                {c.anchorWatching}
               </a>
               {c.introLinkAfter}
             </p>
@@ -221,7 +226,7 @@ export default function BearKuusamo() {
               className={bearLinkClass}
               onClick={() => trackPartnerClick('where_keyword')}
             >
-              {ANCHOR_TOUR}
+              {c.anchorTour}
             </a>
             {c.whereAfter}
           </p>

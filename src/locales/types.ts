@@ -167,6 +167,7 @@ export type SectionCopy = {
     hero: { eyebrow: string; title: string; subtitle: string; description: string; alt: string }
     intro: string
     introLinkBefore: string
+    anchorWatching: string
     introLinkAfter: string
     hideKicker: string
     hideH2: string
@@ -183,6 +184,7 @@ export type SectionCopy = {
     whereKicker: string
     whereH2: string
     whereBefore: string
+    anchorTour: string
     whereAfter: string
     ctaLabel: string
     logoAlt: string

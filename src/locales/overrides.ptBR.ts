@@ -696,8 +696,9 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
       alt: 'Uma ursa-parda com dois filhotes na borda da floresta perto de Kuusamo. Foto: Piritta Paija / Bear Kuusamo',
     },
     intro: 'Nas florestas de fronteira a leste de Kuusamo, onde a floresta boreal segue ininterrupta rumo à fronteira, os ursos-pardos saem da linha das árvores no longo crepúsculo nórdico. Há mais de vinte anos a Bear Kuusamo leva viajantes a esse silêncio. É a mais antiga operação de observação de ursos da região de Ruka–Kuusamo e a mais ao norte do país.',
-    introLinkBefore: 'Isto é ',
-    introLinkAfter: ' de verdade, não um zoológico nem um espetáculo. Os esconderijos ficam em uma faixa protegida de floresta que se liga ao Parque Nacional de Paanajärvi, logo do outro lado da fronteira russa. O fundador, Pekka Veteläinen, e seus guias trabalham com a Metsähallitus e com pesquisadores e escondem a comida em pontos variados, para que os ursos procurem e se alimentem como fariam naturalmente. Os ursos permanecem selvagens e não habituados; você apenas ganha um lugar tranquilo e bem posicionado para observá-los.',
+    introLinkBefore: 'Isto é verdadeira ',
+    anchorWatching: 'observação de ursos na Finlândia',
+    introLinkAfter: ', não um zoológico nem um espetáculo. Os esconderijos ficam em uma faixa protegida de floresta que se liga ao Parque Nacional de Paanajärvi, logo do outro lado da fronteira russa. O fundador, Pekka Veteläinen, e seus guias trabalham com a Metsähallitus e com pesquisadores e escondem a comida em pontos variados, para que os ursos procurem e se alimentem como fariam naturalmente. Os ursos permanecem selvagens e não habituados; você apenas ganha um lugar tranquilo e bem posicionado para observá-los.',
     hideKicker: 'A experiência',
     hideH2: 'Uma noite em um esconderijo',
     hideBody: [
@@ -714,7 +715,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
     ],
     season: [
       'Guia e seguro estão incluídos, e a temporada vai de 1º de maio a 30 de setembro. A primavera traz mães com filhotes e, em pleno verão, o sol não se põe aqui de jeito nenhum, então você pode observar e fotografar ursos por toda a noite clara.',
-      'Se a floresta ficar vazia, a Original Bear Guarantee traz você de volta para outra noite sem custo.',
+      'Se a floresta ficar vazia, a Garantia Original do Urso traz você de volta para outra noite sem custo.',
     ],
     bookingBefore: 'Preços, datas e disponibilidade atuais estão na ',
     bookingLink: 'página de reservas da própria Bear Kuusamo',
@@ -722,6 +723,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
     whereKicker: 'Como chegar',
     whereH2: 'Onde fica',
     whereBefore: 'Kuusamo fica no nordeste da Finlândia, bem junto à fronteira da Lapônia, entre os montes e as florestas antigas ao redor do Parque Nacional de Oulanka. É a base natural para um ',
+    anchorTour: 'tour de observação de ursos na Finlândia',
     whereAfter: ': voe até Kuusamo, ou venha de carro desde Ruka, e você chega aos esconderijos em menos de uma hora.',
     ctaLabel: 'Reserve direto com a Bear Kuusamo',
     logoAlt: 'Bear Kuusamo',
