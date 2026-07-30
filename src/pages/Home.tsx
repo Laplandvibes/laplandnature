@@ -12,7 +12,6 @@ import AdUnit from '../../../shared/ads/AdUnit'
 import bearKuusamoAd from '../../../shared/ads/advertisers/bearkuusamo'
 import { trackPartnerClick } from '../lib/analytics'
 import { AD_SLOTS } from '../data/adSlots'
-import GygPicks from '../components/GygPicks';
 
 const cardImages = [
   'card-national-parks.webp',
@@ -195,17 +194,10 @@ export default function Home() {
         />
       </section>
 
-
-
-
       {/* Kumppaniosio heti ensimmäisen sisältöosion (tilastoband) jälkeen:
           kakkospääkumppani + 6 premium-paikkaa — pääkumppanit eivät näy
           vierekkäin (banneri ↑ heron alla). Cream-tausta → surface="light". */}
       <HomeAdSlots config={AD_SLOTS} locale={lang} surface="light" />
-
-      {/* Varattavat GYG-tuotteet — korkealla sivulla mutta myytyjen mainospaikkojen ALAPUOLELLA */}
-      <GygPicks />
-
 
       <section className="py-16 sm:py-24 px-4 sm:px-6">
         <div className="max-w-6xl mx-auto">
@@ -333,7 +325,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
 
       <Newsletter />
     </>
