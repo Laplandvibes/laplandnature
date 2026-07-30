@@ -9,7 +9,6 @@ import { COPY } from '../locales/copy'
 import FaqLinks, { type FaqNavKey } from '../components/FaqLinks'
 import AdUnit from '../../../shared/ads/AdUnit'
 import bearKuusamoAd from '../../../shared/ads/advertisers/bearkuusamo'
-import { adLocaleEnabled } from '../../../shared/adSlotsCopy'
 import { trackPartnerClick } from '../lib/analytics'
 
 const ANIMAL_LATIN = [
@@ -70,7 +69,6 @@ export default function Wildlife() {
   const bk = COPY[lang].bearKuusamo
   const to = useLocalePath()
   // LV Media inventory (paid placements) ships only on fi/en/sv — shared/adSlotsCopy.
-  const adsEnabled = adLocaleEnabled(lang)
 
   const faqLd = {
     '@context': 'https://schema.org',
@@ -114,7 +112,9 @@ export default function Wildlife() {
           `dark` variant (which is a translucent glass card, only legible on a dark
           surface) plus the white Bear wordmark. Do NOT switch this to `light`:
           a white card on a cream page disappears. */}
-      {adsEnabled && (
+      {/* Maksettu kumppanimainos näkyy KAIKILLA 12 kielellä (Vesa 2026-07-30):
+          speksi kantaa nyt täydet käännökset, joten kieliporttia ei tarvita. */}
+      {(
         <section className="mt-8 sm:mt-10 mb-12 sm:mb-16 py-10 sm:py-12 px-4 sm:px-6 bg-deep-night">
           <div className="max-w-6xl mx-auto">
             <AdUnit

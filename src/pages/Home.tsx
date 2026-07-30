@@ -10,9 +10,9 @@ import { COPY } from '../locales/copy'
 import HomeAdSlots, { MainPartnerBanner } from '../../../shared/HomeAdSlots'
 import AdUnit from '../../../shared/ads/AdUnit'
 import bearKuusamoAd from '../../../shared/ads/advertisers/bearkuusamo'
-import { adLocaleEnabled } from '../../../shared/adSlotsCopy'
 import { trackPartnerClick } from '../lib/analytics'
 import { AD_SLOTS } from '../data/adSlots'
+import GygPicks from '../components/GygPicks';
 
 const cardImages = [
   'card-national-parks.webp',
@@ -79,7 +79,6 @@ export default function Home() {
   const to = useLocalePath()
   // LV:n omat mainospaikat vain fi/en/sv — muilla kielillä ne olisivat
   // kohdeyleisölle turhia (sama portti kuin /wildlife-sijoittelussa).
-  const adsEnabled = adLocaleEnabled(lang)
 
   const featured = c.featured.items.map((it, i) => ({
     href: to(cardHrefs[i]),
@@ -196,10 +195,17 @@ export default function Home() {
         />
       </section>
 
+
+
+
       {/* Kumppaniosio heti ensimmäisen sisältöosion (tilastoband) jälkeen:
           kakkospääkumppani + 6 premium-paikkaa — pääkumppanit eivät näy
           vierekkäin (banneri ↑ heron alla). Cream-tausta → surface="light". */}
       <HomeAdSlots config={AD_SLOTS} locale={lang} surface="light" />
+
+      {/* Varattavat GYG-tuotteet — korkealla sivulla mutta myytyjen mainospaikkojen ALAPUOLELLA */}
+      <GygPicks />
+
 
       <section className="py-16 sm:py-24 px-4 sm:px-6">
         <div className="max-w-6xl mx-auto">
@@ -260,7 +266,9 @@ export default function Home() {
           /wildlife-sijoittelussa: valkoinen kortti katoaisi cream-taustaan, joten
           variant="dark" oman deep-night-kaistan sisällä. Kieliportti kuten kaikki
           LV:n omat mainospaikat (fi/en/sv). */}
-      {adsEnabled && (
+      {/* Maksettu kumppanimainos näkyy KAIKILLA 12 kielellä (Vesa 2026-07-30):
+          speksi kantaa nyt täydet käännökset, joten kieliporttia ei tarvita. */}
+      {(
         <section className="px-4 sm:px-6 py-12 sm:py-16 bg-deep-night">
           <div className="max-w-6xl mx-auto">
             <AdUnit
@@ -325,6 +333,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+
 
       <Newsletter />
     </>
