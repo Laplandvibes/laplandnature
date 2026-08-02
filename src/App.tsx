@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
+import { AppPromoNudge } from './components/AppPromo'
 import { useEffect, useReducer, lazy, Suspense, type ReactNode } from 'react'
 import Nav from './components/Nav'
 import Footer from '../../shared/Footer'
@@ -175,6 +176,7 @@ export default function App() {
       </CopyGate>
       <LocalisedCookieBanner />
       <NewsletterPopup />
+    <AppPromoNudge />
     </BrowserRouter>
   )
 }
