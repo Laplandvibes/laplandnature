@@ -100,7 +100,11 @@ export default function Conservation() {
                     href={withReferral(v.url, 'nature_conservation')}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1.5 text-vibe-pink hover:text-pink-600 text-sm font-semibold"
+                    /* min-h-11 (44px): the card's only outbound link measured
+                       135x20 on a phone — a bare text link with no vertical
+                       padding sits well under the WCAG 2.5.8 / HIG floor.
+                       -my-2.5 keeps the card's rhythm while the hit rect grows. */
+                    className="inline-flex items-center gap-1.5 min-h-11 -my-2.5 text-vibe-pink hover:text-pink-600 text-sm font-semibold"
                   >
                     {c.visitSite}
                     <ArrowRight className="w-3.5 h-3.5" />
