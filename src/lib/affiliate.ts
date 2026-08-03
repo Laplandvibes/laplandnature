@@ -115,7 +115,10 @@ export function buildAffiliateUrl({
   params.set("sid", sid);
 
   if (destination) {
-    params.set('ss', anchorHotelsSs(partner, destination));
+    // 🔴 cars käyttää pickup_location=IATA, EI ss:ää — ss=IATA valuu EB:n
+    // ?location=-tekstihakuun, jonka EB pudottaa tyhjäksi etusivuksi (3.8.2026).
+    if (partner === "cars") params.set('pickup_location', destination);
+    else params.set('ss', anchorHotelsSs(partner, destination));
   }
 
   if (partner === "hotels" || partner === "hotels-seasonal" || partner === "hotels-budget") {
