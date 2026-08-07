@@ -91,7 +91,7 @@ const de: SectionCopy = {
   },
   home: {
     metaTitle: 'Lapplands Natur: Wildnis & Nationalparks | LaplandNature',
-    metaDescription: 'Die arktische Wildnis Finnisch-Lapplands, fünf Nationalparks, über 200 Nordlicht-Nächte, die Polarnacht (Kaamos) und Wanderwege von 5 bis 82 km.',
+    metaDescription: 'Die arktische Wildnis Finnisch-Lapplands, sieben Nationalparks, über 200 Nordlicht-Nächte, die Polarnacht (Kaamos) und Wanderwege von 5 bis 82 km.',
     hero: {
       alt: 'Schneebedeckte arktische Wildnis und Fjells in Finnisch-Lappland',
       eyebrow: 'Nördlich des Polarkreises',
@@ -105,7 +105,7 @@ const de: SectionCopy = {
       kicker: 'Nördlich des Polarkreises · jenseits des Lärms',
       h: 'Finnlands wildestes Land liegt bei ',
       hHighlight: '66°–69° Nord',
-      hSuffix: '. Fünf Nationalparks, Licht in vier Jahreszeiten und das längste Nordlicht-Fenster Europas.',
+      hSuffix: '. Sieben Nationalparks, Licht in vier Jahreszeiten und das längste Nordlicht-Fenster Europas.',
       stats: [
         { value: '37 %', primary: 'von Finnland', body: 'liegen nördlich des Polarkreises' },
         { value: '40+', primary: 'Schutzgebiete', body: 'Nationalparks, Naturschutzgebiete, Natura 2000' },
@@ -121,7 +121,7 @@ const de: SectionCopy = {
         {
           tag: 'Schutzgebiete',
           title: 'Nationalparks',
-          blurb: 'Fünf Parks mit über 7.000 km² geschützter Wildnis, von den Fjälls des Urho-Kekkonen-Parks bis zu den schneegekrönten Bäumen Riisitunturis.',
+          blurb: 'Lappland hat sieben Nationalparks; fünf davon stellen wir vor, von den Fjälls des Urho-Kekkonen-Parks bis zu den schneegekrönten Bäumen Riisitunturis.',
           cta: 'Nationalparks erkunden',
         },
         {
@@ -295,7 +295,7 @@ const de: SectionCopy = {
   },
   nationalParks: {
     metaTitle: 'Lapplands Nationalparks: 5 Wildnisse | LaplandNature',
-    metaDescription: 'Die fünf Nationalparks Finnisch-Lapplands, Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi und Pyhä-Luosto. Tordörfer und beste Reisezeit.',
+    metaDescription: 'Fünf der Nationalparks Finnisch-Lapplands: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi und Pyhä-Luosto. Tordörfer und beste Reisezeit.',
     hero: {
       alt: 'Offene Fjell-Landschaft in einem Nationalpark in Finnisch-Lappland unter klarem Himmel',
       eyebrow: 'Säulen-Guide',

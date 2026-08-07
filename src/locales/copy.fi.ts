@@ -91,7 +91,7 @@ const fi: SectionCopy = {
   },
   home: {
     metaTitle: 'Lapin luonto: erämaa ja kansallispuistot | LaplandNature',
-    metaDescription: 'Suomen Lapin arktinen erämaa, viisi kansallispuistoa, yli 200 revontuliyötä, kaamoksen pimeys ja vaellusreittejä 5 km:stä 82 km:iin.',
+    metaDescription: 'Suomen Lapin arktinen erämaa, seitsemän kansallispuistoa, yli 200 revontuliyötä, kaamoksen pimeys ja vaellusreittejä 5 km:stä 82 km:iin.',
     hero: {
       alt: 'Lumen peittämää arktista erämaata ja tuntureita Suomen Lapissa',
       eyebrow: 'Napapiirin pohjoispuolella',
@@ -105,7 +105,7 @@ const fi: SectionCopy = {
       kicker: 'Napapiirin pohjoispuolella · hälinän alapuolella',
       h: 'Suomen villein maa sijaitsee ',
       hHighlight: '66°–69° pohjoista leveyttä',
-      hSuffix: '. Viisi kansallispuistoa, neljän vuodenajan valo ja Euroopan pisin revontuli-ikkuna.',
+      hSuffix: '. Seitsemän kansallispuistoa, neljän vuodenajan valo ja Euroopan pisin revontuli-ikkuna.',
       stats: [
         { value: '37 %', primary: 'Suomesta', body: 'sijaitsee napapiirin pohjoispuolella' },
         { value: '40+', primary: 'suojelualuetta', body: 'kansallispuistot, luonnonpuistot, Natura 2000' },
@@ -121,7 +121,7 @@ const fi: SectionCopy = {
         {
           tag: 'Suojelualueet',
           title: 'Kansallispuistot',
-          blurb: 'Viisi puistoa, yhteensä yli 7 000 km² suojeltua erämaata, Urho Kekkosen tuntureista Riisitunturin tykkypuihin.',
+          blurb: 'Lapissa on seitsemän kansallispuistoa; esittelemme niistä viisi, Urho Kekkosen tuntureista Riisitunturin tykkypuihin.',
           cta: 'Tutustu kansallispuistoihin',
         },
         {
@@ -295,13 +295,13 @@ const fi: SectionCopy = {
   },
   nationalParks: {
     metaTitle: 'Lapin kansallispuistot: 5 erämaata | LaplandNature',
-    metaDescription: 'Suomen Lapin viisi kansallispuistoa, Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi ja Pyhä-Luosto. Porttikylät ja paras vierailuaika.',
+    metaDescription: 'Viisi Lapin kansallispuistoa esittelyssä: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi ja Pyhä-Luosto. Porttikylät ja paras vierailuaika.',
     hero: {
       alt: 'Avointa tunturimaisemaa Suomen Lapin kansallispuistossa kirkkaan taivaan alla',
       eyebrow: 'Lapin erämaa',
       title: 'Kansallispuistot',
       subtitle: 'Viisi suojeltua aluetta',
-      description: 'Viisi puistoa kattaa suurimman osan Lapin tiettömästä erämaasta, avoimilta tunturiylityksiltä tykkylumimetsiin ja kullankaivuukanjoneihin. Jokaisella oma portinkylä.',
+      description: 'Esittelemme Lapin seitsemästä kansallispuistosta viisi, jotka kattavat suurimman osan tiettömästä erämaasta, avoimilta tunturiylityksiltä tykkylumimetsiin ja kullankaivuukanjoneihin. Jokaisella oma portinkylä.',
     },
     parks: [
       {

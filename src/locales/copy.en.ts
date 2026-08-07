@@ -91,7 +91,7 @@ const en: SectionCopy = {
   },
   home: {
     metaTitle: 'Lapland Nature 2026: Aurora, Parks & Wildlife Guide',
-    metaDescription: "Finnish Lapland's arctic wilderness, five national parks, 200+ aurora-viewing nights, the kaamos polar night and hiking trails from 5 km to 82 km. Plan your wilderness trip.",
+    metaDescription: "Finnish Lapland's arctic wilderness, seven national parks, 200+ aurora-viewing nights, the kaamos polar night and hiking trails from 5 km to 82 km. Plan your wilderness trip.",
     hero: {
       eyebrow: 'Above the Arctic Circle',
       title: 'Untouched arctic',
@@ -105,7 +105,7 @@ const en: SectionCopy = {
       kicker: 'Above the Arctic Circle · below the noise',
       h: "Finland's wildest country sits at ",
       hHighlight: '66°–69° North',
-      hSuffix: '. Five national parks, four-season light, and the longest aurora window in Europe.',
+      hSuffix: '. Seven national parks, four-season light, and the longest aurora window in Europe.',
       stats: [
         { value: '37%', primary: 'of Finland', body: 'sits north of the Arctic Circle' },
         { value: '40+', primary: 'protected zones', body: 'national parks, strict reserves, Natura 2000' },
@@ -121,7 +121,7 @@ const en: SectionCopy = {
         {
           tag: 'Protected areas',
           title: 'National Parks',
-          blurb: "Five parks spanning over 7,000 km² of protected wilderness, from Urho Kekkonen fells to Riisitunturi's snow-crowned trees.",
+          blurb: "Lapland has seven national parks; we profile five of them, from Urho Kekkonen fells to Riisitunturi's snow-crowned trees.",
           cta: 'Explore National Parks',
         },
         {
@@ -295,12 +295,12 @@ const en: SectionCopy = {
   },
   nationalParks: {
     metaTitle: 'Lapland National Parks: 5 Wildernesses to Hike',
-    metaDescription: "Finnish Lapland's five national parks, Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi and Pyhä-Luosto. Gateway villages, signature features and when to visit.",
+    metaDescription: "Five of Finnish Lapland's national parks: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi and Pyhä-Luosto. Gateway villages, signature features and when to visit.",
     hero: {
       eyebrow: 'Pillar guide',
       title: 'National Parks',
       subtitle: 'Protected wilderness',
-      description: "Five parks protect the bulk of Lapland's roadless wilderness, from open-fell traverses to snow-crowned forests and gold-panning canyons. Each has a distinct gateway village to base out of.",
+      description: "We profile five of Lapland's seven national parks — together they protect the bulk of its roadless wilderness, from open-fell traverses to snow-crowned forests and gold-panning canyons. Each has a distinct gateway village to base out of.",
       alt: 'Open fell landscape in a Finnish Lapland national park under a clear sky',
     },
     parks: [
