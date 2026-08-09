@@ -47,7 +47,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
     sending: 'Versturen…',
     placeholder: 'uw@email.com',
     success: 'Ontvangen. Tot onder het noorderlicht.',
-    privacy: 'Maximaal één per maand. Uitschrijven met één klik.',
+    privacy: 'Uitschrijven met één klik.',
   },
   affiliateDisclosure: {
     body: 'Deze pagina bevat affiliate-links. Als u via deze links boekt, kan LaplandVibes een commissie ontvangen zonder dat u extra betaalt.',

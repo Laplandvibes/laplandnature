@@ -47,7 +47,7 @@ export const KO_OVERRIDES: DeepPartial<SectionCopy> = {
     sending: '전송 중…',
     placeholder: 'your@email.com',
     success: '받았습니다. 오로라 아래에서 만나요.',
-    privacy: '한 달에 한 통 이하. 원클릭 구독 해지.',
+    privacy: '원클릭 구독 해지.',
   },
   affiliateDisclosure: {
     body: '이 페이지에는 제휴 링크가 포함되어 있습니다. 이 링크를 통해 예약하시면 LaplandVibes가 추가 비용 없이 수수료를 받을 수 있습니다.',

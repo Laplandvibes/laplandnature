@@ -47,7 +47,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
     sending: '发送中…',
     placeholder: 'your@email.com',
     success: '已收到。我们极光下见。',
-    privacy: '每月最多一封。一键取消订阅。',
+    privacy: '一键取消订阅。',
   },
   affiliateDisclosure: {
     body: '本页面包含联盟营销链接。通过这些链接预订时,LaplandVibes 可能会获得佣金,您无需支付任何额外费用。',

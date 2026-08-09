@@ -47,7 +47,7 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
     sending: 'Enviando…',
     placeholder: 'tu@email.com',
     success: 'Recibido. Nos vemos bajo las auroras.',
-    privacy: 'Una al mes como máximo. Cancele con un clic.',
+    privacy: 'Cancele con un clic.',
   },
   affiliateDisclosure: {
     body: 'Esta página contiene enlaces de afiliados. Si reserva a través de ellos, LaplandVibes puede recibir una comisión sin coste adicional para usted.',
