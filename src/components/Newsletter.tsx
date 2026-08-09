@@ -3,6 +3,7 @@ import { ArrowRight, CheckCircle2, Bell, Trees, Compass, PawPrint, AlertCircle }
 import { trackNewsletterSignup } from '../lib/analytics'
 import { useLang, useLocalePath } from '../i18n/useLang'
 import { COPY } from '../locales/copy'
+import FounderByline from '../../../shared/FounderByline';
 
 const ENDPOINT = '/api/newsletter'
 const SOURCE = 'laplandnature'
@@ -89,6 +90,7 @@ export default function Newsletter() {
               <p className="text-base font-medium">{c.successMsg}</p>
             </div>
           ) : (
+            <FounderByline tone="pink" />
             <form onSubmit={onSubmit} className="flex flex-col sm:flex-row gap-3">
               <label className="sr-only" htmlFor="newsletter-email">Email</label>
               <input
