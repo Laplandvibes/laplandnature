@@ -81,7 +81,11 @@ export default function Nav() {
       window.localStorage.setItem('lv_locale_choice', target)
     }
     const path = location.pathname
-    const bare = path.replace(/^\/(fi|de|ja|es|br|cn|kr|fr|it|nl|sv)(?=\/|$)/, '') || '/'
+    // Strip EVERY leading locale segment, not just the first. GSC 2026-08-13 shows
+    // /br/fr/cookie-policy/ indexed (14 näyttöä): with one-segment stripping, a
+    // language switch on that page produced /fi/fr/cookie-policy/ — a new junk URL
+    // minted from an old one. Code forms (pt-BR, zh-CN, ko) match too.
+    const bare = path.replace(/^(?:\/(?:pt-BR|zh-CN|fi|de|ja|es|br|cn|kr|ko|fr|it|nl|sv))+(?=\/|$)/i, '') || '/'
     const prefix = URL_PREFIX_OF[target]
     if (!prefix) navigate(bare)
     else navigate(bare === '/' ? `/${prefix}` : `/${prefix}${bare}`)
