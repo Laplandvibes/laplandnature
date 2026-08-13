@@ -10,8 +10,12 @@ export default function NotFound() {
   const to = useLocalePath()
   const c = COPY[lang].nav
 
+  // landmark={false} because this site's app layout already renders the
+  // page's <main>. Without it the 404 route shipped two nested landmarks --
+  // measured from the rendered DOM 2026-08-13, invisible to grep.
   return (
     <SharedNotFound
+      landmark={false}
       lang={lang}
       siteName="LaplandNature"
       homeHref={to('/')}
