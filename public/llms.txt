@@ -1,0 +1,25 @@
+# LaplandNature
+
+> Finnish Lapland's arctic wilderness: five national parks, the longest aurora season in Europe, the kaamos polar night, and hiking trails from 5 km to 82 km.
+
+## Main pages
+
+- [Home](https://laplandnature.com/): Aurora, national parks and wildlife guide
+- [Northern Lights](https://laplandnature.com/northern-lights): Aurora science and viewing in Lapland
+- [National Parks](https://laplandnature.com/national-parks): The national parks of Finnish Lapland
+- [Wildlife](https://laplandnature.com/wildlife): Arctic wildlife of Lapland
+- [Bear Kuusamo](https://laplandnature.com/bear-kuusamo): Ethical bear watching in Finland
+- [Seasons](https://laplandnature.com/seasons): The seasons of the far north
+- [Hiking Trails](https://laplandnature.com/hiking-trails): Hiking trails in Finnish Lapland
+- [Conservation](https://laplandnature.com/conservation): Conservation in Lapland
+- [Freshwater](https://laplandnature.com/freshwater): Rivers and lakes of Lapland
+
+## Languages
+
+English (default, no prefix), Finnish (/fi/), Swedish (/sv/), German (/de/), French (/fr/), Spanish (/es/), Italian (/it/), Dutch (/nl/), Brazilian Portuguese (/br/), Japanese (/ja/), Korean (/kr/), Simplified Chinese (/cn/)
+
+## Network
+
+- [LaplandVibes hub](https://laplandvibes.com/): This site is part of the LaplandVibes network
+- [Sitemap](https://laplandnature.com/sitemap.xml)
+- Contact: info@laplandnature.com
