@@ -1,10 +1,26 @@
 // Cloudflare Pages Function — same-origin proxy to the Supabase Edge Function
 // `send-welcome-email`. Lives at https://laplandnature.com/api/newsletter.
 //
-// The Supabase function's CORS policy doesn't include laplandnature.com.
-// Routing through this Function makes the call same-origin from the browser's
-// perspective so CORS never enters the picture; the actual hop to Supabase is
-// a server-side fetch.
+// Why a proxy?  The Supabase function's CORS policy only allows
+// https://laplandvibes.com. Spoke sites (laplandnature.com etc.) would otherwise hit
+// "Failed to fetch" in the browser. Routing through this Function makes the
+// call same-origin from the browser's perspective, so CORS never enters the
+// picture, and the actual hop to Supabase is a server-side fetch.
+//
+// 🔴 WHY THIS FORWARDS MORE THAN {email, source} (2026-08-17)
+// This file used to rebuild the upstream body as `{email, source}` only. That
+// was correct until LV-CONSENT-V2 (2026-08-14), which made `consent`,
+// `ageConfirmed` and `consentText` REQUIRED upstream (`z.literal(true)` — see
+// laplandvibes/supabase/functions/send-welcome-email/index.ts). The proxy went
+// on dropping exactly the fields that had become mandatory, so every signup
+// through it — the popup AND the in-page Newsletter section, both of which post
+// here — died with HTTP 400 `CONSENT_REQUIRED`. Measured live on all six
+// sister sites on 2026-08-17 immediately before this fix.
+//
+// It therefore forwards the consent trio, the segmentation fields (`site`,
+// `language`, `channel`) and the honeypot fields. Dropping the honeypots would
+// disarm the upstream bot trap (HONEYPOT_FIELDS), so they are passed through
+// verbatim — including when empty, which is what a human sends.
 //
 // Configure these as Cloudflare Pages env vars (Project -> Settings -> Env):
 //   SUPABASE_URL              -> https://oogioaxmfnqcbvjbcodh.supabase.co
@@ -20,9 +36,19 @@ const SUPABASE_URL_FALLBACK = 'https://oogioaxmfnqcbvjbcodh.supabase.co'
 const SUPABASE_ANON_FALLBACK =
   'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9vZ2lvYXhtZm5xY2J2amJjb2RoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQ4NjMyNDIsImV4cCI6MjA5MDQzOTI0Mn0.eTfgsux0zV3_gPyFRUcE8M_-DuDpU2xE9gehQM9pz54'
 
+/** Honeypots checked upstream — forward them untouched, empty or not. */
+const HONEYPOT_FIELDS = ['website', 'company', 'url', 'hp_field'] as const
+
 interface Body {
   email?: string
   source?: string
+  site?: string
+  language?: string
+  channel?: string
+  consent?: boolean
+  ageConfirmed?: boolean
+  consentText?: string
+  [key: string]: unknown
 }
 
 export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
@@ -43,7 +69,28 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
   const supabaseUrl = env.SUPABASE_URL || SUPABASE_URL_FALLBACK
   const anonKey = env.SUPABASE_PUBLISHABLE_KEY || SUPABASE_ANON_FALLBACK
 
+  // Rebuild rather than spread the raw body: the upstream schema is the
+  // contract, and an explicit list makes it obvious what a new required field
+  // would need added here (the bug this file's header documents).
+  const upstreamBody: Record<string, unknown> = {
+    email,
+    source,
+    site: body.site,
+    language: body.language,
+    channel: body.channel,
+    consent: body.consent,
+    ageConfirmed: body.ageConfirmed,
+    consentText: body.consentText,
+  }
+  for (const field of HONEYPOT_FIELDS) {
+    if (field in body) upstreamBody[field] = body[field]
+  }
+
   try {
+    // Standard Supabase headers — `apikey` AND `Authorization`. Don't set
+    // `Origin` from the Worker; Cloudflare may rewrite it and Supabase CORS
+    // only matters for browser callers anyway (a server-side fetch bypasses
+    // CORS entirely).
     const upstream = await fetch(`${supabaseUrl}/functions/v1/send-welcome-email`, {
       method: 'POST',
       headers: {
@@ -51,11 +98,11 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
         apikey: anonKey,
         Authorization: `Bearer ${anonKey}`,
       },
-      body: JSON.stringify({ email, source }),
+      body: JSON.stringify(upstreamBody),
     })
 
     const responseText = await upstream.text()
-    let data: any = {}
+    let data: Record<string, unknown> = {}
     try {
       data = JSON.parse(responseText)
     } catch {
@@ -64,7 +111,7 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
 
     if (!upstream.ok) {
       return json(
-        { error: data?.error || `upstream HTTP ${upstream.status}`, upstreamBody: data },
+        { error: (data?.error as string) || `upstream HTTP ${upstream.status}`, upstreamBody: data },
         upstream.status,
       )
     }
@@ -74,6 +121,8 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
   }
 }
 
+// Allow OPTIONS preflight from same-origin browsers (mostly redundant since
+// browsers skip preflight for simple POST + same-origin, but be explicit).
 export const onRequestOptions: PagesFunction = () =>
   new Response(null, {
     status: 204,
