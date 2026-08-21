@@ -87,10 +87,9 @@
     <meta name="twitter:site" content="@laplandvibes" />
     <meta name="twitter:title" content="Lapland Nature: Arctic Wilderness, Aurora & National Parks" />
     <meta name="twitter:description" content="Finnish Lapland's arctic wilderness: five national parks, aurora season, kaamos, and hiking trails. From the team behind LaplandVibes." />
-    <!-- Google Fonts — LV ecosystem brand fonts (Bebas Neue + DM Sans) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet" />
+    <!-- LV ecosystem brand fonts (Bebas Neue + DM Sans), self-hosted from
+         public/fonts since 2026-08-16 — Google Fonts links removed with them. -->
+
 
     <!-- Hero LCP preload — homepage hero loads /images/hero-home.webp as the
          largest-contentful element. Preloading shaves ~200–500 ms off mobile
@@ -187,7 +186,16 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="mobile-web-app-capable" content="yes" />
     <!-- Umami Cloud — cookieless analytics, no consent gate needed (writes nothing to the browser) -->
-    <script defer src="https://cloud.umami.is/script.js" data-website-id="82fb5848-a508-44a8-b1df-f36163c69f8e"></script>
+    <script defer src="https://cloud.umami.is/script.js" data-website-id="82fb5848-a508-44a8-b1df-f36163c69f8e" data-domains="laplandnature.com,www.laplandnature.com"></script>
+      <!-- Self-hosted heading + body faces. Without these the browser cannot
+         discover the fonts until the bundled CSS has parsed, which guarantees a
+         visible pass in the fallback sans (33 % wider than Bebas). crossorigin is
+         required even same-origin — fonts are fetched in CORS mode and a preload
+         without it downloads the file twice. -->
+    <link rel="preload" as="font" type="font/woff2" crossorigin
+          href="/fonts/v16-JTUSjIg69CK48gW7PXoo9Wlhyw.woff2" />
+    <link rel="preload" as="font" type="font/woff2" crossorigin
+          href="/fonts/v17-rP2Hp2ywxg089UriCZOIHQ.woff2" />
   </head>
   <body>
     <div id="root"></div>
