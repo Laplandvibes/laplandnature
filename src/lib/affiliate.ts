@@ -1,13 +1,28 @@
-// Hotels + cars route through go.laplandvibes.com (CJ Referer-based attribution).
-// Activities (GYG) bypass the Worker because of a known bug that collapses every
-// `/go/activities/<slug>` to the GYG homepage (lv memory: bug_go_lv_worker_gyg_dropped.md,
-// 2026-05-02). For GYG we build the direct deep link with partner_id + cmp baked
-// into the query string — same affiliate attribution, correct landing page.
-// Spec: "LaplandVibes Affiliate System — Developer Handoff" (2026-04-25).
+// EVERY partner link routes through go.laplandvibes.com. No exceptions, no raw
+// partner hosts in source. Spec: "LaplandVibes Affiliate System — Developer
+// Handoff" (2026-04-25).
+//
+// 🔴 This file used to bypass the Worker for activities, citing
+// bug_go_lv_worker_gyg_dropped.md (2026-05-02: `/go/activities/<slug>` collapsed
+// every slug to the GYG homepage). That bug is FIXED — `handleGyg` forwards the
+// whole multi-segment path, verified live 2026-08-22:
+//   /go/activities/rovaniemi-l2653/the-santa-claus-village-visit-t434430
+//     -> https://www.getyourguide.com/rovaniemi-l2653/the-santa-claus-village-visit-t434430/
+// The network re-routed its GYG links through the Worker on 2026-08-01 for the
+// click log; laplandnature was the one site never migrated, which is why the
+// 2026-08-21 deploy gate stopped here.
+//
+// 🔴 Do NOT reintroduce per-locale GYG hosts (getyourguide.de/.fr/.es/…) or pass
+// `?language=` on to GetYourGuide. Measured in a real browser 2026-08-02:
+// `?language=xx` does NOTHING there — GYG localises by a `<lang>-<country>/`
+// PATH PREFIX. `language=` here is read by the WORKER, which turns it into that
+// prefix (language=fi -> /fi-fi/lappi-suomi-l2652/). Same contract as
+// shared/gyg/picks.ts.
 
 const REDIRECT_BASE = 'https://go.laplandvibes.com'
-const GYG_PARTNER_ID = 'VRMKD7N'
-const SITE_ID = 'laplandnature'
+// No GYG_PARTNER_ID / SITE_ID here on purpose. The Worker owns the partner id
+// (env.GYG_PARTNER_ID) and derives `cmp=lv_<domain>_<sid>` from the Referer, so
+// a re-issued id is one Worker deploy instead of 27 site deploys.
 
 export type Partner =
   | 'hotels'
@@ -49,21 +64,21 @@ const CARS_LANG: Record<Lang, string> = {
   sv: "sv",
 };
 
-const GYG_DOMAIN: Record<Lang, string> = {
-  en: "https://www.getyourguide.com",
-  // GYG has no .fi — fallback to .com + ?language=fi.
-  fi: "https://www.getyourguide.com",
-  de: "https://www.getyourguide.de",
-  ja: "https://www.getyourguide.com",
-  es: "https://www.getyourguide.es",
-  "pt-BR": "https://www.getyourguide.com.br",
-  "zh-CN": "https://www.getyourguide.com",
-  ko: "https://www.getyourguide.com",
-  fr: "https://www.getyourguide.fr",
-  it: "https://www.getyourguide.it",
-  nl: "https://www.getyourguide.nl",
-  // GYG has no dedicated .se — fallback to .com + ?language=sv.
-  sv: "https://www.getyourguide.com",
+// GetYourGuide's own language codes, handed to the WORKER as `language=`.
+// `en` is GYG's default and needs no parameter. Keep in sync with
+// shared/gyg/picks.ts — the Worker maps these to the `<lang>-<country>/` prefix.
+const GYG_LANGUAGE: Partial<Record<Lang, string>> = {
+  fi: "fi",
+  de: "de",
+  ja: "ja",
+  es: "es",
+  "pt-BR": "pt-br",
+  "zh-CN": "zh",
+  ko: "ko",
+  fr: "fr",
+  it: "it",
+  nl: "nl",
+  sv: "sv",
 };
 
 export interface BuildAffiliateOptions {
@@ -84,30 +99,25 @@ export function buildAffiliateUrl({
   query,
   lang = "en",
 }: BuildAffiliateOptions): string {
-  // ─── GYG direct deep-link (Worker-bypass) ─────────────────────────────
+  // ─── Activities (GetYourGuide) via the Worker ─────────────────────────
+  // The slug goes in the PATH so the Worker can log which activity converted
+  // (D1 `slug` column, Command Center per-activity breakdown); a direct link
+  // would be invisible to our own click count. `partner_id` + `cmp` are added
+  // by the Worker from env + Referer, so the ID lives in exactly one place.
   if (partner === "activities") {
-    const base = GYG_DOMAIN[lang];
     const path = (destination ?? "").replace(/^\/+/, "").replace(/\/+$/, "");
-    const url = new URL(path ? `${base}/${path}/` : `${base}/`);
-    url.searchParams.set("partner_id", GYG_PARTNER_ID);
-    url.searchParams.set("cmp", `lv_${SITE_ID}_${sid}`);
-    if (lang === "fi") url.searchParams.set("language", "fi");
-    if (lang === "ja") url.searchParams.set("language", "ja");
-    if (lang === "es") url.searchParams.set("language", "es");
-    if (lang === "pt-BR") url.searchParams.set("language", "pt");
-    if (lang === "zh-CN") url.searchParams.set("language", "zh");
-    if (lang === "ko") url.searchParams.set("language", "ko");
-    if (lang === "it") url.searchParams.set("language", "it");
-    if (lang === "nl") url.searchParams.set("language", "nl");
-    if (lang === "sv") url.searchParams.set("language", "sv");
+    const params = new URLSearchParams();
+    params.set("sid", sid);
+    const gygLang = GYG_LANGUAGE[lang];
+    if (gygLang) params.set("language", gygLang);
     if (query) {
       for (const [k, v] of Object.entries(query)) {
         if (v !== undefined && v !== null && v !== "") {
-          url.searchParams.set(k, String(v));
+          params.set(k, String(v));
         }
       }
     }
-    return url.toString();
+    return `${REDIRECT_BASE}/go/activities${path ? `/${path}` : ""}?${params.toString()}`;
   }
 
   // ─── Hotels / Cars via Worker ─────────────────────────────────────────
@@ -176,26 +186,11 @@ export function activityUrl(citySlug: string, sid: string): string {
   return buildAffiliateUrl({ partner: 'activities', sid, destination: citySlug })
 }
 
-// ─── GYG search deep-link (place-contextual, resolves to a real results page) ────────
-// premium_design_standard §6: booking CTAs must point at a GYG page that RESOLVES (200),
-// never a 404. The Worker's /go/activities bug collapses slugs, so we hit GYG directly.
-// A `/s/?q=<place>` search resolves to live results for that town (verified 200 for
-// Rovaniemi, Saariselka, Inari, Kuusamo, Levi, Yllas). Use PLAIN-ASCII place names — an
-// ä in the query is intermittently bot-blocked (403), ASCII is reliable.
-//   gygSearchUrl('Saariselka', 'aurora_tour_saariselka')
-//   → https://www.getyourguide.com/s/?q=Saariselka&partner_id=VRMKD7N&cmp=lv_laplandnature_aurora_tour_saariselka
-export function gygSearchUrl(place: string, sid: string, lang: Lang = 'en'): string {
-  const base = GYG_DOMAIN[lang]
-  const url = new URL(`${base}/s/`)
-  url.searchParams.set('q', place)
-  url.searchParams.set('partner_id', GYG_PARTNER_ID)
-  url.searchParams.set('cmp', `lv_${SITE_ID}_${sid}`)
-  const langParam: Partial<Record<Lang, string>> = {
-    fi: 'fi', ja: 'ja', es: 'es', 'pt-BR': 'pt', 'zh-CN': 'zh', ko: 'ko', it: 'it', nl: 'nl', sv: 'sv',
-  }
-  if (langParam[lang]) url.searchParams.set('language', langParam[lang] as string)
-  return url.toString()
-}
+// [2026-08-22] gygSearchUrl() removed. It hardcoded a raw getyourguide.com/s/ URL
+// — a raw partner host, which the deploy smoke gate rejects — and it had zero
+// call sites. If a place-contextual search CTA is ever needed, pass the query to
+// the Worker instead: `/go/activities?sid=<sid>&q=<Plain ASCII place>`, which it
+// resolves to `/<locale>/s?q=…` with partner_id + cmp attached.
 
 // ─── EconomyBookings (cars) — wilderness routes need a car ──────────────────
 export const CARS = (_lang: Lang = "en") => ({
