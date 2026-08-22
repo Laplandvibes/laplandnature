@@ -1,15 +1,19 @@
 import SEO from '../components/SEO'
 import PrivacyContent from '../shared/Legal/PrivacyContent'
+import { useLang } from '../i18n/useLang'
+import { COPY } from '../locales/copy'
 
 export default function PrivacyPolicy() {
+  const lang = useLang()
+  const c = COPY[lang].privacy
   return (
     <>
       <SEO
-        title="Privacy Policy — LaplandNature"
-        description="How Lapeso Oy (LaplandNature) processes personal data: newsletter signups, analytics and affiliate cookies. GDPR / ePrivacy compliant."
+        title={c.metaTitle}
+        description={c.metaDescription}
         canonicalPath="/privacy"
       />
-      <PrivacyContent siteName="LaplandNature" />
+      <PrivacyContent siteName="LaplandNature" lang={lang} />
     </>
   )
 }

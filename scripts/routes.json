@@ -1,0 +1,65 @@
+[
+  {
+    "path": "/",
+    "fallbackTitle": "Lapland Nature 2026: Aurora, Parks & Wildlife Guide",
+    "fallbackDescription": "Explore the nature of Finnish Lapland: aurora science, national parks, Arctic wildlife, hiking trails and the seasons of the far north.",
+    "appendSiteName": false
+  },
+  {
+    "path": "/northern-lights",
+    "fallbackTitle": "Northern Lights | LaplandNature"
+  },
+  {
+    "path": "/national-parks",
+    "fallbackTitle": "National Parks | LaplandNature"
+  },
+  {
+    "path": "/wildlife",
+    "fallbackTitle": "Wildlife | LaplandNature"
+  },
+  {
+    "path": "/bear-kuusamo",
+    "fallbackTitle": "Bear Kuusamo: Ethical Bear Watching in Finland"
+  },
+  {
+    "path": "/seasons",
+    "fallbackTitle": "Seasons | LaplandNature"
+  },
+  {
+    "path": "/hiking-trails",
+    "fallbackTitle": "Hiking Trails | LaplandNature"
+  },
+  {
+    "path": "/conservation",
+    "fallbackTitle": "Conservation | LaplandNature"
+  },
+  {
+    "path": "/freshwater",
+    "fallbackTitle": "Freshwater Lapland | LaplandNature"
+  },
+  {
+    "path": "/editorial-policy",
+    "fallbackTitle": "Editorial Policy | LaplandNature"
+  },
+  {
+    "path": "/privacy",
+    "fallbackTitle": "Privacy | LaplandNature",
+    "harvestFiles": [
+      "src/shared/Legal/PrivacyContent.tsx"
+    ]
+  },
+  {
+    "path": "/terms",
+    "fallbackTitle": "Terms | LaplandNature",
+    "harvestFiles": [
+      "src/shared/Legal/TermsContent.tsx"
+    ]
+  },
+  {
+    "path": "/cookie-policy",
+    "fallbackTitle": "Cookie Policy | LaplandNature",
+    "harvestFiles": [
+      "src/shared/Legal/CookieContent.tsx"
+    ]
+  }
+]

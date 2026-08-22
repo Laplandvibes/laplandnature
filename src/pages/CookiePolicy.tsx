@@ -1,15 +1,19 @@
 import SEO from '../components/SEO'
 import CookieContent from '../shared/Legal/CookieContent'
+import { useLang } from '../i18n/useLang'
+import { COPY } from '../locales/copy'
 
 export default function CookiePolicy() {
+  const lang = useLang()
+  const c = COPY[lang].cookie
   return (
     <>
       <SEO
-        title="Cookie Policy — LaplandNature"
-        description="What cookies LaplandNature.com uses, why, and how to manage them. GDPR / ePrivacy compliant cookie disclosures from Lapeso Oy."
+        title={c.metaTitle}
+        description={c.metaDescription}
         canonicalPath="/cookie-policy"
       />
-      <CookieContent siteName="LaplandNature" />
+      <CookieContent siteName="LaplandNature" lang={lang} />
     </>
   )
 }

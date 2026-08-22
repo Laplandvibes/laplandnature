@@ -53,6 +53,24 @@ export function trackHubClick(destination: string) {
   });
 }
 
+// ─── Partner (direct-deal) clicks ─────────────────────────────────────────────
+// Fired on every outbound click to a commercial partner (e.g. Bear Kuusamo).
+// `placement` identifies where on the page the click happened so the partner and
+// we can attribute bookings. Not an affiliate/Worker link — this is a direct deal.
+
+export function trackPartnerClick(
+  placement: string,
+  partner = 'bear-kuusamo',
+  site = 'laplandnature',
+) {
+  gtag('event', 'partner_click', {
+    event_category: 'partner',
+    partner,
+    site,
+    placement,
+  });
+}
+
 // ─── Newsletter ───────────────────────────────────────────────────────────────
 
 export function trackNewsletterSignup(source: string) {

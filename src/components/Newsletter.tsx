@@ -1,65 +1,159 @@
-import { useState, type FormEvent } from 'react'
+import { useEffect, useRef, useState, type FormEvent } from 'react'
 import { ArrowRight, CheckCircle2, Bell, Trees, Compass, PawPrint, AlertCircle } from 'lucide-react'
 import { trackNewsletterSignup } from '../lib/analytics'
+import { useLang, useLocalePath, type Lang } from '../i18n/useLang'
+import { COPY } from '../locales/copy'
+import FounderByline from '../shared/FounderByline';
+
+/**
+ * [LV-FUNNEL 2026-08-21] Lomakesuppilon eventit Umamiin — paikallinen apuri,
+ * ei jaettua importtia (vendoroitu sync on refresh-only). Ei saa koskaan
+ * rikkoa lomaketta. Standardi: memory _procedural/lv_form_funnel_events.md.
+ */
+function track(event: string, data?: Record<string, unknown>) {
+  try {
+    (window as unknown as { umami?: { track: (e: string, d?: unknown) => void } }).umami?.track(event, data);
+  } catch { /* ignore */ }
+}
 
 const ENDPOINT = '/api/newsletter'
 const SOURCE = 'laplandnature'
 
-// Per LV rule: ONE newsletter across the whole network. Position as
-// #LaplandVibes, not as a per-site sub-brand. Source tag differentiates the
-// referring site for analytics — the reader sees the master newsletter.
-const benefits: { icon: typeof Bell; title: string; body: string }[] = [
-  {
-    icon: Bell,
-    title: 'When the aurora actually shows',
-    body: "We watch the FMI forecast every clear night from September to March. When KP lines up with clear skies, we drop you a heads-up so you can see the night — not just the forecast.",
+const ICONS = [Bell, Trees, PawPrint, Compass]
+
+const CONSENT_COPY: Record<Lang, { checkbox: string; privacy: string }> = {
+  en: {
+    checkbox:
+      'Yes, send the LaplandVibes newsletter (travel tips, seasonal updates and offers) to this email address. I confirm I am 18 or over.',
+    privacy: 'Privacy Policy',
   },
-  {
-    icon: Trees,
-    title: 'When the trails are worth it',
-    body: 'Ruska peak forecasts. Hut-trek booking days. Snow-cover for spring skiing. From the people who actually walked the trail that week.',
+  fi: {
+    checkbox:
+      'LaplandVibes saa lähettää minulle uutiskirjettä (matkailuvinkkejä, sesonkitietoa ja tarjouksia) antamaani sähköpostiosoitteeseen. Olen täyttänyt 18 vuotta.',
+    privacy: 'Tietosuojaseloste',
   },
-  {
-    icon: PawPrint,
-    title: 'When the wildlife emerges',
-    body: 'Bear-watching hides reopen mid-May. Reindeer round-ups in autumn. Arctic fox sightings nobody else flags. We pass them on as they happen.',
+  de: {
+    checkbox:
+      'Ja, LaplandVibes darf mir den Newsletter mit Reisetipps, Saisoninfos und Angeboten an diese E-Mail-Adresse senden. Ich bin mindestens 18 Jahre alt.',
+    privacy: 'Datenschutzerklärung',
   },
-  {
-    icon: Compass,
-    title: 'Where we’d go this weekend',
-    body: 'The dark-sky spot we’d drive to tonight. The river before gold-panners crowd in. The fell our Sámi neighbours just photographed.',
+  ja: {
+    checkbox:
+      '入力したメールアドレス宛に、LaplandVibesがニュースレター（旅のヒント、シーズン情報、キャンペーン情報）を送ることに同意します。私は18歳以上です。',
+    privacy: 'プライバシーポリシー',
   },
-]
+  es: {
+    checkbox:
+      'Acepto recibir en mi correo el boletín de LaplandVibes (consejos de viaje, información de temporada y ofertas) y confirmo que tengo al menos 18 años.',
+    privacy: 'Política de privacidad',
+  },
+  'pt-BR': {
+    checkbox:
+      'Aceito receber a newsletter da LaplandVibes no e-mail informado, com dicas de viagem, informações de temporada e ofertas. Tenho 18 anos ou mais.',
+    privacy: 'Política de Privacidade',
+  },
+  'zh-CN': {
+    checkbox:
+      '我同意 LaplandVibes 向我填写的邮箱发送订阅邮件，内容包括拉普兰旅行建议、季节资讯和优惠信息，并确认本人已年满18周岁。',
+    privacy: '隐私政策',
+  },
+  ko: {
+    checkbox:
+      '입력한 이메일 주소로 LaplandVibes가 보내는 여행 팁·시즌 정보·프로모션 소식 뉴스레터 수신에 동의하며, 만 18세 이상임을 확인합니다.',
+    privacy: '개인정보처리방침',
+  },
+  fr: {
+    checkbox:
+      'J\'accepte de recevoir la newsletter LaplandVibes (conseils voyage, infos saisonnières, offres) à cette adresse e-mail et je confirme avoir 18 ans ou plus.',
+    privacy: 'Politique de confidentialité',
+  },
+  it: {
+    checkbox:
+      'Sì, desidero ricevere la newsletter di LaplandVibes (consigli di viaggio, novità stagionali e offerte) all\'indirizzo indicato. Ho almeno 18 anni.',
+    privacy: 'Informativa sulla privacy',
+  },
+  nl: {
+    checkbox:
+      'Ja, LaplandVibes mag de nieuwsbrief met reistips, seizoensinfo en aanbiedingen naar dit e-mailadres sturen. Ik ben 18 jaar of ouder.',
+    privacy: 'Privacyverklaring',
+  },
+  sv: {
+    checkbox:
+      'Ja, jag vill ha nyhetsbrevet från LaplandVibes med restips, säsongsinfo och erbjudanden till min e-postadress. Jag är minst 18 år.',
+    privacy: 'Integritetspolicy',
+  },
+}
 
 export default function Newsletter() {
+  const lang = useLang()
+  const c = COPY[lang].newsletter
+  const to = useLocalePath()
+  const consentCopy = CONSENT_COPY[lang]
   const [email, setEmail] = useState('')
+  const [consented, setConsented] = useState(false)
   const [status, setStatus] = useState<'idle' | 'loading' | 'done' | 'error'>('idle')
   const [error, setError] = useState<string | null>(null)
+  // [LV-FUNNEL] view = osio vieritetty näkyviin (kerran), start = 1. fokus,
+  // blocked kerran per submit-yritys (natiivi invalid laukeaa per kenttä).
+  const funnelData = { surface: 'inline', lang };
+  const sectionRef = useRef<HTMLElement | null>(null);
+  const startTracked = useRef(false);
+  const blockedTracked = useRef(false);
+  useEffect(() => {
+    const el = sectionRef.current;
+    if (!el || typeof IntersectionObserver === 'undefined') return;
+    const io = new IntersectionObserver((entries) => {
+      if (entries.some((en) => en.isIntersecting)) {
+        track('nl_view', funnelData);
+        io.disconnect();
+      }
+    }, { threshold: 0.4 });
+    io.observe(el);
+    return () => io.disconnect();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+  const trackStart = () => {
+    if (startTracked.current) return;
+    startTracked.current = true;
+    track('nl_start', funnelData);
+  };
 
   async function onSubmit(e: FormEvent) {
     e.preventDefault()
-    if (!email || status === 'loading') return
+    if (!email || !consented || status === 'loading') {
+      if (status !== 'loading') track('nl_blocked', { ...funnelData, reason: !email ? 'email' : 'consent' });
+      return
+    }
 
     setStatus('loading')
     setError(null)
+    track('nl_submit', funnelData);
     try {
       const res = await fetch(ENDPOINT, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, source: SOURCE }),
+        body: JSON.stringify({
+          email,
+          source: SOURCE,
+          consent: true,
+          ageConfirmed: true,
+          consentText: consentCopy.checkbox,
+        }),
       })
       const data = await res.json().catch(() => ({}))
       if (!res.ok) {
         throw new Error(data?.error || `HTTP ${res.status}`)
       }
       trackNewsletterSignup(data?.alreadySubscribed ? `${SOURCE}-already` : SOURCE)
+      track('nl_success', data?.alreadySubscribed ? { ...funnelData, already: true } : funnelData);
       setStatus('done')
     } catch (err) {
       setStatus('error')
+      track('nl_error', funnelData);
       setError(
         err instanceof Error
-          ? `Could not subscribe (${err.message}). Try again or email info@laplandvibes.com.`
-          : 'Could not subscribe. Try again or email info@laplandvibes.com.',
+          ? `${c.errorPrefix} (${err.message}).`
+          : c.errorFallback,
       )
     }
   }
@@ -67,27 +161,26 @@ export default function Newsletter() {
   return (
     <section
       id="newsletter"
+      ref={sectionRef}
       className="py-20 sm:py-24 px-4 sm:px-6"
-      style={{ background: 'linear-gradient(135deg, #EC4899 0%, #DB2777 100%)' }}
+      style={{ background: 'linear-gradient(135deg, #4C1D95 0%, #7E22CE 35%, #BE185D 70%, #DB2777 100%)' }}
     >
       <div className="max-w-5xl mx-auto">
         <div className="text-center max-w-3xl mx-auto">
           <p className="text-xs sm:text-sm tracking-[0.3em] uppercase text-white/85 font-semibold mb-3">
-            The <span className="font-heading tracking-wider">#LAPLANDVIBES</span> newsletter
+            {c.eyebrow}
           </p>
           <h2 className="font-heading text-4xl sm:text-5xl md:text-6xl text-white tracking-wide mb-4">
-            We mostly walk Lapland.<br className="hidden sm:block" /> Then we write what we learn.
+            {c.h2Line1}<br className="hidden sm:block" /> {c.h2Line2}
           </h2>
           <p className="text-white/90 text-base sm:text-lg max-w-2xl mx-auto mb-12 leading-relaxed">
-            One short email when the aurora window opens, the hides reopen, or a hut-trek you’d
-            actually book hits the calendar. Written from Finland, in English. Roughly once a month —
-            never on a schedule.
+            {c.lead}
           </p>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 mb-12">
-          {benefits.map((b) => {
-            const Icon = b.icon
+          {c.benefits.map((b, i) => {
+            const Icon = ICONS[i]
             return (
               <div
                 key={b.title}
@@ -107,30 +200,67 @@ export default function Newsletter() {
           {status === 'done' ? (
             <div className="inline-flex items-center gap-3 bg-white/15 backdrop-blur-sm border border-white/30 text-white px-6 py-4 rounded-2xl">
               <CheckCircle2 className="w-6 h-6 shrink-0" />
-              <p className="text-base font-medium">Got you. We’ll see you under the aurora.</p>
+              <p className="text-base font-medium">{c.successMsg}</p>
             </div>
           ) : (
-            <form onSubmit={onSubmit} className="flex flex-col sm:flex-row gap-3">
-              <label className="sr-only" htmlFor="newsletter-email">Email address</label>
-              <input
-                id="newsletter-email"
-                type="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                placeholder="your@email.com"
-                required
-                className="flex-1 px-5 py-4 rounded-xl text-deep-night bg-white placeholder:text-deep-night/50 focus:outline-none focus:ring-2 focus:ring-white/70 border border-white/40"
-              />
-              <button
-                type="submit"
-                disabled={status === 'loading'}
-                className="px-6 py-4 bg-white font-bold rounded-xl hover:bg-gray-100 transition-colors flex items-center gap-2 justify-center disabled:opacity-70 disabled:cursor-not-allowed"
-                style={{ color: '#DB2777' }}
+            <><FounderByline tone="pink" />
+            <form
+              onSubmit={onSubmit}
+              onInvalidCapture={(e) => {
+                if (blockedTracked.current) return;
+                blockedTracked.current = true;
+                window.setTimeout(() => { blockedTracked.current = false; }, 400);
+                const t = e.target as HTMLInputElement;
+                track('nl_blocked', { ...funnelData, reason: t.type === 'checkbox' ? 'consent' : 'email' });
+              }}
+              className="flex flex-col gap-3"
+            >
+              <div className="flex flex-col sm:flex-row gap-3">
+                <label className="sr-only" htmlFor="newsletter-email">Email</label>
+                <input
+                  id="newsletter-email"
+                  type="email"
+                  value={email}
+                  onFocus={trackStart}
+                  onChange={(e) => setEmail(e.target.value)}
+                  placeholder={c.emailPlaceholder}
+                  required
+                  className="flex-1 px-5 py-4 rounded-xl text-deep-night bg-white placeholder:text-deep-night/50 focus:outline-none focus:ring-2 focus:ring-white/70 border border-white/40"
+                />
+                <button
+                  type="submit"
+                  disabled={status === 'loading'}
+                  className="px-6 py-4 bg-white font-bold rounded-xl hover:bg-gray-100 transition-colors flex items-center gap-2 justify-center disabled:opacity-70 disabled:cursor-not-allowed"
+                  style={{ color: '#DB2777' }}
+                >
+                  {status === 'loading' ? c.sending : c.sendBtn}
+                  <ArrowRight className="w-4 h-4" />
+                </button>
+              </div>
+              <label
+                htmlFor="newsletter-consent"
+                className="flex items-start gap-3 text-left text-white/85 text-xs sm:text-sm leading-relaxed cursor-pointer"
               >
-                {status === 'loading' ? 'Sending…' : 'Send me Lapland'}
-                <ArrowRight className="w-4 h-4" />
-              </button>
-            </form>
+                <input
+                  id="newsletter-consent"
+                  type="checkbox"
+                  checked={consented}
+                  onFocus={trackStart}
+                  onChange={(e) => setConsented(e.target.checked)}
+                  required
+                  className="mt-0.5 w-4 h-4 shrink-0 rounded border border-white/50 bg-white/20 accent-white focus:outline-none focus:ring-2 focus:ring-white/70 cursor-pointer"
+                />
+                <span>
+                  {consentCopy.checkbox}{' '}
+                  <a
+                    href={to('/privacy')}
+                    className="underline hover:text-white"
+                  >
+                    {consentCopy.privacy}
+                  </a>
+                </span>
+              </label>
+            </form></>
           )}
 
           {error && (
@@ -141,8 +271,8 @@ export default function Newsletter() {
           )}
 
           <p className="text-white/75 text-xs mt-5">
-            One email when there’s something to say. Unsubscribe with one click — no questions.{' '}
-            <a href="/privacy" className="underline hover:text-white">Privacy Policy</a>.
+            {c.footnote}{' '}
+            <a href={to('/privacy')} className="underline hover:text-white">{c.privacyLink}</a>.
           </p>
         </div>
       </div>

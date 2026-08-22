@@ -1,0 +1,32 @@
+{
+  "site": "laplandnature",
+  "scanned_webp": 20,
+  "converted": 3,
+  "skipped_exists": 0,
+  "skipped_avif_larger": 17,
+  "errors": 0,
+  "total_webp_bytes": 135608,
+  "total_avif_bytes": 132115,
+  "saved_mb": "0.00",
+  "saved_pct": "2.6",
+  "report": [
+    {
+      "file": "public\\images\\card-midnight-sun.webp",
+      "webp_bytes": 50344,
+      "avif_bytes": 49888,
+      "saved_pct": "0.9"
+    },
+    {
+      "file": "public\\images\\card-northern-lights.webp",
+      "webp_bytes": 43244,
+      "avif_bytes": 41206,
+      "saved_pct": "4.7"
+    },
+    {
+      "file": "public\\images\\season-midnight-sun.webp",
+      "webp_bytes": 42020,
+      "avif_bytes": 41021,
+      "saved_pct": "2.4"
+    }
+  ]
+}
