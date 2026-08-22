@@ -45,21 +45,21 @@
     "path": "/privacy",
     "fallbackTitle": "Privacy | LaplandNature",
     "harvestFiles": [
-      "../shared/Legal/PrivacyContent.tsx"
+      "src/shared/Legal/PrivacyContent.tsx"
     ]
   },
   {
     "path": "/terms",
     "fallbackTitle": "Terms | LaplandNature",
     "harvestFiles": [
-      "../shared/Legal/TermsContent.tsx"
+      "src/shared/Legal/TermsContent.tsx"
     ]
   },
   {
     "path": "/cookie-policy",
     "fallbackTitle": "Cookie Policy | LaplandNature",
     "harvestFiles": [
-      "../shared/Legal/CookieContent.tsx"
+      "src/shared/Legal/CookieContent.tsx"
     ]
   }
 ]

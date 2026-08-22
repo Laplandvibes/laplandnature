@@ -1,5 +1,5 @@
 import SEO from '../components/SEO'
-import CookieContent from '../../../shared/Legal/CookieContent'
+import CookieContent from '../shared/Legal/CookieContent'
 import { useLang } from '../i18n/useLang'
 import { COPY } from '../locales/copy'
 

@@ -9,9 +9,9 @@
  * Tyhjät paikat (null) renderöivät "Haluatko mainoksesi tähän?" -house-adin,
  * joka linkittää LV Media -portaaliin (/media/site/laplandnature).
  */
-import type { HomeAdSlotsConfig } from '../../../shared/HomeAdSlots'
-import type { Partner } from '../../../shared/PartnerSlot'
-import { DEFAULT_PREMIUM_SPOTS } from '../../../shared/PremiumSpotGrid'
+import type { HomeAdSlotsConfig } from '../shared/HomeAdSlots'
+import type { Partner } from '../shared/PartnerSlot'
+import { DEFAULT_PREMIUM_SPOTS } from '../shared/PremiumSpotGrid'
 
 /**
  * Bear Kuusamo etusivun kortissa A (Vesa 2026-07-27).

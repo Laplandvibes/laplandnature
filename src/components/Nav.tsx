@@ -4,7 +4,7 @@ import { Menu, X, Globe, ChevronDown } from 'lucide-react'
 import Logo from './Logo'
 import { useLang, useLocalePath } from '../i18n/useLang'
 import { COPY } from '../locales/copy'
-import EcosystemMenu from '../../../shared/EcosystemMenu'
+import EcosystemMenu from '../shared/EcosystemMenu'
 
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false)

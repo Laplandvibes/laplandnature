@@ -1,5 +1,5 @@
 import SEO from '../components/SEO'
-import TermsContent from '../../../shared/Legal/TermsContent'
+import TermsContent from '../shared/Legal/TermsContent'
 import { useLang } from '../i18n/useLang'
 import { COPY } from '../locales/copy'
 

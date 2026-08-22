@@ -1,5 +1,5 @@
 import SEO from '../components/SEO'
-import PrivacyContent from '../../../shared/Legal/PrivacyContent'
+import PrivacyContent from '../shared/Legal/PrivacyContent'
 import { useLang } from '../i18n/useLang'
 import { COPY } from '../locales/copy'
 

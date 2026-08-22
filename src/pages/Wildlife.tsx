@@ -7,8 +7,8 @@ import HeroImage from '../components/HeroImage'
 import { useLang, useLocalePath } from '../i18n/useLang'
 import { COPY } from '../locales/copy'
 import FaqLinks, { type FaqNavKey } from '../components/FaqLinks'
-import AdUnit from '../../../shared/ads/AdUnit'
-import bearKuusamoAd from '../../../shared/ads/advertisers/bearkuusamo'
+import AdUnit from '../shared/ads/AdUnit'
+import bearKuusamoAd from '../shared/ads/advertisers/bearkuusamo'
 import { trackPartnerClick } from '../lib/analytics'
 
 const ANIMAL_LATIN = [

@@ -1,4 +1,4 @@
-import SharedNotFound from '../../../shared/NotFound'
+import SharedNotFound from '../shared/NotFound'
 import { useLang, useLocalePath } from '../i18n/useLang'
 import { COPY } from '../locales/copy'
 

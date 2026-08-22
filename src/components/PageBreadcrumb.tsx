@@ -1,4 +1,4 @@
-import Breadcrumbs from '../../../shared/Breadcrumbs'
+import Breadcrumbs from '../shared/Breadcrumbs'
 import { useLang, useLocalePath } from '../i18n/useLang'
 import { COPY } from '../locales/copy'
 
