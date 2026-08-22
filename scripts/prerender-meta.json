@@ -2,19 +2,19 @@
   "/": {
     "en": {
       "title": "Lapland Nature 2026: Aurora, Parks & Wildlife Guide",
-      "description": "Finnish Lapland's arctic wilderness, five national parks, 200+ aurora-viewing nights, the kaamos polar night and hiking trails from 5 km to 82 km. Plan your wilderness trip."
+      "description": "Finnish Lapland's arctic wilderness, seven national parks, 200+ aurora-viewing nights, the kaamos polar night and hiking trails from 5 km to 82 km. Plan your wilderness trip."
     },
     "fi": {
       "title": "Lapin luonto: erämaa ja kansallispuistot | LaplandNature",
-      "description": "Suomen Lapin arktinen erämaa, viisi kansallispuistoa, yli 200 revontuliyötä, kaamoksen pimeys ja vaellusreittejä 5 km:stä 82 km:iin."
+      "description": "Suomen Lapin arktinen erämaa, seitsemän kansallispuistoa, yli 200 revontuliyötä, kaamoksen pimeys ja vaellusreittejä 5 km:stä 82 km:iin."
     },
     "de": {
       "title": "Lapplands Natur: Wildnis & Nationalparks | LaplandNature",
-      "description": "Die arktische Wildnis Finnisch-Lapplands, fünf Nationalparks, über 200 Nordlicht-Nächte, die Polarnacht (Kaamos) und Wanderwege von 5 bis 82 km."
+      "description": "Die arktische Wildnis Finnisch-Lapplands, sieben Nationalparks, über 200 Nordlicht-Nächte, die Polarnacht (Kaamos) und Wanderwege von 5 bis 82 km."
     },
     "ja": {
       "title": "ラップランドの自然: 北極圏の原野、オーロラと国立公園 | LaplandNature",
-      "description": "フィンランド・ラップランドの北極圏の原野、5つの国立公園、年間200夜以上のオーロラ観察、極夜カーモス、5kmから82kmまでのハイキングコース。原野への旅をお計画ください。"
+      "description": "フィンランド・ラップランドの北極圏の原野、7つの国立公園、年間200夜以上のオーロラ観察、極夜カーモス、5kmから82kmまでのハイキングコース。原野への旅をお計画ください。"
     },
     "es": {
       "title": "Naturaleza de Laponia: parques y aurora | LaplandNature",
@@ -1144,7 +1144,7 @@
   "/national-parks": {
     "en": {
       "title": "Lapland National Parks: 5 Wildernesses to Hike",
-      "description": "Finnish Lapland's five national parks, Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi and Pyhä-Luosto. Gateway villages, signature features and when to visit.",
+      "description": "Five of Finnish Lapland's national parks: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi and Pyhä-Luosto. Gateway villages, signature features and when to visit.",
       "faq": [
         {
           "q": "How many national parks are there in Lapland?",
@@ -1170,7 +1170,7 @@
     },
     "fi": {
       "title": "Lapin kansallispuistot: 5 erämaata | LaplandNature",
-      "description": "Suomen Lapin viisi kansallispuistoa, Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi ja Pyhä-Luosto. Porttikylät ja paras vierailuaika.",
+      "description": "Viisi Lapin kansallispuistoa esittelyssä: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi ja Pyhä-Luosto. Porttikylät ja paras vierailuaika.",
       "faq": [
         {
           "q": "Kuinka monta kansallispuistoa Lapissa on?",
@@ -1196,7 +1196,7 @@
     },
     "de": {
       "title": "Lapplands Nationalparks: 5 Wildnisse | LaplandNature",
-      "description": "Die fünf Nationalparks Finnisch-Lapplands, Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi und Pyhä-Luosto. Tordörfer und beste Reisezeit.",
+      "description": "Fünf der Nationalparks Finnisch-Lapplands: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi und Pyhä-Luosto. Tordörfer und beste Reisezeit.",
       "faq": [
         {
           "q": "Wie viele Nationalparks gibt es in Lappland?",
@@ -1222,7 +1222,7 @@
     },
     "ja": {
       "title": "ラップランドの国立公園: 5つの原野を歩く | LaplandNature",
-      "description": "フィンランド・ラップランドの5つの国立公園、ウルホ・ケッコネン、パッラス・ウッラス、レンメンヨキ、リーシトゥントゥリ、ピュハ・ルオスト。起点となる村、特徴、最適な訪問時期。",
+      "description": "フィンランド・ラップランドの国立公園から5つをご紹介、ウルホ・ケッコネン、パッラス・ウッラス、レンメンヨキ、リーシトゥントゥリ、ピュハ・ルオスト。起点となる村、特徴、最適な訪問時期。",
       "faq": [
         {
           "q": "ラップランドには国立公園がいくつありますか？",
