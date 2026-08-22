@@ -46,7 +46,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
     cta: 'Ontvang post uit Lapland',
     sending: 'Versturen…',
     placeholder: 'uw@email.com',
-    success: 'Ontvangen. Tot onder het noorderlicht.',
+    success: 'Bijna klaar: bevestig je aanmelding via de e-mail die we net hebben gestuurd.',
     privacy: 'Uitschrijven met één klik.',
   },
   affiliateDisclosure: {

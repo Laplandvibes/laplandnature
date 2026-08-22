@@ -46,7 +46,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
     cta: 'Ricevi le lettere dalla Lapponia',
     sending: 'Invio in corso…',
     placeholder: 'tua@email.com',
-    success: 'Ricevuto. Ci vediamo sotto l\'aurora.',
+    success: 'Ci siamo quasi: conferma l\'iscrizione dall\'e-mail che ti abbiamo appena inviato.',
     privacy: 'Cancellazione con un clic.',
   },
   affiliateDisclosure: {

@@ -46,7 +46,7 @@ export const SV_OVERRIDES: DeepPartial<SectionCopy> = {
     cta: 'Skicka mig breven från Lappland',
     sending: 'Skickar…',
     placeholder: 'din@epost.se',
-    success: 'Klart. Vi ses under norrskenet.',
+    success: 'Nästan klart: bekräfta din prenumeration i mejlet vi just skickade.',
     privacy: 'Integritetspolicy',
   },
   affiliateDisclosure: {

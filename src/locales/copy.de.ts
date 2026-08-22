@@ -54,7 +54,7 @@ const de: SectionCopy = {
     cta: 'Briefe aus Lappland erhalten',
     sending: 'Wird gesendet…',
     placeholder: 'ihre@email.de',
-    success: 'Vielen Dank. Wir sehen uns unter den Nordlichtern.',
+    success: 'Fast geschafft: Bestätigen Sie Ihr Abo über die E-Mail, die wir Ihnen gerade geschickt haben.',
     privacy: 'Datenschutzerklärung',
   },
   affiliateDisclosure: {

@@ -46,7 +46,7 @@ export const KO_OVERRIDES: DeepPartial<SectionCopy> = {
     cta: '라플란드의 소식 받기',
     sending: '전송 중…',
     placeholder: 'your@email.com',
-    success: '받았습니다. 오로라 아래에서 만나요.',
+    success: '거의 다 됐습니다. 방금 보내드린 이메일에서 구독을 확인해 주세요.',
     privacy: '원클릭 구독 해지.',
   },
   affiliateDisclosure: {

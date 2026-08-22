@@ -46,7 +46,7 @@ export const FR_OVERRIDES: DeepPartial<SectionCopy> = {
     cta: 'Recevoir les lettres de Laponie',
     sending: 'Envoi…',
     placeholder: 'votre@email.com',
-    success: 'Reçu. On se voit sous les aurores.',
+    success: 'Presque fini : confirmez votre inscription depuis l\'e-mail que nous venons de vous envoyer.',
     privacy: 'Désabonnement en un clic.',
   },
   affiliateDisclosure: {

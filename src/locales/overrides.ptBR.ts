@@ -46,7 +46,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
     cta: 'Receber cartas da Lapônia',
     sending: 'Enviando…',
     placeholder: 'seu@email.com',
-    success: 'Recebido. Nos vemos sob a aurora.',
+    success: 'Quase lá: confirme sua inscrição no e-mail que acabamos de enviar.',
     privacy: 'Cancele com um clique.',
   },
   affiliateDisclosure: {

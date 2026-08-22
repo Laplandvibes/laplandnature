@@ -54,7 +54,7 @@ const en: SectionCopy = {
     cta: 'Send me the Lapland letters',
     sending: 'Sending…',
     placeholder: 'your@email.com',
-    success: 'Got you. We will see you under the aurora.',
+    success: 'Almost there: confirm your subscription from the email we just sent you.',
     privacy: 'Privacy Policy',
   },
   affiliateDisclosure: {

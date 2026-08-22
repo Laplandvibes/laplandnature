@@ -46,7 +46,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
     cta: '订阅来自拉普兰的信',
     sending: '发送中…',
     placeholder: 'your@email.com',
-    success: '已收到。我们极光下见。',
+    success: '就快好了：请在我们刚发送的邮件中确认订阅。',
     privacy: '一键取消订阅。',
   },
   affiliateDisclosure: {

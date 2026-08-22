@@ -54,7 +54,7 @@ const fi: SectionCopy = {
     cta: 'Tilaa Lappi-kirjeet',
     sending: 'Lähetetään…',
     placeholder: 'sahkopostisi@osoite.fi',
-    success: 'Kiitos. Nähdään revontulien alla.',
+    success: 'Melkein valmista: käy vahvistamassa tilaus sähköpostiisi tulleesta viestistä.',
     privacy: 'Tietosuojakäytäntö',
   },
   affiliateDisclosure: {

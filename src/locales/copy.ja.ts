@@ -54,7 +54,7 @@ const ja: SectionCopy = {
     cta: 'ラップランドの便りを受け取る',
     sending: '送信中…',
     placeholder: 'your@email.com',
-    success: 'ご登録ありがとうございます。オーロラの下でお会いしましょう。',
+    success: 'あと少しです。いまお送りしたメールから登録を確認してください。',
     privacy: 'プライバシーポリシー',
   },
   affiliateDisclosure: {
