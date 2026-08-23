@@ -42,7 +42,7 @@ import { ArrowRight } from 'lucide-react'
 //   • Do NOT place a lodging unit (`sembo`) on a page whose own CTAs already
 //     route to the same lodging search, nor `klook` on a page monetised with
 //     GetYourGuide — they cannibalise the site's own routing (Vesa 2026-07-06).
-//     (The Hotels.com spec was deleted in the 2026-07 CJ exit; lodging is now
+//     (The dropped lodging partner's spec was deleted in the 2026-07 CJ exit; lodging is now
 //     Sembo for fi and Trip.com for other locales, resolved by the Worker.)
 //   • EKTA insurance was REMOVED from the roster 2026-07-07 — their site is
 //     broken (Vesa). Do not re-add without checking ektatraveling.com works.

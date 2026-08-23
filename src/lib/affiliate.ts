@@ -149,7 +149,7 @@ export function buildAffiliateUrl({
 }
 // ─── Hotel destinations ──────────────────────────────────────────────────────
 // Pin generic "Lapland" CTAs to Rovaniemi (regional capital, deepest inventory)
-// — Hotels.com falls back to user geo when given "Lapland, Finland" alone.
+// — the lodging partner falls back to user geo when given "Lapland, Finland" alone.
 export const HOTELS = (lang: Lang = "en") => ({
   navBookNow: buildAffiliateUrl({ partner: 'hotels', sid: 'nav_book_now', destination: 'Rovaniemi, Finland', lang }),
   heroCta: buildAffiliateUrl({ partner: 'hotels', sid: 'hero_cta', destination: 'Rovaniemi, Finland', lang }),
@@ -201,7 +201,7 @@ export const CARS = (_lang: Lang = "en") => ({
 
 /**
  * Anchor any hotels search to Finnish Lapland. A bare "Lapland"/"Levi"/etc.
- * makes Hotels.com geocode to *Lapland, Indiana, USA* — a real revenue/trust
+ * makes the lodging partner geocode to *Lapland, Indiana, USA* — a real revenue/trust
  * bug (Vesa 2026-07-08). Force ", Finland" onto every hotels query that does
  * not already name the country; leave cars/activities queries untouched.
  */
