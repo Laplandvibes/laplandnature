@@ -61,7 +61,7 @@ function partnerToTrackingLabel(partner: Partner): string {
     case 'hotels':
     case 'hotels-seasonal':
     case 'hotels-budget':
-      return 'hotelscom'
+      return 'lodging'
     case 'cars':
       return 'economybookings'
     case 'activities':
