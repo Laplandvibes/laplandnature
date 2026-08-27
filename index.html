@@ -91,10 +91,36 @@
          public/fonts since 2026-08-16 — Google Fonts links removed with them. -->
 
 
-    <!-- Hero LCP preload — homepage hero loads /images/hero-home.webp as the
-         largest-contentful element. Preloading shaves ~200–500 ms off mobile
-         LCP since the request fires before the JS bundle parses. -->
-    <link rel="preload" as="image" href="/images/hero-home.webp" fetchpriority="high" type="image/webp" />
+    <!-- Hero LCP preload — the homepage hero is the largest-contentful element,
+         and preloading shaves ~200-500 ms off mobile LCP because the request
+         fires before the JS bundle parses.
+
+         🔴 This used to be a static <link> for /images/hero-home.webp. The
+         prerender copies this <head> into all 156 route files, so EVERY page
+         pulled 231 kB of the homepage hero at fetchpriority=high — pillar pages
+         that show a different hero, and /terms, which has no hero at all
+         (measured 2026-08-25 at 390 px). The preload now fires only on a
+         homepage, and on phones it points at the same AVIF rung <picture> in
+         HeroImage.tsx will pick, so the file is fetched once, not twice. -->
+    <script>
+      (function () {
+        var p = location.pathname.replace(/\/+$/, '');
+        if (p !== '' && !/^\/(fi|de|ja|es|br|cn|kr|fr|it|nl|sv)$/.test(p)) return;
+        var l = document.createElement('link');
+        l.rel = 'preload';
+        l.as = 'image';
+        l.fetchPriority = 'high';
+        if (window.matchMedia('(max-width: 767px)').matches) {
+          l.type = 'image/avif';
+          l.setAttribute('imagesrcset', '/images/hero-home-800.avif 800w, /images/hero-home-1200.avif 1200w');
+          l.setAttribute('imagesizes', '100vw');
+        } else {
+          l.type = 'image/webp';
+          l.href = '/images/hero-home.webp';
+        }
+        document.head.appendChild(l);
+      })();
+    </script>
 
     <!-- Affiliate redirect warm-up — cuts ~200–500 ms off the first click -->
     <link rel="preconnect" href="https://go.laplandvibes.com" crossorigin />
@@ -129,6 +155,15 @@
           ad_user_data: 'granted',
           ad_personalization: 'granted'
         });
+      }
+      /* 🔴 Ala mittaa kehityskonetta eika Cloudflaren esikatselubuildeja tuotanto-
+         propertyyn. Mitattu 27.8.2026 hubin GA:sta: hostnamena esiintyi localhost
+         (/fi 96 katselua, /fi/media 81) ja SEITSEMAN eri *.pages.dev-esikatselua.
+         Sama portti jonka Umami saa data-domains-attribuutista; GA:n oma
+         IP-suodatin ei kata naita lainkaan. */
+      var lvHost = location.hostname;
+      if (lvHost === 'localhost' || lvHost === '127.0.0.1' || lvHost === '[::1]' || lvHost.indexOf('.pages.dev') !== -1) {
+        gtag = function () {};
       }
       gtag('config', 'G-6MF4NX4PYJ', {
         anonymize_ip: true,
