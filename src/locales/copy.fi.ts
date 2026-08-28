@@ -18,7 +18,7 @@ const fi: SectionCopy = {
     benefits: [
       {
         title: 'Kun revontulet todella näkyvät',
-        body: 'IL:n Auroras-now ja pilviennusteet jokaisena kirkkaana yönä syyskuusta maaliskuuhun. Heads-up kun KP ja taivas osuvat yksiin, yön puolesta, ei markkinointiaikataulun.',
+        body: 'IL:n Auroras-now ja pilviennusteet jokaisena kirkkaana yönä syyskuusta maaliskuuhun. Ilmoitus kun KP ja taivas osuvat yksiin: yön ehdoilla, ei markkinointikalenterin.',
       },
       {
         title: 'Kun reiteille kannattaa lähteä',
@@ -26,7 +26,7 @@ const fi: SectionCopy = {
       },
       {
         title: 'Kun eläimet liikkuvat',
-        body: 'Karhukatselut alkavat toukokuun puolivälissä. Porojen erotukset syksyllä. Naalin havainnot joita kukaan muu ei merkitse. Välitetään sitä mukaa kun ne kuullaan.',
+        body: 'Karhukatselut alkavat toukokuun puolivälissä. Porojen erotukset syksyllä. Naalihavainnot jotka eivät ylitä uutiskynnystä. Välitämme ne sitä mukaa kun kuulemme.',
       },
       {
         title: 'Minne lähtisimme tänä viikonloppuna',
@@ -39,7 +39,7 @@ const fi: SectionCopy = {
     successMsg: 'Kiitos. Nähdään revontulien alla.',
     errorPrefix: 'Tilaus ei onnistunut',
     errorFallback: 'Tilaus ei onnistunut. Yritä uudelleen tai kirjoita info@laplandvibes.com.',
-    footnote: 'Yhden klikkauksen lopetus, ei kysymyksiä.',
+    footnote: 'Tilauksen lopetus yhdellä klikkauksella, ei kysymyksiä.',
     privacyLink: 'Tietosuojakäytäntö',
   },
   popup: {
@@ -58,18 +58,19 @@ const fi: SectionCopy = {
     privacy: 'Tietosuojakäytäntö',
   },
   affiliateDisclosure: {
-    body: 'Osa tämän sivun linkeistä kulkee go.laplandvibes.com -uudelleenohjauksen kautta ja tuottaa meille pienen komission kun varaat, sinulle ei tule lisäkulua. Suosituksiamme se ei muuta.',
+    body: 'Osa tämän sivun linkeistä kulkee go.laplandvibes.com -uudelleenohjauksen kautta ja tuottaa meille pienen komission, kun varaat. Sinulle ei tule lisäkulua, eikä se muuta suosituksiamme.',
   },
   footerCookie: {
-    affiliateNote: 'Riippumattomasti ylläpidetty Lapeso Oy:n toimesta Suomen Lapista · viimeksi tarkistettu huhtikuussa 2026 · saamme affiliate-komission osasta varauksia, mutta se ei vaikuta siihen mitä kohteita tai operaattoreita suosittelemme.',
+    affiliateNote: 'Riippumaton sivusto, jota ylläpitää Lapeso Oy Suomen Lapista · viimeksi tarkistettu huhtikuussa 2026 · saamme affiliate-komission osasta varauksia, mutta se ei vaikuta siihen mitä kohteita tai operaattoreita suosittelemme.',
   },
   map: {
     kicker: 'Kartta',
     h2: 'Mistä löytyy',
-    lead: '16 paikkaa joihin palaamme, viisi kansallispuistoa, neljä revontulikylää, neljä reitin lähtöpaikkaa ja kolme eläinkäytävää. Klikkaa pinniä lyhyestä versiosta.',
+    lead: '16 paikkaa joihin palaamme, viisi kansallispuistoa, neljä revontulikylää, neljä reitin lähtöpaikkaa ja kolme eläinkäytävää. Klikkaa pinniä, niin saat lyhyen esittelyn.',
     foot: 'Kartta: OpenStreetMap. Pinnit ovat toimituksen valintoja, eivät Metsähallituksen luettelo.',
     openGuide: 'Avaa opas →',
-    legend: { park: 'Kansallispuisto', aurora: 'Revontulipaikka', trail: 'Reitin lähtö', wildlife: 'Eläimet' },
+    resetView: 'Näytä kaikki',
+    legend: { park: 'Kansallispuisto', aurora: 'Revontulipaikka', trail: 'Reitin lähtöpaikka', wildlife: 'Eläimet' },
     pins: [
       { name: 'Urho Kekkosen kp', note: 'Suomen 2. suurin puisto · portti: Saariselkä' },
       { name: 'Pallas-Yllästunturi kp', note: '55 km Hetta–Pallas-reitti · portti: Muonio' },
@@ -77,15 +78,15 @@ const fi: SectionCopy = {
       { name: 'Riisitunturin kp', note: 'Tykkylumi · portti: Posio' },
       { name: 'Pyhä-Luoston kp', note: '400-vuotiaat kuuset · ametistikaivos' },
       { name: 'Inari', note: 'Saamelaisalueen sydän · Bortle 2 · avoin järvinäköala' },
-      { name: 'Utsjoki', note: '4 viidestä kirkkaasta yöstä näyttää revontulet huipulla · 51 päivän kaamos' },
+      { name: 'Utsjoki', note: 'Revontulet 4 yönä viidestä kirkkaasta huippukaudella · 51 päivän kaamos' },
       { name: 'Kilpisjärvi', note: 'Kolmen valtakunnan rajapyykki · korkeat tunturit' },
       { name: 'Enontekiö', note: 'Euroopan pimeimpiä taivaita (Bortle 1)' },
-      { name: 'Hetta', note: '55 km Hetta–Pallas -reitin pohjoispää' },
+      { name: 'Hetta', note: '55 km:n Hetta–Pallas-reitin pohjoispää' },
       { name: 'Ruka / Oulanka', note: '82 km Karhunkierros · riippusillat + kanjonit · Kuusamo, aivan Lapin rajan eteläpuolella' },
       { name: 'Kilpisjärvi (Halti)', note: '55 km edestakaisin Haltille, Suomen korkein piste (1 324 m)' },
       { name: 'Pyhä', note: 'Pyhäkurun rotko · esteetön pitkospuu · 5 km' },
-      { name: 'Kuusamon karhukatselut', note: 'Karhukojuilta · 99 % havaintoluku · touko–syyskuu · heti Lapin eteläpuolella' },
-      { name: 'Nellim erämaa', note: 'Nellimin erämaakoju · ahman ja karhun reviiri' },
+      { name: 'Kuusamon karhukatselut', note: 'Karhukojuilta · yksi yö n. 90 %, kaksi yötä 99 % · touko–syyskuu · heti Lapin eteläpuolella' },
+      { name: 'Nellim erämaa', note: 'Nellimin erämaalodge · ahman ja karhun reviiriä' },
       { name: 'Kaamasen porot', note: 'Saamelaisten poroerotus · syksy (paliskunta)' },
     ],
   },
@@ -97,26 +98,26 @@ const fi: SectionCopy = {
       eyebrow: 'Napapiirin pohjoispuolella',
       title: 'Koskematon arktinen',
       subtitle: 'erämaa',
-      description: 'Suomen Lappi, 100 367 km² kansallispuistoja, tuntureita, ikimetsiä ja Euroopan pisin revontulikausi.',
+      description: 'Suomen Lappi: 100 367 km² kansallispuistoja, tuntureita ja ikimetsiä sekä Euroopan pisin revontulikausi.',
       primaryCta: 'Suunnittele revontulireissu',
       secondaryCta: 'Tutustu puistoihin',
     },
     band: {
       kicker: 'Napapiirin pohjoispuolella · hälinän alapuolella',
-      h: 'Suomen villein maa sijaitsee ',
+      h: 'Suomen villein maa sijaitsee vyöhykkeellä ',
       hHighlight: '66°–69° pohjoista leveyttä',
       hSuffix: '. Seitsemän kansallispuistoa, neljän vuodenajan valo ja Euroopan pisin revontuli-ikkuna.',
       stats: [
-        { value: '37 %', primary: 'Suomesta', body: 'sijaitsee napapiirin pohjoispuolella' },
+        { value: '30 %', primary: 'Suomesta', body: 'on Lapin maakuntaa, 100 367 km²' },
         { value: '40+', primary: 'suojelualuetta', body: 'kansallispuistot, luonnonpuistot, Natura 2000' },
-        { value: '70', primary: 'keskiyön aurinko -päivää', body: 'Utsjoki, kesäkuusta elokuuhun' },
+        { value: '70', primary: 'keskiyön auringon päivää', body: 'Utsjoki, kesäkuusta elokuuhun' },
         { value: '200+', primary: 'revontuliyötä', body: 'havaittu vuosittain 67°N pohjoispuolella' },
       ],
     },
     featured: {
       kicker: 'Seitsemän tapaa sisälle',
       h2: 'Käsin valitut Lappi-kokemukset',
-      lead: 'Itärajan karhukojuilta jäätyneen vesiputouksen kanjoneihin, keskiyön auringon melontaan ja Utsjoen kaamostaivaaseen, seitsemän opasta joihin palaamme.',
+      lead: 'Itärajan karhukojuilta jäätyneiden vesiputousten kanjoneihin, keskiyön auringon melontaan ja Utsjoen kaamostaivaaseen: seitsemän opasta joihin palaamme.',
       items: [
         {
           tag: 'Suojelualueet',
@@ -127,25 +128,25 @@ const fi: SectionCopy = {
         {
           tag: 'Eläimistö',
           title: 'Eläinten tarkkailu',
-          blurb: 'Jäljitä karhuja 99 % havaintoluvulla yön yli -kojuilta, kohtaa puolivilli porolauma ja näe ahmoja.',
+          blurb: 'Jäljitä karhuja yön yli -kojuilta: yksi yö noin 90 %, kaksi yötä 99 %. Kohtaa puolivilli porolauma ja näe ahmoja.',
           cta: 'Tutustu eläimistöön',
         },
         {
           tag: 'Revontulet',
           title: 'Revontulet',
-          blurb: 'Jahdaata revontulia arktisella taivaalla syyskuusta huhtikuuhun. Utsjoella revontulet näkyvät 4 viidestä kirkkaasta yöstä.',
+          blurb: 'Jahtaa revontulia arktisella taivaalla syyskuusta huhtikuuhun. Utsjoella revontulet näkyvät neljänä yönä viidestä kirkkaasta.',
           cta: 'Tutustu revontuliin',
         },
         {
           tag: 'Reitit',
           title: 'Vaellusreitit',
-          blurb: 'Käy Suomen ikonisimmilla reiteillä, 82 km Karhunkierroksen riippusilloista 1 324 metrin Haltille.',
+          blurb: 'Käy Suomen ikonisimmilla reiteillä, 82 km:n Karhunkierroksen riippusilloista 1 324 metrin Haltille.',
           cta: 'Tutustu reitteihin',
         },
         {
           tag: 'Vastuu',
           title: 'Luonnonsuojelu',
-          blurb: 'Metsähallitus hallinnoi 85 % Lapin tuntureista ja kaikki seitsemän kansallispuistoa. Lisäksi jokamiehenoikeudet, Suomen avoin pääsy luontoon.',
+          blurb: 'Metsähallitus hallinnoi 85 % Lapin tuntureista ja kaikkia seitsemää kansallispuistoa. Lisäksi jokamiehenoikeudet: Suomen avoin pääsy luontoon.',
           cta: 'Tutustu suojeluun',
         },
         {
@@ -165,12 +166,12 @@ const fi: SectionCopy = {
     map: {
       kicker: 'Kartta',
       h2: 'Mistä löytyy',
-      lead: '16 paikkaa joihin palaamme, viisi kansallispuistoa, neljä revontulikylää, neljä reitin lähtöä ja kolme eläinkäytävää. Klikkaa pinniä lyhyestä versiosta.',
+      lead: '16 paikkaa joihin palaamme, viisi kansallispuistoa, neljä revontulikylää, neljä reitin lähtöpaikkaa ja kolme eläinkäytävää. Klikkaa pinniä, niin saat lyhyen esittelyn.',
       foot: 'Kartta: OpenStreetMap. Pinnit ovat toimituksen valintoja, eivät Metsähallituksen luettelo.',
     },
     ctaBand: {
       h2: 'Valmis suunnittelemaan erämaamatkasi?',
-      lead: 'Valitse tukikohta puistojen ja revontulivyöhykkeen läheltä, lisää sitten opastetut elämykset, eläintarkkailu, kullankaivuu, useamman päivän tupavaellukset.',
+      lead: 'Valitse tukikohta puistojen ja revontulivyöhykkeen läheltä, lisää sitten opastetut elämykset: eläintarkkailu, kullankaivuu ja useamman päivän tupavaellukset.',
       primary: 'Etsi erämaatukikohta',
       secondary: 'Selaa opastettuja elämyksiä',
     },
@@ -189,7 +190,7 @@ const fi: SectionCopy = {
     bestSeasonValue: 'Syyskuu → maaliskuu',
     bestSeasonSuffix: ' · pimein kaamoksen aikaan (marras–tammikuu)',
     spotsH2: 'Parhaat katselupaikat',
-    spotsLead: 'Pelkkä leveysaste ei tee revontulipaikkaa, tarvitaan pimeät taivaat, avoin pohjoinen horisontti ja paikka jossa yöpyä kun odotat pilvien aukeavan.',
+    spotsLead: 'Pelkkä leveysaste ei tee hyvää revontulipaikkaa: tarvitaan pimeä taivas, avoin pohjoinen horisontti ja paikka jossa yöpyä, kun odotat pilvien aukeavan.',
     spots: [
       {
         name: 'Inari',
@@ -197,11 +198,11 @@ const fi: SectionCopy = {
       },
       {
         name: 'Utsjoki',
-        description: 'Suomen pohjoisin kunta, Norjan rajalla. Esteettä pohjoinen horisontti ja 51 päivää ilman auringonnousua kaamoksen aikana.',
+        description: 'Suomen pohjoisin kunta, Norjan rajalla. Esteetön pohjoinen horisontti ja 51 päivää ilman auringonnousua kaamoksen aikana.',
       },
       {
         name: 'Kilpisjärvi',
-        description: 'Suomen, Ruotsin ja Norjan kohtauspaikka. Korkeat tunturit antavat panoraamiset revontulinäkymät Jäämeren pilvirajan yli.',
+        description: 'Suomen, Ruotsin ja Norjan kohtauspaikka. Korkeilta tuntureilta avautuvat panoraamanäkymät revontuliin Jäämeren pilvirajan yläpuolelta.',
       },
       {
         name: 'Enontekiö',
@@ -214,12 +215,12 @@ const fi: SectionCopy = {
       'Tarkista Ilmatieteen laitoksen revontuliennuste (Auroras-now / KP-indeksi) ennen lähtöä.',
       'Paras katseluaika kirkkaana yönä on klo 21–02.',
       'Siirry 5–10 km taajamasta pois pudottaaksesi valosaasteen Bortle 2 -tasolle tai alle.',
-      'Pue kerroksittain, lämpötila yltää huippukauden aikana usein −30 °C:een; termospullo lämmintä juomaa on pakollinen.',
+      'Pukeudu kerroksittain: lämpötila laskee huippukauden aikana usein −30 °C:een, ja termospullo lämmintä juomaa on pakollinen.',
       'Jalusta ja 5–15 sekunnin valotus ISO 800–3200 (f/2.8) -asetuksilla tallentaa revontulia joita silmä ei näe.',
     ],
     oneNightKicker: 'Yksi yö · Inari · 2. maaliskuuta 2024',
     oneNightH2: 'Miltä oikea revontuliyö näyttää',
-    oneNightLead: 'Ennusteet sanovat "hyvä mahdollisuus tänä yönä". Ne eivät kerro, että odotat kolme tuntia taivaan aukenemista, että ensimmäinen näytös on litteä vihreä juova, jonka melkein ohitat, ja että toinen, klo 01:48, räjähtää koko arktiselle holvelle. Näin yksi yö menee.',
+    oneNightLead: 'Ennusteet sanovat "hyvä mahdollisuus tänä yönä". Ne eivät kerro, että odotat kolme tuntia taivaan aukenemista, että ensimmäinen näytös on litteä vihreä juova, jonka melkein ohitat, ja että toinen, klo 01:48, räjähtää koko taivaankannelle. Näin yksi yö menee.',
     oneNightSteps: [
       {
         time: '19:30',
@@ -234,12 +235,12 @@ const fi: SectionCopy = {
       {
         time: '22:40',
         title: 'Ensimmäinen juova, melkein ohitettu',
-        body: 'Heikko vihreä kaari pohjoisella horisontilla. Helppo luulla pilven heijastukseksi. Kamera (15 s, ISO 1600, f/2.8) näytti sen selvästi, silmän kynnys jää sen taakse mitä puhelin tallentaa. Tämä on normaalia. Odota.',
+        body: 'Heikko vihreä kaari pohjoisella horisontilla. Helppo luulla pilven heijastukseksi. Kamera (15 s, ISO 1600, f/2.8) näytti sen selvästi: paljas silmä erottaa vähemmän kuin puhelin tallentaa. Tämä on normaalia. Odota.',
       },
       {
         time: '00:15',
         title: 'Pilvet nousevat. Hiljainen 40 minuuttia.',
-        body: 'Tähdet tarkkoja. Revontulet vetäytyvät. Tämä on hetki jolloin useimmat autossa kävijät luovuttavat ja ajavat takaisin. Älä. Aktiivinen vaihe seuraa usein hiljaisuutta. Lämmin juoma. Kärsivällisyyttä.',
+        body: 'Tähdet tarkkoja. Revontulet vetäytyvät. Tämä on hetki jolloin useimmat autolla liikkeellä olevat luovuttavat ja ajavat takaisin. Älä. Aktiivinen vaihe seuraa usein hiljaisuutta. Lämmin juoma. Kärsivällisyyttä.',
       },
       {
         time: '01:48',
@@ -254,12 +255,12 @@ const fi: SectionCopy = {
       },
     ],
     cards: [
-      { title: 'Ennustyökalut', body: 'IL:n Auroras-now (KP), NOAA OVATION (ovaali), windy.com (pilvi), pidä kaikki kolme auki.' },
+      { title: 'Ennustetyökalut', body: 'IL:n Auroras-now (KP), NOAA OVATION (ovaali), windy.com (pilvi), pidä kaikki kolme auki.' },
       { title: 'Kameran perusasetus', body: '15 s · ISO 1600 · f/2.8 · manuaalitarkennus etäiseen valoon. Jalusta pakollinen.' },
       { title: 'Mikä pilaa yön', body: 'Täysikuu (huuhtelee värit). Pilveä yli 1500 m. Tuulen viilennys alle −25 °C ilman kunnon varustetta.' },
     ],
     finalH2: 'Haluatko oppaan joka tuntee pilviraot?',
-    finalLead: 'Revontuliretkiä lähtee öittäin Rovaniemeltä, Saariselältä ja Leviltä. Paikalliset oppaat seuraavat ennustetta ja siirtyvät kun taivas pilvistyy, paljon parempi osumaprosentti kuin yksin.',
+    finalLead: 'Revontuliretkiä lähtee joka ilta Rovaniemeltä, Saariselältä ja Leviltä. Paikalliset oppaat seuraavat ennustetta ja siirtyvät kun taivas pilvistyy, ja osumaprosentti on paljon parempi kuin omin päin liikkuessa.',
     finalCta: 'Selaa revontuliretkiä',
     crossLinks: {
       aurora: 'Miksi kaamos on paras revontuli-ikkuna →',
@@ -276,7 +277,7 @@ const fi: SectionCopy = {
         },
         {
           q: 'Mikä kuukausi on paras revontulille Lapissa?',
-          a: 'Maaliskuu on vahvin yksittäinen kuukausi: taivas on riittävän pimeä, yöt vielä pitkiä ja geomagneettinen aktiivisuus huipentuu usein kevätpäiväntasauksen tienoilla. Syyskuu on toinen otollinen hetki, leudommat lämpötilat ja sula vesi heijastaa revontulet ennen kuin järvet jäätyvät. Koko kausi kulkee elokuun lopusta huhtikuun alkuun.',
+          a: 'Maaliskuu on vahvin yksittäinen kuukausi: taivas on riittävän pimeä, yöt vielä pitkiä ja geomagneettinen aktiivisuus huipentuu usein kevätpäiväntasauksen tienoilla. Syyskuu on toinen otollinen hetki: lämpötilat ovat leudommat, ja sula vesi heijastaa revontulet ennen kuin järvet jäätyvät. Koko kausi kestää elokuun lopusta huhtikuun alkuun.',
         },
         {
           q: 'Näkeekö revontulet Rovaniemeltä?',
@@ -287,8 +288,8 @@ const fi: SectionCopy = {
           a: 'Aikaväli noin klo 21–02 paikallista aikaa on luotettavin, ja aktiivisuus huipentuu usein magneettisen keskiyön tienoilla (Suomessa noin klo 23–01). Alimyrskyt voivat leimahtaa milloin tahansa, joten hiljaisen jakson yli kannattaa jäädä odottamaan, aktiivinen vaihe seuraa usein tyyntä hetkeä.',
         },
         {
-          q: 'Tarvitseeko varata retken, vai näkeekö revontulet omin päin?',
-          a: 'Näet ne aivan hyvin omin päin, jos sinulla on auto, pimeä paikka avoimella pohjoishorisontilla ja kärsivällisyyttä odottaa pilvirakoja. Opastettu retki ansaitsee hintansa lähinnä liikkuvuudella: paikalliset oppaat seuraavat pilviennustetta ja siirtyvät alueella, mikä nostaa osumaprosenttia epävarmoina öinä.',
+          q: 'Tarvitseeko varata retki, vai näkeekö revontulet omin päin?',
+          a: 'Näet ne aivan hyvin omin päin, jos sinulla on auto, pimeä paikka avoimella pohjoishorisontilla ja kärsivällisyyttä odottaa pilvirakoja. Opastettu retki ansaitsee hintansa lähinnä liikkuvuudella: paikalliset oppaat seuraavat pilviennustetta ja liikkuvat alueella, mikä nostaa osumaprosenttia epävarmoina öinä.',
         },
       ],
     },
@@ -301,18 +302,18 @@ const fi: SectionCopy = {
       eyebrow: 'Lapin erämaa',
       title: 'Kansallispuistot',
       subtitle: 'Viisi suojeltua aluetta',
-      description: 'Esittelemme Lapin seitsemästä kansallispuistosta viisi, jotka kattavat suurimman osan tiettömästä erämaasta, avoimilta tunturiylityksiltä tykkylumimetsiin ja kullankaivuukanjoneihin. Jokaisella oma portinkylä.',
+      description: 'Esittelemme Lapin seitsemästä kansallispuistosta viisi, jotka kattavat suurimman osan tiettömästä erämaasta, avoimilta tunturiylityksiltä tykkylumimetsiin ja kullankaivuukanjoneihin. Jokaisella on oma porttikylänsä.',
     },
     parks: [
       {
         name: 'Urho Kekkosen kansallispuisto',
-        description: 'Suomen toiseksi suurin kansallispuisto, 2 550 km². Avoimia tuntureita, syviä jokirotkoja ja ikimäntymetsiä. Paratiisi monipäiväiseen vaellukseen ja takamaahiihtoon.',
+        description: 'Suomen toiseksi suurin kansallispuisto, 2 550 km². Avoimia tuntureita, syviä jokirotkoja ja ikimäntymetsiä. Monipäiväisten vaellusten ja retkihiihdon paratiisi.',
         highlight: 'Suomen 2. suurin puisto',
-        visited: 'Maaliskuu 2024 · päiväretki Rumakurun lenkki, lumi vakaa −12 °C',
+        visited: 'Maaliskuu 2024 · päivähiihto Rumakurun lenkillä, lumi vakaa −12 °C',
       },
       {
         name: 'Pallas-Yllästunturin kansallispuisto',
-        description: 'Suomen suosituin tunturireitti, 55 km Hetta–Pallas. Avoimet tunturilaet, horisontti yli Käsivarren.',
+        description: 'Suomen suosituin tunturireitti, 55 km:n Hetta–Pallas. Avoimet tunturilaet, horisontti yli Käsivarren.',
         highlight: 'Suomen pisin tunturiylitys',
         visited: 'Syyskuu 2023 · käveltiin Hetta → Pallas kolmessa päivässä · ruskan huippuviikko 2',
       },
@@ -339,7 +340,7 @@ const fi: SectionCopy = {
     stayNearby: 'Yöpyminen lähellä',
     hettaKicker: 'Muistivihko · ruska 2023',
     hettaH2: 'Hetta → Pallas kolmessa päivässä, koko ylitys',
-    hettaLead: '55 km Hetta–Pallas -reitti Pallas-Yllästunturin halki on Suomen suosituin pitkä kävely syystä, se kulkee lähes kokonaan puurajan yläpuolella, autiotuvat ovat lyhyiden päivien välein, eivätkä näkymät häviä. Käveltiin pohjoisesta etelään kolmessa päivässä ruskan huipulla. Pohjoiseen on tavallinen suunta; etelään (Hetta-lähtö) on parempi valokuvauksellisesti ja Ounasjärven lautta on kiva alkurituaali.',
+    hettaLead: '55 km:n Hetta–Pallas-reitti Pallas-Yllästunturin halki on Suomen suosituin pitkä kävely syystä: se kulkee lähes kokonaan puurajan yläpuolella, autiotuvat ovat lyhyen päivämatkan välein, eivätkä näkymät häviä. Käveltiin pohjoisesta etelään kolmessa päivässä ruskan huipulla. Pohjoiseen päin on tavallinen suunta; etelään (Hetta-lähtö) on valokuvauksellisesti parempi valinta, ja Ounasjärven lautta on kiva alkurituaali.',
     days: [
       {
         day: 'Päivä 1 · 18 km',
@@ -350,22 +351,22 @@ const fi: SectionCopy = {
       {
         day: 'Päivä 2 · 22 km',
         title: 'Sioskuru → Hannukuru',
-        body: 'Tunnusmerkkipäivä. Ylität Pyhäkurun ja korkean tundran Lompolojärven ympäri, reitin kuva jonka olet nähnyt aiemmin on kilometriltä 12. Hannukurun tuvassa on puulämmitteinen sauna; siksi useimmat jakavat reitin näin.',
+        body: 'Reitin komein päivä. Ylität Pyhäkurun ja Lompolojärveä ympäröivän korkean tunturiylängön; reitin kuva jonka olet nähnyt aiemmin on kilometriltä 12. Hannukurun tuvassa on puulämmitteinen sauna; siksi useimmat jakavat reitin näin.',
         note: 'Kohokohta: Lompolojärven heijastus klo 17 valossa',
       },
       {
         day: 'Päivä 3 · 15 km',
         title: 'Hannukuru → Pallas',
-        body: 'Helpoin päivä paperilla. Nouse Pallaksen huippuketjuun, Taivaskero, Lehmäkero, Laukukero, horisontit yltävät yli Käsivarren kirkkaana aamuna. Päättyy Pallas-hotelliin; jos voit, varaa sauna ja pihvi. Ansaitsit molemmat.',
+        body: 'Helpoin päivä paperilla. Nouse Pallaksen huippuketjulle: Taivaskero, Lehmäkero ja Laukukero, ja horisontti yltää yli Käsivarren kirkkaana aamuna. Reitti päättyy Pallas-hotellille; jos voit, varaa sauna ja pihvi. Ansaitsit molemmat.',
         note: 'Yhteensä: 55 km · 3 päivää · 11 h netto vaellusaikaa',
       },
     ],
     differentlyH3: 'Mitä suunnittelisimme toisin',
     differently: [
-      'Varaa varaustupapaikka yöksi kahteen (Hannukuru). Autiotupa on avoin mutta ruskan huipulla se täyttyi klo 15:30. Varaustupa = 14 €, mielenrauha = korvaamaton.',
-      'Ota lumikenkä-säärystimet mukaan jo alkusyksyllä. Kaksi Pyhäkurun rinnealuetta meni saappaan yli, märät sukat kaksi päivää.',
-      'Syö raskaasti ensimmäisenä päivänä. Hetan kauppa on viimeinen lämmin ruokapaikka ennen Pallas-hotellia.',
-      'Älä yritä tätä kahdessa päivässä. Tapasimme pariskunnan joka yritti; he luovuttivat Hannukurulla ja shuttle-bussi otti pois.',
+      'Varaa varaustupapaikka toiseksi yöksi (Hannukuru). Autiotupa on avoin mutta ruskan huipulla se täyttyi klo 15:30. Varaustupa = 14 €, mielenrauha = korvaamaton.',
+      'Ota lumikenkätyyliset säärystimet mukaan jo syyskuun alussa. Kaksi Pyhäkurun soista laskuosuutta meni saappaan yli, märät sukat kaksi päivää.',
+      'Syö tukevasti ensimmäisenä päivänä. Hetan kauppa on viimeinen lämmin ruokapaikka ennen Pallas-hotellia.',
+      'Älä yritä tätä kahdessa päivässä. Tapasimme pariskunnan joka yritti; he keskeyttivät Hannukurussa ja poistuivat bussikyydillä.',
     ],
     preWalkCta: 'Yöpyminen Hetassa ennen kävelyä',
     postWalkCta: 'Yöpyminen Muoniossa kävelyn jälkeen',
@@ -377,7 +378,7 @@ const fi: SectionCopy = {
       items: [
         {
           q: 'Kuinka monta kansallispuistoa Lapissa on?',
-          a: 'Lapissa on viisi Suomen suosituimmista erämaapuistoista: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi ja Pyhä-Luosto. Jokaisella on oma porttikylänsä tukikohdaksi, Saariselkä UKK:lle, Hetta ja Muonio Pallas-Yllästunturille.',
+          a: 'Lapissa on viisi Suomen suosituimmista erämaapuistoista: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi ja Pyhä-Luosto. Jokaisella on oma porttikylänsä tukikohdaksi: Saariselkä UKK:lle, Hetta ja Muonio Pallas-Yllästunturille.',
         },
         {
           q: 'Mikä on Lapin suurin kansallispuisto?',
@@ -389,7 +390,7 @@ const fi: SectionCopy = {
         },
         {
           q: 'Milloin puistoihin kannattaa mennä?',
-          a: 'Alku- ja keskisyyskuu ruskaa varten, kesä- ja heinäkuu yöttömän yön ja pitkien vaelluspäivien vuoksi, ja helmi–maaliskuu tykkylumen ja hiihtovaellusten aikaan, Riisitunturi on vaikuttavimmillaan raskaan tykyn alla lopputalvella. Kesätuvat ja lossit kulkevat tyypillisesti kesäkuun alusta syyskuun loppuun.',
+          a: 'Alku- ja keskisyyskuu ruskaa varten, kesä- ja heinäkuu yöttömän yön ja pitkien vaelluspäivien vuoksi, ja helmi–maaliskuu tykkylumen ja hiihtovaellusten aikaan; Riisitunturi on vaikuttavimmillaan raskaan tykyn alla lopputalvella. Kesätuvat ovat auki ja lossit kulkevat tyypillisesti kesäkuun alusta syyskuun loppuun.',
         },
         {
           q: 'Missä Lapin kansallispuistossa voi kaivaa kultaa?',
@@ -406,13 +407,13 @@ const fi: SectionCopy = {
   },
   wildlife: {
     metaTitle: 'Lapin eläimistö: porot, karhut, ahma ja muut | LaplandNature',
-    metaDescription: 'Kuusi ikonista arktista lajia jotka voit kohdata Suomen Lapissa, 200 000 puolikesyä porosta erittäin uhanalaiseen naaliin ja vaikeasti tavoitettavaan ahmaan.',
+    metaDescription: 'Kuusi ikonista arktista lajia jotka voit kohdata Suomen Lapissa, 200 000 puolikesyä porosta äärimmäisen uhanalaiseen naaliin ja vaikeasti tavoitettavaan ahmaan.',
     hero: {
       alt: 'Karhu Suomen Lapin havumetsässä',
       eyebrow: 'Eläimet Lapissa',
       title: 'Eläinten tarkkailu',
       subtitle: 'Karhu, poro, ahma',
-      description: 'Karhun jäljityskojut 99 % havaintovarmuudella, puolivillit porolaumat ja vaikeasti tavoitettavat ahmat, vahvistetut toimijat ja oikeat havaintoluvut.',
+      description: 'Karhun jäljityskojut: yksi yö noin 90 %, kaksi yötä 99 %. Puolivillit porolaumat ja vaikeasti tavoitettavat ahmat, vahvistetut toimijat ja oikeat luvut.',
     },
     animals: [
       {
@@ -422,18 +423,18 @@ const fi: SectionCopy = {
       },
       {
         name: 'Naali',
-        description: 'Yksi Suomen harvinaisimmista nisäkkäistä. Naali selviää ankarimmissa tunturiympäristöissä, turkki muuttuu talvella valkoiseksi lumessa naamioitumista varten. Erittäin uhanalainen Skandinaavisessa populaatiossa.',
-        status: 'Erittäin uhanalainen',
+        description: 'Yksi Suomen harvinaisimmista nisäkkäistä. Naali selviää ankarimmissa tunturiympäristöissä, turkki muuttuu talvella valkoiseksi lumessa naamioitumista varten. Äärimmäisen uhanalainen Skandinavian populaatiossa.',
+        status: 'Äärimmäisen uhanalainen',
       },
       {
         name: 'Ruskeakarhu',
-        description: 'Suomessa on yksi Euroopan tiheimmistä karhupopulaatioista. Parhaat karhukojut ovat Itä-Suomessa Kuusamon ja Suomussalmen seudulla, helpon poikkeaman päässä Lapista etelään, ja tarjoavat läheisiä kohtaamisia kesäöinä kun karhut nousevat talvihorroksesta.',
+        description: 'Suomessa on yksi Euroopan tiheimmistä karhupopulaatioista. Parhaat karhukojut ovat Itä-Suomessa Kuusamon ja Suomussalmen seudulla, lyhyen poikkeamisen päässä Lapista etelään, ja tarjoavat läheisiä kohtaamisia kesäöinä kun karhut nousevat talvihorroksesta.',
         status: 'Silmälläpidettävä',
       },
       {
         name: 'Ahma',
         description: 'Ahma on yksi havumetsän vaikeimmin tavoitettavista petoeläimistä. Kokoonsa nähden valtavan vahva, se kulkee laajoja reviirejä Lapin erämaassa. Harvoin nähty mutta läsnä koko alueella.',
-        status: 'Uhanalainen',
+        status: 'Erittäin uhanalainen',
       },
       {
         name: 'Tunturipöllö',
@@ -442,61 +443,61 @@ const fi: SectionCopy = {
       },
       {
         name: 'Laulujoutsen',
-        description: 'Suomen kansallislintu pesii Lapin kosteikoilla ja hiljaisilla järvillä. Sen torvimainen huuto kantaa kilometrejä tyyninä kesäiltoina, määräävä kesän ääni Lapissa.',
+        description: 'Suomen kansallislintu pesii Lapin kosteikoilla ja hiljaisilla järvillä. Sen torvimainen huuto kantaa kilometrejä tyyninä kesäiltoina, ja se on Lapin kesän tunnusääni.',
         status: 'Kansallislintu',
       },
     ],
     statuses: {
       common: 'Yleinen',
-      criticallyEndangered: 'Erittäin uhanalainen',
+      criticallyEndangered: 'Äärimmäisen uhanalainen',
       nearThreatened: 'Silmälläpidettävä',
-      endangered: 'Uhanalainen',
+      endangered: 'Erittäin uhanalainen',
       rareVisitor: 'Harvinainen vierailija',
       nationalBird: 'Kansallislintu',
     },
     bearKicker: 'Karhukojut · Kuusamo–Suomussalmi',
     bearH2: 'Karhukatselu, rehellisesti',
     bearBody: [
-      'Itä-Suomessa, Kuusamo, Suomussalmi, Lieksa, on Euroopan tihein karhupopulaatio per neliökilometri. Kolme tai neljä operaattoria pyörittää pieniä yön yli -kojuja huhtikuun lopusta syyskuun alkuun, ja matematiikka on yksinkertaista: yksi yö, tilastollinen havaintoluku on noin 90 %. Kaksi yötä ja olet 99 %+.',
-      'Koju on lämmitetty puuhuone, jossa on yksisuuntaiset valokuvausluukut ja petipaikka. Saavut klo 17, et lähde ennen klo 7. Syötti, yleensä lohi perinteisellä ruokintapaikalla, pitää karhut palaamassa vuosien ajan; joitakin yksilöitä on kuvattu kymmenen vuoden ajan. Pentuja touko–kesäkuussa. Yksinäisiä uroksia läpi kesän. Sudet ylittävät saman aukean syyskuussa jos olet onnekas.',
-      'Hinta on 280–450 € henkilöltä yöltä, sisältäen kuljetuksen, päivällisen, petipaikan ja oppaan joka selittää korvakuulokkeilla mitä näet. Varaa yli 6 kuukautta etukäteen heinäkuun viikonloppuihin.',
+      'Itä-Suomessa (Kuusamo, Suomussalmi, Lieksa) on Euroopan tihein karhukanta neliökilometriä kohden. Kolme tai neljä operaattoria pyörittää pieniä yön yli -kojuja huhtikuun lopusta syyskuun alkuun, ja matematiikka on yksinkertaista: yhdellä yöllä tilastollinen havaintoluku on noin 90 %. Kaksi yötä nostaa sen yli 99 %:n.',
+      'Koju on lämmitetty puuhuone, jossa on yksisuuntaiset valokuvausluukut ja petipaikka. Saavut klo 17, et lähde ennen klo 7. Syötti, yleensä lohi perinteisellä ruokintapaikalla, saa karhut palaamaan vuodesta toiseen; joitakin yksilöitä on kuvattu kymmenen vuoden ajan. Pentuja touko–kesäkuussa. Yksinäisiä uroksia läpi kesän. Sudet ylittävät saman aukean syyskuussa jos olet onnekas.',
+      'Hinta on 280–450 € henkilöltä yöltä, sisältäen kuljetuksen, päivällisen, petipaikan ja oppaan joka kertoo kuulokkeisiin mitä näet. Varaa heinäkuun viikonloput yli 6 kuukautta etukäteen.',
     ],
     browseHidesCta: 'Selaa karhukatseluja',
     preNightCta: 'Yöpyminen Kuusamossa ennen kojua',
     bearNightKicker: 'Yksi yö · Suomussalmi · 14. kesäkuuta 2024',
     bearNightH2: 'Miltä oikea karhukoju-yö näyttää',
-    bearNightLead: 'Ihmiset kuvittelevat kojun 14 tunnin odotuksena joka päättyy joko hiljaisuuteen tai karhu-kävelee-ohi -hetkeen. Totuus on sotkuisempi, karhut tulevat ja menevät, torkahtaa, ohittaa havainnon, hiljaisuus muodostuu omakseen. Näin yhden yön rytmi keskellä kesäkuuta kolmen muun valokuvaajan kanssa 4-petisessä kojussa.',
+    bearNightLead: 'Ihmiset kuvittelevat kojun 14 tunnin odotuksena joka päättyy joko hiljaisuuteen tai karhu-kävelee-ohi -hetkeen. Totuus on sotkuisempi: karhut tulevat ja menevät, sinä torkahdat ja ohitat havainnon, ja hiljaisuudesta tulee oma lukunsa. Tässä yhden yön rytmi keskellä kesäkuuta kolmen muun valokuvaajan kanssa 4-petisessä kojussa.',
     bearNightSteps: [
       {
         time: '17:15',
         title: 'Saapuminen, infotuokio, vastuuvapaus',
-        body: 'Aja 8 km päätieltä pois, viimeiset 2 km metsätietä. Opas selittää säännöt: ei hajusteita, ei salamaa, vain kuiskausta, ei oven avaamista klo 19 jälkeen. Lohi laitettuna aukealle. Voileivät ja termospullo huoneessa.',
+        body: 'Aja 8 km päätieltä pois, viimeiset 2 km metsätietä. Opas selittää säännöt: ei hajusteita, ei salamaa, vain kuiskausta, ei oven avaamista klo 19 jälkeen. Lohi on laitettu aukealle. Voileivät ja termospullo huoneessa.',
       },
       {
         time: '19:40',
         title: 'Ensimmäinen tulija, nuori uros',
-        body: 'Kolmevuotias uros tulee kuusikon vasemmasta laidasta. Pysyy 11 minuuttia, syö yhden lohen, lähtee. Opas kuiskaa tunnistuksen, hän on käynyt täällä kahdesti tällä viikolla. Klo 19:40 valo kesäkuussa on yön parasta; keskiyön aurinko on vielä tuntien päässä.',
+        body: 'Kolmevuotias uros tulee kuusikon vasemmasta laidasta. Pysyy 11 minuuttia, syö yhden lohen, lähtee. Opas kuiskaa tunnistuksen: se on käynyt täällä kahdesti tällä viikolla. Klo 19:40 valo kesäkuussa on yön parasta; keskiyön aurinko on vielä tuntien päässä.',
       },
       {
         time: '21:30',
         title: 'Hiljainen tunti. Sudet ulvovat.',
-        body: 'Ei mitään aukealla. Kaksi sutta ulvoo idän suosta, ei nähty, vain kuultu. Opas sanoo että susille on ollut äänekäs kesä; lauma kulkee yli 60 km. Jäämme silti katsomaan.',
+        body: 'Ei mitään aukealla. Kaksi sutta ulvoo idän suosta, ei nähty, vain kuultu. Opas sanoo että susilla on ollut äänekäs kesä; lauma liikkuu yli 60 km:n alueella. Jäämme silti katsomaan.',
       },
       {
         time: '23:55',
         title: 'Emo + kaksi pentua',
-        body: 'Yö jonka takia tulit. Emo lähestyy hitaasti, haistaa ilmaa, vilkaisee kojun suuntaan, päättää ettemme ole uhka. Pennut kiipeävät hänen selkäänsä kahdesti syömisen aikana. Pysyy 38 minuuttia. Valo on kultaisen matala keskiyön auringon takia. Kamerat tuskin napsahtelevat, kukaan ei halua säpsähtää.',
+        body: 'Yö jonka takia tulit. Emo lähestyy hitaasti, haistaa ilmaa, vilkaisee kojun suuntaan, päättää ettemme ole uhka. Pennut kiipeävät sen selkään kahdesti syömisen aikana. Pysyy 38 minuuttia. Valo on kultaisen matala keskiyön auringon takia. Kamerat tuskin napsahtelevat, kukaan ei halua säpsähtää.',
         highlight: true,
       },
       {
         time: '02:30',
-        title: 'Torkkuu peteillä',
-        body: 'Kaksi meistä peteillä, kaksi tähystämässä. Vaihtaa 90 minuutin välein. Keskiyön aurinko tarkoittaa ettei ole oikeaa pimeyttä, kojun ikkuna pysyy käytettävänä.',
+        title: 'Torkut peteillä',
+        body: 'Kaksi meistä peteillä, kaksi tähystämässä. Vuoronvaihto 90 minuutin välein. Keskiyön aurinko tarkoittaa ettei oikeaa pimeyttä tule, joten kojun ikkunasta näkee läpi yön.',
       },
       {
         time: '04:50',
         title: 'Toinen uros, 8 minuuttia',
-        body: 'Vanha arpiainen uros, opas tunnistaa hänet säännölliseksi yhdeksän kesän ajan. Syö kaksi lohta, haistaa ilmaa, kävelee pois. Aamuinen kurkikuoro suolta on oma näytöksensä.',
+        body: 'Vanha arpinen uros; opas tunnistaa sen vakiovieraaksi jo yhdeksän kesän ajalta. Syö kaksi lohta, haistaa ilmaa, kävelee pois. Aamuinen kurkikuoro suolta on oma näytöksensä.',
       },
       {
         time: '07:00',
@@ -518,7 +519,7 @@ const fi: SectionCopy = {
       items: [
         {
           q: 'Milloin Lapissa voi nähdä karhuja?',
-          a: 'Karhunkatselu kulkee huhtikuun lopusta syyskuun alkuun, ja yökuvaamiskojut keskittyvät Itä-Suomeen Kuusamon, Suomussalmen ja Lieksan seudulle, Lapin rajan eteläpuolelle. Touko-kesäkuun vaihde on paras emojen ja pentujen näkemiseen, heinäkuu tuo luotettavasti yksinäiset urokset ja helpon sään, ja syyskuu lisää mahdollisuuden nähdä susia sekä syksyn valon.',
+          a: 'Karhunkatselukausi kestää huhtikuun lopusta syyskuun alkuun, ja yökuvauskojut keskittyvät Itä-Suomeen Kuusamon, Suomussalmen ja Lieksan seudulle, Lapin rajan eteläpuolelle. Touko-kesäkuun vaihde on paras emojen ja pentujen näkemiseen, heinäkuu tuo luotettavasti yksinäiset urokset ja helpon sään, ja syyskuu lisää mahdollisuuden nähdä susia sekä syksyn valon.',
         },
         {
           q: 'Kuinka todennäköisesti kojusta näkee karhun?',
@@ -526,7 +527,7 @@ const fi: SectionCopy = {
         },
         {
           q: 'Kuinka monta poroa Lapissa on, ja ovatko ne villejä?',
-          a: 'Lapissa kuljeskelee noin 200 000 puolikesyä poroa. Ne eivät ole villejä, jokainen eläin on omistettu ja korvamerkitty paliskunnassa, ja porot ovat olleet saamelaisen kulttuurin ytimessä tuhansia vuosia. Ne laiduntavat vapaasti tuntureilla ja metsissä, joten niitä kohtaa säännöllisesti tienvarsilla.',
+          a: 'Lapissa kuljeskelee noin 200 000 puolikesyä poroa. Ne eivät ole villejä, vaan jokaisella eläimellä on omistaja ja paliskunnan korvamerkki, ja porot ovat olleet saamelaisen kulttuurin ytimessä tuhansia vuosia. Ne laiduntavat vapaasti tuntureilla ja metsissä, joten niitä kohtaa säännöllisesti tienvarsilla.',
         },
         {
           q: 'Mikä on Lapin harvinaisin eläin?',
@@ -534,7 +535,7 @@ const fi: SectionCopy = {
         },
         {
           q: 'Paljonko karhunkatselukoju maksaa?',
-          a: 'Varaudu noin 280–450 euroon henkilöltä yhdeltä yöltä, yleensä hintaan kuuluu kuljetus kohtaamispaikalta, illallinen, vuode kojussa ja opas. Heinäkuun viikonloput varataan kuukausia etukäteen, joten varaa kesäsesongin huippupäivät kuusi kuukautta tai enemmän etuajassa.',
+          a: 'Varaudu noin 280–450 euroon henkilöltä yhdeltä yöltä, yleensä hintaan kuuluu kuljetus kohtaamispaikalta, illallinen, vuode kojussa ja opas. Heinäkuun viikonloput varataan kuukausia etukäteen, joten varaa kesäsesongin huippupäivät vähintään kuusi kuukautta etukäteen.',
         },
       ],
     },
@@ -545,7 +546,7 @@ const fi: SectionCopy = {
     },
   },
   bearKuusamo: {
-    metaTitle: 'Bear Kuusamo: eettistä karhunkatselua Suomessa',
+    metaTitle: 'Bear Kuusamo: eettistä karhunkatselua | LaplandNature',
     metaDescription: 'Bear Kuusamo pitää Ruka–Kuusamon alueen vanhimpia ja pohjoisimpia karhunkatselukojuja. Aitoa karhunkatselua Suomessa, aivan Lapin rajalla, 1.5.–30.9.',
     partnership: 'Kaupallinen yhteistyö · Bear Kuusamo',
     hero: {
@@ -604,23 +605,23 @@ const fi: SectionCopy = {
       eyebrow: 'Lapin vuosi',
       title: 'Neljä vuodenaikaa',
       subtitle: 'Napapiirin pohjoispuolella',
-      description: 'Jokainen vuodenaika tuo eri maailman, kesän loputon valo, kaamoksen sinihämärä ja kaksi lyhyttä siirtymäkautta jotka tiivistävät Etelä-Suomen kevään ja syksyn muutamaan viikkoon.',
+      description: 'Jokainen vuodenaika tuo eri maailman: kesän loputon valo, kaamoksen sinihämärä ja kaksi lyhyttä siirtymäkautta jotka tiivistävät Etelä-Suomen kevään ja syksyn muutamaan viikkoon.',
     },
     seasons: [
       {
         name: 'Ruska',
         period: 'Syyskuu – lokakuu',
-        description: 'Lappi puhkeaa kirkkaisiin syksyn väreihin koivun, haavan ja mustikan vaihtaessa kullan, punaisen ja oranssin sävyihin. Tunturilaet siirtyvät spektrin läpi päivissä, ei viikoissa. Ruska on yksi Suomen vuoden tunnusmerkillisistä luontotapahtumista, vaeltajat tulevat ympäri maata sitä katsomaan.',
+        description: 'Lappi puhkeaa kirkkaisiin syksyn väreihin koivun, haavan ja mustikan vaihtuessa kullan, punaisen ja oranssin sävyihin. Tunturilaet käyvät koko väriskaalan läpi päivissä, eivät viikoissa. Ruska on yksi Suomen luontovuoden tunnusomaisista tapahtumista, ja vaeltajat tulevat eri puolilta maata sitä katsomaan.',
       },
       {
         name: 'Kaamos',
         period: 'Marraskuu – tammikuu',
-        description: 'Kaamos laskeutuu Lappiin. Utsjoella aurinko ei nouse 51 päivään. Mutta kaamos ei ole pimeyttä, lumi heijastaa sinistä ja violettia hämärää iltapäivisin, luoden pehmeän hohtavan maiseman. Revontulet ovat aktiivisimmillaan tämän ikkunan aikana.',
+        description: 'Kaamos laskeutuu Lappiin. Utsjoella aurinko ei nouse 51 päivään. Mutta kaamos ei ole pelkkää pimeyttä: lumi heijastaa sinistä ja violettia hämärää iltapäivisin ja luo pehmeän hohtavan maiseman. Revontulet ovat aktiivisimmillaan tämän ikkunan aikana.',
       },
       {
         name: 'Keskiyön aurinko',
         period: 'Kesäkuu – heinäkuu',
-        description: 'Napapiirin pohjoispuolella aurinko ei laske keskikesällä. Pohjoisimmassa Lapissa keskiyön aurinko kestää yli 70 päivää peräkkäin. Loputon päivänvalo muuttaa vaelluksen, kalastuksen ja melonnan, voit lähteä klo 23 ja katsoa valon liikkuvan tunturien yli aamiaiseen asti.',
+        description: 'Napapiirin pohjoispuolella aurinko ei laske keskikesällä. Pohjoisimmassa Lapissa keskiyön aurinko kestää yli 70 päivää peräkkäin. Loputon päivänvalo muuttaa vaelluksen, kalastuksen ja melonnan: voit lähteä klo 23 ja katsoa valon liikkuvan tunturien yli aamiaiseen asti.',
       },
       {
         name: 'Kevätlumi',
@@ -635,12 +636,12 @@ const fi: SectionCopy = {
       {
         week: 'Viikko 1 · 2.–8.9.',
         region: 'Utsjoki + Kilpisjärvi (69°N+)',
-        body: 'Pohjoisimmat tunturit muuttuvat ensin. Koivu jo 60 % kääntynyt 5.9.; puolukanvarvut tummanpunaisia. Yölämpö −2 °C. Valokuvausikkuna: 14–17, valokulma matala.',
+        body: 'Pohjoisimmat tunturit muuttuvat ensin. Koivuista 60 % jo ruskassa 5.9.; puolukanvarvut tummanpunaisia. Yölämpötila −2 °C. Valokuvausikkuna: 14–17, valokulma matala.',
       },
       {
         week: 'Viikko 2 · 9.–15.9.',
         region: 'Inari + Saariselkä (68–69°N)',
-        body: 'Huippu. Urho Kekkosen kp täydellä kyllästyksellä 11.9. Vuoden paras viikko Saariselkä → Kiilopään lenkkiin. Raskasta päiväkävelijäliikennettä viikonloppuna; arkena tyhjät reitit.',
+        body: 'Huippu. Urho Kekkosen kp täydessä väriloistossa 11.9. Vuoden paras viikko Saariselkä → Kiilopää -lenkille. Paljon päiväkävelijöitä viikonloppuna; arkena tyhjät reitit.',
       },
       {
         week: 'Viikko 3 · 16.–22.9.',
@@ -650,7 +651,7 @@ const fi: SectionCopy = {
       {
         week: 'Viikko 4 · 23.–29.9.',
         region: 'Riisitunturi + Oulanka (66°N)',
-        body: 'Viimeinen huipennus. Riisitunturi valokuvauksellinen vielä yhden viikon ennen lehtien tippumista. Karhunkierros huipulla, vielä lämpimiä iltapäiviä, aamupakkasta, tyhjiä tupia arkena.',
+        body: 'Viimeinen huipennus. Riisitunturi valokuvauksellinen vielä yhden viikon ennen lehtien putoamista. Karhunkierros huipulla, vielä lämpimiä iltapäiviä, aamupakkasta, tyhjiä tupia arkena.',
       },
       {
         week: 'Viikko 5 · 30.9.+',
@@ -671,9 +672,9 @@ const fi: SectionCopy = {
       'Päiväkävelyliikenne huipussaan lauantaina. Kävele arkena. Aja viikonloppuna.',
     ],
     photoNoteTitle: 'Huomio valokuvauksen valosta',
-    photoNoteBody: 'Syyskuussa aurinko pysyy matalalla tunteja. "Ruskakuva"-ikkuna jonka useimmat kuvittelevat, kylläiset punaiset ja kullat, pehmeä suunnattu valo, kestää noin 14:00–17:30 päivittäin. Klo 18:30 olet jo raskaassa varjossa. Suunnittele vaelluksen kääntymispiste sen mukaan.',
+    photoNoteBody: 'Syyskuussa aurinko pysyy matalalla tunteja. Se "ruskakuvien" ikkuna jonka useimmat kuvittelevat (kylläiset punaiset ja kullat, pehmeä suunnattu valo) kestää noin 14:00–17:30 päivittäin. Klo 18:30 olet jo syvässä varjossa. Suunnittele vaelluksen kääntymispiste sen mukaan.',
     matchH3: 'Sovita vuodenaika reissuun',
-    matchLead: 'Revontulijahti kuuluu kaamokseen. Karhukatselu kesään. Hetta–Pallas ruskan huipulla on parhaat valokuvat jotka koskaan otat. Valitse vuodenaika, sitten reissu, ei toisin päin.',
+    matchLead: 'Revontulijahti kuuluu kaamokseen. Karhukatselu kesään. Hetta–Pallakselta ruskan huipulla saat elämäsi parhaat valokuvat. Valitse vuodenaika, sitten reissu, ei toisin päin.',
     seasonalBaseCta: 'Etsi kauden tukikohta',
     seasonMatchedCta: 'Kauden elämykset',
     faq: {
@@ -682,11 +683,11 @@ const fi: SectionCopy = {
       items: [
         {
           q: 'Milloin on kaamos Lapissa?',
-          a: 'Kaamos, polaariyö, ajoittuu suunnilleen marraskuun lopusta tammikuun puoliväliin. Mitä pohjoisemmas mennään, sitä pidempään se kestää: Utsjoella, Suomen pohjoisimmassa kolkassa, aurinko pysyy horisontin alla noin 51 vuorokautta. Se ei silti ole pilkkopimeää, lumi heijastaa pitkää sinivioletit hämärää keskellä päivää, ja kaamos on revontulikauden aktiivisinta aikaa.',
+          a: 'Kaamos, polaariyö, ajoittuu suunnilleen marraskuun lopusta tammikuun puoliväliin. Mitä pohjoisemmas mennään, sitä pidempään se kestää: Utsjoella, Suomen pohjoisimmassa kolkassa, aurinko pysyy horisontin alla noin 51 vuorokautta. Se ei silti ole pilkkopimeää: lumi heijastaa pitkää siniviolettia hämärää keskellä päivää, ja kaamos on revontulikauden aktiivisinta aikaa.',
         },
         {
           q: 'Milloin yötön yö on Lapissa?',
-          a: 'Yötön yö kulkee suunnilleen kesäkuun alusta heinäkuun alkuun suuressa osassa Lappia, ja sitä pidempään mitä pohjoisemmas mennään, pohjoisimmilla tuntureilla aurinko ei laske kunnolla yli 70 vuorokauteen. Napapiirin pohjoispuolella voi vaeltaa, kalastaa tai meloa keskiyöllä täydessä päivänvalossa.',
+          a: 'Yötön yö kestää suunnilleen kesäkuun alusta heinäkuun alkuun suuressa osassa Lappia, ja sitä pidempään mitä pohjoisemmas mennään: pohjoisimmilla tuntureilla aurinko ei laske kunnolla yli 70 vuorokauteen. Napapiirin pohjoispuolella voi vaeltaa, kalastaa tai meloa keskiyöllä täydessä päivänvalossa.',
         },
         {
           q: 'Milloin ruska on Lapissa?',
@@ -712,7 +713,7 @@ const fi: SectionCopy = {
   },
   hiking: {
     metaTitle: 'Lapin vaellusreitit: 5 km–82 km | LaplandNature',
-    metaDescription: 'Kuusi vaellusreittiä Suomen Lapissa ja lähialueilla, Hetta–Pallas (55 km), Karhunkierros (82 km), Halti (55 km) ja kolme lyhyempää reittiä. Etäisyydet, kestot ja porttikylät.',
+    metaDescription: 'Kuusi vaellusreittiä Suomen Lapissa ja lähialueilla: Hetta–Pallas (55 km), Karhunkierros (82 km), Halti (55 km) ja kolme lyhyempää. Etäisyydet ja porttikylät.',
     hero: {
       alt: 'Vaellusreitti mutkittelee ruskan värittämällä tunturilla Suomen Lapissa',
       eyebrow: 'Lapin retket',
@@ -722,18 +723,18 @@ const fi: SectionCopy = {
     },
     karhuKicker: 'Muistivihko · ruska 2024',
     karhuH2: 'Karhunkierros 4 päivässä, mitä pakkasimme, mitä jätimme, mitä opimme',
-    karhuLead: 'Käveltiin koko 82 km Karhunkierros etelästä pohjoiseen neljässä päivässä syyskuun lopulla, ruskan huipulla. Alla mitä todella tapahtui, etäisyydet, tupavalinnat, repun paino ja päätökset joita tekisimme toisin. Käytä tätä suunnittelupohjana, ei evankeliumina, sää ja kuntosi muuttavat kaiken.',
+    karhuLead: 'Käveltiin koko 82 km Karhunkierros etelästä pohjoiseen neljässä päivässä syyskuun lopulla, ruskan huipulla. Alla mitä todella tapahtui, etäisyydet, tupavalinnat, repun paino ja päätökset joita tekisimme toisin. Käytä tätä suunnittelupohjana, ei kiveen hakattuna ohjeena: sää ja kuntosi muuttavat kaiken.',
     days: [
       {
         day: 'Päivä 1 · 22 km',
         title: 'Hautajärvi → Aventojoki',
-        body: 'Helpoin päivä paperilla, raaka käytännössä, 22 km on pitkä kun reput vielä painavat. Aventojoen tuvassa oli neljä vapaata petiä klo 17, täynnä klo 19. Kannattaa puskea lounaan ohi varatakseen paikan.',
+        body: 'Helpoin päivä paperilla, rankka käytännössä: 22 km on pitkä matka kun reput vielä painavat. Aventojoen tuvassa oli neljä vapaata petiä klo 17, täynnä klo 19. Kannattaa puskea lounaan ohi, jotta saa petipaikan.',
         note: 'Repun lähtöpaino: 14,2 kg kuiva · 16,0 kg veden kanssa',
       },
       {
         day: 'Päivä 2 · 18 km',
         title: 'Aventojoki → Jussinkämppä',
-        body: 'Tunnusmerkkipäivä. Kitkajoen koskien yli riippusiltoja; Oulangan kanjonin näköalapaikka 8 km:n jälkeen on kuva jonka jokainen suomalainen vaeltaja omistaa. Pysähdy. Klo 14 valo syyskuun lopulla on toistumaton.',
+        body: 'Reitin komein päivä. Riippusillat Kitkajoen koskien yli; Oulangan kanjonin näköalapaikka 8 km:n jälkeen on kuva joka jokaisella suomalaisella vaeltajalla on. Pysähdy. Klo 14 valo syyskuun lopulla on toistumaton.',
         note: 'Kohokohta: Jyrävän putous · noin 25 m, pitkospuilta',
       },
       {
@@ -745,7 +746,7 @@ const fi: SectionCopy = {
       {
         day: 'Päivä 4 · 21 km',
         title: 'Taivalköngäs → Ruka',
-        body: 'Helpompi maasto, nilkat jo arat. Viimeiset 6 km vetävät, lähde aikaisin. Ruka-suihku klo 14:30 tuntui uskonnolliselta kokemukselta. Älä varaa eteläänpäin lähtevää bussia samaksi illaksi; haluat hotelliyön ennen siirtymistä.',
+        body: 'Helpompi maasto, nilkat jo arat. Viimeiset 6 km tuntuvat pitkiltä, lähde aikaisin. Ruka-suihku klo 14:30 tuntui uskonnolliselta kokemukselta. Älä varaa eteläänpäin lähtevää bussia samaksi illaksi; haluat hotelliyön ennen siirtymistä.',
         note: 'Kokonaisaika: 82 km · 4 päivää · 12 h netto vaellusta',
       },
     ],
@@ -754,16 +755,16 @@ const fi: SectionCopy = {
       'Lähde päivää aiemmin ja jaa päivä 1, jätä yksi Pieni Karhunkierros -lenkin osa pois jos reppu on raskas.',
       'Varaa Oulangan luontokeskuksen yöpyminen varalle jos joku avoin tupa täyttyy. Olimme onnekkaita; jono on todellinen ruskan huipulla.',
       'Pakkaa yksi pari kuivia sukkia lisää. Pitkospuut muuttuvat jääliukkaiksi −2 °C:ssa.',
-      'Jätä keventävä retkikeitin pois, jokaisessa autiotuvassa oli puuhella ja kuivat halot. Säästi 400 g seuraavaan kävelyyn.',
+      'Jätä retkikeittimen polttoaine pois: jokaisessa autiotuvassa oli puuhella ja kuivat halot. Se säästi 400 g seuraavaan kävelyyn.',
     ],
     rukaPostCta: 'Yöpyminen Rukalla reitin jälkeen',
     oulankaGuidedCta: 'Opastetut Oulangan päiväretket',
     listKicker: 'Koko reittilista',
     listH2: 'Kuusi reittiä joiden ympärille suunnitella reissu',
-    listLead: '5 km Pyhäkurun pitkospuusta 82 km Karhunkierrokseen. Jokaiseen liittyy porttikylä jonka lähellä haluat yöpyä.',
+    listLead: '5 km:n Pyhäkurun pitkospuureitistä 82 km:n Karhunkierrokseen. Jokaiseen liittyy porttikylä jonka lähellä haluat yöpyä.',
     trails: [
       {
-        name: 'Hetta–Pallas -reitti',
+        name: 'Hetta–Pallas-reitti',
         description: 'Suomen suosituin pitkä vaellusreitti, kulkee Hetan ja Pallaksen välistä tunturijonoa. Avointa tunturimaastoa horisonttinäkymin, hyvin huolletut autiotuvat.',
         distance: '55 km',
         duration: '3–4 päivää',
@@ -785,21 +786,21 @@ const fi: SectionCopy = {
       },
       {
         name: 'Haltin huippureitti',
-        description: 'Vaellus Suomen korkeimmalle pisteelle 1 324 metriin. Syrjäinen erämaa Kilpisjärven takamaalla. Viimeinen huippuosa on merkitsemätön ja vaatii navigointitaitoa huonossa näkyvyydessä.',
+        description: 'Vaellus Suomen korkeimmalle pisteelle 1 324 metriin. Syrjäistä erämaata Kilpisjärven takamailla. Viimeinen huippuosuus on merkitsemätön ja vaatii suunnistustaitoa huonossa näkyvyydessä.',
         distance: '55 km (edestakaisin)',
         duration: '3–5 päivää',
         difficulty: 'Erittäin vaativa',
       },
       {
         name: 'Pyhäkurun reitti',
-        description: 'Lyhyt mutta vaikuttava reitti syvän rotkon läpi ikiaikaisten kalliotenseinien välistä. Saamelaisten pyhä paikka, esteetön pitkospuuosa sopii perheille ja eritahtisille ryhmille.',
+        description: 'Lyhyt mutta vaikuttava reitti syvän rotkon läpi ikiaikaisten kallioseinien välistä. Saamelaisten pyhä paikka, esteetön pitkospuuosa sopii perheille ja eritahtisille ryhmille.',
         distance: '5 km',
         duration: '2–3 h',
         difficulty: 'Helppo',
       },
       {
         name: 'Lemmenjoen reitti',
-        description: 'Seuraa legendaarista kullankaivuujokea yhden Euroopan suurimmista erämaa-alueista läpi. Osalle reittiä on venekuljetus. Rikas kultaryntäyshistoria näkyvissä merkityillä kaivuupaikoilla.',
+        description: 'Seuraa legendaarista kullankaivuujokea läpi yhden Euroopan suurimmista erämaa-alueista. Osalle reittiä on venekuljetus. Rikas kultaryntäyshistoria näkyvissä merkityillä kaivuupaikoilla.',
         distance: '20 km',
         duration: '1–2 päivää',
         difficulty: 'Keskivaativa',
@@ -819,7 +820,7 @@ const fi: SectionCopy = {
         },
         {
           q: 'Mikä on Lapin suosituin vaellusreitti?',
-          a: '55 km:n Hetta–Pallas-reitti Pallas-Yllästunturin kansallispuistossa on Suomen suosituin pitkä reitti. Se kulkee lähes koko matkan puurajan yläpuolella avoimin tunturinäkymin, ja tuvat ovat sopivin välimatkoin mukaviin kolmen tai neljän päivän etappeihin Hetan ja Pallaksen välillä.',
+          a: '55 km:n Hetta–Pallas-reitti Pallas-Yllästunturin kansallispuistossa on Suomen suosituin pitkä reitti. Se kulkee lähes koko matkan puurajan yläpuolella avoimin tunturinäkymin, ja tuvat ovat sopivin välimatkoin, joten reitin voi jakaa mukaviin kolmen tai neljän päivän etappeihin Hetan ja Pallaksen välillä.',
         },
         {
           q: 'Pitääkö autiotuvat varata etukäteen?',
@@ -827,11 +828,11 @@ const fi: SectionCopy = {
         },
         {
           q: 'Kuinka korkea on Suomen korkein kohta, ja voiko sinne vaeltaa?',
-          a: 'Suomen korkein kohta on Haltin rinteellä 1 324 metrissä, syvällä Kilpisjärven takamaastossa lähellä Norjan rajaa. Se on vakava 55 km:n edestakainen reitti kolmesta viiteen päivään; loppunousu on merkitsemätön ja vaatii todellista suunnistustaitoa huonossa näkyvyydessä.',
+          a: 'Suomen korkein kohta on Haltin rinteellä 1 324 metrissä, syvällä Kilpisjärven takamaastossa lähellä Norjan rajaa. Se on vaativa 55 km:n edestakainen reitti, johon menee kolmesta viiteen päivää; loppunousu on merkitsemätön ja vaatii todellista suunnistustaitoa huonossa näkyvyydessä.',
         },
         {
           q: 'Milloin Lapissa kannattaa vaeltaa?',
-          a: 'Kesäkuun puolivälistä syyskuun loppuun on pääsesonki. Heinäkuu tarjoaa lämpimän sään ja yöttömän yön; alku- ja keskisyyskuu tuo ruskan värit ja paljon vähemmän hyttysiä, joskin yöt painuvat pakkaselle ja pitkospuut muuttuvat liukkaiksi aamuyöstä. Kesätuvat ja lossit kulkevat yleensä kesäkuun alusta syyskuun loppuun.',
+          a: 'Kesäkuun puolivälistä syyskuun loppuun on pääsesonki. Heinäkuu tarjoaa lämpimän sään ja yöttömän yön; alku- ja keskisyyskuu tuo ruskan värit ja paljon vähemmän hyttysiä, joskin yöt painuvat pakkaselle ja pitkospuut muuttuvat liukkaiksi aamuyöstä. Kesätuvat ovat auki ja lossit kulkevat yleensä kesäkuun alusta syyskuun loppuun.',
         },
       ],
     },
@@ -844,7 +845,7 @@ const fi: SectionCopy = {
   },
   conservation: {
     metaTitle: 'Luonnonsuojelu Lapissa | LaplandNature',
-    metaDescription: 'Metsähallitus hallinnoi 85 % Lapin tuntureista ja kaikki seitsemän kansallispuistoa. Lisäksi SLL, WWF Suomi, Saamelaiskäräjät ja jokamiehenoikeudet.',
+    metaDescription: 'Metsähallitus hallinnoi 85 % Lapin tuntureista ja kaikkia seitsemää kansallispuistoa. Lisäksi SLL, WWF Suomi, Saamelaiskäräjät ja jokamiehenoikeudet.',
     hero: {
       alt: 'Suojeltua vanhaa metsää ja tuntureita Suomen Lapin erämaassa',
       eyebrow: 'Luonto ja suojelu',
@@ -860,25 +861,25 @@ const fi: SectionCopy = {
         role: 'Kansallispuistojen hallinta',
         name: 'Metsähallitus (Luontopalvelut)',
         summary: 'Hallinnoi 85 % Lapin tuntureista ja kaikkia seitsemää kansallispuistoa napapiirin pohjoispuolella.',
-        body: 'Suomen valtio-omisteinen yhtiö hallinnoi kaikkia kansallispuistoja, vaellusreittejä, autiotupia ja suojelualueita Lapissa. Ylläpitää reitti-infrastruktuuria, luontokeskuksia ja ilmaisia luonto-ohjelmia.',
+        body: 'Suomen valtion omistama yhtiö hallinnoi kaikkia kansallispuistoja, vaellusreittejä, autiotupia ja suojelualueita Lapissa. Se ylläpitää reitti-infrastruktuuria, luontokeskuksia ja ilmaisia luonto-ohjelmia.',
       },
       {
         role: 'Vaikuttaminen & suojelu',
         name: 'Suomen luonnonsuojeluliitto (SLL)',
         summary: 'Suomen suurin luonnonsuojelujärjestö, perustettu 1938.',
-        body: '1938 perustettu SLL suojelee Suomen luontoa vaikuttamisen, kampanjoiden ja ympäristökasvatuksen kautta. Keskittyy metsiensuojeluun, ilmastotyöhön ja luonnon monimuotoisuuteen.',
+        body: 'Vuonna 1938 perustettu SLL suojelee Suomen luontoa vaikuttamisen, kampanjoiden ja ympäristökasvatuksen kautta. Keskittyy metsiensuojeluun, ilmastotyöhön ja luonnon monimuotoisuuteen.',
       },
       {
         role: 'Eläimistön palautus',
         name: 'WWF Suomi',
         summary: 'Saimaannorpan, naalin ja metsäpeuran palautusohjelmia.',
-        body: 'WWF Suomi pyörittää lajien palautusohjelmia kuten Skandinavian naaliprojekti joka on nostanut Fennoskandian populaatiota lähes sukupuutosta 1990-luvulta lähtien.',
+        body: 'WWF Suomi pyörittää lajien palautusohjelmia, kuten Skandinavian naaliprojektia, joka on nostanut Fennoskandian kantaa lähes sukupuuton partaalta 1990-luvulta lähtien.',
       },
       {
         role: 'Alkuperäiskansan hallinto',
         name: 'Saamelaiskäräjät',
         summary: 'Itsehallinto saamelaisten kulttuuri- ja ympäristöasioissa pohjoisimmassa Lapissa.',
-        body: 'Saamelaisten paliskunnat hoitavat perinteistä laidunnusta saamelaisalueella, tasapainottaen ekologian alueen alkuperäiskansan kulttuuris-taloudellisen selkärangan kanssa.',
+        body: 'Saamelaisten paliskunnat hoitavat perinteistä laidunnusta saamelaisalueella ja tasapainottelevat ekologian ja alueen alkuperäiskansan kulttuurin ja talouden välillä.',
       },
     ],
     visitSite: 'Virallinen sivusto',
@@ -895,16 +896,16 @@ const fi: SectionCopy = {
       },
       {
         title: 'Pakkaa kaikki mukaan',
-        body: 'Autiotuvat toimivat luottamuksella: jätä tupa puhtaampaan kuin löysit, korvaa polttopuut, kirjoita vieraskirjaan. Roskat erämaassa kasautuvat, ei keräystä.',
+        body: 'Autiotuvat toimivat luottamuksella: jätä tupa puhtaampaan kuin löysit, korvaa polttopuut, kirjoita vieraskirjaan. Roskat kasautuvat erämaassa; keräystä ei ole.',
       },
       {
         title: 'Porot kulkevat etusijalla',
-        body: 'Noin 200 000 puolikesyä poroa kulkee Lapissa, ne ovat omistettuja, eivät villejä. Teillä hidasta; tuntureilla anna tilaa. Aitojen (poroaita) ympärillä sulje portit perässäsi.',
+        body: 'Noin 200 000 puolikesyä poroa kulkee Lapissa; ne eivät ole villejä, vaan jokaisella on omistaja. Hidasta teillä; anna tuntureilla tilaa. Aitojen (poroaita) luona sulje portit perässäsi.',
       },
     ],
     finalKicker: 'Vieraile vastuullisesti',
     finalH2: 'Matkusta erämaan puolelle',
-    finalLead: 'Jokainen suosittelemamme varaus menee toimijoille jotka edistävät paikallista suojelua, saamelaisten omistamia porotiloja, Metsähallituksen luvalla toimivia autiotupia ja pieniä perheyrityksiä jotka pitävät karhut, sudet ja naalit enemmän elävinä kuin kuolleina. Suurin asia jonka kävijä voi tehdä on nukkua siellä missä paikallinen talous sitä tarvitsee.',
+    finalLead: 'Jokainen suosittelemamme varaus menee toimijoille jotka edistävät paikallista suojelua: saamelaisten omistamille porotiloille, Metsähallituksen luvalla toimiville tuville ja pienille perheyrityksille, jotka pitävät karhuja, susia ja naaleja arvokkaampina elävinä kuin kuolleina. Suurin asia jonka kävijä voi tehdä on nukkua siellä missä paikallinen talous sitä tarvitsee.',
     samiVillageCta: 'Yövy saamelaiskylässä',
     localTourCta: 'Paikallisten luontoelämykset',
     crossLinks: {
@@ -919,7 +920,7 @@ const fi: SectionCopy = {
       items: [
         {
           q: 'Mikä on jokamiehenoikeus Suomessa?',
-          a: 'Jokamiehenoikeus antaa kenen tahansa kävellä, hiihtää, uida, poimia marjoja ja sieniä sekä leiriytyä hetkellisesti suurimmalla osalla maata, myös yksityismetsässä, ilman lupaa tai maksua. Vastapainona on vastuu: älä jätä jälkiä, pysy poissa pihoilta ja viljelyksiltä, älä häiritse eläimiä ja tee tulet vain merkityille paikoille.',
+          a: 'Jokamiehenoikeus antaa kenen tahansa kävellä, hiihtää, uida, poimia marjoja ja sieniä sekä leiriytyä hetkellisesti suurimmalla osalla maata, myös yksityismetsässä, ilman lupaa tai maksua. Vastapainona on vastuu: älä jätä jälkiä, pysy poissa pihoilta ja viljelyksiltä, älä häiritse eläimiä ja tee tulet vain merkityillä tulentekopaikoilla.',
         },
         {
           q: 'Saako Lapissa tehdä nuotion?',
@@ -931,18 +932,18 @@ const fi: SectionCopy = {
         },
         {
           q: 'Onko poroilla etuajo-oikeus Lapin teillä?',
-          a: 'Käytännössä kyllä, hiljennä reilusti. Lapin noin 200 000 poroa ovat omistettuja, eivät villejä, ja ne harhautuvat vapaasti teille etenkin hämärissä. Jos näet yhden, odota lähistöllä lisää. Poroaitojen kohdalla sulje aina avaamasi portti perässäsi.',
+          a: 'Käytännössä kyllä, hiljennä reilusti. Lapin noin 200 000 poroa eivät ole villejä, vaan jokaisella on omistaja, ja vapaasti laiduntaessaan ne päätyvät teille etenkin hämärässä. Jos näet yhden, odota lähistöllä lisää. Poroaitojen kohdalla sulje aina avaamasi portti perässäsi.',
         },
         {
           q: 'Miten matkustan Lapissa vastuullisesti?',
-          a: 'Nuku siellä missä paikallinen talous sitä tarvitsee, saamelaisten omistamilla porotiloilla, perheiden majataloissa ja luvanvaraisissa autiotuvissa ja valitse toimijoita jotka pitävät karhut, sudet ja naalit arvokkaampina elävinä kuin kuolleina. Kanna kaikki roskasi pois, pysy pitkospuilla herkässä tunturimaastossa ja noudata kausittaisia tuli- ja eläinsääntöjä.',
+          a: 'Nuku siellä missä paikallinen talous sitä tarvitsee: saamelaisten omistamilla porotiloilla, perheiden majataloissa ja luvanvaraisissa autiotuvissa, ja valitse toimijoita jotka pitävät karhuja, susia ja naaleja arvokkaampina elävinä kuin kuolleina. Kanna kaikki roskasi pois, pysy pitkospuilla herkässä tunturimaastossa ja noudata kausittaisia tuli- ja eläinsääntöjä.',
         },
       ],
     },
   },
   freshwater: {
-    metaTitle: 'Lapin vesistöt: järvet, joet, aavat ja kalat',
-    metaDescription: 'Suomessa on noin 188 000 järveä ja lampea (SYKE), ja Lapin vedet ovat maan puhtaimpia. Säännöstelemätön Tornion–Muonionjoki, aapasuot ja metsät pitävät veden kylmänä. Siksi puhdas vesi on alueen tärkein voimavara.',
+    metaTitle: 'Lapin vesistöt: järvet, joet, aavat ja kalat | LaplandNature',
+    metaDescription: 'Suomessa on noin 188 000 järveä (SYKE), ja Lapin vedet ovat maan puhtaimpia: säännöstelemätön Tornion–Muonionjoki, aapasuot ja vettä viilentävät metsät.',
     hero: {
       eyebrow: 'Lapin vedet',
       title: 'Lapin vesistöt',
@@ -958,7 +959,7 @@ const fi: SectionCopy = {
     lakes: {
       title: 'Järvet',
       body1: 'Suomea kutsutaan usein tuhansien järvien maaksi, ja todellinen luku on paljon suurempi: noin 188 000 vähintään 0,05 hehtaarin järveä ja lampea SYKEn Järvi-meriwiki-rekisterin mukaan. Lapin järvet ovat maan kirkkaimpia: niitä ruokkivat sulamisvedet ja varjoisat valuma-alueet, eivät peltojen valumavedet.',
-      body2: 'Inarijärvi, saamelaisten kotiseudun sydämessä, on yksi Suomen suurimmista järvistä ja ruokkii Paatsjoen vesistöä joka laskee pohjoiseen kohti Jäämerta. Sen kylmä, happirikas vesi kantaa nieriää, taimenta ja siikaa, lajeja jotka viihtyvät vain siellä missä vesi pysyy kylmänä ja puhtaana.',
+      body2: 'Inarijärvi, saamelaisten kotiseudun sydämessä, on yksi Suomen suurimmista järvistä ja ruokkii Paatsjoen vesistöä joka laskee pohjoiseen kohti Jäämerta. Sen kylmä, happirikas vesi ylläpitää nieriää, taimenta ja siikaa: lajeja jotka viihtyvät vain siellä missä vesi pysyy kylmänä ja puhtaana.',
     },
     rivers: {
       title: 'Vapaana virtaavat joet',
@@ -986,7 +987,7 @@ const fi: SectionCopy = {
         },
         {
           title: 'Tornionjoki: toipuva villijoki',
-          body: 'Vapaana virtaavalla Tornionjoella tarina kulkee toisin päin: huolelliset, koordinoidut rajoitukset ovat auttaneet villilohta palaamaan. Vuoden 2026 kausi on tiukasti säädelty, lyhyet päivämäärät, matalat saaliskiintiöt, viikoittaiset rauhoitukset ja alamitat, kaikki asetettu pitämään toipuminen käynnissä. Tarkista voimassa olevat ehdot eräluvat.fi-alueen sivulta ennen kalastusta.',
+          body: 'Vapaana virtaavalla Tornionjoella tarina kulkee toisin päin: huolelliset, koordinoidut rajoitukset ovat auttaneet villilohta palaamaan. Vuoden 2026 kausi on tiukasti säädelty: lyhyt pyyntiaika, matalat saaliskiintiöt, viikoittaiset rauhoitukset ja alamitat, kaikki asetettu pitämään toipuminen käynnissä. Tarkista voimassa olevat ehdot eräluvat.fi-alueen sivulta ennen kalastusta.',
         },
         {
           title: 'Kyttyrälohi: kutsumaton tulokas',
@@ -1031,7 +1032,7 @@ const fi: SectionCopy = {
         },
         {
           q: 'Tarvitsenko luvan kalastaakseni Lapissa?',
-          a: 'Useimpaan viehe- ja pyydyskalastukseen kyllä: 18–69-vuotiaat maksavat valtion kalastonhoitomaksun (47 € vuosi, 16 € viikko, 6 € vuorokausi, eraluvat.fi kautta), ja monet vedet vaativat lisäksi erillisen alueluvan. Yksinkertainen onginta ja pilkintä jokamiehenoikeudella on ilmaista, ja alle 18-vuotiaat sekä 70 vuotta täyttäneet on vapautettu valtion maksusta.',
+          a: 'Viehe- ja pyydyskalastukseen useimmiten kyllä: 18–69-vuotiaat maksavat valtion kalastonhoitomaksun (47 € vuodessa, 16 € viikossa, 6 € vuorokaudessa, eraluvat.fi:n kautta), ja monet vedet vaativat lisäksi erillisen alueluvan. Yksinkertainen onginta ja pilkintä jokamiehenoikeudella on ilmaista, ja alle 18-vuotiaat sekä 70 vuotta täyttäneet on vapautettu valtion maksusta.',
         },
       ],
     },
@@ -1045,19 +1046,19 @@ const fi: SectionCopy = {
     sections: [
       {
         h2: 'Kuka tämän sivuston kirjoittaa',
-        body: 'LaplandNature on osa LaplandVibes-ekosysteemiä, riippumattomasti ylläpidettynä Lapeso Oy:n toimesta Suomen Lapista. Sisältö on kirjoitettu Suomesta ympäri vuoden, lähteet näkyvillä jokaisessa väitteessä, ei tuotettu pöydältä toisesta maasta.',
+        body: 'LaplandNature on osa LaplandVibes-ekosysteemiä, ja sitä ylläpitää itsenäisesti Lapeso Oy Suomen Lapissa. Sisältö kirjoitetaan ja tarkistetaan Suomessa ympäri vuoden, lähteet näkyvillä jokaisen väitteen kohdalla, eikä sitä tuoteta etäältä toisesta maasta.',
       },
       {
         h2: 'Miten suositukset valitaan',
-        body: 'Porttikylät, reitin lähdöt ja revontulipaikat suositellaan pimeän taivaan datan, autiotupaverkoston, talvitiestöjen ja kenttäkäyntien perusteella. Maksullista mainintaa ei oteta. Jos alue tai operaattori maksaa suoraan, sivulla mainitaan.',
+        body: 'Porttikylät, reittien lähtöpaikat ja revontulikylät valitaan pimeän taivaan datan, autiotupaverkoston, talviteiden kunnon ja kenttäkäyntien perusteella. Maksettua mainintaa emme ota vastaan. Jos alue tai operaattori maksaa suoraan, se kerrotaan sivulla.',
       },
       {
         h2: 'Affiliate-tulot',
-        body: 'Osa sivuston linkeistä kulkee go.laplandvibes.com -uudelleenohjauksen kautta ja tuottaa pienen komission kun varaat, sinulle ei lisäkulua. Affiliate-tulot kattavat ylläpidon ja kirjoitusajan. Ne eivät päätä mitä kohteita tai operaattoreita esitellään, eivätkä muuta suosituksia sivulla.',
+        body: 'Osa sivuston linkeistä kulkee go.laplandvibes.com -uudelleenohjauksen kautta ja tuottaa pienen komission, kun varaat. Sinulle ei tule lisäkulua. Affiliate-tulot kattavat ylläpidon ja kirjoitusajan. Ne eivät päätä mitä kohteita tai operaattoreita esitellään, eivätkä muuta suosituksia sivulla.',
       },
       {
         h2: 'Korjaukset',
-        body: 'Jos löydät asiavirheen, etäisyys, aukioloajat, eläimen suojelustatus, mikä tahansa, kirjoita info@laplandvibes.com. Korjaukset tehdään nopeasti ja merkitään sivulle.',
+        body: 'Jos löydät asiavirheen, olipa kyse etäisyydestä, aukioloajoista tai lajin suojelustatuksesta, kirjoita osoitteeseen info@laplandvibes.com. Korjaukset tehdään nopeasti ja merkitään sivulle.',
       },
     ],
     correctionsAfter: '',
@@ -1072,7 +1073,7 @@ const fi: SectionCopy = {
   },
   privacy: {
     metaTitle: 'Tietosuojakäytäntö, LaplandNature',
-    metaDescription: 'Miten Lapeso Oy (LaplandNature) käsittelee henkilötietoja: uutiskirjeen tilaukset, analytiikka ja affiliate-evästeet. GDPR / ePrivacy mukaista.',
+    metaDescription: 'Miten Lapeso Oy (LaplandNature) käsittelee henkilötietoja: uutiskirjeen tilaukset, analytiikka ja affiliate-evästeet. GDPR:n ja ePrivacyn mukaisesti.',
   },
   terms: {
     metaTitle: 'Käyttöehdot, LaplandNature',

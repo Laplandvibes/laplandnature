@@ -122,7 +122,7 @@ const COPY = {
   },
   "ledeProduct": {
     "en": "Hand-picked nature tours, bookable online through GetYourGuide.",
-    "fi": "Poimitut luontoretket — varattavissa verkossa GetYourGuiden kautta.",
+    "fi": "Poimitut luontoretket, varattavissa verkossa GetYourGuiden kautta.",
     "de": "Ausgewählte Naturtouren — online über GetYourGuide buchbar.",
     "ja": "厳選したネイチャーツアー。GetYourGuide でオンライン予約できます。",
     "es": "Excursiones de naturaleza seleccionadas, reservables en línea con GetYourGuide.",
@@ -150,7 +150,7 @@ const COPY = {
   },
   "ledeCategory": {
     "en": "A partner-maintained list, always current — we do not name a single tour here.",
-    "fi": "Kumppanin ylläpitämä lista, aina ajantasainen — emme nimeä yksittäistä retkeä.",
+    "fi": "Kumppanin ylläpitämä lista, aina ajantasainen; emme nimeä yksittäistä retkeä.",
     "de": "Eine vom Partner gepflegte Liste, immer aktuell.",
     "ja": "パートナーが管理する最新のリストです。",
     "es": "Una lista mantenida por el socio, siempre actualizada.",
