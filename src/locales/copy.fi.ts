@@ -73,7 +73,7 @@ const fi: SectionCopy = {
     legend: { park: 'Kansallispuisto', aurora: 'Revontulipaikka', trail: 'Reitin lähtöpaikka', wildlife: 'Eläimet' },
     pins: [
       { name: 'Urho Kekkosen kp', note: 'Suomen 2. suurin puisto · portti: Saariselkä' },
-      { name: 'Pallas-Yllästunturi kp', note: '55 km Hetta–Pallas-reitti · portti: Muonio' },
+      { name: 'Pallas-Yllästunturi kp', note: '55 km:n Hetta–Pallas-reitti · portti: Muonio' },
       { name: 'Lemmenjoen kp', note: 'Euroopan suurin tiettömän alueen erämaa · kullankaivuu · Inari' },
       { name: 'Riisitunturin kp', note: 'Tykkylumi · portti: Posio' },
       { name: 'Pyhä-Luoston kp', note: '400-vuotiaat kuuset · ametistikaivos' },
@@ -82,7 +82,7 @@ const fi: SectionCopy = {
       { name: 'Kilpisjärvi', note: 'Kolmen valtakunnan rajapyykki · korkeat tunturit' },
       { name: 'Enontekiö', note: 'Euroopan pimeimpiä taivaita (Bortle 1)' },
       { name: 'Hetta', note: '55 km:n Hetta–Pallas-reitin pohjoispää' },
-      { name: 'Ruka / Oulanka', note: '82 km Karhunkierros · riippusillat + kanjonit · Kuusamo, aivan Lapin rajan eteläpuolella' },
+      { name: 'Ruka / Oulanka', note: '82 km:n Karhunkierros · riippusillat + kanjonit · Kuusamo, aivan Lapin rajan eteläpuolella' },
       { name: 'Kilpisjärvi (Halti)', note: '55 km edestakaisin Haltille, Suomen korkein piste (1 324 m)' },
       { name: 'Pyhä', note: 'Pyhäkurun rotko · esteetön pitkospuu · 5 km' },
       { name: 'Kuusamon karhukatselut', note: 'Karhukojuilta · yksi yö n. 90 %, kaksi yötä 99 % · touko–syyskuu · heti Lapin eteläpuolella' },
@@ -723,7 +723,7 @@ const fi: SectionCopy = {
     },
     karhuKicker: 'Muistivihko · ruska 2024',
     karhuH2: 'Karhunkierros 4 päivässä, mitä pakkasimme, mitä jätimme, mitä opimme',
-    karhuLead: 'Käveltiin koko 82 km Karhunkierros etelästä pohjoiseen neljässä päivässä syyskuun lopulla, ruskan huipulla. Alla mitä todella tapahtui, etäisyydet, tupavalinnat, repun paino ja päätökset joita tekisimme toisin. Käytä tätä suunnittelupohjana, ei kiveen hakattuna ohjeena: sää ja kuntosi muuttavat kaiken.',
+    karhuLead: 'Käveltiin koko 82 km:n Karhunkierros etelästä pohjoiseen neljässä päivässä syyskuun lopulla, ruskan huipulla. Alla mitä todella tapahtui, etäisyydet, tupavalinnat, repun paino ja päätökset joita tekisimme toisin. Käytä tätä suunnittelupohjana, ei kiveen hakattuna ohjeena: sää ja kuntosi muuttavat kaiken.',
     days: [
       {
         day: 'Päivä 1 · 22 km',
@@ -987,7 +987,7 @@ const fi: SectionCopy = {
         },
         {
           title: 'Tornionjoki: toipuva villijoki',
-          body: 'Vapaana virtaavalla Tornionjoella tarina kulkee toisin päin: huolelliset, koordinoidut rajoitukset ovat auttaneet villilohta palaamaan. Vuoden 2026 kausi on tiukasti säädelty: lyhyt pyyntiaika, matalat saaliskiintiöt, viikoittaiset rauhoitukset ja alamitat, kaikki asetettu pitämään toipuminen käynnissä. Tarkista voimassa olevat ehdot eräluvat.fi-alueen sivulta ennen kalastusta.',
+          body: 'Vapaana virtaavalla Tornionjoella tarina kulkee toisin päin: huolelliset, koordinoidut rajoitukset ovat auttaneet villilohta palaamaan. Vuoden 2026 kausi on tiukasti säädelty: lyhyt pyyntiaika, matalat saaliskiintiöt, viikoittaiset rauhoitukset ja alamitat, kaikki asetettu pitämään toipuminen käynnissä. Tarkista voimassa olevat ehdot eraluvat.fi-alueen sivulta ennen kalastusta.',
         },
         {
           title: 'Kyttyrälohi: kutsumaton tulokas',
@@ -1036,7 +1036,7 @@ const fi: SectionCopy = {
         },
       ],
     },
-    verifyLine: 'Lähteet: SYKE (Järvi-meriwiki-järvirekisteri), ymparisto.fi (Tornio-Muonio Natura 2000), ym.fi (Ramsar-kosteikot), Metsähallitus, Luke, eräluvat.fi ja Suomen–Norjan Tenon sopimus. Vuosittaiset kalastussäännöt, maksut ja kaudet päätetään uudelleen joka vuosi, varmista voimassa olevat luvut virallisilta sivuilta ennen matkaa.',
+    verifyLine: 'Lähteet: SYKE (Järvi-meriwiki-järvirekisteri), ymparisto.fi (Tornio-Muonio Natura 2000), ym.fi (Ramsar-kosteikot), Metsähallitus, Luke, eraluvat.fi ja Suomen–Norjan Tenon sopimus. Vuosittaiset kalastussäännöt, maksut ja kaudet päätetään uudelleen joka vuosi, varmista voimassa olevat luvut virallisilta sivuilta ennen matkaa.',
   },
   editorial: {
     metaTitle: 'Toimituslinja, LaplandNature',
