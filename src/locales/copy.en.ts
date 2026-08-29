@@ -69,6 +69,7 @@ const en: SectionCopy = {
     lead: '16 places worth coming back to, five national parks, four aurora villages, four trailheads, and three wildlife corridors. Click a pin for the short version.',
     foot: 'Map: OpenStreetMap. Pins are editorial picks, not a Metsähallitus index.',
     openGuide: 'Open guide →',
+    resetView: 'Show all',
     legend: { park: 'National park', aurora: 'Aurora viewing', trail: 'Trailhead', wildlife: 'Wildlife' },
     pins: [
       { name: 'Urho Kekkonen NP', note: "Finland's 2nd largest park · gateway: Saariselkä" },
@@ -84,14 +85,14 @@ const en: SectionCopy = {
       { name: 'Ruka / Oulanka', note: '82 km Karhunkierros · suspension bridges + canyons · Kuusamo, just south of the Lapland border' },
       { name: 'Kilpisjärvi (Halti)', note: "55 km round-trip to Halti, Finland's highest point (1,324 m)" },
       { name: 'Pyhä', note: 'Pyhäkuru gorge · accessible boardwalk · 5 km' },
-      { name: 'Kuusamo bear hides', note: 'Brown-bear hides · 99% sighting rate · May–Sept · just south of Lapland' },
+      { name: 'Kuusamo bear hides', note: 'Brown-bear hides · one night ~90%, two nights 99% · May–Sept · just south of Lapland' },
       { name: 'Nellim wilderness', note: 'Nellim wilderness lodge · wolverine + brown bear range' },
       { name: 'Kaamanen reindeer', note: 'Sámi reindeer round-up · autumn (paliskunta)' },
     ],
   },
   home: {
     metaTitle: 'Lapland Nature 2026: Aurora, Parks & Wildlife Guide',
-    metaDescription: "Finnish Lapland's arctic wilderness, seven national parks, 200+ aurora-viewing nights, the kaamos polar night and hiking trails from 5 km to 82 km. Plan your wilderness trip.",
+    metaDescription: "Finnish Lapland's arctic wilderness, seven national parks, 200+ aurora-viewing nights, the kaamos polar night and hiking trails from 5 km to 82 km.",
     hero: {
       eyebrow: 'Above the Arctic Circle',
       title: 'Untouched arctic',
@@ -107,7 +108,7 @@ const en: SectionCopy = {
       hHighlight: '66°–69° North',
       hSuffix: '. Seven national parks, four-season light, and the longest aurora window in Europe.',
       stats: [
-        { value: '37%', primary: 'of Finland', body: 'sits north of the Arctic Circle' },
+        { value: '30%', primary: 'of Finland', body: 'is the Lapland region, 100,367 km²' },
         { value: '40+', primary: 'protected zones', body: 'national parks, strict reserves, Natura 2000' },
         { value: '70', primary: 'midnight-sun days', body: 'Utsjoki, June through August' },
         { value: '200+', primary: 'aurora nights', body: 'observed annually above 67°N' },
@@ -127,7 +128,7 @@ const en: SectionCopy = {
         {
           tag: 'Wildlife',
           title: 'Wildlife Watching',
-          blurb: 'Track brown bears with a 99% sighting rate from overnight hides, meet semi-wild reindeer herds, and spot wolverines.',
+          blurb: 'Track brown bears from overnight hides ( one night runs about 90%, two nights 99% ) meet semi-wild reindeer herds, and spot wolverines.',
           cta: 'Explore Wildlife',
         },
         {
@@ -177,7 +178,7 @@ const en: SectionCopy = {
   },
   northernLights: {
     metaTitle: 'Northern Lights in Lapland: Where & When to See Them',
-    metaDescription: 'Where to see the northern lights in Finnish Lapland, Inari, Utsjoki, Kilpisjärvi and Enontekiö. Aurora season runs September to March, with darkest skies during the kaamos polar night.',
+    metaDescription: 'Where to see the northern lights in Finnish Lapland: Inari, Utsjoki, Kilpisjärvi, Enontekiö. Season runs September to March, darkest skies during kaamos.',
     hero: {
       eyebrow: 'Pillar guide',
       title: 'Northern Lights',
@@ -295,12 +296,12 @@ const en: SectionCopy = {
   },
   nationalParks: {
     metaTitle: 'Lapland National Parks: 5 Wildernesses to Hike',
-    metaDescription: "Five of Finnish Lapland's national parks: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi and Pyhä-Luosto. Gateway villages, signature features and when to visit.",
+    metaDescription: 'Five Finnish Lapland national parks: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi, Pyhä-Luosto. Gateway villages and when to visit.',
     hero: {
       eyebrow: 'Pillar guide',
       title: 'National Parks',
       subtitle: 'Protected wilderness',
-      description: "We profile five of Lapland's seven national parks — together they protect the bulk of its roadless wilderness, from open-fell traverses to snow-crowned forests and gold-panning canyons. Each has a distinct gateway village to base out of.",
+      description: "We profile five of Lapland's seven national parks, together they protect the bulk of its roadless wilderness, from open-fell traverses to snow-crowned forests and gold-panning canyons. Each has a distinct gateway village to base out of.",
       alt: 'Open fell landscape in a Finnish Lapland national park under a clear sky',
     },
     parks: [
@@ -406,12 +407,12 @@ const en: SectionCopy = {
   },
   wildlife: {
     metaTitle: 'Lapland Wildlife: Reindeer, Bears, Wolverine & Fox',
-    metaDescription: 'Six iconic arctic species you can encounter in Finnish Lapland, from 200,000 semi-domesticated reindeer to the critically endangered arctic fox and the elusive wolverine.',
+    metaDescription: 'Six arctic species you can encounter in Finnish Lapland, from 200,000 semi-domesticated reindeer to the critically endangered arctic fox and the wolverine.',
     hero: {
       eyebrow: 'Pillar guide',
       title: 'Wildlife Watching',
       subtitle: 'Arctic animals',
-      description: 'Track brown bears with a 99% sighting rate from overnight hides, meet semi-wild reindeer herds, and spot elusive wolverines, with verified operators and real data.',
+      description: 'Brown bears from overnight hides: one night runs about 90%, two nights 99%. Semi-wild reindeer herds and elusive wolverines, with verified operators.',
       alt: 'A brown bear in the boreal forest of Finnish Lapland',
     },
     animals: [
@@ -546,7 +547,7 @@ const en: SectionCopy = {
   },
   bearKuusamo: {
     metaTitle: 'Bear Kuusamo: Ethical Bear Watching in Finland',
-    metaDescription: 'Bear Kuusamo runs the oldest and northernmost bear hides in the Ruka–Kuusamo region. Real bear watching in Finland, on the edge of Lapland, from 1 May to 30 September.',
+    metaDescription: 'Bear Kuusamo runs the oldest and northernmost bear hides in the Ruka–Kuusamo region. Real bear watching on the edge of Lapland, 1 May to 30 September.',
     partnership: 'Commercial partnership · Bear Kuusamo',
     hero: {
       eyebrow: 'Commercial partnership · Bear Kuusamo',
@@ -598,7 +599,7 @@ const en: SectionCopy = {
   },
   seasons: {
     metaTitle: "Lapland's Four Seasons: Ruska, Kaamos & Midnight Sun",
-    metaDescription: 'Each season above the Arctic Circle is a different world, ruska autumn colour, kaamos polar night, midnight sun, and the spring snow window. When to come, and what to expect.',
+    metaDescription: 'Each season above the Arctic Circle is a different world: ruska autumn colour, kaamos polar night, midnight sun and the spring snow window. When to come.',
     hero: {
       eyebrow: 'Pillar guide',
       title: 'Four Seasons',
@@ -712,7 +713,7 @@ const en: SectionCopy = {
   },
   hiking: {
     metaTitle: 'Lapland Hiking Trails: 5 km Day Hikes to 82 km Routes',
-    metaDescription: 'Six hiking trails in and around Finnish Lapland, Hetta-Pallas (55 km), Karhunkierros (82 km), Halti summit (55 km), and three shorter routes. Distance, duration, difficulty and trailhead bases.',
+    metaDescription: 'Six hiking trails in and around Finnish Lapland: Hetta-Pallas (55 km), Karhunkierros (82 km), Halti (55 km) and three shorter routes, with trailhead bases.',
     hero: {
       eyebrow: 'Pillar guide',
       title: 'Hiking Trails',
@@ -844,7 +845,7 @@ const en: SectionCopy = {
   },
   conservation: {
     metaTitle: 'Conservation in Lapland: Who Protects the Wilderness',
-    metaDescription: "Metsähallitus manages 85% of Lapland's fell areas and all seven national parks. Plus SLL, WWF Finland, Sámi Parliament and the Everyman's Right legal frame that lets anyone access nature responsibly.",
+    metaDescription: "Metsähallitus manages 85% of Lapland's fells and all seven national parks. Plus SLL, WWF Finland, the Sámi Parliament and the Everyman's Right legal frame.",
     hero: {
       eyebrow: 'Pillar guide',
       title: 'Conservation',
@@ -942,7 +943,7 @@ const en: SectionCopy = {
   },
   freshwater: {
     metaTitle: 'Freshwater Lapland: Lakes, Rivers, Mires & Fish',
-    metaDescription: "Finland has roughly 188,000 lakes and ponds (SYKE). Lapland holds some of the cleanest of them, plus the unregulated Tornio-Muonio river system, aapa mires and the forests that keep the water cold. Why clean water is the region's rarest asset.",
+    metaDescription: 'Finland has roughly 188,000 lakes and ponds (SYKE). Lapland holds the cleanest, plus the unregulated Tornio-Muonio river, aapa mires and cold-water forests.',
     hero: {
       eyebrow: 'Pillar guide',
       title: 'Freshwater Lapland',

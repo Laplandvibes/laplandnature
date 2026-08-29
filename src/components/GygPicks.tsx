@@ -123,16 +123,16 @@ const COPY = {
   "ledeProduct": {
     "en": "Hand-picked nature tours, bookable online through GetYourGuide.",
     "fi": "Poimitut luontoretket, varattavissa verkossa GetYourGuiden kautta.",
-    "de": "Ausgewählte Naturtouren — online über GetYourGuide buchbar.",
+    "de": "Ausgewählte Naturtouren, online über GetYourGuide buchbar.",
     "ja": "厳選したネイチャーツアー。GetYourGuide でオンライン予約できます。",
     "es": "Excursiones de naturaleza seleccionadas, reservables en línea con GetYourGuide.",
     "pt-BR": "Passeios na natureza selecionados, reserváveis online via GetYourGuide.",
     "zh-CN": "精选自然生态行程，可通过 GetYourGuide 在线预订。",
-    "ko": "엄선한 자연 투어 — GetYourGuide에서 온라인 예약.",
+    "ko": "엄선한 자연 투어, GetYourGuide에서 온라인 예약.",
     "fr": "Une sélection de sorties nature, réservables en ligne via GetYourGuide.",
     "it": "Escursioni nella natura selezionate, prenotabili online tramite GetYourGuide.",
     "nl": "Geselecteerde natuurtochten, online te boeken via GetYourGuide.",
-    "sv": "Utvalda naturturer — bokas online via GetYourGuide."
+    "sv": "Utvalda naturturer, bokas online via GetYourGuide."
   },
   "headingCategory": {
     "en": "Browse and book on GetYourGuide",
@@ -149,7 +149,7 @@ const COPY = {
     "sv": "Bläddra och boka på GetYourGuide"
   },
   "ledeCategory": {
-    "en": "A partner-maintained list, always current — we do not name a single tour here.",
+    "en": "A partner-maintained list, always current, we do not name a single tour here.",
     "fi": "Kumppanin ylläpitämä lista, aina ajantasainen; emme nimeä yksittäistä retkeä.",
     "de": "Eine vom Partner gepflegte Liste, immer aktuell.",
     "ja": "パートナーが管理する最新のリストです。",
