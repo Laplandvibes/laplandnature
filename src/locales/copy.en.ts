@@ -128,7 +128,7 @@ const en: SectionCopy = {
         {
           tag: 'Wildlife',
           title: 'Wildlife Watching',
-          blurb: 'Track brown bears from overnight hides ( one night runs about 90%, two nights 99% ) meet semi-wild reindeer herds, and spot wolverines.',
+          blurb: 'Track brown bears from overnight hides (one night runs about 90%, two nights 99%) meet semi-wild reindeer herds, and spot wolverines.',
           cta: 'Explore Wildlife',
         },
         {
@@ -178,7 +178,7 @@ const en: SectionCopy = {
   },
   northernLights: {
     metaTitle: 'Northern Lights in Lapland: Where & When to See Them',
-    metaDescription: 'Where to see the northern lights in Finnish Lapland: Inari, Utsjoki, Kilpisjärvi, Enontekiö. Season runs September to March, darkest skies during kaamos.',
+    metaDescription: 'Where to see the northern lights in Finnish Lapland: Inari, Utsjoki, Kilpisjärvi, Enontekiö. Season runs September to early April, darkest skies during kaamos.',
     hero: {
       eyebrow: 'Pillar guide',
       title: 'Northern Lights',
