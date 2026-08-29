@@ -61,6 +61,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
     lead: '16 luoghi a cui vale la pena tornare, cinque parchi nazionali, quattro villaggi dell\'aurora, quattro punti di partenza dei sentieri e tre corridoi faunistici. Clicca su un segnaposto per la versione breve.',
     foot: 'Mappa: OpenStreetMap. I segnaposti sono scelte editoriali, non un indice di Metsähallitus.',
     openGuide: 'Apri la guida →',
+    resetView: 'Mostra tutti',
     legend: { park: 'Parco nazionale', aurora: 'Osservazione dell\'aurora', trail: 'Partenza del sentiero', wildlife: 'Fauna' },
     pins: [
       { name: 'PN Urho Kekkonen', note: '2° parco più grande della Finlandia · accesso: Saariselkä' },
@@ -76,7 +77,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
       { name: 'Ruka / Oulanka', note: 'Karhunkierros di 82 km · ponti sospesi e canyon · Kuusamo, appena a sud della Lapponia' },
       { name: 'Kilpisjärvi (Halti)', note: '55 km andata e ritorno fino all\'Halti, il punto più alto della Finlandia (1.324 m)' },
       { name: 'Pyhä', note: 'Gola di Pyhäkuru · passerella accessibile · 5 km' },
-      { name: 'Capanni per orsi di Kuusamo', note: 'Capanni per l\'orso bruno · 99% di avvistamenti · da maggio a settembre · appena a sud della Lapponia' },
+      { name: 'Capanni per orsi di Kuusamo', note: 'Capanni per l\'orso bruno · una notte ~90 %, due notti 99 % · da maggio a settembre · appena a sud della Lapponia' },
       { name: 'Natura di Nellim', note: 'Lodge naturalistico di Nellim · territorio di ghiottone e orso bruno' },
       { name: 'Renne di Kaamanen', note: 'Raduno delle renne sámi · autunno (paliskunta)' },
     ],
@@ -99,7 +100,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
       hHighlight: '66°–69° Nord',
       hSuffix: '. Cinque parchi nazionali, la luce delle quattro stagioni e la più lunga finestra di aurora d\'Europa.',
       stats: [
-        { value: '37%', primary: 'della Finlandia', body: 'si trova a nord del circolo polare' },
+        { value: '30%', primary: 'della Finlandia', body: 'è la regione della Lapponia, 100 367 km²' },
         { value: '40+', primary: 'zone protette', body: 'parchi nazionali, riserve integrali, Natura 2000' },
         { value: '70', primary: 'giorni di sole di mezzanotte', body: 'Utsjoki, da giugno ad agosto' },
         { value: '200+', primary: 'notti di aurora', body: 'osservate ogni anno sopra i 67° N' },
@@ -111,7 +112,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
       lead: 'Dai capanni di avvistamento orsi al confine russo ai canyon di cascate ghiacciate, dalla canoa sotto il sole di mezzanotte al cielo kaamos su Utsjoki, sette guide a cui tornare.',
       items: [
         { tag: 'Aree protette', title: 'Parchi nazionali', blurb: 'Cinque parchi, oltre 7.000 km² di natura protetta, dai fjell di Urho Kekkonen agli alberi coronati di neve di Riisitunturi.', cta: 'Esplora i parchi nazionali' },
-        { tag: 'Fauna', title: 'Avvistamento della fauna', blurb: 'Segui l\'orso bruno con il 99 % di avvistamenti dai capanni notturni, incontra branchi semiselvatici di renne e cerca di scorgere un ghiottone.', cta: 'Esplora la fauna' },
+        { tag: 'Fauna', title: 'Avvistamento della fauna', blurb: 'Segui l\'orso bruno dai capanni notturni: una notte è circa il 90 %, due notti il 99 %. Branchi semiselvatici di renne e il ghiottone da scorgere.', cta: 'Esplora la fauna' },
         { tag: 'Aurora', title: 'Aurora boreale', blurb: 'Insegui l\'aurora boreale nei cieli artici da settembre ad aprile. A Utsjoki l\'aurora compare in 4 notti limpide su 5.', cta: 'Esplora l\'aurora boreale' },
         { tag: 'Sentieri', title: 'Trekking', blurb: 'Cammina sui sentieri più iconici della Finlandia, dai ponti sospesi del Karhunkierros (82 km) alla vetta dell\'Halti (1.324 m).', cta: 'Esplora il trekking' },
         { tag: 'Tutela', title: 'Conservazione', blurb: 'Metsähallitus gestisce l\'85 % dei fjell della Lapponia e tutti i sette parchi nazionali. In più il diritto di accesso alla natura, la legge finlandese di accesso libero.', cta: 'Esplora la conservazione' },
@@ -140,7 +141,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
         { name: 'Ruka / Oulanka', note: 'Karhunkierros di 82 km · ponti sospesi e canyon · Kuusamo, appena a sud della Lapponia' },
         { name: 'Kilpisjärvi (Halti)', note: '55 km andata e ritorno all\'Halti, vetta più alta della Finlandia (1.324 m)' },
         { name: 'Pyhä', note: 'Gola di Pyhäkuru · passerella accessibile · 5 km' },
-        { name: 'Capanni per orsi di Kuusamo', note: 'Capanni per l\'orso bruno · tasso di avvistamento del 99 % · mag.–set. · appena a sud della Lapponia' },
+        { name: 'Capanni per orsi di Kuusamo', note: 'Capanni per l\'orso bruno · una notte ~90 %, due notti 99 % · mag.–set. · appena a sud della Lapponia' },
         { name: 'Natura di Nellim', note: 'Lodge selvaggio di Nellim · areale di ghiottone e orso bruno' },
         { name: 'Renne di Kaamanen', note: 'Raduno delle renne sami · autunno (paliskunta)' },
       ],
@@ -160,7 +161,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
       eyebrow: 'Guida di riferimento',
       title: 'Aurora boreale',
       subtitle: 'Aurora borealis',
-      description: 'A Utsjoki l\'aurora compare in 4 notti limpide su 5 in alta stagione. La si osserva al meglio da settembre a metà aprile, con marzo come mese di punta.',
+      description: 'A Utsjoki l\'aurora compare in 4 notti limpide su 5 in alta stagione. La si osserva al meglio da settembre a inizio aprile, con marzo come mese di punta.',
     },
     bestSeason: 'Stagione migliore:',
     bestSeasonValue: 'Settembre → marzo',
@@ -282,7 +283,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
       eyebrow: 'Guida di riferimento',
       title: 'Avvistamento della fauna',
       subtitle: 'Animali artici',
-      description: 'Segua l\'orso bruno con un tasso di avvistamento del 99 % dai capanni notturni, incontri branchi semiselvatici di renne e cerchi di scorgere il ghiottone, con operatori verificati e dati reali.',
+      description: 'Orso bruno dai capanni notturni: una notte circa il 90 %, due notti il 99 %. Branchi semiselvatici di renne e il ghiottone, con operatori verificati.',
     },
     animals: [
       { name: 'Renna', description: 'Circa 200.000 renne semidomestiche percorrono la Lapponia finlandese, al centro della cultura pastorale sami da migliaia di anni. Pascolano libere su fjell e foreste, le incontrerà a bordo strada.', status: 'Comune' },
@@ -412,7 +413,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
   hiking: {
     difficulties: { easy: 'Facile', moderate: 'Moderato', challenging: 'Impegnativo', demanding: 'Molto impegnativo' },
     metaTitle: 'Sentieri di trekking in Lapponia: 5–82 km | LaplandNature',
-    metaDescription: 'Sei sentieri di trekking nella Lapponia finlandese e dintorni, Hetta-Pallas (55 km), Karhunkierros (82 km), vetta dell\'Halti (55 km) e tre itinerari più brevi.',
+    metaDescription: 'Sei sentieri di trekking nella Lapponia finlandese e dintorni: Hetta-Pallas (55 km), Karhunkierros (82 km), Halti (55 km) e tre itinerari brevi.',
     hero: {
       alt: 'Un sentiero escursionistico che serpeggia su una collina di tundra nei colori della ruska, in Lapponia finlandese',
       eyebrow: 'Guida di riferimento',
@@ -533,8 +534,8 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
     ],
   },
   freshwater: {
-    metaTitle: 'Acque dolci di Lapponia: laghi, fiumi, torbiere e pesci',
-    metaDescription: 'La Finlandia conta circa 188.000 laghi e stagni (SYKE). La Lapponia ne custodisce i più puri, insieme al sistema fluviale non regolato del Tornio-Muonio, alle torbiere aapa e alle foreste che mantengono fredda l\'acqua. Perché l\'acqua pulita è la risorsa più rara della regione.',
+    metaTitle: 'Acque dolci di Lapponia: laghi, fiumi, pesci | LaplandNature',
+    metaDescription: 'La Finlandia conta circa 188.000 laghi (SYKE). La Lapponia custodisce i più puri, con il Tornio-Muonio non regolato, le torbiere aapa e le foreste fredde.',
     hero: {
       eyebrow: 'Guida di riferimento',
       title: 'Acque dolci di Lapponia',
@@ -650,8 +651,8 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
     metaDescription: 'Quali cookie utilizza LaplandNature.com, perché e come gestirli. Informativa sui cookie conforme GDPR / ePrivacy da Lapeso Oy.',
   },
   bearKuusamo: {
-    metaTitle: 'Bear Kuusamo: osservazione etica degli orsi in Finlandia',
-    metaDescription: 'Bear Kuusamo gestisce i capanni per orsi più antichi e più settentrionali della regione di Ruka–Kuusamo. Vera osservazione degli orsi in Finlandia, ai margini della Lapponia, dal 1° maggio al 30 settembre.',
+    metaTitle: 'Bear Kuusamo: osservazione etica degli orsi | LaplandNature',
+    metaDescription: 'Bear Kuusamo gestisce i capanni per orsi più antichi e settentrionali di Ruka–Kuusamo. Vera osservazione degli orsi, dal 1° maggio al 30 settembre.',
     partnership: 'Collaborazione commerciale · Bear Kuusamo',
     hero: {
       eyebrow: 'Collaborazione commerciale · Bear Kuusamo',

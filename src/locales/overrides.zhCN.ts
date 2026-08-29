@@ -61,6 +61,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
     lead: '值得一再到访的 16 处，五座国家公园、四个极光村庄、四个步道起点和三条野生动物走廊。点击图钉查看简介。',
     foot: '地图:OpenStreetMap。图钉为编辑精选，并非 Metsähallitus 名录。',
     openGuide: '打开指南 →',
+    resetView: '显示全部',
     legend: { park: '国家公园', aurora: '极光观赏', trail: '步道起点', wildlife: '野生动物' },
     pins: [
       { name: '乌尔霍·凯科宁国家公园', note: '芬兰第二大公园 · 门户:萨里塞尔卡' },
@@ -76,7 +77,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
       { name: '鲁卡 / 奥兰卡', note: '82 公里 Karhunkierros · 吊桥与峡谷 · 库萨莫，拉普兰以南不远' },
       { name: '基尔皮斯耶尔维(哈尔蒂)', note: '往返 55 公里登芬兰最高点哈尔蒂(1,324 米)' },
       { name: '皮哈', note: '皮哈库鲁峡谷 · 无障碍木栈道 · 5 公里' },
-      { name: '库萨莫观熊棚', note: '棕熊观察棚 · 99% 目击率 · 5 月至 9 月 · 拉普兰以南不远' },
+      { name: '库萨莫观熊棚', note: '棕熊观察棚 · 住一晚约 90%，住两晚 99% · 5 月至 9 月 · 拉普兰以南不远' },
       { name: '内利姆荒野', note: '内利姆荒野山庄 · 狼獾与棕熊的领地' },
       { name: '卡马宁驯鹿', note: '萨米驯鹿聚集 · 秋季(paliskunta)' },
     ],
@@ -99,7 +100,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
       hHighlight: '北纬 66°–69°',
       hSuffix: '。五座国家公园、四季分明的光线,以及欧洲最长的极光窗口。',
       stats: [
-        { value: '37%', primary: '的芬兰国土', body: '位于北极圈以北' },
+        { value: '30%', primary: '的芬兰国土', body: '属于拉普兰省，10 万 367 平方公里' },
         { value: '40+', primary: '处保护区', body: '国家公园、严格自然保护区、Natura 2000' },
         { value: '70', primary: '个午夜阳光日', body: 'Utsjoki,六月至八月' },
         { value: '200+', primary: '个极光夜', body: '每年在北纬 67° 以北观测到' },
@@ -119,7 +120,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
         {
           tag: '野生动物',
           title: '观察野生动物',
-          blurb: '在夜间隐蔽屋以 99% 的目击率追踪棕熊、认识半野生的驯鹿群、并尝试一睹狼獾的踪影。',
+          blurb: '在夜间隐蔽屋追踪棕熊：住一晚目击率约 90%，住两晚可达 99%。认识半野生的驯鹿群，并尝试一睹狼獾的踪影。',
           cta: '探索野生动物',
         },
         {
@@ -175,7 +176,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
         { name: 'Ruka / Oulanka', note: '82 公里 Karhunkierros · 吊桥与峡谷 · 库萨莫，拉普兰以南不远' },
         { name: 'Kilpisjärvi (Halti)', note: '往返 55 公里登芬兰最高峰 Halti(1,324 米)' },
         { name: 'Pyhä', note: 'Pyhäkuru 峡谷 · 无障碍栈道 · 5 公里' },
-        { name: 'Kuusamo 观熊掩体', note: '棕熊观测掩体 · 目击率 99% · 5–9 月 · 拉普兰以南不远' },
+        { name: 'Kuusamo 观熊掩体', note: '棕熊观测掩体 · 住一晚约 90%，住两晚 99% · 5–9 月 · 拉普兰以南不远' },
         { name: 'Nellim 荒野', note: 'Nellim 荒野小屋 · 狼獾与棕熊活动区' },
         { name: 'Kaamanen 驯鹿', note: '萨米驯鹿聚拢 · 秋季(paliskunta)' },
       ],
@@ -189,13 +190,13 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   northernLights: {
     metaTitle: '拉普兰的极光:在哪里、何时观赏 | LaplandNature',
-    metaDescription: '在芬兰拉普兰何处观赏极光，伊纳里、Utsjoki、基尔皮斯耶尔维与 Enontekiö。极光季从九月持续到三月,在极夜 kaamos 期间天空最暗。',
+    metaDescription: '在芬兰拉普兰何处观赏极光，伊纳里、Utsjoki、基尔皮斯耶尔维与 Enontekiö。极光季从九月持续到四月上旬,在极夜 kaamos 期间天空最暗。',
     hero: {
       alt: '芬兰拉普兰雪林上空闪耀的绿色北极光',
       eyebrow: '核心指南',
       title: '极光',
       subtitle: 'Aurora borealis',
-      description: '在旺季,Utsjoki 的晴朗夜晚每五晚有四晚能见到极光。九月到四月中旬观赏最佳,三月为巅峰月份。',
+      description: '在旺季,Utsjoki 的晴朗夜晚每五晚有四晚能见到极光。九月到四月上旬观赏最佳,三月为巅峰月份。',
     },
     bestSeason: '最佳季节:',
     bestSeasonValue: '九月 → 三月',
@@ -317,7 +318,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
       eyebrow: '核心指南',
       title: '观察野生动物',
       subtitle: '北极的动物',
-      description: '在夜间隐蔽屋以 99% 的目击率追踪棕熊、认识半野生的驯鹿群、并寻觅难得一见的狼獾，依托经核实的运营商与真实数据。',
+      description: '在夜间隐蔽屋追踪棕熊：住一晚目击率约 90%，住两晚可达 99%。认识半野生的驯鹿群，寻觅难得一见的狼獾，依托经核实的运营商与真实数据。',
     },
     animals: [
       { name: '驯鹿', description: '约 20 万头半驯养驯鹿漫游芬兰拉普兰,数千年来一直是萨米游牧文化的核心。它们在 fjeld 与森林间自由觅食，你会在路边遇见它们。', status: '常见' },
@@ -568,7 +569,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
     ],
   },
   freshwater: {
-    metaTitle: '拉普兰的淡水：湖泊、河流、沼泽与鱼',
+    metaTitle: '拉普兰的淡水：湖泊、河流、沼泽与鱼 | LaplandNature',
     metaDescription: '芬兰约有 188,000 个湖泊与水塘（SYKE）。拉普兰拥有其中最洁净的一部分，还有未经调控的托尔尼奥-穆奥尼奥（Tornio-Muonio）水系、aapa 沼泽，以及让水保持清凉的森林。为什么洁净的水是这一地区最稀有的资产。',
     hero: {
       eyebrow: '核心指南',
@@ -685,7 +686,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
     metaDescription: 'LaplandNature.com 使用哪些 Cookie、为何使用,以及如何管理。来自 Lapeso Oy、符合 GDPR / ePrivacy 的 Cookie 披露。',
   },
   bearKuusamo: {
-    metaTitle: 'Bear Kuusamo：芬兰的生态观熊之旅',
+    metaTitle: 'Bear Kuusamo：芬兰的生态观熊之旅 | LaplandNature',
     metaDescription: 'Bear Kuusamo 经营着 Ruka–Kuusamo 地区历史最悠久、位置最靠北的观熊小屋。在芬兰、拉普兰边缘进行真正的观熊，5 月 1 日至 9 月 30 日。',
     partnership: '商业合作 · Bear Kuusamo',
     hero: {

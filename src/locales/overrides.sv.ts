@@ -61,6 +61,7 @@ export const SV_OVERRIDES: DeepPartial<SectionCopy> = {
     lead: '16 platser värda att återvända till, fem nationalparker, fyra norrskensbyar, fyra ledstarter och tre viltkorridorer. Klicka på en nål för den korta versionen.',
     foot: 'Karta: OpenStreetMap. Nålarna är redaktionella val, inte ett register från Metsähallitus.',
     openGuide: 'Öppna guide →',
+    resetView: 'Visa alla',
     legend: { park: 'Nationalpark', aurora: 'Norrsken', trail: 'Ledstart', wildlife: 'Djurliv' },
     pins: [
       { name: 'Urho Kekkonen NP', note: 'Finlands näst största park · ingång: Saariselkä' },
@@ -76,14 +77,14 @@ export const SV_OVERRIDES: DeepPartial<SectionCopy> = {
       { name: 'Ruka / Oulanka', note: '82 km Karhunkierros · hängbroar + kanjoner · Kuusamo, strax söder om Lapplands gräns' },
       { name: 'Kilpisjärvi (Halti)', note: '55 km tur och retur till Halti, Finlands högsta punkt (1 324 m)' },
       { name: 'Pyhä', note: 'Pyhäkuru-ravinen · tillgänglig spång · 5 km' },
-      { name: 'Kuusamo björngömslen', note: 'Brunbjörnsgömslen · 99 % chans att se · maj–sep · strax söder om Lappland' },
+      { name: 'Kuusamo björngömslen', note: 'Brunbjörnsgömslen · en natt ~90 %, två nätter 99 % · maj–sep · strax söder om Lappland' },
       { name: 'Nellim vildmark', note: 'Nellim vildmarkslodge · järv- och brunbjörnsområde' },
       { name: 'Kaamanen renar', note: 'Samisk renskiljning · höst (paliskunta)' },
     ],
   },
   home: {
     metaTitle: 'Lapplands natur 2026: norrsken, parker och djurliv',
-    metaDescription: 'Finska Lapplands arktiska vildmark, fem nationalparker, 200+ norrskensnätter, kaamos-polarnatten och vandringsleder från 5 km till 82 km. Planera din vildmarksresa.',
+    metaDescription: 'Finska Lapplands arktiska vildmark, fem nationalparker, 200+ norrskensnätter, kaamos-polarnatten och vandringsleder från 5 km till 82 km.',
     hero: {
       eyebrow: 'Norr om polcirkeln',
       title: 'Orörd arktisk',
@@ -99,7 +100,7 @@ export const SV_OVERRIDES: DeepPartial<SectionCopy> = {
       hHighlight: '66°–69° nord',
       hSuffix: '. Fem nationalparker, ljus från fyra årstider och Europas längsta norrskensfönster.',
       stats: [
-        { value: '37 %', primary: 'av Finland', body: 'ligger norr om polcirkeln' },
+        { value: '30 %', primary: 'av Finland', body: 'är landskapet Lappland, 100 367 km²' },
         { value: '40+', primary: 'skyddade områden', body: 'nationalparker, naturreservat, Natura 2000' },
         { value: '70', primary: 'midnattssoldagar', body: 'Utsjoki, juni till augusti' },
         { value: '200+', primary: 'norrskensnätter', body: 'observerade årligen ovanför 67° N' },
@@ -111,7 +112,7 @@ export const SV_OVERRIDES: DeepPartial<SectionCopy> = {
       lead: 'Från björngömslen vid ryska gränsen till kanjoner med frusna vattenfall, kanotpaddling i midnattssol och kaamos-himlen över Utsjoki – sju guider värda att återvända till.',
       items: [
         { tag: 'Skyddade områden', title: 'Nationalparker', blurb: 'Fem parker på sammanlagt över 7 000 km² skyddad vildmark, från Urho Kekkonens fjäll till Riisitunturis snökrönta träd.', cta: 'Utforska nationalparkerna' },
-        { tag: 'Djurliv', title: 'Djurskådning', blurb: 'Spåra brunbjörn med 99 % chans att se från nattgömslen, möt halvvilda renhjordar och få syn på järv.', cta: 'Utforska djurlivet' },
+        { tag: 'Djurliv', title: 'Djurskådning', blurb: 'Spåra brunbjörn från nattgömslen: en natt ligger runt 90 %, två nätter på 99 %. Möt halvvilda renhjordar och få syn på järv.', cta: 'Utforska djurlivet' },
         { tag: 'Norrsken', title: 'Norrsken', blurb: 'Jaga norrskenet över den arktiska himlen från september till april. Utsjoki bjuder på norrsken 4 av 5 klara nätter.', cta: 'Utforska norrskenet' },
         { tag: 'Leder', title: 'Vandringsleder', blurb: 'Gå Finlands mest kända leder, från Karhunkierros hängbroar (82 km) till Haltis topp (1 324 m).', cta: 'Utforska vandringslederna' },
         { tag: 'Förvaltning', title: 'Naturvård', blurb: 'Metsähallitus förvaltar 85 % av Lapplands fjäll och alla sju nationalparker. Plus allemansrätten, Finlands lag om fri tillgång till naturen.', cta: 'Utforska naturvården' },
@@ -139,11 +140,11 @@ export const SV_OVERRIDES: DeepPartial<SectionCopy> = {
       eyebrow: 'Pelarguide',
       title: 'Norrsken',
       subtitle: 'Aurora borealis',
-      description: 'Utsjoki bjuder på norrsken 4 av 5 klara nätter under högsäsong. Bäst att se september till mitten av april, med mars som toppmånad.',
+      description: 'Utsjoki bjuder på norrsken 4 av 5 klara nätter under högsäsong. Bäst att se september till början av april, med mars som toppmånad.',
       alt: 'Grönt norrsken över en snöig skog i finska Lappland',
     },
     bestSeason: 'Bästa säsong:',
-    bestSeasonValue: 'September → mars',
+    bestSeasonValue: 'September → början av april',
     bestSeasonSuffix: ' · mörkast under kaamos (nov–jan)',
     spotsH2: 'Bästa platserna att se från',
     spotsLead: 'Bara latitud gör ingen bra norrskensplats, det som räknas är mörk himmel, en öppen horisont mot norr och en plats att sova på medan du väntar på att molnen ska spricka upp.',
@@ -200,7 +201,7 @@ export const SV_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   nationalParks: {
     metaTitle: 'Lapplands nationalparker: 5 vildmarker att vandra',
-    metaDescription: 'Finska Lapplands fem nationalparker, Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi och Pyhä-Luosto. Ingångsbyar, kännetecken och bästa tiden att besöka.',
+    metaDescription: 'Finska Lapplands fem nationalparker: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi och Pyhä-Luosto. Ingångsbyar och bästa tiden.',
     hero: {
       eyebrow: 'Pelarguide',
       title: 'Nationalparker',
@@ -261,7 +262,7 @@ export const SV_OVERRIDES: DeepPartial<SectionCopy> = {
       eyebrow: 'Pelarguide',
       title: 'Djurskådning',
       subtitle: 'Arktiska djur',
-      description: 'Spåra brunbjörn med 99 % chans att se från nattgömslen, möt halvvilda renhjordar och få syn på svårfångade järvar, med verifierade aktörer och riktiga data.',
+      description: 'Brunbjörn från nattgömslen: en natt runt 90 %, två nätter 99 %. Halvvilda renhjordar och svårfångade järvar, med verifierade aktörer.',
       alt: 'En brunbjörn i den boreala skogen i finska Lappland',
     },
     animals: [
@@ -328,7 +329,7 @@ export const SV_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   seasons: {
     metaTitle: 'Lapplands fyra årstider: ruska, kaamos och midnattssol',
-    metaDescription: 'Varje årstid norr om polcirkeln är en annan värld, ruska-höstfärger, kaamos-polarnatt, midnattssol och vårsnöfönstret. När du ska komma, och vad du kan vänta dig.',
+    metaDescription: 'Varje årstid norr om polcirkeln är en annan värld: ruska-höstfärger, kaamos-polarnatt, midnattssol och vårsnöfönstret. När du ska komma.',
     hero: {
       eyebrow: 'Pelarguide',
       title: 'Fyra årstider',
@@ -392,7 +393,7 @@ export const SV_OVERRIDES: DeepPartial<SectionCopy> = {
   hiking: {
     difficulties: { easy: 'Lätt', moderate: 'Medel', challenging: 'Krävande', demanding: 'Mycket krävande' },
     metaTitle: 'Vandringsleder i Lappland: från 5 km dagsturer till 82 km',
-    metaDescription: 'Sex vandringsleder i finska Lappland med omnejd, Hetta-Pallas (55 km), Karhunkierros (82 km), Halti-toppen (55 km) och tre kortare rutter. Distans, tid, svårighet och ledstartsbaser.',
+    metaDescription: 'Sex vandringsleder i finska Lappland med omnejd: Hetta-Pallas (55 km), Karhunkierros (82 km), Halti (55 km) och tre kortare rutter. Distans och baser.',
     hero: {
       eyebrow: 'Pelarguide',
       title: 'Vandringsleder',
@@ -452,7 +453,7 @@ export const SV_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   conservation: {
     metaTitle: 'Naturvård i Lappland: vem som skyddar vildmarken',
-    metaDescription: 'Metsähallitus förvaltar 85 % av Lapplands fjällområden och alla sju nationalparker. Plus SLL, WWF Finland, Sametinget och allemansrätten som låter alla nå naturen ansvarsfullt.',
+    metaDescription: 'Metsähallitus förvaltar 85 % av Lapplands fjäll och alla sju nationalparker. Plus SLL, WWF Finland, Sametinget och allemansrätten.',
     hero: {
       eyebrow: 'Pelarguide',
       title: 'Naturvård',
@@ -515,7 +516,7 @@ export const SV_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   freshwater: {
     metaTitle: 'Sötvatten i Lappland: sjöar, älvar, myrar och fisk',
-    metaDescription: 'Finland har ungefär 188 000 sjöar och dammar (SYKE). Lappland rymmer några av de renaste, plus det oreglerade Torne–Muonio-älvsystemet, aapamyrar och skogarna som håller vattnet kallt. Varför rent vatten är regionens mest sällsynta tillgång.',
+    metaDescription: 'Finland har ungefär 188 000 sjöar (SYKE). Lappland rymmer de renaste, plus det oreglerade Torne–Muonio-älvsystemet, aapamyrar och svala skogar.',
     hero: {
       eyebrow: 'Pelarguide',
       title: 'Sötvatten i Lappland',
@@ -594,7 +595,7 @@ export const SV_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   bearKuusamo: {
     metaTitle: 'Bear Kuusamo: etisk björnskådning i Finland',
-    metaDescription: 'Bear Kuusamo driver de äldsta och nordligaste björngömslena i Ruka–Kuusamo-området. Äkta björnskådning i Finland, vid kanten av Lappland, från 1 maj till 30 september.',
+    metaDescription: 'Bear Kuusamo driver de äldsta och nordligaste björngömslena i Ruka–Kuusamo. Äkta björnskådning vid kanten av Lappland, 1 maj till 30 september.',
     partnership: 'Kommersiellt samarbete · Bear Kuusamo',
     hero: {
       eyebrow: 'Kommersiellt samarbete · Bear Kuusamo',

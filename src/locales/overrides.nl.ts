@@ -61,6 +61,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
     lead: '16 plekken waar je graag naar terugkeert, vijf nationale parken, vier noorderlichtdorpen, vier startpunten van routes en drie wildcorridors. Klik op een speld voor de korte versie.',
     foot: 'Kaart: OpenStreetMap. De spelden zijn redactionele keuzes, geen index van Metsähallitus.',
     openGuide: 'Gids openen →',
+    resetView: 'Alles tonen',
     legend: { park: 'Nationaal park', aurora: 'Noorderlicht kijken', trail: 'Startpunt route', wildlife: 'Wilde dieren' },
     pins: [
       { name: 'NP Urho Kekkonen', note: 'Op één na grootste park van Finland · toegang: Saariselkä' },
@@ -76,7 +77,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
       { name: 'Ruka / Oulanka', note: 'Karhunkierros van 82 km · hangbruggen en canyons · Kuusamo, net ten zuiden van Lapland' },
       { name: 'Kilpisjärvi (Halti)', note: '55 km heen en terug naar de Halti, het hoogste punt van Finland (1.324 m)' },
       { name: 'Pyhä', note: 'Pyhäkuru-kloof · toegankelijk vlonderpad · 5 km' },
-      { name: 'Berenhutten van Kuusamo', note: 'Hutten voor de bruine beer · 99% kans op waarneming · mei–september · net ten zuiden van Lapland' },
+      { name: 'Berenhutten van Kuusamo', note: 'Hutten voor de bruine beer · één nacht ~90 %, twee nachten 99 % · mei–september · net ten zuiden van Lapland' },
       { name: 'Wildernis van Nellim', note: 'Wildernislodge Nellim · leefgebied van veelvraat en bruine beer' },
       { name: 'Rendieren van Kaamanen', note: 'Sámi-rendierbijeenkomst · herfst (paliskunta)' },
     ],
@@ -99,7 +100,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
       hHighlight: '66°–69° noorderbreedte',
       hSuffix: '. Vijf nationale parken, het licht van vier seizoenen en het langste noorderlichtvenster van Europa.',
       stats: [
-        { value: '37%', primary: 'van Finland', body: 'ligt ten noorden van de poolcirkel' },
+        { value: '30%', primary: 'van Finland', body: 'is de regio Lapland, 100.367 km²' },
         { value: '40+', primary: 'beschermde zones', body: 'nationale parken, strikte reservaten, Natura 2000' },
         { value: '70', primary: 'middernachtzondagen', body: 'Utsjoki, van juni tot augustus' },
         { value: '200+', primary: 'noorderlichtnachten', body: 'jaarlijks waargenomen boven 67° N' },
@@ -111,7 +112,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
       lead: 'Van berenobservatiehutten aan de Russische grens tot ravijnen met bevroren watervallen, kano onder de middernachtzon en de kaamos-hemel boven Utsjoki, zeven gidsen waar u op terugkomt.',
       items: [
         { tag: 'Beschermde gebieden', title: 'Nationale parken', blurb: 'Vijf parken, samen meer dan 7.000 km² beschermde natuur, van de fjells van Urho Kekkonen tot de met sneeuw gekroonde bomen van Riisitunturi.', cta: 'Ontdek de nationale parken' },
-        { tag: 'Wilde dieren', title: 'Wildlife-observatie', blurb: 'Spoor de bruine beer met 99 % zichtkans op vanuit nachtelijke hutten, ontmoet halfwilde rendierkuddes en vang een glimp op van de veelvraat.', cta: 'Ontdek de wilde dieren' },
+        { tag: 'Wilde dieren', title: 'Wildlife-observatie', blurb: 'Spoor de bruine beer op vanuit nachtelijke hutten: één nacht ligt rond de 90 %, twee nachten op 99 %. Halfwilde rendierkuddes en een glimp van de veelvraat.', cta: 'Ontdek de wilde dieren' },
         { tag: 'Noorderlicht', title: 'Noorderlicht', blurb: 'Jaag op het noorderlicht in de Arctische hemel van september tot april. Utsjoki levert noorderlicht in 4 van de 5 heldere nachten.', cta: 'Ontdek het noorderlicht' },
         { tag: 'Paden', title: 'Wandelen', blurb: 'Loop de iconische paden van Finland, van de hangbruggen van de Karhunkierros (82 km) tot de top van de Halti (1.324 m).', cta: 'Ontdek het wandelen' },
         { tag: 'Beheer', title: 'Natuurbehoud', blurb: 'Metsähallitus beheert 85 % van de fjells in Lapland en alle zeven nationale parken. Plus het Finse natuurrecht, vrije toegang tot de natuur.', cta: 'Ontdek het natuurbehoud' },
@@ -140,7 +141,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
         { name: 'Ruka / Oulanka', note: '82 km Karhunkierros · hangbruggen en canyons · Kuusamo, net ten zuiden van Lapland' },
         { name: 'Kilpisjärvi (Halti)', note: '55 km heen en terug naar de Halti, hoogste punt van Finland (1.324 m)' },
         { name: 'Pyhä', note: 'Pyhäkuru-kloof · toegankelijk vlonderpad · 5 km' },
-        { name: 'Berenhutten van Kuusamo', note: 'Bruine-berenhutten · 99 % waarnemingskans · mei–sept. · net ten zuiden van Lapland' },
+        { name: 'Berenhutten van Kuusamo', note: 'Bruine-berenhutten · één nacht ~90 %, twee nachten 99 % · mei–sept. · net ten zuiden van Lapland' },
         { name: 'Wildernis van Nellim', note: 'Wildernislodge Nellim · leefgebied van veelvraat en bruine beer' },
         { name: 'Rendieren van Kaamanen', note: 'Sami-rendierbijeenkomst · herfst (paliskunta)' },
       ],
@@ -160,7 +161,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
       eyebrow: 'Pijlergids',
       title: 'Noorderlicht',
       subtitle: 'Aurora borealis',
-      description: 'In Utsjoki verschijnt het noorderlicht in het hoogseizoen op 4 van de 5 heldere nachten. Het best te zien van september tot half april, met maart als piekmaand.',
+      description: 'In Utsjoki verschijnt het noorderlicht in het hoogseizoen op 4 van de 5 heldere nachten. Het best te zien van september tot begin april, met maart als piekmaand.',
     },
     bestSeason: 'Beste seizoen:',
     bestSeasonValue: 'September → maart',
@@ -282,7 +283,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
       eyebrow: 'Pijlergids',
       title: 'Wildlife-observatie',
       subtitle: 'Arctische dieren',
-      description: 'Volg de bruine beer met 99 % spotkans vanuit nachtelijke hutten, ontmoet halfwilde rendierkuddes en spot moeilijk vindbare veelvraten, met geverifieerde aanbieders en echte gegevens.',
+      description: 'De bruine beer vanuit nachtelijke hutten: één nacht rond de 90 %, twee nachten 99 %. Halfwilde rendierkuddes en veelvraten, met geverifieerde aanbieders.',
     },
     animals: [
       { name: 'Rendier', description: 'Zo\'n 200.000 halfgedomesticeerde rendieren trekken door Fins Lapland, al duizenden jaren centraal in de Sami-veehouderscultuur. Ze grazen vrij over fjells en bossen, u komt ze tegen langs de weg.', status: 'Algemeen' },
@@ -533,8 +534,8 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
     ],
   },
   freshwater: {
-    metaTitle: 'Zoet water in Lapland: meren, rivieren, venen en vis',
-    metaDescription: 'Finland telt ongeveer 188.000 meren en poelen (SYKE). Lapland herbergt enkele van de schoonste, plus het ongereguleerde riviersysteem van de Tornio-Muonio, aapa-venen en de bossen die het water koud houden. Waarom schoon water het zeldzaamste bezit van de regio is.',
+    metaTitle: 'Zoet water in Lapland: meren, rivieren, vis | LaplandNature',
+    metaDescription: 'Finland telt ongeveer 188.000 meren (SYKE). Lapland herbergt de schoonste, plus het ongereguleerde Tornio-Muonio, aapa-venen en bossen die het water koelen.',
     hero: {
       eyebrow: 'Pijlergids',
       title: 'Zoet water in Lapland',
@@ -650,8 +651,8 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
     metaDescription: 'Welke cookies LaplandNature.com gebruikt, waarom, en hoe u ze beheert. AVG / ePrivacy-conforme cookieverklaringen van Lapeso Oy.',
   },
   bearKuusamo: {
-    metaTitle: 'Bear Kuusamo: ethisch beren kijken in Finland',
-    metaDescription: 'Bear Kuusamo runt de oudste en noordelijkste berenhutten van de regio Ruka–Kuusamo. Echt beren kijken in Finland, aan de rand van Lapland, van 1 mei tot 30 september.',
+    metaTitle: 'Bear Kuusamo: ethisch beren kijken | LaplandNature',
+    metaDescription: 'Bear Kuusamo runt de oudste en noordelijkste berenhutten van Ruka–Kuusamo. Echt beren kijken aan de rand van Lapland, 1 mei tot 30 september.',
     partnership: 'Commerciële samenwerking · Bear Kuusamo',
     hero: {
       eyebrow: 'Commerciële samenwerking · Bear Kuusamo',

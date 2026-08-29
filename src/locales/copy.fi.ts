@@ -18,7 +18,7 @@ const fi: SectionCopy = {
     benefits: [
       {
         title: 'Kun revontulet todella näkyvät',
-        body: 'IL:n Auroras-now ja pilviennusteet jokaisena kirkkaana yönä syyskuusta maaliskuuhun. Ilmoitus kun KP ja taivas osuvat yksiin: yön ehdoilla, ei markkinointikalenterin.',
+        body: 'IL:n Auroras-now ja pilviennusteet jokaisena kirkkaana yönä syyskuusta huhtikuun alkuunhun. Ilmoitus kun KP ja taivas osuvat yksiin: yön ehdoilla, ei markkinointikalenterin.',
       },
       {
         title: 'Kun reiteille kannattaa lähteä',
@@ -178,13 +178,13 @@ const fi: SectionCopy = {
   },
   northernLights: {
     metaTitle: 'Revontulet Lapissa: missä ja milloin näkee | LaplandNature',
-    metaDescription: 'Missä nähdä revontulet Suomen Lapissa, Inari, Utsjoki, Kilpisjärvi ja Enontekiö. Revontulikausi syyskuusta maaliskuuhun, pimeimmät yöt kaamoksen aikaan.',
+    metaDescription: 'Missä nähdä revontulet Suomen Lapissa, Inari, Utsjoki, Kilpisjärvi ja Enontekiö. Revontulikausi syyskuusta huhtikuun alkuunhun, pimeimmät yöt kaamoksen aikaan.',
     hero: {
       alt: 'Vihreänä hehkuvat revontulet lumisen metsän yllä Suomen Lapissa',
       eyebrow: 'Lapin yötaivas',
       title: 'Revontulet',
       subtitle: 'Aurora borealis',
-      description: 'Utsjoella revontulet näkyvät neljänä yönä viidestä kirkkaasta. Kausi syyskuusta huhtikuun puoliväliin, maaliskuu huippuna.',
+      description: 'Utsjoella revontulet näkyvät neljänä yönä viidestä kirkkaasta. Kausi syyskuusta huhtikuun alkuun, maaliskuu huippuna.',
     },
     bestSeason: 'Paras kausi:',
     bestSeasonValue: 'Syyskuu → maaliskuu',

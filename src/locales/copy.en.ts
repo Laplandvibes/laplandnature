@@ -183,7 +183,7 @@ const en: SectionCopy = {
       eyebrow: 'Pillar guide',
       title: 'Northern Lights',
       subtitle: 'Aurora borealis',
-      description: 'Utsjoki delivers aurora on 4 out of 5 clear nights during peak season. Best viewed September to mid-April, with March as the peak month.',
+      description: 'Utsjoki delivers aurora on 4 out of 5 clear nights during peak season. Best viewed September to early April, with March as the peak month.',
       alt: 'Aurora borealis glowing green over a snowy forest in Finnish Lapland',
     },
     bestSeason: 'Best season:',

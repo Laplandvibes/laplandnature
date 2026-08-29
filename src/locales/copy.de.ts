@@ -69,11 +69,12 @@ const de: SectionCopy = {
     lead: '16 Orte, zu denen wir immer wieder zurückkehren, fünf Nationalparks, vier Nordlicht-Dörfer, vier Wanderwege-Ausgangspunkte und drei Wildtier-Korridore. Pin anklicken für Kurzfassung.',
     foot: 'Karte: OpenStreetMap. Pins sind redaktionelle Auswahl, kein Metsähallitus-Verzeichnis.',
     openGuide: 'Reiseführer öffnen →',
+    resetView: 'Alle anzeigen',
     legend: { park: 'Nationalpark', aurora: 'Nordlicht-Standort', trail: 'Wanderweg-Start', wildlife: 'Tierwelt' },
     pins: [
       { name: 'Urho-Kekkonen-NP', note: 'Finnlands zweitgrößter Park · Tor: Saariselkä' },
       { name: 'Pallas-Yllästunturi-NP', note: '55 km Hetta–Pallas-Weg · Tor: Muonio' },
-      { name: 'Lemmenjoki-NP', note: 'Europas größte straßenlose Wildnis · Goldwäsche · Inari' },
+      { name: 'Lemmenjoki-NP', note: 'Eines der größten straßenlosen Gebiete Europas · Goldwäsche · Inari' },
       { name: 'Riisitunturi-NP', note: 'Schneegekrönte Bäume (Tykky) · Tor: Posio' },
       { name: 'Pyhä-Luosto-NP', note: '400 Jahre alte Fichten · Amethyst-Mine' },
       { name: 'Inari', note: 'Herzland des Sámi-Landes · Bortle 2 · offener Seehorizont' },
@@ -84,7 +85,7 @@ const de: SectionCopy = {
       { name: 'Ruka / Oulanka', note: '82 km Karhunkierros · Hängebrücken + Schluchten · Kuusamo, knapp südlich der Grenze Lapplands' },
       { name: 'Kilpisjärvi (Halti)', note: '55 km Hin- und Rückweg zum Halti, Finnlands höchstem Punkt (1.324 m)' },
       { name: 'Pyhä', note: 'Pyhäkuru-Schlucht · barrierefreier Bohlenweg · 5 km' },
-      { name: 'Kuusamo Bärenverstecke', note: 'Braunbären-Verstecke · 99 % Sichtungsquote · Mai–September · knapp südlich Lapplands' },
+      { name: 'Bärenverstecke Kuusamo', note: 'Braunbären-Verstecke · eine Nacht ~90 %, zwei Nächte 99 % · Mai–September · knapp südlich Lapplands' },
       { name: 'Nellim-Wildnis', note: 'Nellim-Wildnislodge · Revier von Vielfraß und Braunbär' },
       { name: 'Kaamanen-Rentiere', note: 'Sámi-Rentier-Zusammentrieb · Herbst (paliskunta)' },
     ],
@@ -93,11 +94,11 @@ const de: SectionCopy = {
     metaTitle: 'Lapplands Natur: Wildnis & Nationalparks | LaplandNature',
     metaDescription: 'Die arktische Wildnis Finnisch-Lapplands, sieben Nationalparks, über 200 Nordlicht-Nächte, die Polarnacht (Kaamos) und Wanderwege von 5 bis 82 km.',
     hero: {
-      alt: 'Schneebedeckte arktische Wildnis und Fjells in Finnisch-Lappland',
+      alt: 'Schneebedeckte arktische Wildnis und Fjälls in Finnisch-Lappland',
       eyebrow: 'Nördlich des Polarkreises',
       title: 'Unberührte arktische',
       subtitle: 'Wildnis',
-      description: 'Finnisch-Lappland, 100.367 km² Nationalparks, Fjälls, Urwälder und die längste Nordlicht-Saison Europas.',
+      description: 'Finnisch-Lappland, 100.367 km² mit Nationalparks, Fjälls, Urwäldern und der längsten Nordlicht-Saison Europas.',
       primaryCta: 'Nordlicht-Reise planen',
       secondaryCta: 'Die Parks erkunden',
     },
@@ -107,7 +108,7 @@ const de: SectionCopy = {
       hHighlight: '66°–69° Nord',
       hSuffix: '. Sieben Nationalparks, Licht in vier Jahreszeiten und das längste Nordlicht-Fenster Europas.',
       stats: [
-        { value: '37 %', primary: 'von Finnland', body: 'liegen nördlich des Polarkreises' },
+        { value: '30 %', primary: 'von Finnland', body: 'entfallen auf Lappland, 100.367 km²' },
         { value: '40+', primary: 'Schutzgebiete', body: 'Nationalparks, Naturschutzgebiete, Natura 2000' },
         { value: '70', primary: 'Mitternachtssonne-Tage', body: 'Utsjoki, Juni bis August' },
         { value: '200+', primary: 'Nordlicht-Nächte', body: 'jährlich nördlich von 67°N beobachtet' },
@@ -127,7 +128,7 @@ const de: SectionCopy = {
         {
           tag: 'Tierwelt',
           title: 'Wildtierbeobachtung',
-          blurb: 'Beobachten Sie Braunbären mit 99 % Sichtungsquote aus Nacht-Verstecken, treffen Sie halbwilde Rentierherden und sichten Sie Vielfraße.',
+          blurb: 'Beobachten Sie Braunbären aus Nacht-Verstecken – eine Nacht rund 90 %, zwei Nächte 99 % –, treffen Sie halbwilde Rentierherden und sichten Sie Vielfraße.',
           cta: 'Tierwelt erkunden',
         },
         {
@@ -183,7 +184,7 @@ const de: SectionCopy = {
       eyebrow: 'Säulen-Guide',
       title: 'Nordlichter',
       subtitle: 'Aurora borealis',
-      description: 'Utsjoki zeigt Nordlichter in 4 von 5 klaren Nächten der Hauptsaison. Am besten zu sehen von September bis Mitte April, Spitzenmonat März.',
+      description: 'Utsjoki zeigt Nordlichter in 4 von 5 klaren Nächten der Hauptsaison. Am besten zu sehen von September bis Anfang April, Spitzenmonat März.',
     },
     bestSeason: 'Beste Saison:',
     bestSeasonValue: 'September → März',
@@ -212,14 +213,14 @@ const de: SectionCopy = {
     tipsH2: 'Tipps zur Nordlicht-Beobachtung',
     tips: [
       'Prüfen Sie die Nordlicht-Prognose des Finnischen Meteorologischen Instituts (Auroras-now / KP-Index), bevor Sie aufbrechen.',
-      'Beste Sichtzeit zwischen 21 und 02 Uhr Ortszeit in klaren Nächten.',
+      'Beste Sichtzeit zwischen 21 und 2 Uhr Ortszeit in klaren Nächten.',
       'Entfernen Sie sich 5–10 km vom Ortskern, um die Lichtverschmutzung auf Bortle 2 oder darunter zu senken.',
       'Ziehen Sie sich in Schichten an, Temperaturen erreichen oft −30 °C in der Hochsaison; eine Thermoskanne mit Heißgetränk ist Pflicht.',
       'Stativ und 5–15 Sekunden Belichtungszeit bei ISO 800–3200 (f/2.8) erfassen Nordlichter, die das Auge nicht sieht.',
     ],
     oneNightKicker: 'Eine Nacht · Inari · 2. März 2024',
     oneNightH2: 'Wie eine echte Nordlicht-Nacht abläuft',
-    oneNightLead: 'Prognosen sagen Ihnen "gute Chance heute Nacht". Sie sagen Ihnen nicht, dass Sie drei Stunden warten, bis sich der Himmel klärt, dass die erste Erscheinung ein flacher grüner Bogen ist, den Sie fast übersehen, und dass die zweite, um 01:48, über die gesamte arktische Kuppel zieht. So läuft eine repräsentative Nacht ab.',
+    oneNightLead: 'Prognosen sagen Ihnen „gute Chance heute Nacht“. Sie sagen Ihnen nicht, dass Sie drei Stunden warten, bis sich der Himmel klärt, dass die erste Erscheinung ein flacher grüner Bogen ist, den Sie fast übersehen, und dass die zweite, um 01:48, über die gesamte arktische Kuppel zieht. So läuft eine repräsentative Nacht ab.',
     oneNightSteps: [
       {
         time: '19:30',
@@ -295,13 +296,13 @@ const de: SectionCopy = {
   },
   nationalParks: {
     metaTitle: 'Lapplands Nationalparks: 5 Wildnisse | LaplandNature',
-    metaDescription: 'Fünf der Nationalparks Finnisch-Lapplands: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi und Pyhä-Luosto. Tordörfer und beste Reisezeit.',
+    metaDescription: 'Fünf der Nationalparks Finnisch-Lapplands: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi und Pyhä-Luosto. Ausgangsorte und beste Reisezeit.',
     hero: {
-      alt: 'Offene Fjell-Landschaft in einem Nationalpark in Finnisch-Lappland unter klarem Himmel',
+      alt: 'Offene Fjäll-Landschaft in einem Nationalpark in Finnisch-Lappland unter klarem Himmel',
       eyebrow: 'Säulen-Guide',
       title: 'Nationalparks',
       subtitle: 'Geschützte Wildnis',
-      description: 'Fünf Parks schützen den Großteil der straßenlosen Wildnis Lapplands, von offenen Fjäll-Überquerungen über schneegekrönte Wälder bis zu Goldwäsche-Schluchten. Jeder hat sein eigenes Tordorf als Basis.',
+      description: 'Fünf Parks schützen den Großteil der straßenlosen Wildnis Lapplands, von offenen Fjäll-Überquerungen über schneegekrönte Wälder bis zu Goldwäsche-Schluchten. Jeder hat seinen eigenen Ausgangsort als Basis.',
     },
     parks: [
       {
@@ -330,7 +331,7 @@ const de: SectionCopy = {
       },
       {
         name: 'Pyhä-Luosto-Nationalpark',
-        description: 'Beheimatet einen der ältesten Wälder Finnlands mit über 400 Jahre alten Fichten. Die Lampivaara-Amethyst-Mine liegt im Park, Besucher können eigene Edelsteine graben.',
+        description: 'Beherbergt einen der ältesten Wälder Finnlands mit über 400 Jahre alten Fichten. Die Lampivaara-Amethyst-Mine liegt im Park, Besucher können eigene Edelsteine graben.',
         highlight: 'Amethyst-Mine + Urwald',
         visited: 'Oktober 2023 · Pyhäkuru-Schlucht nach dem ersten Schnee, Reif auf dem Bohlenweg',
       },
@@ -339,7 +340,7 @@ const de: SectionCopy = {
     stayNearby: 'In der Nähe übernachten',
     hettaKicker: 'Aus dem Notizbuch · Ruska 2023',
     hettaH2: 'Hetta → Pallas in drei Tagen, die komplette Überquerung',
-    hettaLead: 'Der 55 km lange Hetta–Pallas-Weg durch den Pallas-Yllästunturi ist nicht ohne Grund die beliebteste Langwanderung Finnlands, fast vollständig oberhalb der Baumgrenze, Hütten in kurzen Etappenabständen, die Aussicht reißt nie ab. Wir gingen ihn von Nord nach Süd in drei Tagen zur Ruska-Hochzeit. Nordwärts ist die übliche Richtung; südwärts (Start in Hetta) ist die fotografisch bessere Wahl und die Fähre über den Ounasjärvi am Anfang ist ein schönes Ritual.',
+    hettaLead: 'Der 55 km lange Hetta–Pallas-Weg durch den Pallas-Yllästunturi ist nicht ohne Grund die beliebteste Langwanderung Finnlands, fast vollständig oberhalb der Baumgrenze, Hütten in kurzen Etappenabständen, die Aussicht reißt nie ab. Wir gingen ihn von Nord nach Süd in drei Tagen auf dem Ruska-Höhepunkt. Nordwärts ist die übliche Richtung; südwärts (Start in Hetta) ist die fotografisch bessere Wahl und die Fähre über den Ounasjärvi am Anfang ist ein schönes Ritual.',
     days: [
       {
         day: 'Tag 1 · 18 km',
@@ -350,7 +351,7 @@ const de: SectionCopy = {
       {
         day: 'Tag 2 · 22 km',
         title: 'Sioskuru → Hannukuru',
-        body: 'Der Aushänge-Tag. Sie überqueren Pyhäkuru und die Hochtundra um Lompolojärvi, das Foto des Weges, das Sie schon gesehen haben, ist von Kilometer 12. Die Hannukuru-Hütte hat eine holzbeheizte Sauna; deshalb teilen die meisten Wanderer die Route so auf.',
+        body: 'Der prägende Tag. Sie überqueren Pyhäkuru und die Hochtundra um Lompolojärvi, das Foto des Weges, das Sie schon gesehen haben, ist von Kilometer 12. Die Hannukuru-Hütte hat eine holzbeheizte Sauna; deshalb teilen die meisten Wanderer die Route so auf.',
         note: 'Höhepunkt: Lompolojärvi-Spiegelung im 17-Uhr-Licht',
       },
       {
@@ -362,7 +363,7 @@ const de: SectionCopy = {
     ],
     differentlyH3: 'Was wir anders planen würden',
     differently: [
-      'Reservieren Sie ein Varaustupa-Bett für die zweite Nacht (Hannukuru). Die Autiotupa ist offen, war zur Ruska-Hochzeit aber um 15:30 voll. Reservierungshütte = 14 €, Seelenfrieden = unbezahlbar.',
+      'Reservieren Sie ein Varaustupa-Bett für die zweite Nacht (Hannukuru). Die Autiotupa ist offen, war auf dem Ruska-Höhepunkt aber um 15:30 voll. Reservierungshütte = 14 €, Seelenfrieden = unbezahlbar.',
       'Nehmen Sie Schneeschuh-Gamaschen auch im frühen September mit. Zwei der sumpfigen Abstiege vom Pyhäkuru gingen über den Stiefel, zwei Tage nasse Socken.',
       'Essen Sie am ersten Tag reichlich. Der Laden in Hetta ist das letzte warme Essen vor dem Pallas-Hotel.',
       'Versuchen Sie das nicht in 2 Tagen. Wir trafen ein Paar, das es versuchte; sie brachen in Hannukuru ab und wurden per Bus abgeholt.',
@@ -370,7 +371,7 @@ const de: SectionCopy = {
     preWalkCta: 'Unterkünfte in Hetta vor der Wanderung',
     postWalkCta: 'Unterkünfte in Muonio nach der Wanderung',
     crossH3: 'Jeder Park ist auch eine Basis',
-    crossLead: 'Verbinden Sie den Park mit dem Weg, der hindurchführt, der Tierwelt, der Sie begegnen könnten, und einem Schlafplatz im Tordorf.',
+    crossLead: 'Verbinden Sie den Park mit dem Weg, der hindurchführt, der Tierwelt, der Sie begegnen könnten, und einem Schlafplatz im Ausgangsort.',
     crossLinks: {
       trails: 'Wege im Park →',
       wildlife: 'Tierwelt in den Parks →',
@@ -383,7 +384,7 @@ const de: SectionCopy = {
       items: [
         {
           q: 'Wie viele Nationalparks gibt es in Lappland?',
-          a: 'In Lappland liegen fünf der meistbesuchten Wildnisparks Finnlands: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi und Pyhä-Luosto. Jeder hat ein eigenes Tordorf als Ausgangspunkt, Saariselkä für den UKK, Hetta und Muonio für Pallas-Yllästunturi.',
+          a: 'In Lappland liegen fünf der meistbesuchten Wildnisparks Finnlands: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi und Pyhä-Luosto. Jeder hat einen eigenen Ausgangsort, Saariselkä für den UKK, Hetta und Muonio für Pallas-Yllästunturi.',
         },
         {
           q: 'Welcher ist der größte Nationalpark im finnischen Lappland?',
@@ -412,12 +413,12 @@ const de: SectionCopy = {
       eyebrow: 'Säulen-Guide',
       title: 'Wildtierbeobachtung',
       subtitle: 'Arktische Tiere',
-      description: 'Verfolgen Sie Braunbären mit 99 % Sichtungsquote aus Nacht-Verstecken, treffen Sie halbwilde Rentierherden und sichten Sie scheue Vielfraße, mit geprüften Anbietern und echten Daten.',
+      description: 'Braunbären aus Nacht-Verstecken: eine Nacht rund 90 %, zwei Nächte 99 %. Halbwilde Rentierherden und scheue Vielfraße, mit geprüften Anbietern.',
     },
     animals: [
       {
         name: 'Rentier',
-        description: 'Etwa 200.000 halbdomestizierte Rentiere streifen durch Finnisch-Lappland und sind seit Jahrtausenden zentral für die Sámi-Hirtenkultur. Sie weiden frei auf Fjälls und Wäldern, Sie begegnen ihnen am Straßenrand.',
+        description: 'Etwa 200.000 halbdomestizierte Rentiere streifen durch Finnisch-Lappland und sind seit Jahrtausenden zentral für die Sámi-Hirtenkultur. Sie weiden frei über Fjälls und Wälder, Sie begegnen ihnen am Straßenrand.',
         status: 'Häufig',
       },
       {
@@ -428,7 +429,7 @@ const de: SectionCopy = {
       {
         name: 'Braunbär',
         description: 'Finnland hat eine der dichtesten Braunbärpopulationen Europas. Die besten Bären-Verstecke liegen in Ostfinnland um Kuusamo und Suomussalmi, ein leichter Abstecher südlich von Lappland, und bieten in den Sommernächten, wenn die Bären aus dem Winterschlaf kommen, nahe Begegnungen.',
-        status: 'Gefährdet',
+        status: 'Potenziell gefährdet',
       },
       {
         name: 'Vielfraß',
@@ -449,7 +450,7 @@ const de: SectionCopy = {
     statuses: {
       common: 'Häufig',
       criticallyEndangered: 'Vom Aussterben bedroht',
-      nearThreatened: 'Gefährdet',
+      nearThreatened: 'Potenziell gefährdet',
       endangered: 'Stark gefährdet',
       rareVisitor: 'Seltener Gast',
       nationalBird: 'Nationalvogel',
@@ -523,7 +524,7 @@ const de: SectionCopy = {
       items: [
         {
           q: 'Wann kann man im finnischen Lappland Braunbären sehen?',
-          a: 'Die Braunbärenbeobachtung läuft von Ende April bis Anfang September, wobei sich die Fotohütten für Übernachtungen um Kuusamo, Suomussalmi und Lieksa in Ostfinnland konzentrieren, südlich von Lappland, konzentrieren. Ende Mai und Anfang Juni ist am besten für Bärinnen mit Jungen; der Juli bringt verlässlich einzelne Männchen und einfaches Wetter; der September fügt die Chance hinzu, Wölfe zu sehen, sowie das Herbstlicht.',
+          a: 'Die Braunbärenbeobachtung läuft von Ende April bis Anfang September, wobei sich die Fotohütten für Übernachtungen um Kuusamo, Suomussalmi und Lieksa in Ostfinnland konzentrieren, südlich von Lappland. Ende Mai und Anfang Juni ist am besten für Bärinnen mit Jungen; der Juli bringt verlässlich einzelne Männchen und einfaches Wetter; der September fügt die Chance hinzu, Wölfe zu sehen, sowie das Herbstlicht.',
         },
         {
           q: 'Wie wahrscheinlich sehe ich aus einer Hütte tatsächlich einen Bären?',
@@ -545,8 +546,8 @@ const de: SectionCopy = {
     },
   },
   bearKuusamo: {
-    metaTitle: 'Bear Kuusamo: ethische Bärenbeobachtung in Finnland',
-    metaDescription: 'Bear Kuusamo betreibt die ältesten und nördlichsten Bärenverstecke der Region Ruka–Kuusamo. Echte Bärenbeobachtung in Finnland, am Rande Lapplands, vom 1. Mai bis 30. September.',
+    metaTitle: 'Bear Kuusamo: ethische Bärenbeobachtung | LaplandNature',
+    metaDescription: 'Bear Kuusamo betreibt die ältesten und nördlichsten Bärenverstecke in Ruka–Kuusamo. Echte Bärenbeobachtung am Rand Lapplands, 1. Mai bis 30. September.',
     partnership: 'Bezahlte Partnerschaft · Bear Kuusamo',
     hero: {
       eyebrow: 'Bezahlte Partnerschaft · Bear Kuusamo',
@@ -558,7 +559,7 @@ const de: SectionCopy = {
     intro: 'In den Grenzwäldern östlich von Kuusamo, wo der boreale Nadelwald ununterbrochen zur Grenze hin verläuft, treten Braunbären in der langen nordischen Dämmerung aus dem Baumsaum. Bear Kuusamo führt Reisende seit mehr als zwanzig Jahren in diese Stille. Es ist der älteste Bärenbeobachtungsbetrieb der Region Ruka–Kuusamo und der nördlichste des Landes.',
     introLinkBefore: 'Das ist echte ',
     anchorWatching: 'Bärenbeobachtung in Finnland',
-    introLinkAfter: ', kein Zoo und keine Show. Die Verstecke stehen in einem geschützten Waldstück, das gleich hinter der russischen Grenze an den Paanajärvi-Nationalpark anschließt. Gründer Pekka Veteläinen und seine Guides arbeiten mit Metsähallitus und Forschenden zusammen und verstecken das Futter an wechselnden Stellen, damit die Bären auf natürliche Weise suchen und fressen. Die Bären bleiben wild und an Menschen ungewöhnt; Sie bekommen einfach einen ruhigen, gut platzierten Platz, um sie zu beobachten.',
+    introLinkAfter: ', kein Zoo und keine Show. Die Verstecke stehen in einem geschützten Waldstück, das gleich hinter der russischen Grenze an den Paanajärvi-Nationalpark anschließt. Gründer Pekka Veteläinen und seine Guides arbeiten mit Metsähallitus und Forschenden zusammen und verstecken das Futter an wechselnden Stellen, damit die Bären auf natürliche Weise suchen und fressen. Die Bären bleiben wild und nicht an Menschen gewöhnt; Sie bekommen einfach einen ruhigen, gut platzierten Platz, um sie zu beobachten.',
     hideKicker: 'Das Erlebnis',
     hideH2: 'Eine Nacht im Versteck',
     hideBody: [
@@ -575,14 +576,14 @@ const de: SectionCopy = {
     ],
     season: [
       'Führung und Versicherung sind inbegriffen, und die Saison läuft vom 1. Mai bis 30. September. Der Frühling bringt Mütter mit Jungen, und zur Mittsommerzeit geht die Sonne hier gar nicht unter, sodass Sie Bären die ganze helle Nacht hindurch beobachten und fotografieren können.',
-      'Bleibt der Wald leer, bringt Sie die originale Bärengarantie kostenlos für einen weiteren Abend zurück.',
+      'Bleibt der Wald leer, bringt Sie die „Original Bear Guarantee“ kostenlos für einen weiteren Abend zurück.',
     ],
     bookingBefore: 'Aktuelle Preise, Termine und Verfügbarkeit finden Sie auf ',
     bookingLink: 'der eigenen Buchungsseite von Bear Kuusamo',
     bookingAfter: '.',
     whereKicker: 'Anreise',
     whereH2: 'Wo es liegt',
-    whereBefore: 'Kuusamo liegt im Nordosten Finnlands, direkt an der Grenze zu Lappland, zwischen den Fjells und Urwäldern rund um den Oulanka-Nationalpark. Es ist der natürliche Ausgangspunkt für eine ',
+    whereBefore: 'Kuusamo liegt im Nordosten Finnlands, direkt an der Grenze zu Lappland, zwischen den Fjälls und Urwäldern rund um den Oulanka-Nationalpark. Es ist der natürliche Ausgangspunkt für eine ',
     anchorTour: 'Bärentour in Finnland',
     whereAfter: ': Fliegen Sie nach Kuusamo oder fahren Sie von Ruka herüber, und Sie sind innerhalb einer Stunde bei den Verstecken.',
     ctaLabel: 'Direkt bei Bear Kuusamo buchen',
@@ -600,7 +601,7 @@ const de: SectionCopy = {
     metaTitle: 'Lapplands vier Jahreszeiten: Ruska–Kaamos | LaplandNature',
     metaDescription: 'Jede Jahreszeit nördlich des Polarkreises ist eine andere Welt, Ruska-Herbstfarben, Polarnacht (Kaamos), Mitternachtssonne und Frühlingsschnee.',
     hero: {
-      alt: 'Herbstliche Ruska-Farben über einer Fjell-Landschaft in Finnisch-Lappland',
+      alt: 'Herbstliche Ruska-Farben über einer Fjäll-Landschaft in Finnisch-Lappland',
       eyebrow: 'Säulen-Guide',
       title: 'Vier Jahreszeiten',
       subtitle: 'Lapplands',
@@ -655,7 +656,7 @@ const de: SectionCopy = {
       {
         week: 'Woche 5 · 30.9.+',
         region: 'Ganz Lappland',
-        body: 'Es ist vorbei. Kahle Birken, glitschige Bohlenwege, Schnee in Höhe. Die Nordlicht-Saison beginnt.',
+        body: 'Es ist vorbei. Kahle Birken, glitschige Bohlenwege, Schnee in den Höhenlagen. Die Nordlicht-Saison beginnt.',
       },
     ],
     ruskaWeek3Suffix: ' (wir gingen ihn damals, siehe ',
@@ -671,9 +672,9 @@ const de: SectionCopy = {
       'Tageswanderer-Verkehr ist am Samstag am stärksten. Wandern Sie unter der Woche. Fahren Sie am Wochenende.',
     ],
     photoNoteTitle: 'Hinweis zum Foto-Licht',
-    photoNoteBody: 'Im September bleibt die Sonne stundenlang niedrig. Das "Ruska-Foto"-Fenster, das sich die meisten vorstellen, gesättigtes Rot+Gold, weiches gerichtetes Licht, läuft täglich etwa von 14:00 bis 17:30. Ab 18:30 sind Sie im schweren Schatten. Planen Sie den Umkehrpunkt Ihrer Wanderung entsprechend.',
+    photoNoteBody: 'Im September bleibt die Sonne stundenlang niedrig. Das „Ruska-Foto“-Fenster, das sich die meisten vorstellen, gesättigtes Rot+Gold, weiches gerichtetes Licht, läuft täglich etwa von 14:00 bis 17:30. Ab 18:30 sind Sie im schweren Schatten. Planen Sie den Umkehrpunkt Ihrer Wanderung entsprechend.',
     matchH3: 'Jahreszeit zur Reise wählen',
-    matchLead: 'Nordlicht-Jagd gehört zur Polarnacht. Bärenbeobachtung zum Sommer. Hetta–Pallas zur Ruska-Hochzeit sind die besten Fotos Ihres Lebens. Wählen Sie zuerst die Jahreszeit, dann die Reise, nicht umgekehrt.',
+    matchLead: 'Nordlicht-Jagd gehört zur Polarnacht. Bärenbeobachtung zum Sommer. Hetta–Pallas auf dem Ruska-Höhepunkt ergibt die besten Fotos Ihres Lebens. Wählen Sie zuerst die Jahreszeit, dann die Reise, nicht umgekehrt.',
     seasonalBaseCta: 'Saisonale Basis finden',
     seasonMatchedCta: 'Saison-Erlebnisse',
     crossLinks: {
@@ -712,9 +713,9 @@ const de: SectionCopy = {
   },
   hiking: {
     metaTitle: 'Lapplands Wanderwege: 5 km bis 82 km | LaplandNature',
-    metaDescription: 'Sechs Wanderwege in Finnisch-Lappland und Umgebung, Hetta–Pallas (55 km), Karhunkierros (82 km), Halti (55 km) und drei kürzere Routen. Distanz, Dauer und Basen.',
+    metaDescription: 'Sechs Wanderwege in Finnisch-Lappland und Umgebung: Hetta–Pallas (55 km), Karhunkierros (82 km), Halti (55 km) und drei kürzere Routen. Distanz und Basen.',
     hero: {
-      alt: 'Ein Wanderweg schlängelt sich über einen herbstlichen Ruska-Fjell in Finnisch-Lappland',
+      alt: 'Ein Wanderweg schlängelt sich über einen herbstlichen Ruska-Fjäll in Finnisch-Lappland',
       eyebrow: 'Säulen-Guide',
       title: 'Wanderwege',
       subtitle: 'Lapplands',
@@ -722,18 +723,18 @@ const de: SectionCopy = {
     },
     karhuKicker: 'Aus dem Notizbuch · Ruska 2024',
     karhuH2: 'Karhunkierros in 4 Tagen, was wir packten, was wir wegließen, was wir lernten',
-    karhuLead: 'Wir gingen den vollen 82 km langen Bärenweg von Süd nach Nord in vier Tagen Ende September, zur Ruska-Hochzeit. Unten, was wirklich passierte, Distanzen, Hüttenentscheidungen, Rucksackgewicht und die Entscheidungen, die wir beim nächsten Mal anders treffen würden. Behandeln Sie es als Planungsbasis, nicht als Evangelium, Wetter und Ihre Fitness ändern alles.',
+    karhuLead: 'Wir gingen den vollen 82 km langen Bärenweg von Süd nach Nord in vier Tagen Ende September, auf dem Ruska-Höhepunkt. Unten, was wirklich passierte, Distanzen, Hüttenentscheidungen, Rucksackgewicht und die Entscheidungen, die wir beim nächsten Mal anders treffen würden. Behandeln Sie es als Planungsbasis, nicht als Evangelium, Wetter und Ihre Fitness ändern alles.',
     days: [
       {
         day: 'Tag 1 · 22 km',
         title: 'Hautajärvi → Aventojoki',
-        body: 'Auf dem Papier der leichteste Tag, in der Praxis brutal, 22 km sind lang, wenn die Rucksäcke noch schwer sind. Aventojoki-Hütte hatte um 17:00 vier freie Betten, um 19:00 voll. Es lohnt sich, über das Mittagessen hinaus zu pushen, um einen Platz zu sichern.',
+        body: 'Auf dem Papier der leichteste Tag, in der Praxis brutal, 22 km sind lang, wenn die Rucksäcke noch schwer sind. Aventojoki-Hütte hatte um 17:00 vier freie Betten, um 19:00 voll. Es lohnt sich, über die Mittagszeit hinaus weiterzugehen, um einen Platz zu sichern.',
         note: 'Rucksack am Start: 14,2 kg trocken · 16,0 kg mit Wasser',
       },
       {
         day: 'Tag 2 · 18 km',
         title: 'Aventojoki → Jussinkämppä',
-        body: 'Der Aushänge-Tag. Hängebrücken über die Kitkajoki-Stromschnellen; der Oulanka-Schluchten-Aussichtspunkt nach den ersten 8 km ist das Foto, das jeder finnische Wanderer hat. Halt. Das Licht um 14:00 im späten September ist unwiederholbar.',
+        body: 'Der prägende Tag. Hängebrücken über die Kitkajoki-Stromschnellen; der Oulanka-Schluchten-Aussichtspunkt nach den ersten 8 km ist das Foto, das jeder finnische Wanderer hat. Halt. Das Licht um 14:00 im späten September ist unwiederholbar.',
         note: 'Höhepunkt: Jyrävä-Wasserfall · ca. 25 m Fall, vom Bohlenweg erreichbar',
       },
       {
@@ -746,13 +747,13 @@ const de: SectionCopy = {
         day: 'Tag 4 · 21 km',
         title: 'Taivalköngäs → Ruka',
         body: 'Leichteres Gelände, die Knöchel schon empfindlich. Die letzten 6 km ziehen, früh los. Die Ruka-Dusche um 14:30 fühlte sich wie eine religiöse Erfahrung an. Buchen Sie nicht denselben Abend den Bus nach Süden; Sie wollen vorher eine Hotelnacht.',
-        note: 'Gesamtdauer: 82 km · 4 Tage · 12 h reine Gehzeit',
+        note: 'Gesamt: 82 km · 4 Tage · 12 h reine Gehzeit',
       },
     ],
     differentlyH3: 'Was wir anders machen würden',
     differently: [
       'Einen Tag früher starten und Tag 1 aufteilen, einen Abschnitt der Pieni-Karhunkierros-Schleife weglassen, wenn der Rucksack schwer ist.',
-      'Eine Übernachtung im Oulanka-Besucherzentrum als Rückfall reservieren, falls eine offene Hütte voll ist. Wir hatten Glück; die Schlange ist zur Ruska-Hochzeit real.',
+      'Sichern Sie sich vorsorglich eine Übernachtung im Oulanka-Besucherzentrum, falls eine offene Hütte voll ist. Wir hatten Glück; die Schlange ist auf dem Ruska-Höhepunkt real.',
       'Ein zusätzliches Paar trockener Socken einpacken. Bohlenwege werden bei −2 °C eisglatt.',
       'Den Leichtgewichts-Kocherbrennstoff weglassen, jede Wildnishütte hatte einen Holzofen und trockenes Brennholz. 400 g für die nächste Wanderung gespart.',
     ],
@@ -829,7 +830,7 @@ const de: SectionCopy = {
         },
         {
           q: 'Muss man die Wildnishütten im Voraus buchen?',
-          a: 'Offene Wildnishütten (autiotupa) sind kostenlos und werden nach dem Prinzip „wer zuerst kommt“ vergeben, man kann sie nicht reservieren, und zur Ruska-Hochzeit im September können sie schon am frühen Nachmittag voll sein. Reservierungshütten (varaustupa) müssen im Voraus gebucht und bezahlt werden, meist rund 14 € pro Schlafplatz, und lohnen sich für ein garantiertes Bett auf stark frequentierten Abschnitten.',
+          a: 'Offene Wildnishütten (autiotupa) sind kostenlos und werden nach dem Prinzip „wer zuerst kommt“ vergeben, man kann sie nicht reservieren, und auf dem Ruska-Höhepunkt im September können sie schon am frühen Nachmittag voll sein. Reservierungshütten (varaustupa) müssen im Voraus gebucht und bezahlt werden, meist rund 14 € pro Schlafplatz, und lohnen sich für ein garantiertes Bett auf stark frequentierten Abschnitten.',
         },
         {
           q: 'Wie hoch ist Finnlands höchster Punkt, und kann man ihn erwandern?',
@@ -846,7 +847,7 @@ const de: SectionCopy = {
     metaTitle: 'Naturschutz in Finnisch-Lappland | LaplandNature',
     metaDescription: 'Metsähallitus verwaltet 85 % der Fjäll-Gebiete und alle sieben Nationalparks Lapplands. Dazu SLL, WWF Finnland, das Sámi-Parlament und das Jedermannsrecht.',
     hero: {
-      alt: 'Geschützter Urwald und Fjells in der Wildnis von Finnisch-Lappland',
+      alt: 'Geschützter Urwald und Fjälls in der Wildnis von Finnisch-Lappland',
       eyebrow: 'Säulen-Guide',
       title: 'Naturschutz',
       subtitle: 'Schutz der arktischen Wildnis',
@@ -860,25 +861,25 @@ const de: SectionCopy = {
         role: 'Nationalpark-Verwaltung',
         name: 'Metsähallitus (Naturservice Finnland)',
         summary: 'Verwaltet 85 % der Fjäll-Gebiete Lapplands und alle sieben Nationalparks nördlich des Polarkreises.',
-        body: 'Finnlands staatliches Unternehmen verwaltet alle Nationalparks, Wanderwege, Wildnishütten und Schutzgebiete in Lappland. Sie pflegen Weg-Infrastruktur, Besucherzentren und kostenlose Naturbildungsprogramme.',
+        body: 'Finnlands staatliches Unternehmen verwaltet alle Nationalparks, Wanderwege, Wildnishütten und Schutzgebiete in Lappland. Es pflegt die Weginfrastruktur, Besucherzentren und kostenlose Naturbildungsprogramme.',
       },
       {
-        role: 'Anwaltschaft & Schutz',
+        role: 'Interessenvertretung & Schutz',
         name: 'Finnischer Naturschutzbund (SLL)',
         summary: 'Finnlands größte Naturschutzorganisation, gegründet 1938.',
-        body: '1938 gegründet, schützt der SLL die finnische Natur durch Anwaltschaft, Kampagnen und Umweltbildung. Schwerpunkte: Waldschutz, Klimaschutz und Biodiversität.',
+        body: '1938 gegründet, schützt der SLL die finnische Natur durch Interessenvertretung, Kampagnen und Umweltbildung. Schwerpunkte: Waldschutz, Klimaschutz und Biodiversität.',
       },
       {
-        role: 'Tierwelt-Wiederherstellung',
+        role: 'Artenschutz & Bestandserholung',
         name: 'WWF Finnland',
-        summary: 'Wiederherstellungsprogramme für die Saimaa-Ringelrobbe, den Polarfuchs und das Waldrentier.',
-        body: 'WWF Finnland führt Artwiederherstellungsprogramme durch, darunter das skandinavische Polarfuchs-Projekt, das die fennoskandische Population seit den 1990er-Jahren vom Beinahe-Aussterben gerettet hat.',
+        summary: 'Schutzprogramme für die Saimaa-Ringelrobbe, den Polarfuchs und das Waldrentier.',
+        body: 'WWF Finnland führt Artenschutzprogramme durch, darunter das skandinavische Polarfuchs-Projekt, das die fennoskandische Population seit den 1990er-Jahren vom Rand des Aussterbens zurückgeholt hat.',
       },
       {
         role: 'Indigene Verantwortung',
         name: 'Sámi-Parlament',
         summary: 'Selbstverwaltung in kulturellen und Umweltfragen der Sámi im nördlichsten Lappland.',
-        body: 'Sámi-Rentierhaltungsbezirke verwalten die traditionelle Weide im Sámi-Land und balancieren Ökologie mit dem kulturell-wirtschaftlichen Rückgrat der indigenen Bevölkerung.',
+        body: 'Die samischen Rentierhaltungsbezirke verwalten die traditionelle Weidewirtschaft im samischen Heimatgebiet und bringen Ökologie und das kulturell-wirtschaftliche Rückgrat der indigenen Bevölkerung in Einklang.',
       },
     ],
     visitSite: 'Offizielle Webseite besuchen',
@@ -887,7 +888,7 @@ const de: SectionCopy = {
     principles: [
       {
         title: 'Jedermannsrecht',
-        body: 'Finnlands Jokamiehenoikeudet erlaubt jedem, ohne Erlaubnis auf Waldland, auch auf Privatgrund, zu gehen, Ski zu fahren, zu schwimmen, Beeren und Pilze zu sammeln und kurz zu zelten. Die Kehrseite ist Verantwortung: keine Spuren hinterlassen, Häuser und Felder respektieren, Feuer nur an markierten Stellen.',
+        body: 'Finnlands Jedermannsrecht (jokamiehenoikeudet) erlaubt jedem, ohne Erlaubnis durch Wälder zu wandern, auch auf Privatgrund, Ski zu laufen, zu schwimmen, Beeren und Pilze zu sammeln und kurz zu zelten. Die Kehrseite ist Verantwortung: keine Spuren hinterlassen, Häuser und Felder respektieren, Feuer nur an markierten Stellen.',
       },
       {
         title: 'Feuerregeln sind saisonal',
@@ -895,7 +896,7 @@ const de: SectionCopy = {
       },
       {
         title: 'Alles wieder mitnehmen',
-        body: 'Wildnishütten (Autiotupa) funktionieren auf Vertrauen: sauberer hinterlassen, Brennholz ersetzen, Gästebuch unterschreiben. Müll in entlegener Landschaft addiert sich, keine Abholung.',
+        body: 'Wildnishütten (Autiotupa) funktionieren auf Vertrauen: sauberer hinterlassen, als Sie sie vorgefunden haben, Brennholz ersetzen, Gästebuch unterschreiben. Müll häuft sich in entlegener Landschaft an, abgeholt wird nichts.',
       },
       {
         title: 'Rentiere haben Vorfahrt',
@@ -927,11 +928,11 @@ const de: SectionCopy = {
         },
         {
           q: 'Wer verwaltet Lapplands Nationalparks und Wildnis?',
-          a: 'Metsähallitus (Forst- und Naturverwaltung Finnlands), die staatliche Stelle, verwaltet etwa 85 % der Fjäll-Gebiete Lapplands und alle Nationalparks und pflegt Wege, Wildnishütten und Besucherzentren. Der Naturschutz-Lobbyismus kommt vom Finnischen Naturschutzverband (SLL) und WWF Finnland, während das Samische Parlament die Selbstverwaltung über samische Kultur- und Umweltangelegenheiten im Norden innehat.',
+          a: 'Metsähallitus (Forst- und Naturverwaltung Finnlands), die staatliche Stelle, verwaltet etwa 85 % der Fjäll-Gebiete Lapplands und alle Nationalparks und pflegt Wege, Wildnishütten und Besucherzentren. Die naturschutzpolitische Interessenvertretung kommt vom Finnischen Naturschutzbund (SLL) und WWF Finnland, während das Sámi-Parlament die Selbstverwaltung über samische Kultur- und Umweltangelegenheiten im Norden innehat.',
         },
         {
           q: 'Haben Rentiere auf Lapplands Straßen Vorfahrt?',
-          a: 'Praktisch ja bremsen Sie stark ab. Die rund 200.000 Rentiere Lapplands gehören Menschen und sind nicht wild, und sie wandern frei auf die Straßen, besonders in der Dämmerung. Wenn Sie eines sehen, rechnen Sie mit weiteren in der Nähe. An Hirtenzäunen (poroaita) schließen Sie stets jedes geöffnete Tor hinter sich.',
+          a: 'In der Praxis ja, bremsen Sie stark ab. Die rund 200.000 Rentiere Lapplands gehören Menschen und sind nicht wild, und sie wandern frei auf die Straßen, besonders in der Dämmerung. Wenn Sie eines sehen, rechnen Sie mit weiteren in der Nähe. An Hirtenzäunen (poroaita) schließen Sie stets jedes geöffnete Tor hinter sich.',
         },
         {
           q: 'Wie reise ich verantwortungsvoll in Lappland?',
@@ -941,8 +942,8 @@ const de: SectionCopy = {
     },
   },
   freshwater: {
-    metaTitle: 'Süßwasser Lappland: Seen, Flüsse, Moore & Fische',
-    metaDescription: 'Finnland hat rund 188.000 Seen und Teiche (SYKE). Lappland besitzt einige der saubersten davon, dazu das unregulierte Flusssystem Tornio-Muonio, Aapa-Moore und die Wälder, die das Wasser kühl halten. Warum sauberes Wasser das seltenste Gut der Region ist.',
+    metaTitle: 'Süßwasser Lappland: Seen, Flüsse & Moore | LaplandNature',
+    metaDescription: 'Finnland hat rund 188.000 Seen (SYKE). Lappland besitzt die saubersten, dazu das unregulierte Flusssystem Tornio-Muonio, Aapa-Moore und kühlende Wälder.',
     hero: {
       eyebrow: 'Säulen-Guide',
       title: 'Süßwasser Lappland',
@@ -994,7 +995,7 @@ const de: SectionCopy = {
         },
         {
           title: 'Die Gebühr, die die Fische finanziert',
-          body: 'Wer zwischen 18 und 69 Jahren in Finnland mit Köder oder Gerät angelt, zahlt die staatliche Fischereipflegegebühr, 47 € für das Jahr, 16 € für eine Woche oder 6 € für einen Tag (eraluvat.fi). Sie finanziert Bestandsüberwachung, Renaturierung und den Bau von Fischwegen. Unter 18-Jährige und Personen ab 70 sind befreit, und einfaches Angeln mit Rute und Schnur im Rahmen des Jedermannsrechts ist kostenlos.',
+          body: 'Wer zwischen 18 und 69 Jahren in Finnland mit Köder oder Gerät angelt, zahlt die staatliche Fischereipflegegebühr, 47 € für das Jahr, 16 € für eine Woche oder 6 € für einen Tag (eraluvat.fi). Sie finanziert Bestandsüberwachung, Renaturierung und den Bau von Fischwegen. Personen unter 18 und ab 70 Jahren sind befreit, und einfaches Angeln mit Rute und Schnur im Rahmen des Jedermannsrechts ist kostenlos.',
         },
       ],
       feeNote: 'Regeln und Termine werden jedes Jahr neu festgelegt. Bestätigen Sie stets die aktuelle Saison, Quoten und Gebühren auf den offiziellen Seiten, bevor Sie buchen oder angeln.',
@@ -1031,7 +1032,7 @@ const de: SectionCopy = {
         },
         {
           q: 'Brauche ich zum Angeln in Lappland eine Genehmigung?',
-          a: 'Für die meiste Köder- und Gerätefischerei ja: Angler zwischen 18 und 69 zahlen die staatliche Fischereipflegegebühr (47 € Jahr, 16 € Woche, 6 € Tag, über eraluvat.fi), und viele Gewässer erfordern zusätzlich eine gesonderte Gebietsgenehmigung. Einfaches Angeln mit Rute und Schnur sowie Eisangeln im Rahmen des Jedermannsrechts ist kostenlos, und unter 18-Jährige sowie Personen ab 70 sind von der staatlichen Gebühr befreit.',
+          a: 'Für die meiste Köder- und Gerätefischerei ja: Angler zwischen 18 und 69 zahlen die staatliche Fischereipflegegebühr (47 € Jahr, 16 € Woche, 6 € Tag, über eraluvat.fi), und viele Gewässer erfordern zusätzlich eine gesonderte Gebietsgenehmigung. Einfaches Angeln mit Rute und Schnur sowie Eisangeln im Rahmen des Jedermannsrechts ist kostenlos, und Personen unter 18 und ab 70 Jahren sind von der staatlichen Gebühr befreit.',
         },
       ],
     },
@@ -1049,7 +1050,7 @@ const de: SectionCopy = {
       },
       {
         h2: 'Wie Empfehlungen gewählt werden',
-        body: 'Park-Tordörfer, Wanderweg-Starts und Nordlicht-Dörfer empfehlen wir auf Basis von Dunkelhimmel-Daten, Hüttennetz-Abdeckung, Winterstraßen-Zugang und Feldbesuchen. Bezahlung gegen Aufnahme wird nicht akzeptiert. Zahlt eine Region oder ein Anbieter direkt, wird das auf der Seite genannt.',
+        body: 'Park-Ausgangsorte, Wanderweg-Starts und Nordlicht-Dörfer empfehlen wir auf Basis von Dunkelhimmel-Daten, Hüttennetz-Abdeckung, Winterstraßen-Zugang und Feldbesuchen. Bezahlung gegen Aufnahme wird nicht akzeptiert. Zahlt eine Region oder ein Anbieter direkt, wird das auf der Seite genannt.',
       },
       {
         h2: 'Affiliate-Einnahmen',
@@ -1076,7 +1077,7 @@ const de: SectionCopy = {
   },
   terms: {
     metaTitle: 'Nutzungsbedingungen, LaplandNature',
-    metaDescription: 'Bedingungen für die Nutzung von LaplandNature.com, Inhaltslizenzierung, Affiliate-Hinweise und redaktionelle Standards. Betrieben von Lapeso Oy in Finnland.',
+    metaDescription: 'Bedingungen für die Nutzung von LaplandNature.com, Inhaltslizenzierung, Affiliate-Hinweise und redaktionelle Standards. Von Lapeso Oy in Finnland.',
   },
   cookie: {
     metaTitle: 'Cookie-Richtlinie, LaplandNature',

@@ -46,6 +46,8 @@ export type SectionCopy = {
     lead: string
     foot: string
     openGuide: string
+    /** Label for the 'back to the whole-of-Lapland view' control on the map. */
+    resetView?: string
     legend: { park: string; aurora: string; trail: string; wildlife: string }
     pins: { name: string; note: string }[]
   }

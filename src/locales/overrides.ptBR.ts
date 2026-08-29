@@ -61,6 +61,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
     lead: '16 lugares aos quais vale a pena voltar, cinco parques nacionais, quatro vilas de aurora, quatro pontos de partida de trilha e três corredores de fauna. Clique num pino para a versão curta.',
     foot: 'Mapa: OpenStreetMap. Os pinos são escolhas editoriais, não um índice da Metsähallitus.',
     openGuide: 'Abrir guia →',
+    resetView: 'Mostrar tudo',
     legend: { park: 'Parque nacional', aurora: 'Observação de aurora', trail: 'Início de trilha', wildlife: 'Fauna' },
     pins: [
       { name: 'PN Urho Kekkonen', note: '2.º maior parque da Finlândia · acesso: Saariselkä' },
@@ -76,7 +77,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
       { name: 'Ruka / Oulanka', note: 'Karhunkierros de 82 km · pontes suspensas e cânions · Kuusamo, logo ao sul da Lapônia' },
       { name: 'Kilpisjärvi (Halti)', note: '55 km ida e volta até Halti, o ponto mais alto da Finlândia (1324 m)' },
       { name: 'Pyhä', note: 'Desfiladeiro de Pyhäkuru · passarela acessível · 5 km' },
-      { name: 'Hides de ursos de Kuusamo', note: 'Hides de urso-pardo · 99 % de avistamentos · de maio a setembro · logo ao sul da Lapônia' },
+      { name: 'Hides de ursos de Kuusamo', note: 'Hides de urso-pardo · uma noite ~90 %, duas noites 99 % · de maio a setembro · logo ao sul da Lapônia' },
       { name: 'Natureza de Nellim', note: 'Lodge de natureza de Nellim · território de carcaju e urso-pardo' },
       { name: 'Renas de Kaamanen', note: 'Reunião de renas sámi · outono (paliskunta)' },
     ],
@@ -99,7 +100,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
       hHighlight: '66°–69° Norte',
       hSuffix: '. Cinco parques nacionais, luz das quatro estações e a janela de aurora mais longa da Europa.',
       stats: [
-        { value: '37%', primary: 'da Finlândia', body: 'fica ao norte do Círculo Polar Ártico' },
+        { value: '30%', primary: 'da Finlândia', body: 'é a região da Lapônia, 100.367 km²' },
         { value: '40+', primary: 'zonas protegidas', body: 'parques nacionais, reservas integrais, Natura 2000' },
         { value: '70', primary: 'dias de sol da meia-noite', body: 'Utsjoki, de junho a agosto' },
         { value: '200+', primary: 'noites de aurora', body: 'observadas por ano acima de 67° N' },
@@ -119,7 +120,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
         {
           tag: 'Vida selvagem',
           title: 'Observação de vida selvagem',
-          blurb: 'Rastreie o urso-pardo com 99% de avistamento em esconderijos noturnos, conheça manadas semisselvagens de renas e tente avistar carcajus.',
+          blurb: 'Rastreie o urso-pardo em esconderijos noturnos: uma noite fica em torno de 90 %, duas noites 99 %. Manadas semisselvagens de renas e carcajus.',
           cta: 'Explorar a vida selvagem',
         },
         {
@@ -175,7 +176,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
         { name: 'Ruka / Oulanka', note: 'Karhunkierros de 82 km · pontes suspensas e cânions · Kuusamo, logo ao sul da Lapônia' },
         { name: 'Kilpisjärvi (Halti)', note: '55 km ida e volta ao Halti, ponto mais alto da Finlândia (1.324 m)' },
         { name: 'Pyhä', note: 'Desfiladeiro de Pyhäkuru · passarela acessível · 5 km' },
-        { name: 'Esconderijos de ursos de Kuusamo', note: 'Esconderijos de urso-pardo · taxa de avistamento de 99 % · mai.–set. · logo ao sul da Lapônia' },
+        { name: 'Esconderijos de ursos de Kuusamo', note: 'Esconderijos de urso-pardo · uma noite ~90 %, duas noites 99 % · mai.–set. · logo ao sul da Lapônia' },
         { name: 'Natureza de Nellim', note: 'Lodge selvagem de Nellim · território de carcaju e urso-pardo' },
         { name: 'Renas de Kaamanen', note: 'Reunião de renas sami · outono (paliskunta)' },
       ],
@@ -195,7 +196,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
       eyebrow: 'Guia essencial',
       title: 'Aurora boreal',
       subtitle: 'Aurora borealis',
-      description: 'Em Utsjoki a aurora aparece em 4 de cada 5 noites limpas na alta temporada. Vista melhor de setembro a meados de abril, com março como mês de pico.',
+      description: 'Em Utsjoki a aurora aparece em 4 de cada 5 noites limpas na alta temporada. Vista melhor de setembro a início de abril, com março como mês de pico.',
     },
     bestSeason: 'Melhor temporada:',
     bestSeasonValue: 'Setembro → março',
@@ -317,7 +318,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
       eyebrow: 'Guia essencial',
       title: 'Observação de fauna',
       subtitle: 'Animais árticos',
-      description: 'Rastreie o urso-pardo com 99% de avistamento em esconderijos noturnos, conheça manadas semisselvagens de renas e tente ver o esquivo glutão, com operadores verificados e dados reais.',
+      description: 'Urso-pardo em esconderijos noturnos: uma noite fica em torno de 90 %, duas noites 99 %. Manadas semisselvagens de renas e o esquivo glutão, com operadores verificados.',
     },
     animals: [
       { name: 'Rena', description: 'Cerca de 200 mil renas semidomesticadas percorrem a Lapônia finlandesa, no centro da cultura pastoril sami há milênios. Pastam livres por fjelds e florestas, você vai encontrá-las à beira da estrada.', status: 'Comum' },
@@ -568,8 +569,8 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
     ],
   },
   freshwater: {
-    metaTitle: 'Água doce na Lapônia: lagos, rios, turfeiras e peixes',
-    metaDescription: 'A Finlândia tem cerca de 188 000 lagos e lagoas (SYKE). A Lapônia abriga alguns dos mais limpos, além do sistema fluvial não regulado do Tornio-Muonio, das turfeiras aapa e das florestas que mantêm a água fria. Por que a água limpa é o bem mais raro da região.',
+    metaTitle: 'Água doce na Lapônia: lagos, rios, peixes | LaplandNature',
+    metaDescription: 'A Finlândia tem cerca de 188 000 lagos (SYKE). A Lapônia abriga os mais limpos, com o rio Tornio-Muonio não regulado, turfeiras aapa e florestas frias.',
     hero: {
       eyebrow: 'Guia essencial',
       title: 'Água doce na Lapônia',
@@ -685,8 +686,8 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
     metaDescription: 'Quais cookies a LaplandNature.com usa, por quê e como gerenciá-los. Divulgações de cookies em conformidade com GDPR / ePrivacy da Lapeso Oy.',
   },
   bearKuusamo: {
-    metaTitle: 'Bear Kuusamo: observação ética de ursos na Finlândia',
-    metaDescription: 'A Bear Kuusamo mantém os esconderijos de observação de ursos mais antigos e ao norte da região de Ruka–Kuusamo. Observação de ursos de verdade na Finlândia, na borda da Lapônia, de 1º de maio a 30 de setembro.',
+    metaTitle: 'Bear Kuusamo: observação ética de ursos | LaplandNature',
+    metaDescription: 'A Bear Kuusamo mantém os esconderijos de ursos mais antigos e ao norte de Ruka–Kuusamo. Observação real de ursos, de 1º de maio a 30 de setembro.',
     partnership: 'Parceria comercial · Bear Kuusamo',
     hero: {
       eyebrow: 'Parceria comercial · Bear Kuusamo',

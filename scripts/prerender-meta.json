@@ -2,7 +2,7 @@
   "/": {
     "en": {
       "title": "Lapland Nature 2026: Aurora, Parks & Wildlife Guide",
-      "description": "Finnish Lapland's arctic wilderness, seven national parks, 200+ aurora-viewing nights, the kaamos polar night and hiking trails from 5 km to 82 km. Plan your wilderness trip."
+      "description": "Finnish Lapland's arctic wilderness, seven national parks, 200+ aurora-viewing nights, the kaamos polar night and hiking trails from 5 km to 82 km."
     },
     "fi": {
       "title": "Lapin luonto: erämaa ja kansallispuistot | LaplandNature",
@@ -46,63 +46,63 @@
     },
     "sv": {
       "title": "Lapplands natur 2026: norrsken, parker och djurliv",
-      "description": "Finska Lapplands arktiska vildmark, fem nationalparker, 200+ norrskensnätter, kaamos-polarnatten och vandringsleder från 5 km till 82 km. Planera din vildmarksresa."
+      "description": "Finska Lapplands arktiska vildmark, fem nationalparker, 200+ norrskensnätter, kaamos-polarnatten och vandringsleder från 5 km till 82 km."
     }
   },
   "/bear-kuusamo": {
     "en": {
       "title": "Bear Kuusamo: Ethical Bear Watching in Finland",
-      "description": "Bear Kuusamo runs the oldest and northernmost bear hides in the Ruka–Kuusamo region. Real bear watching in Finland, on the edge of Lapland, from 1 May to 30 September."
+      "description": "Bear Kuusamo runs the oldest and northernmost bear hides in the Ruka–Kuusamo region. Real bear watching on the edge of Lapland, 1 May to 30 September."
     },
     "fi": {
-      "title": "Bear Kuusamo: eettistä karhunkatselua Suomessa",
+      "title": "Bear Kuusamo: eettistä karhunkatselua | LaplandNature",
       "description": "Bear Kuusamo pitää Ruka–Kuusamon alueen vanhimpia ja pohjoisimpia karhunkatselukojuja. Aitoa karhunkatselua Suomessa, aivan Lapin rajalla, 1.5.–30.9."
     },
     "de": {
-      "title": "Bear Kuusamo: ethische Bärenbeobachtung in Finnland",
-      "description": "Bear Kuusamo betreibt die ältesten und nördlichsten Bärenverstecke der Region Ruka–Kuusamo. Echte Bärenbeobachtung in Finnland, am Rande Lapplands, vom 1. Mai bis 30. September."
+      "title": "Bear Kuusamo: ethische Bärenbeobachtung | LaplandNature",
+      "description": "Bear Kuusamo betreibt die ältesten und nördlichsten Bärenverstecke in Ruka–Kuusamo. Echte Bärenbeobachtung am Rand Lapplands, 1. Mai bis 30. September."
     },
     "ja": {
-      "title": "ベア・クーサモ：フィンランドの倫理的なクマ観察",
+      "title": "ベア・クーサモ：フィンランドの倫理的なクマ観察 | LaplandNature",
       "description": "ベア・クーサモは、ルカ・クーサモ地域で最も歴史が長く、最も北にあるクマ観察用ハイドを運営しています。ラップランドのすぐそば、フィンランドで本物のクマ観察を、5月1日から9月30日まで。"
     },
     "es": {
-      "title": "Bear Kuusamo: observación ética de osos en Finlandia",
-      "description": "Bear Kuusamo gestiona los hides de osos más antiguos y septentrionales de la región de Ruka–Kuusamo. Auténtica observación de osos en Finlandia, al borde de Laponia, del 1 de mayo al 30 de septiembre."
+      "title": "Bear Kuusamo: observación ética de osos | LaplandNature",
+      "description": "Bear Kuusamo gestiona los hides de osos más antiguos y septentrionales de Ruka–Kuusamo. Observación real de osos, del 1 de mayo al 30 de septiembre."
     },
     "pt-BR": {
-      "title": "Bear Kuusamo: observação ética de ursos na Finlândia",
-      "description": "A Bear Kuusamo mantém os esconderijos de observação de ursos mais antigos e ao norte da região de Ruka–Kuusamo. Observação de ursos de verdade na Finlândia, na borda da Lapônia, de 1º de maio a 30 de setembro."
+      "title": "Bear Kuusamo: observação ética de ursos | LaplandNature",
+      "description": "A Bear Kuusamo mantém os esconderijos de ursos mais antigos e ao norte de Ruka–Kuusamo. Observação real de ursos, de 1º de maio a 30 de setembro."
     },
     "zh-CN": {
-      "title": "Bear Kuusamo：芬兰的生态观熊之旅",
+      "title": "Bear Kuusamo：芬兰的生态观熊之旅 | LaplandNature",
       "description": "Bear Kuusamo 经营着 Ruka–Kuusamo 地区历史最悠久、位置最靠北的观熊小屋。在芬兰、拉普兰边缘进行真正的观熊，5 月 1 日至 9 月 30 日。"
     },
     "ko": {
-      "title": "Bear Kuusamo: 핀란드의 윤리적인 곰 관찰",
+      "title": "Bear Kuusamo: 핀란드의 윤리적인 곰 관찰 | LaplandNature",
       "description": "Bear Kuusamo는 루카·쿠사모 지역에서 가장 오래되고 가장 북쪽에 있는 곰 관찰 하이드를 운영합니다. 라플란드 바로 곁, 핀란드에서 진짜 곰 관찰을 5월 1일부터 9월 30일까지."
     },
     "fr": {
-      "title": "Bear Kuusamo : observation éthique des ours en Finlande",
-      "description": "Bear Kuusamo exploite les affûts à ours les plus anciens et les plus septentrionaux de la région de Ruka–Kuusamo. Une vraie observation des ours en Finlande, aux portes de la Laponie, du 1er mai au 30 septembre."
+      "title": "Bear Kuusamo : observation éthique des ours | LaplandNature",
+      "description": "Bear Kuusamo exploite les affûts à ours les plus anciens et septentrionaux de Ruka–Kuusamo. Vraie observation des ours, du 1er mai au 30 septembre."
     },
     "it": {
-      "title": "Bear Kuusamo: osservazione etica degli orsi in Finlandia",
-      "description": "Bear Kuusamo gestisce i capanni per orsi più antichi e più settentrionali della regione di Ruka–Kuusamo. Vera osservazione degli orsi in Finlandia, ai margini della Lapponia, dal 1° maggio al 30 settembre."
+      "title": "Bear Kuusamo: osservazione etica degli orsi | LaplandNature",
+      "description": "Bear Kuusamo gestisce i capanni per orsi più antichi e settentrionali di Ruka–Kuusamo. Vera osservazione degli orsi, dal 1° maggio al 30 settembre."
     },
     "nl": {
-      "title": "Bear Kuusamo: ethisch beren kijken in Finland",
-      "description": "Bear Kuusamo runt de oudste en noordelijkste berenhutten van de regio Ruka–Kuusamo. Echt beren kijken in Finland, aan de rand van Lapland, van 1 mei tot 30 september."
+      "title": "Bear Kuusamo: ethisch beren kijken | LaplandNature",
+      "description": "Bear Kuusamo runt de oudste en noordelijkste berenhutten van Ruka–Kuusamo. Echt beren kijken aan de rand van Lapland, 1 mei tot 30 september."
     },
     "sv": {
       "title": "Bear Kuusamo: etisk björnskådning i Finland",
-      "description": "Bear Kuusamo driver de äldsta och nordligaste björngömslena i Ruka–Kuusamo-området. Äkta björnskådning i Finland, vid kanten av Lappland, från 1 maj till 30 september."
+      "description": "Bear Kuusamo driver de äldsta och nordligaste björngömslena i Ruka–Kuusamo. Äkta björnskådning vid kanten av Lappland, 1 maj till 30 september."
     }
   },
   "/conservation": {
     "en": {
       "title": "Conservation in Lapland: Who Protects the Wilderness",
-      "description": "Metsähallitus manages 85% of Lapland's fell areas and all seven national parks. Plus SLL, WWF Finland, Sámi Parliament and the Everyman's Right legal frame that lets anyone access nature responsibly.",
+      "description": "Metsähallitus manages 85% of Lapland's fells and all seven national parks. Plus SLL, WWF Finland, the Sámi Parliament and the Everyman's Right legal frame.",
       "faq": [
         {
           "q": "What is Everyman's Right in Finland?",
@@ -128,11 +128,11 @@
     },
     "fi": {
       "title": "Luonnonsuojelu Lapissa | LaplandNature",
-      "description": "Metsähallitus hallinnoi 85 % Lapin tuntureista ja kaikki seitsemän kansallispuistoa. Lisäksi SLL, WWF Suomi, Saamelaiskäräjät ja jokamiehenoikeudet.",
+      "description": "Metsähallitus hallinnoi 85 % Lapin tuntureista ja kaikkia seitsemää kansallispuistoa. Lisäksi SLL, WWF Suomi, Saamelaiskäräjät ja jokamiehenoikeudet.",
       "faq": [
         {
           "q": "Mikä on jokamiehenoikeus Suomessa?",
-          "a": "Jokamiehenoikeus antaa kenen tahansa kävellä, hiihtää, uida, poimia marjoja ja sieniä sekä leiriytyä hetkellisesti suurimmalla osalla maata, myös yksityismetsässä, ilman lupaa tai maksua. Vastapainona on vastuu: älä jätä jälkiä, pysy poissa pihoilta ja viljelyksiltä, älä häiritse eläimiä ja tee tulet vain merkityille paikoille."
+          "a": "Jokamiehenoikeus antaa kenen tahansa kävellä, hiihtää, uida, poimia marjoja ja sieniä sekä leiriytyä hetkellisesti suurimmalla osalla maata, myös yksityismetsässä, ilman lupaa tai maksua. Vastapainona on vastuu: älä jätä jälkiä, pysy poissa pihoilta ja viljelyksiltä, älä häiritse eläimiä ja tee tulet vain merkityillä tulentekopaikoilla."
         },
         {
           "q": "Saako Lapissa tehdä nuotion?",
@@ -144,11 +144,11 @@
         },
         {
           "q": "Onko poroilla etuajo-oikeus Lapin teillä?",
-          "a": "Käytännössä kyllä, hiljennä reilusti. Lapin noin 200 000 poroa ovat omistettuja, eivät villejä, ja ne harhautuvat vapaasti teille etenkin hämärissä. Jos näet yhden, odota lähistöllä lisää. Poroaitojen kohdalla sulje aina avaamasi portti perässäsi."
+          "a": "Käytännössä kyllä, hiljennä reilusti. Lapin noin 200 000 poroa eivät ole villejä, vaan jokaisella on omistaja, ja vapaasti laiduntaessaan ne päätyvät teille etenkin hämärässä. Jos näet yhden, odota lähistöllä lisää. Poroaitojen kohdalla sulje aina avaamasi portti perässäsi."
         },
         {
           "q": "Miten matkustan Lapissa vastuullisesti?",
-          "a": "Nuku siellä missä paikallinen talous sitä tarvitsee, saamelaisten omistamilla porotiloilla, perheiden majataloissa ja luvanvaraisissa autiotuvissa ja valitse toimijoita jotka pitävät karhut, sudet ja naalit arvokkaampina elävinä kuin kuolleina. Kanna kaikki roskasi pois, pysy pitkospuilla herkässä tunturimaastossa ja noudata kausittaisia tuli- ja eläinsääntöjä."
+          "a": "Nuku siellä missä paikallinen talous sitä tarvitsee: saamelaisten omistamilla porotiloilla, perheiden majataloissa ja luvanvaraisissa autiotuvissa, ja valitse toimijoita jotka pitävät karhuja, susia ja naaleja arvokkaampina elävinä kuin kuolleina. Kanna kaikki roskasi pois, pysy pitkospuilla herkässä tunturimaastossa ja noudata kausittaisia tuli- ja eläinsääntöjä."
         }
       ]
     },
@@ -166,11 +166,11 @@
         },
         {
           "q": "Wer verwaltet Lapplands Nationalparks und Wildnis?",
-          "a": "Metsähallitus (Forst- und Naturverwaltung Finnlands), die staatliche Stelle, verwaltet etwa 85 % der Fjäll-Gebiete Lapplands und alle Nationalparks und pflegt Wege, Wildnishütten und Besucherzentren. Der Naturschutz-Lobbyismus kommt vom Finnischen Naturschutzverband (SLL) und WWF Finnland, während das Samische Parlament die Selbstverwaltung über samische Kultur- und Umweltangelegenheiten im Norden innehat."
+          "a": "Metsähallitus (Forst- und Naturverwaltung Finnlands), die staatliche Stelle, verwaltet etwa 85 % der Fjäll-Gebiete Lapplands und alle Nationalparks und pflegt Wege, Wildnishütten und Besucherzentren. Die naturschutzpolitische Interessenvertretung kommt vom Finnischen Naturschutzbund (SLL) und WWF Finnland, während das Sámi-Parlament die Selbstverwaltung über samische Kultur- und Umweltangelegenheiten im Norden innehat."
         },
         {
           "q": "Haben Rentiere auf Lapplands Straßen Vorfahrt?",
-          "a": "Praktisch ja bremsen Sie stark ab. Die rund 200.000 Rentiere Lapplands gehören Menschen und sind nicht wild, und sie wandern frei auf die Straßen, besonders in der Dämmerung. Wenn Sie eines sehen, rechnen Sie mit weiteren in der Nähe. An Hirtenzäunen (poroaita) schließen Sie stets jedes geöffnete Tor hinter sich."
+          "a": "In der Praxis ja, bremsen Sie stark ab. Die rund 200.000 Rentiere Lapplands gehören Menschen und sind nicht wild, und sie wandern frei auf die Straßen, besonders in der Dämmerung. Wenn Sie eines sehen, rechnen Sie mit weiteren in der Nähe. An Hirtenzäunen (poroaita) schließen Sie stets jedes geöffnete Tor hinter sich."
         },
         {
           "q": "Wie reise ich verantwortungsvoll in Lappland?",
@@ -388,7 +388,7 @@
     },
     "sv": {
       "title": "Naturvård i Lappland: vem som skyddar vildmarken",
-      "description": "Metsähallitus förvaltar 85 % av Lapplands fjällområden och alla sju nationalparker. Plus SLL, WWF Finland, Sametinget och allemansrätten som låter alla nå naturen ansvarsfullt.",
+      "description": "Metsähallitus förvaltar 85 % av Lapplands fjäll och alla sju nationalparker. Plus SLL, WWF Finland, Sametinget och allemansrätten.",
       "faq": [
         {
           "q": "Vad är allemansrätten (jokamiehenoikeudet) i Finland?",
@@ -516,7 +516,7 @@
   "/freshwater": {
     "en": {
       "title": "Freshwater Lapland: Lakes, Rivers, Mires & Fish",
-      "description": "Finland has roughly 188,000 lakes and ponds (SYKE). Lapland holds some of the cleanest of them, plus the unregulated Tornio-Muonio river system, aapa mires and the forests that keep the water cold. Why clean water is the region's rarest asset.",
+      "description": "Finland has roughly 188,000 lakes and ponds (SYKE). Lapland holds the cleanest, plus the unregulated Tornio-Muonio river, aapa mires and cold-water forests.",
       "faq": [
         {
           "q": "How many lakes does Finland have?",
@@ -541,8 +541,8 @@
       ]
     },
     "fi": {
-      "title": "Lapin vesistöt: järvet, joet, aavat ja kalat",
-      "description": "Suomessa on noin 188 000 järveä ja lampea (SYKE), ja Lapin vedet ovat maan puhtaimpia. Säännöstelemätön Tornion–Muonionjoki, aapasuot ja metsät pitävät veden kylmänä. Siksi puhdas vesi on alueen tärkein voimavara.",
+      "title": "Lapin vesistöt: järvet, joet, aavat ja kalat | LaplandNature",
+      "description": "Suomessa on noin 188 000 järveä (SYKE), ja Lapin vedet ovat maan puhtaimpia: säännöstelemätön Tornion–Muonionjoki, aapasuot ja vettä viilentävät metsät.",
       "faq": [
         {
           "q": "Kuinka monta järveä Suomessa on?",
@@ -562,13 +562,13 @@
         },
         {
           "q": "Tarvitsenko luvan kalastaakseni Lapissa?",
-          "a": "Useimpaan viehe- ja pyydyskalastukseen kyllä: 18–69-vuotiaat maksavat valtion kalastonhoitomaksun (47 € vuosi, 16 € viikko, 6 € vuorokausi, eraluvat.fi kautta), ja monet vedet vaativat lisäksi erillisen alueluvan. Yksinkertainen onginta ja pilkintä jokamiehenoikeudella on ilmaista, ja alle 18-vuotiaat sekä 70 vuotta täyttäneet on vapautettu valtion maksusta."
+          "a": "Viehe- ja pyydyskalastukseen useimmiten kyllä: 18–69-vuotiaat maksavat valtion kalastonhoitomaksun (47 € vuodessa, 16 € viikossa, 6 € vuorokaudessa, eraluvat.fi:n kautta), ja monet vedet vaativat lisäksi erillisen alueluvan. Yksinkertainen onginta ja pilkintä jokamiehenoikeudella on ilmaista, ja alle 18-vuotiaat sekä 70 vuotta täyttäneet on vapautettu valtion maksusta."
         }
       ]
     },
     "de": {
-      "title": "Süßwasser Lappland: Seen, Flüsse, Moore & Fische",
-      "description": "Finnland hat rund 188.000 Seen und Teiche (SYKE). Lappland besitzt einige der saubersten davon, dazu das unregulierte Flusssystem Tornio-Muonio, Aapa-Moore und die Wälder, die das Wasser kühl halten. Warum sauberes Wasser das seltenste Gut der Region ist.",
+      "title": "Süßwasser Lappland: Seen, Flüsse & Moore | LaplandNature",
+      "description": "Finnland hat rund 188.000 Seen (SYKE). Lappland besitzt die saubersten, dazu das unregulierte Flusssystem Tornio-Muonio, Aapa-Moore und kühlende Wälder.",
       "faq": [
         {
           "q": "Wie viele Seen hat Finnland?",
@@ -588,12 +588,12 @@
         },
         {
           "q": "Brauche ich zum Angeln in Lappland eine Genehmigung?",
-          "a": "Für die meiste Köder- und Gerätefischerei ja: Angler zwischen 18 und 69 zahlen die staatliche Fischereipflegegebühr (47 € Jahr, 16 € Woche, 6 € Tag, über eraluvat.fi), und viele Gewässer erfordern zusätzlich eine gesonderte Gebietsgenehmigung. Einfaches Angeln mit Rute und Schnur sowie Eisangeln im Rahmen des Jedermannsrechts ist kostenlos, und unter 18-Jährige sowie Personen ab 70 sind von der staatlichen Gebühr befreit."
+          "a": "Für die meiste Köder- und Gerätefischerei ja: Angler zwischen 18 und 69 zahlen die staatliche Fischereipflegegebühr (47 € Jahr, 16 € Woche, 6 € Tag, über eraluvat.fi), und viele Gewässer erfordern zusätzlich eine gesonderte Gebietsgenehmigung. Einfaches Angeln mit Rute und Schnur sowie Eisangeln im Rahmen des Jedermannsrechts ist kostenlos, und Personen unter 18 und ab 70 Jahren sind von der staatlichen Gebühr befreit."
         }
       ]
     },
     "ja": {
-      "title": "ラップランドの淡水：湖、川、湿原、そして魚",
+      "title": "ラップランドの淡水：湖、川、湿原、そして魚 | LaplandNature",
       "description": "フィンランドには約188,000の湖沼があります（SYKE）。ラップランドにはその中でも最も清らかな水があり、加えて未開発のトルニオ・ムオニオ川水系、アーパ湿原、そして水を冷たく保つ森が広がります。なぜ清らかな水がこの地域で最も希少な資産なのか。",
       "faq": [
         {
@@ -619,8 +619,8 @@
       ]
     },
     "es": {
-      "title": "Agua dulce en Laponia: lagos, ríos, turberas y peces",
-      "description": "Finlandia tiene unos 188 000 lagos y estanques (SYKE). Laponia alberga algunos de los más limpios, junto al sistema fluvial no regulado del Tornio-Muonio, las turberas aapa y los bosques que mantienen fría el agua. Por qué el agua limpia es el bien más escaso de la región.",
+      "title": "Agua dulce en Laponia: lagos, ríos, peces | LaplandNature",
+      "description": "Finlandia tiene unos 188 000 lagos (SYKE). Laponia alberga los más limpios, con el río Tornio-Muonio sin regular, turberas aapa y bosques de agua fría.",
       "faq": [
         {
           "q": "¿Cuántos lagos tiene Finlandia?",
@@ -645,8 +645,8 @@
       ]
     },
     "pt-BR": {
-      "title": "Água doce na Lapônia: lagos, rios, turfeiras e peixes",
-      "description": "A Finlândia tem cerca de 188 000 lagos e lagoas (SYKE). A Lapônia abriga alguns dos mais limpos, além do sistema fluvial não regulado do Tornio-Muonio, das turfeiras aapa e das florestas que mantêm a água fria. Por que a água limpa é o bem mais raro da região.",
+      "title": "Água doce na Lapônia: lagos, rios, peixes | LaplandNature",
+      "description": "A Finlândia tem cerca de 188 000 lagos (SYKE). A Lapônia abriga os mais limpos, com o rio Tornio-Muonio não regulado, turfeiras aapa e florestas frias.",
       "faq": [
         {
           "q": "Quantos lagos a Finlândia tem?",
@@ -671,7 +671,7 @@
       ]
     },
     "zh-CN": {
-      "title": "拉普兰的淡水：湖泊、河流、沼泽与鱼",
+      "title": "拉普兰的淡水：湖泊、河流、沼泽与鱼 | LaplandNature",
       "description": "芬兰约有 188,000 个湖泊与水塘（SYKE）。拉普兰拥有其中最洁净的一部分，还有未经调控的托尔尼奥-穆奥尼奥（Tornio-Muonio）水系、aapa 沼泽，以及让水保持清凉的森林。为什么洁净的水是这一地区最稀有的资产。",
       "faq": [
         {
@@ -697,7 +697,7 @@
       ]
     },
     "ko": {
-      "title": "라플란드의 담수: 호수, 강, 습원, 그리고 물고기",
+      "title": "라플란드의 담수: 호수, 강, 습원, 그리고 물고기 | LaplandNature",
       "description": "핀란드에는 약 188,000개의 호수와 못이 있습니다(SYKE). 라플란드는 그중 가장 맑은 물을 품고 있으며, 댐이 없는 토르니오-무오니오 수계, 아파 습원, 그리고 물을 차갑게 유지하는 숲도 함께 있습니다. 맑은 물이 이 지역에서 가장 희귀한 자산인 이유.",
       "faq": [
         {
@@ -723,8 +723,8 @@
       ]
     },
     "fr": {
-      "title": "Eaux douces de Laponie : lacs, rivières, tourbières et poissons",
-      "description": "La Finlande compte environ 188 000 lacs et étangs (SYKE). La Laponie en abrite les plus purs, avec le système fluvial non aménagé du Tornio-Muonio, les tourbières aapa et les forêts qui gardent l'eau froide. Pourquoi l'eau pure est la ressource la plus rare de la région.",
+      "title": "Eaux douces de Laponie : lacs et rivières | LaplandNature",
+      "description": "La Finlande compte environ 188 000 lacs (SYKE). La Laponie en abrite les plus purs, avec le Tornio-Muonio non aménagé, les tourbières aapa et ses forêts.",
       "faq": [
         {
           "q": "Combien de lacs compte la Finlande ?",
@@ -749,8 +749,8 @@
       ]
     },
     "it": {
-      "title": "Acque dolci di Lapponia: laghi, fiumi, torbiere e pesci",
-      "description": "La Finlandia conta circa 188.000 laghi e stagni (SYKE). La Lapponia ne custodisce i più puri, insieme al sistema fluviale non regolato del Tornio-Muonio, alle torbiere aapa e alle foreste che mantengono fredda l'acqua. Perché l'acqua pulita è la risorsa più rara della regione.",
+      "title": "Acque dolci di Lapponia: laghi, fiumi, pesci | LaplandNature",
+      "description": "La Finlandia conta circa 188.000 laghi (SYKE). La Lapponia custodisce i più puri, con il Tornio-Muonio non regolato, le torbiere aapa e le foreste fredde.",
       "faq": [
         {
           "q": "Quanti laghi ha la Finlandia?",
@@ -775,8 +775,8 @@
       ]
     },
     "nl": {
-      "title": "Zoet water in Lapland: meren, rivieren, venen en vis",
-      "description": "Finland telt ongeveer 188.000 meren en poelen (SYKE). Lapland herbergt enkele van de schoonste, plus het ongereguleerde riviersysteem van de Tornio-Muonio, aapa-venen en de bossen die het water koud houden. Waarom schoon water het zeldzaamste bezit van de regio is.",
+      "title": "Zoet water in Lapland: meren, rivieren, vis | LaplandNature",
+      "description": "Finland telt ongeveer 188.000 meren (SYKE). Lapland herbergt de schoonste, plus het ongereguleerde Tornio-Muonio, aapa-venen en bossen die het water koelen.",
       "faq": [
         {
           "q": "Hoeveel meren heeft Finland?",
@@ -802,7 +802,7 @@
     },
     "sv": {
       "title": "Sötvatten i Lappland: sjöar, älvar, myrar och fisk",
-      "description": "Finland har ungefär 188 000 sjöar och dammar (SYKE). Lappland rymmer några av de renaste, plus det oreglerade Torne–Muonio-älvsystemet, aapamyrar och skogarna som håller vattnet kallt. Varför rent vatten är regionens mest sällsynta tillgång.",
+      "description": "Finland har ungefär 188 000 sjöar (SYKE). Lappland rymmer de renaste, plus det oreglerade Torne–Muonio-älvsystemet, aapamyrar och svala skogar.",
       "faq": [
         {
           "q": "How many lakes does Finland have?",
@@ -830,7 +830,7 @@
   "/hiking-trails": {
     "en": {
       "title": "Lapland Hiking Trails: 5 km Day Hikes to 82 km Routes",
-      "description": "Six hiking trails in and around Finnish Lapland, Hetta-Pallas (55 km), Karhunkierros (82 km), Halti summit (55 km), and three shorter routes. Distance, duration, difficulty and trailhead bases.",
+      "description": "Six hiking trails in and around Finnish Lapland: Hetta-Pallas (55 km), Karhunkierros (82 km), Halti (55 km) and three shorter routes, with trailhead bases.",
       "faq": [
         {
           "q": "How long does the Karhunkierros (Bear Trail) take?",
@@ -856,7 +856,7 @@
     },
     "fi": {
       "title": "Lapin vaellusreitit: 5 km–82 km | LaplandNature",
-      "description": "Kuusi vaellusreittiä Suomen Lapissa ja lähialueilla, Hetta–Pallas (55 km), Karhunkierros (82 km), Halti (55 km) ja kolme lyhyempää reittiä. Etäisyydet, kestot ja porttikylät.",
+      "description": "Kuusi vaellusreittiä Suomen Lapissa ja lähialueilla: Hetta–Pallas (55 km), Karhunkierros (82 km), Halti (55 km) ja kolme lyhyempää. Etäisyydet ja porttikylät.",
       "faq": [
         {
           "q": "Kuinka kauan Karhunkierros kestää?",
@@ -864,7 +864,7 @@
         },
         {
           "q": "Mikä on Lapin suosituin vaellusreitti?",
-          "a": "55 km:n Hetta–Pallas-reitti Pallas-Yllästunturin kansallispuistossa on Suomen suosituin pitkä reitti. Se kulkee lähes koko matkan puurajan yläpuolella avoimin tunturinäkymin, ja tuvat ovat sopivin välimatkoin mukaviin kolmen tai neljän päivän etappeihin Hetan ja Pallaksen välillä."
+          "a": "55 km:n Hetta–Pallas-reitti Pallas-Yllästunturin kansallispuistossa on Suomen suosituin pitkä reitti. Se kulkee lähes koko matkan puurajan yläpuolella avoimin tunturinäkymin, ja tuvat ovat sopivin välimatkoin, joten reitin voi jakaa mukaviin kolmen tai neljän päivän etappeihin Hetan ja Pallaksen välillä."
         },
         {
           "q": "Pitääkö autiotuvat varata etukäteen?",
@@ -872,17 +872,17 @@
         },
         {
           "q": "Kuinka korkea on Suomen korkein kohta, ja voiko sinne vaeltaa?",
-          "a": "Suomen korkein kohta on Haltin rinteellä 1 324 metrissä, syvällä Kilpisjärven takamaastossa lähellä Norjan rajaa. Se on vakava 55 km:n edestakainen reitti kolmesta viiteen päivään; loppunousu on merkitsemätön ja vaatii todellista suunnistustaitoa huonossa näkyvyydessä."
+          "a": "Suomen korkein kohta on Haltin rinteellä 1 324 metrissä, syvällä Kilpisjärven takamaastossa lähellä Norjan rajaa. Se on vaativa 55 km:n edestakainen reitti, johon menee kolmesta viiteen päivää; loppunousu on merkitsemätön ja vaatii todellista suunnistustaitoa huonossa näkyvyydessä."
         },
         {
           "q": "Milloin Lapissa kannattaa vaeltaa?",
-          "a": "Kesäkuun puolivälistä syyskuun loppuun on pääsesonki. Heinäkuu tarjoaa lämpimän sään ja yöttömän yön; alku- ja keskisyyskuu tuo ruskan värit ja paljon vähemmän hyttysiä, joskin yöt painuvat pakkaselle ja pitkospuut muuttuvat liukkaiksi aamuyöstä. Kesätuvat ja lossit kulkevat yleensä kesäkuun alusta syyskuun loppuun."
+          "a": "Kesäkuun puolivälistä syyskuun loppuun on pääsesonki. Heinäkuu tarjoaa lämpimän sään ja yöttömän yön; alku- ja keskisyyskuu tuo ruskan värit ja paljon vähemmän hyttysiä, joskin yöt painuvat pakkaselle ja pitkospuut muuttuvat liukkaiksi aamuyöstä. Kesätuvat ovat auki ja lossit kulkevat yleensä kesäkuun alusta syyskuun loppuun."
         }
       ]
     },
     "de": {
       "title": "Lapplands Wanderwege: 5 km bis 82 km | LaplandNature",
-      "description": "Sechs Wanderwege in Finnisch-Lappland und Umgebung, Hetta–Pallas (55 km), Karhunkierros (82 km), Halti (55 km) und drei kürzere Routen. Distanz, Dauer und Basen.",
+      "description": "Sechs Wanderwege in Finnisch-Lappland und Umgebung: Hetta–Pallas (55 km), Karhunkierros (82 km), Halti (55 km) und drei kürzere Routen. Distanz und Basen.",
       "faq": [
         {
           "q": "Wie lange dauert der Karhunkierros (Bärenpfad)?",
@@ -894,7 +894,7 @@
         },
         {
           "q": "Muss man die Wildnishütten im Voraus buchen?",
-          "a": "Offene Wildnishütten (autiotupa) sind kostenlos und werden nach dem Prinzip „wer zuerst kommt“ vergeben, man kann sie nicht reservieren, und zur Ruska-Hochzeit im September können sie schon am frühen Nachmittag voll sein. Reservierungshütten (varaustupa) müssen im Voraus gebucht und bezahlt werden, meist rund 14 € pro Schlafplatz, und lohnen sich für ein garantiertes Bett auf stark frequentierten Abschnitten."
+          "a": "Offene Wildnishütten (autiotupa) sind kostenlos und werden nach dem Prinzip „wer zuerst kommt“ vergeben, man kann sie nicht reservieren, und auf dem Ruska-Höhepunkt im September können sie schon am frühen Nachmittag voll sein. Reservierungshütten (varaustupa) müssen im Voraus gebucht und bezahlt werden, meist rund 14 € pro Schlafplatz, und lohnen sich für ein garantiertes Bett auf stark frequentierten Abschnitten."
         },
         {
           "q": "Wie hoch ist Finnlands höchster Punkt, und kann man ihn erwandern?",
@@ -1064,7 +1064,7 @@
     },
     "it": {
       "title": "Sentieri di trekking in Lapponia: 5–82 km | LaplandNature",
-      "description": "Sei sentieri di trekking nella Lapponia finlandese e dintorni, Hetta-Pallas (55 km), Karhunkierros (82 km), vetta dell'Halti (55 km) e tre itinerari più brevi.",
+      "description": "Sei sentieri di trekking nella Lapponia finlandese e dintorni: Hetta-Pallas (55 km), Karhunkierros (82 km), Halti (55 km) e tre itinerari brevi.",
       "faq": [
         {
           "q": "Quanto tempo richiede il Karhunkierros (Sentiero dell'orso)?",
@@ -1116,7 +1116,7 @@
     },
     "sv": {
       "title": "Vandringsleder i Lappland: från 5 km dagsturer till 82 km",
-      "description": "Sex vandringsleder i finska Lappland med omnejd, Hetta-Pallas (55 km), Karhunkierros (82 km), Halti-toppen (55 km) och tre kortare rutter. Distans, tid, svårighet och ledstartsbaser.",
+      "description": "Sex vandringsleder i finska Lappland med omnejd: Hetta-Pallas (55 km), Karhunkierros (82 km), Halti (55 km) och tre kortare rutter. Distans och baser.",
       "faq": [
         {
           "q": "Hur lång tid tar Karhunkierros (Björnleden)?",
@@ -1144,7 +1144,7 @@
   "/national-parks": {
     "en": {
       "title": "Lapland National Parks: 5 Wildernesses to Hike",
-      "description": "Five of Finnish Lapland's national parks: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi and Pyhä-Luosto. Gateway villages, signature features and when to visit.",
+      "description": "Five Finnish Lapland national parks: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi, Pyhä-Luosto. Gateway villages and when to visit.",
       "faq": [
         {
           "q": "How many national parks are there in Lapland?",
@@ -1174,7 +1174,7 @@
       "faq": [
         {
           "q": "Kuinka monta kansallispuistoa Lapissa on?",
-          "a": "Lapissa on viisi Suomen suosituimmista erämaapuistoista: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi ja Pyhä-Luosto. Jokaisella on oma porttikylänsä tukikohdaksi, Saariselkä UKK:lle, Hetta ja Muonio Pallas-Yllästunturille."
+          "a": "Lapissa on viisi Suomen suosituimmista erämaapuistoista: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi ja Pyhä-Luosto. Jokaisella on oma porttikylänsä tukikohdaksi: Saariselkä UKK:lle, Hetta ja Muonio Pallas-Yllästunturille."
         },
         {
           "q": "Mikä on Lapin suurin kansallispuisto?",
@@ -1186,7 +1186,7 @@
         },
         {
           "q": "Milloin puistoihin kannattaa mennä?",
-          "a": "Alku- ja keskisyyskuu ruskaa varten, kesä- ja heinäkuu yöttömän yön ja pitkien vaelluspäivien vuoksi, ja helmi–maaliskuu tykkylumen ja hiihtovaellusten aikaan, Riisitunturi on vaikuttavimmillaan raskaan tykyn alla lopputalvella. Kesätuvat ja lossit kulkevat tyypillisesti kesäkuun alusta syyskuun loppuun."
+          "a": "Alku- ja keskisyyskuu ruskaa varten, kesä- ja heinäkuu yöttömän yön ja pitkien vaelluspäivien vuoksi, ja helmi–maaliskuu tykkylumen ja hiihtovaellusten aikaan; Riisitunturi on vaikuttavimmillaan raskaan tykyn alla lopputalvella. Kesätuvat ovat auki ja lossit kulkevat tyypillisesti kesäkuun alusta syyskuun loppuun."
         },
         {
           "q": "Missä Lapin kansallispuistossa voi kaivaa kultaa?",
@@ -1196,11 +1196,11 @@
     },
     "de": {
       "title": "Lapplands Nationalparks: 5 Wildnisse | LaplandNature",
-      "description": "Fünf der Nationalparks Finnisch-Lapplands: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi und Pyhä-Luosto. Tordörfer und beste Reisezeit.",
+      "description": "Fünf der Nationalparks Finnisch-Lapplands: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi und Pyhä-Luosto. Ausgangsorte und beste Reisezeit.",
       "faq": [
         {
           "q": "Wie viele Nationalparks gibt es in Lappland?",
-          "a": "In Lappland liegen fünf der meistbesuchten Wildnisparks Finnlands: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi und Pyhä-Luosto. Jeder hat ein eigenes Tordorf als Ausgangspunkt, Saariselkä für den UKK, Hetta und Muonio für Pallas-Yllästunturi."
+          "a": "In Lappland liegen fünf der meistbesuchten Wildnisparks Finnlands: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi und Pyhä-Luosto. Jeder hat einen eigenen Ausgangsort, Saariselkä für den UKK, Hetta und Muonio für Pallas-Yllästunturi."
         },
         {
           "q": "Welcher ist der größte Nationalpark im finnischen Lappland?",
@@ -1430,7 +1430,7 @@
     },
     "sv": {
       "title": "Lapplands nationalparker: 5 vildmarker att vandra",
-      "description": "Finska Lapplands fem nationalparker, Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi och Pyhä-Luosto. Ingångsbyar, kännetecken och bästa tiden att besöka.",
+      "description": "Finska Lapplands fem nationalparker: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi och Pyhä-Luosto. Ingångsbyar och bästa tiden.",
       "faq": [
         {
           "q": "Hur många nationalparker finns det i Lappland?",
@@ -1458,7 +1458,7 @@
   "/northern-lights": {
     "en": {
       "title": "Northern Lights in Lapland: Where & When to See Them",
-      "description": "Where to see the northern lights in Finnish Lapland, Inari, Utsjoki, Kilpisjärvi and Enontekiö. Aurora season runs September to March, with darkest skies during the kaamos polar night.",
+      "description": "Where to see the northern lights in Finnish Lapland: Inari, Utsjoki, Kilpisjärvi, Enontekiö. Season runs September to early April, darkest skies during kaamos.",
       "faq": [
         {
           "q": "What Kp index do I need to see the aurora in Lapland?",
@@ -1484,7 +1484,7 @@
     },
     "fi": {
       "title": "Revontulet Lapissa: missä ja milloin näkee | LaplandNature",
-      "description": "Missä nähdä revontulet Suomen Lapissa, Inari, Utsjoki, Kilpisjärvi ja Enontekiö. Revontulikausi syyskuusta maaliskuuhun, pimeimmät yöt kaamoksen aikaan.",
+      "description": "Missä nähdä revontulet Suomen Lapissa, Inari, Utsjoki, Kilpisjärvi ja Enontekiö. Revontulikausi syyskuusta huhtikuun alkuunhun, pimeimmät yöt kaamoksen aikaan.",
       "faq": [
         {
           "q": "Mikä Kp-indeksi tarvitaan revontulien näkemiseen Lapissa?",
@@ -1492,7 +1492,7 @@
         },
         {
           "q": "Mikä kuukausi on paras revontulille Lapissa?",
-          "a": "Maaliskuu on vahvin yksittäinen kuukausi: taivas on riittävän pimeä, yöt vielä pitkiä ja geomagneettinen aktiivisuus huipentuu usein kevätpäiväntasauksen tienoilla. Syyskuu on toinen otollinen hetki, leudommat lämpötilat ja sula vesi heijastaa revontulet ennen kuin järvet jäätyvät. Koko kausi kulkee elokuun lopusta huhtikuun alkuun."
+          "a": "Maaliskuu on vahvin yksittäinen kuukausi: taivas on riittävän pimeä, yöt vielä pitkiä ja geomagneettinen aktiivisuus huipentuu usein kevätpäiväntasauksen tienoilla. Syyskuu on toinen otollinen hetki: lämpötilat ovat leudommat, ja sula vesi heijastaa revontulet ennen kuin järvet jäätyvät. Koko kausi kestää elokuun lopusta huhtikuun alkuun."
         },
         {
           "q": "Näkeekö revontulet Rovaniemeltä?",
@@ -1503,8 +1503,8 @@
           "a": "Aikaväli noin klo 21–02 paikallista aikaa on luotettavin, ja aktiivisuus huipentuu usein magneettisen keskiyön tienoilla (Suomessa noin klo 23–01). Alimyrskyt voivat leimahtaa milloin tahansa, joten hiljaisen jakson yli kannattaa jäädä odottamaan, aktiivinen vaihe seuraa usein tyyntä hetkeä."
         },
         {
-          "q": "Tarvitseeko varata retken, vai näkeekö revontulet omin päin?",
-          "a": "Näet ne aivan hyvin omin päin, jos sinulla on auto, pimeä paikka avoimella pohjoishorisontilla ja kärsivällisyyttä odottaa pilvirakoja. Opastettu retki ansaitsee hintansa lähinnä liikkuvuudella: paikalliset oppaat seuraavat pilviennustetta ja siirtyvät alueella, mikä nostaa osumaprosenttia epävarmoina öinä."
+          "q": "Tarvitseeko varata retki, vai näkeekö revontulet omin päin?",
+          "a": "Näet ne aivan hyvin omin päin, jos sinulla on auto, pimeä paikka avoimella pohjoishorisontilla ja kärsivällisyyttä odottaa pilvirakoja. Opastettu retki ansaitsee hintansa lähinnä liikkuvuudella: paikalliset oppaat seuraavat pilviennustetta ja liikkuvat alueella, mikä nostaa osumaprosenttia epävarmoina öinä."
         }
       ]
     },
@@ -1536,7 +1536,7 @@
     },
     "ja": {
       "title": "ラップランドのオーロラ: 観察場所と時期 | LaplandNature",
-      "description": "フィンランド・ラップランドでオーロラを観察できる場所、イナリ、ウツヨキ、キルピスヤルヴィ、エノンテキオ。シーズンは9月から3月、最も暗い空は極夜カーモスの時期です。",
+      "description": "フィンランド・ラップランドでオーロラを観察できる場所、イナリ、ウツヨキ、キルピスヤルヴィ、エノンテキオ。シーズンは9月から4月上旬、最も暗い空は極夜カーモスの時期です。",
       "faq": [
         {
           "q": "ラップランドでオーロラを見るには、どのくらいのKp指数が必要ですか？",
@@ -1614,7 +1614,7 @@
     },
     "zh-CN": {
       "title": "拉普兰的极光:在哪里、何时观赏 | LaplandNature",
-      "description": "在芬兰拉普兰何处观赏极光，伊纳里、Utsjoki、基尔皮斯耶尔维与 Enontekiö。极光季从九月持续到三月,在极夜 kaamos 期间天空最暗。",
+      "description": "在芬兰拉普兰何处观赏极光，伊纳里、Utsjoki、基尔皮斯耶尔维与 Enontekiö。极光季从九月持续到四月上旬,在极夜 kaamos 期间天空最暗。",
       "faq": [
         {
           "q": "在拉普兰看极光需要多高的 Kp 指数?",
@@ -1666,7 +1666,7 @@
     },
     "fr": {
       "title": "Aurore boréale en Laponie : où & quand | LaplandNature",
-      "description": "Où voir l'aurore boréale en Laponie finlandaise, Inari, Utsjoki, Kilpisjärvi et Enontekiö. Saison de septembre à mars.",
+      "description": "Où voir l'aurore boréale en Laponie finlandaise, Inari, Utsjoki, Kilpisjärvi et Enontekiö. Saison de septembre à début avril.",
       "faq": [
         {
           "q": "Quel indice Kp faut-il pour voir l'aurore en Laponie ?",
@@ -1776,7 +1776,7 @@
     },
     "fi": {
       "title": "Tietosuojakäytäntö, LaplandNature",
-      "description": "Miten Lapeso Oy (LaplandNature) käsittelee henkilötietoja: uutiskirjeen tilaukset, analytiikka ja affiliate-evästeet. GDPR / ePrivacy mukaista."
+      "description": "Miten Lapeso Oy (LaplandNature) käsittelee henkilötietoja: uutiskirjeen tilaukset, analytiikka ja affiliate-evästeet. GDPR:n ja ePrivacyn mukaisesti."
     },
     "de": {
       "title": "Datenschutzerklärung, LaplandNature",
@@ -1804,7 +1804,7 @@
     },
     "fr": {
       "title": "Politique de confidentialité, LaplandNature",
-      "description": "Comment Lapeso Oy (LaplandNature) traite les données personnelles : inscriptions à la newsletter, analytics et cookies d'affiliation. Conforme RGPD / ePrivacy."
+      "description": "Comment Lapeso Oy (LaplandNature) traite les données personnelles : inscriptions à la newsletter, analytics et cookies d’affiliation. Conforme RGPD."
     },
     "it": {
       "title": "Informativa sulla privacy, LaplandNature",
@@ -1822,7 +1822,7 @@
   "/seasons": {
     "en": {
       "title": "Lapland's Four Seasons: Ruska, Kaamos & Midnight Sun",
-      "description": "Each season above the Arctic Circle is a different world, ruska autumn colour, kaamos polar night, midnight sun, and the spring snow window. When to come, and what to expect.",
+      "description": "Each season above the Arctic Circle is a different world: ruska autumn colour, kaamos polar night, midnight sun and the spring snow window. When to come.",
       "faq": [
         {
           "q": "When is the kaamos polar night in Lapland?",
@@ -1852,11 +1852,11 @@
       "faq": [
         {
           "q": "Milloin on kaamos Lapissa?",
-          "a": "Kaamos, polaariyö, ajoittuu suunnilleen marraskuun lopusta tammikuun puoliväliin. Mitä pohjoisemmas mennään, sitä pidempään se kestää: Utsjoella, Suomen pohjoisimmassa kolkassa, aurinko pysyy horisontin alla noin 51 vuorokautta. Se ei silti ole pilkkopimeää, lumi heijastaa pitkää sinivioletit hämärää keskellä päivää, ja kaamos on revontulikauden aktiivisinta aikaa."
+          "a": "Kaamos, polaariyö, ajoittuu suunnilleen marraskuun lopusta tammikuun puoliväliin. Mitä pohjoisemmas mennään, sitä pidempään se kestää: Utsjoella, Suomen pohjoisimmassa kolkassa, aurinko pysyy horisontin alla noin 51 vuorokautta. Se ei silti ole pilkkopimeää: lumi heijastaa pitkää siniviolettia hämärää keskellä päivää, ja kaamos on revontulikauden aktiivisinta aikaa."
         },
         {
           "q": "Milloin yötön yö on Lapissa?",
-          "a": "Yötön yö kulkee suunnilleen kesäkuun alusta heinäkuun alkuun suuressa osassa Lappia, ja sitä pidempään mitä pohjoisemmas mennään, pohjoisimmilla tuntureilla aurinko ei laske kunnolla yli 70 vuorokauteen. Napapiirin pohjoispuolella voi vaeltaa, kalastaa tai meloa keskiyöllä täydessä päivänvalossa."
+          "a": "Yötön yö kestää suunnilleen kesäkuun alusta heinäkuun alkuun suuressa osassa Lappia, ja sitä pidempään mitä pohjoisemmas mennään: pohjoisimmilla tuntureilla aurinko ei laske kunnolla yli 70 vuorokauteen. Napapiirin pohjoispuolella voi vaeltaa, kalastaa tai meloa keskiyöllä täydessä päivänvalossa."
         },
         {
           "q": "Milloin ruska on Lapissa?",
@@ -2108,7 +2108,7 @@
     },
     "sv": {
       "title": "Lapplands fyra årstider: ruska, kaamos och midnattssol",
-      "description": "Varje årstid norr om polcirkeln är en annan värld, ruska-höstfärger, kaamos-polarnatt, midnattssol och vårsnöfönstret. När du ska komma, och vad du kan vänta dig.",
+      "description": "Varje årstid norr om polcirkeln är en annan värld: ruska-höstfärger, kaamos-polarnatt, midnattssol och vårsnöfönstret. När du ska komma.",
       "faq": [
         {
           "q": "När är kaamos-polarnatten i Lappland?",
@@ -2144,7 +2144,7 @@
     },
     "de": {
       "title": "Nutzungsbedingungen, LaplandNature",
-      "description": "Bedingungen für die Nutzung von LaplandNature.com, Inhaltslizenzierung, Affiliate-Hinweise und redaktionelle Standards. Betrieben von Lapeso Oy in Finnland."
+      "description": "Bedingungen für die Nutzung von LaplandNature.com, Inhaltslizenzierung, Affiliate-Hinweise und redaktionelle Standards. Von Lapeso Oy in Finnland."
     },
     "ja": {
       "title": "利用規約，LaplandNature",
@@ -2186,7 +2186,7 @@
   "/wildlife": {
     "en": {
       "title": "Lapland Wildlife: Reindeer, Bears, Wolverine & Fox",
-      "description": "Six iconic arctic species you can encounter in Finnish Lapland, from 200,000 semi-domesticated reindeer to the critically endangered arctic fox and the elusive wolverine.",
+      "description": "Six arctic species you can encounter in Finnish Lapland, from 200,000 semi-domesticated reindeer to the critically endangered arctic fox and the wolverine.",
       "faq": [
         {
           "q": "When can you see brown bears in Finnish Lapland?",
@@ -2212,11 +2212,11 @@
     },
     "fi": {
       "title": "Lapin eläimistö: porot, karhut, ahma ja muut | LaplandNature",
-      "description": "Kuusi ikonista arktista lajia jotka voit kohdata Suomen Lapissa, 200 000 puolikesyä porosta erittäin uhanalaiseen naaliin ja vaikeasti tavoitettavaan ahmaan.",
+      "description": "Kuusi ikonista arktista lajia jotka voit kohdata Suomen Lapissa, 200 000 puolikesyä porosta äärimmäisen uhanalaiseen naaliin ja vaikeasti tavoitettavaan ahmaan.",
       "faq": [
         {
           "q": "Milloin Lapissa voi nähdä karhuja?",
-          "a": "Karhunkatselu kulkee huhtikuun lopusta syyskuun alkuun, ja yökuvaamiskojut keskittyvät Itä-Suomeen Kuusamon, Suomussalmen ja Lieksan seudulle, Lapin rajan eteläpuolelle. Touko-kesäkuun vaihde on paras emojen ja pentujen näkemiseen, heinäkuu tuo luotettavasti yksinäiset urokset ja helpon sään, ja syyskuu lisää mahdollisuuden nähdä susia sekä syksyn valon."
+          "a": "Karhunkatselukausi kestää huhtikuun lopusta syyskuun alkuun, ja yökuvauskojut keskittyvät Itä-Suomeen Kuusamon, Suomussalmen ja Lieksan seudulle, Lapin rajan eteläpuolelle. Touko-kesäkuun vaihde on paras emojen ja pentujen näkemiseen, heinäkuu tuo luotettavasti yksinäiset urokset ja helpon sään, ja syyskuu lisää mahdollisuuden nähdä susia sekä syksyn valon."
         },
         {
           "q": "Kuinka todennäköisesti kojusta näkee karhun?",
@@ -2224,7 +2224,7 @@
         },
         {
           "q": "Kuinka monta poroa Lapissa on, ja ovatko ne villejä?",
-          "a": "Lapissa kuljeskelee noin 200 000 puolikesyä poroa. Ne eivät ole villejä, jokainen eläin on omistettu ja korvamerkitty paliskunnassa, ja porot ovat olleet saamelaisen kulttuurin ytimessä tuhansia vuosia. Ne laiduntavat vapaasti tuntureilla ja metsissä, joten niitä kohtaa säännöllisesti tienvarsilla."
+          "a": "Lapissa kuljeskelee noin 200 000 puolikesyä poroa. Ne eivät ole villejä, vaan jokaisella eläimellä on omistaja ja paliskunnan korvamerkki, ja porot ovat olleet saamelaisen kulttuurin ytimessä tuhansia vuosia. Ne laiduntavat vapaasti tuntureilla ja metsissä, joten niitä kohtaa säännöllisesti tienvarsilla."
         },
         {
           "q": "Mikä on Lapin harvinaisin eläin?",
@@ -2232,7 +2232,7 @@
         },
         {
           "q": "Paljonko karhunkatselukoju maksaa?",
-          "a": "Varaudu noin 280–450 euroon henkilöltä yhdeltä yöltä, yleensä hintaan kuuluu kuljetus kohtaamispaikalta, illallinen, vuode kojussa ja opas. Heinäkuun viikonloput varataan kuukausia etukäteen, joten varaa kesäsesongin huippupäivät kuusi kuukautta tai enemmän etuajassa."
+          "a": "Varaudu noin 280–450 euroon henkilöltä yhdeltä yöltä, yleensä hintaan kuuluu kuljetus kohtaamispaikalta, illallinen, vuode kojussa ja opas. Heinäkuun viikonloput varataan kuukausia etukäteen, joten varaa kesäsesongin huippupäivät vähintään kuusi kuukautta etukäteen."
         }
       ]
     },
@@ -2242,7 +2242,7 @@
       "faq": [
         {
           "q": "Wann kann man im finnischen Lappland Braunbären sehen?",
-          "a": "Die Braunbärenbeobachtung läuft von Ende April bis Anfang September, wobei sich die Fotohütten für Übernachtungen um Kuusamo, Suomussalmi und Lieksa in Ostfinnland konzentrieren, südlich von Lappland, konzentrieren. Ende Mai und Anfang Juni ist am besten für Bärinnen mit Jungen; der Juli bringt verlässlich einzelne Männchen und einfaches Wetter; der September fügt die Chance hinzu, Wölfe zu sehen, sowie das Herbstlicht."
+          "a": "Die Braunbärenbeobachtung läuft von Ende April bis Anfang September, wobei sich die Fotohütten für Übernachtungen um Kuusamo, Suomussalmi und Lieksa in Ostfinnland konzentrieren, südlich von Lappland. Ende Mai und Anfang Juni ist am besten für Bärinnen mit Jungen; der Juli bringt verlässlich einzelne Männchen und einfaches Wetter; der September fügt die Chance hinzu, Wölfe zu sehen, sowie das Herbstlicht."
         },
         {
           "q": "Wie wahrscheinlich sehe ich aus einer Hütte tatsächlich einen Bären?",

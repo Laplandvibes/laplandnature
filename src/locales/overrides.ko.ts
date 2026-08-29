@@ -61,6 +61,7 @@ export const KO_OVERRIDES: DeepPartial<SectionCopy> = {
     lead: '다시 찾을 만한 16곳, 국립공원 다섯 곳, 오로라 마을 네 곳, 트레일 시작점 네 곳, 야생동물 통로 세 곳. 핀을 클릭하면 요약을 볼 수 있습니다.',
     foot: '지도: OpenStreetMap. 핀은 편집부의 선정으로, Metsähallitus 목록이 아닙니다.',
     openGuide: '가이드 열기 →',
+    resetView: '전체 보기',
     legend: { park: '국립공원', aurora: '오로라 관측', trail: '트레일 시작점', wildlife: '야생동물' },
     pins: [
       { name: '우르호 케코넨 국립공원', note: '핀란드에서 두 번째로 큰 공원 · 관문: 사리셀캐' },
@@ -76,7 +77,7 @@ export const KO_OVERRIDES: DeepPartial<SectionCopy> = {
       { name: '루카 / 오울란카', note: '82km 카르훈키에로스 · 출렁다리와 협곡 · 쿠사모, 라플란드 바로 남쪽' },
       { name: '킬피스얘르비 (할티)', note: '핀란드 최고봉 할티(1,324m)까지 왕복 55km' },
       { name: '퓌해', note: '퓌해쿠루 협곡 · 무장애 보드워크 · 5km' },
-      { name: '쿠사모 곰 관찰대', note: '불곰 관찰대 · 99% 목격률 · 5~9월 · 라플란드 바로 남쪽' },
+      { name: '쿠사모 곰 관찰대', note: '불곰 관찰대 · 1박 약 90%, 2박 99% · 5~9월 · 라플란드 바로 남쪽' },
       { name: '넬림 야생지', note: '넬림 야생 로지 · 울버린과 불곰 서식지' },
       { name: '카마넨 순록', note: '사미 순록 몰이 · 가을 (paliskunta)' },
     ],
@@ -99,7 +100,7 @@ export const KO_OVERRIDES: DeepPartial<SectionCopy> = {
       hHighlight: '북위 66°–69°',
       hSuffix: '에 있습니다. 다섯 국립공원, 사계절의 빛, 그리고 유럽에서 가장 긴 오로라 창.',
       stats: [
-        { value: '37%', primary: '핀란드 국토', body: '가 북극권 이북에 자리합니다' },
+        { value: '30%', primary: '핀란드 국토', body: '가 라플란드 주, 100,367 km²' },
         { value: '40+', primary: '보호 구역', body: '국립공원, 엄정 보호구역, Natura 2000' },
         { value: '70', primary: '백야 일수', body: '우츠요키, 6월부터 8월까지' },
         { value: '200+', primary: '오로라 밤', body: '북위 67° 이북에서 연간 관측' },
@@ -111,7 +112,7 @@ export const KO_OVERRIDES: DeepPartial<SectionCopy> = {
       lead: '러시아 국경 근처의 곰 관찰 은신처부터 얼음 폭포 협곡, 백야 아래의 카누, 우츠요키 위 카모스의 하늘까지, 다시 돌아올 수 있는 일곱 편의 가이드.',
       items: [
         { tag: '보호 구역', title: '국립공원', blurb: '7,000㎢가 넘는 보호된 황야의 다섯 국립공원, 우르호 케코넨의 펠부터 리시툰투리의 눈 덮인 나무까지.', cta: '국립공원 둘러보기' },
-        { tag: '야생동물', title: '야생동물 관찰', blurb: '야간 은신처에서 99%의 목격률로 갈색곰을 추적하고, 반야생 순록 무리를 만나고, 울버린의 흔적을 봅니다.', cta: '야생동물 둘러보기' },
+        { tag: '야생동물', title: '야생동물 관찰', blurb: '야간 은신처에서 갈색곰을 추적합니다. 1박 목격률 약 90%, 2박이면 99%. 반야생 순록 무리를 만나고, 울버린의 흔적을 봅니다.', cta: '야생동물 둘러보기' },
         { tag: '오로라', title: '오로라', blurb: '9월부터 4월까지 북극 하늘에서 오로라를 쫓으세요. 우츠요키는 맑은 밤 다섯 번 중 네 번 오로라를 보여줍니다.', cta: '오로라 둘러보기' },
         { tag: '트레일', title: '하이킹', blurb: '카르훈키에로스의 출렁다리(82km)부터 할티 정상(1,324m)까지, 핀란드에서 가장 상징적인 트레일.', cta: '하이킹 둘러보기' },
         { tag: '관리', title: '자연 보호', blurb: 'Metsähallitus는 라플란드 펠의 85%와 일곱 국립공원을 모두 관리합니다. 거기에 누구나 자연에 접근할 수 있는 핀란드 자연향유권까지.', cta: '자연 보호 둘러보기' },
@@ -140,7 +141,7 @@ export const KO_OVERRIDES: DeepPartial<SectionCopy> = {
         { name: 'Ruka / Oulanka', note: '82km Karhunkierros · 출렁다리와 협곡 · 쿠사모, 라플란드 바로 남쪽' },
         { name: 'Kilpisjärvi (Halti)', note: '핀란드 최고봉 Halti(1,324m) 왕복 55km' },
         { name: 'Pyhä', note: 'Pyhäkuru 협곡 · 무장애 보드워크 · 5km' },
-        { name: 'Kuusamo 곰 관찰 은신처', note: '불곰 관찰 은신처 · 목격률 99% · 5~9월 · 라플란드 바로 남쪽' },
+        { name: 'Kuusamo 곰 관찰 은신처', note: '불곰 관찰 은신처 · 1박 약 90%, 2박 99% · 5~9월 · 라플란드 바로 남쪽' },
         { name: 'Nellim 야생지', note: 'Nellim 야생 로지 · 울버린과 불곰 서식지' },
         { name: 'Kaamanen 순록', note: '사미족 순록 몰이 · 가을 (paliskunta)' },
       ],
@@ -160,10 +161,10 @@ export const KO_OVERRIDES: DeepPartial<SectionCopy> = {
       eyebrow: '핵심 가이드',
       title: '오로라',
       subtitle: '북극광',
-      description: '우츠요키에서는 성수기 동안 맑은 밤 다섯 번 중 네 번 오로라를 볼 수 있습니다. 9월에서 4월 중순까지가 가장 좋으며, 3월이 절정의 달입니다.',
+      description: '우츠요키에서는 성수기 동안 맑은 밤 다섯 번 중 네 번 오로라를 볼 수 있습니다. 9월에서 4월 초까지가 가장 좋으며, 3월이 절정의 달입니다.',
     },
     bestSeason: '최적의 시기:',
-    bestSeasonValue: '9월 → 3월',
+    bestSeasonValue: '9월 → 4월 초',
     bestSeasonSuffix: ' · 카모스(11–1월)에 가장 어둡습니다',
     spotsH2: '최고의 관측 장소',
     spotsLead: '위도만으로 좋은 오로라 명소가 되는 것은 아닙니다. 중요한 것은 어두운 하늘, 트인 북쪽 지평선, 그리고 구름이 걷힐 때까지 기다릴 수 있는 잠자리입니다.',
@@ -282,7 +283,7 @@ export const KO_OVERRIDES: DeepPartial<SectionCopy> = {
       eyebrow: '핵심 가이드',
       title: '야생동물 관찰',
       subtitle: '북극의 동물들',
-      description: '야간 은신처에서 99% 목격률로 갈색곰을 추적하고, 반야생 순록 무리를 만나며, 좀처럼 모습을 드러내지 않는 울버린을 찾아보세요, 검증된 운영자와 실제 데이터를 바탕으로.',
+      description: '야간 은신처에서 갈색곰을 추적하세요. 1박 목격률은 약 90%, 2박이면 99%입니다. 반야생 순록 무리와 좀처럼 모습을 드러내지 않는 울버린을, 검증된 운영자와 실제 데이터를 바탕으로.',
     },
     animals: [
       { name: '순록', description: '약 20만 마리의 반사육 순록이 핀란드 라플란드를 누비며, 수천 년에 걸친 사미인 유목 문화의 중심이 되어 왔습니다. 펠과 숲을 자유롭게 풀로 뜯으며, 도로변에서도 마주칠 수 있습니다.', status: '흔함' },
@@ -533,7 +534,7 @@ export const KO_OVERRIDES: DeepPartial<SectionCopy> = {
     ],
   },
   freshwater: {
-    metaTitle: '라플란드의 담수: 호수, 강, 습원, 그리고 물고기',
+    metaTitle: '라플란드의 담수: 호수, 강, 습원, 그리고 물고기 | LaplandNature',
     metaDescription: '핀란드에는 약 188,000개의 호수와 못이 있습니다(SYKE). 라플란드는 그중 가장 맑은 물을 품고 있으며, 댐이 없는 토르니오-무오니오 수계, 아파 습원, 그리고 물을 차갑게 유지하는 숲도 함께 있습니다. 맑은 물이 이 지역에서 가장 희귀한 자산인 이유.',
     hero: {
       eyebrow: '핵심 가이드',
@@ -650,7 +651,7 @@ export const KO_OVERRIDES: DeepPartial<SectionCopy> = {
     metaDescription: 'LaplandNature.com이 사용하는 쿠키와 그 이유, 관리 방법. GDPR/ePrivacy를 준수하는 Lapeso Oy의 쿠키 공개입니다.',
   },
   bearKuusamo: {
-    metaTitle: 'Bear Kuusamo: 핀란드의 윤리적인 곰 관찰',
+    metaTitle: 'Bear Kuusamo: 핀란드의 윤리적인 곰 관찰 | LaplandNature',
     metaDescription: 'Bear Kuusamo는 루카·쿠사모 지역에서 가장 오래되고 가장 북쪽에 있는 곰 관찰 하이드를 운영합니다. 라플란드 바로 곁, 핀란드에서 진짜 곰 관찰을 5월 1일부터 9월 30일까지.',
     partnership: '유료 협찬 · Bear Kuusamo',
     hero: {

@@ -33,7 +33,7 @@ const statusColor: Record<string, string> = {
   'Vom Aussterben bedroht': 'bg-rose-500/10 text-rose-700',
   'Near Threatened': 'bg-amber-500/10 text-amber-700',
   'Silmälläpidettävä': 'bg-amber-500/10 text-amber-700',
-  'Gefährdet': 'bg-amber-500/10 text-amber-700',
+  'Potenziell gefährdet': 'bg-amber-500/10 text-amber-700',
   'Endangered': 'bg-orange-500/10 text-orange-700',
   'Uhanalainen': 'bg-orange-500/10 text-orange-700',
   'Stark gefährdet': 'bg-orange-500/10 text-orange-700',
