@@ -75,7 +75,7 @@ const bearKuusamo: Partner = {
     de: {
       tagline: 'Eine Nacht im Bärenversteck, am Rand Lapplands',
       description: 'Kuusamos ursprüngliche Bärenführer, über zwanzig Jahre in den Wäldern an der Ostgrenze. Beobachte wilde Braunbären, Vielfraße und Seeadler aus einem Fotoversteck.',
-      cta: 'Plane deine Nacht',
+      cta: 'Planen Sie Ihre Nacht',
       articleLabel: 'Artikel lesen',
       articleUrl: 'https://laplandvibes.com/de/blog/bear-kuusamo/',
       url: 'https://go.laplandvibes.com/go/bearkuusamo?sid=home_card_a&dest=https%3A%2F%2Fbearkuusamo.com%2Fde%2F',
