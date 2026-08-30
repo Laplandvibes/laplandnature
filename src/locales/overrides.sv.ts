@@ -571,6 +571,17 @@ export const SV_OVERRIDES: DeepPartial<SectionCopy> = {
       fishing: 'Fiske i Lappland (aktiviteter) →',
       hub: 'Bredare reseguide för Lappland →',
     },
+    faq: {
+      eyebrow: 'Vanliga frågor',
+      h2: 'Sötvatten i Lappland, vanliga frågor',
+      items: [
+        { q: 'Hur många sjöar har Finland?', a: 'Ungefär 188 000 sjöar och dammar på minst 0,05 hektar, enligt SYKE:s nationella sjöregister (Järvi-meriwiki). Antalet beror på vilken storleksgräns som används, ungefär 57 000 sjöar om du bara räknar dem som är större än en hektar, så huvudsiffran syftar alltid på gränsen 0,05 hektar. Lappland rymmer några av de renaste av dem.' },
+        { q: 'Är Torne älv verkligen en fritt flödande älv?', a: 'Ja. Tillsammans med svenska Kalix älv (Kalixälven) är Torne–Muonio-systemet ett av bara två stora oreglerade älvsystem som finns kvar i Finland och EU, enligt ymparisto.fi, vilket betyder att det inte har dämts för vattenkraft. Även dess viktigaste biflöde, Ounasjoki, är skyddat från dämning. Det odämda tillståndet är skälet till att den fortfarande är en fungerande vildlaxälv.' },
+        { q: 'Varför är aapamyrar viktiga för fisket?', a: 'En myr fungerar som avrinningsområdets njure: den lagrar smältvatten och regn, släpper ut det långsamt under torrperioder och filtrerar bort sediment och näringsämnen innan de når en älv. Det håller vattnet nedströms kallt, klart och jämnt, precis vad lekande lax och öring behöver. Att dika ut myrar gör älvarna varmare och grumligare och försvagar fiskbestånden.' },
+        { q: 'Får jag fiska lax i Tana 2026?', a: 'Nej. Fiske efter atlantlax i Tana (Tenojoki) är förbjudet 2026 enligt protokollet i det finsk-norska fiskeavtalet för Tana, i kraft till och med 31 december 2026, eftersom laxbestånden är för svaga. Ett tillstånd för andra arter finns, men laxen måste lämnas i fred. Kontrollera alltid gällande regler på tenonkalatalousalue.fi innan du reser.' },
+        { q: 'Behöver jag tillstånd för att fiska i Lappland?', a: 'För det mesta fisket med bete eller redskap, ja: alla i åldern 18–69 år betalar den nationella fiskevårdsavgiften (47 € för året, 16 € för en vecka, 6 € för en dag, via eraluvat.fi), och många vatten kräver dessutom ett separat områdestillstånd. Enkelt mete och pimpelfiske under allemansrätten är gratis, och de under 18 år och de som är 70 år och äldre är befriade från den nationella avgiften.' },
+      ],
+    },
     verifyLine: 'Källor: SYKE (Järvi-meriwiki sjöregister), ymparisto.fi (Torne–Muonio Natura 2000), ym.fi (Ramsar-våtmarker), Metsähallitus, Luke, eräluvat.fi och det finsk-norska Tana-avtalet. Årliga fiskeregler, avgifter och säsonger bestäms om varje år, bekräfta gällande siffror på de officiella sidorna innan du reser.',
   },
   notFound: {
