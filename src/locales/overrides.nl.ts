@@ -46,7 +46,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
     cta: 'Ontvang post uit Lapland',
     sending: 'Versturen…',
     placeholder: 'uw@email.com',
-    success: 'Bijna klaar: bevestig je aanmelding via de e-mail die we net hebben gestuurd.',
+    success: 'Bijna klaar: bevestig uw aanmelding via de e-mail die we net hebben gestuurd.',
     privacy: 'Uitschrijven met één klik.',
   },
   affiliateDisclosure: {
@@ -57,8 +57,8 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   map: {
     kicker: 'De kaart',
-    h2: 'Waar je het vindt',
-    lead: '16 plekken waar je graag naar terugkeert, vijf nationale parken, vier noorderlichtdorpen, vier startpunten van routes en drie wildcorridors. Klik op een speld voor de korte versie.',
+    h2: 'Waar u het vindt',
+    lead: '16 plekken waar u graag naar terugkeert, vijf nationale parken, vier noorderlichtdorpen, vier startpunten van routes en drie wildcorridors. Klik op een speld voor de korte versie.',
     foot: 'Kaart: OpenStreetMap. De spelden zijn redactionele keuzes, geen index van Metsähallitus.',
     openGuide: 'Gids openen →',
     resetView: 'Alles tonen',
@@ -673,7 +673,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
     ],
     treeCaption: 'Een jonge bruine beer klimt in een den vlak bij de hutten.',
     photoCredit: 'Foto: Piritta Paija / Bear Kuusamo',
-    waysKicker: 'Kies je tocht',
+    waysKicker: 'Kies uw tocht',
     waysH2: 'Twee manieren',
     ways: [
       { title: 'Avondtocht', body: 'Ongeveer vier uur, van 18 tot 22 uur: een begeleide wandeling naar de hut en de best verlichte uren van de noordelijke avond.' },

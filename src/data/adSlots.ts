@@ -107,7 +107,7 @@ const bearKuusamo: Partner = {
     nl: {
       tagline: 'Een nacht in een berenhut, aan de rand van Lapland',
       description: 'De oorspronkelijke berengidsen van Kuusamo, ruim twintig jaar in de bossen aan de oostgrens. Bekijk wilde bruine beren, veelvraten en zeearenden vanuit een fotohut.',
-      cta: 'Plan je nacht',
+      cta: 'Plan uw nacht',
       articleLabel: 'Lees het artikel',
       articleUrl: 'https://laplandvibes.com/nl/blog/bear-kuusamo/',
       url: 'https://go.laplandvibes.com/go/bearkuusamo?sid=home_card_a&dest=https%3A%2F%2Fbearkuusamo.com%2Fnl%2F',
