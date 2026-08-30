@@ -42,7 +42,7 @@ export default function Freshwater() {
 
   const chapters = [
     { key: 'lakes' as const, icon: Droplets, accent: 'text-sky-700', bg: 'bg-sky-500/10', data: c.lakes, alt: 'Aerial view of a calm Lapland lake dotted with small forested islands under soft summer light' },
-    { key: 'rivers' as const, icon: Waves, accent: 'text-aurora-green', bg: 'bg-aurora-green/10', data: c.rivers, alt: 'A free-flowing northern river running clear over pale gravel banks and gentle rapids in midsummer' },
+    { key: 'rivers' as const, icon: Waves, accent: 'text-aurora-green', bg: 'bg-aurora-green/10', data: c.rivers, alt: 'A broad free-flowing northern river past banks of summer wildflowers, gentle rapids midstream' },
     { key: 'mires' as const, icon: Sprout, accent: 'text-emerald-700', bg: 'bg-emerald-500/10', data: c.mires, alt: 'An aapa mire with reflective peat pools and white cottongrass under warm evening light, fells in the distance' },
     { key: 'forests' as const, icon: TreePine, accent: 'text-emerald-800', bg: 'bg-emerald-600/10', data: c.forests, alt: 'A small clear stream winding over mossy stones through shady old-growth spruce forest' },
   ]
