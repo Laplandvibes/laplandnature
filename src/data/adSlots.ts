@@ -99,7 +99,7 @@ const bearKuusamo: Partner = {
     it: {
       tagline: 'Una notte in un capanno degli orsi, ai margini della Lapponia',
       description: "Le guide originali di Kuusamo, oltre vent'anni nelle foreste del confine orientale. Osserva orsi bruni selvatici, ghiottoni e aquile di mare da un capanno fotografico.",
-      cta: 'Pianifica la tua notte',
+      cta: 'Pianifichi la Sua notte',
       articleLabel: "Leggi l'articolo",
       articleUrl: 'https://laplandvibes.com/it/blog/bear-kuusamo/',
       url: 'https://go.laplandvibes.com/go/bearkuusamo?sid=home_card_a&dest=https%3A%2F%2Fbearkuusamo.com%2Fit%2F',
