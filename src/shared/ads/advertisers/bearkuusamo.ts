@@ -108,9 +108,9 @@ const bearkuusamo: AdSpec = {
     it: {
       eyebrow: 'Osservazione etica degli orsi',
       headline: 'Una notte in un capanno degli orsi, ai margini della Lapponia',
-      sub: "Le guide originali di Kuusamo, oltre vent'anni nelle foreste del confine orientale. Osserva orsi bruni selvatici, ghiottoni e aquile di mare da un capanno fotografico.",
+      sub: "Le guide originali di Kuusamo, oltre vent'anni nelle foreste del confine orientale. Osservi orsi bruni selvatici, ghiottoni e aquile di mare da un capanno fotografico.",
       trust: ['Oltre 20 anni', '7 capanni fotografici', 'Uscite serali e notturne'],
-      cta: 'Pianifica la tua notte',
+      cta: 'Pianifichi la Sua notte',
       poweredBy: 'Bear Kuusamo',
       readMore: "Leggi l'articolo",
       imageAlt: "Un'orsa bruna con due cuccioli in controluce in una notte d'estate nelle foreste di confine vicino a Kuusamo. Foto: Piritta Paija / Bear Kuusamo",
