@@ -120,7 +120,7 @@ const bearkuusamo: AdSpec = {
       headline: 'Een nacht in een berenhut, aan de rand van Lapland',
       sub: 'De oorspronkelijke berengidsen van Kuusamo, ruim twintig jaar in de bossen aan de oostgrens. Bekijk wilde bruine beren, veelvraten en zeearenden vanuit een fotohut.',
       trust: ['Ruim 20 jaar', '7 fotohutten', 'Avond- en nachttochten'],
-      cta: 'Plan je nacht',
+      cta: 'Plan uw nacht',
       poweredBy: 'Bear Kuusamo',
       readMore: 'Lees het artikel',
       imageAlt: 'Een berenmoeder met twee jongen in tegenlicht op een zomernacht in de grensbossen bij Kuusamo. Foto: Piritta Paija / Bear Kuusamo',

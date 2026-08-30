@@ -110,7 +110,7 @@ const scandinavianOutdoor: AdSpec = {
     nl: {
       eyebrow: 'Expeditie-uitrusting',
       headline: 'Scandinavian Outdoor, de Noordse outdoormerken in één winkel',
-      sub: 'Een Finse outdoorwinkel met de bekende Noordse merken op één plek: van baselayers tot sneeuwschoenen, van slaapzakken tot hoofdlampen. Gedetailleerde productspecificaties helpen je vóór de reis de juiste warmteklasse te kiezen.',
+      sub: 'Een Finse outdoorwinkel met de bekende Noordse merken op één plek: van baselayers tot sneeuwschoenen, van slaapzakken tot hoofdlampen. Gedetailleerde productspecificaties helpen u vóór de reis de juiste warmteklasse te kiezen.',
       trust: ['Noordse merken bijeen', 'Baselayers tot sneeuwschoenen', 'Finse winkel'],
       cta: 'Bekijk het assortiment',
       poweredBy: 'Uitrusting van Scandinavian Outdoor',
