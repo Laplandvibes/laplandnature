@@ -90,7 +90,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
       eyebrow: 'Acima do Círculo Polar Ártico',
       title: 'Natureza ártica',
       subtitle: 'intocada',
-      description: 'Lapônia finlandesa, 100 367 km² de parques nacionais, fjälls, florestas antigas e a temporada de aurora mais longa da Europa.',
+      description: 'Lapônia finlandesa, 100.367 km² de parques nacionais, fjälls, florestas antigas e a temporada de aurora mais longa da Europa.',
       primaryCta: 'Planejar a viagem da aurora',
       secondaryCta: 'Explorar os parques',
     },
@@ -114,25 +114,25 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
         {
           tag: 'Áreas protegidas',
           title: 'Parques nacionais',
-          blurb: 'Cinco parques somando mais de 7 000 km² de natureza protegida, dos fjälls de Urho Kekkonen às árvores coroadas de neve de Riisitunturi.',
+          blurb: 'Cinco parques somando mais de 7.000 km² de natureza protegida, dos fjälls de Urho Kekkonen às árvores coroadas de neve de Riisitunturi.',
           cta: 'Explorar parques nacionais',
         },
         {
           tag: 'Vida selvagem',
           title: 'Observação de vida selvagem',
-          blurb: 'Rastreie o urso-pardo em esconderijos noturnos: uma noite fica em torno de 90 %, duas noites 99 %. Manadas semisselvagens de renas e carcajus.',
+          blurb: 'Rastreie o urso-pardo em esconderijos noturnos: uma noite fica em torno de 90 %, duas noites 99 %. Manadas semidomesticadas de renas e carcajus.',
           cta: 'Explorar a vida selvagem',
         },
         {
           tag: 'Aurora',
           title: 'Aurora boreal',
-          blurb: 'Persiga a aurora boreal pelos céus árticos de setembro a abril. Utsjoki entrega aurora em 4 a cada 5 noites limpas.',
+          blurb: 'Persiga a aurora boreal pelos céus árticos de setembro a abril. Utsjoki entrega aurora em 4 de cada 5 noites limpas.',
           cta: 'Explorar a aurora boreal',
         },
         {
           tag: 'Trilhas',
           title: 'Trilhas',
-          blurb: 'Caminhe pelas trilhas mais icônicas da Finlândia, das pontes suspensas do Karhunkierros (82 km) ao cume do Halti (1 324 m).',
+          blurb: 'Caminhe pelas trilhas mais icônicas da Finlândia, das pontes suspensas do Karhunkierros (82 km) ao cume do Halti (1.324 m).',
           cta: 'Explorar as trilhas',
         },
         {
@@ -150,7 +150,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
         {
           tag: 'Água',
           title: 'Água doce',
-          blurb: 'Cerca de 188 000 lagos, o rio Tornio de curso livre e as turfeiras aapa. Por que a água fria e limpa é o bem mais raro da Lapônia, e o que mantém os peixes nela.',
+          blurb: 'Cerca de 188.000 lagos, o rio Tornio de curso livre e as turfeiras aapa. Por que a água fria e limpa é o bem mais raro da Lapônia, e o que mantém os peixes nela.',
           cta: 'Explorar a água doce',
         },
       ],
@@ -318,7 +318,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
       eyebrow: 'Guia essencial',
       title: 'Observação de fauna',
       subtitle: 'Animais árticos',
-      description: 'Urso-pardo em esconderijos noturnos: uma noite fica em torno de 90 %, duas noites 99 %. Manadas semisselvagens de renas e o esquivo glutão, com operadores verificados.',
+      description: 'Urso-pardo em esconderijos noturnos: uma noite fica em torno de 90 %, duas noites 99 %. Manadas semidomesticadas de renas e o esquivo glutão, com operadores verificados.',
     },
     animals: [
       { name: 'Rena', description: 'Cerca de 200 mil renas semidomesticadas percorrem a Lapônia finlandesa, no centro da cultura pastoril sami há milênios. Pastam livres por fjälls e florestas, você vai encontrá-las à beira da estrada.', status: 'Comum' },
@@ -551,7 +551,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
         { q: 'O que é o direito de acesso à natureza na Finlândia?', a: 'O direito de acesso à natureza (jokamiehenoikeudet) permite a qualquer pessoa caminhar, esquiar, nadar, colher frutos e cogumelos e acampar por pouco tempo na maior parte do território, inclusive florestas privadas, sem pedir permissão nem pagar. A contrapartida é a responsabilidade: não deixar rastro, manter distância de casas e plantações, não perturbar a fauna e acender fogo apenas nos pontos sinalizados.' },
         { q: 'Dá para acender uma fogueira na Lapônia?', a: 'Só nos pontos de fogo designados, e não quando há um alerta de incêndio florestal (metsäpalovaroitus) em vigor. O Instituto Meteorológico Finlandês emite o alerta nos períodos secos e, enquanto ele vale, todo fogo a céu aberto fica proibido, mesmo nas fogueiras sinalizadas. Confira sempre o alerta atual antes de deixar uma estrada e, na dúvida, use um fogareiro de camping.' },
         { q: 'Quem administra os parques nacionais e a natureza da Lapônia?', a: 'A Metsähallitus (Parques e Vida Selvagem da Finlândia), o órgão estatal, administra cerca de 85% das áreas de fjäll da Lapônia e todos os parques nacionais, mantendo trilhas, refúgios e centros de visitantes. A defesa da conservação vem da Associação Finlandesa para a Conservação da Natureza (SLL) e da WWF Finlândia, enquanto o Parlamento Sami tem o autogoverno sobre os assuntos culturais e ambientais sami no norte.' },
-        { q: 'As renas têm prioridade nas estradas da Lapônia?', a: 'Na prática, sim, reduza bastante a velocidade. As cerca de 200 mil renas da Lapônia têm dono, não são selvagens, e vagueiam livres pelas estradas, sobretudo ao entardecer. Se você vir uma, espere mais por perto. Junto às cercas de manejo (poroaita), feche sempre qualquer portão que abrir atrás de você.' },
+        { q: 'As renas têm prioridade nas estradas da Lapônia?', a: 'Na prática, sim, reduza bastante a velocidade. As cerca de 200 mil renas da Lapônia têm dono, não são selvagens, e vagueiam livres pelas estradas, sobretudo ao entardecer. Se você vir uma, espere outras por perto. Junto às cercas de manejo (poroaita), feche sempre qualquer portão que abrir atrás de você.' },
         { q: 'Como posso viajar de forma responsável na Lapônia?', a: 'Durma onde a economia local precisa, fazendas de renas de propriedade sami, pousadas familiares e refúgios licenciados e escolha operadores que tornam ursos, lobos e raposas-do-ártico mais valiosos vivos do que mortos. Leve embora todo o seu lixo, mantenha-se nas passarelas no terreno frágil dos fjälls e siga as regras sazonais de fogo e de fauna.' },
       ],
     },
@@ -570,7 +570,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   freshwater: {
     metaTitle: 'Água doce na Lapônia: lagos, rios, peixes | LaplandNature',
-    metaDescription: 'A Finlândia tem cerca de 188 000 lagos (SYKE). A Lapônia abriga os mais limpos, com o rio Tornio-Muonio não regulado, turfeiras aapa e florestas frias.',
+    metaDescription: 'A Finlândia tem cerca de 188.000 lagos (SYKE). A Lapônia abriga os mais limpos, com o rio Tornio-Muonio não regulado, turfeiras aapa e florestas frias.',
     hero: {
       eyebrow: 'Guia essencial',
       title: 'Água doce na Lapônia',
@@ -580,12 +580,12 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
     },
     introKicker: 'Por que a água vem primeiro',
     introH2: 'A água limpa é tudo',
-    introLead: 'Cada peixe, cada rena, cada colheita de frutas silvestres na Lapônia depende da mesma água que corre pela mesma paisagem. A Finlândia tem cerca de 188 000 lagos e lagoas de pelo menos 0,05 hectare (o registro de lagos da SYKE), e o norte abriga alguns dos menos perturbados. Considere os lagos, rios, turfeiras e florestas como quatro partes de um mesmo sistema vivo e a razão para protegê-los fica evidente: perca a água e você perderá tudo o que está rio abaixo.',
+    introLead: 'Cada peixe, cada rena, cada colheita de frutas silvestres na Lapônia depende da mesma água que corre pela mesma paisagem. A Finlândia tem cerca de 188.000 lagos e lagoas de pelo menos 0,05 hectare (o registro de lagos da SYKE), e o norte abriga alguns dos menos perturbados. Considere os lagos, rios, turfeiras e florestas como quatro partes de um mesmo sistema vivo e a razão para protegê-los fica evidente: perca a água e você perderá tudo o que está rio abaixo.',
     chaptersKicker: 'As quatro partes',
     chaptersH2: 'Um sistema, quatro partes',
     lakes: {
       title: 'Lagos',
-      body1: 'A Finlândia é muitas vezes chamada de terra dos mil lagos, e o número real é bem maior: cerca de 188 000 lagos e lagoas de pelo menos 0,05 hectare, segundo o registro Järvi-meriwiki da SYKE. Os da Lapônia estão entre os mais cristalinos, alimentados pelo degelo e por bacias sombreadas, e não pelo escoamento agrícola.',
+      body1: 'A Finlândia é muitas vezes chamada de terra dos mil lagos, e o número real é bem maior: cerca de 188.000 lagos e lagoas de pelo menos 0,05 hectare, segundo o registro Järvi-meriwiki da SYKE. Os da Lapônia estão entre os mais cristalinos, alimentados pelo degelo e por bacias sombreadas, e não pelo escoamento agrícola.',
       body2: 'O lago Inari (Inarijärvi), no coração do território sami, é um dos maiores lagos da Finlândia e alimenta o sistema do Paatsjoki, que drena para o norte até o oceano Ártico. Sua água fria e rica em oxigênio abriga o salvelino-do-ártico, a truta-marrom e o coregono, espécies que só prosperam onde a água permanece fria e limpa.',
     },
     rivers: {
@@ -643,7 +643,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
       items: [
         {
           q: 'Quantos lagos a Finlândia tem?',
-          a: 'Cerca de 188 000 lagos e lagoas de pelo menos 0,05 hectare, segundo o registro nacional de lagos da SYKE (Järvi-meriwiki). A contagem depende do limiar de tamanho usado, cerca de 57 000 lagos se forem contados apenas os maiores que um hectare, de modo que o número de destaque sempre se refere ao limiar de 0,05 hectare. A Lapônia abriga alguns dos mais limpos.',
+          a: 'Cerca de 188.000 lagos e lagoas de pelo menos 0,05 hectare, segundo o registro nacional de lagos da SYKE (Järvi-meriwiki). A contagem depende do limiar de tamanho usado, cerca de 57.000 lagos se forem contados apenas os maiores que um hectare, de modo que o número de destaque sempre se refere ao limiar de 0,05 hectare. A Lapônia abriga alguns dos mais limpos.',
         },
         {
           q: 'O Tornio é mesmo um rio de curso livre?',
@@ -704,7 +704,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
     hideH2: 'Uma noite em um esconderijo',
     hideBody: [
       'Sete esconderijos de madeira ficam na borda da floresta, feitos para manter o som e o cheiro humanos do lado de dentro. Janelas panorâmicas dão aos observadores uma vista limpa da clareira, e os fotógrafos têm aberturas de câmera próprias, com bean bags e cabeças de vídeo, de modo que ninguém fotografa através do vidro. O esconderijo principal é acessível para cadeira de rodas, e os banheiros ficam em salas separadas.',
-      'Das janelas você pode ver ursos-pardos e, na primavera, um carcaju passando, águias-de-rabo-branco sobrevoando e os corvos cujos grasnados avisam aos guias que um urso está perto.',
+      'Das janelas você pode ver ursos-pardos e, na primavera, um carcaju passando, águias-rabalvas sobrevoando e os corvos cujos grasnados avisam aos guias que um urso está perto.',
     ],
     treeCaption: 'Um jovem urso-pardo sobe em um pinheiro perto dos esconderijos.',
     photoCredit: 'Foto: Piritta Paija / Bear Kuusamo',
