@@ -23,7 +23,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
       { title: '当极光真正活跃时', body: '九月到三月,每个晴朗的夜晚都会查看 FMI Auroras-now 和云量预报。当 KP 与天空条件吻合时,我们会提醒你，是为了那一夜,而不是为了营销日程。' },
       { title: '当步道真正值得时', body: 'ruska 巅峰预报、山屋预订开放日、春雪状况。来自我们亲自走过那条步道的那一周,而不是来自新闻稿。' },
       { title: '当野生动物现身时', body: '观熊隐蔽屋五月中旬重新开放、秋季的驯鹿集合、上不了新闻的北极狐目击。我们一听到就转告你。' },
-      { title: '这个周末我们会去哪儿', body: '值得开车前往的暗夜星空角落、淘金客涌入前的那条河、我们的萨米邻居刚刚拍下的那座 fjeld。' },
+      { title: '这个周末我们会去哪儿', body: '值得开车前往的暗夜星空角落、淘金客涌入前的那条河、我们的萨米邻居刚刚拍下的那座 fjäll。' },
     ],
     emailPlaceholder: 'your@email.com',
     sendBtn: '订阅来自拉普兰的信',
@@ -206,7 +206,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
     spots: [
       { name: '伊纳里', description: '伊纳里湖畔的萨米腹地。光污染极小,天空辽阔开阔,北方地平线干净。' },
       { name: 'Utsjoki', description: '芬兰最北的自治市,与挪威接壤。北方地平线毫无遮挡,kaamos 期间有 51 天不见日出。' },
-      { name: '基尔皮斯耶尔维', description: '芬兰、瑞典、挪威三国交界处。高海拔的 fjeld 让人在北冰洋云线之上欣赏全景极光。' },
+      { name: '基尔皮斯耶尔维', description: '芬兰、瑞典、挪威三国交界处。高海拔的 fjäll 让人在北冰洋云线之上欣赏全景极光。' },
       { name: 'Enontekiö', description: '偏远的荒野,拥有欧洲大陆最暗的天空之一，2023 年冬季录得 Bortle 1 等级。' }
     ],
     stayCta: '查找住宿:',
@@ -262,13 +262,13 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
       eyebrow: '核心指南',
       title: '国家公园',
       subtitle: '受保护的荒野',
-      description: '五座公园守护着拉普兰大部分无路可通的荒野，从开阔的 fjeld 纵走,到雪冠覆盖的森林与淘金峡谷。每座公园都有各自的门户村庄可作为据点。',
+      description: '五座公园守护着拉普兰大部分无路可通的荒野，从开阔的 fjäll 纵走,到雪冠覆盖的森林与淘金峡谷。每座公园都有各自的门户村庄可作为据点。',
     },
     parks: [
-      { name: 'Urho Kekkonen 国家公园', description: '芬兰第二大国家公园,面积 2550 平方公里。辽阔开阔的 fjeld、幽深的河谷,以及古老的松林。多日徒步与越野滑雪的天堂。', highlight: '芬兰第二大公园', visited: '2024 年 3 月 · 当日滑行 Rumakuru 环线,−12 °C 雪况稳定' },
-      { name: 'Pallas-Yllästunturi 国家公园', description: '芬兰最受欢迎的 fjeld 纵走步道，55 公里的 Hetta–Pallas 所在地。开阔的山顶,视野可远及 Käsivarsi。', highlight: '芬兰最长的 fjeld 纵走', visited: '2023 年 9 月 · 三天走完 Hetta → Pallas · ruska 巅峰第二周' },
+      { name: 'Urho Kekkonen 国家公园', description: '芬兰第二大国家公园,面积 2550 平方公里。辽阔开阔的 fjäll、幽深的河谷,以及古老的松林。多日徒步与越野滑雪的天堂。', highlight: '芬兰第二大公园', visited: '2024 年 3 月 · 当日滑行 Rumakuru 环线,−12 °C 雪况稳定' },
+      { name: 'Pallas-Yllästunturi 国家公园', description: '芬兰最受欢迎的 fjäll 纵走步道，55 公里的 Hetta–Pallas 所在地。开阔的山顶,视野可远及 Käsivarsi。', highlight: '芬兰最长的 fjäll 纵走', visited: '2023 年 9 月 · 三天走完 Hetta → Pallas · ruska 巅峰第二周' },
       { name: 'Lemmenjoki 国家公园', description: '欧洲最大的无路荒野之一。以淘金历史和穿行深谷的 Lemmenjoki 河而闻名。', highlight: '淘金遗产', visited: '2024 年 7 月 · 划独木舟下行至 Ravadasköngäs,午夜阳光' },
-      { name: 'Riisitunturi 国家公园', description: '以雪冠树(tykky)闻名,12 月到 3 月将山坡化作超现实的冰雕。朝西的 fjeld 孕育出芬兰最重的 tykky。', highlight: '雪冠树(tykky)', visited: '2024 年 2 月 · tykky 达到最重,14:30 蓝调时刻拍摄' },
+      { name: 'Riisitunturi 国家公园', description: '以雪冠树(tykky)闻名,12 月到 3 月将山坡化作超现实的冰雕。朝西的 fjäll 孕育出芬兰最重的 tykky。', highlight: '雪冠树(tykky)', visited: '2024 年 2 月 · tykky 达到最重,14:30 蓝调时刻拍摄' },
       { name: 'Pyhä-Luosto 国家公园', description: '拥有芬兰最古老的森林之一,云杉树龄超过 400 年。Lampivaara 紫水晶矿就在园内，游客可亲手挖掘宝石。', highlight: '紫水晶矿 + 原始森林', visited: '2023 年 10 月 · 初雪后的 Pyhäkuru 峡谷,栈道结霜' }
     ],
     weThere: '我们到访于:',
@@ -277,7 +277,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
     hettaH2: 'Hetta → Pallas,三天走完全程纵走',
     hettaLead: '穿越 Pallas-Yllästunturi 的 55 公里 Hetta–Pallas 步道,是芬兰最受欢迎的长线徒步，几乎全程位于林木线之上,山屋按短日程间隔分布,视野从不闭塞。我们在 ruska 巅峰由北向南、用三天走完。常规方向是北上;为了拍摄,南行(从 Hetta 出发)更佳，而起点处横渡 Ounasjärvi 的渡船是个美好的仪式。',
     days: [
-      { day: '第 1 天 · 18 公里', title: 'Hetta → Sioskuru', body: '09:00 乘船横渡 Ounasjärvi(免费,6 月 1 日至 9 月 30 日运营)。两小时内从 Pyhäkero 爬上开阔的 fjeld。Sioskuru 山屋可睡 16 人;我们 16:30 抵达时还剩三个铺位。从门口望去,夕阳沉入西面的 fjeld。', note: '爬升 +520 米 · 微风' },
+      { day: '第 1 天 · 18 公里', title: 'Hetta → Sioskuru', body: '09:00 乘船横渡 Ounasjärvi(免费,6 月 1 日至 9 月 30 日运营)。两小时内从 Pyhäkero 爬上开阔的 fjäll。Sioskuru 山屋可睡 16 人;我们 16:30 抵达时还剩三个铺位。从门口望去,夕阳沉入西面的 fjäll。', note: '爬升 +520 米 · 微风' },
       { day: '第 2 天 · 22 公里', title: 'Sioskuru → Hannukuru', body: '标志性的一天。穿过 Pyhäkuru 与 Lompolojärvi 一带的高地苔原，你见过的那张步道照片就拍自第 12 公里处。Hannukuru 山屋有柴烧桑拿;这也是多数徒步者在此分段的原因。', note: '亮点:17:00 光线下 Lompolojärvi 的倒影' },
       { day: '第 3 天 · 15 公里', title: 'Hannukuru → Pallas', body: '纸面上最轻松的一天。攀上 Pallas 的山顶链，Taivaskero、Lehmäkero、Laukukero，晴朗的清晨视野可越过 Käsivarsi。在 Pallas 酒店收尾;若可以,订一次桑拿和一份牛排。两样你都值得。', note: '合计:55 公里 · 3 天 · 纯徒步 11 小时' }
     ],
@@ -303,7 +303,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
       h2: '拉普兰的国家公园，常见问题',
       items: [
         { q: '拉普兰有多少座国家公园?', a: '拉普兰拥有芬兰访客最多的五座荒野公园:Urho Kekkonen、Pallas-Yllästunturi、Lemmenjoki、Riisitunturi 与 Pyhä-Luosto。每座都有各自的门户村庄可作据点，从 UKK 的 Saariselkä,到 Pallas-Yllästunturi 的 Hetta 与 Muonio。' },
-        { q: '芬兰拉普兰最大的国家公园是哪座?', a: 'Urho Kekkonen 国家公园是拉普兰最大的,面积约 2,550 平方公里,也是全芬兰第二大。它从 Saariselkä 的 fjeld 向东延伸,深入无路可通的荒野,有开阔的 fjeld、河谷峡谷与古老的松林。' },
+        { q: '芬兰拉普兰最大的国家公园是哪座?', a: 'Urho Kekkonen 国家公园是拉普兰最大的,面积约 2,550 平方公里,也是全芬兰第二大。它从 Saariselkä 的 fjäll 向东延伸,深入无路可通的荒野,有开阔的 fjäll、河谷峡谷与古老的松林。' },
         { q: '进入拉普兰的国家公园需要许可或门票吗?', a: '不需要。芬兰的国家公园免费进入,普通徒步、当日到访或入住开放的荒野山屋都无需许可。部分预订山屋和桑拿会收取小额费用,Lemmenjoki 的向导活动或淘金也各有花费,但走步道本身分文不取。' },
         { q: '到访这些公园的最佳时间是什么时候?', a: '九月初到中旬看 ruska 秋色,六月与七月享午夜阳光和漫长的徒步日,二月到三月赏雪冠树并越野滑雪，Riisitunturi 在冬末厚重的 tykky 之下最为夺目。夏季山屋与渡船通常从六月初运营到九月底。' },
         { q: '在拉普兰的哪座国家公园可以淘金?', a: 'Lemmenjoki 国家公园是芬兰淘金的核心地带。河谷有活态的淘金热遗产,沿 Lemmenjoki 河设有标识的淘金点与持牌矿权。夏季有船只服务可上溯部分河段,使淘金区在当日往返中即可抵达。' },
@@ -321,11 +321,11 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
       description: '在夜间隐蔽屋追踪棕熊：住一晚目击率约 90%，住两晚可达 99%。认识半野生的驯鹿群，寻觅难得一见的狼獾，依托经核实的运营商与真实数据。',
     },
     animals: [
-      { name: '驯鹿', description: '约 20 万头半驯养驯鹿漫游芬兰拉普兰,数千年来一直是萨米游牧文化的核心。它们在 fjeld 与森林间自由觅食，你会在路边遇见它们。', status: '常见' },
-      { name: '北极狐', description: '芬兰最稀有的哺乳动物之一。北极狐在最严酷的 fjeld 环境中生存,冬季毛色转白以融入雪中。在斯堪的纳维亚种群中处于极危。', status: '极危' },
+      { name: '驯鹿', description: '约 20 万头半驯养驯鹿漫游芬兰拉普兰,数千年来一直是萨米游牧文化的核心。它们在 fjäll 与森林间自由觅食，你会在路边遇见它们。', status: '常见' },
+      { name: '北极狐', description: '芬兰最稀有的哺乳动物之一。北极狐在最严酷的 fjäll 环境中生存,冬季毛色转白以融入雪中。在斯堪的纳维亚种群中处于极危。', status: '极危' },
       { name: '棕熊', description: '芬兰拥有欧洲最密集的棕熊种群之一。最好的观熊隐蔽屋位于芬兰东部的 Kuusamo 与 Suomussalmi 一带,从拉普兰南下顺路可达,夏夜棕熊结束冬眠后能带来近距离的邂逅。', status: '近危' },
       { name: '狼獾', description: '狼獾是北方针叶林中最难得一见的捕食者之一。体型虽不大却力量惊人,在拉普兰荒野中游走于广阔的领地。难得一见,却遍布全区。', status: '濒危' },
-      { name: '雪鸮', description: '最北 fjeld 的偶见访客,雪鸮在开阔苔原上猎捕旅鼠。能否目击取决于旅鼠的种群周期,在 Utsjoki 以南极少出现。', status: '偶见访客' },
+      { name: '雪鸮', description: '最北 fjäll 的偶见访客,雪鸮在开阔苔原上猎捕旅鼠。能否目击取决于旅鼠的种群周期,在 Utsjoki 以南极少出现。', status: '偶见访客' },
       { name: '大天鹅', description: '芬兰的国鸟,在拉普兰的湿地与静谧湖泊繁殖。它那号角般的鸣声在静止的夏夜传出数公里，是定义拉普兰夏天的声音。', status: '国鸟' }
     ],
     statuses: {
@@ -376,8 +376,8 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
       items: [
         { q: '在芬兰拉普兰什么时候能看到棕熊?', a: '观赏棕熊的季节从四月底持续到九月初,过夜的摄影隐蔽屋集中在拉普兰以南、芬兰东部的 Kuusamo、Suomussalmi 与 Lieksa 一带。五月底至六月初最适合看带幼崽的母熊;七月稳定可见独行的公熊且天气宜人;九月则增添了狼穿行的机会与秋日光线。' },
         { q: '在隐蔽屋里真正看到熊的概率有多大?', a: '只要过夜,概率很高。在季节内于隐蔽屋住一晚,目击率约为 90%,连住两晚则超过 99%。这些隐蔽屋设在投饵的投食点旁,同一批熊年复一年地回访。' },
-        { q: '拉普兰有多少头驯鹿,它们是野生的吗?', a: '约 20 万头半驯养的驯鹿漫游芬兰拉普兰。它们并非野生，每头都归属某个牧鹿合作社、带有耳记,数千年来一直是萨米文化的核心。它们在 fjeld 与森林间自由觅食,所以你会经常在路边遇见它们。' },
-        { q: '拉普兰最稀有的动物是什么?', a: '北极狐最为稀有,在芬诺斯堪迪亚种群中被列为极危,仅在最严酷的高 fjeld 环境中幸存。狼獾则是最难得一见的，它力量惊人、活动领地极其辽阔,遍布整片荒野却极少被人瞥见。' },
+        { q: '拉普兰有多少头驯鹿,它们是野生的吗?', a: '约 20 万头半驯养的驯鹿漫游芬兰拉普兰。它们并非野生，每头都归属某个牧鹿合作社、带有耳记,数千年来一直是萨米文化的核心。它们在 fjäll 与森林间自由觅食,所以你会经常在路边遇见它们。' },
+        { q: '拉普兰最稀有的动物是什么?', a: '北极狐最为稀有,在芬诺斯堪迪亚种群中被列为极危,仅在最严酷的高 fjäll 环境中幸存。狼獾则是最难得一见的，它力量惊人、活动领地极其辽阔,遍布整片荒野却极少被人瞥见。' },
         { q: '观熊隐蔽屋的费用是多少?', a: '一晚大约为每人 €280，450,通常包含从集合点出发的交通、晚餐、隐蔽屋内的一个铺位以及一位向导。七月的周末数月前就会订满,所以盛夏的日期请提前 6 个月或更早预订。' },
       ],
     },
@@ -393,16 +393,16 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
       description: '北极圈以北的每个季节都展开一个截然不同的世界，无尽的夏日之光、极夜的蓝色暮光,以及把芬兰南部整个春秋压缩进数周的两段短暂过渡季。',
     },
     seasons: [
-      { name: 'Ruska', period: '九月 – 十月', description: '拉普兰在秋色中迸发:桦树、白杨与越橘灌丛转为金、红、橙。fjeld 山顶在数日间走完整个色谱,而非数周。ruska 是芬兰一年中标志性的自然事件之一，徒步者从全国各地赶来观赏。' },
+      { name: 'Ruska', period: '九月 – 十月', description: '拉普兰在秋色中迸发:桦树、白杨与越橘灌丛转为金、红、橙。fjäll 山顶在数日间走完整个色谱,而非数周。ruska 是芬兰一年中标志性的自然事件之一，徒步者从全国各地赶来观赏。' },
       { name: 'Kaamos', period: '十一月 – 一月', description: '极夜降临拉普兰。在 Utsjoki,太阳 51 天不升起。但 kaamos 并非黑暗，整个下午,雪面反射着蓝紫色的暮光,勾勒出柔和而微亮的风景。这也是极光最活跃的窗口。' },
-      { name: '午夜阳光', period: '六月 – 七月', description: '北极圈以北,盛夏的太阳永不落下。在拉普兰最北部,午夜阳光连续 70 多天不歇。无尽的白昼改变了徒步、垂钓与划船，你可以在晚上 11 点出发,看着光线沿 fjeld 滑移,直到早餐时分。' },
+      { name: '午夜阳光', period: '六月 – 七月', description: '北极圈以北,盛夏的太阳永不落下。在拉普兰最北部,午夜阳光连续 70 多天不歇。无尽的白昼改变了徒步、垂钓与划船，你可以在晚上 11 点出发,看着光线沿 fjäll 滑移,直到早餐时分。' },
       { name: '春雪', period: '四月 – 五月', description: '光线强势归来，灿烂的阳光在广袤雪原上反射。白昼迅速变长,气温升至冰点以上。这是越野滑雪、雪地摩托与冰钓的最佳时节:积雪仍然充足,但天气温和、白昼漫长。' },
     ],
     ruskaKicker: 'Ruska 2024 · 逐周记录',
     ruskaH2: 'ruska 巅峰如何真正横扫拉普兰',
     ruskaLead: 'ruska 并非单一事件。它是一道波浪,每年九月用大约三周时间自北向南席卷而下。若你在错的那一周抵达，或停留在错的纬度，看到的要么是落尽叶子的桦树,要么是仍然青绿的苔藓。以下是我们 2024 年从 Utsjoki 一路南下到 Riisitunturi 的记录。',
     ruskaWeeks: [
-      { week: '第 1 周 · 9 月 2，8 日', region: 'Utsjoki + 基尔皮斯耶尔维(69°N 以上)', body: '最北的 fjeld 率先变色。9 月 5 日桦树已转色 60%;越橘灌丛深红。营地夜间气温 −2 °C。拍摄窗口:14:00，17:00,光线角度低。' },
+      { week: '第 1 周 · 9 月 2，8 日', region: 'Utsjoki + 基尔皮斯耶尔维(69°N 以上)', body: '最北的 fjäll 率先变色。9 月 5 日桦树已转色 60%;越橘灌丛深红。营地夜间气温 −2 °C。拍摄窗口:14:00，17:00,光线角度低。' },
       { week: '第 2 周 · 9 月 9，15 日', region: '伊纳里 + Saariselkä(68，69°N)', body: '巅峰。9 月 11 日 Urho Kekkonen 国家公园色彩饱和到顶。一年中走 Saariselkä → Kiilopää 环线的最佳一周。周末徒步人潮汹涌;平日步道空旷。' },
       { week: '第 3 周 · 9 月 16，22 日', region: 'Pallas + Levi + Pyhä(67，68°N)', body: '巅峰南移。Hetta–Pallas 步道在 9 月 17，19 日前后进入 ruska 全盛。Pyhä-Luosto 稍晚几天。周末将近时,600 米以上可能迎来初雪。' },
       { week: '第 4 周 · 9 月 23，29 日', region: 'Riisitunturi + Oulanka(66°N)', body: '最后的高潮。落叶之前,Riisitunturi 还能上镜一周。Karhunkierros(熊径)进入巅峰，午后仍有暖意,黎明结霜,平日山屋空旷。' },
@@ -438,9 +438,9 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
       h2: '拉普兰的四季，常见问题',
       items: [
         { q: 'kaamos 极夜在拉普兰是什么时候?', a: 'kaamos 极夜大致从十一月底持续到一月中旬。越往北持续越久:在芬兰最北端的 Utsjoki,太阳约有 51 天不升出地平线。不过它并非漆黑，每天中段,雪面会反射出长时间的蓝紫色暮光,而这也是极光季最活跃的一段。' },
-        { q: '拉普兰的午夜阳光发生在什么时候?', a: '在拉普兰大部分地区,午夜阳光大约从六月初持续到七月初,越往北越久，在最北的 fjeld,太阳连续 70 多天不曾完全落下。在北极圈以北,你可以在午夜的满天白昼里徒步、垂钓或划船。' },
-        { q: 'ruska(秋色)在拉普兰是什么时候?', a: 'ruska 在九月里用大约三周时间自北向南席卷而下。Utsjoki 与基尔皮斯耶尔维一带最北的 fjeld 在九月初率先变色;伊纳里与 Saariselkä 在第二周前后达到巅峰;Pallas、Levi 与 Pyhä 在第三周跟上;Riisitunturi 与 Oulanka 则坚持到九月底才落叶。' },
-        { q: '到访拉普兰的最佳季节是哪个?', a: '这取决于你为何而来。看极光与雪,选 kaamos(十二月，一月);要漫长明亮、地面仍有积雪的白昼,选春季(四月，五月);徒步与划船,选午夜阳光(六月，七月);赏秋色并拍下一年中最好的 fjeld 照片,选 ruska(九月)。让季节匹配行程,而非反过来。' },
+        { q: '拉普兰的午夜阳光发生在什么时候?', a: '在拉普兰大部分地区,午夜阳光大约从六月初持续到七月初,越往北越久，在最北的 fjäll,太阳连续 70 多天不曾完全落下。在北极圈以北,你可以在午夜的满天白昼里徒步、垂钓或划船。' },
+        { q: 'ruska(秋色)在拉普兰是什么时候?', a: 'ruska 在九月里用大约三周时间自北向南席卷而下。Utsjoki 与基尔皮斯耶尔维一带最北的 fjäll 在九月初率先变色;伊纳里与 Saariselkä 在第二周前后达到巅峰;Pallas、Levi 与 Pyhä 在第三周跟上;Riisitunturi 与 Oulanka 则坚持到九月底才落叶。' },
+        { q: '到访拉普兰的最佳季节是哪个?', a: '这取决于你为何而来。看极光与雪,选 kaamos(十二月，一月);要漫长明亮、地面仍有积雪的白昼,选春季(四月，五月);徒步与划船,选午夜阳光(六月，七月);赏秋色并拍下一年中最好的 fjäll 照片,选 ruska(九月)。让季节匹配行程,而非反过来。' },
         { q: '午夜阳光期间天会黑吗?', a: '不会。在北极圈以北,仲夏的太阳不会落下,所以接连数周没有真正的夜晚，只在凌晨前后光线略微低落。这意味着六月和七月无法观看极光;天空根本不会黑到足够的程度。' },
       ],
     },
@@ -454,7 +454,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
       eyebrow: '核心指南',
       title: '徒步步道',
       subtitle: '拉普兰的',
-      description: '从轻松的单日徒步,到多日的荒野远征。拉普兰的步道带你穿越古老森林、越过开阔 fjeld、沿野河而行,直抵芬兰最高峰。',
+      description: '从轻松的单日徒步,到多日的荒野远征。拉普兰的步道带你穿越古老森林、越过开阔 fjäll、沿野河而行,直抵芬兰最高峰。',
     },
     karhuKicker: '手记 · ruska 2024',
     karhuH2: 'Karhunkierros 四日，我们带了什么、舍弃了什么、学到了什么',
@@ -478,9 +478,9 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
     listH2: '六条值得为之规划一趟旅程的步道',
     listLead: '从 5 公里的 Pyhäkuru 峡谷栈道,到 82 公里的 Karhunkierros。每条都连着一个你会想就近落脚的出发村庄。',
     trails: [
-      { name: 'Hetta–Pallas 步道', description: '芬兰最受欢迎的长距离徒步步道,纵贯 Hetta 与 Pallas 之间的 fjeld 山链。开阔的 fjeld 地形,视野辽阔,沿途按短间隔设有维护良好的荒野山屋。', distance: '55 公里', duration: '3，4 天', difficulty: '中等' },
+      { name: 'Hetta–Pallas 步道', description: '芬兰最受欢迎的长距离徒步步道,纵贯 Hetta 与 Pallas 之间的 fjäll 山链。开阔的 fjäll 地形,视野辽阔,沿途按短间隔设有维护良好的荒野山屋。', distance: '55 公里', duration: '3，4 天', difficulty: '中等' },
       { name: 'Karhunkierros(熊径)', description: '芬兰最著名的步道之一，蜿蜒穿过 Oulanka 峡谷,沿途有急流与吊桥。壮丽的河谷与原始森林贯穿全程。', distance: '82 公里', duration: '4，6 天', difficulty: '较难' },
-      { name: 'Saariselkä 单日步道', description: '从 Saariselkä 村出发、通往国家公园的标识清晰的单日步道。是 fjeld 徒步的合适入门,适合各种体能水平与天气窗口。', distance: '5，20 公里', duration: '2，8 小时', difficulty: '简单' },
+      { name: 'Saariselkä 单日步道', description: '从 Saariselkä 村出发、通往国家公园的标识清晰的单日步道。是 fjäll 徒步的合适入门,适合各种体能水平与天气窗口。', distance: '5，20 公里', duration: '2，8 小时', difficulty: '简单' },
       { name: 'Halti 峰步道', description: '前往芬兰最高点(1324 米)的徒步。穿越 Kilpisjärvi 腹地的偏远荒野路线。最后的登顶段无标识,能见度差时需要导航能力。', distance: '55 公里(往返)', duration: '3，5 天', difficulty: '高难' },
       { name: 'Pyhäkuru 峡谷步道', description: '短而震撼的步道,穿过一道古老岩壁的幽深峡谷。萨米人的圣地,设有适合家庭与混合步速团队的无障碍栈道段。', distance: '5 公里', duration: '2，3 小时', difficulty: '简单' },
       { name: 'Lemmenjoki 河步道', description: '沿着传奇的淘金之河,穿越欧洲最大的荒野之一。部分路段可乘船。在标识的淘金点可见淘金热的历史。', distance: '20 公里', duration: '1，2 天', difficulty: '中等' }
@@ -508,19 +508,19 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   conservation: {
     metaTitle: '芬兰拉普兰的自然保护:谁在守护荒野 | LaplandNature',
-    metaDescription: 'Metsähallitus 管理拉普兰 85% 的 fjeld 区域与全部七座国家公园。此外还有 SLL、WWF 芬兰、萨米议会，以及让任何人都能负责任地亲近自然的自然权利法律框架。',
+    metaDescription: 'Metsähallitus 管理拉普兰 85% 的 fjäll 区域与全部七座国家公园。此外还有 SLL、WWF 芬兰、萨米议会，以及让任何人都能负责任地亲近自然的自然权利法律框架。',
     hero: {
       alt: '芬兰拉普兰荒野中受保护的原始森林和丘陵',
       eyebrow: '核心指南',
       title: '自然保护',
       subtitle: '守护北极荒野',
-      description: 'Metsähallitus 管理拉普兰 85% 的 fjeld 区域与全部七座国家公园。芬兰的自然权利让每个人都能自由亲近自然，前提是负责任地行事。',
+      description: 'Metsähallitus 管理拉普兰 85% 的 fjäll 区域与全部七座国家公园。芬兰的自然权利让每个人都能自由亲近自然，前提是负责任地行事。',
     },
     orgsKicker: '主要机构',
     orgsH2: '自然保护机构',
     orgsLead: '决定拉普兰荒野如何被管理、保护与使用的四个机构，从国家级的公园管理,到萨米自治。',
     orgs: [
-      { role: '国家公园管理', name: 'Metsähallitus(芬兰公园与野生动物局)', summary: '管理拉普兰 85% 的 fjeld 区域,以及北极圈以北全部七座国家公园。', body: '这家芬兰国有企业管理拉普兰所有国家公园、徒步步道、荒野山屋与保护区。它维护步道基础设施、游客中心,以及免费的户外教育项目。' },
+      { role: '国家公园管理', name: 'Metsähallitus(芬兰公园与野生动物局)', summary: '管理拉普兰 85% 的 fjäll 区域,以及北极圈以北全部七座国家公园。', body: '这家芬兰国有企业管理拉普兰所有国家公园、徒步步道、荒野山屋与保护区。它维护步道基础设施、游客中心,以及免费的户外教育项目。' },
       { role: '倡导与保护', name: '芬兰自然保护协会(SLL)', summary: '芬兰最大的自然保护组织,成立于 1938 年。', body: '成立于 1938 年的 SLL 通过倡导、行动与环境教育保护芬兰自然。重点关注森林保护、气候行动与生物多样性。' },
       { role: '野生动物复育', name: 'WWF 芬兰', summary: '塞马环斑海豹、北极狐与森林驯鹿的复育项目。', body: 'WWF 芬兰开展物种复育项目,包括自 1990 年代起把芬诺斯堪迪亚北极狐种群从濒临灭绝中拉回的斯堪的纳维亚北极狐项目。' },
       { role: '原住民治理', name: '萨米议会', summary: '对拉普兰最北部萨米文化与环境事务的自治权。', body: '萨米的驯鹿放牧区在萨米故土上管理传统牧场,在生态与本地区原住民的文化经济根基之间取得平衡。' }
@@ -532,7 +532,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
       { title: '自然权利(Everyman\'s Right)', body: '芬兰的 jokamiehenoikeudet 允许任何人在林地，包括私有地，无需许可即可步行、滑雪、游泳、采摘浆果与蘑菇,并短暂露营。其另一面是责任:不留痕迹,尊重住宅与农作物,只在标识处生火。' },
       { title: '用火限制随季节而变', body: '夏季干旱期,FMI 会发布 metsäpalovaroitus(森林火灾警告)。警告生效期间,禁止生任何明火，包括标识的火塘。离开道路前务必查看。' },
       { title: '把一切带走', body: '荒野山屋(autiotupa)靠信任运转:离开时让它比你来时更干净,补充柴火,在留言簿上签名。偏远地带的垃圾会越积越多，没有人来清运。' },
-      { title: '驯鹿享有优先权', body: '约 20 万头半驯养驯鹿漫游拉普兰，它们并非野生,而是有主之物。在路上请减速;在 fjeld 上请给它们空间。在围栏(poroaita)附近,通过后请随手关门。' }
+      { title: '驯鹿享有优先权', body: '约 20 万头半驯养驯鹿漫游拉普兰，它们并非野生,而是有主之物。在路上请减速;在 fjäll 上请给它们空间。在围栏(poroaita)附近,通过后请随手关门。' }
     ],
     finalKicker: '负责任地到访',
     finalH2: '站在荒野这一边来旅行',
@@ -550,9 +550,9 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
       items: [
         { q: '芬兰的自然权利(Everyman\'s Right)是什么?', a: '自然权利(jokamiehenoikeudet)让任何人都能在大部分土地上，包括私有林地，步行、滑雪、游泳、采摘浆果与蘑菇,并短暂露营,无需征得许可或付费。其代价是责任:不留痕迹,远离住宅与农作物,不惊扰野生动物,只在标识处生火。' },
         { q: '在拉普兰可以生篝火吗?', a: '只能在指定的火塘处生火,且森林火灾警告(metsäpalovaroitus)生效时不可生火。芬兰气象研究所会在干旱期发布该警告,警告期间所有明火一律禁止，即便在标识的火塘也不行。离开道路前务必查看当前的警告,拿不准时就用便携炉具。' },
-        { q: '谁在管理拉普兰的国家公园与荒野?', a: 'Metsähallitus(芬兰公园与野生动物局)这家国有机构管理着拉普兰约 85% 的 fjeld 区域及全部国家公园，维护步道、荒野山屋与游客中心。倡导与保护来自芬兰自然保护协会(SLL)与 WWF 芬兰,而萨米议会则对北部的萨米文化与环境事务拥有自治权。' },
+        { q: '谁在管理拉普兰的国家公园与荒野?', a: 'Metsähallitus(芬兰公园与野生动物局)这家国有机构管理着拉普兰约 85% 的 fjäll 区域及全部国家公园，维护步道、荒野山屋与游客中心。倡导与保护来自芬兰自然保护协会(SLL)与 WWF 芬兰,而萨米议会则对北部的萨米文化与环境事务拥有自治权。' },
         { q: '在拉普兰的道路上,驯鹿享有优先通行权吗?', a: '实际上是的，请大幅减速。拉普兰约 20 万头驯鹿是有主之物,并非野生,它们会自由地走上道路,尤其在黄昏时分。若见到一头,附近多半还有更多。在牧鹿围栏(poroaita)附近,打开的门请随手关上。' },
-        { q: '怎样在拉普兰负责任地旅行?', a: '住在本地经济需要你的地方，萨米人拥有的驯鹿农场、家庭经营的旅馆,以及持牌的荒野山屋，并选择那些让熊、狼与北极狐活着比死去更有价值的运营者。带走你所有的垃圾,在脆弱的 fjeld 地形上只走栈道,并遵守季节性的用火与野生动物规定。' },
+        { q: '怎样在拉普兰负责任地旅行?', a: '住在本地经济需要你的地方，萨米人拥有的驯鹿农场、家庭经营的旅馆,以及持牌的荒野山屋，并选择那些让熊、狼与北极狐活着比死去更有价值的运营者。带走你所有的垃圾,在脆弱的 fjäll 地形上只走栈道,并遵守季节性的用火与野生动物规定。' },
       ],
     },
   },

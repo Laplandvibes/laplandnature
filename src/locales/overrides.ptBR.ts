@@ -23,7 +23,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
       { title: 'Quando a aurora está mesmo ativa', body: 'FMI Auroras-now mais previsões de nebulosidade toda noite limpa de setembro a março. Avisamos quando o KP e o céu se alinham, para a noite, não para o calendário de marketing.' },
       { title: 'Quando as trilhas valem a pena', body: 'Previsões do pico do ruska. Dias de abertura das reservas de refúgios. Condições da neve de primavera. Da semana em que caminhamos a trilha, não de um comunicado.' },
       { title: 'Quando a vida selvagem aparece', body: 'Os esconderijos de ursos reabrem em meados de maio. Reuniões de renas no outono. Avistamentos de raposa-do-ártico que não viram notícia. Repassados à medida que ficamos sabendo.' },
-      { title: 'Aonde iríamos neste fim de semana', body: 'O canto de céu escuro que vale a viagem. O rio antes da chegada dos garimpeiros. O fjeld que nossos vizinhos sami acabaram de fotografar.' },
+      { title: 'Aonde iríamos neste fim de semana', body: 'O canto de céu escuro que vale a viagem. O rio antes da chegada dos garimpeiros. O fjäll que nossos vizinhos sami acabaram de fotografar.' },
     ],
     emailPlaceholder: 'seu@email.com',
     sendBtn: 'Receber cartas da Lapônia',
@@ -71,7 +71,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
       { name: 'PN Pyhä-Luosto', note: 'Abetos de 400 anos · mina de ametista' },
       { name: 'Inari', note: 'Coração sámi · Bortle 2 · horizonte aberto sobre o lago' },
       { name: 'Utsjoki', note: '4 de cada 5 noites limpas mostram aurora no pico · kaamos de 51 dias' },
-      { name: 'Kilpisjärvi', note: 'Ponto de três fronteiras · fjelds de grande altitude' },
+      { name: 'Kilpisjärvi', note: 'Ponto de três fronteiras · fjälls de grande altitude' },
       { name: 'Enontekiö', note: 'Alguns dos céus mais escuros da Europa (Bortle 1)' },
       { name: 'Hetta', note: 'Extremo norte da trilha Hetta–Pallas de 55 km' },
       { name: 'Ruka / Oulanka', note: 'Karhunkierros de 82 km · pontes suspensas e cânions · Kuusamo, logo ao sul da Lapônia' },
@@ -86,11 +86,11 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
     metaTitle: 'Natureza da Lapônia: parques e aurora | LaplandNature',
     metaDescription: 'A natureza ártica da Lapônia finlandesa, cinco parques nacionais, mais de 200 noites de aurora por ano, kaamos (noite polar) e trilhas de 5 a 82 km.',
     hero: {
-      alt: 'Natureza ártica coberta de neve e fjells na Lapônia finlandesa',
+      alt: 'Natureza ártica coberta de neve e fjälls na Lapônia finlandesa',
       eyebrow: 'Acima do Círculo Polar Ártico',
       title: 'Natureza ártica',
       subtitle: 'intocada',
-      description: 'Lapônia finlandesa, 100 367 km² de parques nacionais, fjelds, florestas antigas e a temporada de aurora mais longa da Europa.',
+      description: 'Lapônia finlandesa, 100 367 km² de parques nacionais, fjälls, florestas antigas e a temporada de aurora mais longa da Europa.',
       primaryCta: 'Planejar a viagem da aurora',
       secondaryCta: 'Explorar os parques',
     },
@@ -114,7 +114,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
         {
           tag: 'Áreas protegidas',
           title: 'Parques nacionais',
-          blurb: 'Cinco parques somando mais de 7 000 km² de natureza protegida, dos fjelds de Urho Kekkonen às árvores coroadas de neve de Riisitunturi.',
+          blurb: 'Cinco parques somando mais de 7 000 km² de natureza protegida, dos fjälls de Urho Kekkonen às árvores coroadas de neve de Riisitunturi.',
           cta: 'Explorar parques nacionais',
         },
         {
@@ -138,7 +138,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
         {
           tag: 'Tutela',
           title: 'Conservação',
-          blurb: 'A Metsähallitus administra 85% dos fjelds da Lapônia e os sete parques nacionais. Mais o direito de acesso à natureza, a lei finlandesa de livre acesso.',
+          blurb: 'A Metsähallitus administra 85% dos fjälls da Lapônia e os sete parques nacionais. Mais o direito de acesso à natureza, a lei finlandesa de livre acesso.',
           cta: 'Explorar a conservação',
         },
         {
@@ -206,7 +206,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
     spots: [
       { name: 'Inari', description: 'Coração sami às margens do lago Inari. Poluição luminosa mínima, céus amplos e abertos e horizonte limpo ao norte.' },
       { name: 'Utsjoki', description: 'O município mais setentrional da Finlândia, na fronteira com a Noruega. Horizonte norte sem obstáculos e 51 dias sem nascer do sol durante o kaamos.' },
-      { name: 'Kilpisjärvi', description: 'Onde Finlândia, Suécia e Noruega se encontram. Os fjelds de altitude oferecem vistas panorâmicas da aurora acima da camada de nuvens do oceano Ártico.' },
+      { name: 'Kilpisjärvi', description: 'Onde Finlândia, Suécia e Noruega se encontram. Os fjälls de altitude oferecem vistas panorâmicas da aurora acima da camada de nuvens do oceano Ártico.' },
       { name: 'Enontekiö', description: 'Natureza remota com alguns dos céus mais escuros da Europa continental, medições Bortle 1 registradas no inverno de 2023.' }
     ],
     stayCta: 'Encontrar acomodação em',
@@ -258,17 +258,17 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
     metaTitle: 'Parques nacionais da Lapônia | LaplandNature',
     metaDescription: 'Os cinco parques nacionais da Lapônia finlandesa, Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi e Pyhä-Luosto.',
     hero: {
-      alt: 'Paisagem aberta de fjells em um parque nacional da Lapônia finlandesa sob céu limpo',
+      alt: 'Paisagem aberta de fjälls em um parque nacional da Lapônia finlandesa sob céu limpo',
       eyebrow: 'Guia essencial',
       title: 'Parques nacionais',
       subtitle: 'Natureza protegida',
-      description: 'Cinco parques protegem o grosso da natureza sem estradas da Lapônia, de travessias por fjelds abertos a florestas coroadas de neve e cânions de garimpo. Cada um tem um vilarejo-porta onde montar base.',
+      description: 'Cinco parques protegem o grosso da natureza sem estradas da Lapônia, de travessias por fjälls abertos a florestas coroadas de neve e cânions de garimpo. Cada um tem um vilarejo-porta onde montar base.',
     },
     parks: [
-      { name: 'Parque Nacional de Urho Kekkonen', description: 'O segundo maior parque nacional da Finlândia, 2.550 km². Vastos fjelds abertos, gargantas profundas e antigos pinheirais. Um paraíso para o trekking de vários dias e o esqui backcountry.', highlight: '2º maior parque da Finlândia', visited: 'março de 2024 · circuito Rumakuru esquiado no dia, neve estável a −12 °C' },
-      { name: 'Parque Nacional de Pallas-Yllästunturi', description: 'Abriga a travessia de fjelds mais popular da Finlândia, os 55 km de Hetta–Pallas. Cumes abertos com horizontes que alcançam além de Käsivarsi.', highlight: 'A travessia de fjelds mais longa da Finlândia', visited: 'setembro de 2023 · Hetta → Pallas em três dias · pico do ruska, semana 2' },
+      { name: 'Parque Nacional de Urho Kekkonen', description: 'O segundo maior parque nacional da Finlândia, 2.550 km². Vastos fjälls abertos, gargantas profundas e antigos pinheirais. Um paraíso para o trekking de vários dias e o esqui backcountry.', highlight: '2º maior parque da Finlândia', visited: 'março de 2024 · circuito Rumakuru esquiado no dia, neve estável a −12 °C' },
+      { name: 'Parque Nacional de Pallas-Yllästunturi', description: 'Abriga a travessia de fjälls mais popular da Finlândia, os 55 km de Hetta–Pallas. Cumes abertos com horizontes que alcançam além de Käsivarsi.', highlight: 'A travessia de fjälls mais longa da Finlândia', visited: 'setembro de 2023 · Hetta → Pallas em três dias · pico do ruska, semana 2' },
       { name: 'Parque Nacional de Lemmenjoki', description: 'Uma das maiores naturezas sem estradas da Europa. Famoso pela história de garimpo e pelo rio Lemmenjoki, que corre por cânions profundos.', highlight: 'Patrimônio do garimpo de ouro', visited: 'julho de 2024 · descida de canoa até Ravadasköngäs, sol da meia-noite' },
-      { name: 'Parque Nacional de Riisitunturi', description: 'Conhecido pelas árvores coroadas de neve (tykky) que, de dezembro a março, transformam as encostas em esculturas geladas surreais. Os fjelds voltados a oeste produzem o tykky mais pesado da Finlândia.', highlight: 'Árvores coroadas de neve (tykky)', visited: 'fevereiro de 2024 · tykky no peso máximo, ensaio na hora azul às 14h30' },
+      { name: 'Parque Nacional de Riisitunturi', description: 'Conhecido pelas árvores coroadas de neve (tykky) que, de dezembro a março, transformam as encostas em esculturas geladas surreais. Os fjälls voltados a oeste produzem o tykky mais pesado da Finlândia.', highlight: 'Árvores coroadas de neve (tykky)', visited: 'fevereiro de 2024 · tykky no peso máximo, ensaio na hora azul às 14h30' },
       { name: 'Parque Nacional de Pyhä-Luosto', description: 'Abriga uma das florestas mais antigas da Finlândia, com abetos de mais de 400 anos. A mina de ametistas de Lampivaara fica dentro do parque, os visitantes garimpam as próprias gemas.', highlight: 'Mina de ametistas + floresta antiga', visited: 'outubro de 2023 · garganta de Pyhäkuru após a primeira neve, geada na passarela' }
     ],
     weThere: 'Estivemos lá:',
@@ -277,7 +277,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
     hettaH2: 'Hetta → Pallas em três dias, a travessia completa',
     hettaLead: 'A trilha de 55 km Hetta–Pallas, através de Pallas-Yllästunturi, é a caminhada longa mais popular da Finlândia por um motivo, corre quase toda acima do limite das árvores, os refúgios ficam espaçados para etapas curtas e a vista nunca se fecha. Caminhamos de norte a sul em três dias no pico do ruska. O sentido habitual é norte-sul; sul-norte (saída em Hetta) é a melhor escolha fotográfica e a balsa sobre o Ounasjärvi na largada é um belo ritual.',
     days: [
-      { day: 'Dia 1 · 18 km', title: 'Hetta → Sioskuru', body: 'Barco pelo Ounasjärvi às 9h (gratuito, de 1º de junho a 30 de setembro). Em duas horas se sobe de Pyhäkero ao fjeld aberto. O refúgio Sioskuru dorme 16; chegamos às 16h30 com três beliches livres. Pôr do sol sobre os fjelds do oeste a partir da porta.', note: '+520 m de desnível · vento leve' },
+      { day: 'Dia 1 · 18 km', title: 'Hetta → Sioskuru', body: 'Barco pelo Ounasjärvi às 9h (gratuito, de 1º de junho a 30 de setembro). Em duas horas se sobe de Pyhäkero ao fjäll aberto. O refúgio Sioskuru dorme 16; chegamos às 16h30 com três beliches livres. Pôr do sol sobre os fjälls do oeste a partir da porta.', note: '+520 m de desnível · vento leve' },
       { day: 'Dia 2 · 22 km', title: 'Sioskuru → Hannukuru', body: 'O dia símbolo. Atravessa-se Pyhäkuru e a tundra alta em torno de Lompolojärvi, a foto da trilha que você já viu é do km 12. O refúgio Hannukuru tem sauna a lenha; é por isso que a maioria divide a rota assim.', note: 'Ponto alto: reflexo no Lompolojärvi com a luz das 17h' },
       { day: 'Dia 3 · 15 km', title: 'Hannukuru → Pallas', body: 'O dia mais fácil no papel. Sobe-se a crista de Pallas, Taivaskero, Lehmäkero, Laukukero, com horizontes que alcançam além de Käsivarsi numa manhã limpa. Fim no hotel Pallas; se puder, reserve sauna e um bife. Você mereceu os dois.', note: 'Total: 55 km · 3 dias · 11 h líquidas de caminhada' }
     ],
@@ -303,7 +303,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
       h2: 'Parques nacionais da Lapônia, perguntas frequentes',
       items: [
         { q: 'Quantos parques nacionais existem na Lapônia?', a: 'A Lapônia abriga cinco dos parques selvagens mais visitados da Finlândia: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi e Pyhä-Luosto. Cada um tem seu próprio vilarejo-porta para servir de base, de Saariselkä para o UKK a Hetta e Muonio para o Pallas-Yllästunturi.' },
-        { q: 'Qual é o maior parque nacional da Lapônia finlandesa?', a: 'O Parque Nacional de Urho Kekkonen é o maior da Lapônia, com cerca de 2.550 km², e o segundo maior de toda a Finlândia. Vai dos fjelds de Saariselkä em direção ao leste, entrando numa natureza profunda e sem estradas, com fjelds abertos, gargantas de rios e pinheirais antigos.' },
+        { q: 'Qual é o maior parque nacional da Lapônia finlandesa?', a: 'O Parque Nacional de Urho Kekkonen é o maior da Lapônia, com cerca de 2.550 km², e o segundo maior de toda a Finlândia. Vai dos fjälls de Saariselkä em direção ao leste, entrando numa natureza profunda e sem estradas, com fjälls abertos, gargantas de rios e pinheirais antigos.' },
         { q: 'Preciso de autorização ou pagar entrada nos parques nacionais da Lapônia?', a: 'Não. Os parques nacionais da Finlândia têm entrada gratuita e não há autorização para caminhadas comuns, visitas de um dia ou pernoite nos refúgios abertos. Alguns refúgios reserváveis e saunas cobram uma pequena taxa, e atividades guiadas ou o garimpo de ouro em Lemmenjoki têm seus próprios custos, mas percorrer as trilhas não custa nada.' },
         { q: 'Qual é a melhor época para visitar os parques?', a: 'Do início a meados de setembro para as cores de outono do ruska, junho e julho para o sol da meia-noite e longos dias de caminhada, e de fevereiro a março para árvores coroadas de neve e esqui de travessia, Riisitunturi fica mais marcante sob o tykky pesado no fim do inverno. Os refúgios de verão e os serviços de balsa costumam funcionar do início de junho ao fim de setembro.' },
         { q: 'Onde dá para garimpar ouro num parque nacional da Lapônia?', a: 'O Parque Nacional de Lemmenjoki é o coração do garimpo de ouro da Finlândia. O vale do rio tem uma herança viva da corrida do ouro, com pontos de garimpo sinalizados e concessões licenciadas ao longo do rio Lemmenjoki. No verão há um serviço de barco que sobe parte do rio, deixando as áreas de garimpo acessíveis num passeio de um dia.' },
@@ -321,11 +321,11 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
       description: 'Urso-pardo em esconderijos noturnos: uma noite fica em torno de 90 %, duas noites 99 %. Manadas semisselvagens de renas e o esquivo glutão, com operadores verificados.',
     },
     animals: [
-      { name: 'Rena', description: 'Cerca de 200 mil renas semidomesticadas percorrem a Lapônia finlandesa, no centro da cultura pastoril sami há milênios. Pastam livres por fjelds e florestas, você vai encontrá-las à beira da estrada.', status: 'Comum' },
-      { name: 'Raposa-do-ártico', description: 'Um dos mamíferos mais raros da Finlândia. A raposa-do-ártico sobrevive nos fjelds mais duros; o pelo fica branco no inverno para se camuflar na neve. Em perigo crítico na população escandinava.', status: 'Em perigo crítico' },
+      { name: 'Rena', description: 'Cerca de 200 mil renas semidomesticadas percorrem a Lapônia finlandesa, no centro da cultura pastoril sami há milênios. Pastam livres por fjälls e florestas, você vai encontrá-las à beira da estrada.', status: 'Comum' },
+      { name: 'Raposa-do-ártico', description: 'Um dos mamíferos mais raros da Finlândia. A raposa-do-ártico sobrevive nos fjälls mais duros; o pelo fica branco no inverno para se camuflar na neve. Em perigo crítico na população escandinava.', status: 'Em perigo crítico' },
       { name: 'Urso-pardo', description: 'A Finlândia tem uma das populações de urso-pardo mais densas da Europa. Os melhores esconderijos ficam no leste da Finlândia, em torno de Kuusamo e Suomussalmi, um desvio fácil ao sul da Lapônia, e permitem encontros próximos nas noites de verão, quando os ursos saem da hibernação.', status: 'Quase ameaçado' },
       { name: 'Glutão', description: 'O glutão é um dos predadores mais esquivos da floresta boreal. Imensamente forte para o tamanho, percorre vastos territórios pela natureza lapônica. Raramente visto, mas presente em toda a região.', status: 'Em perigo' },
-      { name: 'Coruja-das-neves', description: 'Visitante ocasional dos fjelds mais setentrionais, a coruja-das-neves caça lemingues na tundra aberta. Os avistamentos dependem dos ciclos populacionais do leming e raramente ocorrem ao sul de Utsjoki.', status: 'Visitante raro' },
+      { name: 'Coruja-das-neves', description: 'Visitante ocasional dos fjälls mais setentrionais, a coruja-das-neves caça lemingues na tundra aberta. Os avistamentos dependem dos ciclos populacionais do leming e raramente ocorrem ao sul de Utsjoki.', status: 'Visitante raro' },
       { name: 'Cisne-bravo', description: 'A ave nacional da Finlândia nidifica nos pântanos e lagos tranquilos da Lapônia. Seu chamado de trombeta percorre quilômetros nas noites paradas de verão, um som que define o verão lapônico.', status: 'Ave nacional' }
     ],
     statuses: {
@@ -376,8 +376,8 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
       items: [
         { q: 'Quando dá para ver ursos-pardos na Lapônia finlandesa?', a: 'A observação de urso-pardo vai do fim de abril ao início de setembro, com esconderijos fotográficos para pernoite concentrados em torno de Kuusamo, Suomussalmi e Lieksa, no leste da Finlândia, ao sul da própria Lapônia. O fim de maio e o início de junho são os melhores para fêmeas com filhotes; julho traz machos solitários com regularidade e clima fácil; setembro acrescenta a chance de lobos cruzando e a luz de outono.' },
         { q: 'Qual a chance real de eu ver um urso de um esconderijo?', a: 'Alta, se você passar a noite. Com uma noite no esconderijo durante a temporada, a taxa de avistamento fica em torno de 90%, e duas noites seguidas a levam para além de 99%. Os esconderijos são pontos de alimentação com isca aos quais os mesmos ursos voltam ano após ano, é isso que torna as chances tão fortes.' },
-        { q: 'Quantas renas existem na Lapônia, e elas são selvagens?', a: 'Cerca de 200 mil renas semidomesticadas percorrem a Lapônia finlandesa. Elas não são selvagens, cada animal tem dono e marca dentro de um distrito de criação, central para a cultura sami há milhares de anos. Pastam livres por fjelds e florestas, então você vai encontrá-las à beira da estrada o tempo todo.' },
-        { q: 'Qual é o animal mais raro da Lapônia?', a: 'A raposa-do-ártico é o mais raro, classificada como em perigo crítico na população fenoscandinava e sobrevivendo apenas nos ambientes de fjeld mais duros e altos. O glutão é o mais difícil de avistar, imensamente forte e percorrendo territórios enormes, está presente por toda a natureza, mas raramente é visto.' },
+        { q: 'Quantas renas existem na Lapônia, e elas são selvagens?', a: 'Cerca de 200 mil renas semidomesticadas percorrem a Lapônia finlandesa. Elas não são selvagens, cada animal tem dono e marca dentro de um distrito de criação, central para a cultura sami há milhares de anos. Pastam livres por fjälls e florestas, então você vai encontrá-las à beira da estrada o tempo todo.' },
+        { q: 'Qual é o animal mais raro da Lapônia?', a: 'A raposa-do-ártico é o mais raro, classificada como em perigo crítico na população fenoscandinava e sobrevivendo apenas nos ambientes de fjäll mais duros e altos. O glutão é o mais difícil de avistar, imensamente forte e percorrendo territórios enormes, está presente por toda a natureza, mas raramente é visto.' },
         { q: 'Quanto custa um esconderijo de observação de ursos?', a: 'Espere algo entre 280 € e 450 € por pessoa por uma noite, em geral incluindo o transporte a partir do ponto de encontro, o jantar, um beliche no esconderijo e um guia. Os fins de semana de julho esgotam meses antes, então reserve com seis meses ou mais de antecedência para as datas de pico do verão.' },
       ],
     },
@@ -386,23 +386,23 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
     metaTitle: 'As quatro estações da Lapônia | LaplandNature',
     metaDescription: 'Cada estação acima do Círculo Polar Ártico é um mundo diferente, a cor de outono do ruska, a noite polar kaamos, o sol da meia-noite e a neve da primavera.',
     hero: {
-      alt: 'Cores de outono da ruska em uma paisagem de fjells na Lapônia finlandesa',
+      alt: 'Cores de outono da ruska em uma paisagem de fjälls na Lapônia finlandesa',
       eyebrow: 'Guia essencial',
       title: 'Quatro estações',
       subtitle: 'Da Lapônia',
       description: 'Cada estação acima do Círculo Polar Ártico abre um mundo completamente diferente, luz de verão sem fim, o crepúsculo azul da noite polar e duas curtas estações de transição que comprimem toda a primavera e o outono do sul da Finlândia em poucas semanas intensas.',
     },
     seasons: [
-      { name: 'Ruska', period: 'Setembro – outubro', description: 'A Lapônia explode em cores vivas de outono: bétulas, álamos e mirtilos viram ao dourado, ao vermelho e ao laranja. Os cumes dos fjelds atravessam o espectro em dias, não em semanas. O ruska é um dos grandes eventos naturais do ano finlandês, os caminhantes viajam de todo o país para vê-lo.' },
+      { name: 'Ruska', period: 'Setembro – outubro', description: 'A Lapônia explode em cores vivas de outono: bétulas, álamos e mirtilos viram ao dourado, ao vermelho e ao laranja. Os cumes dos fjälls atravessam o espectro em dias, não em semanas. O ruska é um dos grandes eventos naturais do ano finlandês, os caminhantes viajam de todo o país para vê-lo.' },
       { name: 'Kaamos', period: 'Novembro – janeiro', description: 'A noite polar desce sobre a Lapônia. Em Utsjoki o sol não nasce por 51 dias. Mas o kaamos não é escuridão, a neve reflete um crepúsculo azul e violeta a tarde inteira, criando uma paisagem suave e luminosa. É a janela em que a aurora está mais ativa.' },
-      { name: 'Sol da meia-noite', period: 'Junho – julho', description: 'Acima do Círculo Polar Ártico o sol não se põe em pleno verão. No extremo norte da Lapônia o sol da meia-noite se mantém por mais de 70 dias seguidos. O dia sem fim transforma o trekking, a pesca e a canoagem, você pode sair às 23h e ver a luz deslizar pelos fjelds até o café da manhã.' },
+      { name: 'Sol da meia-noite', period: 'Junho – julho', description: 'Acima do Círculo Polar Ártico o sol não se põe em pleno verão. No extremo norte da Lapônia o sol da meia-noite se mantém por mais de 70 dias seguidos. O dia sem fim transforma o trekking, a pesca e a canoagem, você pode sair às 23h e ver a luz deslizar pelos fjälls até o café da manhã.' },
       { name: 'Neve de primavera', period: 'Abril – maio', description: 'A luz volta com força, sol radiante refletindo em imensos campos de neve. Os dias se alongam rápido e as temperaturas sobem de zero. A melhor época para esqui cross-country, snowmobile e pesca no gelo: ainda há muita neve, mas as condições são amenas e os dias longos.' },
     ],
     ruskaKicker: 'Ruska 2024 · semana a semana',
     ruskaH2: 'Como o pico do ruska se desloca de verdade pela Lapônia',
     ruskaLead: 'O ruska não é um único evento. É uma onda que desce de norte a sul por cerca de três semanas todo setembro. Se você chegar na semana errada ou na latitude errada, verá bétulas peladas ou musgo ainda verde. Eis o que anotamos em 2024 descendo de Utsjoki a Riisitunturi.',
     ruskaWeeks: [
-      { week: 'Semana 1 · 2–8 set.', region: 'Utsjoki + Kilpisjärvi (69° N e acima)', body: 'Os fjelds mais setentrionais começam primeiro. Bétulas já com 60% de cor em 5 de setembro; mirtilo-vermelho de um vermelho intenso. Temperaturas noturnas de acampamento de −2 °C. Janela fotográfica: 14h–17h, luz rasante.' },
+      { week: 'Semana 1 · 2–8 set.', region: 'Utsjoki + Kilpisjärvi (69° N e acima)', body: 'Os fjälls mais setentrionais começam primeiro. Bétulas já com 60% de cor em 5 de setembro; mirtilo-vermelho de um vermelho intenso. Temperaturas noturnas de acampamento de −2 °C. Janela fotográfica: 14h–17h, luz rasante.' },
       { week: 'Semana 2 · 9–15 set.', region: 'Inari + Saariselkä (68–69° N)', body: 'O pico. O parque de Urho Kekkonen em plena saturação em 11 de setembro. A melhor semana do ano para o circuito Saariselkä → Kiilopää. Muito fluxo de caminhantes de dia no fim de semana; trilhas vazias durante a semana.' },
       { week: 'Semana 3 · 16–22 set.', region: 'Pallas + Levi + Pyhä (67–68° N)', body: 'O pico desce ao sul. A trilha Hetta–Pallas em pleno ruska por volta de 17–19 de setembro. Pyhä-Luosto alguns dias depois. Possíveis primeiras nevadas acima de 600 m no fim da semana.' },
       { week: 'Semana 4 · 23–29 set.', region: 'Riisitunturi + Oulanka (66° N)', body: 'Último fôlego. Riisitunturi segue fotogênico por mais uma semana antes da queda das folhas. Karhunkierros (a Trilha do Urso) no auge, ainda algumas tardes amenas, geada ao amanhecer, refúgios vazios durante a semana.' },
@@ -438,9 +438,9 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
       h2: 'Estações da Lapônia, perguntas frequentes',
       items: [
         { q: 'Quando é o kaamos, a noite polar, na Lapônia?', a: 'O kaamos, a noite polar, cai mais ou menos do fim de novembro a meados de janeiro. Quanto mais ao norte você vai, mais ele dura: em Utsjoki, o ponto mais setentrional da Finlândia, o sol fica abaixo do horizonte por cerca de 51 dias. Não é escuridão total, porém, a neve reflete um longo crepúsculo azul e violeta no meio de cada dia, e é o trecho mais ativo da temporada da aurora.' },
-        { q: 'Quando acontece o sol da meia-noite na Lapônia?', a: 'O sol da meia-noite vai mais ou menos do início de junho ao início de julho na maior parte da Lapônia, e dura mais quanto mais ao norte você está, nos fjelds mais setentrionais o sol não se põe por completo durante mais de 70 dias seguidos. Acima do Círculo Polar Ártico dá para caminhar, pescar ou remar à meia-noite com plena luz do dia.' },
-        { q: 'Quando é o ruska, a cor de outono, na Lapônia?', a: 'O ruska desce de norte a sul ao longo de cerca de três semanas em setembro. Os fjelds mais ao norte, em torno de Utsjoki e Kilpisjärvi, viram primeiro, no início de setembro; Inari e Saariselkä chegam ao pico por volta da segunda semana; Pallas, Levi e Pyhä seguem na terceira semana; e Riisitunturi e Oulanka aguentam até o fim de setembro antes de as folhas caírem.' },
-        { q: 'Qual é a melhor estação para visitar a Lapônia?', a: 'Depende do que você veio buscar. Escolha o kaamos (dezembro–janeiro) para aurora e neve, a primavera (abril–maio) para dias longos e claros com a neve ainda no chão, o sol da meia-noite (junho–julho) para caminhar e remar, e o ruska (setembro) para a cor de outono e a melhor fotografia de fjeld do ano. Ajuste a estação à viagem, e não o contrário.' },
+        { q: 'Quando acontece o sol da meia-noite na Lapônia?', a: 'O sol da meia-noite vai mais ou menos do início de junho ao início de julho na maior parte da Lapônia, e dura mais quanto mais ao norte você está, nos fjälls mais setentrionais o sol não se põe por completo durante mais de 70 dias seguidos. Acima do Círculo Polar Ártico dá para caminhar, pescar ou remar à meia-noite com plena luz do dia.' },
+        { q: 'Quando é o ruska, a cor de outono, na Lapônia?', a: 'O ruska desce de norte a sul ao longo de cerca de três semanas em setembro. Os fjälls mais ao norte, em torno de Utsjoki e Kilpisjärvi, viram primeiro, no início de setembro; Inari e Saariselkä chegam ao pico por volta da segunda semana; Pallas, Levi e Pyhä seguem na terceira semana; e Riisitunturi e Oulanka aguentam até o fim de setembro antes de as folhas caírem.' },
+        { q: 'Qual é a melhor estação para visitar a Lapônia?', a: 'Depende do que você veio buscar. Escolha o kaamos (dezembro–janeiro) para aurora e neve, a primavera (abril–maio) para dias longos e claros com a neve ainda no chão, o sol da meia-noite (junho–julho) para caminhar e remar, e o ruska (setembro) para a cor de outono e a melhor fotografia de fjäll do ano. Ajuste a estação à viagem, e não o contrário.' },
         { q: 'Fica escuro durante o sol da meia-noite?', a: 'Não. Acima do Círculo Polar Ártico o sol não se põe no auge do verão, então não há noite de verdade por várias semanas, apenas uma leve queda de luz na madrugada. Isso significa que ver a aurora é impossível em junho e julho; o céu simplesmente nunca fica escuro o bastante.' },
       ],
     },
@@ -450,11 +450,11 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
     metaTitle: 'Trilhas da Lapônia: 5 km a 82 km | LaplandNature',
     metaDescription: 'Seis trilhas na Lapônia finlandesa e arredores, Hetta-Pallas (55 km), Karhunkierros (82 km), cume do Halti (55 km) e três rotas mais curtas.',
     hero: {
-      alt: 'Uma trilha serpenteando por um fjell nas cores da ruska de outono na Lapônia finlandesa',
+      alt: 'Uma trilha serpenteando por um fjäll nas cores da ruska de outono na Lapônia finlandesa',
       eyebrow: 'Guia essencial',
       title: 'Trilhas',
       subtitle: 'Da Lapônia',
-      description: 'De caminhadas de dia fáceis a expedições de vários dias pela natureza. As trilhas da Lapônia levam você por florestas antigas, sobre fjelds abertos, ao longo de rios selvagens e até o cume mais alto da Finlândia.',
+      description: 'De caminhadas de dia fáceis a expedições de vários dias pela natureza. As trilhas da Lapônia levam você por florestas antigas, sobre fjälls abertos, ao longo de rios selvagens e até o cume mais alto da Finlândia.',
     },
     karhuKicker: 'Do caderno · ruska 2024',
     karhuH2: 'O Karhunkierros em 4 dias o que levamos, o que cortamos, o que aprendemos',
@@ -478,9 +478,9 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
     listH2: 'Seis trilhas para planejar uma viagem em torno delas',
     listLead: 'Da passarela de 5 km da garganta de Pyhäkuru aos 82 km do Karhunkierros. Cada uma conecta a um vilarejo de partida perto do qual você vai querer dormir.',
     trails: [
-      { name: 'Trilha Hetta–Pallas', description: 'A trilha de longa distância mais popular da Finlândia, que atravessa a cadeia de fjelds entre Hetta e Pallas. Terreno de fjeld aberto com vistas de horizonte, refúgios bem conservados a intervalos curtos.', distance: '55 km', duration: '3–4 dias', difficulty: 'Moderado' },
+      { name: 'Trilha Hetta–Pallas', description: 'A trilha de longa distância mais popular da Finlândia, que atravessa a cadeia de fjälls entre Hetta e Pallas. Terreno de fjäll aberto com vistas de horizonte, refúgios bem conservados a intervalos curtos.', distance: '55 km', duration: '3–4 dias', difficulty: 'Moderado' },
       { name: 'Karhunkierros (Trilha do Urso)', description: 'Uma das trilhas mais famosas da Finlândia, serpenteia pelo cânion de Oulanka entre corredeiras e pontes suspensas. Gargantas espetaculares e floresta primária marcam toda a rota.', distance: '82 km', duration: '4–6 dias', difficulty: 'Difícil' },
-      { name: 'Rotas de dia de Saariselkä', description: 'Rotas de dia bem sinalizadas a partir do vilarejo de Saariselkä para dentro do parque nacional. A introdução certa ao trekking de fjeld, com opções para todos os níveis e janelas de tempo.', distance: '5–20 km', duration: '2–8 horas', difficulty: 'Fácil' },
+      { name: 'Rotas de dia de Saariselkä', description: 'Rotas de dia bem sinalizadas a partir do vilarejo de Saariselkä para dentro do parque nacional. A introdução certa ao trekking de fjäll, com opções para todos os níveis e janelas de tempo.', distance: '5–20 km', duration: '2–8 horas', difficulty: 'Fácil' },
       { name: 'Trilha do cume do Halti', description: 'Travessia ao ponto mais alto da Finlândia, 1.324 m. Rota remota pelo interior de Kilpisjärvi. O trecho final do cume não é sinalizado e exige orientação com má visibilidade.', distance: '55 km (ida e volta)', duration: '3–5 dias', difficulty: 'Muito exigente' },
       { name: 'Trilha da garganta de Pyhäkuru', description: 'Trilha curta mas marcante por uma garganta profunda de paredes antigas. Lugar sagrado para o povo sami, com trechos de passarela acessíveis a famílias e grupos de ritmo misto.', distance: '5 km', duration: '2–3 horas', difficulty: 'Fácil' },
       { name: 'Trilha do rio Lemmenjoki', description: 'Segue o lendário rio dos garimpeiros por uma das maiores naturezas da Europa. Há transporte de barco para parte da rota. História da corrida do ouro visível nos pontos de garimpo sinalizados.', distance: '20 km', duration: '1–2 dias', difficulty: 'Moderado' }
@@ -499,7 +499,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
       h2: 'Trilhas na Lapônia, perguntas frequentes',
       items: [
         { q: 'Quanto tempo leva o Karhunkierros, a Trilha do Urso?', a: 'O Karhunkierros completo tem cerca de 82 km e a maioria dos caminhantes o percorre em quatro a seis dias, dormindo nos refúgios ao longo do cânion de Oulanka. Quem anda forte faz em quatro dias longos; se quiser tempo nas corredeiras, cachoeiras e pontes suspensas, planeje cinco. O circuito mais curto, o Pieni Karhunkierros, cobre os destaques em 12 km.' },
-        { q: 'Qual é a trilha mais popular da Lapônia?', a: 'A trilha Hetta–Pallas, de 55 km, pelo Parque Nacional de Pallas-Yllästunturi, é a rota de longa distância mais popular da Finlândia. Corre quase toda acima do limite das árvores, com vistas de fjeld aberto, e os refúgios ficam espaçados para etapas confortáveis de três a quatro dias entre Hetta e Pallas.' },
+        { q: 'Qual é a trilha mais popular da Lapônia?', a: 'A trilha Hetta–Pallas, de 55 km, pelo Parque Nacional de Pallas-Yllästunturi, é a rota de longa distância mais popular da Finlândia. Corre quase toda acima do limite das árvores, com vistas de fjäll aberto, e os refúgios ficam espaçados para etapas confortáveis de três a quatro dias entre Hetta e Pallas.' },
         { q: 'Preciso reservar os refúgios com antecedência?', a: 'Os refúgios abertos (autiotupa) são gratuitos e por ordem de chegada, não dá para reservar, e no pico do ruska, em setembro, podem lotar já no meio da tarde. Os refúgios reserváveis (varaustupa) precisam ser reservados e pagos com antecedência, em geral cerca de 14 € o beliche, e valem a pena para garantir uma cama nos trechos movimentados.' },
         { q: 'Qual é a altura do ponto mais alto da Finlândia, e dá para subir?', a: 'O ponto mais alto da Finlândia fica no ombro do Halti, a 1.324 m, no interior remoto de Kilpisjärvi, perto da fronteira com a Noruega. É uma rota séria de 55 km ida e volta, de três a cinco dias; a aproximação final não é sinalizada e exige real habilidade de orientação com pouca visibilidade.' },
         { q: 'Qual é a melhor época para caminhar na Lapônia?', a: 'De meados de junho ao fim de setembro é a temporada principal. Julho oferece clima quente e o sol da meia-noite; do início a meados de setembro vêm as cores do ruska e bem menos mosquitos, embora as noites caiam abaixo de zero e as passarelas fiquem escorregadias de gelo ao amanhecer. Os refúgios de verão e as balsas em geral funcionam do início de junho ao fim de setembro.' },
@@ -508,19 +508,19 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   conservation: {
     metaTitle: 'Conservação na Lapônia finlandesa | LaplandNature',
-    metaDescription: 'A Metsähallitus administra 85% das áreas de fjeld da Lapônia e os sete parques nacionais. Mais SLL, WWF Finlândia e o Parlamento Sami.',
+    metaDescription: 'A Metsähallitus administra 85% das áreas de fjäll da Lapônia e os sete parques nacionais. Mais SLL, WWF Finlândia e o Parlamento Sami.',
     hero: {
-      alt: 'Floresta primária protegida e fjells na natureza selvagem da Lapônia finlandesa',
+      alt: 'Floresta primária protegida e fjälls na natureza selvagem da Lapônia finlandesa',
       eyebrow: 'Guia essencial',
       title: 'Conservação',
       subtitle: 'Proteger a natureza ártica',
-      description: 'A Metsähallitus administra 85% das áreas de fjeld da Lapônia e os sete parques nacionais. O direito de acesso à natureza finlandês dá a todos acesso livre à natureza, de forma responsável.',
+      description: 'A Metsähallitus administra 85% das áreas de fjäll da Lapônia e os sete parques nacionais. O direito de acesso à natureza finlandês dá a todos acesso livre à natureza, de forma responsável.',
     },
     orgsKicker: 'Quem é quem',
     orgsH2: 'Organizações de conservação',
     orgsLead: 'Os quatro órgãos que decidem como a natureza da Lapônia é administrada, protegida e usada, da gestão estatal de parques ao autogoverno sami.',
     orgs: [
-      { role: 'Gestão de parques nacionais', name: 'Metsähallitus (Parques e Vida Selvagem da Finlândia)', summary: 'Administra 85% das áreas de fjeld da Lapônia e os sete parques nacionais acima do Círculo Polar Ártico.', body: 'A empresa estatal finlandesa administra todos os parques nacionais, trilhas, refúgios e áreas protegidas da Lapônia. Mantém a infraestrutura das trilhas, os centros de visitantes e os programas gratuitos de educação ao ar livre.' },
+      { role: 'Gestão de parques nacionais', name: 'Metsähallitus (Parques e Vida Selvagem da Finlândia)', summary: 'Administra 85% das áreas de fjäll da Lapônia e os sete parques nacionais acima do Círculo Polar Ártico.', body: 'A empresa estatal finlandesa administra todos os parques nacionais, trilhas, refúgios e áreas protegidas da Lapônia. Mantém a infraestrutura das trilhas, os centros de visitantes e os programas gratuitos de educação ao ar livre.' },
       { role: 'Advocacy e proteção', name: 'Associação Finlandesa para a Conservação da Natureza (SLL)', summary: 'A maior organização de conservação da Finlândia, fundada em 1938.', body: 'Fundada em 1938, a SLL protege a natureza finlandesa por meio de advocacy, campanhas e educação ambiental. Foca na proteção de florestas, na ação climática e na biodiversidade.' },
       { role: 'Recuperação da fauna', name: 'WWF Finlândia', summary: 'Programas de recuperação da foca-anelada de Saimaa, da raposa-do-ártico e da rena-da-floresta.', body: 'A WWF Finlândia conduz programas de recuperação de espécies, incluindo o projeto escandinavo da raposa-do-ártico, que tirou a população fenoscandinava da quase extinção desde os anos 1990.' },
       { role: 'Gestão indígena', name: 'Parlamento Sami', summary: 'Autogoverno sobre assuntos culturais e ambientais sami no extremo norte da Lapônia.', body: 'Os distritos sami de criação de renas administram o pastoreio tradicional pelo território sami, equilibrando a ecologia com a coluna cultural e econômica do povo indígena da região.' }
@@ -532,7 +532,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
       { title: 'Direito de acesso à natureza', body: 'O jokamiehenoikeudet finlandês permite a qualquer pessoa caminhar, esquiar, nadar, colher frutos e cogumelos e acampar brevemente por terreno florestal, mesmo privado, sem permissão. O outro lado é a responsabilidade: não deixar rastro, respeitar casas e plantações, fogo só nos pontos sinalizados.' },
       { title: 'As restrições de fogo são sazonais', body: 'Nas secas de verão o FMI publica um metsäpalovaroitus / alerta de incêndio florestal. Enquanto vigente, acender qualquer fogo a céu aberto, inclusive nas fogueiras sinalizadas, é proibido. Verifique sempre antes de deixar uma estrada.' },
       { title: 'Leve tudo de volta', body: 'Os refúgios (autiotupa) funcionam na base da confiança: deixe-os mais limpos do que encontrou, reponha a lenha, assine o livro de visitas. O lixo em terreno remoto se acumula, não há coleta.' },
-      { title: 'As renas têm prioridade', body: 'Cerca de 200 mil renas semidomesticadas percorrem a Lapônia, não são selvagens, têm dono. Na estrada, reduza; nos fjelds, dê espaço. Junto às cercas (poroaita), feche os portões atrás de você.' }
+      { title: 'As renas têm prioridade', body: 'Cerca de 200 mil renas semidomesticadas percorrem a Lapônia, não são selvagens, têm dono. Na estrada, reduza; nos fjälls, dê espaço. Junto às cercas (poroaita), feche os portões atrás de você.' }
     ],
     finalKicker: 'Visite com responsabilidade',
     finalH2: 'Viaje aqui do lado da natureza',
@@ -550,9 +550,9 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
       items: [
         { q: 'O que é o direito de acesso à natureza na Finlândia?', a: 'O direito de acesso à natureza (jokamiehenoikeudet) permite a qualquer pessoa caminhar, esquiar, nadar, colher frutos e cogumelos e acampar por pouco tempo na maior parte do território, inclusive florestas privadas, sem pedir permissão nem pagar. A contrapartida é a responsabilidade: não deixar rastro, manter distância de casas e plantações, não perturbar a fauna e acender fogo apenas nos pontos sinalizados.' },
         { q: 'Dá para acender uma fogueira na Lapônia?', a: 'Só nos pontos de fogo designados, e não quando há um alerta de incêndio florestal (metsäpalovaroitus) em vigor. O Instituto Meteorológico Finlandês emite o alerta nos períodos secos e, enquanto ele vale, todo fogo a céu aberto fica proibido, mesmo nas fogueiras sinalizadas. Confira sempre o alerta atual antes de deixar uma estrada e, na dúvida, use um fogareiro de camping.' },
-        { q: 'Quem administra os parques nacionais e a natureza da Lapônia?', a: 'A Metsähallitus (Parques e Vida Selvagem da Finlândia), o órgão estatal, administra cerca de 85% das áreas de fjeld da Lapônia e todos os parques nacionais, mantendo trilhas, refúgios e centros de visitantes. A defesa da conservação vem da Associação Finlandesa para a Conservação da Natureza (SLL) e da WWF Finlândia, enquanto o Parlamento Sami tem o autogoverno sobre os assuntos culturais e ambientais sami no norte.' },
+        { q: 'Quem administra os parques nacionais e a natureza da Lapônia?', a: 'A Metsähallitus (Parques e Vida Selvagem da Finlândia), o órgão estatal, administra cerca de 85% das áreas de fjäll da Lapônia e todos os parques nacionais, mantendo trilhas, refúgios e centros de visitantes. A defesa da conservação vem da Associação Finlandesa para a Conservação da Natureza (SLL) e da WWF Finlândia, enquanto o Parlamento Sami tem o autogoverno sobre os assuntos culturais e ambientais sami no norte.' },
         { q: 'As renas têm prioridade nas estradas da Lapônia?', a: 'Na prática, sim, reduza bastante a velocidade. As cerca de 200 mil renas da Lapônia têm dono, não são selvagens, e vagueiam livres pelas estradas, sobretudo ao entardecer. Se você vir uma, espere mais por perto. Junto às cercas de manejo (poroaita), feche sempre qualquer portão que abrir atrás de você.' },
-        { q: 'Como posso viajar de forma responsável na Lapônia?', a: 'Durma onde a economia local precisa, fazendas de renas de propriedade sami, pousadas familiares e refúgios licenciados e escolha operadores que tornam ursos, lobos e raposas-do-ártico mais valiosos vivos do que mortos. Leve embora todo o seu lixo, mantenha-se nas passarelas no terreno frágil dos fjelds e siga as regras sazonais de fogo e de fauna.' },
+        { q: 'Como posso viajar de forma responsável na Lapônia?', a: 'Durma onde a economia local precisa, fazendas de renas de propriedade sami, pousadas familiares e refúgios licenciados e escolha operadores que tornam ursos, lobos e raposas-do-ártico mais valiosos vivos do que mortos. Leve embora todo o seu lixo, mantenha-se nas passarelas no terreno frágil dos fjälls e siga as regras sazonais de fogo e de fauna.' },
       ],
     },
   },
