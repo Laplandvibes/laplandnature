@@ -84,12 +84,12 @@ export const SV_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   home: {
     metaTitle: 'Lapplands natur 2026: norrsken, parker och djurliv',
-    metaDescription: 'Finska Lapplands arktiska vildmark, fem nationalparker, 200+ norrskensnätter, kaamos-polarnatten och vandringsleder från 5 km till 82 km.',
+    metaDescription: 'Finska Lapplands arktiska vildmark, sju nationalparker, 200+ norrskensnätter, kaamos-polarnatten och vandringsleder från 5 km till 82 km.',
     hero: {
       eyebrow: 'Norr om polcirkeln',
       title: 'Orörd arktisk',
       subtitle: 'vildmark',
-      description: 'Finska Lappland, 100 367 km² nationalparker, fjäll, urskogar och Europas längsta norrskenssäsong.',
+      description: 'Finska Lappland, 100 367 km² arktiskt landskap med sju nationalparker, fjäll, urskogar och Europas längsta norrskenssäsong.',
       primaryCta: 'Planera din norrskensresa',
       secondaryCta: 'Utforska parkerna',
       alt: 'Snötäckt arktisk vildmark och fjäll i finska Lappland',
@@ -98,7 +98,7 @@ export const SV_OVERRIDES: DeepPartial<SectionCopy> = {
       kicker: 'Norr om polcirkeln · bortom bruset',
       h: 'Finlands vildaste landskap ligger på ',
       hHighlight: '66°–69° nord',
-      hSuffix: '. Fem nationalparker, ljus från fyra årstider och Europas längsta norrskensfönster.',
+      hSuffix: '. Sju nationalparker, ljus från fyra årstider och Europas längsta norrskensfönster.',
       stats: [
         { value: '30 %', primary: 'av Finland', body: 'är landskapet Lappland, 100 367 km²' },
         { value: '40+', primary: 'skyddade områden', body: 'nationalparker, naturreservat, Natura 2000' },
@@ -111,10 +111,10 @@ export const SV_OVERRIDES: DeepPartial<SectionCopy> = {
       h2: 'Utvalda upplevelser i Lappland',
       lead: 'Från björngömslen vid ryska gränsen till kanjoner med frusna vattenfall, kanotpaddling i midnattssol och kaamos-himlen över Utsjoki – sju guider värda att återvända till.',
       items: [
-        { tag: 'Skyddade områden', title: 'Nationalparker', blurb: 'Fem parker på sammanlagt över 7 000 km² skyddad vildmark, från Urho Kekkonens fjäll till Riisitunturis snökrönta träd.', cta: 'Utforska nationalparkerna' },
+        { tag: 'Skyddade områden', title: 'Nationalparker', blurb: 'Lappland har sju nationalparker (tillsammans ungefär 6 900 km²); fem av dem presenterar vi närmare, från Urho Kekkonens fjäll till Riisitunturis snökrönta träd.', cta: 'Utforska nationalparkerna' },
         { tag: 'Djurliv', title: 'Djurskådning', blurb: 'Spåra brunbjörn från nattgömslen: en natt ligger runt 90 %, två nätter på 99 %. Möt halvvilda renhjordar och få syn på järv.', cta: 'Utforska djurlivet' },
         { tag: 'Norrsken', title: 'Norrsken', blurb: 'Jaga norrskenet över den arktiska himlen från september till april. Utsjoki bjuder på norrsken 4 av 5 klara nätter.', cta: 'Utforska norrskenet' },
-        { tag: 'Leder', title: 'Vandringsleder', blurb: 'Gå Finlands mest kända leder, från Karhunkierros hängbroar (82 km) till Haltis topp (1 324 m).', cta: 'Utforska vandringslederna' },
+        { tag: 'Leder', title: 'Vandringsleder', blurb: 'Gå Finlands mest kända leder, från Karhunkierros hängbroar (82 km) till Finlands högsta punkt på Haltis sluttning (1 324 m).', cta: 'Utforska vandringslederna' },
         { tag: 'Förvaltning', title: 'Naturvård', blurb: 'Metsähallitus förvaltar 85 % av Lapplands fjäll och alla sju nationalparker. Plus allemansrätten, Finlands lag om fri tillgång till naturen.', cta: 'Utforska naturvården' },
         { tag: 'Sommar', title: 'Midnattssol', blurb: 'Norr om polcirkeln går solen inte ner vid midsommar. I Utsjoki håller midnattssolen i över 70 dygn i rad.', cta: 'Utforska årstiderna' },
         { tag: 'Vatten', title: 'Sötvatten', blurb: 'Ungefär 188 000 sjöar, den fritt flödande Torne älv och aapamyrar. Varför rent kallt vatten är Lapplands mest sällsynta tillgång, och vad som håller fisken kvar i det.', cta: 'Utforska sötvattnet' },
@@ -201,7 +201,7 @@ export const SV_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   nationalParks: {
     metaTitle: 'Lapplands nationalparker: 5 vildmarker att vandra',
-    metaDescription: 'Finska Lapplands fem nationalparker: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi och Pyhä-Luosto. Ingångsbyar och bästa tiden.',
+    metaDescription: 'Fem av finska Lapplands nationalparker: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi och Pyhä-Luosto. Ingångsbyar och bästa tiden.',
     hero: {
       eyebrow: 'Pelarguide',
       title: 'Nationalparker',
@@ -247,7 +247,7 @@ export const SV_OVERRIDES: DeepPartial<SectionCopy> = {
       eyebrow: 'Vanliga frågor',
       h2: 'Lapplands nationalparker, vanliga frågor',
       items: [
-        { q: 'Hur många nationalparker finns det i Lappland?', a: 'Lappland rymmer fem av Finlands mest besökta vildmarksparker: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi och Pyhä-Luosto. Var och en har sin egen ingångsby att utgå från, från Saariselkä för Urho Kekkonen till Hetta och Muonio för Pallas-Yllästunturi.' },
+        { q: 'Hur många nationalparker finns det i Lappland?', a: 'Landskapet Lappland har sju nationalparker: Lemmenjoki, Urho Kekkonen, Pallas-Yllästunturi, Bottenvikens nationalpark, Pyhä-Luosto, Salla och Riisitunturi, tillsammans ungefär 6 900 km². Dessutom sträcker sig Oulanka och Syöte delvis in i Lappland. Fem av dem presenterar vi närmare: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi och Pyhä-Luosto. Var och en har sin egen ingångsby att utgå från, från Saariselkä för Urho Kekkonen till Hetta och Muonio för Pallas-Yllästunturi.' },
         { q: 'Vilken är den största nationalparken i finska Lappland?', a: 'Urho Kekkonens nationalpark är störst i Lappland med ungefär 2 550 km², och näst störst i hela Finland. Den sträcker sig från Saariselkä-fjällen österut in i djup väglös vildmark, med öppna fjäll, älvraviner och gammal tallskog.' },
         { q: 'Behöver man tillstånd eller inträdesavgift för Lapplands nationalparker?', a: 'Nej. Finlands nationalparker är gratis att besöka och det finns inget tillstånd för vanlig vandring, dagsbesök eller övernattning i öppna vildmarksstugor. Vissa reserveringsstugor och bastur tar en liten avgift, och guidade aktiviteter eller guldvaskning vid Lemmenjoki har sina egna kostnader, men att gå lederna kostar ingenting.' },
         { q: 'När är den bästa tiden att besöka parkerna?', a: 'Början till mitten av september för ruska-höstfärger, juni och juli för midnattssol och långa vandringsdagar, och februari till mars för snökrönta träd och turåkning på skidor, Riisitunturi är som mest slående under tung tykky sent på vintern. Sommarstugor och färjor går vanligtvis från början av juni till slutet av september.' },
@@ -426,7 +426,7 @@ export const SV_OVERRIDES: DeepPartial<SectionCopy> = {
       { name: 'Hetta–Pallas-leden', description: 'Finlands populäraste långdistansled, tvärs genom fjällkedjan mellan Hetta och Pallas. Öppen fjällterräng med horisontvyer, välskötta vildmarksstugor på korta avstånd.', distance: '55 km', duration: '3–4 dagar', difficulty: 'Medel' },
       { name: 'Karhunkierros (Björnleden)', description: 'En av Finlands mest kända leder, slingrar sig genom Oulanka-kanjonen förbi forsar och hängbroar. Dramatiska älvraviner och urskog utmärker hela rutten.', distance: '82 km', duration: '4–6 dagar', difficulty: 'Krävande' },
       { name: 'Dagsleder i Saariselkä', description: 'Välmarkerade dagsleder som startar från byn Saariselkä in i nationalparken. Rätt introduktion till fjällvandring med alternativ för alla konditionsnivåer och väderfönster.', distance: '5–20 km', duration: '2–8 timmar', difficulty: 'Lätt' },
-      { name: 'Halti-toppleden', description: 'Vandra till Finlands högsta punkt på 1 324 m. Avlägsen vildmarksrutt genom Kilpisjärvis inland. Den sista toppetappen är omarkerad och kräver navigationsvana vid dålig sikt.', distance: '55 km (tur och retur)', duration: '3–5 dagar', difficulty: 'Mycket krävande' },
+      { name: 'Haltileden – till Finlands högsta punkt', description: 'Vandra till Finlands högsta punkt på Haltis sluttning, 1 324 m. Avlägsen vildmarksrutt genom Kilpisjärvis inland. Den sista etappen är omarkerad och kräver navigationsvana vid dålig sikt.', distance: '55 km (tur och retur)', duration: '3–5 dagar', difficulty: 'Mycket krävande' },
       { name: 'Pyhäkuru-ravinleden', description: 'Kort men slående led genom en djup ravin med uråldriga klippväggar. En helig plats för samerna, med tillgängliga spångavsnitt som passar familjer och grupper med blandat tempo.', distance: '5 km', duration: '2–3 timmar', difficulty: 'Lätt' },
       { name: 'Lemmenjoki älvled', description: 'Följer den legendariska guldvaskningsälven genom ett av Europas största vildmarksområden. Båttransport finns för en del av rutten. Rik guldruschhistoria synlig vid utmärkta vaskningsplatser.', distance: '20 km', duration: '1–2 dagar', difficulty: 'Medel' },
     ],

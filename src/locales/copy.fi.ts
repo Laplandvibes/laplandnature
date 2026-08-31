@@ -83,7 +83,7 @@ const fi: SectionCopy = {
       { name: 'Enontekiö', note: 'Euroopan pimeimpiä taivaita (Bortle 1)' },
       { name: 'Hetta', note: '55 km:n Hetta–Pallas-reitin pohjoispää' },
       { name: 'Ruka / Oulanka', note: '82 km:n Karhunkierros · riippusillat + kanjonit · Kuusamo, aivan Lapin rajan eteläpuolella' },
-      { name: 'Kilpisjärvi (Halti)', note: '55 km edestakaisin Haltille, Suomen korkein piste (1 324 m)' },
+      { name: 'Kilpisjärvi (Halti)', note: '55 km edestakaisin Haltille, Suomen korkein kohta (1 324 m)' },
       { name: 'Pyhä', note: 'Pyhäkurun rotko · esteetön pitkospuu · 5 km' },
       { name: 'Kuusamon karhukatselut', note: 'Karhukojuilta · yksi yö n. 90 %, kaksi yötä 99 % · touko–syyskuu · heti Lapin eteläpuolella' },
       { name: 'Nellim erämaa', note: 'Nellimin erämaalodge · ahman ja karhun reviiriä' },
@@ -98,7 +98,7 @@ const fi: SectionCopy = {
       eyebrow: 'Napapiirin pohjoispuolella',
       title: 'Koskematon arktinen',
       subtitle: 'erämaa',
-      description: 'Suomen Lappi: 100 367 km² kansallispuistoja, tuntureita ja ikimetsiä sekä Euroopan pisin revontulikausi.',
+      description: 'Suomen Lappi: 100 367 km² tuntureita, ikimetsiä ja seitsemän kansallispuistoa sekä Euroopan pisin revontulikausi.',
       primaryCta: 'Suunnittele revontulireissu',
       secondaryCta: 'Tutustu puistoihin',
     },
@@ -140,7 +140,7 @@ const fi: SectionCopy = {
         {
           tag: 'Reitit',
           title: 'Vaellusreitit',
-          blurb: 'Käy Suomen ikonisimmilla reiteillä, 82 km:n Karhunkierroksen riippusilloista 1 324 metrin Haltille.',
+          blurb: 'Käy Suomen ikonisimmilla reiteillä, 82 km:n Karhunkierroksen riippusilloista Suomen korkeimpaan kohtaan Haltin rinteellä (1 324 m).',
           cta: 'Tutustu reitteihin',
         },
         {
@@ -378,7 +378,7 @@ const fi: SectionCopy = {
       items: [
         {
           q: 'Kuinka monta kansallispuistoa Lapissa on?',
-          a: 'Lapissa on viisi Suomen suosituimmista erämaapuistoista: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi ja Pyhä-Luosto. Jokaisella on oma porttikylänsä tukikohdaksi: Saariselkä UKK:lle, Hetta ja Muonio Pallas-Yllästunturille.',
+          a: 'Lapin maakunnassa on seitsemän kansallispuistoa: Lemmenjoki, Urho Kekkonen, Pallas-Yllästunturi, Perämeri, Pyhä-Luosto, Salla ja Riisitunturi, yhteensä noin 6 900 km². Lisäksi Oulangan ja Syötteen kansallispuistot ulottuvat osittain Lapin puolelle. Esittelemme näistä viisi tarkemmin: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi ja Pyhä-Luosto. Jokaisella on oma porttikylänsä tukikohdaksi: Saariselkä UKK:lle, Hetta ja Muonio Pallas-Yllästunturille.',
         },
         {
           q: 'Mikä on Lapin suurin kansallispuisto?',
@@ -719,7 +719,7 @@ const fi: SectionCopy = {
       eyebrow: 'Lapin retket',
       title: 'Vaellusreitit',
       subtitle: 'Päiväretkistä monipäiväisiin',
-      description: 'Ikimetsien läpi, avoimien tuntureiden yli, koskien rantoja seuraten ja Suomen korkeimmalle huipulle. Reittejä joka tasolle.',
+      description: 'Ikimetsien läpi, avoimien tuntureiden yli, koskien rantoja seuraten ja Suomen korkeimpaan kohtaan Haltilla. Reittejä joka tasolle.',
     },
     karhuKicker: 'Muistivihko · ruska 2024',
     karhuH2: 'Karhunkierros 4 päivässä, mitä pakkasimme, mitä jätimme, mitä opimme',
@@ -785,8 +785,8 @@ const fi: SectionCopy = {
         difficulty: 'Helppo',
       },
       {
-        name: 'Haltin huippureitti',
-        description: 'Vaellus Suomen korkeimmalle pisteelle 1 324 metriin. Syrjäistä erämaata Kilpisjärven takamailla. Viimeinen huippuosuus on merkitsemätön ja vaatii suunnistustaitoa huonossa näkyvyydessä.',
+        name: 'Haltin reitti – Suomen korkeimmalle kohdalle',
+        description: 'Vaellus Suomen korkeimpaan kohtaan Haltin rinteellä, 1 324 metrissä. Syrjäistä erämaata Kilpisjärven takamailla. Viimeinen osuus on merkitsemätön ja vaatii suunnistustaitoa huonossa näkyvyydessä.',
         distance: '55 km (edestakaisin)',
         duration: '3–5 päivää',
         difficulty: 'Erittäin vaativa',

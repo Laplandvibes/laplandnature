@@ -98,7 +98,7 @@ const de: SectionCopy = {
       eyebrow: 'Nördlich des Polarkreises',
       title: 'Unberührte arktische',
       subtitle: 'Wildnis',
-      description: 'Finnisch-Lappland, 100.367 km² mit Nationalparks, Fjälls, Urwäldern und der längsten Nordlicht-Saison Europas.',
+      description: 'Finnisch-Lappland, 100.367 km² arktisches Land mit sieben Nationalparks, Fjälls, Urwäldern und der längsten Nordlicht-Saison Europas.',
       primaryCta: 'Nordlicht-Reise planen',
       secondaryCta: 'Die Parks erkunden',
     },
@@ -140,7 +140,7 @@ const de: SectionCopy = {
         {
           tag: 'Wege',
           title: 'Wanderwege',
-          blurb: 'Gehen Sie Finnlands berühmteste Wege, von den Hängebrücken des 82 km Karhunkierros bis zum 1.324 m hohen Halti.',
+          blurb: 'Gehen Sie Finnlands berühmteste Wege, von den Hängebrücken des 82 km Karhunkierros bis zu Finnlands höchstem Punkt an der Flanke des Halti (1.324 m).',
           cta: 'Wanderwege erkunden',
         },
         {
@@ -384,7 +384,7 @@ const de: SectionCopy = {
       items: [
         {
           q: 'Wie viele Nationalparks gibt es in Lappland?',
-          a: 'In Lappland liegen fünf der meistbesuchten Wildnisparks Finnlands: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi und Pyhä-Luosto. Jeder hat einen eigenen Ausgangsort, Saariselkä für den UKK, Hetta und Muonio für Pallas-Yllästunturi.',
+          a: 'Die Region Lappland hat sieben Nationalparks: Lemmenjoki, Urho Kekkonen, Pallas-Yllästunturi, Perämeri (Bottenwiek), Pyhä-Luosto, Salla und Riisitunturi, zusammen rund 6.900 km². Dazu reichen Oulanka und Syöte teilweise nach Lappland hinein. Fünf davon stellen wir ausführlich vor: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi und Pyhä-Luosto. Jeder hat einen eigenen Ausgangsort, Saariselkä für den UKK, Hetta und Muonio für Pallas-Yllästunturi.',
         },
         {
           q: 'Welcher ist der größte Nationalpark im finnischen Lappland?',
@@ -719,7 +719,7 @@ const de: SectionCopy = {
       eyebrow: 'Säulen-Guide',
       title: 'Wanderwege',
       subtitle: 'Lapplands',
-      description: 'Von leichten Tagestouren bis zu mehrtägigen Wildnis-Expeditionen. Lapplands Wege führen durch Urwälder, über offene Fjälls, an wilden Flüssen entlang und auf Finnlands höchsten Gipfel.',
+      description: 'Von leichten Tagestouren bis zu mehrtägigen Wildnis-Expeditionen. Lapplands Wege führen durch Urwälder, über offene Fjälls, an wilden Flüssen entlang und zu Finnlands höchstem Punkt.',
     },
     karhuKicker: 'Aus dem Notizbuch · Ruska 2024',
     karhuH2: 'Karhunkierros in 4 Tagen, was wir packten, was wir wegließen, was wir lernten',
@@ -785,8 +785,8 @@ const de: SectionCopy = {
         difficulty: 'Leicht',
       },
       {
-        name: 'Halti-Gipfelweg',
-        description: 'Wanderung zum höchsten Punkt Finnlands, 1.324 m. Abgelegene Wildnisroute durch das Hinterland von Kilpisjärvi. Der letzte Gipfelabschnitt ist unmarkiert und erfordert Navigationsvermögen bei schlechter Sicht.',
+        name: 'Halti-Route – zu Finnlands höchstem Punkt',
+        description: 'Wanderung zum höchsten Punkt Finnlands an der Flanke des Halti, 1.324 m. Abgelegene Wildnisroute durch das Hinterland von Kilpisjärvi. Der letzte Abschnitt ist unmarkiert und erfordert Navigationsvermögen bei schlechter Sicht.',
         distance: '55 km (hin und zurück)',
         duration: '3–5 Tage',
         difficulty: 'Sehr anspruchsvoll',

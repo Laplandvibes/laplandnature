@@ -53,7 +53,7 @@ const HOME_JSONLD = [
     '@type': 'TouristDestination',
     name: 'Finnish Lapland: Arctic Wilderness',
     description:
-      'Finnish Lapland: 100,367 km² of arctic wilderness above the Arctic Circle. Northern lights, national parks, wildlife, hiking trails and four distinct seasons.',
+      'Finnish Lapland: 100,367 km² of arctic country above the Arctic Circle. Northern lights, seven national parks, wildlife, hiking trails and four distinct seasons.',
     touristType: ['Nature lovers', 'Hikers', 'Aurora chasers', 'Wildlife photographers'],
     url: 'https://laplandnature.com/',
     geo: { '@type': 'GeoCoordinates', latitude: 67.5, longitude: 26.0 },

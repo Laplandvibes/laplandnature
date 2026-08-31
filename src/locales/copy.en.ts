@@ -97,7 +97,7 @@ const en: SectionCopy = {
       eyebrow: 'Above the Arctic Circle',
       title: 'Untouched arctic',
       subtitle: 'wilderness',
-      description: 'Finnish Lapland, 100,367 km² of national parks, fells, ancient forests and the longest aurora season in Europe.',
+      description: 'Finnish Lapland, 100,367 km² of arctic country with seven national parks, fells, ancient forests and the longest aurora season in Europe.',
       primaryCta: 'Plan your aurora trip',
       secondaryCta: 'Explore the parks',
       alt: 'Snow-covered arctic wilderness and fells in Finnish Lapland',
@@ -140,7 +140,7 @@ const en: SectionCopy = {
         {
           tag: 'Trails',
           title: 'Hiking Trails',
-          blurb: "Walk Finland's most iconic trails, from the 82 km Karhunkierros suspension bridges to the 1,324 m Halti summit.",
+          blurb: "Walk Finland's most iconic trails, from the 82 km Karhunkierros suspension bridges to Finland's highest point on the shoulder of Halti (1,324 m).",
           cta: 'Explore Hiking Trails',
         },
         {
@@ -301,7 +301,7 @@ const en: SectionCopy = {
       eyebrow: 'Pillar guide',
       title: 'National Parks',
       subtitle: 'Protected wilderness',
-      description: "We profile five of Lapland's seven national parks, together they protect the bulk of its roadless wilderness, from open-fell traverses to snow-crowned forests and gold-panning canyons. Each has a distinct gateway village to base out of.",
+      description: "We profile five of Lapland's seven national parks; together they protect the bulk of its roadless wilderness, from open-fell traverses to snow-crowned forests and gold-panning canyons. Each has a distinct gateway village to base out of.",
       alt: 'Open fell landscape in a Finnish Lapland national park under a clear sky',
     },
     parks: [
@@ -331,7 +331,7 @@ const en: SectionCopy = {
       },
       {
         name: 'Pyhä-Luosto National Park',
-        description: "Features one of Finland's oldest forests with spruces over 400 years old. The Lampivaara amethyst mine sits within the park, visitors can dig their own gemstones.",
+        description: "Features one of Finland's oldest forests with spruces over 400 years old. The Lampivaara amethyst mine sits within the park, where visitors can dig their own gemstones.",
         highlight: 'Amethyst mine + ancient forest',
         visited: 'October 2023 · Pyhäkuru gorge after first snow, frost on the boardwalk',
       },
@@ -340,7 +340,7 @@ const en: SectionCopy = {
     stayNearby: 'Stay nearby',
     hettaKicker: 'From the notebook · ruska 2023',
     hettaH2: 'Hetta → Pallas in three days, the full traverse',
-    hettaLead: 'The 55 km Hetta–Pallas trail through Pallas-Yllästunturi is the most popular long walk in Finland for a reason, it is almost entirely above the treeline, the huts are spaced for short days, and the views never close in. We walked it north-to-south over three days at ruska peak. Northbound is the conventional direction; southbound (Hetta start) is the better photographic call and the ferry across Ounasjärvi at the start is a nice ritual.',
+    hettaLead: 'The 55 km Hetta–Pallas trail through Pallas-Yllästunturi is the most popular long walk in Finland for a reason: it is almost entirely above the treeline, the huts are spaced for short days, and the views never close in. We walked it north-to-south over three days at ruska peak. Northbound is the conventional direction; southbound (Hetta start) is the better photographic call and the ferry across Ounasjärvi at the start is a nice ritual.',
     days: [
       {
         day: 'Day 1 · 18 km',
@@ -384,7 +384,7 @@ const en: SectionCopy = {
       items: [
         {
           q: 'How many national parks are there in Lapland?',
-          a: 'Lapland holds five of Finland\'s most-visited wilderness parks: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi and Pyhä-Luosto. Each has its own gateway village to base out of, from Saariselkä for UKK to Hetta and Muonio for Pallas-Yllästunturi.',
+          a: 'The Lapland region has seven national parks: Lemmenjoki, Urho Kekkonen, Pallas-Yllästunturi, Bothnian Bay (Perämeri), Pyhä-Luosto, Salla and Riisitunturi, about 6,900 km² in total. Oulanka and Syöte reach partly into Lapland as well. We profile five of them in detail: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi and Pyhä-Luosto. Each has its own gateway village to base out of, from Saariselkä for UKK to Hetta and Muonio for Pallas-Yllästunturi.',
         },
         {
           q: 'Which is the largest national park in Finnish Lapland?',
@@ -418,7 +418,7 @@ const en: SectionCopy = {
     animals: [
       {
         name: 'Reindeer',
-        description: 'Around 200,000 semi-domesticated reindeer roam Finnish Lapland, central to Sámi herding culture for thousands of years. They graze freely across the fells and forests, you will encounter them roadside.',
+        description: 'Around 200,000 semi-domesticated reindeer roam Finnish Lapland, central to Sámi herding culture for thousands of years. They graze freely across the fells and forests; you will encounter them roadside.',
         status: 'Common',
       },
       {
@@ -536,7 +536,7 @@ const en: SectionCopy = {
         },
         {
           q: 'What is the rarest animal in Lapland?',
-          a: 'The arctic fox is the rarest, listed as critically endangered in the Fennoscandian population and surviving only in the harshest high-fell environments. The wolverine is the most elusive to see, immensely strong and ranging across huge territories, it is present throughout the wilderness but rarely glimpsed.',
+          a: 'The arctic fox is the rarest, listed as critically endangered in the Fennoscandian population and surviving only in the harshest high-fell environments. The wolverine is the most elusive to see, immensely strong and ranging across huge territories; it is present throughout the wilderness but rarely glimpsed.',
         },
         {
           q: 'How much does a bear-watching hide cost?',
@@ -621,7 +621,7 @@ const en: SectionCopy = {
       {
         name: 'Midnight Sun',
         period: 'June – July',
-        description: 'Above the Arctic Circle the sun never sets in midsummer. In northernmost Lapland the midnight sun holds for over 70 consecutive days. Endless daylight transforms hiking, fishing and paddling, you can start at 11 PM and watch the light slide along the fells until breakfast.',
+        description: 'Above the Arctic Circle the sun never sets in midsummer. In northernmost Lapland the midnight sun holds for over 70 consecutive days. Endless daylight transforms hiking, fishing and paddling: you can start at 11 PM and watch the light slide along the fells until breakfast.',
       },
       {
         name: 'Spring snow',
@@ -690,7 +690,7 @@ const en: SectionCopy = {
       items: [
         {
           q: 'When is the kaamos polar night in Lapland?',
-          a: 'Kaamos, the polar night, falls roughly from late November to mid-January. The further north you go, the longer it lasts: in Utsjoki, Finland\'s northernmost point, the sun stays below the horizon for around 51 days. It is not pitch dark, though, snow reflects a long blue-and-violet twilight through the middle of each day, and it is the most active stretch of the aurora season.',
+          a: 'Kaamos, the polar night, falls roughly from late November to mid-January. The further north you go, the longer it lasts: in Utsjoki, Finland\'s northernmost point, the sun stays below the horizon for around 51 days. It is not pitch dark, though. Snow reflects a long blue-and-violet twilight through the middle of each day, and it is the most active stretch of the aurora season.',
         },
         {
           q: 'When does the midnight sun happen in Lapland?',
@@ -718,7 +718,7 @@ const en: SectionCopy = {
       eyebrow: 'Pillar guide',
       title: 'Hiking Trails',
       subtitle: 'Of Lapland',
-      description: "From easy day hikes to multi-day wilderness expeditions. Lapland's trails take you through ancient forests, across open fells, along wild rivers, and to Finland's highest summit.",
+      description: "From easy day hikes to multi-day wilderness expeditions. Lapland's trails take you through ancient forests, across open fells, along wild rivers, and to Finland's highest point.",
       alt: 'A hiking trail winding across an autumn ruska fell in Finnish Lapland',
     },
     karhuKicker: 'From the notebook · ruska 2024',
@@ -740,7 +740,7 @@ const en: SectionCopy = {
       {
         day: 'Day 3 · 21 km',
         title: 'Jussinkämppä → Taivalköngäs',
-        body: 'Long undulating forest day, fewer dramatic features, more rhythm. Taivalköngäs rapids at the end are the loudest point on the trail. We slept in the autiotupa; it filled at 16:30. Bring earplugs, the rapids run all night.',
+        body: 'Long undulating forest day, fewer dramatic features, more rhythm. Taivalköngäs rapids at the end are the loudest point on the trail. We slept in the autiotupa; it filled at 16:30. Bring earplugs: the rapids run all night.',
         note: 'First sub-zero night · −2 °C, light frost on the boardwalks at dawn',
       },
       {
@@ -785,8 +785,8 @@ const en: SectionCopy = {
         difficulty: 'Easy',
       },
       {
-        name: 'Halti Summit Trail',
-        description: "Trek to Finland's highest point at 1,324 m. Remote wilderness route through the Kilpisjärvi backcountry. The final summit section is unmarked and requires navigation skill in poor visibility.",
+        name: "Halti Trail – Finland's Highest Point",
+        description: "Trek to Finland's highest point, on the shoulder of Halti at 1,324 m. Remote wilderness route through the Kilpisjärvi backcountry. The final section is unmarked and requires navigation skill in poor visibility.",
         distance: '55 km (round trip)',
         duration: '3–5 days',
         difficulty: 'Demanding',
@@ -896,11 +896,11 @@ const en: SectionCopy = {
       },
       {
         title: 'Pack out everything',
-        body: 'Wilderness huts (autiotupa) operate on trust: leave them cleaner than you found them, replace firewood, sign the guestbook. Trash in remote terrain compounds, there is no pickup.',
+        body: 'Wilderness huts (autiotupa) operate on trust: leave them cleaner than you found them, replace firewood, sign the guestbook. Trash in remote terrain compounds. There is no pickup.',
       },
       {
         title: 'Reindeer have right of way',
-        body: 'Around 200,000 semi-domesticated reindeer roam Lapland, they are owned, not wild. On roads slow down; in the fells give them space. Around fences (poroaita), close gates behind you.',
+        body: 'Around 200,000 semi-domesticated reindeer roam Lapland. They are owned, not wild. On roads slow down; in the fells give them space. Around fences (poroaita), close gates behind you.',
       },
     ],
     finalKicker: 'Visit responsibly',
@@ -1067,7 +1067,7 @@ const en: SectionCopy = {
     metaTitle: 'Page not found, LaplandNature',
     metaDescription: "The page you were looking for doesn't exist or has moved.",
     h1: 'Off the trail',
-    body: "The page you were looking for doesn't exist on LaplandNature. Try one of the pillar guides below, that is where the wilderness is.",
+    body: "The page you were looking for doesn't exist on LaplandNature. Try one of the pillar guides below. That is where the wilderness is.",
     home: 'Home',
     parks: 'National parks',
   },

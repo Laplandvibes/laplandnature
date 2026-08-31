@@ -84,13 +84,13 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   home: {
     metaTitle: 'Natuur van Lapland: parken en noorderlicht | LaplandNature',
-    metaDescription: 'De Arctische natuur van Fins Lapland, vijf nationale parken, meer dan 200 nachten noorderlicht per jaar, kaamos (poolnacht) en wandelpaden van 5 tot 82 km.',
+    metaDescription: 'De Arctische natuur van Fins Lapland, zeven nationale parken, meer dan 200 nachten noorderlicht per jaar, kaamos (poolnacht) en wandelpaden van 5 tot 82 km.',
     hero: {
       alt: 'Besneeuwde arctische wildernis en fjälls in Fins Lapland',
       eyebrow: 'Boven de poolcirkel',
       title: 'Onaangeroerde',
       subtitle: 'Arctische natuur',
-      description: 'Fins Lapland, 100.367 km² aan nationale parken, fjälls, oerbossen, en het langste noorderlichtseizoen van Europa.',
+      description: 'Fins Lapland, 100.367 km² arctisch land met zeven nationale parken, fjälls, oerbossen en het langste noorderlichtseizoen van Europa.',
       primaryCta: 'Plan de noorderlichtreis',
       secondaryCta: 'Ontdek de parken',
     },
@@ -98,7 +98,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
       kicker: 'Boven de poolcirkel · onder de ruis',
       h: 'Het wildste land van Finland ligt op ',
       hHighlight: '66°–69° noorderbreedte',
-      hSuffix: '. Vijf nationale parken, het licht van vier seizoenen en het langste noorderlichtvenster van Europa.',
+      hSuffix: '. Zeven nationale parken, het licht van vier seizoenen en het langste noorderlichtvenster van Europa.',
       stats: [
         { value: '30%', primary: 'van Finland', body: 'is de regio Lapland, 100.367 km²' },
         { value: '40+', primary: 'beschermde zones', body: 'nationale parken, strikte reservaten, Natura 2000' },
@@ -111,10 +111,10 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
       h2: 'Uitgelichte ervaringen in Lapland',
       lead: 'Van berenobservatiehutten aan de Russische grens tot ravijnen met bevroren watervallen, kano onder de middernachtzon en de kaamos-hemel boven Utsjoki, zeven gidsen waar u op terugkomt.',
       items: [
-        { tag: 'Beschermde gebieden', title: 'Nationale parken', blurb: 'Vijf parken, samen meer dan 7.000 km² beschermde natuur, van de fjälls van Urho Kekkonen tot de met sneeuw gekroonde bomen van Riisitunturi.', cta: 'Ontdek de nationale parken' },
+        { tag: 'Beschermde gebieden', title: 'Nationale parken', blurb: 'Lapland heeft zeven nationale parken (samen ongeveer 6.900 km²); vijf daarvan lichten wij uit, van de fjälls van Urho Kekkonen tot de met sneeuw gekroonde bomen van Riisitunturi.', cta: 'Ontdek de nationale parken' },
         { tag: 'Wilde dieren', title: 'Wildlife-observatie', blurb: 'Spoor de bruine beer op vanuit nachtelijke hutten: één nacht ligt rond de 90 %, twee nachten op 99 %. Halfwilde rendierkuddes en een glimp van de veelvraat.', cta: 'Ontdek de wilde dieren' },
         { tag: 'Noorderlicht', title: 'Noorderlicht', blurb: 'Jaag op het noorderlicht in de Arctische hemel van september tot april. Utsjoki levert noorderlicht in 4 van de 5 heldere nachten.', cta: 'Ontdek het noorderlicht' },
-        { tag: 'Paden', title: 'Wandelen', blurb: 'Loop de iconische paden van Finland, van de hangbruggen van de Karhunkierros (82 km) tot de top van de Halti (1.324 m).', cta: 'Ontdek het wandelen' },
+        { tag: 'Paden', title: 'Wandelen', blurb: 'Loop de iconische paden van Finland, van de hangbruggen van de Karhunkierros (82 km) tot het hoogste punt van Finland op de Halti (1.324 m).', cta: 'Ontdek het wandelen' },
         { tag: 'Beheer', title: 'Natuurbehoud', blurb: 'Metsähallitus beheert 85 % van de fjälls in Lapland en alle zeven nationale parken. Plus het Finse natuurrecht, vrije toegang tot de natuur.', cta: 'Ontdek het natuurbehoud' },
         { tag: 'Zomer', title: 'Middernachtzon', blurb: 'Boven de poolcirkel gaat de zon in hartje zomer niet onder. In Utsjoki blijft de middernachtzon meer dan 70 dagen achtereen schijnen.', cta: 'Ontdek de seizoenen' },
         { tag: 'Water', title: 'Zoet water', blurb: 'Rond 188.000 meren, de vrij stromende rivier de Tornio en aapa-venen. Waarom schoon koud water Laplands zeldzaamste bezit is, en wat de vis erin houdt.', cta: 'Ontdek het zoet water' },
@@ -221,7 +221,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   nationalParks: {
     metaTitle: 'Nationale parken van Lapland | LaplandNature',
-    metaDescription: 'De vijf nationale parken van Fins Lapland, Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi en Pyhä-Luosto.',
+    metaDescription: 'Vijf van de nationale parken van Fins Lapland, Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi en Pyhä-Luosto.',
     hero: {
       alt: 'Open fjäll-landschap in een nationaal park in Fins Lapland onder een heldere hemel',
       eyebrow: 'Pijlergids',
@@ -267,7 +267,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
       eyebrow: 'Veelgestelde vragen',
       h2: 'Nationale parken van Lapland, veelgestelde vragen',
       items: [
-        { q: 'Hoeveel nationale parken zijn er in Lapland?', a: 'Lapland telt vijf van de meest bezochte wildernisparken van Finland: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi en Pyhä-Luosto. Elk park heeft zijn eigen toegangsdorp om vanuit te vertrekken, van Saariselkä voor Urho Kekkonen tot Hetta en Muonio voor Pallas-Yllästunturi.' },
+        { q: 'Hoeveel nationale parken zijn er in Lapland?', a: 'De regio Lapland telt zeven nationale parken: Lemmenjoki, Urho Kekkonen, Pallas-Yllästunturi, Perämeri (Botnische Golf), Pyhä-Luosto, Salla en Riisitunturi, samen ongeveer 6.900 km². Daarnaast lopen Oulanka en Syöte deels door in Lapland. Vijf daarvan beschrijven wij uitgebreid: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi en Pyhä-Luosto. Elk park heeft zijn eigen toegangsdorp om vanuit te vertrekken, van Saariselkä voor Urho Kekkonen tot Hetta en Muonio voor Pallas-Yllästunturi.' },
         { q: 'Welk is het grootste nationale park van Fins Lapland?', a: 'Het nationale park Urho Kekkonen is met ongeveer 2.550 km² het grootste van Lapland en het op een na grootste van heel Finland. Het strekt zich uit van de fjälls van Saariselkä oostwaarts tot in diepe, wegloze wildernis, met open fjälls, rivierkloven en oud dennenbos.' },
         { q: 'Heeft u een vergunning of toegangsgeld nodig voor de nationale parken van Lapland?', a: 'Nee. De nationale parken van Finland zijn gratis toegankelijk en er is geen vergunning nodig voor gewone wandelingen, dagbezoeken of overnachten in open wildernishutten. Sommige reserveringshutten en sauna\'s vragen een kleine bijdrage, en begeleide activiteiten of goud wassen bij Lemmenjoki kennen hun eigen kosten, maar het lopen van de paden kost niets.' },
         { q: 'Wanneer kunt u de parken het best bezoeken?', a: 'Begin tot half september voor de herfstkleuren van de ruska, juni en juli voor de middernachtzon en lange wandeldagen, en februari tot maart voor met sneeuw gekroonde bomen en toertochten op ski\'s, Riisitunturi is op zijn indrukwekkendst onder zware tykky in de late winter. Zomerhutten en veerdiensten varen doorgaans van begin juni tot eind september.' },
@@ -413,7 +413,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
   hiking: {
     difficulties: { easy: 'Makkelijk', moderate: 'Gemiddeld', challenging: 'Uitdagend', demanding: 'Zwaar' },
     metaTitle: 'Wandelpaden in Lapland: 5 tot 82 km | LaplandNature',
-    metaDescription: 'Zes wandelpaden in Fins Lapland en omgeving, Hetta-Pallas (55 km), Karhunkierros (82 km), Halti-top (55 km) en drie kortere routes.',
+    metaDescription: 'Zes wandelpaden in Fins Lapland en omgeving, Hetta-Pallas (55 km), Karhunkierros (82 km), Halti, het hoogste punt van Finland (55 km) en drie kortere routes.',
     hero: {
       alt: 'Een wandelpad dat zich over een herfstkleurige fjäll in Fins Lapland slingert',
       eyebrow: 'Pijlergids',
@@ -446,7 +446,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
       { name: 'Hetta–Pallas-pad', description: 'Het populairste langeafstandspad van Finland, dwars door de fjäll-keten tussen Hetta en Pallas. Open fjäll-terrein met horizonzichten, goed onderhouden wildernishutten op korte afstanden.', distance: '55 km', duration: '3–4 dagen', difficulty: 'Gemiddeld' },
       { name: 'Karhunkierros (Berenpad)', description: 'Een van de beroemdste paden van Finland, slingert door de Oulanka-kloof langs stroomversnellingen en hangbruggen. Spectaculaire rivierkloven en oerbos langs de hele route.', distance: '82 km', duration: '4–6 dagen', difficulty: 'Zwaar' },
       { name: 'Dagroutes Saariselkä', description: 'Goed gemarkeerde dagroutes vanaf het dorp Saariselkä het nationaal park in. De juiste introductie tot fjäll-wandelen, met opties voor elk fitnessniveau en weervenster.', distance: '5–20 km', duration: '2–8 uur', difficulty: 'Makkelijk' },
-      { name: 'Halti-topweg', description: 'Trek naar het hoogste punt van Finland, 1.324 m. Afgelegen wildernisroute door het achterland van Kilpisjärvi. De slottoptraverse is niet gemarkeerd en vraagt navigatievaardigheid bij slecht zicht.', distance: '55 km (heen en terug)', duration: '3–5 dagen', difficulty: 'Zeer zwaar' },
+      { name: 'Halti-route – het hoogste punt van Finland', description: 'Trek naar het hoogste punt van Finland, op de schouder van de Halti, 1.324 m. Afgelegen wildernisroute door het achterland van Kilpisjärvi. Het laatste stuk is niet gemarkeerd en vraagt navigatievaardigheid bij slecht zicht.', distance: '55 km (heen en terug)', duration: '3–5 dagen', difficulty: 'Zeer zwaar' },
       { name: 'Pyhäkuru-kloofpad', description: 'Kort maar opvallend pad door een diepe kloof met oeroude rotswanden. Een heilige plek voor de Sami, met toegankelijke boardwalk-secties geschikt voor gezinnen en gemengde groepen.', distance: '5 km', duration: '2–3 uur', difficulty: 'Makkelijk' },
       { name: 'Lemmenjoki-rivierpad', description: 'Volgt de legendarische goudwasrivier door een van de grootste wildernissen van Europa. Op een deel van de route is bootvervoer mogelijk. Gouden-koortsgeschiedenis zichtbaar bij gemarkeerde wasplekken.', distance: '20 km', duration: '1–2 dagen', difficulty: 'Gemiddeld' }
     ],

@@ -84,13 +84,13 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   home: {
     metaTitle: 'Naturaleza de Laponia: parques y aurora | LaplandNature',
-    metaDescription: 'La naturaleza ártica de la Laponia finlandesa, cinco parques nacionales, más de 200 noches de aurora al año, kaamos (noche polar) y senderos de 5 a 82 km.',
+    metaDescription: 'La naturaleza ártica de la Laponia finlandesa, siete parques nacionales, más de 200 noches de aurora al año, kaamos (noche polar) y senderos de 5 a 82 km.',
     hero: {
       alt: 'Naturaleza ártica nevada y fjälls en la Laponia finlandesa',
       eyebrow: 'Al norte del Círculo Polar',
       title: 'Naturaleza ártica',
       subtitle: 'sin tocar',
-      description: 'Laponia finlandesa, 100 367 km² de parques nacionales, fjälls, bosques antiguos y la temporada de aurora más larga de Europa.',
+      description: 'Laponia finlandesa, 100 367 km² de tierra ártica con siete parques nacionales, fjälls, bosques antiguos y la temporada de aurora más larga de Europa.',
       primaryCta: 'Planificar el viaje de aurora',
       secondaryCta: 'Explorar los parques',
     },
@@ -98,7 +98,7 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
       kicker: 'Al norte del Círculo Polar · debajo del ruido',
       h: 'El país más salvaje de Finlandia está a ',
       hHighlight: '66°–69° Norte',
-      hSuffix: '. Cinco parques nacionales, luz de las cuatro estaciones y la ventana de aurora más larga de Europa.',
+      hSuffix: '. Siete parques nacionales, luz de las cuatro estaciones y la ventana de aurora más larga de Europa.',
       stats: [
         { value: '30 %', primary: 'de Finlandia', body: 'es la región de Laponia, 100 367 km²' },
         { value: '40+', primary: 'zonas protegidas', body: 'parques nacionales, reservas integrales, Natura 2000' },
@@ -114,7 +114,7 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
         {
           tag: 'Áreas protegidas',
           title: 'Parques nacionales',
-          blurb: 'Cinco parques que suman más de 7 000 km² de naturaleza protegida, desde los fjälls de Urho Kekkonen hasta los árboles coronados de nieve de Riisitunturi.',
+          blurb: 'Laponia tiene siete parques nacionales (unos 6900 km² en total); presentamos cinco de ellos, desde los fjälls de Urho Kekkonen hasta los árboles coronados de nieve de Riisitunturi.',
           cta: 'Explorar parques nacionales',
         },
         {
@@ -132,7 +132,7 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
         {
           tag: 'Senderos',
           title: 'Senderismo',
-          blurb: 'Camine los senderos más icónicos de Finlandia, desde los puentes colgantes del Karhunkierros (82 km) hasta la cumbre del Halti (1 324 m).',
+          blurb: 'Camine los senderos más icónicos de Finlandia, desde los puentes colgantes del Karhunkierros (82 km) hasta el punto más alto de Finlandia, en el Halti (1 324 m).',
           cta: 'Explorar el senderismo',
         },
         {
@@ -271,7 +271,7 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   nationalParks: {
     metaTitle: 'Parques nacionales de Laponia | LaplandNature',
-    metaDescription: 'Los cinco parques nacionales de la Laponia finlandesa, Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi y Pyhä-Luosto.',
+    metaDescription: 'Cinco de los parques nacionales de la Laponia finlandesa, Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi y Pyhä-Luosto.',
     hero: {
       alt: 'Paisaje abierto de fjälls en un parque nacional de la Laponia finlandesa bajo un cielo despejado',
       eyebrow: 'Guía esencial',
@@ -319,7 +319,7 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
       items: [
         {
           q: '¿Cuántos parques nacionales hay en Laponia?',
-          a: 'Laponia alberga cinco de los parques naturales más visitados de Finlandia: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi y Pyhä-Luosto. Cada uno tiene su propio pueblo-puerta donde establecer la base: Saariselkä para el UKK, Hetta y Muonio para Pallas-Yllästunturi.',
+          a: 'La región de Laponia tiene siete parques nacionales: Lemmenjoki, Urho Kekkonen, Pallas-Yllästunturi, Perämeri (golfo de Botnia), Pyhä-Luosto, Salla y Riisitunturi, unos 6900 km² en total. Además, Oulanka y Syöte se adentran en parte en Laponia. De estos presentamos cinco con detalle: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi y Pyhä-Luosto. Cada uno tiene su propio pueblo-puerta donde establecer la base: Saariselkä para el UKK, Hetta y Muonio para Pallas-Yllästunturi.',
         },
         {
           q: '¿Cuál es el parque nacional más grande de la Laponia finlandesa?',
@@ -508,13 +508,13 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
   hiking: {
     difficulties: { easy: 'Fácil', moderate: 'Moderada', challenging: 'Exigente', demanding: 'Muy exigente' },
     metaTitle: 'Senderos de Laponia: 5 km a 82 km | LaplandNature',
-    metaDescription: 'Seis senderos en la Laponia finlandesa y alrededores, Hetta-Pallas (55 km), Karhunkierros (82 km), cima del Halti (55 km) y tres rutas más cortas.',
+    metaDescription: 'Seis senderos en la Laponia finlandesa y alrededores, Hetta-Pallas (55 km), Karhunkierros (82 km), Halti, el punto más alto de Finlandia (55 km) y tres rutas más cortas.',
     hero: {
       alt: 'Un sendero serpenteando por un fjäll en plena ruska otoñal en la Laponia finlandesa',
       eyebrow: 'Guía esencial',
       title: 'Senderos',
       subtitle: 'De Laponia',
-      description: 'De rutas de día fáciles a expediciones de varios días por la naturaleza. Los senderos de Laponia lo llevan por bosques antiguos, sobre fjäll abiertos, junto a ríos salvajes y hasta la cima más alta de Finlandia.',
+      description: 'De rutas de día fáciles a expediciones de varios días por la naturaleza. Los senderos de Laponia lo llevan por bosques antiguos, sobre fjäll abiertos, junto a ríos salvajes y hasta el punto más alto de Finlandia.',
     },
     karhuKicker: 'Del cuaderno · ruska 2024',
     karhuH2: 'El Karhunkierros en 4 días, qué llevamos, qué descartamos, qué aprendimos',
@@ -541,7 +541,7 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
       { name: 'Sendero Hetta–Pallas', description: 'El sendero de larga distancia más popular de Finlandia, que atraviesa la cadena de fjäll entre Hetta y Pallas. Terreno de fjäll abierto con vistas de horizonte, refugios bien mantenidos a intervalos cortos.', distance: '55 km', duration: '3–4 días', difficulty: 'Moderado' },
       { name: 'Karhunkierros (Senda del Oso)', description: 'Uno de los senderos más famosos de Finlandia, serpentea por el cañón de Oulanka entre rápidos y puentes colgantes. Gargantas espectaculares y bosque primario marcan toda la ruta.', distance: '82 km', duration: '4–6 días', difficulty: 'Difícil' },
       { name: 'Rutas de día de Saariselkä', description: 'Rutas de día bien señalizadas desde el pueblo de Saariselkä hacia el parque nacional. La introducción adecuada al senderismo de fjäll, con opciones para todos los niveles y ventanas de tiempo.', distance: '5–20 km', duration: '2–8 horas', difficulty: 'Fácil' },
-      { name: 'Sendero a la cima del Halti', description: 'Travesía al punto más alto de Finlandia, 1324 m. Ruta remota por el interior de Kilpisjärvi. El tramo final de cumbre no está señalizado y exige orientación con mala visibilidad.', distance: '55 km (ida y vuelta)', duration: '3–5 días', difficulty: 'Muy exigente' },
+      { name: 'Sendero del Halti: el punto más alto de Finlandia', description: 'Travesía al punto más alto de Finlandia, en la ladera del Halti, a 1324 m. Ruta remota por el interior de Kilpisjärvi. El tramo final no está señalizado y exige orientación con mala visibilidad.', distance: '55 km (ida y vuelta)', duration: '3–5 días', difficulty: 'Muy exigente' },
       { name: 'Sendero de la garganta de Pyhäkuru', description: 'Sendero corto pero impactante por una garganta profunda de paredes antiguas. Lugar sagrado para el pueblo sami, con tramos de pasarela accesibles para familias y grupos de ritmo mixto.', distance: '5 km', duration: '2–3 horas', difficulty: 'Fácil' },
       { name: 'Sendero del río Lemmenjoki', description: 'Sigue el legendario río de los buscadores de oro por una de las mayores naturalezas de Europa. Hay transporte en barca para parte de la ruta. Historia de la fiebre del oro visible en los puntos de cribado señalizados.', distance: '20 km', duration: '1–2 días', difficulty: 'Moderado' }
     ],
@@ -572,7 +572,7 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
         },
         {
           q: '¿Qué altura tiene el punto más alto de Finlandia y se puede subir?',
-          a: 'El punto más alto de Finlandia está en la ladera del Halti, a 1324 m, en el remoto interior de Kilpisjärvi, cerca de la frontera noruega. Es una ruta seria de ida y vuelta de 55 km en tres a cinco días; el tramo final hacia la cima no está señalizado y exige verdadera capacidad de orientación con mala visibilidad.',
+          a: 'El punto más alto de Finlandia está en la ladera del Halti, a 1324 m, en el remoto interior de Kilpisjärvi, cerca de la frontera noruega. Es una ruta seria de ida y vuelta de 55 km en tres a cinco días; el tramo final no está señalizado y exige verdadera capacidad de orientación con mala visibilidad.',
         },
         {
           q: '¿Cuál es la mejor época para hacer senderismo en Laponia?',

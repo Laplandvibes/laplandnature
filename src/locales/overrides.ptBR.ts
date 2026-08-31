@@ -84,13 +84,13 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   home: {
     metaTitle: 'Natureza da Lapônia: parques e aurora | LaplandNature',
-    metaDescription: 'A natureza ártica da Lapônia finlandesa, cinco parques nacionais, mais de 200 noites de aurora por ano, kaamos (noite polar) e trilhas de 5 a 82 km.',
+    metaDescription: 'A natureza ártica da Lapônia finlandesa, sete parques nacionais, mais de 200 noites de aurora por ano, kaamos (noite polar) e trilhas de 5 a 82 km.',
     hero: {
       alt: 'Natureza ártica coberta de neve e fjälls na Lapônia finlandesa',
       eyebrow: 'Acima do Círculo Polar Ártico',
       title: 'Natureza ártica',
       subtitle: 'intocada',
-      description: 'Lapônia finlandesa, 100.367 km² de parques nacionais, fjälls, florestas antigas e a temporada de aurora mais longa da Europa.',
+      description: 'Lapônia finlandesa, 100.367 km² de terra ártica com sete parques nacionais, fjälls, florestas antigas e a temporada de aurora mais longa da Europa.',
       primaryCta: 'Planejar a viagem da aurora',
       secondaryCta: 'Explorar os parques',
     },
@@ -98,7 +98,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
       kicker: 'Acima do Círculo Polar Ártico · abaixo do ruído',
       h: 'O país mais selvagem da Finlândia fica a ',
       hHighlight: '66°–69° Norte',
-      hSuffix: '. Cinco parques nacionais, luz das quatro estações e a janela de aurora mais longa da Europa.',
+      hSuffix: '. Sete parques nacionais, luz das quatro estações e a janela de aurora mais longa da Europa.',
       stats: [
         { value: '30%', primary: 'da Finlândia', body: 'é a região da Lapônia, 100.367 km²' },
         { value: '40+', primary: 'zonas protegidas', body: 'parques nacionais, reservas integrais, Natura 2000' },
@@ -114,7 +114,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
         {
           tag: 'Áreas protegidas',
           title: 'Parques nacionais',
-          blurb: 'Cinco parques somando mais de 7.000 km² de natureza protegida, dos fjälls de Urho Kekkonen às árvores coroadas de neve de Riisitunturi.',
+          blurb: 'A Lapônia tem sete parques nacionais (cerca de 6.900 km² no total); apresentamos cinco deles, dos fjälls de Urho Kekkonen às árvores coroadas de neve de Riisitunturi.',
           cta: 'Explorar parques nacionais',
         },
         {
@@ -132,7 +132,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
         {
           tag: 'Trilhas',
           title: 'Trilhas',
-          blurb: 'Caminhe pelas trilhas mais icônicas da Finlândia, das pontes suspensas do Karhunkierros (82 km) ao cume do Halti (1.324 m).',
+          blurb: 'Caminhe pelas trilhas mais icônicas da Finlândia, das pontes suspensas do Karhunkierros (82 km) ao ponto mais alto da Finlândia, no Halti (1.324 m).',
           cta: 'Explorar as trilhas',
         },
         {
@@ -256,7 +256,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   nationalParks: {
     metaTitle: 'Parques nacionais da Lapônia | LaplandNature',
-    metaDescription: 'Os cinco parques nacionais da Lapônia finlandesa, Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi e Pyhä-Luosto.',
+    metaDescription: 'Cinco dos parques nacionais da Lapônia finlandesa, Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi e Pyhä-Luosto.',
     hero: {
       alt: 'Paisagem aberta de fjälls em um parque nacional da Lapônia finlandesa sob céu limpo',
       eyebrow: 'Guia essencial',
@@ -302,7 +302,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
       eyebrow: 'Perguntas frequentes',
       h2: 'Parques nacionais da Lapônia, perguntas frequentes',
       items: [
-        { q: 'Quantos parques nacionais existem na Lapônia?', a: 'A Lapônia abriga cinco dos parques selvagens mais visitados da Finlândia: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi e Pyhä-Luosto. Cada um tem seu próprio vilarejo-porta para servir de base, de Saariselkä para o UKK a Hetta e Muonio para o Pallas-Yllästunturi.' },
+        { q: 'Quantos parques nacionais existem na Lapônia?', a: 'A região da Lapônia tem sete parques nacionais: Lemmenjoki, Urho Kekkonen, Pallas-Yllästunturi, Perämeri (Golfo de Bótnia), Pyhä-Luosto, Salla e Riisitunturi, cerca de 6.900 km² no total. Além deles, Oulanka e Syöte avançam em parte sobre a Lapônia. Destes, apresentamos cinco em detalhe: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi e Pyhä-Luosto. Cada um tem seu próprio vilarejo-porta para servir de base, de Saariselkä para o UKK a Hetta e Muonio para o Pallas-Yllästunturi.' },
         { q: 'Qual é o maior parque nacional da Lapônia finlandesa?', a: 'O Parque Nacional de Urho Kekkonen é o maior da Lapônia, com cerca de 2.550 km², e o segundo maior de toda a Finlândia. Vai dos fjälls de Saariselkä em direção ao leste, entrando numa natureza profunda e sem estradas, com fjälls abertos, gargantas de rios e pinheirais antigos.' },
         { q: 'Preciso de autorização ou pagar entrada nos parques nacionais da Lapônia?', a: 'Não. Os parques nacionais da Finlândia têm entrada gratuita e não há autorização para caminhadas comuns, visitas de um dia ou pernoite nos refúgios abertos. Alguns refúgios reserváveis e saunas cobram uma pequena taxa, e atividades guiadas ou o garimpo de ouro em Lemmenjoki têm seus próprios custos, mas percorrer as trilhas não custa nada.' },
         { q: 'Qual é a melhor época para visitar os parques?', a: 'Do início a meados de setembro para as cores de outono do ruska, junho e julho para o sol da meia-noite e longos dias de caminhada, e de fevereiro a março para árvores coroadas de neve e esqui de travessia, Riisitunturi fica mais marcante sob o tykky pesado no fim do inverno. Os refúgios de verão e os serviços de balsa costumam funcionar do início de junho ao fim de setembro.' },
@@ -448,13 +448,13 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
   hiking: {
     difficulties: { easy: 'Fácil', moderate: 'Moderada', challenging: 'Difícil', demanding: 'Exigente' },
     metaTitle: 'Trilhas da Lapônia: 5 km a 82 km | LaplandNature',
-    metaDescription: 'Seis trilhas na Lapônia finlandesa e arredores, Hetta-Pallas (55 km), Karhunkierros (82 km), cume do Halti (55 km) e três rotas mais curtas.',
+    metaDescription: 'Seis trilhas na Lapônia finlandesa e arredores, Hetta-Pallas (55 km), Karhunkierros (82 km), Halti, o ponto mais alto da Finlândia (55 km) e três rotas mais curtas.',
     hero: {
       alt: 'Uma trilha serpenteando por um fjäll nas cores da ruska de outono na Lapônia finlandesa',
       eyebrow: 'Guia essencial',
       title: 'Trilhas',
       subtitle: 'Da Lapônia',
-      description: 'De caminhadas de dia fáceis a expedições de vários dias pela natureza. As trilhas da Lapônia levam você por florestas antigas, sobre fjälls abertos, ao longo de rios selvagens e até o cume mais alto da Finlândia.',
+      description: 'De caminhadas de dia fáceis a expedições de vários dias pela natureza. As trilhas da Lapônia levam você por florestas antigas, sobre fjälls abertos, ao longo de rios selvagens e até o ponto mais alto da Finlândia.',
     },
     karhuKicker: 'Do caderno · ruska 2024',
     karhuH2: 'O Karhunkierros em 4 dias o que levamos, o que cortamos, o que aprendemos',
@@ -481,7 +481,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
       { name: 'Trilha Hetta–Pallas', description: 'A trilha de longa distância mais popular da Finlândia, que atravessa a cadeia de fjälls entre Hetta e Pallas. Terreno de fjäll aberto com vistas de horizonte, refúgios bem conservados a intervalos curtos.', distance: '55 km', duration: '3–4 dias', difficulty: 'Moderado' },
       { name: 'Karhunkierros (Trilha do Urso)', description: 'Uma das trilhas mais famosas da Finlândia, serpenteia pelo cânion de Oulanka entre corredeiras e pontes suspensas. Gargantas espetaculares e floresta primária marcam toda a rota.', distance: '82 km', duration: '4–6 dias', difficulty: 'Difícil' },
       { name: 'Rotas de dia de Saariselkä', description: 'Rotas de dia bem sinalizadas a partir do vilarejo de Saariselkä para dentro do parque nacional. A introdução certa ao trekking de fjäll, com opções para todos os níveis e janelas de tempo.', distance: '5–20 km', duration: '2–8 horas', difficulty: 'Fácil' },
-      { name: 'Trilha do cume do Halti', description: 'Travessia ao ponto mais alto da Finlândia, 1.324 m. Rota remota pelo interior de Kilpisjärvi. O trecho final do cume não é sinalizado e exige orientação com má visibilidade.', distance: '55 km (ida e volta)', duration: '3–5 dias', difficulty: 'Muito exigente' },
+      { name: 'Trilha do Halti – o ponto mais alto da Finlândia', description: 'Travessia ao ponto mais alto da Finlândia, no ombro do Halti, a 1.324 m. Rota remota pelo interior de Kilpisjärvi. O trecho final não é sinalizado e exige orientação com má visibilidade.', distance: '55 km (ida e volta)', duration: '3–5 dias', difficulty: 'Muito exigente' },
       { name: 'Trilha da garganta de Pyhäkuru', description: 'Trilha curta mas marcante por uma garganta profunda de paredes antigas. Lugar sagrado para o povo sami, com trechos de passarela acessíveis a famílias e grupos de ritmo misto.', distance: '5 km', duration: '2–3 horas', difficulty: 'Fácil' },
       { name: 'Trilha do rio Lemmenjoki', description: 'Segue o lendário rio dos garimpeiros por uma das maiores naturezas da Europa. Há transporte de barco para parte da rota. História da corrida do ouro visível nos pontos de garimpo sinalizados.', distance: '20 km', duration: '1–2 dias', difficulty: 'Moderado' }
     ],

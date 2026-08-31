@@ -84,13 +84,13 @@ export const FR_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   home: {
     metaTitle: 'Nature de Laponie : parcs et aurore | LaplandNature',
-    metaDescription: 'La nature arctique de la Laponie finlandaise, cinq parcs nationaux, plus de 200 nuits d\'aurore par an, kaamos (nuit polaire) et sentiers de 5 à 82 km.',
+    metaDescription: 'La nature arctique de la Laponie finlandaise, sept parcs nationaux, plus de 200 nuits d\'aurore par an, kaamos (nuit polaire) et sentiers de 5 à 82 km.',
     hero: {
       alt: 'Nature arctique enneigée et fjälls en Laponie finlandaise',
       eyebrow: 'Au-delà du cercle polaire',
       title: 'Une nature arctique',
       subtitle: 'intacte',
-      description: 'Laponie finlandaise, 100 367 km² de parcs nationaux, de fjälls, de forêts anciennes, et la plus longue saison d\'aurore d\'Europe.',
+      description: 'Laponie finlandaise, 100 367 km² de terres arctiques, avec sept parcs nationaux, des fjälls, des forêts anciennes, et la plus longue saison d\'aurore d\'Europe.',
       primaryCta: 'Planifier le voyage aurore',
       secondaryCta: 'Explorer les parcs',
     },
@@ -98,7 +98,7 @@ export const FR_OVERRIDES: DeepPartial<SectionCopy> = {
       kicker: 'Au-delà du cercle polaire · au-delà du bruit',
       h: 'Le pays le plus sauvage de Finlande se trouve à ',
       hHighlight: '66°–69° Nord',
-      hSuffix: '. Cinq parcs nationaux, la lumière des quatre saisons et la plus longue fenêtre d\'aurore d\'Europe.',
+      hSuffix: '. Sept parcs nationaux, la lumière des quatre saisons et la plus longue fenêtre d\'aurore d\'Europe.',
       stats: [
         { value: '30 %', primary: 'de la Finlande', body: 'est la région de Laponie, 100 367 km²' },
         { value: '40+', primary: 'zones protégées', body: 'parcs nationaux, réserves intégrales, Natura 2000' },
@@ -111,10 +111,10 @@ export const FR_OVERRIDES: DeepPartial<SectionCopy> = {
       h2: 'Expériences phares de Laponie',
       lead: 'Des affûts d\'ours près de la frontière russe aux canyons de cascades gelées, du canoë sous le soleil de minuit au ciel kaamos au-dessus d\'Utsjoki, sept guides à revisiter.',
       items: [
-        { tag: 'Zones protégées', title: 'Parcs nationaux', blurb: 'Cinq parcs, plus de 7 000 km² de nature protégée, des fjälls d\'Urho Kekkonen aux arbres couronnés de neige de Riisitunturi.', cta: 'Explorer les parcs nationaux' },
+        { tag: 'Zones protégées', title: 'Parcs nationaux', blurb: 'La Laponie compte sept parcs nationaux (environ 6 900 km² au total) ; nous en présentons cinq, des fjälls d\'Urho Kekkonen aux arbres couronnés de neige de Riisitunturi.', cta: 'Explorer les parcs nationaux' },
         { tag: 'Faune', title: 'Observation de la faune', blurb: 'Suivez l\'ours brun depuis les affûts nocturnes : une nuit avoisine 90 %, deux nuits 99 %. Troupeaux semi-sauvages de rennes et glouton à apercevoir.', cta: 'Explorer la faune' },
         { tag: 'Aurore', title: 'Aurore boréale', blurb: 'Chassez l\'aurore dans le ciel arctique de septembre à avril. Utsjoki affiche une aurore 4 nuits claires sur 5.', cta: 'Explorer l\'aurore' },
-        { tag: 'Sentiers', title: 'Randonnée', blurb: 'Parcourez les sentiers les plus emblématiques de Finlande, des ponts suspendus du Karhunkierros (82 km) au sommet du Halti (1 324 m).', cta: 'Explorer la randonnée' },
+        { tag: 'Sentiers', title: 'Randonnée', blurb: 'Parcourez les sentiers les plus emblématiques de Finlande, des ponts suspendus du Karhunkierros (82 km) au point culminant de Finlande, sur le Halti (1 324 m).', cta: 'Explorer la randonnée' },
         { tag: 'Intendance', title: 'Conservation', blurb: 'Metsähallitus gère 85 % des fjälls de Laponie et les sept parcs nationaux. Plus le droit d\'accès à la nature, la loi finlandaise d\'accès libre.', cta: 'Explorer la conservation' },
         { tag: 'Été', title: 'Soleil de minuit', blurb: 'Au-delà du cercle polaire, le soleil ne se couche pas en plein été. À Utsjoki, le soleil de minuit dure plus de 70 jours d\'affilée.', cta: 'Explorer les saisons' },
         { tag: 'Eau', title: 'Eaux douces', blurb: 'Environ 188 000 lacs, la rivière Tornio à écoulement libre et les tourbières aapa. Pourquoi l\'eau froide et pure est la ressource la plus rare de Laponie, et ce qui y maintient le poisson.', cta: 'Explorer les eaux douces' },
@@ -221,7 +221,7 @@ export const FR_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   nationalParks: {
     metaTitle: 'Parcs nationaux de Laponie | LaplandNature',
-    metaDescription: 'Les cinq parcs nationaux de la Laponie finlandaise, Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi et Pyhä-Luosto.',
+    metaDescription: 'Cinq des parcs nationaux de la Laponie finlandaise, Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi et Pyhä-Luosto.',
     hero: {
       alt: 'Paysage ouvert de fjälls dans un parc national de Laponie finlandaise sous un ciel dégagé',
       eyebrow: 'Guide phare',
@@ -267,7 +267,7 @@ export const FR_OVERRIDES: DeepPartial<SectionCopy> = {
       eyebrow: 'Questions fréquentes',
       h2: 'Parcs nationaux de Laponie, questions fréquentes',
       items: [
-        { q: 'Combien y a-t-il de parcs nationaux en Laponie ?', a: 'La Laponie compte cinq des parcs sauvages les plus fréquentés de Finlande : Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi et Pyhä-Luosto. Chacun possède son village-porte d\'entrée pour se baser, de Saariselkä pour l\'UKK à Hetta et Muonio pour Pallas-Yllästunturi.' },
+        { q: 'Combien y a-t-il de parcs nationaux en Laponie ?', a: 'La région de Laponie compte sept parcs nationaux : Lemmenjoki, Urho Kekkonen, Pallas-Yllästunturi, Perämeri (golfe de Botnie), Pyhä-Luosto, Salla et Riisitunturi, soit environ 6 900 km² au total. Oulanka et Syöte débordent en partie sur la Laponie. Nous en présentons cinq en détail : Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi et Pyhä-Luosto. Chacun possède son village-porte d\'entrée pour se baser, de Saariselkä pour l\'UKK à Hetta et Muonio pour Pallas-Yllästunturi.' },
         { q: 'Quel est le plus grand parc national de la Laponie finlandaise ?', a: 'Le parc national d\'Urho Kekkonen est le plus grand de Laponie, avec environ 2 550 km², et le deuxième de toute la Finlande. Il s\'étend des fjälls de Saariselkä vers l\'est jusqu\'à une wilderness profonde et sans route, faite de fjälls ouverts, de gorges de rivières et de vieilles pinèdes.' },
         { q: 'Faut-il un permis ou un droit d\'entrée pour les parcs nationaux de Laponie ?', a: 'Non. L\'entrée des parcs nationaux de Finlande est gratuite et aucun permis n\'est requis pour la randonnée ordinaire, les visites à la journée ou les nuits en refuge libre. Certains refuges sur réservation et saunas demandent une petite participation, et les activités guidées ou l\'orpaillage à Lemmenjoki ont leurs propres coûts, mais parcourir les sentiers ne coûte rien.' },
         { q: 'Quelle est la meilleure période pour visiter les parcs ?', a: 'Début à mi-septembre pour les couleurs d\'automne du ruska, juin et juillet pour le soleil de minuit et les longues journées de marche, et février à mars pour les arbres couronnés de neige et le ski de randonnée, Riisitunturi est à son plus saisissant sous un lourd tykky en fin d\'hiver. Les refuges d\'été et les services de bac fonctionnent généralement de début juin à fin septembre.' },
@@ -413,13 +413,13 @@ export const FR_OVERRIDES: DeepPartial<SectionCopy> = {
   hiking: {
     difficulties: { easy: 'Facile', moderate: 'Modérée', challenging: 'Difficile', demanding: 'Très exigeante' },
     metaTitle: 'Sentiers de Laponie : 5 km à 82 km | LaplandNature',
-    metaDescription: 'Six sentiers en Laponie finlandaise et alentours, Hetta-Pallas (55 km), Karhunkierros (82 km), sommet du Halti (55 km) et trois itinéraires plus courts.',
+    metaDescription: 'Six sentiers en Laponie finlandaise et alentours, Hetta-Pallas (55 km), Karhunkierros (82 km), Halti, point culminant de Finlande (55 km) et trois itinéraires plus courts.',
     hero: {
       alt: 'Un sentier de randonnée serpentant sur un fjäll aux couleurs de la ruska en Laponie finlandaise',
       eyebrow: 'Guide phare',
       title: 'Sentiers de randonnée',
       subtitle: 'De Laponie',
-      description: 'Des randonnées d\'une journée faciles aux expéditions de plusieurs jours dans la wilderness. Les sentiers de Laponie vous mènent à travers des forêts anciennes, sur des fjälls ouverts, le long de rivières sauvages et jusqu\'au sommet le plus élevé de Finlande.',
+      description: 'Des randonnées d\'une journée faciles aux expéditions de plusieurs jours dans la wilderness. Les sentiers de Laponie vous mènent à travers des forêts anciennes, sur des fjälls ouverts, le long de rivières sauvages et jusqu\'au point culminant de Finlande.',
     },
     karhuKicker: 'Carnet de terrain · ruska 2024',
     karhuH2: 'Le Karhunkierros en 4 jours, ce que nous avons emporté, ce que nous avons laissé, ce que nous avons appris',
@@ -446,7 +446,7 @@ export const FR_OVERRIDES: DeepPartial<SectionCopy> = {
       { name: 'Sentier Hetta–Pallas', description: 'Le sentier de longue randonnée le plus populaire de Finlande, qui traverse la chaîne de fjälls entre Hetta et Pallas. Terrain de fjäll ouvert avec vues d\'horizon, refuges sauvages bien entretenus à intervalles courts.', distance: '55 km', duration: '3–4 jours', difficulty: 'Modéré' },
       { name: 'Karhunkierros (Sentier de l\'ours)', description: 'L\'un des sentiers les plus célèbres de Finlande, il traverse le canyon d\'Oulanka, ses rapides et ses ponts suspendus. Gorges spectaculaires et forêt primaire jalonnent le parcours.', distance: '82 km', duration: '4–6 jours', difficulty: 'Difficile' },
       { name: 'Sentiers de Saariselkä', description: 'Sentiers de journée bien balisés depuis le village de Saariselkä vers le parc national. La bonne introduction à la randonnée sur fjäll, avec options pour tous niveaux et fenêtres météo.', distance: '5–20 km', duration: '2–8 h', difficulty: 'Facile' },
-      { name: 'Sentier du sommet du Halti', description: 'Marche vers le point culminant de Finlande, 1 324 m. Itinéraire sauvage et reculé à travers l\'arrière-pays de Kilpisjärvi. La section finale est non balisée et exige du sens de l\'orientation par mauvaise visibilité.', distance: '55 km (aller-retour)', duration: '3–5 jours', difficulty: 'Très difficile' },
+      { name: 'Sentier du Halti – le point culminant de Finlande', description: 'Marche vers le point culminant de Finlande, sur l\'épaule du Halti, à 1 324 m. Itinéraire sauvage et reculé à travers l\'arrière-pays de Kilpisjärvi. La section finale est non balisée et exige du sens de l\'orientation par mauvaise visibilité.', distance: '55 km (aller-retour)', duration: '3–5 jours', difficulty: 'Très difficile' },
       { name: 'Sentier de la gorge de Pyhäkuru', description: 'Sentier court mais impressionnant dans une gorge profonde aux parois anciennes. Site sacré pour le peuple sami, avec des sections de passerelle accessibles aux familles et aux groupes à allure variée.', distance: '5 km', duration: '2–3 h', difficulty: 'Facile' },
       { name: 'Sentier de la rivière Lemmenjoki', description: 'Suit la légendaire rivière des orpailleurs à travers l\'une des plus vastes wilderness d\'Europe. Transport en bateau possible sur une partie du trajet. Histoire de la ruée vers l\'or visible aux sites d\'orpaillage balisés.', distance: '20 km', duration: '1–2 jours', difficulty: 'Modéré' }
     ],

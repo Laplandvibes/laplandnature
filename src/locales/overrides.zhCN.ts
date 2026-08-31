@@ -84,13 +84,13 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   home: {
     metaTitle: '拉普兰自然：北极荒野、极光与国家公园 | LaplandNature',
-    metaDescription: '芬兰拉普兰的北极荒野，五座国家公园、每年 200 多个极光夜晚、kaamos（极夜）以及 5 公里到 82 公里不等的徒步线路。规划您的自然之旅。',
+    metaDescription: '芬兰拉普兰的北极荒野，七座国家公园、每年 200 多个极光夜晚、kaamos（极夜）以及 5 公里到 82 公里不等的徒步线路。规划您的自然之旅。',
     hero: {
       alt: '芬兰拉普兰白雪覆盖的北极荒野和丘陵',
       eyebrow: '北极圈以北',
       title: '未被打扰的',
       subtitle: '北极荒野',
-      description: '芬兰拉普兰，100,367 平方公里的国家公园、北极冻原、原始森林，以及欧洲最长的极光季。',
+      description: '芬兰拉普兰，100,367 平方公里的北极大地：七座国家公园、北极冻原、原始森林，以及欧洲最长的极光季。',
       primaryCta: '规划极光之旅',
       secondaryCta: '探索国家公园',
     },
@@ -98,7 +98,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
       kicker: '北极圈以北 · 喧嚣以外',
       h: '芬兰最荒野的角落位于',
       hHighlight: '北纬 66°–69°',
-      hSuffix: '。五座国家公园、四季分明的光线，以及欧洲最长的极光窗口。',
+      hSuffix: '。七座国家公园、四季分明的光线，以及欧洲最长的极光窗口。',
       stats: [
         { value: '30%', primary: '的芬兰国土', body: '属于拉普兰省，10 万 367 平方公里' },
         { value: '40+', primary: '处保护区', body: '国家公园、严格自然保护区、Natura 2000' },
@@ -114,7 +114,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
         {
           tag: '保护区',
           title: '国家公园',
-          blurb: '五座国家公园，合计 7000 多平方公里的受保护荒野，从 Urho Kekkonen 的北极冻原，到 Riisitunturi 雪冠覆盖的树林。',
+          blurb: '拉普兰共有七座国家公园（合计约 6,900 平方公里），我们从中介绍五座，从 Urho Kekkonen 的北极冻原，到 Riisitunturi 雪冠覆盖的树林。',
           cta: '探索国家公园',
         },
         {
@@ -132,7 +132,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
         {
           tag: '步道',
           title: '徒步路线',
-          blurb: '走遍芬兰最具代表性的步道，从 82 公里的 Karhunkierros 吊桥到海拔 1324 米的 Halti 山顶。',
+          blurb: '走遍芬兰最具代表性的步道，从 82 公里的 Karhunkierros 吊桥到哈尔蒂山肩上的芬兰最高点（海拔 1324 米）。',
           cta: '探索徒步路线',
         },
         {
@@ -174,7 +174,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
         { name: 'Enontekiö', note: '欧洲最暗的夜空之一（波特尔 1 级）' },
         { name: 'Hetta', note: '55 公里 Hetta–Pallas 步道的北端' },
         { name: 'Ruka / Oulanka', note: '82 公里 Karhunkierros · 吊桥与峡谷 · 库萨莫，拉普兰以南不远' },
-        { name: 'Kilpisjärvi (Halti)', note: '往返 55 公里登芬兰最高峰 Halti（1,324 米）' },
+        { name: 'Kilpisjärvi (Halti)', note: '往返 55 公里登芬兰最高点 Halti（1,324 米）' },
         { name: 'Pyhä', note: 'Pyhäkuru 峡谷 · 无障碍栈道 · 5 公里' },
         { name: 'Kuusamo 观熊掩体', note: '棕熊观测掩体 · 住一晚约 90%，住两晚 99% · 5–9 月 · 拉普兰以南不远' },
         { name: 'Nellim 荒野', note: 'Nellim 荒野小屋 · 狼獾与棕熊活动区' },
@@ -256,7 +256,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   nationalParks: {
     metaTitle: '拉普兰的国家公园：五片可徒步的荒野 | LaplandNature',
-    metaDescription: '芬兰拉普兰的五座国家公园，Urho Kekkonen、Pallas-Yllästunturi、Lemmenjoki、Riisitunturi 与 Pyhä-Luosto。门户村庄、标志性特征与最佳到访时间。',
+    metaDescription: '芬兰拉普兰五座国家公园精选，Urho Kekkonen、Pallas-Yllästunturi、Lemmenjoki、Riisitunturi 与 Pyhä-Luosto。门户村庄、标志性特征与最佳到访时间。',
     hero: {
       alt: '晴空下芬兰拉普兰国家公园开阔的丘陵景观',
       eyebrow: '核心指南',
@@ -302,7 +302,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
       eyebrow: '常见问题',
       h2: '拉普兰的国家公园，常见问题',
       items: [
-        { q: '拉普兰有多少座国家公园？', a: '拉普兰拥有芬兰访客最多的五座荒野公园：Urho Kekkonen、Pallas-Yllästunturi、Lemmenjoki、Riisitunturi 与 Pyhä-Luosto。每座都有各自的门户村庄可作据点，从 UKK 的 Saariselkä，到 Pallas-Yllästunturi 的 Hetta 与 Muonio。' },
+        { q: '拉普兰有多少座国家公园？', a: '拉普兰省共有七座国家公园：Lemmenjoki、Urho Kekkonen、Pallas-Yllästunturi、Perämeri（波的尼亚湾）、Pyhä-Luosto、Salla 与 Riisitunturi，合计约 6,900 平方公里。此外，Oulanka 与 Syöte 国家公园也有一部分位于拉普兰境内。我们从中挑选五座详细介绍：Urho Kekkonen、Pallas-Yllästunturi、Lemmenjoki、Riisitunturi 与 Pyhä-Luosto。每座都有各自的门户村庄可作据点，从 UKK 的 Saariselkä，到 Pallas-Yllästunturi 的 Hetta 与 Muonio。' },
         { q: '芬兰拉普兰最大的国家公园是哪座？', a: 'Urho Kekkonen 国家公园是拉普兰最大的，面积约 2,550 平方公里，也是全芬兰第二大。它从 Saariselkä 的 fjäll 向东延伸，深入无路可通的荒野，有开阔的 fjäll、河谷峡谷与古老的松林。' },
         { q: '进入拉普兰的国家公园需要许可或门票吗？', a: '不需要。芬兰的国家公园免费进入，普通徒步、当日到访或入住开放的荒野山屋都无需许可。部分预订山屋和桑拿会收取小额费用，Lemmenjoki 的向导活动或淘金也各有花费，但走步道本身分文不取。' },
         { q: '到访这些公园的最佳时间是什么时候？', a: '九月初到中旬看 ruska 秋色，六月与七月享午夜阳光和漫长的徒步日，二月到三月赏雪冠树并越野滑雪，Riisitunturi 在冬末厚重的 tykky 之下最为夺目。夏季山屋与渡船通常从六月初运营到九月底。' },
@@ -448,13 +448,13 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
   hiking: {
     difficulties: { easy: '简单', moderate: '中等', challenging: '有挑战', demanding: '高难度' },
     metaTitle: '拉普兰及周边的徒步步道：从 5 公里单日徒步到 82 公里的 Karhunkierros | LaplandNature',
-    metaDescription: '芬兰拉普兰及周边的六条徒步步道，Hetta-Pallas（55 公里）、Karhunkierros（82 公里）、Halti 峰（55 公里），以及三条更短的路线。距离、用时、难度与出发据点。',
+    metaDescription: '芬兰拉普兰及周边的六条徒步步道，Hetta-Pallas（55 公里）、Karhunkierros（82 公里）、Halti·芬兰最高点（55 公里），以及三条更短的路线。距离、用时、难度与出发据点。',
     hero: {
       alt: '蜿蜒穿过芬兰拉普兰秋色丘陵的徒步小径',
       eyebrow: '核心指南',
       title: '徒步步道',
       subtitle: '拉普兰的',
-      description: '从轻松的单日徒步，到多日的荒野远征。拉普兰的步道带你穿越古老森林、越过开阔 fjäll、沿野河而行，直抵芬兰最高峰。',
+      description: '从轻松的单日徒步，到多日的荒野远征。拉普兰的步道带你穿越古老森林、越过开阔 fjäll、沿野河而行，直抵芬兰最高点。',
     },
     karhuKicker: '手记 · ruska 2024',
     karhuH2: 'Karhunkierros 四日，我们带了什么、舍弃了什么、学到了什么',
@@ -481,7 +481,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
       { name: 'Hetta–Pallas 步道', description: '芬兰最受欢迎的长距离徒步步道，纵贯 Hetta 与 Pallas 之间的 fjäll 山链。开阔的 fjäll 地形，视野辽阔，沿途按短间隔设有维护良好的荒野山屋。', distance: '55 公里', duration: '3–4 天', difficulty: '中等' },
       { name: 'Karhunkierros（熊径）', description: '芬兰最著名的步道之一，蜿蜒穿过 Oulanka 峡谷，沿途有急流与吊桥。壮丽的河谷与原始森林贯穿全程。', distance: '82 公里', duration: '4–6 天', difficulty: '较难' },
       { name: 'Saariselkä 单日步道', description: '从 Saariselkä 村出发、通往国家公园的标识清晰的单日步道。是 fjäll 徒步的合适入门，适合各种体能水平与天气窗口。', distance: '5–20 公里', duration: '2–8 小时', difficulty: '简单' },
-      { name: 'Halti 峰步道', description: '前往芬兰最高点（1324 米）的徒步。穿越 Kilpisjärvi 腹地的偏远荒野路线。最后的登顶段无标识，能见度差时需要导航能力。', distance: '55 公里（往返）', duration: '3–5 天', difficulty: '高难' },
+      { name: 'Halti 步道 — 芬兰最高点', description: '前往哈尔蒂山肩上芬兰最高点（海拔 1324 米）的徒步。穿越 Kilpisjärvi 腹地的偏远荒野路线。最后一段无标识，能见度差时需要导航能力。', distance: '55 公里（往返）', duration: '3–5 天', difficulty: '高难' },
       { name: 'Pyhäkuru 峡谷步道', description: '短而震撼的步道，穿过一道古老岩壁的幽深峡谷。萨米人的圣地，设有适合家庭与混合步速团队的无障碍栈道段。', distance: '5 公里', duration: '2–3 小时', difficulty: '简单' },
       { name: 'Lemmenjoki 河步道', description: '沿着传奇的淘金之河，穿越欧洲最大的荒野之一。部分路段可乘船。在标识的淘金点可见淘金热的历史。', distance: '20 公里', duration: '1–2 天', difficulty: '中等' }
     ],
@@ -501,7 +501,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
         { q: 'Karhunkierros（熊径）要走多久？', a: '完整的 Karhunkierros 约 82 公里，多数徒步者用四到六天走完，夜宿 Oulanka 峡谷沿线的荒野山屋。脚力强的人四个长日即可走完；若想在急流、瀑布与吊桥处多停留，就安排五天。更短的 Pieni Karhunkierros 环线用 12 公里串起精华段。' },
         { q: '拉普兰最受欢迎的徒步步道是哪条？', a: '穿越 Pallas-Yllästunturi 国家公园、全长 55 公里的 Hetta–Pallas 步道，是芬兰最受欢迎的长距离路线。它几乎全程位于林木线之上，视野开阔，山屋按间隔分布，适合在 Hetta 与 Pallas 之间分成舒适的三到四天日程。' },
         { q: '荒野山屋需要提前预订吗？', a: '开放的荒野山屋(autiotupa)免费且先到先得，无法预订，在九月 ruska 巅峰时它们可能下午过半就住满。预订山屋(varaustupa)则须提前预订并付费，通常每个铺位约 €14，在繁忙路段为确保有床位很值得。' },
-        { q: '芬兰最高点有多高，可以徒步登顶吗？', a: '芬兰最高点位于 Halti 的山肩之上，海拔 1,324 米，深藏在靠近挪威边境的基尔皮斯耶尔维腹地。这是一条往返约 55 公里、需三到五天的硬核路线；最后的登顶段没有标识，能见度差时需要真正的导航能力。' },
+        { q: '芬兰最高点有多高，可以徒步抵达吗？', a: '芬兰最高点位于 Halti 的山肩之上，海拔 1,324 米，深藏在靠近挪威边境的基尔皮斯耶尔维腹地。这是一条往返约 55 公里、需三到五天的硬核路线；最后一段没有标识，能见度差时需要真正的导航能力。' },
         { q: '在拉普兰徒步的最佳时间是什么时候？', a: '六月中旬到九月底是主季节。七月有温暖天气和午夜阳光；九月初到中旬带来 ruska 秋色，蚊子也少得多，不过夜间会降到冰点以下，栈道在黎明时会结冰打滑。夏季山屋与渡船一般从六月初运营到九月底。' },
       ],
     },
