@@ -53,7 +53,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
     body: 'Questa pagina contiene link di affiliazione. Se prenota tramite questi link, LaplandVibes potrebbe ricevere una commissione senza alcun costo aggiuntivo per Lei.',
   },
   footerCookie: {
-    affiliateNote: 'Gestito in modo indipendente da Lapeso Oy nella Lapponia finlandese · ultima revisione aprile 2026 · percepiamo una commissione di affiliazione su alcune prenotazioni, ma non influenza mai le destinazioni o gli operatori che consigliamo.',
+    affiliateNote: 'Gestito in modo indipendente da LaPeso Oy nella Lapponia finlandese · ultima revisione aprile 2026 · percepiamo una commissione di affiliazione su alcune prenotazioni, ma non influenza mai le destinazioni o gli operatori che consigliamo.',
   },
   map: {
     kicker: 'La mappa',
@@ -527,7 +527,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
     h1: 'Politica editoriale',
     lastUpdated: 'Ultimo aggiornamento: aprile 2026',
     sections: [
-      { h2: 'Chi scrive questo sito', body: 'LaplandNature fa parte dell\'ecosistema LaplandVibes, gestito in modo indipendente da Lapeso Oy nella Lapponia finlandese. I contenuti vengono scritti e rivisti dalla Finlandia tutto l\'anno, con fonti citate su ogni affermazione, non generati da una scrivania in un altro Paese.' },
+      { h2: 'Chi scrive questo sito', body: 'LaplandNature fa parte dell\'ecosistema LaplandVibes, gestito in modo indipendente da LaPeso Oy nella Lapponia finlandese. I contenuti vengono scritti e rivisti dalla Finlandia tutto l\'anno, con fonti citate su ogni affermazione, non generati da una scrivania in un altro Paese.' },
       { h2: 'Come vengono scelte le raccomandazioni', body: 'I villaggi-porta dei parchi, i punti di partenza dei sentieri e i villaggi per l\'osservazione dell\'aurora vengono consigliati sulla base dei dati di cielo scuro, della copertura della rete di rifugi, dell\'accessibilità stradale invernale e delle visite sul campo. Non si accettano pagamenti in cambio di inclusione. Se una regione o un operatore ci paga direttamente, la pagina lo dichiara.' },
       { h2: 'Ricavi di affiliazione', body: 'Alcuni link di questo sito passano da go.laplandvibes.com e generano una piccola commissione quando Lei prenota, senza alcun costo aggiuntivo. I ricavi di affiliazione coprono l\'hosting e il tempo di scrittura. Non determinano mai quali destinazioni o operatori vengano presentati né cambiano le raccomandazioni in una pagina.' },
       { h2: 'Correzioni', body: 'Se nota un errore di fatto, distanza, date di apertura, status faunistico, qualunque cosa, scriva a info@laplandvibes.com. Le correzioni vengono apportate rapidamente e segnalate sulla pagina.' }
@@ -640,15 +640,15 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   privacy: {
     metaTitle: 'Informativa sulla privacy, LaplandNature',
-    metaDescription: 'Come Lapeso Oy (LaplandNature) tratta i dati personali: iscrizioni alla newsletter, analytics e cookie di affiliazione. Conforme GDPR / ePrivacy.',
+    metaDescription: 'Come LaPeso Oy (LaplandNature) tratta i dati personali: iscrizioni alla newsletter, analytics e cookie di affiliazione. Conforme GDPR / ePrivacy.',
   },
   terms: {
     metaTitle: 'Termini di utilizzo, LaplandNature',
-    metaDescription: 'Termini che regolano l\'utilizzo di LaplandNature.com, licenze dei contenuti, affiliazione e standard editoriali. Gestito da Lapeso Oy in Finlandia.',
+    metaDescription: 'Termini che regolano l\'utilizzo di LaplandNature.com, licenze dei contenuti, affiliazione e standard editoriali. Gestito da LaPeso Oy in Finlandia.',
   },
   cookie: {
     metaTitle: 'Informativa sui cookie, LaplandNature',
-    metaDescription: 'Quali cookie utilizza LaplandNature.com, perché e come gestirli. Informativa sui cookie conforme GDPR / ePrivacy da Lapeso Oy.',
+    metaDescription: 'Quali cookie utilizza LaplandNature.com, perché e come gestirli. Informativa sui cookie conforme GDPR / ePrivacy da LaPeso Oy.',
   },
   bearKuusamo: {
     metaTitle: 'Bear Kuusamo: osservazione etica degli orsi | LaplandNature',

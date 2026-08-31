@@ -134,3 +134,56 @@
   from { opacity: 0; transform: translateY(8px); }
   to   { opacity: 1; transform: translateY(0); }
 }
+
+/* --- Etusivun Leaflet-kartta -------------------------------------------
+   Nimilappu piirretään vain sille pinnille jota lukija osoittaa tai on
+   valinnut listalta. Kaikki 13 yhtä aikaa meni päällekkäin jo työpöydällä
+   ja valui kartan reunan yli puhelimessa ("Nellim erämä…"). Nimet kantaa
+   kartan vieressä oleva paikkalista; kartta pitää numerot ja värit.
+
+   🔴 Näkyvyyttä EI voi kytkeä opacityllä: Leaflet kirjoittaa tooltipin
+   opacityn inline-tyyliin (options.opacity), joka voittaa tämän
+   tyylitiedoston. Siksi display. */
+.lv-pin {
+  background: none;
+  border: 0;
+}
+
+.lv-map-label.leaflet-tooltip {
+  display: none;
+  background: rgba(249, 250, 251, 0.96);
+  border: 1px solid rgba(15, 23, 42, 0.14);
+  border-radius: 999px;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.18);
+  color: var(--color-deep-night);
+  font-family: var(--font-body);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 1px 8px;
+  max-width: 40vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.lv-map-label.leaflet-tooltip.is-shown {
+  display: block;
+}
+
+.lv-map-label.leaflet-tooltip::before {
+  display: none;
+}
+
+/* Leafletin oma zoom-nappi on 30x30. iOS HIG:n minimi on 44x44, ja tama on
+   ainoa kartan saadin sormella kun raahaus on puhelimessa pois paalta. */
+@media (pointer: coarse) {
+  /* 🔴 Kahden luokan .leaflet-container.leaflet-touch on pakko: Leafletin oma
+     sääntö on täsmälleen yhtä tarkka (.leaflet-touch .leaflet-bar a) ja sen
+     tyylitiedosto ladataan tämän JÄLKEEN, joten 30 px voitti. */
+  .leaflet-container.leaflet-touch .leaflet-bar a {
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+  }
+}

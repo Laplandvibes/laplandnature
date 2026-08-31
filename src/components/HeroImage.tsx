@@ -49,6 +49,37 @@ interface HeroImageProps {
 }
 
 /**
+ * Heroes that have 800 px and 1200 px AVIF + WebP siblings in public/images/.
+ *
+ * 🔴 Those 32 files shipped on 2026-08-22 but nothing ever referenced them: the
+ * `<picture>` this component's docblock promised did not exist, so every device
+ * downloaded the full-width original. A phone was pulling 231 kB of
+ * `hero-home.webp` where `hero-home-800.avif` is 68 kB — on the LCP image of
+ * every pillar page. The list below is what turns them on.
+ *
+ * Only add a name here after all four sibling files exist, or the srcset will
+ * point at 404s. `hero-bear-kuusamo` deliberately stays out: it has no variants.
+ */
+const RESPONSIVE_HEROES = new Set([
+  'hero-conservation',
+  'hero-freshwater',
+  'hero-hiking',
+  'hero-home',
+  'hero-national-parks',
+  'hero-northern-lights',
+  'hero-seasons',
+  'hero-wildlife',
+])
+
+/**
+ * The ladder tops out at 1200 px, so it is offered to phones only. Above the
+ * `md` breakpoint the original 1920 px file is still served — a 1280 px screen
+ * at DPR 2 wants 2560 px and would have had to upscale the 1200 px rung, which
+ * is a visible cost on a photo-led page for no real saving.
+ */
+const RESPONSIVE_MEDIA = '(max-width: 767px)'
+
+/**
  * Full-bleed image hero with deep-night overlay + LV typographic stack.
  * Photo is rendered as a `<picture>`/`<img>` (NOT background-image) so it
  * benefits from `loading=eager fetchpriority=high` for LCP, and Lighthouse
@@ -91,21 +122,42 @@ export default function HeroImage({
   const decorative = alt === null
   const altText = decorative ? '' : (alt ?? derivedAlt)
 
+  const base = image.replace(/\.(avif|webp|jpe?g|png)$/i, '')
+  const hasVariants = RESPONSIVE_HEROES.has(base)
+
   return (
     <>
     <section className={`relative ${minH} flex ${alignClass} justify-center overflow-hidden`}>
-      <img
-        src={`/images/${image}`}
-        alt={altText}
-        {...(decorative || altText === '' ? { 'aria-hidden': true } : {})}
-        loading={priority ? 'eager' : 'lazy'}
-        fetchPriority={priority ? 'high' : 'auto'}
-        decoding={priority ? 'sync' : 'async'}
-        className="absolute inset-0 w-full h-full object-cover"
-        style={objectPosition ? { objectPosition } : undefined}
-        width={1920}
-        height={815}
-      />
+      <picture>
+        {hasVariants && (
+          <>
+            <source
+              type="image/avif"
+              media={RESPONSIVE_MEDIA}
+              sizes="100vw"
+              srcSet={`/images/${base}-800.avif 800w, /images/${base}-1200.avif 1200w`}
+            />
+            <source
+              type="image/webp"
+              media={RESPONSIVE_MEDIA}
+              sizes="100vw"
+              srcSet={`/images/${base}-800.webp 800w, /images/${base}-1200.webp 1200w`}
+            />
+          </>
+        )}
+        <img
+          src={`/images/${image}`}
+          alt={altText}
+          {...(decorative || altText === '' ? { 'aria-hidden': true } : {})}
+          loading={priority ? 'eager' : 'lazy'}
+          fetchPriority={priority ? 'high' : 'auto'}
+          decoding={priority ? 'sync' : 'async'}
+          className="absolute inset-0 w-full h-full object-cover"
+          style={objectPosition ? { objectPosition } : undefined}
+          width={1920}
+          height={815}
+        />
+      </picture>
 
       {/* Gradient overlay — see `overlayGradient` above. `default` fades to solid
           dark at the bottom to merge into the next dark section; `feature` stays

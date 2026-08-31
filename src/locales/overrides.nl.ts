@@ -53,7 +53,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
     body: 'Deze pagina bevat affiliate-links. Als u via deze links boekt, kan LaplandVibes een commissie ontvangen zonder dat u extra betaalt.',
   },
   footerCookie: {
-    affiliateNote: 'Onafhankelijk beheerd door Lapeso Oy in Fins Lapland · laatst herzien april 2026 · we ontvangen een affiliate-commissie op sommige boekingen, maar dat bepaalt nooit welke bestemmingen of aanbieders we aanbevelen.',
+    affiliateNote: 'Onafhankelijk beheerd door LaPeso Oy in Fins Lapland · laatst herzien april 2026 · we ontvangen een affiliate-commissie op sommige boekingen, maar dat bepaalt nooit welke bestemmingen of aanbieders we aanbevelen.',
   },
   map: {
     kicker: 'De kaart',
@@ -527,7 +527,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
     h1: 'Redactioneel beleid',
     lastUpdated: 'Laatst bijgewerkt: april 2026',
     sections: [
-      { h2: 'Wie schrijft deze site', body: 'LaplandNature maakt deel uit van het LaplandVibes-ecosysteem en wordt onafhankelijk beheerd door Lapeso Oy in Fins Lapland. De inhoud wordt het hele jaar door vanuit Finland geschreven en gereviseerd, met bronvermelding bij elke bewering, niet gegenereerd vanaf een bureau in een ander land.' },
+      { h2: 'Wie schrijft deze site', body: 'LaplandNature maakt deel uit van het LaplandVibes-ecosysteem en wordt onafhankelijk beheerd door LaPeso Oy in Fins Lapland. De inhoud wordt het hele jaar door vanuit Finland geschreven en gereviseerd, met bronvermelding bij elke bewering, niet gegenereerd vanaf een bureau in een ander land.' },
       { h2: 'Hoe aanbevelingen worden gekozen', body: 'Toegangsdorpen tot parken, padbegin en noorderlichtdorpen worden aanbevolen op basis van data over donkere hemels, dekkingsgraad van het huttennetwerk, wegtoegang in de winter en veldbezoeken. Betaling in ruil voor opname wordt niet aanvaard. Als een regio of aanbieder ons direct betaalt, vermeldt de pagina dat.' },
       { h2: 'Affiliate-inkomsten', body: 'Enkele links op deze site lopen via go.laplandvibes.com en leveren een kleine commissie op wanneer u boekt, zonder extra kosten voor u. De affiliate-inkomsten dekken hosting en schrijftijd. Zij bepalen nooit welke bestemmingen of aanbieders worden getoond en veranderen geen aanbevelingen op een pagina.' },
       { h2: 'Correcties', body: 'Vindt u een feitelijke fout, afstand, openingsdata, faunastatus, wat dan ook, schrijf dan naar info@laplandvibes.com. Correcties worden snel doorgevoerd en op de pagina vermeld.' }
@@ -640,15 +640,15 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   privacy: {
     metaTitle: 'Privacybeleid, LaplandNature',
-    metaDescription: 'Hoe Lapeso Oy (LaplandNature) persoonsgegevens verwerkt: nieuwsbriefaanmeldingen, analytics en affiliate-cookies. AVG / ePrivacy-conform.',
+    metaDescription: 'Hoe LaPeso Oy (LaplandNature) persoonsgegevens verwerkt: nieuwsbriefaanmeldingen, analytics en affiliate-cookies. AVG / ePrivacy-conform.',
   },
   terms: {
     metaTitle: 'Gebruiksvoorwaarden, LaplandNature',
-    metaDescription: 'Voorwaarden voor het gebruik van LaplandNature.com, content-licenties en redactionele standaarden. Geëxploiteerd door Lapeso Oy in Finland.',
+    metaDescription: 'Voorwaarden voor het gebruik van LaplandNature.com, content-licenties en redactionele standaarden. Geëxploiteerd door LaPeso Oy in Finland.',
   },
   cookie: {
     metaTitle: 'Cookiebeleid, LaplandNature',
-    metaDescription: 'Welke cookies LaplandNature.com gebruikt, waarom, en hoe u ze beheert. AVG / ePrivacy-conforme cookieverklaringen van Lapeso Oy.',
+    metaDescription: 'Welke cookies LaplandNature.com gebruikt, waarom, en hoe u ze beheert. AVG / ePrivacy-conforme cookieverklaringen van LaPeso Oy.',
   },
   bearKuusamo: {
     metaTitle: 'Bear Kuusamo: ethisch beren kijken | LaplandNature',

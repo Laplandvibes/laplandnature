@@ -53,7 +53,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
     body: '本页面包含联盟营销链接。通过这些链接预订时,LaplandVibes 可能会获得佣金,您无需支付任何额外费用。',
   },
   footerCookie: {
-    affiliateNote: '由芬兰拉普兰的 Lapeso Oy 独立运营 · 最近审阅于 2026 年 4 月 · 我们在部分预订中获得联盟佣金,但这绝不会左右我们推荐哪些目的地或运营商。',
+    affiliateNote: '由芬兰拉普兰的 LaPeso Oy 独立运营 · 最近审阅于 2026 年 4 月 · 我们在部分预订中获得联盟佣金,但这绝不会左右我们推荐哪些目的地或运营商。',
   },
   map: {
     kicker: '地图',
@@ -562,7 +562,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
     h1: '编辑方针',
     lastUpdated: '最近更新:2026 年 4 月',
     sections: [
-      { h2: '谁在撰写本站', body: 'LaplandNature 是 LaplandVibes 生态的一部分,由芬兰拉普兰的 Lapeso Oy 独立运营。内容全年在芬兰本地撰写与审阅,每一处主张都注明出处，而非在另一个国家的办公桌上生成。' },
+      { h2: '谁在撰写本站', body: 'LaplandNature 是 LaplandVibes 生态的一部分,由芬兰拉普兰的 LaPeso Oy 独立运营。内容全年在芬兰本地撰写与审阅,每一处主张都注明出处，而非在另一个国家的办公桌上生成。' },
       { h2: '推荐如何选定', body: '公园门户、步道起点与极光村庄的推荐,依据暗夜星空数据、山屋网络覆盖、冬季道路通达性与实地走访。我们不接受以付费换取收录。若某地区或运营商直接付费给我们,页面会予以说明。' },
       { h2: '联盟收入', body: '本站的部分链接经由 go.laplandvibes.com,在你预订时为我们带来一小笔佣金，你无需支付额外费用。联盟收入用于覆盖托管与撰写时间。它绝不决定哪些目的地或运营商被收录,也不会改变某个页面上的推荐。' },
       { h2: '更正', body: '若你发现事实错误，距离、开放日期、物种状况,任何内容，请写信至 info@laplandvibes.com。更正会迅速处理,并在页面上注明。' }
@@ -675,15 +675,15 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   privacy: {
     metaTitle: '隐私政策，LaplandNature',
-    metaDescription: 'Lapeso Oy(LaplandNature)如何处理个人数据:简讯订阅、分析与联盟 Cookie。符合 GDPR / ePrivacy。',
+    metaDescription: 'LaPeso Oy(LaplandNature)如何处理个人数据:简讯订阅、分析与联盟 Cookie。符合 GDPR / ePrivacy。',
   },
   terms: {
     metaTitle: '使用条款，LaplandNature',
-    metaDescription: '规范 LaplandNature.com 使用的条款，内容授权、联盟披露与编辑标准。由芬兰的 Lapeso Oy 运营。',
+    metaDescription: '规范 LaplandNature.com 使用的条款，内容授权、联盟披露与编辑标准。由芬兰的 LaPeso Oy 运营。',
   },
   cookie: {
     metaTitle: 'Cookie 政策，LaplandNature',
-    metaDescription: 'LaplandNature.com 使用哪些 Cookie、为何使用,以及如何管理。来自 Lapeso Oy、符合 GDPR / ePrivacy 的 Cookie 披露。',
+    metaDescription: 'LaplandNature.com 使用哪些 Cookie、为何使用,以及如何管理。来自 LaPeso Oy、符合 GDPR / ePrivacy 的 Cookie 披露。',
   },
   bearKuusamo: {
     metaTitle: 'Bear Kuusamo：芬兰的生态观熊之旅 | LaplandNature',

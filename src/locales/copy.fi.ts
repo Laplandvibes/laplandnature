@@ -61,7 +61,7 @@ const fi: SectionCopy = {
     body: 'Osa tämän sivun linkeistä kulkee go.laplandvibes.com -uudelleenohjauksen kautta ja tuottaa meille pienen komission, kun varaat. Sinulle ei tule lisäkulua, eikä se muuta suosituksiamme.',
   },
   footerCookie: {
-    affiliateNote: 'Riippumaton sivusto, jota ylläpitää Lapeso Oy Suomen Lapista · viimeksi tarkistettu huhtikuussa 2026 · saamme affiliate-komission osasta varauksia, mutta se ei vaikuta siihen mitä kohteita tai operaattoreita suosittelemme.',
+    affiliateNote: 'Riippumaton sivusto, jota ylläpitää LaPeso Oy Suomen Lapista · viimeksi tarkistettu huhtikuussa 2026 · saamme affiliate-komission osasta varauksia, mutta se ei vaikuta siihen mitä kohteita tai operaattoreita suosittelemme.',
   },
   map: {
     kicker: 'Kartta',
@@ -1046,7 +1046,7 @@ const fi: SectionCopy = {
     sections: [
       {
         h2: 'Kuka tämän sivuston kirjoittaa',
-        body: 'LaplandNature on osa LaplandVibes-ekosysteemiä, ja sitä ylläpitää itsenäisesti Lapeso Oy Suomen Lapissa. Sisältö kirjoitetaan ja tarkistetaan Suomessa ympäri vuoden, lähteet näkyvillä jokaisen väitteen kohdalla, eikä sitä tuoteta etäältä toisesta maasta.',
+        body: 'LaplandNature on osa LaplandVibes-ekosysteemiä, ja sitä ylläpitää itsenäisesti LaPeso Oy Suomen Lapissa. Sisältö kirjoitetaan ja tarkistetaan Suomessa ympäri vuoden, lähteet näkyvillä jokaisen väitteen kohdalla, eikä sitä tuoteta etäältä toisesta maasta.',
       },
       {
         h2: 'Miten suositukset valitaan',
@@ -1073,15 +1073,15 @@ const fi: SectionCopy = {
   },
   privacy: {
     metaTitle: 'Tietosuojakäytäntö, LaplandNature',
-    metaDescription: 'Miten Lapeso Oy (LaplandNature) käsittelee henkilötietoja: uutiskirjeen tilaukset, analytiikka ja affiliate-evästeet. GDPR:n ja ePrivacyn mukaisesti.',
+    metaDescription: 'Miten LaPeso Oy (LaplandNature) käsittelee henkilötietoja: uutiskirjeen tilaukset, analytiikka ja affiliate-evästeet. GDPR:n ja ePrivacyn mukaisesti.',
   },
   terms: {
     metaTitle: 'Käyttöehdot, LaplandNature',
-    metaDescription: 'LaplandNature.com -sivuston käyttöehdot, sisällön lisensointi, affiliate-ilmoitukset ja toimitukselliset standardit. Lapeso Oy Suomesta.',
+    metaDescription: 'LaplandNature.com -sivuston käyttöehdot, sisällön lisensointi, affiliate-ilmoitukset ja toimitukselliset standardit. LaPeso Oy Suomesta.',
   },
   cookie: {
     metaTitle: 'Evästekäytäntö, LaplandNature',
-    metaDescription: 'Mitä evästeitä LaplandNature.com käyttää, miksi ja miten niitä hallitaan. GDPR / ePrivacy -yhteensopivat evästeilmoitukset Lapeso Oy:ltä.',
+    metaDescription: 'Mitä evästeitä LaplandNature.com käyttää, miksi ja miten niitä hallitaan. GDPR / ePrivacy -yhteensopivat evästeilmoitukset LaPeso Oy:ltä.',
   },
 }
 

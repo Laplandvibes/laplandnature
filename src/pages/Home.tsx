@@ -70,7 +70,7 @@ const HOME_JSONLD = [
     '@type': 'WebSite',
     url: 'https://laplandnature.com/',
     name: 'LaplandNature',
-    publisher: { '@type': 'Organization', name: 'Lapeso Oy' },
+    publisher: { '@type': 'Organization', name: 'LaPeso Oy' },
   },
 ]
 
@@ -239,16 +239,21 @@ export default function Home() {
                 className="group rounded-2xl overflow-hidden border border-deep-night/10 bg-snow hover:shadow-xl hover:border-aurora-green/40 transition-all flex flex-col"
               >
                 <div className="relative aspect-[16/10] overflow-hidden">
-                  <img
-                    src={`/images/${f.image}`}
-                    alt=""
-                    aria-hidden="true"
-                    loading="lazy"
-                    decoding="async"
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                    width={1280}
-                    height={800}
-                  />
+                  {/* AVIF siblings for these seven cards existed but nothing
+                      pointed at them, so the WebP was always served. */}
+                  <picture>
+                    <source type="image/avif" srcSet={`/images/${f.image.replace(/\.webp$/, '.avif')}`} />
+                    <img
+                      src={`/images/${f.image}`}
+                      alt=""
+                      aria-hidden="true"
+                      loading="lazy"
+                      decoding="async"
+                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                      width={1280}
+                      height={800}
+                    />
+                  </picture>
                   <span className={`absolute top-3 left-3 ${f.tagBg} text-snow text-[11px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full shadow-md`}>
                     {f.tag}
                   </span>

@@ -34,7 +34,7 @@ const BK_JSONLD = {
   description:
     'Bear Kuusamo runs the oldest and northernmost bear hides in the Ruka–Kuusamo region: ethical bear watching in Finland, on the edge of Lapland, from 1 May to 30 September.',
   author: { '@type': 'Organization', name: 'LaplandNature editorial' },
-  publisher: { '@type': 'Organization', name: 'Lapeso Oy' },
+  publisher: { '@type': 'Organization', name: 'LaPeso Oy' },
   datePublished: '2026-07-24',
   dateModified: '2026-07-24',
   mainEntityOfPage: 'https://laplandnature.com/bear-kuusamo',

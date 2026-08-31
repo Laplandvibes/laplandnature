@@ -53,7 +53,7 @@ export const SV_OVERRIDES: DeepPartial<SectionCopy> = {
     body: 'Vissa länkar på den här sidan går via go.laplandvibes.com och ger oss en liten provision om du bokar, utan extra kostnad för dig. Det avgör aldrig vad vi rekommenderar.',
   },
   footerCookie: {
-    affiliateNote: 'Drivs oberoende av Lapeso Oy i finska Lappland · senast granskad april 2026 · vi får en affiliateprovision på vissa bokningar, men det påverkar aldrig vilka resmål eller aktörer vi rekommenderar.',
+    affiliateNote: 'Drivs oberoende av LaPeso Oy i finska Lappland · senast granskad april 2026 · vi får en affiliateprovision på vissa bokningar, men det påverkar aldrig vilka resmål eller aktörer vi rekommenderar.',
   },
   map: {
     kicker: 'Kartan',
@@ -508,7 +508,7 @@ export const SV_OVERRIDES: DeepPartial<SectionCopy> = {
     h1: 'Redaktionell policy',
     lastUpdated: 'Senast uppdaterad: april 2026',
     sections: [
-      { h2: 'Vem skriver den här sidan', body: 'LaplandNature är en del av ekosystemet LaplandVibes och drivs oberoende av Lapeso Oy i finska Lappland. Innehållet skrivs och granskas från Finland året runt, med källor angivna vid varje påstående, inte genererat från ett skrivbord i ett annat land.' },
+      { h2: 'Vem skriver den här sidan', body: 'LaplandNature är en del av ekosystemet LaplandVibes och drivs oberoende av LaPeso Oy i finska Lappland. Innehållet skrivs och granskas från Finland året runt, med källor angivna vid varje påstående, inte genererat från ett skrivbord i ett annat land.' },
       { h2: 'Hur rekommendationer väljs', body: 'Ingångsbyar till parker, ledstarter och norrskensbyar rekommenderas utifrån data om mörk himmel, stugnätets täckning, vägåtkomst på vintern och fältbesök. Betalning i utbyte mot att komma med accepteras inte. Om en region eller aktör betalar oss direkt står det på sidan.' },
       { h2: 'Affiliateintäkter', body: 'Vissa länkar på den här sidan går via go.laplandvibes.com och ger en liten provision när du bokar, utan extra kostnad för dig. Affiliateintäkterna täcker drift och skrivtid. De avgör aldrig vilka resmål eller aktörer som visas, och de ändrar inte rekommendationerna på en sida.' },
       { h2: 'Rättelser', body: 'Om du hittar ett faktafel, distans, öppningsdatum, artstatus, vad som helst, skriv till info@laplandvibes.com. Rättelser görs snabbt och noteras på sidan.' },
@@ -594,15 +594,15 @@ export const SV_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   privacy: {
     metaTitle: 'Integritetspolicy, LaplandNature',
-    metaDescription: 'Hur Lapeso Oy (LaplandNature) behandlar personuppgifter: nyhetsbrevsanmälningar, analys och affiliatecookies. GDPR / ePrivacy-förenligt.',
+    metaDescription: 'Hur LaPeso Oy (LaplandNature) behandlar personuppgifter: nyhetsbrevsanmälningar, analys och affiliatecookies. GDPR / ePrivacy-förenligt.',
   },
   terms: {
     metaTitle: 'Användarvillkor, LaplandNature',
-    metaDescription: 'Villkor för användning av LaplandNature.com, innehållslicensiering och redaktionella standarder. Drivs av Lapeso Oy i Finland.',
+    metaDescription: 'Villkor för användning av LaplandNature.com, innehållslicensiering och redaktionella standarder. Drivs av LaPeso Oy i Finland.',
   },
   cookie: {
     metaTitle: 'Cookiepolicy, LaplandNature',
-    metaDescription: 'Vilka cookies LaplandNature.com använder, varför, och hur du hanterar dem. GDPR / ePrivacy-förenliga cookieförklaringar från Lapeso Oy.',
+    metaDescription: 'Vilka cookies LaplandNature.com använder, varför, och hur du hanterar dem. GDPR / ePrivacy-förenliga cookieförklaringar från LaPeso Oy.',
   },
   bearKuusamo: {
     metaTitle: 'Bear Kuusamo: etisk björnskådning i Finland',

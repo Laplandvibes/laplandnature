@@ -51,7 +51,7 @@ const W_JSONLD = {
   headline: 'Wildlife of Finnish Lapland: six iconic arctic species',
   description: 'Reindeer, brown bear, wolverine, arctic fox and more: the wildlife you can realistically encounter (or hope to glimpse) across Finnish Lapland\'s wilderness.',
   author: { '@type': 'Organization', name: 'LaplandNature editorial' },
-  publisher: { '@type': 'Organization', name: 'Lapeso Oy' },
+  publisher: { '@type': 'Organization', name: 'LaPeso Oy' },
   datePublished: '2026-04-27',
   dateModified: '2026-04-27',
   mainEntityOfPage: 'https://laplandnature.com/wildlife',

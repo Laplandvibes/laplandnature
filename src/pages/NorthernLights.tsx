@@ -17,7 +17,7 @@ const NL_JSONLD = {
   headline: 'Northern Lights in Finnish Lapland: where, when and how to see them',
   description: 'A practical guide to seeing the aurora borealis in Finnish Lapland: best viewing spots, season timing, and viewing tips from experienced local observers.',
   author: { '@type': 'Organization', name: 'LaplandNature editorial' },
-  publisher: { '@type': 'Organization', name: 'Lapeso Oy' },
+  publisher: { '@type': 'Organization', name: 'LaPeso Oy' },
   datePublished: '2026-04-27',
   dateModified: '2026-04-27',
   mainEntityOfPage: 'https://laplandnature.com/northern-lights',

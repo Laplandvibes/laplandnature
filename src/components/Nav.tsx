@@ -206,7 +206,7 @@ export default function Nav() {
               <ChevronDown aria-hidden="true" className={`pointer-events-none absolute right-2 top-1/2 -translate-y-1/2 w-3 h-3 ${opaque ? 'text-deep-night' : 'text-snow'}`} />
             </div>
             <button
-              className={`p-2 rounded-lg transition-colors ${opaque ? 'text-deep-night' : 'text-snow'}`}
+              className={`p-2.5 rounded-lg transition-colors ${opaque ? 'text-deep-night' : 'text-snow'}`}
               onClick={() => setOpen(!open)}
               aria-label="Toggle menu"
               aria-expanded={open}

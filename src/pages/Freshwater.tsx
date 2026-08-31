@@ -14,7 +14,7 @@ const FRESHWATER_JSONLD = {
   description:
     "Why clean cold water is Lapland's rarest asset: 188,000 lakes (SYKE), the unregulated Tornio-Muonio river system, aapa mires and the forests that keep the water cold.",
   author: { '@type': 'Organization', name: 'LaplandNature editorial' },
-  publisher: { '@type': 'Organization', name: 'Lapeso Oy' },
+  publisher: { '@type': 'Organization', name: 'LaPeso Oy' },
   datePublished: '2026-07-11',
   dateModified: '2026-07-11',
   mainEntityOfPage: 'https://laplandnature.com/freshwater',

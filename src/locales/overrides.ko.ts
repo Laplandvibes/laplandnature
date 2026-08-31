@@ -53,7 +53,7 @@ export const KO_OVERRIDES: DeepPartial<SectionCopy> = {
     body: '이 페이지에는 제휴 링크가 포함되어 있습니다. 이 링크를 통해 예약하시면 LaplandVibes가 추가 비용 없이 수수료를 받을 수 있습니다.',
   },
   footerCookie: {
-    affiliateNote: '핀란드 라플란드의 Lapeso Oy가 독립적으로 운영합니다 · 최종 검토 2026년 4월 · 일부 예약에서 제휴 수수료를 받지만, 그것이 우리가 추천하는 목적지나 운영자를 결정하는 일은 결코 없습니다.',
+    affiliateNote: '핀란드 라플란드의 LaPeso Oy가 독립적으로 운영합니다 · 최종 검토 2026년 4월 · 일부 예약에서 제휴 수수료를 받지만, 그것이 우리가 추천하는 목적지나 운영자를 결정하는 일은 결코 없습니다.',
   },
   map: {
     kicker: '지도',
@@ -527,7 +527,7 @@ export const KO_OVERRIDES: DeepPartial<SectionCopy> = {
     h1: '편집 방침',
     lastUpdated: '최종 업데이트: 2026년 4월',
     sections: [
-      { h2: '이 사이트를 쓰는 사람', body: 'LaplandNature는 LaplandVibes 생태계의 일부로, 핀란드 라플란드의 Lapeso Oy가 독립적으로 운영합니다. 콘텐츠는 1년 내내 핀란드 현지에서 작성·검토되며, 모든 주장에 출처를 명시합니다, 다른 나라의 책상에서 생성된 글이 아닙니다.' },
+      { h2: '이 사이트를 쓰는 사람', body: 'LaplandNature는 LaplandVibes 생태계의 일부로, 핀란드 라플란드의 LaPeso Oy가 독립적으로 운영합니다. 콘텐츠는 1년 내내 핀란드 현지에서 작성·검토되며, 모든 주장에 출처를 명시합니다, 다른 나라의 책상에서 생성된 글이 아닙니다.' },
       { h2: '추천이 선정되는 방식', body: '국립공원 입구, 트레일헤드, 오로라 마을은 어두운 하늘 데이터, 산장 네트워크 분포, 겨울철 도로 접근성, 현장 방문을 근거로 추천합니다. 게재 대가의 금전 지불은 받지 않습니다. 만약 어떤 지역이나 운영자가 직접 비용을 지불한 경우에는 해당 페이지에 그 사실을 명시합니다.' },
       { h2: '제휴 수익', body: '이 사이트의 일부 링크는 go.laplandvibes.com을 통해 전달되며, 여러분이 예약하실 때, 추가 비용 없이, 소액의 수수료를 받습니다. 제휴 수익은 호스팅과 작성 시간을 충당합니다. 어떤 목적지나 운영자가 소개될지를 결정하지 않으며, 한 페이지 안의 추천 내용을 바꾸지도 않습니다.' },
       { h2: '오류 정정', body: '거리, 개장일, 동식물 상태 등 사실 관계의 오류를 발견하시면 info@laplandvibes.com 으로 알려주세요. 정정은 신속히 반영되며 해당 페이지에 표시됩니다.' }
@@ -640,15 +640,15 @@ export const KO_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   privacy: {
     metaTitle: '개인정보처리방침, LaplandNature',
-    metaDescription: 'Lapeso Oy(LaplandNature)가 개인 데이터를 처리하는 방식, 뉴스레터 가입, 분석, 제휴 쿠키. GDPR/ePrivacy 준수.',
+    metaDescription: 'LaPeso Oy(LaplandNature)가 개인 데이터를 처리하는 방식, 뉴스레터 가입, 분석, 제휴 쿠키. GDPR/ePrivacy 준수.',
   },
   terms: {
     metaTitle: '이용 약관, LaplandNature',
-    metaDescription: 'LaplandNature.com 이용 약관, 콘텐츠 라이선스, 제휴 공개, 편집 기준. 핀란드 Lapeso Oy가 운영합니다.',
+    metaDescription: 'LaplandNature.com 이용 약관, 콘텐츠 라이선스, 제휴 공개, 편집 기준. 핀란드 LaPeso Oy가 운영합니다.',
   },
   cookie: {
     metaTitle: '쿠키 정책, LaplandNature',
-    metaDescription: 'LaplandNature.com이 사용하는 쿠키와 그 이유, 관리 방법. GDPR/ePrivacy를 준수하는 Lapeso Oy의 쿠키 공개입니다.',
+    metaDescription: 'LaplandNature.com이 사용하는 쿠키와 그 이유, 관리 방법. GDPR/ePrivacy를 준수하는 LaPeso Oy의 쿠키 공개입니다.',
   },
   bearKuusamo: {
     metaTitle: 'Bear Kuusamo: 핀란드의 윤리적인 곰 관찰 | LaplandNature',

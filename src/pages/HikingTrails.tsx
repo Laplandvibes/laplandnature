@@ -53,7 +53,7 @@ const HIKING_JSONLD = {
   headline: 'Six hiking trails in and around Finnish Lapland: from 5 km to 82 km',
   description: 'Karhunkierros, Hetta–Pallas, Halti and three more: the trails worth planning a Lapland trip around, with distance, duration and difficulty for each.',
   author: { '@type': 'Organization', name: 'LaplandNature editorial' },
-  publisher: { '@type': 'Organization', name: 'Lapeso Oy' },
+  publisher: { '@type': 'Organization', name: 'LaPeso Oy' },
   datePublished: '2026-04-27',
   dateModified: '2026-04-27',
   mainEntityOfPage: 'https://laplandnature.com/hiking-trails',

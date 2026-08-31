@@ -19,7 +19,7 @@ const PARKS_JSONLD = {
   headline: 'Five National Parks in Finnish Lapland: a hiker\'s overview',
   description: 'Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi and Pyhä-Luosto: what makes each Lapland national park distinctive, with gateway villages and best season.',
   author: { '@type': 'Organization', name: 'LaplandNature editorial' },
-  publisher: { '@type': 'Organization', name: 'Lapeso Oy' },
+  publisher: { '@type': 'Organization', name: 'LaPeso Oy' },
   datePublished: '2026-04-27',
   dateModified: '2026-04-27',
   mainEntityOfPage: 'https://laplandnature.com/national-parks',

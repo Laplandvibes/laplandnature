@@ -53,7 +53,7 @@ export const FR_OVERRIDES: DeepPartial<SectionCopy> = {
     body: 'Cette page contient des liens d\'affiliation. Si vous réservez via ces liens, LaplandVibes peut percevoir une commission sans frais supplémentaires pour vous.',
   },
   footerCookie: {
-    affiliateNote: 'Édité en toute indépendance par Lapeso Oy en Laponie finlandaise · dernière révision avril 2026 · nous percevons une commission d\'affiliation sur certaines réservations, sans que cela influence jamais les destinations ou opérateurs que nous recommandons.',
+    affiliateNote: 'Édité en toute indépendance par LaPeso Oy en Laponie finlandaise · dernière révision avril 2026 · nous percevons une commission d\'affiliation sur certaines réservations, sans que cela influence jamais les destinations ou opérateurs que nous recommandons.',
   },
   map: {
     kicker: 'La carte',
@@ -527,7 +527,7 @@ export const FR_OVERRIDES: DeepPartial<SectionCopy> = {
     h1: 'Politique éditoriale',
     lastUpdated: 'Dernière mise à jour : avril 2026',
     sections: [
-      { h2: 'Qui écrit ce site', body: 'LaplandNature fait partie de l\'écosystème LaplandVibes, maintenu de façon indépendante par Lapeso Oy en Laponie finlandaise. Les contenus sont rédigés et relus depuis la Finlande toute l\'année, avec des sources citées sur chaque affirmation, pas générés depuis un bureau dans un autre pays.' },
+      { h2: 'Qui écrit ce site', body: 'LaplandNature fait partie de l\'écosystème LaplandVibes, maintenu de façon indépendante par LaPeso Oy en Laponie finlandaise. Les contenus sont rédigés et relus depuis la Finlande toute l\'année, avec des sources citées sur chaque affirmation, pas générés depuis un bureau dans un autre pays.' },
       { h2: 'Comment les recommandations sont choisies', body: 'Villages-portes des parcs, départs de sentiers et villages d\'observation de l\'aurore sont recommandés sur la base de données de ciel noir, de la couverture du réseau de refuges, de l\'accès routier en hiver et de visites sur le terrain. Aucun paiement en échange d\'une inclusion n\'est accepté. Si une région ou un opérateur nous paie directement, la page le mentionne.' },
       { h2: 'Revenus d\'affiliation', body: 'Certains liens de ce site passent par go.laplandvibes.com et nous versent une petite commission lorsque vous réservez, sans surcoût pour vous. Les revenus d\'affiliation couvrent l\'hébergement et le temps de rédaction. Ils ne décident jamais des destinations ou opérateurs présentés, et ne modifient pas les recommandations d\'une page.' },
       { h2: 'Corrections', body: 'Si vous repérez une erreur factuelle, distance, dates d\'ouverture, statut faunique, quoi que ce soit, écrivez à info@laplandvibes.com. Les corrections sont apportées rapidement et signalées sur la page.' }
@@ -640,15 +640,15 @@ export const FR_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   privacy: {
     metaTitle: 'Politique de confidentialité, LaplandNature',
-    metaDescription: 'Comment Lapeso Oy (LaplandNature) traite les données personnelles : inscriptions à la newsletter, analytics et cookies d’affiliation. Conforme RGPD.',
+    metaDescription: 'Comment LaPeso Oy (LaplandNature) traite les données personnelles : inscriptions à la newsletter, analytics et cookies d’affiliation. Conforme RGPD.',
   },
   terms: {
     metaTitle: 'Conditions d\'utilisation, LaplandNature',
-    metaDescription: 'Conditions régissant l\'utilisation de LaplandNature.com, licences de contenu, affiliation et standards éditoriaux. Exploité par Lapeso Oy en Finlande.',
+    metaDescription: 'Conditions régissant l\'utilisation de LaplandNature.com, licences de contenu, affiliation et standards éditoriaux. Exploité par LaPeso Oy en Finlande.',
   },
   cookie: {
     metaTitle: 'Politique des cookies, LaplandNature',
-    metaDescription: 'Quels cookies LaplandNature.com utilise, pourquoi et comment les gérer. Divulgations de cookies conformes RGPD / ePrivacy par Lapeso Oy.',
+    metaDescription: 'Quels cookies LaplandNature.com utilise, pourquoi et comment les gérer. Divulgations de cookies conformes RGPD / ePrivacy par LaPeso Oy.',
   },
   bearKuusamo: {
     metaTitle: 'Bear Kuusamo : observation éthique des ours | LaplandNature',

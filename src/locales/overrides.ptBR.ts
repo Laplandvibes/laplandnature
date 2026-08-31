@@ -53,7 +53,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
     body: 'Esta página contém links de afiliados. Se você reservar por eles, a LaplandVibes pode receber uma comissão sem custo adicional para você.',
   },
   footerCookie: {
-    affiliateNote: 'Mantido de forma independente pela Lapeso Oy na Lapônia finlandesa · última revisão em abril de 2026 · recebemos uma comissão de afiliação em algumas reservas, mas isso nunca determina quais destinos ou operadores recomendamos.',
+    affiliateNote: 'Mantido de forma independente pela LaPeso Oy na Lapônia finlandesa · última revisão em abril de 2026 · recebemos uma comissão de afiliação em algumas reservas, mas isso nunca determina quais destinos ou operadores recomendamos.',
   },
   map: {
     kicker: 'O mapa',
@@ -562,7 +562,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
     h1: 'Política editorial',
     lastUpdated: 'Última atualização: abril de 2026',
     sections: [
-      { h2: 'Quem escreve este site', body: 'A LaplandNature faz parte do ecossistema LaplandVibes, mantida de forma independente pela Lapeso Oy na Lapônia finlandesa. O conteúdo é escrito e revisado a partir da Finlândia o ano todo, com fontes citadas em cada afirmação, não gerado de uma mesa em outro país.' },
+      { h2: 'Quem escreve este site', body: 'A LaplandNature faz parte do ecossistema LaplandVibes, mantida de forma independente pela LaPeso Oy na Lapônia finlandesa. O conteúdo é escrito e revisado a partir da Finlândia o ano todo, com fontes citadas em cada afirmação, não gerado de uma mesa em outro país.' },
       { h2: 'Como as recomendações são escolhidas', body: 'Vilarejos-porta dos parques, pontos de partida de trilhas e vilarejos de observação de aurora são recomendados com base em dados de céu escuro, cobertura da rede de refúgios, acesso rodoviário no inverno e visitas de campo. Não se aceita pagamento em troca de inclusão. Se uma região ou operador nos paga diretamente, a página informa.' },
       { h2: 'Receita de afiliação', body: 'Alguns links deste site passam por go.laplandvibes.com e geram uma pequena comissão quando você reserva, sem custo adicional para você. A receita de afiliação cobre a hospedagem e o tempo de escrita. Nunca decide quais destinos ou operadores aparecem nem muda as recomendações de uma página.' },
       { h2: 'Correções', body: 'Se encontrar um erro factual, distância, datas de abertura, status de uma espécie, o que for, escreva para info@laplandvibes.com. As correções são feitas com rapidez e anotadas na página.' }
@@ -675,15 +675,15 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   privacy: {
     metaTitle: 'Política de privacidade, LaplandNature',
-    metaDescription: 'Como a Lapeso Oy (LaplandNature) trata os dados pessoais: inscrições na newsletter, analytics e cookies de afiliação. Em conformidade com GDPR / ePrivacy.',
+    metaDescription: 'Como a LaPeso Oy (LaplandNature) trata os dados pessoais: inscrições na newsletter, analytics e cookies de afiliação. Em conformidade com GDPR / ePrivacy.',
   },
   terms: {
     metaTitle: 'Termos de uso, LaplandNature',
-    metaDescription: 'Termos que regem o uso de LaplandNature.com, licenças de conteúdo, divulgações de afiliação e padrões editoriais. Operado pela Lapeso Oy na Finlândia.',
+    metaDescription: 'Termos que regem o uso de LaplandNature.com, licenças de conteúdo, divulgações de afiliação e padrões editoriais. Operado pela LaPeso Oy na Finlândia.',
   },
   cookie: {
     metaTitle: 'Política de cookies, LaplandNature',
-    metaDescription: 'Quais cookies a LaplandNature.com usa, por quê e como gerenciá-los. Divulgações de cookies em conformidade com GDPR / ePrivacy da Lapeso Oy.',
+    metaDescription: 'Quais cookies a LaplandNature.com usa, por quê e como gerenciá-los. Divulgações de cookies em conformidade com GDPR / ePrivacy da LaPeso Oy.',
   },
   bearKuusamo: {
     metaTitle: 'Bear Kuusamo: observação ética de ursos | LaplandNature',

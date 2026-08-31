@@ -8,11 +8,15 @@ import { useLang, useLocalePath } from '../i18n/useLang'
 import { COPY } from '../locales/copy'
 import FaqLinks, { type FaqNavKey } from '../components/FaqLinks'
 
+// `image` is index-aligned with copy.seasons.seasons: ruska, kaamos, midnight
+// sun, spring. The four files had been sitting unused in public/images/ since
+// the site was built — the most visual topic on the site was the only pillar
+// with no photography below the hero.
 const SEASON_VISUAL = [
-  { icon: Leaf, gradient: 'from-orange-500 to-red-600', bg: 'bg-orange-500/8', accent: 'text-orange-600' },
-  { icon: Moon, gradient: 'from-indigo-600 to-purple-800', bg: 'bg-indigo-500/8', accent: 'text-indigo-600' },
-  { icon: Sun, gradient: 'from-amber-400 to-yellow-500', bg: 'bg-amber-400/8', accent: 'text-amber-600' },
-  { icon: Flower2, gradient: 'from-emerald-400 to-cyan-500', bg: 'bg-emerald-400/8', accent: 'text-emerald-600' },
+  { icon: Leaf, image: 'season-ruska', gradient: 'from-orange-500 to-red-600', bg: 'bg-orange-500/8', accent: 'text-orange-600' },
+  { icon: Moon, image: 'season-kaamos', gradient: 'from-indigo-600 to-purple-800', bg: 'bg-indigo-500/8', accent: 'text-indigo-600' },
+  { icon: Sun, image: 'season-midnight-sun', gradient: 'from-amber-400 to-yellow-500', bg: 'bg-amber-400/8', accent: 'text-amber-600' },
+  { icon: Flower2, image: 'season-spring', gradient: 'from-emerald-400 to-cyan-500', bg: 'bg-emerald-400/8', accent: 'text-emerald-600' },
 ]
 
 const SEASONS_JSONLD = {
@@ -21,7 +25,7 @@ const SEASONS_JSONLD = {
   headline: 'Four seasons of Finnish Lapland: ruska, kaamos, midnight sun, spring',
   description: 'Each season above the Arctic Circle is a distinct world: ruska autumn colour, kaamos polar night, midnight sun summer, and spring snow.',
   author: { '@type': 'Organization', name: 'LaplandNature editorial' },
-  publisher: { '@type': 'Organization', name: 'Lapeso Oy' },
+  publisher: { '@type': 'Organization', name: 'LaPeso Oy' },
   datePublished: '2026-04-27',
   dateModified: '2026-04-27',
   mainEntityOfPage: 'https://laplandnature.com/seasons',
@@ -78,6 +82,24 @@ export default function Seasons() {
                 key={season.name}
                 className="rounded-2xl border border-deep-night/10 bg-snow overflow-hidden hover:shadow-lg transition-shadow"
               >
+                {/* Decorative: the card's own h2 names the season, so a
+                    translated alt would only repeat it (see the alt rule in
+                    the image-audit notes). */}
+                <div className="aspect-[16/9] overflow-hidden bg-deep-night/5">
+                  <picture>
+                    <source type="image/avif" srcSet={`/images/${v.image}.avif`} />
+                    <img
+                      src={`/images/${v.image}.webp`}
+                      alt=""
+                      aria-hidden="true"
+                      loading={i < 2 ? 'eager' : 'lazy'}
+                      decoding="async"
+                      className="w-full h-full object-cover"
+                      width={1280}
+                      height={720}
+                    />
+                  </picture>
+                </div>
                 <div className={`h-2 bg-gradient-to-r ${v.gradient}`} />
                 <div className="p-7 sm:p-8">
                   <div className="flex items-center gap-4 mb-5">
