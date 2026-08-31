@@ -20,7 +20,7 @@ export const FR_OVERRIDES: DeepPartial<SectionCopy> = {
     h2Line2: 'quand il y a quelque chose à raconter.',
     lead: 'Un court e-mail quand l\'aurore s\'allume, quand les lacs gèlent, quand les rennes montent en altitude. Sélection éditoriale, écrite depuis la Finlande, seulement quand ça vaut la peine.',
     benefits: [
-      { title: 'Quand l\'aurore est vraiment au rendez-vous', body: 'FMI Auroras-now et prévisions de couverture nuageuse chaque nuit claire de septembre à début avril. Nous prévenons quand le KP et le ciel s\'alignent, pour la nuit, pas pour le calendrier marketing.' },
+      { title: 'Quand l\'aurore est vraiment au rendez-vous', body: 'Auroras-now de l\'institut météo finlandais (FMI) et prévisions de couverture nuageuse chaque nuit claire de septembre à début avril. Nous prévenons quand le KP et le ciel s\'alignent, pour la nuit, pas pour le calendrier marketing.' },
       { title: 'Quand les sentiers en valent la peine', body: 'Prévisions du pic de ruska. Jours d\'ouverture des réservations de refuges. Conditions de neige de printemps. Depuis la semaine où nous avons marché, pas depuis un communiqué.' },
       { title: 'Quand la faune se montre', body: 'Réouverture des affûts à ours mi-mai. Rassemblements de rennes en automne. Observations de renards polaires qui ne font pas la une. Transmises au fil de nos informations.' },
       { title: 'Où nous irions ce week-end', body: 'Le coin de ciel noir qui mérite le détour. La rivière avant l\'affluence des orpailleurs. Le fjell que nos voisins sami viennent de photographier.' },
@@ -187,7 +187,7 @@ export const FR_OVERRIDES: DeepPartial<SectionCopy> = {
     oneNightH2: 'À quoi ressemble vraiment une nuit d\'aurore',
     oneNightLead: 'Les prévisions vous diront « bonnes chances ce soir ». Elles ne vous diront pas que vous attendrez trois heures que le ciel se dégage, que le premier spectacle sera une bande verte plate que vous manquerez presque, et que le second, à 01h48, déchirera tout le dôme arctique. Voici comment se déroule une nuit représentative.',
     oneNightSteps: [
-      { time: '19h30', title: 'Vérification des prévisions FMI', body: 'Auroras-now : prévision KP 4–5. NOAA OVATION montre l\'ovale auroral déjà au contact de Tromsø. Prévision de ciel à Inari : 60 % dégagé après minuit. Décision : on part.' },
+      { time: '19h30', title: 'Vérification des prévisions de l\'institut météo (FMI)', body: 'Auroras-now : prévision KP 4–5. NOAA OVATION montre l\'ovale auroral déjà au contact de Tromsø. Prévision de ciel à Inari : 60 % dégagé après minuit. Décision : on part.' },
       { time: '21h00', title: 'Trajet 8 km à l\'ouest du village d\'Inari', body: 'La pollution lumineuse chute vite dès la sortie du village. Nous choisissons une petite clairière au bord d\'un lac sur la route de Kaamanen, horizon dégagé au nord et à l\'est. −18 °C, calme.' },
       { time: '22h40', title: 'Première bande, presque manquée', body: 'Faible arc vert sur l\'horizon nord. Facile à prendre pour un reflet de nuage. L\'appareil (15 s, ISO 1600, f/2.8) l\'a montré nettement, le seuil de perception à l\'œil nu se situe sous ce que votre téléphone enregistre. C\'est normal. Patientez.' },
       { time: '00h15', title: 'Les nuages se lèvent. 40 minutes de calme.', body: 'Étoiles nettes. L\'aurore recule. C\'est le moment où la plupart des visiteurs en voiture abandonnent et rentrent. Surtout pas. La phase active suit souvent l\'accalmie. Boisson chaude. Patience.' },
@@ -195,7 +195,7 @@ export const FR_OVERRIDES: DeepPartial<SectionCopy> = {
       { time: '02h30', title: 'Retour. Sauna chaud.', body: 'Temps d\'aurore active total : environ 25 minutes en deux poussées. Attente totale : 4 heures. Impossible à compresser. Rentrer sans sauna ensuite serait une erreur.' }
     ],
     cards: [
-      { title: 'Outils de prévision', body: 'FMI Auroras-now (KP), NOAA OVATION (ovale), windy.com (couverture nuageuse), ouvrez les trois.' },
+      { title: 'Outils de prévision', body: 'Auroras-now de l\'institut météo finlandais (KP), NOAA OVATION (ovale), windy.com (couverture nuageuse), ouvrez les trois.' },
       { title: 'Réglages de base', body: '15 s · ISO 1600 · f/2.8 · mise au point manuelle sur une lumière lointaine. Trépied obligatoire.' },
       { title: 'Ce qui gâche la nuit', body: 'Pleine lune (délave les couleurs). Nuages au-dessus de 1500 m. Refroidissement éolien sous −25 °C sans équipement adapté.' },
     ],
@@ -495,7 +495,7 @@ export const FR_OVERRIDES: DeepPartial<SectionCopy> = {
     responsibilityH2: 'Quatre choses à savoir avant de partir',
     principles: [
       { title: 'Droit d\'accès à la nature', body: 'Le jokamiehenoikeudet finlandais autorise chacun à marcher, skier, nager, cueillir baies et champignons, et bivouaquer brièvement sur les terres forestières, même privées, sans permission. En contrepartie, la responsabilité : ne laisser aucune trace, respecter habitations et cultures, allumer un feu uniquement aux emplacements balisés.' },
-      { title: 'Les restrictions de feu sont saisonnières', body: 'Lors des sécheresses estivales, le FMI publie un metsäpalovaroitus / avertissement de feu de forêt. Quand il est en vigueur, allumer tout feu à ciel ouvert y compris les foyers balisés, est interdit. Vérifiez toujours avant de quitter une route.' },
+      { title: 'Les restrictions de feu sont saisonnières', body: 'Lors des sécheresses estivales, l\'institut météorologique finlandais (FMI) publie un metsäpalovaroitus / avertissement de feu de forêt. Quand il est en vigueur, allumer tout feu à ciel ouvert y compris les foyers balisés, est interdit. Vérifiez toujours avant de quitter une route.' },
       { title: 'Remportez tout', body: 'Les refuges sauvages (autiotupa) fonctionnent à la confiance : laissez-les plus propres que vous ne les avez trouvés, remplacez le bois, signez le livre d\'or. Les déchets en terrain reculé s\'accumulent, il n\'y a pas de ramassage.' },
       { title: 'Les rennes ont la priorité', body: 'Environ 200 000 rennes semi-domestiqués parcourent la Laponie, ils ne sont pas sauvages, ils ont des propriétaires. Sur la route, ralentissez ; dans les fjells, laissez-leur de l\'espace. Près des clôtures (poroaita), refermez les portes derrière vous.' }
     ],
