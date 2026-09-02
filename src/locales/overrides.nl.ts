@@ -69,7 +69,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
       { name: 'NP Lemmenjoki', note: 'Grootste wegloze wildernis van Europa · goud wassen · Inari' },
       { name: 'NP Riisitunturi', note: 'Met tykky-sneeuw bekroonde bomen · toegang: Posio' },
       { name: 'NP Pyhä-Luosto', note: '400 jaar oude sparren · amethistmijn' },
-      { name: 'Inari', note: 'Sámi-hartland · Bortle 2 · open horizon over het meer' },
+      { name: 'Inari', note: 'Sami-hartland · Bortle 2 · open horizon over het meer' },
       { name: 'Utsjoki', note: '4 van de 5 heldere nachten tonen noorderlicht op het hoogtepunt · kaamos van 51 dagen' },
       { name: 'Kilpisjärvi', note: 'Drielandenpunt · hooggelegen fjälls' },
       { name: 'Enontekiö', note: 'Een van de donkerste hemels van Europa (Bortle 1)' },
@@ -79,12 +79,12 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
       { name: 'Pyhä', note: 'Pyhäkuru-kloof · toegankelijk vlonderpad · 5 km' },
       { name: 'Berenhutten van Kuusamo', note: 'Hutten voor de bruine beer · één nacht ~90 %, twee nachten 99 % · mei–september · net ten zuiden van Lapland' },
       { name: 'Wildernis van Nellim', note: 'Wildernislodge Nellim · leefgebied van veelvraat en bruine beer' },
-      { name: 'Rendieren van Kaamanen', note: 'Sámi-rendierbijeenkomst · herfst (paliskunta)' },
+      { name: 'Rendieren van Kaamanen', note: 'Sami-rendierbijeenkomst · herfst (paliskunta)' },
     ],
   },
   home: {
     metaTitle: 'Natuur van Lapland: parken en noorderlicht | LaplandNature',
-    metaDescription: 'De Arctische natuur van Fins Lapland, zeven nationale parken, meer dan 200 nachten noorderlicht per jaar, kaamos (poolnacht) en wandelpaden van 5 tot 82 km.',
+    metaDescription: 'De arctische natuur van Fins Lapland, zeven nationale parken, meer dan 200 nachten noorderlicht per jaar, kaamos (poolnacht) en wandelpaden van 5 tot 82 km.',
     hero: {
       alt: 'Besneeuwde arctische wildernis en fjälls in Fins Lapland',
       eyebrow: 'Boven de poolcirkel',
@@ -113,7 +113,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
       items: [
         { tag: 'Beschermde gebieden', title: 'Nationale parken', blurb: 'Lapland heeft zeven nationale parken (samen ongeveer 6.900 km²); vijf daarvan lichten wij uit, van de fjälls van Urho Kekkonen tot de met sneeuw gekroonde bomen van Riisitunturi.', cta: 'Ontdek de nationale parken' },
         { tag: 'Wilde dieren', title: 'Wildlife-observatie', blurb: 'Spoor de bruine beer op vanuit nachtelijke hutten: één nacht ligt rond de 90 %, twee nachten op 99 %. Halfwilde rendierkuddes en een glimp van de veelvraat.', cta: 'Ontdek de wilde dieren' },
-        { tag: 'Noorderlicht', title: 'Noorderlicht', blurb: 'Jaag op het noorderlicht in de Arctische hemel van september tot april. Utsjoki levert noorderlicht in 4 van de 5 heldere nachten.', cta: 'Ontdek het noorderlicht' },
+        { tag: 'Noorderlicht', title: 'Noorderlicht', blurb: 'Jaag op het noorderlicht in de arctische hemel van september tot april. Utsjoki levert noorderlicht in 4 van de 5 heldere nachten.', cta: 'Ontdek het noorderlicht' },
         { tag: 'Paden', title: 'Wandelen', blurb: 'Loop de iconische paden van Finland, van de hangbruggen van de Karhunkierros (82 km) tot het hoogste punt van Finland op de Halti (1.324 m).', cta: 'Ontdek het wandelen' },
         { tag: 'Beheer', title: 'Natuurbehoud', blurb: 'Metsähallitus beheert 85 % van de fjälls in Lapland en alle zeven nationale parken. Plus het Finse natuurrecht, vrije toegang tot de natuur.', cta: 'Ontdek het natuurbehoud' },
         { tag: 'Zomer', title: 'Middernachtzon', blurb: 'Boven de poolcirkel gaat de zon in hartje zomer niet onder. In Utsjoki blijft de middernachtzon meer dan 70 dagen achtereen schijnen.', cta: 'Ontdek de seizoenen' },
@@ -185,9 +185,9 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
     ],
     oneNightKicker: 'Eén nacht · Inari · 2 maart 2024',
     oneNightH2: 'Hoe een echte noorderlichtnacht eruitziet',
-    oneNightLead: 'Voorspellingen zeggen u «goede kans vanavond». Ze zeggen niet dat u drie uur wacht tot de hemel opklaart, dat de eerste show een vlakke groene band is die u bijna mist, en dat de tweede, om 01:48, over de hele Arctische koepel scheurt. Zo verloopt een representatieve nacht.',
+    oneNightLead: 'Voorspellingen zeggen u «goede kans vanavond». Ze zeggen niet dat u drie uur wacht tot de hemel opklaart, dat de eerste show een vlakke groene band is die u bijna mist, en dat de tweede, om 01:48, over de hele arctische koepel scheurt. Zo verloopt een representatieve nacht.',
     oneNightSteps: [
-      { time: '19:30', title: 'FMI-voorspelling controleren', body: 'Auroras-now: voorspelling KP 4–5. NOAA OVATION toont de aurora-ovaal die Tromsø al raakt. Hemelvoorspelling voor Inari: 60 % helder na middernacht. Beslissing: erop uit.' },
+      { time: '19:30', title: 'FMI-voorspelling controleren', body: 'Auroras-now: voorspelling KP 4–5. NOAA OVATION toont de noorderlichtovaal die Tromsø al raakt. Hemelvoorspelling voor Inari: 60 % helder na middernacht. Beslissing: erop uit.' },
       { time: '21:00', title: 'Rit 8 km westelijk van het dorp Inari', body: 'Buiten het dorp neemt de lichtvervuiling snel af. Wij kiezen een kleine open plek aan een meer langs de weg naar Kaamanen, open horizon naar het noorden en het oosten. −18 °C, windstil.' },
       { time: '22:40', title: 'Eerste band, bijna gemist', body: 'Vage groene boog boven de noordelijke horizon. Makkelijk aan te zien voor wolkenreflectie. De camera (15 s, ISO 1600, f/2.8) toonde hem duidelijk, de grens van het blote oog ligt onder wat uw telefoon vastlegt. Dit is normaal. Wachten.' },
       { time: '00:15', title: 'Bewolking trekt op. 40 stille minuten.', body: 'Sterren scherp. De aurora trekt zich terug. Dit is het moment waarop de meeste autobezoekers het opgeven en terugrijden. Niet doen. De actieve fase volgt vaak op de stilte. Warme drank. Geduld.' },
@@ -211,7 +211,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
       eyebrow: 'Veelgestelde vragen',
       h2: 'Noorderlicht in Lapland, veelgestelde vragen',
       items: [
-        { q: 'Welke Kp-index heb ik nodig om het noorderlicht in Lapland te zien?', a: 'Fins Lapland ligt onder de aurora-ovaal, dus u heeft geen hoge Kp nodig. Vanuit Inari, Utsjoki of Kilpisjärvi volstaat een Kp van 1–2 vaak al voor een zichtbare boog op een heldere, donkere nacht; Kp 3–4 brengt actieve, bewegende gordijnen. Verder naar het zuiden, rond Rovaniemi, wilt u doorgaans Kp 3 of hoger. Een heldere hemel en een open noordelijke horizon tellen veel zwaarder dan het najagen van een hoog getal.' },
+        { q: 'Welke Kp-index heb ik nodig om het noorderlicht in Lapland te zien?', a: 'Fins Lapland ligt onder de noorderlichtovaal, dus u heeft geen hoge Kp nodig. Vanuit Inari, Utsjoki of Kilpisjärvi volstaat een Kp van 1–2 vaak al voor een zichtbare boog op een heldere, donkere nacht; Kp 3–4 brengt actieve, bewegende gordijnen. Verder naar het zuiden, rond Rovaniemi, wilt u doorgaans Kp 3 of hoger. Een heldere hemel en een open noordelijke horizon tellen veel zwaarder dan het najagen van een hoog getal.' },
         { q: 'In welke maand is het noorderlicht in Lapland het sterkst?', a: 'Maart is de sterkste afzonderlijke maand: de hemel is donker genoeg, de nachten zijn nog lang en de geomagnetische activiteit piekt meestal rond de lente-equinox. September is het andere ideale moment, mildere temperaturen en open water dat het noorderlicht weerspiegelt voordat de meren bevriezen. Het volledige seizoen loopt van eind augustus tot begin april.' },
         { q: 'Kunt u het noorderlicht vanuit Rovaniemi zien?', a: 'Ja, op heldere nachten met voldoende activiteit, maar Rovaniemi heeft meer lichtvervuiling en ligt zuidelijker dan de beste plekken. Rijd 10–20 km de stad uit naar een meeroever of een open veld en uw kansen stijgen sterk. Voor de hoogste trefkans verblijft u noordelijker in Inari, Saariselkä of Utsjoki.' },
         { q: 'Op welk tijdstip van de nacht is het noorderlicht het actiefst?', a: 'Het venster tussen ongeveer 21.00 en 2.00 uur lokale tijd is het betrouwbaarst, met de activiteit die vaak piekt rond magnetische middernacht (in Finland dicht bij 23.00–1.00 uur). Substormen kunnen op elk moment losbarsten, dus het loont om tijdens een rustige periode buiten te blijven, de actieve fase volgt vaak op een windstilte.' },
@@ -268,7 +268,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
       h2: 'Nationale parken van Lapland, veelgestelde vragen',
       items: [
         { q: 'Hoeveel nationale parken zijn er in Lapland?', a: 'De regio Lapland telt zeven nationale parken: Lemmenjoki, Urho Kekkonen, Pallas-Yllästunturi, Perämeri (Botnische Golf), Pyhä-Luosto, Salla en Riisitunturi, samen ongeveer 6.900 km². Daarnaast lopen Oulanka en Syöte deels door in Lapland. Vijf daarvan beschrijven wij uitgebreid: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi en Pyhä-Luosto. Elk park heeft zijn eigen toegangsdorp om vanuit te vertrekken, van Saariselkä voor Urho Kekkonen tot Hetta en Muonio voor Pallas-Yllästunturi.' },
-        { q: 'Welk is het grootste nationale park van Fins Lapland?', a: 'Het nationale park Urho Kekkonen is met ongeveer 2.550 km² het grootste van Lapland en het op een na grootste van heel Finland. Het strekt zich uit van de fjälls van Saariselkä oostwaarts tot in diepe, wegloze wildernis, met open fjälls, rivierkloven en oud dennenbos.' },
+        { q: 'Wat is het grootste nationale park van Fins Lapland?', a: 'Het nationale park Urho Kekkonen is met ongeveer 2.550 km² het grootste van Lapland en het op een na grootste van heel Finland. Het strekt zich uit van de fjälls van Saariselkä oostwaarts tot in diepe, wegloze wildernis, met open fjälls, rivierkloven en oud dennenbos.' },
         { q: 'Heeft u een vergunning of toegangsgeld nodig voor de nationale parken van Lapland?', a: 'Nee. De nationale parken van Finland zijn gratis toegankelijk en er is geen vergunning nodig voor gewone wandelingen, dagbezoeken of overnachten in open wildernishutten. Sommige reserveringshutten en sauna\'s vragen een kleine bijdrage, en begeleide activiteiten of goud wassen bij Lemmenjoki kennen hun eigen kosten, maar het lopen van de paden kost niets.' },
         { q: 'Wanneer kunt u de parken het best bezoeken?', a: 'Begin tot half september voor de herfstkleuren van de ruska, juni en juli voor de middernachtzon en lange wandeldagen, en februari tot maart voor met sneeuw gekroonde bomen en toertochten op ski\'s, Riisitunturi is op zijn indrukwekkendst onder zware tykky in de late winter. Zomerhutten en veerdiensten varen doorgaans van begin juni tot eind september.' },
         { q: 'Waar kunt u goud wassen in een nationaal park van Lapland?', a: 'Het nationale park Lemmenjoki is het hart van het goudwassen in Finland. Het rivierdal heeft een levend goudkoorts-erfgoed, met gemarkeerde wasplekken en vergunde claims langs de rivier de Lemmenjoki. In de zomer vaart een bootdienst een eind stroomopwaarts, waardoor de wasgebieden op een dagtocht bereikbaar zijn.' },
@@ -277,7 +277,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   wildlife: {
     metaTitle: 'Wilde dieren in Lapland: rendieren, beren | LaplandNature',
-    metaDescription: 'Zes iconische Arctische soorten in Fins Lapland, van 200.000 halfgedomesticeerde rendieren tot de ernstig bedreigde poolvos en de schuwe veelvraat.',
+    metaDescription: 'Zes iconische arctische soorten in Fins Lapland, van 200.000 halfgedomesticeerde rendieren tot de ernstig bedreigde poolvos en de schuwe veelvraat.',
     hero: {
       alt: 'Een bruine beer in het boreale bos van Fins Lapland',
       eyebrow: 'Pijlergids',
@@ -341,7 +341,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
       items: [
         { q: 'Wanneer kunt u bruine beren zien in Fins Lapland?', a: 'Het bekijken van bruine beren loopt van eind april tot begin september, met nachtelijke fotohutten geconcentreerd rond Kuusamo, Suomussalmi en Lieksa in het oosten van Finland, ten zuiden van Lapland zelf. Eind mei en begin juni zijn het best voor moeders met jongen; juli brengt betrouwbaar eenzame mannetjes en aangenaam weer; september voegt de kans toe op overstekende wolven en herfstlicht.' },
         { q: 'Hoe groot is de kans dat ik echt een beer zie vanuit een hut?', a: 'Groot, als u blijft overnachten. Met één nacht in een hut tijdens het seizoen ligt de waarnemingskans rond de 90%, en twee opeenvolgende nachten brengen die boven de 99%. De hutten staan bij vaste voederplekken waar dezelfde individuele beren jaar na jaar terugkeren.' },
-        { q: 'Hoeveel rendieren zijn er in Lapland, en zijn ze wild?', a: 'Ongeveer 200.000 halfgedomesticeerde rendieren trekken door Fins Lapland. Ze zijn niet wild, elk dier is in eigendom en geoormerkt binnen een herderscoöperatie, al duizenden jaren centraal in de Sámi-cultuur. Ze grazen vrij over de fjälls en door de bossen, dus u komt ze geregeld langs de weg tegen.' },
+        { q: 'Hoeveel rendieren zijn er in Lapland, en zijn ze wild?', a: 'Ongeveer 200.000 halfgedomesticeerde rendieren trekken door Fins Lapland. Ze zijn niet wild, elk dier is in eigendom en geoormerkt binnen een herderscoöperatie, al duizenden jaren centraal in de Sami-cultuur. Ze grazen vrij over de fjälls en door de bossen, dus u komt ze geregeld langs de weg tegen.' },
         { q: 'Wat is het zeldzaamste dier in Lapland?', a: 'De poolvos is het zeldzaamst, in de Fennoscandische populatie aangemerkt als ernstig bedreigd en alleen overlevend in de ruwste hooggelegen fjäll-omgeving. De veelvraat is het lastigst te zien, enorm sterk en zwervend over reusachtige territoria, is hij in de hele wildernis aanwezig maar zelden waar te nemen.' },
         { q: 'Hoeveel kost een berenkijkhut?', a: 'Reken op ongeveer € 280–450 per persoon voor één nacht, doorgaans inclusief vervoer vanaf het verzamelpunt, avondeten, een slaapplaats in de hut en een gids. Weekenden in juli zijn maanden van tevoren volgeboekt, dus reserveer zes maanden of meer vooruit voor topdata in de zomer.' },
       ],
@@ -478,7 +478,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
       alt: 'Beschermd oerbos en fjälls in de wildernis van Fins Lapland',
       eyebrow: 'Pijlergids',
       title: 'Natuurbehoud',
-      subtitle: 'Bescherming van Arctische wildernis',
+      subtitle: 'Bescherming van arctische wildernis',
       description: 'Metsähallitus beheert 85 % van de fjäll-gebieden in Lapland en alle zeven nationale parken. Het Finse natuurrecht geeft iedereen vrije toegang tot de natuur, verantwoordelijk.',
     },
     orgsKicker: 'Wie is wie',
@@ -515,9 +515,9 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
       items: [
         { q: 'Wat is het natuurrecht (jokamiehenoikeudet) in Finland?', a: 'Het natuurrecht (jokamiehenoikeudet) staat iedereen toe om te wandelen, te skiën, te zwemmen, bessen en paddenstoelen te plukken en kort te kamperen op vrijwel alle grond, ook in privébos, zonder toestemming te vragen of te betalen. De keerzijde is verantwoordelijkheid: laat geen sporen na, blijf uit de buurt van woningen en gewassen, verstoor de wilde dieren niet en maak alleen vuur op gemarkeerde plekken.' },
         { q: 'Mag u een kampvuur maken in Lapland?', a: 'Alleen op aangewezen vuurplaatsen, en niet wanneer er een bosbrandwaarschuwing (metsäpalovaroitus) van kracht is. Het Fins Meteorologisch Instituut geeft de waarschuwing af tijdens droge periodes, en zolang die geldt zijn alle open vuren verboden, zelfs op gemarkeerde stookplaatsen. Controleer altijd de actuele waarschuwing voordat u een weg verlaat, en gebruik bij twijfel een campingbrander.' },
-        { q: 'Wie beheert de nationale parken en wildernis van Lapland?', a: 'Metsähallitus (Parks & Wildlife Finland), de overheidsinstantie, beheert ongeveer 85% van de fjäll-gebieden in Lapland en alle nationale parken en onderhoudt paden, wildernishutten en bezoekerscentra. De belangenbehartiging voor natuurbehoud komt van de Finse Vereniging voor Natuurbehoud (SLL) en WWF Finland, terwijl het Sámi-parlement zelfbestuur heeft over Sámi-culturele en milieuzaken in het noorden.' },
+        { q: 'Wie beheert de nationale parken en wildernis van Lapland?', a: 'Metsähallitus (Parks & Wildlife Finland), de overheidsinstantie, beheert ongeveer 85 % van de fjäll-gebieden in Lapland en alle nationale parken en onderhoudt paden, wildernishutten en bezoekerscentra. De belangenbehartiging voor natuurbehoud komt van de Finse Vereniging voor Natuurbehoud (SLL) en WWF Finland, terwijl het Sami-parlement zelfbestuur heeft over Sami-culturele en milieuzaken in het noorden.' },
         { q: 'Hebben rendieren voorrang op de wegen van Lapland?', a: 'In de praktijk wel, vertraag flink. De ongeveer 200.000 rendieren in Lapland zijn in eigendom, niet wild, en ze lopen vrij de weg op, vooral in de schemering. Ziet u er één, reken dan op meer in de buurt. Sluit bij herdershekken (poroaita) altijd elk hek dat u opent achter u.' },
-        { q: 'Hoe kan ik verantwoord reizen in Lapland?', a: 'Slaap waar de lokale economie het nodig heeft, Sámi-eigen rendierboerderijen, familiebedrijfjes als pensions en vergunde wildernishutten en kies aanbieders die beren, wolven en poolvossen levend waardevoller maken dan dood. Voer al uw afval af, blijf op vlonderpaden in kwetsbaar fjäll-terrein en volg de seizoensregels voor vuur en wilde dieren.' },
+        { q: 'Hoe kan ik verantwoord reizen in Lapland?', a: 'Slaap waar de lokale economie het nodig heeft, Sami-eigen rendierboerderijen, familiebedrijfjes als pensions en vergunde wildernishutten en kies aanbieders die beren, wolven en poolvossen levend waardevoller maken dan dood. Voer al uw afval af, blijf op vlonderpaden in kwetsbaar fjäll-terrein en volg de seizoensregels voor vuur en wilde dieren.' },
       ],
     },
   },
