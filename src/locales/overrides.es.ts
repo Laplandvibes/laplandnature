@@ -46,7 +46,7 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
     cta: 'Recibir cartas desde Laponia',
     sending: 'Enviando…',
     placeholder: 'sua@email.com',
-    success: 'Ya casi: confirma tu suscripción desde el correo que acabamos de enviarte.',
+    success: 'Ya casi: confirme su suscripción desde el correo que acabamos de enviarle.',
     privacy: 'Cancele con un clic.',
   },
   affiliateDisclosure: {
@@ -120,7 +120,7 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
         {
           tag: 'Fauna salvaje',
           title: 'Observación de fauna',
-          blurb: 'Sigue al oso pardo desde hides nocturnos: una noche ronda el 90 %, dos noches el 99 %. Manadas semisalvajes de renos y avistamientos de glotones.',
+          blurb: 'Siga al oso pardo desde hides nocturnos: una noche ronda el 90 %, dos noches el 99 %. Manadas semisalvajes de renos y avistamientos de glotones.',
           cta: 'Explorar la fauna salvaje',
         },
         {
@@ -543,7 +543,7 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
       { name: 'Rutas de día de Saariselkä', description: 'Rutas de día bien señalizadas desde el pueblo de Saariselkä hacia el parque nacional. La introducción adecuada al senderismo de fjäll, con opciones para todos los niveles y ventanas de tiempo.', distance: '5–20 km', duration: '2–8 horas', difficulty: 'Fácil' },
       { name: 'Sendero del Halti: el punto más alto de Finlandia', description: 'Travesía al punto más alto de Finlandia, en la ladera del Halti, a 1324 m. Ruta remota por el interior de Kilpisjärvi. El tramo final no está señalizado y exige orientación con mala visibilidad.', distance: '55 km (ida y vuelta)', duration: '3–5 días', difficulty: 'Muy exigente' },
       { name: 'Sendero de la garganta de Pyhäkuru', description: 'Sendero corto pero impactante por una garganta profunda de paredes antiguas. Lugar sagrado para el pueblo sami, con tramos de pasarela accesibles para familias y grupos de ritmo mixto.', distance: '5 km', duration: '2–3 horas', difficulty: 'Fácil' },
-      { name: 'Sendero del río Lemmenjoki', description: 'Sigue el legendario río de los buscadores de oro por una de las mayores naturalezas de Europa. Hay transporte en barca para parte de la ruta. Historia de la fiebre del oro visible en los puntos de cribado señalizados.', distance: '20 km', duration: '1–2 días', difficulty: 'Moderado' }
+      { name: 'Sendero del río Lemmenjoki', description: 'Siga el legendario río de los buscadores de oro por una de las mayores naturalezas de Europa. Hay transporte en barca para parte de la ruta. Historia de la fiebre del oro visible en los puntos de cribado señalizados.', distance: '20 km', duration: '1–2 días', difficulty: 'Moderado' }
     ],
     trailheadStays: 'Alojamientos en el inicio del sendero',
     planRestH3: 'Planifique el resto del viaje',

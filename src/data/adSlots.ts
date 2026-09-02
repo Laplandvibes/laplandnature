@@ -91,7 +91,7 @@ const bearKuusamo: Partner = {
     es: {
       tagline: 'Una noche en un escondite de osos, al borde de Laponia',
       description: 'Los guías de osos originales de Kuusamo, más de veinte años en los bosques de la frontera oriental. Observa osos pardos salvajes, glotones y pigargos desde un escondite fotográfico.',
-      cta: 'Planifica tu noche',
+      cta: 'Planifique su noche',
       articleLabel: 'Leer el artículo',
       articleUrl: 'https://laplandvibes.com/es/blog/bear-kuusamo/',
       url: 'https://go.laplandvibes.com/go/bearkuusamo?sid=home_card_a&dest=https%3A%2F%2Fbearkuusamo.com%2Fes%2F',
