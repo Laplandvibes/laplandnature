@@ -240,7 +240,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
     crossLinks: {
       aurora: '为何 kaamos 是最佳极光窗口 →',
       parks: '天空最暗的国家公园 →',
-      igloos: '极光下的玻璃穹顶屋 →',
+      igloos: '极光下的玻璃冰屋 →',
     },
     faq: {
       eyebrow: '常见问题',
