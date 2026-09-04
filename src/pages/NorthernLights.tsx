@@ -1,3 +1,6 @@
+import ProductRail, { type RailLang } from '../shared/ads/ProductRail'
+import northoutdoorRail from '../shared/ads/rails/northoutdoor'
+import northoutdoorPicks from '../shared/ads/data/northoutdoorPicks'
 import { Link } from 'react-router-dom'
 import { MapPin, Calendar, Lightbulb, ArrowRight, Moon, Activity, Camera, HelpCircle, Plus } from 'lucide-react'
 import SEO from '../components/SEO'
@@ -227,6 +230,12 @@ export default function NorthernLights() {
               {c.crossLinks.igloos}
             </HubLink>
           </div>
+        </div>
+      </section>
+      {/* Tuoterivi sivulle jolla ei ollut yhtään mainosta (Vesa 4.9.: lisää potentiaalisille sivuille). */}
+      <section className="px-4 sm:px-6 py-10">
+        <div className="max-w-6xl mx-auto">
+          <ProductRail partner={northoutdoorRail} snapshot={northoutdoorPicks} lang={lang as RailLang} sid="aurora_merino" variant="light" />
         </div>
       </section>
     </>
