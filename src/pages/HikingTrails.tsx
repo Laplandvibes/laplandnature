@@ -1,3 +1,6 @@
+import ProductRail from '../shared/ads/ProductRail'
+import scandinavianoutdoorRail from '../shared/ads/rails/scandinavianoutdoor'
+import scandinavianoutdoorPicks from '../shared/ads/data/scandinavianoutdoorPicks'
 import { Link } from 'react-router-dom'
 import { Clock, BarChart3, MapPin, ArrowRight, Backpack, Tent, AlertTriangle, Sunrise, HelpCircle, Plus } from 'lucide-react'
 import SEO from '../components/SEO'
@@ -6,8 +9,6 @@ import HubLink from '../components/HubLink'
 import HeroImage from '../components/HeroImage'
 import { useLang, useLocalePath } from '../i18n/useLang'
 import { COPY } from '../locales/copy'
-import AdUnit from '../shared/ads/AdUnit'
-import scandinavianOutdoorAd from '../shared/ads/advertisers/scandinavianOutdoor'
 import { trackAffiliateClick } from '../lib/analytics'
 import FaqLinks, { type FaqNavKey } from '../components/FaqLinks'
 
@@ -158,10 +159,11 @@ export default function HikingTrails() {
 
           {/* Scandinavian Outdoor ad — gear context after the trail walk-through
               (shared/ads; disclosure lives in the shared Footer bottom strip). */}
-          <AdUnit
-            spec={scandinavianOutdoorAd}
-            sid="hiking_trails_gear"
+          <ProductRail
+            partner={scandinavianoutdoorRail}
+            snapshot={scandinavianoutdoorPicks}
             lang={lang}
+            sid="hiking_trails_gear"
             variant="light"
             className="mt-10"
             onCtaClick={(specKey, sid, url) => trackAffiliateClick(specKey, `ad_unit:${sid}`, url)}
