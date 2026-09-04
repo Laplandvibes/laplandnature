@@ -605,7 +605,7 @@ const fi: SectionCopy = {
       eyebrow: 'Lapin vuosi',
       title: 'Neljä vuodenaikaa',
       subtitle: 'Napapiirin pohjoispuolella',
-      description: 'Jokainen vuodenaika tuo eri maailman: kesän loputon valo, kaamoksen sinihämärä ja kaksi lyhyttä siirtymäkautta jotka tiivistävät Etelä-Suomen kevään ja syksyn muutamaan viikkoon.',
+      description: 'Jokainen vuodenaika tuo eri maailman: kesän loputon valo, kaamoksen sinihämärä ja kaksi lyhyttä siirtymäkautta, jotka tiivistävät Etelä-Suomen kevään ja syksyn muutamaan viikkoon.',
     },
     seasons: [
       {

@@ -84,7 +84,7 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   home: {
     metaTitle: 'Naturaleza de Laponia: parques y aurora | LaplandNature',
-    metaDescription: 'La naturaleza ártica de la Laponia finlandesa, siete parques nacionales, más de 200 noches de aurora al año, kaamos (noche polar) y senderos de 5 a 82 km.',
+    metaDescription: 'La naturaleza ártica de la Laponia finlandesa, siete parques nacionales, más de 200 noches de aurora boreal al año, kaamos (noche polar) y senderos de 5 a 82 km.',
     hero: {
       alt: 'Naturaleza ártica nevada y fjälls en la Laponia finlandesa',
       eyebrow: 'Al norte del Círculo Polar',
@@ -109,7 +109,7 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
     featured: {
       kicker: 'Siete maneras de entrar',
       h2: 'Experiencias destacadas en Laponia',
-      lead: 'Desde los hides para observar osos en la frontera rusa hasta cañones de cascadas heladas, canoa bajo el sol de medianoche y el cielo kaamos sobre Utsjoki, siete guías a las que volverá.',
+      lead: 'Desde los refugios para observar osos en la frontera rusa hasta cañones de cascadas heladas, canoa bajo el sol de medianoche y el cielo kaamos sobre Utsjoki, siete guías a las que volverá.',
       items: [
         {
           tag: 'Áreas protegidas',

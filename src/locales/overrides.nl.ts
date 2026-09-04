@@ -66,7 +66,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
     pins: [
       { name: 'NP Urho Kekkonen', note: 'Op één na grootste park van Finland · toegang: Saariselkä' },
       { name: 'NP Pallas-Yllästunturi', note: 'Hetta–Pallas-route van 55 km · toegang: Muonio' },
-      { name: 'NP Lemmenjoki', note: 'Grootste wegloze wildernis van Europa · goud wassen · Inari' },
+      { name: 'NP Lemmenjoki', note: 'Grootste wegloze wildernis van Europa · goudwassen · Inari' },
       { name: 'NP Riisitunturi', note: 'Met tykky-sneeuw bekroonde bomen · toegang: Posio' },
       { name: 'NP Pyhä-Luosto', note: '400 jaar oude sparren · amethistmijn' },
       { name: 'Inari', note: 'Sami-hartland · Bortle 2 · open horizon over het meer' },
@@ -130,7 +130,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
       pins: [
         { name: 'Urho Kekkonen NP', note: 'Op een na grootste park van Finland · toegang: Saariselkä' },
         { name: 'Pallas-Yllästunturi NP', note: '55 km Hetta–Pallas-route · toegang: Muonio' },
-        { name: 'Lemmenjoki NP', note: 'Grootste wegloze wildernis van Europa · goud wassen · Inari' },
+        { name: 'Lemmenjoki NP', note: 'Grootste wegloze wildernis van Europa · goudwassen · Inari' },
         { name: 'Riisitunturi NP', note: 'Met sneeuw bekroonde bomen (tykky) · toegang: Posio' },
         { name: 'Pyhä-Luosto NP', note: '400 jaar oude sparren · amethistmijn' },
         { name: 'Inari', note: 'Hart van Sami-land · Bortle 2 · open meerhorizon' },
@@ -148,7 +148,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
     },
     ctaBand: {
       h2: 'Klaar om uw natuurreis te plannen?',
-      lead: 'Kies een basis dicht bij de parken en de noorderlichtgordel, en voeg begeleide ervaringen toe, wildlife-observatie, goudwassen, meerdaagse hut-tot-hut-tochten.',
+      lead: 'Kies een basis dicht bij de parken en de noorderlichtgordel, en voeg begeleide ervaringen toe, natuurobservatie, goudwassen, meerdaagse hut-tot-hut-tochten.',
       primary: 'Zoek een natuurbasis',
       secondary: 'Bekijk begeleide ervaringen',
     },

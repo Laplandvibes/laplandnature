@@ -138,7 +138,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
         {
           tag: 'Tutela',
           title: 'Conservação',
-          blurb: 'A Metsähallitus administra 85% dos fjälls da Lapônia e os sete parques nacionais. Mais o direito de acesso à natureza, a lei finlandesa de livre acesso.',
+          blurb: 'A Metsähallitus administra 85 % dos fjälls da Lapônia e os sete parques nacionais. Mais o direito de acesso à natureza, a lei finlandesa de livre acesso.',
           cta: 'Explorar a conservação',
         },
         {
@@ -168,7 +168,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
         { name: 'Lemmenjoki NP', note: 'Maior área sem estradas da Europa · garimpo de ouro · Inari' },
         { name: 'Riisitunturi NP', note: 'Árvores coroadas de neve (tykky) · acesso: Posio' },
         { name: 'Pyhä-Luosto NP', note: 'Abetos de 400 anos · mina de ametista' },
-        { name: 'Inari', note: 'Coração sami · Bortle 2 · horizonte aberto sobre o lago' },
+        { name: 'Inari', note: 'Coração sámi · Bortle 2 · horizonte aberto sobre o lago' },
         { name: 'Utsjoki', note: '4 de cada 5 noites limpas com aurora no auge · kaamos de 51 dias' },
         { name: 'Kilpisjärvi', note: 'Tríplice fronteira · fjälls de grande altitude' },
         { name: 'Enontekiö', note: 'Um dos céus mais escuros da Europa (Bortle 1)' },
@@ -178,7 +178,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
         { name: 'Pyhä', note: 'Desfiladeiro de Pyhäkuru · passarela acessível · 5 km' },
         { name: 'Esconderijos de ursos de Kuusamo', note: 'Esconderijos de urso-pardo · uma noite ~90 %, duas noites 99 % · mai.–set. · logo ao sul da Lapônia' },
         { name: 'Natureza de Nellim', note: 'Lodge selvagem de Nellim · território de carcaju e urso-pardo' },
-        { name: 'Renas de Kaamanen', note: 'Reunião de renas sami · outono (paliskunta)' },
+        { name: 'Renas de Kaamanen', note: 'Reunião de renas sámi · outono (paliskunta)' },
       ],
     },
     ctaBand: {

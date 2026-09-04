@@ -100,7 +100,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
       hHighlight: '66°–69° Nord',
       hSuffix: '. Sette parchi nazionali, la luce delle quattro stagioni e la più lunga finestra di aurora d\'Europa.',
       stats: [
-        { value: '30%', primary: 'della Finlandia', body: 'è la regione della Lapponia, 100 367 km²' },
+        { value: '30%', primary: 'della Finlandia', body: 'è la regione della Lapponia, 100.367 km²' },
         { value: '40+', primary: 'zone protette', body: 'parchi nazionali, riserve integrali, Natura 2000' },
         { value: '70', primary: 'giorni di sole di mezzanotte', body: 'Utsjoki, da giugno ad agosto' },
         { value: '200+', primary: 'notti di aurora', body: 'osservate ogni anno sopra i 67° N' },
@@ -147,8 +147,8 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
       ],
     },
     ctaBand: {
-      h2: 'Pronto a pianificare il tuo viaggio nella natura?',
-      lead: 'Scegli una base vicino ai parchi e alla fascia dell\'aurora, poi aggiungi esperienze guidate, avvistamento fauna, ricerca dell\'oro, traversate di più giorni tra rifugi.',
+      h2: 'Pronto a pianificare il Suo viaggio nella natura?',
+      lead: 'Scelga una base vicino ai parchi e alla fascia dell\'aurora, poi aggiunga esperienze guidate, avvistamento fauna, ricerca dell\'oro, traversate di più giorni tra rifugi.',
       primary: 'Trova una base nella natura',
       secondary: 'Vedi le esperienze guidate',
     },
@@ -227,7 +227,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
       eyebrow: 'Guida di riferimento',
       title: 'Parchi nazionali',
       subtitle: 'Wilderness protetta',
-      description: 'Cinque parchi tutelano la maggior parte della wilderness senza strade della Lapponia, dalle traversate dei fjäll aperti alle foreste coronate di neve e ai canyon dove si cerca l\'oro. Ognuno ha un villaggio-porta dove stabilire la propria base.',
+      description: 'Cinque parchi tutelano la maggior parte della natura selvaggia senza strade della Lapponia, dalle traversate dei fjäll aperti alle foreste coronate di neve e ai canyon dove si cerca l\'oro. Ognuno ha un villaggio-porta dove stabilire la propria base.',
     },
     parks: [
       { name: 'Parco nazionale di Urho Kekkonen', description: 'Il secondo parco nazionale più grande della Finlandia, 2.550 km². Vasti fjäll aperti, profonde gole fluviali e antiche pinete. Un paradiso per il trekking di più giorni e lo sci backcountry.', highlight: '2° parco più grande della Finlandia', visited: 'marzo 2024 · anello Rumakuru sci di fondo, neve stabile a −12 °C' },
@@ -595,7 +595,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
     },
     finalKicker: 'Proteggila, poi goditela',
     finalH2: 'L\'acqua vale la pena di essere protetta',
-    finalLead: 'Non si può comprare acqua fredda e pulita; la si può solo conservare o perdere. Scegli operatori che pescano entro i limiti, resta sui percorsi segnati attraverso le fragili torbiere e lascia le rive e la foresta come le hai trovate. La cosa migliore che un visitatore possa fare per i pesci della Lapponia è trattarne l\'acqua come il lusso che è.',
+    finalLead: 'Non si può comprare acqua fredda e pulita; la si può solo conservare o perdere. Scelga operatori che pescano entro i limiti, resta sui percorsi segnati attraverso le fragili torbiere e lascia le rive e la foresta come le hai trovate. La cosa migliore che un visitatore possa fare per i pesci della Lapponia è trattarne l\'acqua come il lusso che è.',
     crossLinks: {
       conservation: 'Chi protegge la natura selvaggia →',
       wildlife: 'La fauna che sostiene →',
@@ -673,7 +673,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
     ],
     treeCaption: 'Un giovane orso bruno si arrampica su un pino vicino ai capanni.',
     photoCredit: 'Foto: Piritta Paija / Bear Kuusamo',
-    waysKicker: 'Scegli la tua escursione',
+    waysKicker: 'Scelga la Sua escursione',
     waysH2: 'Due modi per andarci',
     ways: [
       { title: 'Escursione serale', body: 'Circa quattro ore, dalle 18 alle 22: una camminata guidata fino al capanno e le ore meglio illuminate della sera nordica.' },

@@ -90,7 +90,7 @@ export const KO_OVERRIDES: DeepPartial<SectionCopy> = {
       eyebrow: '북극권 너머',
       title: '손때 묻지 않은',
       subtitle: '북극 자연',
-      description: '핀란드 라플란드, 10만 367㎢의 북극 땅. 일곱 국립공원, 펠(나무 없는 북극 민둥산), 원시림, 그리고 유럽에서 가장 긴 오로라 시즌.',
+      description: '핀란드 라플란드, 100,367㎢의 북극 땅. 일곱 국립공원, 펠(나무 없는 북극 민둥산), 원시림, 그리고 유럽에서 가장 긴 오로라 시즌.',
       primaryCta: '오로라 여행 계획하기',
       secondaryCta: '국립공원 둘러보기',
     },

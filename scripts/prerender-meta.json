@@ -18,7 +18,7 @@
     },
     "es": {
       "title": "Naturaleza de Laponia: parques y aurora | LaplandNature",
-      "description": "La naturaleza ártica de la Laponia finlandesa, siete parques nacionales, más de 200 noches de aurora al año, kaamos (noche polar) y senderos de 5 a 82 km."
+      "description": "La naturaleza ártica de la Laponia finlandesa, siete parques nacionales, más de 200 noches de aurora boreal al año, kaamos (noche polar) y senderos de 5 a 82 km."
     },
     "pt-BR": {
       "title": "Natureza da Lapônia: parques e aurora | LaplandNature",
@@ -42,7 +42,7 @@
     },
     "nl": {
       "title": "Natuur van Lapland: parken en noorderlicht | LaplandNature",
-      "description": "De Arctische natuur van Fins Lapland, zeven nationale parken, meer dan 200 nachten noorderlicht per jaar, kaamos (poolnacht) en wandelpaden van 5 tot 82 km."
+      "description": "De arctische natuur van Fins Lapland, zeven nationale parken, meer dan 200 nachten noorderlicht per jaar, kaamos (poolnacht) en wandelpaden van 5 tot 82 km."
     },
     "sv": {
       "title": "Lapplands natur 2026: norrsken, parker och djurliv",
@@ -321,7 +321,7 @@
           "a": "Uniquement aux emplacements de feu désignés, et jamais lorsqu'un avertissement de feu de forêt (metsäpalovaroitus) est en vigueur. L'Institut météorologique finlandais émet cet avertissement pendant les périodes sèches, et tant qu'il tient, tous les feux à ciel ouvert sont interdits, même aux foyers balisés. Vérifiez toujours l'avertissement en cours avant de quitter une route, et utilisez un réchaud de camping en cas de doute."
         },
         {
-          "q": "Qui gère les parcs nationaux et la wilderness de Laponie ?",
+          "q": "Qui gère les parcs nationaux et la nature sauvage de Laponie ?",
           "a": "Metsähallitus (Parcs & Faune sauvage Finlande), l'organisme public, gère environ 85 % des zones de fjälls de Laponie et tous les parcs nationaux, entretenant sentiers, refuges sauvages et centres de visiteurs. Le plaidoyer pour la conservation vient de l'Association finlandaise pour la conservation de la nature (SLL) et de WWF Finlande, tandis que le Parlement sami détient l'autonomie sur les affaires culturelles et environnementales sami du nord."
         },
         {
@@ -374,7 +374,7 @@
         },
         {
           "q": "Wie beheert de nationale parken en wildernis van Lapland?",
-          "a": "Metsähallitus (Parks & Wildlife Finland), de overheidsinstantie, beheert ongeveer 85% van de fjäll-gebieden in Lapland en alle nationale parken en onderhoudt paden, wildernishutten en bezoekerscentra. De belangenbehartiging voor natuurbehoud komt van de Finse Vereniging voor Natuurbehoud (SLL) en WWF Finland, terwijl het Sámi-parlement zelfbestuur heeft over Sámi-culturele en milieuzaken in het noorden."
+          "a": "Metsähallitus (Parks & Wildlife Finland), de overheidsinstantie, beheert ongeveer 85 % van de fjäll-gebieden in Lapland en alle nationale parken en onderhoudt paden, wildernishutten en bezoekerscentra. De belangenbehartiging voor natuurbehoud komt van de Finse Vereniging voor Natuurbehoud (SLL) en WWF Finland, terwijl het Sami-parlement zelfbestuur heeft over Sami-culturele en milieuzaken in het noorden."
         },
         {
           "q": "Hebben rendieren voorrang op de wegen van Lapland?",
@@ -382,7 +382,7 @@
         },
         {
           "q": "Hoe kan ik verantwoord reizen in Lapland?",
-          "a": "Slaap waar de lokale economie het nodig heeft, Sámi-eigen rendierboerderijen, familiebedrijfjes als pensions en vergunde wildernishutten en kies aanbieders die beren, wolven en poolvossen levend waardevoller maken dan dood. Voer al uw afval af, blijf op vlonderpaden in kwetsbaar fjäll-terrein en volg de seizoensregels voor vuur en wilde dieren."
+          "a": "Slaap waar de lokale economie het nodig heeft, Sami-eigen rendierboerderijen, familiebedrijfjes als pensions en vergunde wildernishutten en kies aanbieders die beren, wolven en poolvossen levend waardevoller maken dan dood. Voer al uw afval af, blijf op vlonderpaden in kwetsbaar fjäll-terrein en volg de seizoensregels voor vuur en wilde dieren."
         }
       ]
     },
@@ -567,7 +567,7 @@
       ]
     },
     "de": {
-      "title": "Süßwasser Lappland: Seen, Flüsse & Moore | LaplandNature",
+      "title": "Lapplands Süßwasser: Seen, Flüsse & Moore | LaplandNature",
       "description": "Finnland hat rund 188.000 Seen (SYKE). Lappland besitzt die saubersten, dazu das unregulierte Flusssystem Tornio-Muonio, Aapa-Moore und kühlende Wälder.",
       "faq": [
         {
@@ -1360,7 +1360,7 @@
         },
         {
           "q": "Quel est le plus grand parc national de la Laponie finlandaise ?",
-          "a": "Le parc national d'Urho Kekkonen est le plus grand de Laponie, avec environ 2 550 km², et le deuxième de toute la Finlande. Il s'étend des fjälls de Saariselkä vers l'est jusqu'à une wilderness profonde et sans route, faite de fjälls ouverts, de gorges de rivières et de vieilles pinèdes."
+          "a": "Le parc national d'Urho Kekkonen est le plus grand de Laponie, avec environ 2 550 km², et le deuxième de toute la Finlande. Il s'étend des fjälls de Saariselkä vers l'est jusqu'à une nature sauvage profonde et sans route, faite de fjälls ouverts, de gorges de rivières et de vieilles pinèdes."
         },
         {
           "q": "Faut-il un permis ou un droit d'entrée pour les parcs nationaux de Laponie ?",
@@ -1411,7 +1411,7 @@
           "a": "De regio Lapland telt zeven nationale parken: Lemmenjoki, Urho Kekkonen, Pallas-Yllästunturi, Perämeri (Botnische Golf), Pyhä-Luosto, Salla en Riisitunturi, samen ongeveer 6.900 km². Daarnaast lopen Oulanka en Syöte deels door in Lapland. Vijf daarvan beschrijven wij uitgebreid: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi en Pyhä-Luosto. Elk park heeft zijn eigen toegangsdorp om vanuit te vertrekken, van Saariselkä voor Urho Kekkonen tot Hetta en Muonio voor Pallas-Yllästunturi."
         },
         {
-          "q": "Welk is het grootste nationale park van Fins Lapland?",
+          "q": "Wat is het grootste nationale park van Fins Lapland?",
           "a": "Het nationale park Urho Kekkonen is met ongeveer 2.550 km² het grootste van Lapland en het op een na grootste van heel Finland. Het strekt zich uit van de fjälls van Saariselkä oostwaarts tot in diepe, wegloze wildernis, met open fjälls, rivierkloven en oud dennenbos."
         },
         {
@@ -1722,7 +1722,7 @@
       "faq": [
         {
           "q": "Welke Kp-index heb ik nodig om het noorderlicht in Lapland te zien?",
-          "a": "Fins Lapland ligt onder de aurora-ovaal, dus u heeft geen hoge Kp nodig. Vanuit Inari, Utsjoki of Kilpisjärvi volstaat een Kp van 1–2 vaak al voor een zichtbare boog op een heldere, donkere nacht; Kp 3–4 brengt actieve, bewegende gordijnen. Verder naar het zuiden, rond Rovaniemi, wilt u doorgaans Kp 3 of hoger. Een heldere hemel en een open noordelijke horizon tellen veel zwaarder dan het najagen van een hoog getal."
+          "a": "Fins Lapland ligt onder de noorderlichtovaal, dus u heeft geen hoge Kp nodig. Vanuit Inari, Utsjoki of Kilpisjärvi volstaat een Kp van 1–2 vaak al voor een zichtbare boog op een heldere, donkere nacht; Kp 3–4 brengt actieve, bewegende gordijnen. Verder naar het zuiden, rond Rovaniemi, wilt u doorgaans Kp 3 of hoger. Een heldere hemel en een open noordelijke horizon tellen veel zwaarder dan het najagen van een hoog getal."
         },
         {
           "q": "In welke maand is het noorderlicht in Lapland het sterkst?",
@@ -1826,7 +1826,7 @@
       "faq": [
         {
           "q": "When is the kaamos polar night in Lapland?",
-          "a": "Kaamos, the polar night, falls roughly from late November to mid-January. The further north you go, the longer it lasts: in Utsjoki, Finland's northernmost point, the sun stays below the horizon for around 51 days. It is not pitch dark, though, snow reflects a long blue-and-violet twilight through the middle of each day, and it is the most active stretch of the aurora season."
+          "a": "Kaamos, the polar night, falls roughly from late November to mid-January. The further north you go, the longer it lasts: in Utsjoki, Finland's northernmost point, the sun stays below the horizon for around 51 days. It is not pitch dark, though. Snow reflects a long blue-and-violet twilight through the middle of each day, and it is the most active stretch of the aurora season."
         },
         {
           "q": "When does the midnight sun happen in Lapland?",
@@ -2202,7 +2202,7 @@
         },
         {
           "q": "What is the rarest animal in Lapland?",
-          "a": "The arctic fox is the rarest, listed as critically endangered in the Fennoscandian population and surviving only in the harshest high-fell environments. The wolverine is the most elusive to see, immensely strong and ranging across huge territories, it is present throughout the wilderness but rarely glimpsed."
+          "a": "The arctic fox is the rarest, listed as critically endangered in the Fennoscandian population and surviving only in the harshest high-fell environments. The wolverine is the most elusive to see, immensely strong and ranging across huge territories; it is present throughout the wilderness but rarely glimpsed."
         },
         {
           "q": "How much does a bear-watching hide cost?",
@@ -2410,7 +2410,7 @@
         },
         {
           "q": "Quel est l'animal le plus rare de Laponie ?",
-          "a": "Le renard polaire est le plus rare, classé en danger critique dans la population fenno-scandinave et survivant seulement dans les milieux de haute altitude les plus rudes. Le glouton est le plus difficile à apercevoir, immensément puissant et parcourant d'immenses territoires, il est présent dans toute la wilderness mais rarement entrevu."
+          "a": "Le renard polaire est le plus rare, classé en danger critique dans la population fenno-scandinave et survivant seulement dans les milieux de haute altitude les plus rudes. Le glouton est le plus difficile à apercevoir, immensément puissant et parcourant d'immenses territoires, il est présent dans toute la nature sauvage mais rarement entrevu."
         },
         {
           "q": "Combien coûte une nuit dans un affût à ours ?",
@@ -2446,7 +2446,7 @@
     },
     "nl": {
       "title": "Wilde dieren in Lapland: rendieren, beren | LaplandNature",
-      "description": "Zes iconische Arctische soorten in Fins Lapland, van 200.000 halfgedomesticeerde rendieren tot de ernstig bedreigde poolvos en de schuwe veelvraat.",
+      "description": "Zes iconische arctische soorten in Fins Lapland, van 200.000 halfgedomesticeerde rendieren tot de ernstig bedreigde poolvos en de schuwe veelvraat.",
       "faq": [
         {
           "q": "Wanneer kunt u bruine beren zien in Fins Lapland?",
@@ -2458,7 +2458,7 @@
         },
         {
           "q": "Hoeveel rendieren zijn er in Lapland, en zijn ze wild?",
-          "a": "Ongeveer 200.000 halfgedomesticeerde rendieren trekken door Fins Lapland. Ze zijn niet wild, elk dier is in eigendom en geoormerkt binnen een herderscoöperatie, al duizenden jaren centraal in de Sámi-cultuur. Ze grazen vrij over de fjälls en door de bossen, dus u komt ze geregeld langs de weg tegen."
+          "a": "Ongeveer 200.000 halfgedomesticeerde rendieren trekken door Fins Lapland. Ze zijn niet wild, elk dier is in eigendom en geoormerkt binnen een herderscoöperatie, al duizenden jaren centraal in de Sami-cultuur. Ze grazen vrij over de fjälls en door de bossen, dus u komt ze geregeld langs de weg tegen."
         },
         {
           "q": "Wat is het zeldzaamste dier in Lapland?",

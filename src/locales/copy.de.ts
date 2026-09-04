@@ -117,7 +117,7 @@ const de: SectionCopy = {
     featured: {
       kicker: 'Sieben Wege hinein',
       h2: 'Ausgewählte Lappland-Erlebnisse',
-      lead: 'Von Bärenverstecken an der russischen Grenze über gefrorene Wasserfall-Schluchten und Mitternachtssonne-Paddeltouren bis zum Polarnacht-Himmel über Utsjoki, sieben Guides, zu denen wir gerne zurückkehren.',
+      lead: 'Von Bärenverstecken an der russischen Grenze über gefrorene Wasserfall-Schluchten und Mitternachtssonne-Paddeltouren bis zum Polarnacht-Himmel über Utsjoki – sieben Guides, zu denen wir gerne zurückkehren.',
       items: [
         {
           tag: 'Schutzgebiete',
@@ -134,7 +134,7 @@ const de: SectionCopy = {
         {
           tag: 'Nordlicht',
           title: 'Nordlichter',
-          blurb: 'Jagen Sie die Aurora borealis am arktischen Himmel von September bis April. In Utsjoki zeigen sich Nordlichter in 4 von 5 klaren Nächten.',
+          blurb: 'Jagen Sie die Polarlichter am arktischen Himmel von September bis April. In Utsjoki zeigen sich Nordlichter in 4 von 5 klaren Nächten.',
           cta: 'Nordlichter erkunden',
         },
         {
@@ -158,7 +158,7 @@ const de: SectionCopy = {
         {
           tag: 'Wasser',
           title: 'Süßwasser',
-          blurb: 'Rund 188.000 Seen, der frei fließende Tornio und Aapa-Moore. Warum sauberes kaltes Wasser Lapplands seltenstes Gut ist, und was die Fische darin hält.',
+          blurb: 'Rund 188.000 Seen, der frei fließende Tornionjoki und Aapa-Moore. Warum sauberes kaltes Wasser Lapplands seltenstes Gut ist, und was die Fische darin hält.',
           cta: 'Süßwasser erkunden',
         },
       ],
@@ -942,7 +942,7 @@ const de: SectionCopy = {
     },
   },
   freshwater: {
-    metaTitle: 'Süßwasser Lappland: Seen, Flüsse & Moore | LaplandNature',
+    metaTitle: 'Lapplands Süßwasser: Seen, Flüsse & Moore | LaplandNature',
     metaDescription: 'Finnland hat rund 188.000 Seen (SYKE). Lappland besitzt die saubersten, dazu das unregulierte Flusssystem Tornio-Muonio, Aapa-Moore und kühlende Wälder.',
     hero: {
       eyebrow: 'Säulen-Guide',

@@ -100,7 +100,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
       hHighlight: '北纬 66°–69°',
       hSuffix: '。七座国家公园、四季分明的光线，以及欧洲最长的极光窗口。',
       stats: [
-        { value: '30%', primary: '的芬兰国土', body: '属于拉普兰省，10 万 367 平方公里' },
+        { value: '30%', primary: '的芬兰国土', body: '属于拉普兰省，100,367 平方公里' },
         { value: '40+', primary: '处保护区', body: '国家公园、严格自然保护区、Natura 2000' },
         { value: '70', primary: '个午夜阳光日', body: 'Utsjoki，六月至八月' },
         { value: '200+', primary: '个极光夜', body: '每年在北纬 67° 以北观测到' },
@@ -114,7 +114,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
         {
           tag: '保护区',
           title: '国家公园',
-          blurb: '拉普兰共有七座国家公园（合计约 6,900 平方公里），我们从中介绍五座，从 Urho Kekkonen 的北极冻原，到 Riisitunturi 雪冠覆盖的树林。',
+          blurb: '拉普兰共有七座国家公园（合计约 6,900 平方公里），我们从中介绍五座，从 Urho Kekkonen 的山地，到 Riisitunturi 雪冠覆盖的树林。',
           cta: '探索国家公园',
         },
         {
@@ -262,7 +262,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
       eyebrow: '核心指南',
       title: '国家公园',
       subtitle: '受保护的荒野',
-      description: '五座公园守护着拉普兰大部分无路可通的荒野，从开阔的 fjäll 纵走，到雪冠覆盖的森林与淘金峡谷。每座公园都有各自的门户村庄可作为据点。',
+      description: '五座公园守护着拉普兰大部分无路可通的荒野，从开阔的山地纵走，到雪冠覆盖的森林与淘金峡谷。每座公园都有各自的门户村庄可作为据点。',
     },
     parks: [
       { name: 'Urho Kekkonen 国家公园', description: '芬兰第二大国家公园，面积 2550 平方公里。辽阔开阔的 fjäll、幽深的河谷，以及古老的松林。多日徒步与越野滑雪的天堂。', highlight: '芬兰第二大公园', visited: '2024 年 3 月 · 当日滑行 Rumakuru 环线，−12 °C 雪况稳定' },

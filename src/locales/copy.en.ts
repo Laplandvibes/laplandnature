@@ -117,7 +117,7 @@ const en: SectionCopy = {
     featured: {
       kicker: 'Six ways in',
       h2: 'Featured Lapland Experiences',
-      lead: 'From bear-watching hides at the Russian border to frozen-waterfall canyons, midnight-sun canoeing and the kaamos sky over Utsjoki, seven guides worth coming back to.',
+      lead: 'From bear-watching hides at the Russian border to frozen-waterfall canyons, midnight-sun canoeing and the kaamos sky over Utsjoki — seven guides worth coming back to.',
       items: [
         {
           tag: 'Protected areas',
@@ -128,7 +128,7 @@ const en: SectionCopy = {
         {
           tag: 'Wildlife',
           title: 'Wildlife Watching',
-          blurb: 'Track brown bears from overnight hides (one night runs about 90%, two nights 99%) meet semi-wild reindeer herds, and spot wolverines.',
+          blurb: 'Track brown bears from overnight hides (one night runs about 90%, two nights 99%), meet semi-wild reindeer herds, and spot wolverines.',
           cta: 'Explore Wildlife',
         },
         {
