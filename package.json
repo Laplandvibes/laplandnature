@@ -5,9 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build && node scripts/assert-css-budget.mjs && node scripts/generate-prerender-meta.mjs && node scripts/_prerender_routes.mjs --site=https://laplandnature.com --siteName=LaplandNature --twitter=@laplandvibes --defaultOg=/og-default.jpg --routes=scripts/routes.json --meta=scripts/prerender-meta.json --addLocales=sv --crawlableBody --emit404",
+    "build": "tsc -b && vite build && node scripts/assert-css-budget.mjs && node scripts/generate-prerender-meta.mjs && node scripts/_prerender_routes.mjs --site=https://laplandnature.com --siteName=LaplandNature --twitter=@laplandvibes --defaultOg=/og.jpg?v=20260905 --routes=scripts/routes.json --meta=scripts/prerender-meta.json --addLocales=sv --crawlableBody --emit404",
     "build:nossg": "tsc -b && vite build",
-    "prerender": "node scripts/generate-prerender-meta.mjs && node scripts/_prerender_routes.mjs --site=https://laplandnature.com --siteName=LaplandNature --twitter=@laplandvibes --defaultOg=/og-default.jpg --routes=scripts/routes.json --meta=scripts/prerender-meta.json --addLocales=sv --crawlableBody",
+    "prerender": "node scripts/generate-prerender-meta.mjs && node scripts/_prerender_routes.mjs --site=https://laplandnature.com --siteName=LaplandNature --twitter=@laplandvibes --defaultOg=/og.jpg?v=20260905 --routes=scripts/routes.json --meta=scripts/prerender-meta.json --addLocales=sv --crawlableBody",
     "lint": "eslint .",
     "preview": "vite preview"
   },
