@@ -647,7 +647,7 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
     },
   },
   editorial: {
-    metaTitle: 'Política editorial, LaplandNature',
+    metaTitle: 'Política editorial y de fuentes, LaplandNature',
     metaDescription: 'Cómo LaplandNature investiga, redacta y verifica sus guías de naturaleza de Laponia. Política de independencia y cómo gestionamos los ingresos de afiliación.',
     h1: 'Política editorial',
     lastUpdated: 'Última actualización: abril de 2026',
@@ -772,7 +772,7 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
     metaDescription: 'Condiciones que rigen el uso de LaplandNature.com, licencias de contenido, afiliación y normas editoriales. Operado por LaPeso Oy en Finlandia.',
   },
   cookie: {
-    metaTitle: 'Política de cookies, LaplandNature',
+    metaTitle: 'Política de cookies y consentimiento, LaplandNature',
     metaDescription: 'Qué cookies usa LaplandNature.com, por qué y cómo gestionarlas. Divulgaciones de cookies conformes al RGPD / ePrivacy de LaPeso Oy.',
   },
   bearKuusamo: {
