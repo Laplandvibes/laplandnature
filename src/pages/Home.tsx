@@ -14,6 +14,7 @@ import { trackPartnerClick } from '../lib/analytics'
 import { AD_SLOTS } from '../data/adSlots'
 import GygPicks from '../components/GygPicks';
 import { AppPromoHero } from '../components/AppPromo';
+import { seasonal } from '../lib/season'
 
 const cardImages = [
   'card-national-parks.webp',
@@ -102,7 +103,7 @@ export default function Home() {
       />
 
       <HeroImage
-        image="hero-home.webp"
+        image={seasonal('hero-home-winter.webp', 'hero-home.webp')}
         size="xl"
         priority
         alt={c.hero.alt}

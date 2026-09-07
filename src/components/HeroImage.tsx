@@ -65,6 +65,7 @@ const RESPONSIVE_HEROES = new Set([
   'hero-freshwater',
   'hero-hiking',
   'hero-home',
+  'hero-home-winter',
   'hero-national-parks',
   'hero-northern-lights',
   'hero-seasons',
