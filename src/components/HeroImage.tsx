@@ -192,7 +192,7 @@ export default function HeroImage({
           )}
         </h1>
         {description && (
-          <p className="text-snow/90 text-lg md:text-xl max-w-2xl mx-auto font-body leading-relaxed drop-shadow-[0_2px_12px_rgba(0,0,0,0.9)]">
+          <p className="text-snow/90 text-lg md:text-xl max-w-2xl xl:max-w-4xl mx-auto font-body leading-relaxed drop-shadow-[0_2px_12px_rgba(0,0,0,0.9)] xl:text-2xl">
             {description}
           </p>
         )}
