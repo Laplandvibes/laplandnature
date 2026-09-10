@@ -22,4 +22,4 @@ English (default, no prefix), Finnish (/fi/), Swedish (/sv/), German (/de/), Fre
 
 - [LaplandVibes hub](https://laplandvibes.com/): This site is part of the LaplandVibes network
 - [Sitemap](https://laplandnature.com/sitemap.xml)
-- Contact: info@laplandnature.com
+- Contact: info@laplandvibes.com
