@@ -1,18 +1,16 @@
-import { useState, useEffect, useRef } from 'react'
-import { Link, useLocation, useNavigate } from 'react-router-dom'
-import { Menu, X, Globe, ChevronDown } from 'lucide-react'
+import { useState, useEffect} from 'react'
+import { Link, useLocation} from 'react-router-dom'
+import { Menu, X} from 'lucide-react'
 import Logo from './Logo'
 import { useLang, useLocalePath } from '../i18n/useLang'
 import { COPY } from '../locales/copy'
 import EcosystemMenu from '../shared/EcosystemMenu'
+import LanguageSwitcher from '../i18n/LanguageSwitcher'
 
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false)
   const [open, setOpen] = useState(false)
-  const [langOpen, setLangOpen] = useState(false)
-  const langWrapRef = useRef<HTMLDivElement>(null)
   const location = useLocation()
-  const navigate = useNavigate()
   const lang = useLang()
   const to = useLocalePath()
   const c = COPY[lang].nav
@@ -34,21 +32,8 @@ export default function Nav() {
     return () => window.removeEventListener('scroll', handler)
   }, [])
 
-  useEffect(() => { setOpen(false); setLangOpen(false) }, [location.pathname])
+  useEffect(() => { setOpen(false) }, [location.pathname])
 
-  useEffect(() => {
-    if (!langOpen) return
-    const onClick = (e: MouseEvent) => {
-      if (!langWrapRef.current?.contains(e.target as Node)) setLangOpen(false)
-    }
-    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') setLangOpen(false) }
-    document.addEventListener('mousedown', onClick)
-    document.addEventListener('keydown', onKey)
-    return () => {
-      document.removeEventListener('mousedown', onClick)
-      document.removeEventListener('keydown', onKey)
-    }
-  }, [langOpen])
 
   const isHome = location.pathname === '/' || location.pathname === '/fi' || location.pathname === '/de'
   // On Home: transparent over Hero gradient, switches to opaque on scroll.
@@ -56,95 +41,12 @@ export default function Nav() {
   const opaque = scrolled || !isHome
   const logoVariant = opaque ? 'light' : 'dark'
 
-  type LangCode = 'en' | 'fi' | 'de' | 'ja' | 'es' | 'pt-BR' | 'zh-CN' | 'ko' | 'fr' | 'it' | 'nl' | 'sv'
-  const URL_PREFIX_OF: Record<LangCode, string> = {
-    en: '', fi: 'fi', de: 'de', ja: 'ja', es: 'es', 'pt-BR': 'br', 'zh-CN': 'cn',
-    ko: 'kr', fr: 'fr', it: 'it', nl: 'nl', sv: 'sv',
-  }
-  const ALL_LANGS: { code: LangCode; label: string; native: string }[] = [
-    { code: 'en', label: 'EN', native: 'English' },
-    { code: 'fi', label: 'FI', native: 'Suomi' },
-    { code: 'de', label: 'DE', native: 'Deutsch' },
-    { code: 'ja', label: 'JA', native: '日本語' },
-    { code: 'es', label: 'ES', native: 'Español' },
-    { code: 'pt-BR', label: 'BR', native: 'Português' },
-    { code: 'zh-CN', label: 'CN', native: '简体中文' },
-    { code: 'ko', label: 'KR', native: '한국어' },
-    { code: 'fr', label: 'FR', native: 'Français' },
-    { code: 'it', label: 'IT', native: 'Italiano' },
-    { code: 'nl', label: 'NL', native: 'Nederlands' },
-    { code: 'sv', label: 'SV', native: 'Svenska' },
-  ]
 
-  const switchTo = (target: LangCode) => {
-    if (typeof window !== 'undefined' && window.localStorage) {
-      window.localStorage.setItem('lv_locale_choice', target)
-    }
-    const path = location.pathname
-    // Strip EVERY leading locale segment, not just the first. GSC 2026-08-13 shows
-    // /br/fr/cookie-policy/ indexed (14 näyttöä): with one-segment stripping, a
-    // language switch on that page produced /fi/fr/cookie-policy/ — a new junk URL
-    // minted from an old one. Code forms (pt-BR, zh-CN, ko) match too.
-    const bare = path.replace(/^(?:\/(?:pt-BR|zh-CN|fi|de|ja|es|br|cn|kr|ko|fr|it|nl|sv))+(?=\/|$)/i, '') || '/'
-    const prefix = URL_PREFIX_OF[target]
-    if (!prefix) navigate(bare)
-    else navigate(bare === '/' ? `/${prefix}` : `/${prefix}${bare}`)
-  }
 
-  const currentLangLabel = ALL_LANGS.find((l) => l.code === lang)?.label ?? 'EN'
 
   const LangDropdown = ({ dark }: { dark: boolean }) => (
-    <div className="relative" ref={langWrapRef}>
-      <button
-        type="button"
-        onClick={() => setLangOpen((o) => !o)}
-        aria-haspopup="listbox"
-        aria-expanded={langOpen}
-        aria-label="Switch language"
-        className={`flex items-center gap-1.5 text-xs font-semibold tracking-wide px-2.5 py-1 rounded-md border transition-colors ${
-          dark
-            ? 'text-snow border-snow/40 hover:bg-snow/10'
-            : 'text-deep-night/80 border-deep-night/20 hover:border-vibe-pink hover:text-vibe-pink'
-        }`}
-      >
-        <Globe className="w-3.5 h-3.5" />
-        {currentLangLabel}
-        <ChevronDown className={`w-3 h-3 transition-transform ${langOpen ? 'rotate-180' : ''}`} />
-      </button>
-      {langOpen && (
-        <ul
-          role="listbox"
-          aria-label="Language"
-          className={`absolute right-0 top-full mt-2 min-w-[180px] py-1 rounded-lg shadow-xl z-50 max-h-[80vh] overflow-y-auto border ${
-            dark
-              ? 'bg-deep-night/95 backdrop-blur-md border-white/15'
-              : 'bg-cream backdrop-blur-md border-deep-night/15'
-          }`}
-        >
-          {ALL_LANGS.map((item) => {
-            const isActive = item.code === lang
-            return (
-              <li key={item.code} role="option" aria-selected={isActive}>
-                <button
-                  type="button"
-                  onClick={() => { switchTo(item.code); setLangOpen(false) }}
-                  aria-current={isActive ? 'page' : undefined}
-                  className={`w-full flex items-center gap-2 px-3 py-2 text-left text-sm transition-colors ${
-                    isActive
-                      ? 'bg-vibe-pink/15 text-vibe-pink font-semibold'
-                      : dark
-                        ? 'text-snow/85 hover:bg-white/5 hover:text-snow'
-                        : 'text-deep-night/85 hover:bg-vibe-pink/5 hover:text-vibe-pink'
-                  }`}
-                >
-                  <span className="w-8 font-semibold text-xs tracking-wider">{item.label}</span>
-                  <span>{item.native}</span>
-                </button>
-              </li>
-            )
-          })}
-        </ul>
-      )}
+    <div className="relative">
+      <LanguageSwitcher tone={dark ? 'dark' : 'light'} />
     </div>
   )
 
@@ -191,19 +93,7 @@ export default function Nav() {
 
           <div className="xl:hidden flex items-center gap-2">
             <div className="relative inline-flex items-center">
-              <select
-                value={lang}
-                onChange={(e) => switchTo(e.target.value as LangCode)}
-                aria-label="Language"
-                className={`appearance-none bg-transparent border rounded pl-2 pr-6 py-1 text-xs font-semibold uppercase ${opaque ? 'border-deep-night/30 text-deep-night' : 'border-snow/40 text-snow'}`}
-              >
-                {ALL_LANGS.map((l) => (
-                  <option key={l.code} value={l.code} className="bg-cream text-deep-night">
-                    {l.label}
-                  </option>
-                ))}
-              </select>
-              <ChevronDown aria-hidden="true" className={`pointer-events-none absolute right-2 top-1/2 -translate-y-1/2 w-3 h-3 ${opaque ? 'text-deep-night' : 'text-snow'}`} />
+              <LanguageSwitcher tone={opaque ? 'light' : 'dark'} />
             </div>
             <button
               className={`p-2.5 rounded-lg transition-colors ${opaque ? 'text-deep-night' : 'text-snow'}`}
