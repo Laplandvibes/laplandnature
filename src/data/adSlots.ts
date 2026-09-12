@@ -147,6 +147,113 @@ const bearKuusamo: Partner = {
   },
 }
 
+/**
+ * Aurora Holidays (Utsjoki) — ILMAISPAIKKA 2/10, luvattu kirjallisesti Tiina
+ * Länsmanille 9.8.2026: "Saatte saman kuin maksavat kumppanit: oman
+ * esittelyartikkelin ja mainospaikan verkoston sivustolle 12 kielellä,
+ * kaudeksi 1.11.2026–31.10.2027."
+ *
+ * 🔴 Paikka valittiin KONTEKSTIN eikä näyttömäärän mukaan (CLAUDE.md): Aurora on
+ * revontuliopas Utsjoella, joten kalastus ja luonto ovat hänen kesätuotteensa. Sama kumppani on myös hubin /northern-lights-sivulla.
+ *
+ * 🔴 Tekstit on GENEROITU tiedostoista laplandvibes/src/locales/<kieli>/
+ * aurora-holidays.json (brandCard-lohko), jotka ovat Tiinan hyväksymästä
+ * artikkelista. Älä kirjoita niitä käsin uusiksi: kaksi tekstiä = kaksi totuutta.
+ * Generaattori: _gen_aurora_partner.py repon juuressa.
+ *
+ * 🔴 logoSrc on kumppanin oma merkki, jolla on OMA vihreä gradienttitausta ja
+ * valkoinen muste. Se toimii valkoisella chipillä sellaisenaan — älä anna tähän
+ * -white-versiota äläkä väritä merkkiä uusiksi.
+ */
+const auroraHolidays: Partner = {
+  name: 'Aurora Holidays',
+  tagline: 'Revontulet, harjus ja mökki Tenon rannalla Utsjoella',
+  taglineEn: 'Aurora, grayling and a cabin on the Teno in Utsjoki',
+  taglineSv: 'Norrsken, harr och en stuga vid Teno i Utsjoki',
+  description: 'Saamelainen perheyritys Tenon rannalla Utsjoella. Opastetut revontuliretket syyskuusta huhtikuulle ja harjuskalastus läpi kesän.',
+  descriptionEn: 'A Sámi-owned family business on the bank of the Teno in Utsjoki, guiding aurora outings from September to April and grayling fishing through the summer.',
+  descriptionSv: 'Ett samiskt familjeföretag vid Tenos strand i Utsjoki, med guidade norrskensturer från september till april och harrfiske hela sommaren.',
+  url: 'https://auroraholidays.net/?utm_source=laplandvibes&utm_medium=referral&utm_campaign=aurora-holidays-2026&utm_content=nature_card_b',
+  urlFi: 'https://auroraholidays.net/fi/etusivu/?utm_source=laplandvibes&utm_medium=referral&utm_campaign=aurora-holidays-2026&utm_content=nature_card_b',
+  imageSrc: '/images/partners/auroraholidays-hero.webp',
+  logoSrc: '/images/partners/auroraholidays.png',
+  logoAlt: 'Aurora Holidays',
+  ctaLabel: 'Tutustu yritykseen',
+  ctaLabelEn: 'Visit their site',
+  ctaLabelSv: 'Besök deras sajt',
+  articleUrl: 'https://laplandvibes.com/fi/blog/aurora-holidays/',
+  articleUrlEn: 'https://laplandvibes.com/blog/aurora-holidays/',
+  articleUrlSv: 'https://laplandvibes.com/sv/blog/aurora-holidays/',
+  articleLabel: 'Lue juttu',
+  articleLabelEn: 'Read the article',
+  articleLabelSv: 'Läs artikeln',
+  i18n: {
+    de: {
+      tagline: 'Polarlicht, Äsche und eine Hütte am Teno in Utsjoki',
+      description: 'Ein samisch geführter Familienbetrieb am Ufer des Teno in Utsjoki: geführte Polarlichtausfahrten von September bis April und Äschenangeln den ganzen Sommer.',
+      cta: 'Zur Website',
+      articleLabel: 'Artikel lesen',
+      articleUrl: 'https://laplandvibes.com/de/blog/aurora-holidays/',
+    },
+    fr: {
+      tagline: 'Aurores, ombres et un chalet au bord du Teno à Utsjoki',
+      description: 'Une entreprise familiale sâme au bord du Teno à Utsjoki : sorties guidées sous les aurores de septembre à avril et pêche à l\'ombre tout l\'été.',
+      cta: 'Voir leur site',
+      articleLabel: 'Lire l\'article',
+      articleUrl: 'https://laplandvibes.com/fr/blog/aurora-holidays/',
+    },
+    it: {
+      tagline: 'Aurore, temoli e una casetta sul Teno a Utsjoki',
+      description: 'Un\'impresa familiare sami sulla riva del Teno a Utsjoki: uscite guidate sotto l\'aurora da settembre ad aprile e pesca al temolo per tutta l\'estate.',
+      cta: 'Visita il loro sito',
+      articleLabel: 'Leggi l\'articolo',
+      articleUrl: 'https://laplandvibes.com/it/blog/aurora-holidays/',
+    },
+    es: {
+      tagline: 'Auroras, tímalos y una cabaña junto al Teno en Utsjoki',
+      description: 'Empresa familiar sami a la orilla del Teno, en Utsjoki: salidas guiadas de auroras de septiembre a abril y pesca de tímalo todo el verano.',
+      cta: 'Visita su web',
+      articleLabel: 'Leer el artículo',
+      articleUrl: 'https://laplandvibes.com/es/blog/aurora-holidays/',
+    },
+    nl: {
+      tagline: 'Noorderlicht, vlagzalm en een huisje aan de Teno in Utsjoki',
+      description: 'Een Samisch familiebedrijf aan de oever van de Teno in Utsjoki: begeleide noorderlichttochten van september tot april en vlagzalmvissen de hele zomer.',
+      cta: 'Bekijk hun site',
+      articleLabel: 'Lees het artikel',
+      articleUrl: 'https://laplandvibes.com/nl/blog/aurora-holidays/',
+    },
+    pt: {
+      tagline: 'Auroras, tímalos e uma cabana no Teno, em Utsjoki',
+      description: 'Empresa familiar sámi às margens do Teno, em Utsjoki: saídas guiadas de aurora de setembro a abril e pesca de tímalo durante todo o verão.',
+      cta: 'Visite o site deles',
+      articleLabel: 'Leia o artigo',
+      articleUrl: 'https://laplandvibes.com/br/blog/aurora-holidays/',
+    },
+    ja: {
+      tagline: 'オーロラ、カワヒメマス、そしてテノ川のコテージ',
+      description: 'ウツヨキのテノ川のほとりにあるサーミの家族経営。9月から4月はガイド付きのオーロラツアー、夏のあいだはカワヒメマス釣りを案内しています。',
+      cta: '公式サイトを見る',
+      articleLabel: '記事を読む',
+      articleUrl: 'https://laplandvibes.com/ja/blog/aurora-holidays/',
+    },
+    ko: {
+      tagline: '오로라, 사루기, 그리고 테노강 가의 오두막',
+      description: '웃스요키 테노강 가의 사미족 가족 기업. 9월부터 4월까지 가이드 오로라 투어를, 여름 내내 사루기 낚시를 안내합니다.',
+      cta: '공식 사이트 보기',
+      articleLabel: '기사 읽기',
+      articleUrl: 'https://laplandvibes.com/kr/blog/aurora-holidays/',
+    },
+    zh: {
+      tagline: '极光、茴鱼，以及乌茨约基泰诺河畔的小屋',
+      description: '乌茨约基泰诺河畔的萨米家族企业：九月到四月提供有向导的极光出行，整个夏天带客人钓茴鱼。',
+      cta: '访问他们的网站',
+      articleLabel: '阅读专题',
+      articleUrl: 'https://laplandvibes.com/cn/blog/aurora-holidays/',
+    },
+  },
+};
+
 export const AD_SLOTS: HomeAdSlotsConfig = {
   siteSlug: 'laplandnature',
   // [0] = pääkumppani (banneri heti heron alla), [1] = kakkospääkumppani (kortti)
@@ -154,7 +261,7 @@ export const AD_SLOTS: HomeAdSlotsConfig = {
   // Etusivun kortit: [0]=A (vasen), [1]=B (oikea). `cards` ohittaa `sponsors`in
   // HomeAdSlotsissa mutta EI vaikuta MainPartnerBanneriin (se lukee mainPartner
   // ?? sponsors[0]) → pääkumppanipaikka jää edelleen myytäväksi.
-  cards: [bearKuusamo, null],
+  cards: [bearKuusamo, auroraHolidays],
   // 6 kohdekohtaista premium-paikkaa (Rovaniemi, Levi, Ylläs, Saariselkä, Kittilä, Inari)
   spots: DEFAULT_PREMIUM_SPOTS,
 }
