@@ -175,7 +175,7 @@ export default function HeroImage({
             {eyebrow}
           </p>
         )}
-        <h1 className={`font-heading ${size === 'xl' ? 'text-5xl sm:text-6xl md:text-7xl lg:text-8xl' : 'text-5xl sm:text-6xl md:text-7xl'} text-snow tracking-wider leading-[0.95] mb-4 drop-shadow-[0_2px_16px_rgba(0,0,0,0.9)]`}>
+        <h1 className={`font-heading ${size === 'xl' ? 'text-5xl sm:text-6xl md:text-7xl lg:text-8xl' : 'text-5xl sm:text-6xl md:text-7xl'} text-snow xl:text-[clamp(96px,1.5vw_+_76.8px,115.2px)] tracking-wider leading-[0.95] mb-4 drop-shadow-[0_2px_16px_rgba(0,0,0,0.9)]`}>
           {title}
           {subtitle && (
             <span
