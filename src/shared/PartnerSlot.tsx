@@ -494,7 +494,7 @@ export default function PartnerSlot({ partner, variant, locale, className, place
                 {description}
               </p>
             )}
-            <div className={['flex flex-wrap items-center gap-x-5 gap-y-3', layout === 'wide' ? '' : 'mt-auto'].join(' ')}>
+            <div className={[layout === 'wide' ? 'flex flex-wrap items-center gap-x-5 gap-y-3' : 'mt-auto flex flex-col items-start gap-3'].join(' ')}>
               {/* CTA. Renderöityy vain kun kumppanille on annettu ctaLabel —
                   vanhat kumppanit ilman sitä säilyttävät entisen ulkoasunsa. */}
               {cta && (
