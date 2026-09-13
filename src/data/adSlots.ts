@@ -46,9 +46,9 @@ const bearKuusamo: Partner = {
   // CTA on pakollinen myydylle paikalle: ilman sitä viereinen tyhjä
   // "Varaa mainospaikka" -house-ad näyttää houkuttelevammalta kuin maksava
   // asiakas (Vesa 2026-07-27). Tekstit ovat Niinan hyväksymiä.
-  ctaLabel: 'Varaa yösi',
-  ctaLabelEn: 'Plan your night',
-  ctaLabelSv: 'Boka din natt',
+  ctaLabel: 'Varaa yökatselusi',
+  ctaLabelEn: 'Book your bear watching',
+  ctaLabelSv: 'Boka din björnskådning',
   accent: '#007E2E', // Bear Kuusamon brändivihreä
   // Pidempi kuvaus näkyy vain desktopissa (sm+). Sama hyväksytty teksti kuin
   // AdUnitin `sub` shared/ads/advertisers/bearkuusamo.ts:ssä.
@@ -75,7 +75,7 @@ const bearKuusamo: Partner = {
     de: {
       tagline: 'Eine Nacht im Bärenversteck, am Rand Lapplands',
       description: 'Kuusamos ursprüngliche Bärenführer, über zwanzig Jahre in den Wäldern an der Ostgrenze. Beobachte wilde Braunbären, Vielfraße und Seeadler aus einem Fotoversteck.',
-      cta: 'Planen Sie Ihre Nacht',
+      cta: 'Bärenbeobachtung buchen',
       articleLabel: 'Artikel lesen',
       articleUrl: 'https://laplandvibes.com/de/blog/bear-kuusamo/',
       url: 'https://go.laplandvibes.com/go/bearkuusamo?sid=home_card_a&dest=https%3A%2F%2Fbearkuusamo.com%2Fde%2F',
@@ -83,7 +83,7 @@ const bearKuusamo: Partner = {
     fr: {
       tagline: 'Une nuit dans un affût à ours, en lisière de Laponie',
       description: "Les guides ours originels de Kuusamo, plus de vingt ans dans les forêts de la frontière est. Observez ours bruns sauvages, gloutons et pygargues depuis un affût photo.",
-      cta: 'Planifiez votre nuit',
+      cta: 'Réservez l\'observation des ours',
       articleLabel: "Lire l'article",
       articleUrl: 'https://laplandvibes.com/fr/blog/bear-kuusamo/',
       url: 'https://go.laplandvibes.com/go/bearkuusamo?sid=home_card_a&dest=https%3A%2F%2Fbearkuusamo.com%2Ffr%2F',
@@ -91,7 +91,7 @@ const bearKuusamo: Partner = {
     es: {
       tagline: 'Una noche en un escondite de osos, al borde de Laponia',
       description: 'Los guías de osos originales de Kuusamo, más de veinte años en los bosques de la frontera oriental. Observa osos pardos salvajes, glotones y pigargos desde un escondite fotográfico.',
-      cta: 'Planifique su noche',
+      cta: 'Reserve su observación de osos',
       articleLabel: 'Leer el artículo',
       articleUrl: 'https://laplandvibes.com/es/blog/bear-kuusamo/',
       url: 'https://go.laplandvibes.com/go/bearkuusamo?sid=home_card_a&dest=https%3A%2F%2Fbearkuusamo.com%2Fes%2F',
@@ -99,7 +99,7 @@ const bearKuusamo: Partner = {
     it: {
       tagline: 'Una notte in un capanno degli orsi, ai margini della Lapponia',
       description: "Le guide originali di Kuusamo, oltre vent'anni nelle foreste del confine orientale. Osserva orsi bruni selvatici, ghiottoni e aquile di mare da un capanno fotografico.",
-      cta: 'Pianifichi la Sua notte',
+      cta: 'Prenoti l\'osservazione degli orsi',
       articleLabel: "Leggi l'articolo",
       articleUrl: 'https://laplandvibes.com/it/blog/bear-kuusamo/',
       url: 'https://go.laplandvibes.com/go/bearkuusamo?sid=home_card_a&dest=https%3A%2F%2Fbearkuusamo.com%2Fit%2F',
@@ -107,7 +107,7 @@ const bearKuusamo: Partner = {
     nl: {
       tagline: 'Een nacht in een berenhut, aan de rand van Lapland',
       description: 'De oorspronkelijke berengidsen van Kuusamo, ruim twintig jaar in de bossen aan de oostgrens. Bekijk wilde bruine beren, veelvraten en zeearenden vanuit een fotohut.',
-      cta: 'Plan uw nacht',
+      cta: 'Boek uw berenobservatie',
       articleLabel: 'Lees het artikel',
       articleUrl: 'https://laplandvibes.com/nl/blog/bear-kuusamo/',
       url: 'https://go.laplandvibes.com/go/bearkuusamo?sid=home_card_a&dest=https%3A%2F%2Fbearkuusamo.com%2Fnl%2F',
@@ -115,7 +115,7 @@ const bearKuusamo: Partner = {
     ja: {
       tagline: 'クマのブラインドで過ごす一夜、ラップランドの縁で',
       description: 'クーサモで最も歴史あるクマ観察ガイド。東の国境の森で20年以上。フォトブラインドから野生のヒグマ、クズリ、オジロワシを観察できます。',
-      cta: '夜を予約する',
+      cta: 'クマ観察を予約する',
       articleLabel: '記事を読む',
       articleUrl: 'https://laplandvibes.com/ja/blog/bear-kuusamo/',
       url: 'https://go.laplandvibes.com/go/bearkuusamo?sid=home_card_a',
@@ -123,7 +123,7 @@ const bearKuusamo: Partner = {
     ko: {
       tagline: '곰 은신처에서의 하룻밤, 라플란드 가장자리에서',
       description: '쿠사모에서 가장 오래된 곰 관찰 가이드. 동쪽 국경의 숲에서 20년 이상. 사진 은신처에서 야생 불곰, 울버린, 흰꼬리수리를 관찰하세요.',
-      cta: '하룻밤 계획하기',
+      cta: '곰 관찰 예약하기',
       articleLabel: '기사 읽기',
       articleUrl: 'https://laplandvibes.com/kr/blog/bear-kuusamo/',
       url: 'https://go.laplandvibes.com/go/bearkuusamo?sid=home_card_a',
@@ -131,7 +131,7 @@ const bearKuusamo: Partner = {
     pt: {
       tagline: 'Uma noite em um esconderijo de ursos, na borda da Lapônia',
       description: 'Os guias de ursos originais de Kuusamo, mais de vinte anos nas florestas da fronteira leste. Observe ursos-pardos selvagens, carcajus e águias-rabalvas de um esconderijo fotográfico.',
-      cta: 'Planeje sua noite',
+      cta: 'Reserve sua observação de ursos',
       articleLabel: 'Leia o artigo',
       articleUrl: 'https://laplandvibes.com/br/blog/bear-kuusamo/',
       url: 'https://go.laplandvibes.com/go/bearkuusamo?sid=home_card_a',
@@ -139,7 +139,7 @@ const bearKuusamo: Partner = {
     zh: {
       tagline: '在熊隐蔽屋度过一夜，拉普兰边缘',
       description: '库萨莫历史最悠久的观熊向导，在东部边境森林已超过二十年。从摄影隐蔽屋观察野生棕熊、貂熊和白尾海雕。',
-      cta: '规划你的观熊之夜',
+      cta: '预订观熊之夜',
       articleLabel: '阅读专题',
       articleUrl: 'https://laplandvibes.com/cn/blog/bear-kuusamo/',
       url: 'https://go.laplandvibes.com/go/bearkuusamo?sid=home_card_a',
