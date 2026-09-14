@@ -62,7 +62,7 @@ export default function Nav() {
         <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16">
           <div className="flex items-center gap-3 sm:gap-5 shrink-0">
             <EcosystemMenu lang={lang} currentDomain="laplandnature.com" variant={opaque ? 'light' : 'dark'} />
-            <Link to={to('/')} className="flex items-center shrink-0" aria-label="LaplandNature home">
+            <Link to={to('/')} className="flex items-center shrink-0 min-h-11" aria-label="LaplandNature home">
               <Logo variant={logoVariant} size="md" />
             </Link>
           </div>
@@ -96,7 +96,7 @@ export default function Nav() {
               <LanguageSwitcher tone={opaque ? 'light' : 'dark'} />
             </div>
             <button
-              className={`p-2.5 rounded-lg transition-colors ${opaque ? 'text-deep-night' : 'text-snow'}`}
+              className={`inline-flex items-center justify-center min-h-11 min-w-11 p-2.5 rounded-lg transition-colors ${opaque ? 'text-deep-night' : 'text-snow'}`}
               onClick={() => setOpen(!open)}
               aria-label="Toggle menu"
               aria-expanded={open}

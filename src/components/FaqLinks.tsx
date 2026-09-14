@@ -37,7 +37,7 @@ export default function FaqLinks({ keys }: { keys?: FaqNavKey[] }) {
         <Link
           key={k}
           to={to(FAQ_ROUTE[k])}
-          className="inline-flex items-center gap-1.5 text-xs sm:text-sm font-semibold uppercase tracking-wider text-aurora-green hover:text-vibe-pink transition-colors"
+          className="lv-tap inline-flex items-center gap-1.5 text-xs sm:text-sm font-semibold uppercase tracking-wider text-aurora-green hover:text-vibe-pink transition-colors"
         >
           {COPY[lang].nav[k]} <ArrowRight className="w-3.5 h-3.5 shrink-0" />
         </Link>
