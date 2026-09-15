@@ -92,6 +92,45 @@ export interface AdSpec {
   copy: Partial<Record<AdLang, AdCopy>>
 }
 
+/* ── Musteen luettavuus tummalla kortilla ─────────────────────────────────
+ * 🔴 2026-09-15 (Vesa, skiresorts /conditions): "icebug mainokset tekstit ei näy".
+ * Tumma variantti käytti mainostajan omaa `accent`-väriä musteena. Se toimii
+ * vaaleilla korteilla, mutta tummalla lasilla (~#141C2C) mustavalkoisen brändin
+ * accent (#404040) on 1,4:1 ja tumma petroli (#0F766E) 1,9:1 — teksti katoaa.
+ * `inkOn()` vaalentaa tunnusvärin kohti valkoista vain sen verran, että se
+ * ylittää annetun kontrastin: brändin sävy säilyy, teksti luetaan.
+ * Vaaleaa varianttia EI kosketa — se on mitattu kunnossa (audit_partner_logos). */
+const DARK_CARD_RGB: [number, number, number] = [20, 28, 44]
+
+function hexToRgb(hex: string): [number, number, number] {
+  const h = hex.replace('#', '')
+  const v = h.length === 3 ? h.split('').map((c) => c + c).join('') : h
+  return [parseInt(v.slice(0, 2), 16), parseInt(v.slice(2, 4), 16), parseInt(v.slice(4, 6), 16)]
+}
+const toHex = (rgb: [number, number, number]) =>
+  '#' + rgb.map((n) => Math.round(Math.min(255, Math.max(0, n))).toString(16).padStart(2, '0')).join('')
+function relLum([r, g, b]: [number, number, number]) {
+  const f = (c: number) => { const x = c / 255; return x <= 0.03928 ? x / 12.92 : Math.pow((x + 0.055) / 1.055, 2.4) }
+  return 0.2126 * f(r) + 0.7152 * f(g) + 0.0722 * f(b)
+}
+function contrast(a: [number, number, number], b: [number, number, number]) {
+  const l1 = relLum(a), l2 = relLum(b)
+  return (Math.max(l1, l2) + 0.05) / (Math.min(l1, l2) + 0.05)
+}
+/** Vaalentaa `hex`:iä kohti valkoista kunnes kontrasti `bg`:tä vasten ylittää `min`. */
+function inkOn(hex: string, bg: [number, number, number], min = 4.5): string {
+  const base = hexToRgb(hex)
+  if (contrast(base, bg) >= min) return hex
+  for (let t = 0.05; t <= 1; t += 0.05) {
+    const mix: [number, number, number] = [
+      base[0] + (255 - base[0]) * t, base[1] + (255 - base[1]) * t, base[2] + (255 - base[2]) * t,
+    ]
+    if (contrast(mix, bg) >= min) return toHex(mix)
+  }
+  return '#F9FAFB'
+}
+const WHITE: [number, number, number] = [255, 255, 255]
+
 /** "Mainos / Ad" label — identical for every advertiser, so it lives here. */
 const AD_LABEL: Record<AdLang, string> = {
   en: 'Ad', fi: 'Mainos', de: 'Anzeige', ja: '広告', es: 'Anuncio',
@@ -143,6 +182,12 @@ export default function AdUnit({
   const Icon = spec.icon
   const href = spec.linkFor(sid, lang)
   const dark = variant === 'dark'
+  // Tunnusväri musteena vain jos se luetaan tältä pohjalta; muuten vaalennettu sävy.
+  const ink = dark ? inkOn(spec.accent, DARK_CARD_RGB, 4.5) : spec.accent
+  // Napin täyttö: valkoinen teksti vaatii 4,5:1. Jos brändiväri ei riitä, täyttö on
+  // vaalennettu sävy ja teksti tummaa — nappi ei saa kadota korttiin.
+  const ctaBg = !dark || contrast(WHITE, hexToRgb(spec.accent)) >= 4.5 ? spec.accent : ink
+  const ctaFg = contrast(WHITE, hexToRgb(ctaBg)) >= 4.5 ? '#FFFFFF' : '#0F172A'
   const logo = logoSrc ?? (dark && spec.logoDark ? spec.logoDark : spec.logo)
   const adLabel = AD_LABEL[lang] ?? AD_LABEL.en
   const photo = imageSrc ?? spec.image
@@ -201,13 +246,13 @@ export default function AdUnit({
           <div className="flex min-w-0 items-center gap-3">
             <span
               className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl"
-              style={{ background: `${spec.accent}${dark ? '26' : '14'}`, boxShadow: `inset 0 0 0 1px ${spec.accent}${dark ? '59' : '33'}` }}
+              style={{ background: `${ink}${dark ? '26' : '14'}`, boxShadow: `inset 0 0 0 1px ${ink}${dark ? '59' : '33'}` }}
             >
-              <Icon className="h-5 w-5" style={{ color: spec.accent }} aria-hidden="true" />
+              <Icon className="h-5 w-5" style={{ color: ink }} aria-hidden="true" />
             </span>
             <p
               className="text-xs font-semibold uppercase tracking-[0.2em]"
-              style={{ color: dark ? spec.accent : spec.accentDark }}
+              style={{ color: dark ? ink : spec.accentDark }}
             >
               {c.eyebrow}
             </p>
@@ -261,7 +306,7 @@ export default function AdUnit({
               className="flex items-center gap-2 text-sm"
               style={{ color: dark ? 'rgba(249,250,251,0.85)' : 'rgba(16,24,40,0.80)' }}
             >
-              <span className="h-1.5 w-1.5 rounded-full shrink-0" style={{ backgroundColor: spec.accent }} aria-hidden="true" />
+              <span className="h-1.5 w-1.5 rounded-full shrink-0" style={{ backgroundColor: ink }} aria-hidden="true" />
               <span>{point}</span>
             </li>
           ))}
@@ -273,8 +318,8 @@ export default function AdUnit({
             target="_blank"
             rel="sponsored nofollow noopener"
             onClick={() => onCtaClick?.(spec.key, sid, href)}
-            className="group inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 text-white font-semibold no-underline shadow-lg transition-all duration-200 hover:-translate-y-0.5 active:translate-y-0 whitespace-nowrap"
-            style={{ backgroundColor: spec.accent, boxShadow: `0 14px 30px -12px ${spec.accent}8C` }}
+            className="group inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 font-semibold no-underline shadow-lg transition-all duration-200 hover:-translate-y-0.5 active:translate-y-0 whitespace-nowrap"
+            style={{ backgroundColor: ctaBg, color: ctaFg, boxShadow: `0 14px 30px -12px ${ctaBg}8C` }}
           >
             {c.cta}
             <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" aria-hidden="true" />
@@ -313,8 +358,8 @@ export default function AdUnit({
       <span
         className="absolute bottom-3.5 right-4 z-10 inline-flex items-center rounded-full px-2.5 py-0.5 text-[10px] font-semibold uppercase tracking-[0.16em]"
         style={{
-          background: `${spec.accent}${dark ? '2E' : '14'}`,
-          color: dark ? spec.accent : spec.accentDark,
+          background: `${ink}${dark ? '2E' : '14'}`,
+          color: dark ? ink : spec.accentDark,
         }}
       >
         {adLabel}
