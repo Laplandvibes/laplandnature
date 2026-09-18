@@ -253,7 +253,7 @@ export default function Newsletter() {
                 <span>
                   {consentCopy.checkbox}{' '}
                   <a
-                    href={to('/privacy')}
+                    href={to('/privacy/')}
                     className="underline hover:text-white"
                   >
                     {consentCopy.privacy}
@@ -272,7 +272,7 @@ export default function Newsletter() {
 
           <p className="text-white/75 text-xs mt-5">
             {c.footnote}{' '}
-            <a href={to('/privacy')} className="underline hover:text-white">{c.privacyLink}</a>.
+            <a href={to('/privacy/')} className="underline hover:text-white">{c.privacyLink}</a>.
           </p>
         </div>
       </div>

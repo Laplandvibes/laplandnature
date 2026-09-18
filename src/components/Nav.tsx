@@ -7,6 +7,9 @@ import { COPY } from '../locales/copy'
 import EcosystemMenu from '../shared/EcosystemMenu'
 import LanguageSwitcher from '../i18n/LanguageSwitcher'
 
+/** Sama sivu loppukauttaviivasta riippumatta: sisääntulo on `/x/`, linkki voi olla `/x` (18.9.2026). */
+const samePath = (a: string, b: string) => a.replace(/\/+$/, '') === b.replace(/\/+$/, '')
+
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false)
   const [open, setOpen] = useState(false)
@@ -35,7 +38,7 @@ export default function Nav() {
   useEffect(() => { setOpen(false) }, [location.pathname])
 
 
-  const isHome = location.pathname === '/' || location.pathname === '/fi' || location.pathname === '/de'
+  const isHome = samePath(location.pathname, '/') || samePath(location.pathname, '/fi') || samePath(location.pathname, '/de')
   // On Home: transparent over Hero gradient, switches to opaque on scroll.
   // Other pages: opaque immediately so the cream page bg has a clear nav band.
   const opaque = scrolled || !isHome
@@ -69,7 +72,7 @@ export default function Nav() {
 
           <div className="hidden xl:flex items-center gap-0.5">
             {links.map((l) => {
-              const active = location.pathname === l.href
+              const active = samePath(location.pathname, l.href)
               return (
                 <Link
                   key={l.href}
@@ -111,7 +114,7 @@ export default function Nav() {
         <div className="xl:hidden fixed inset-0 z-40 pt-16 bg-cream overflow-y-auto">
           <div className="flex flex-col p-5 gap-1">
             {links.map((l) => {
-              const active = location.pathname === l.href
+              const active = samePath(location.pathname, l.href)
               return (
                 <Link
                   key={l.href}
