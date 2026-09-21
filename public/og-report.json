@@ -1,24 +1,25 @@
 {
-  "version": "20260905",
+  "version": "20260921",
   "domain": "laplandnature.com",
   "brand": "NATURE",
   "tagline": "Aurora, national parks and wildlife",
-  "generated": "2026-09-21T08:31:06.428Z",
+  "generated": "2026-09-21T11:35:29.492Z",
   "staticFallbackSeason": "summer",
   "seasons": {
     "summer": {
+      "tagline": "National parks, hikes and wildlife",
       "heroUrl": "https://laplandnature.com/images/hero-home.webp?v=7c363054",
       "heroAlt": "Snow-covered arctic wilderness and fells in Finnish Lapland",
       "heroSha": "7c363054fba61695",
-      "bytes": 207959,
-      "sha256": "b2c6d60dce2b34776db44b61e70ab10ec0c5496b07f79993c51d72b4b907093b",
+      "bytes": 207810,
+      "sha256": "c2b3744ed12398b9a7994e7dde868183c27217794a4bc9e8ddd79a3a067ac956",
       "bandH": 168,
       "photoPct": 73.3,
-      "ink": 16962,
+      "ink": 16973,
       "inkBox": [
-        366,
+        376,
         494,
-        833,
+        824,
         603
       ],
       "safe": true,
@@ -36,7 +37,7 @@
         "size": 74,
         "lines": 1,
         "ts": 30,
-        "tagW": 469,
+        "tagW": 451,
         "fits": true,
         "bandH": 168
       },
@@ -45,6 +46,7 @@
       "errors": []
     },
     "winter": {
+      "tagline": "Aurora, national parks and wildlife",
       "heroUrl": "https://laplandnature.com/images/hero-home-winter.webp?v=5463812e",
       "heroAlt": "Snow-covered arctic wilderness and fells in Finnish Lapland",
       "heroSha": "5463812e2971ac76",
