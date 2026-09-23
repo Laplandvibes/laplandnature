@@ -1,4 +1,5 @@
 import SharedNewsletterPopup from '../shared/NewsletterPopup'
+import { POPUP_THEME, POPUP_COPY } from './newsletterPopupSite'
 import { trackNewsletterSignup } from '../lib/analytics'
 import { useLang } from '../i18n/useLang'
 
@@ -16,6 +17,8 @@ export default function NewsletterPopup() {
   const langRaw = useLang();
   return (
     <SharedNewsletterPopup
+theme={POPUP_THEME}
+copy={POPUP_COPY}
 lang={langRaw as 'en' | 'fi' | 'de' | 'ja' | 'es' | 'pt-BR' | 'zh-CN' | 'ko' | 'fr' | 'it' | 'nl' | 'sv'}
             siteId="laplandnature"
       brandWord="NATURE"
