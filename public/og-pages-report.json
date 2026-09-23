@@ -1,0 +1,326 @@
+{
+  "northern-lights": {
+    "route": "/northern-lights",
+    "line": "Aurora forecasts, spots and camera tips",
+    "kaudet": {
+      "summer": {
+        "hero": "/images/hero-northern-lights.webp",
+        "bytes": 139011,
+        "sha256": "0331ee8965ac33b3f4a86ed69d6b7adb1fe62fc13cf2d631747a00bbf22c2786",
+        "heroSha": "04385aac1e5596fc",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 17593,
+        "inkBox": [
+          321,
+          494,
+          878,
+          603
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 72.6,
+        "centerSq": 77.2,
+        "photoRegion": 85.2,
+        "photoRegionRef": 85.2,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 560,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": []
+      },
+      "winter": {
+        "hero": "/images/hero-northern-lights.webp",
+        "bytes": 139011,
+        "sha256": "0331ee8965ac33b3f4a86ed69d6b7adb1fe62fc13cf2d631747a00bbf22c2786",
+        "heroSha": "04385aac1e5596fc",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 17593,
+        "inkBox": [
+          321,
+          494,
+          878,
+          603
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 72.6,
+        "centerSq": 77.2,
+        "photoRegion": 85.2,
+        "photoRegionRef": 85.2,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 560,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": [],
+        "samaKuinKesa": true
+      }
+    }
+  },
+  "national-parks": {
+    "route": "/national-parks",
+    "line": "Fell parks, gorges and wilderness huts",
+    "kaudet": {
+      "summer": {
+        "hero": "/images/hero-national-parks.webp",
+        "bytes": 226016,
+        "sha256": "db9aa09cc51147d4666a3b0198fd90719a8e7fb6bd88e837835c8ba391ed5aa1",
+        "heroSha": "bf91c9a67eed38eb",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 17594,
+        "inkBox": [
+          338,
+          494,
+          861,
+          603
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 111.7,
+        "centerSq": 108.6,
+        "photoRegion": 138.5,
+        "photoRegionRef": 138.5,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 526,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": []
+      },
+      "winter": {
+        "hero": "/images/hero-national-parks.webp",
+        "bytes": 226016,
+        "sha256": "db9aa09cc51147d4666a3b0198fd90719a8e7fb6bd88e837835c8ba391ed5aa1",
+        "heroSha": "bf91c9a67eed38eb",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 17594,
+        "inkBox": [
+          338,
+          494,
+          861,
+          603
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 111.7,
+        "centerSq": 108.6,
+        "photoRegion": 138.5,
+        "photoRegionRef": 138.5,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 526,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": [],
+        "samaKuinKesa": true
+      }
+    }
+  },
+  "wildlife": {
+    "route": "/wildlife",
+    "line": "Reindeer, bears, wolverines and foxes",
+    "kaudet": {
+      "summer": {
+        "hero": "/images/hero-wildlife.webp",
+        "bytes": 181858,
+        "sha256": "6296617a31a64ef452eae26c37d2c600fc7abaaad0f7a2df89b2734b64d1a3e8",
+        "heroSha": "d176cdaddc4210cc",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 17378,
+        "inkBox": [
+          342,
+          494,
+          858,
+          600
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 85,
+        "centerSq": 89.1,
+        "photoRegion": 102.2,
+        "photoRegionRef": 102.2,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 520,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": []
+      },
+      "winter": {
+        "hero": "/images/hero-wildlife.webp",
+        "bytes": 181858,
+        "sha256": "6296617a31a64ef452eae26c37d2c600fc7abaaad0f7a2df89b2734b64d1a3e8",
+        "heroSha": "d176cdaddc4210cc",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 17378,
+        "inkBox": [
+          342,
+          494,
+          858,
+          600
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 85,
+        "centerSq": 89.1,
+        "photoRegion": 102.2,
+        "photoRegionRef": 102.2,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 520,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": [],
+        "samaKuinKesa": true
+      }
+    }
+  },
+  "bear-kuusamo": {
+    "route": "/bear-kuusamo",
+    "line": "Watching wild bears from a hide",
+    "kaudet": {
+      "summer": {
+        "hero": "/images/hero-bear-kuusamo.webp",
+        "bytes": 133977,
+        "sha256": "c4b9e547ff269857a2f0c511e907ba9d785e4c120280625d67d1abc56349ee9a",
+        "heroSha": "619c9924fcc9324c",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 16849,
+        "inkBox": [
+          376,
+          494,
+          823,
+          603
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 119.7,
+        "centerSq": 118.6,
+        "photoRegion": 149.7,
+        "photoRegionRef": 149.7,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 449,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": []
+      },
+      "winter": {
+        "hero": "/images/hero-bear-kuusamo.webp",
+        "bytes": 133977,
+        "sha256": "c4b9e547ff269857a2f0c511e907ba9d785e4c120280625d67d1abc56349ee9a",
+        "heroSha": "619c9924fcc9324c",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 16849,
+        "inkBox": [
+          376,
+          494,
+          823,
+          603
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 119.7,
+        "centerSq": 118.6,
+        "photoRegion": 149.7,
+        "photoRegionRef": 149.7,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 449,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": [],
+        "samaKuinKesa": true
+      }
+    }
+  }
+}

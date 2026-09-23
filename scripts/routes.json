@@ -8,20 +8,41 @@
   },
   {
     "path": "/northern-lights",
-    "fallbackTitle": "Northern Lights"
+    "fallbackTitle": "Northern Lights",
+    "ogImage": "/og/northern-lights.jpg",
+    "ogCard": {
+      "hero": "/images/hero-northern-lights.webp",
+      "line": "Aurora forecasts, spots and camera tips"
+    }
   },
   {
     "path": "/national-parks",
-    "fallbackTitle": "National Parks"
+    "fallbackTitle": "National Parks",
+    "ogImage": "/og/national-parks.jpg",
+    "ogCard": {
+      "hero": "/images/hero-national-parks.webp",
+      "line": "Fell parks, gorges and wilderness huts"
+    }
   },
   {
     "path": "/wildlife",
-    "fallbackTitle": "Wildlife"
+    "fallbackTitle": "Wildlife",
+    "ogImage": "/og/wildlife.jpg",
+    "ogCard": {
+      "hero": "/images/hero-wildlife.webp",
+      "line": "Reindeer, bears, wolverines and foxes"
+    }
   },
   {
     "path": "/bear-kuusamo",
     "fallbackTitle": "Bear Kuusamo: Ethical Bear Watching in Finland",
-    "copyKey": "bearKuusamo"
+    "copyKey": "bearKuusamo",
+    "ogImage": "/og/bear-kuusamo.jpg",
+    "ogCard": {
+      "hero": "/images/hero-bear-kuusamo.webp",
+      "line": "Watching wild bears from a hide",
+      "focus": "50% 85%"
+    }
   },
   {
     "path": "/seasons",
