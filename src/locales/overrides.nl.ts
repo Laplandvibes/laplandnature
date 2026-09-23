@@ -83,7 +83,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
     ],
   },
   home: {
-    metaTitle: 'Natuur van Lapland: parken en noorderlicht | LaplandNature',
+    metaTitle: 'Natuur van Lapland: parken en noorderlicht',
     metaDescription: 'De arctische natuur van Fins Lapland, zeven nationale parken, meer dan 200 nachten noorderlicht per jaar, kaamos (poolnacht) en wandelpaden van 5 tot 82 km.',
     hero: {
       alt: 'Besneeuwde arctische wildernis en fjälls in Fins Lapland',
@@ -154,7 +154,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
     },
   },
   northernLights: {
-    metaTitle: 'Noorderlicht in Lapland: waar & wanneer | LaplandNature',
+    metaTitle: 'Noorderlicht in Lapland: waar & wanneer',
     metaDescription: 'Waar u het noorderlicht ziet in Fins Lapland, Inari, Utsjoki, Kilpisjärvi en Enontekiö. Seizoen van september tot maart.',
     hero: {
       alt: 'Groen noorderlicht boven een besneeuwd bos in Fins Lapland',
@@ -220,7 +220,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
     },
   },
   nationalParks: {
-    metaTitle: 'Nationale parken van Lapland | LaplandNature',
+    metaTitle: 'Nationale parken van Lapland',
     metaDescription: 'Vijf van de nationale parken van Fins Lapland, Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi en Pyhä-Luosto.',
     hero: {
       alt: 'Open fjäll-landschap in een nationaal park in Fins Lapland onder een heldere hemel',
@@ -276,7 +276,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
     },
   },
   wildlife: {
-    metaTitle: 'Wilde dieren in Lapland: rendieren, beren | LaplandNature',
+    metaTitle: 'Wilde dieren in Lapland: rendieren, beren',
     metaDescription: 'Zes iconische arctische soorten in Fins Lapland, van 200.000 halfgedomesticeerde rendieren tot de ernstig bedreigde poolvos en de schuwe veelvraat.',
     hero: {
       alt: 'Een bruine beer in het boreale bos van Fins Lapland',
@@ -348,7 +348,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
     },
   },
   seasons: {
-    metaTitle: 'Vier seizoenen van Lapland | LaplandNature',
+    metaTitle: 'Vier seizoenen van Lapland',
     metaDescription: 'Elk seizoen boven de poolcirkel is een andere wereld, de herfstkleuren van de ruska, de poolnacht kaamos, de middernachtzon en het lentesneeuwvenster.',
     hero: {
       alt: 'Herfstkleuren van de ruska over een fjäll-landschap in Fins Lapland',
@@ -412,7 +412,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   hiking: {
     difficulties: { easy: 'Makkelijk', moderate: 'Gemiddeld', challenging: 'Uitdagend', demanding: 'Zwaar' },
-    metaTitle: 'Wandelpaden in Lapland: 5 tot 82 km | LaplandNature',
+    metaTitle: 'Wandelpaden in Lapland: 5 tot 82 km',
     metaDescription: 'Zes wandelpaden in Fins Lapland en omgeving, Hetta-Pallas (55 km), Karhunkierros (82 km), Halti, het hoogste punt van Finland (55 km) en drie kortere routes.',
     hero: {
       alt: 'Een wandelpad dat zich over een herfstkleurige fjäll in Fins Lapland slingert',
@@ -472,7 +472,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
     },
   },
   conservation: {
-    metaTitle: 'Natuurbehoud in Fins Lapland | LaplandNature',
+    metaTitle: 'Natuurbehoud in Fins Lapland',
     metaDescription: 'Metsähallitus beheert 85 % van de fjäll-gebieden in Lapland en alle zeven nationale parken. Plus SLL, WWF Finland en het Sami-parlement.',
     hero: {
       alt: 'Beschermd oerbos en fjälls in de wildernis van Fins Lapland',
@@ -534,7 +534,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
     ],
   },
   freshwater: {
-    metaTitle: 'Zoet water in Lapland: meren, rivieren, vis | LaplandNature',
+    metaTitle: 'Zoet water in Lapland: meren, rivieren, vis',
     metaDescription: 'Finland telt ongeveer 188.000 meren (SYKE). Lapland herbergt de schoonste, plus het ongereguleerde Tornio-Muonio, aapa-venen en bossen die het water koelen.',
     hero: {
       eyebrow: 'Pijlergids',
@@ -651,7 +651,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
     metaDescription: 'Welke cookies LaplandNature.com gebruikt, waarom, en hoe u ze beheert. AVG / ePrivacy-conforme cookieverklaringen van LaPeso Oy.',
   },
   bearKuusamo: {
-    metaTitle: 'Bear Kuusamo: ethisch beren kijken | LaplandNature',
+    metaTitle: 'Bear Kuusamo: ethisch beren kijken',
     metaDescription: 'Bear Kuusamo runt de oudste en noordelijkste berenhutten van Ruka–Kuusamo. Echt beren kijken aan de rand van Lapland, 1 mei tot 30 september.',
     partnership: 'Commerciële samenwerking · Bear Kuusamo',
     hero: {

@@ -83,7 +83,7 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
     ],
   },
   home: {
-    metaTitle: 'Naturaleza de Laponia: parques y aurora | LaplandNature',
+    metaTitle: 'Naturaleza de Laponia: parques y aurora',
     metaDescription: 'La naturaleza ártica de la Laponia finlandesa, siete parques nacionales, más de 200 noches de aurora boreal al año, kaamos (noche polar) y senderos de 5 a 82 km.',
     hero: {
       alt: 'Naturaleza ártica nevada y fjälls en la Laponia finlandesa',
@@ -189,7 +189,7 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
     },
   },
   northernLights: {
-    metaTitle: 'Aurora boreal en Laponia: dónde y cuándo | LaplandNature',
+    metaTitle: 'Aurora boreal en Laponia: dónde y cuándo',
     metaDescription: 'Dónde ver la aurora boreal en la Laponia finlandesa, Inari, Utsjoki, Kilpisjärvi y Enontekiö. Temporada de septiembre a marzo.',
     hero: {
       alt: 'Aurora boreal brillando en verde sobre un bosque nevado en la Laponia finlandesa',
@@ -270,7 +270,7 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
     },
   },
   nationalParks: {
-    metaTitle: 'Parques nacionales de Laponia | LaplandNature',
+    metaTitle: 'Parques nacionales de Laponia',
     metaDescription: 'Cinco de los parques nacionales de la Laponia finlandesa, Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi y Pyhä-Luosto.',
     hero: {
       alt: 'Paisaje abierto de fjälls en un parque nacional de la Laponia finlandesa bajo un cielo despejado',
@@ -341,7 +341,7 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
     },
   },
   wildlife: {
-    metaTitle: 'Fauna de Laponia: renos, osos, glotones | LaplandNature',
+    metaTitle: 'Fauna de Laponia: renos, osos, glotones',
     metaDescription: 'Seis especies árticas en la Laponia finlandesa, desde 200 000 renos semidomesticados hasta el zorro ártico en peligro crítico y el esquivo glotón.',
     hero: {
       alt: 'Un oso pardo en el bosque boreal de la Laponia finlandesa',
@@ -428,7 +428,7 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
     },
   },
   seasons: {
-    metaTitle: 'Las cuatro estaciones de Laponia | LaplandNature',
+    metaTitle: 'Las cuatro estaciones de Laponia',
     metaDescription: 'Cada estación más allá del Círculo Polar es un mundo distinto, el color otoñal del ruska, la noche polar kaamos, el sol de medianoche y la nieve de primavera.',
     hero: {
       alt: 'Colores otoñales de la ruska sobre un paisaje de fjälls en la Laponia finlandesa',
@@ -507,7 +507,7 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   hiking: {
     difficulties: { easy: 'Fácil', moderate: 'Moderada', challenging: 'Exigente', demanding: 'Muy exigente' },
-    metaTitle: 'Senderos de Laponia: 5 km a 82 km | LaplandNature',
+    metaTitle: 'Senderos de Laponia: 5 km a 82 km',
     metaDescription: 'Seis senderos en la Laponia finlandesa y alrededores, Hetta-Pallas (55 km), Karhunkierros (82 km), Halti, el punto más alto de Finlandia (55 km) y tres rutas más cortas.',
     hero: {
       alt: 'Un sendero serpenteando por un fjäll en plena ruska otoñal en la Laponia finlandesa',
@@ -582,7 +582,7 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
     },
   },
   conservation: {
-    metaTitle: 'Conservación en la Laponia finlandesa | LaplandNature',
+    metaTitle: 'Conservación en la Laponia finlandesa',
     metaDescription: 'Metsähallitus gestiona el 85 % de las zonas de fjäll de Laponia y los siete parques nacionales. Más SLL, WWF Finlandia y el Parlamento Sami.',
     hero: {
       alt: 'Bosque primario protegido y fjälls en la naturaleza salvaje de la Laponia finlandesa',
@@ -659,7 +659,7 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
     ],
   },
   freshwater: {
-    metaTitle: 'Agua dulce en Laponia: lagos, ríos, peces | LaplandNature',
+    metaTitle: 'Agua dulce en Laponia: lagos, ríos, peces',
     metaDescription: 'Finlandia tiene unos 188 000 lagos (SYKE). Laponia alberga los más limpios, con el río Tornio-Muonio sin regular, turberas aapa y bosques de agua fría.',
     hero: {
       eyebrow: 'Guía esencial',
@@ -776,7 +776,7 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
     metaDescription: 'Qué cookies usa LaplandNature.com, por qué y cómo gestionarlas. Divulgaciones de cookies conformes al RGPD / ePrivacy de LaPeso Oy.',
   },
   bearKuusamo: {
-    metaTitle: 'Bear Kuusamo: observación ética de osos | LaplandNature',
+    metaTitle: 'Bear Kuusamo: observación ética de osos',
     metaDescription: 'Bear Kuusamo gestiona los hides de osos más antiguos y septentrionales de Ruka–Kuusamo. Observación real de osos, del 1 de mayo al 30 de septiembre.',
     partnership: 'Colaboración comercial · Bear Kuusamo',
     hero: {

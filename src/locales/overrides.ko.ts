@@ -83,7 +83,7 @@ export const KO_OVERRIDES: DeepPartial<SectionCopy> = {
     ],
   },
   home: {
-    metaTitle: '라플란드의 자연: 북극 자연, 오로라, 국립공원 | LaplandNature',
+    metaTitle: '라플란드의 자연: 북극 자연, 오로라, 국립공원',
     metaDescription: '핀란드 라플란드의 북극 자연, 일곱 국립공원, 연간 200일 이상의 오로라 밤, 카모스(극야), 그리고 5~82km의 트레일. 자연 여행을 계획하세요.',
     hero: {
       alt: '눈 덮인 북극 야생과 핀란드 라플란드의 언덕',
@@ -154,7 +154,7 @@ export const KO_OVERRIDES: DeepPartial<SectionCopy> = {
     },
   },
   northernLights: {
-    metaTitle: '라플란드의 오로라: 어디서, 언제 볼 수 있을까 | LaplandNature',
+    metaTitle: '라플란드의 오로라: 어디서, 언제 볼 수 있을까',
     metaDescription: '핀란드 라플란드에서 오로라를 볼 수 있는 곳, 이나리, 우츠요키, 킬피스야르비, 에논테키외. 오로라 시즌은 9월부터 3월까지, 카모스(극야) 기간이 가장 어둡습니다.',
     hero: {
       alt: '핀란드 라플란드의 눈 덮인 숲 위로 초록빛 오로라',
@@ -220,7 +220,7 @@ export const KO_OVERRIDES: DeepPartial<SectionCopy> = {
     },
   },
   nationalParks: {
-    metaTitle: '라플란드 국립공원: 하이킹할 다섯 곳의 황야 | LaplandNature',
+    metaTitle: '라플란드 국립공원: 하이킹할 다섯 곳의 황야',
     metaDescription: '핀란드 라플란드 국립공원 다섯 곳, 우르호 케코넨, 팔라스-윌래스툰투리, 렘멘요키, 리시툰투리, 퓌해-루오스토. 출입구 마을, 대표적 특징, 방문 시기를 안내합니다.',
     hero: {
       alt: '맑은 하늘 아래 핀란드 라플란드 국립공원의 탁 트인 언덕 풍경',
@@ -276,7 +276,7 @@ export const KO_OVERRIDES: DeepPartial<SectionCopy> = {
     },
   },
   wildlife: {
-    metaTitle: '라플란드 야생동물: 순록, 곰, 울버린 외 | LaplandNature',
+    metaTitle: '라플란드 야생동물: 순록, 곰, 울버린 외',
     metaDescription: '핀란드 라플란드에서 만날 수 있는 여섯 가지 상징적인 북극 동물, 20만 마리의 반사육 순록부터 멸종 위기의 북극여우, 그리고 좀처럼 모습을 드러내지 않는 울버린까지.',
     hero: {
       alt: '핀란드 라플란드의 침엽수림 속 불곰',
@@ -348,7 +348,7 @@ export const KO_OVERRIDES: DeepPartial<SectionCopy> = {
     },
   },
   seasons: {
-    metaTitle: '라플란드의 네 계절: 루스카, 카모스, 백야, 봄눈 | LaplandNature',
+    metaTitle: '라플란드의 네 계절: 루스카, 카모스, 백야, 봄눈',
     metaDescription: '북극권 너머의 각 계절은 전혀 다른 세계입니다. 루스카의 가을 색, 카모스의 극야, 백야, 그리고 봄눈의 창. 언제 와야 하고 무엇을 기대할 수 있는지 안내합니다.',
     hero: {
       alt: '핀란드 라플란드 언덕을 물들인 가을 루스카 단풍',
@@ -412,7 +412,7 @@ export const KO_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   hiking: {
     difficulties: { easy: '쉬움', moderate: '보통', challenging: '어려움', demanding: '매우 어려움' },
-    metaTitle: '라플란드와 인근의 하이킹 트레일: 5km 데이 하이크부터 82km 카르훈키에로스까지 | LaplandNature',
+    metaTitle: '라플란드와 인근의 하이킹 트레일: 5km 데이 하이크부터 82km 카르훈키에로스까지',
     metaDescription: '핀란드 라플란드와 인근의 여섯 하이킹 트레일, 헤타–팔라스(55km), 카르훈키에로스(82km), 할티 최고 지점(55km), 그리고 짧은 세 코스. 거리, 소요 시간, 난이도, 출발 마을을 안내합니다.',
     hero: {
       alt: '가을 루스카로 물든 핀란드 라플란드 언덕을 가로지르는 하이킹 트레일',
@@ -472,7 +472,7 @@ export const KO_OVERRIDES: DeepPartial<SectionCopy> = {
     },
   },
   conservation: {
-    metaTitle: '핀란드 라플란드의 자연 보호: 누가 황야를 지키는가 | LaplandNature',
+    metaTitle: '핀란드 라플란드의 자연 보호: 누가 황야를 지키는가',
     metaDescription: 'Metsähallitus는 라플란드 펠의 85%와 일곱 국립공원을 모두 관리합니다. 그리고 SLL, WWF 핀란드, 사미 의회, 그리고 누구나 자연에 책임 있게 접근할 수 있게 해주는 자연향유권의 법적 틀까지.',
     hero: {
       alt: '핀란드 라플란드 야생 지대의 보호된 원시림과 언덕',
@@ -534,7 +534,7 @@ export const KO_OVERRIDES: DeepPartial<SectionCopy> = {
     ],
   },
   freshwater: {
-    metaTitle: '라플란드의 담수: 호수, 강, 습원, 그리고 물고기 | LaplandNature',
+    metaTitle: '라플란드의 담수: 호수, 강, 습원, 그리고 물고기',
     metaDescription: '핀란드에는 약 188,000개의 호수와 못이 있습니다(SYKE). 라플란드는 그중 가장 맑은 물을 품고 있으며, 댐이 없는 토르니오-무오니오 수계, 아파 습원, 그리고 물을 차갑게 유지하는 숲도 함께 있습니다. 맑은 물이 이 지역에서 가장 희귀한 자산인 이유.',
     hero: {
       eyebrow: '핵심 가이드',
@@ -651,7 +651,7 @@ export const KO_OVERRIDES: DeepPartial<SectionCopy> = {
     metaDescription: 'LaplandNature.com이 사용하는 쿠키와 그 이유, 관리 방법. GDPR/ePrivacy를 준수하는 LaPeso Oy의 쿠키 공개입니다.',
   },
   bearKuusamo: {
-    metaTitle: 'Bear Kuusamo: 핀란드의 윤리적인 곰 관찰 | LaplandNature',
+    metaTitle: 'Bear Kuusamo: 핀란드의 윤리적인 곰 관찰',
     metaDescription: 'Bear Kuusamo는 루카·쿠사모 지역에서 가장 오래되고 가장 북쪽에 있는 곰 관찰 은신처를 운영합니다. 라플란드 바로 곁, 핀란드에서 진짜 곰 관찰을 5월 1일부터 9월 30일까지.',
     partnership: '유료 협찬 · Bear Kuusamo',
     hero: {

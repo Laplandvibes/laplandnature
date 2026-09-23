@@ -83,7 +83,7 @@ export const SV_OVERRIDES: DeepPartial<SectionCopy> = {
     ],
   },
   home: {
-    metaTitle: 'Lapplands natur 2026: norrsken, parker och djurliv',
+    metaTitle: 'Lapplands natur: norrsken, parker och djurliv',
     metaDescription: 'Finska Lapplands arktiska vildmark, sju nationalparker, 200+ norrskensnätter, kaamos-polarnatten och vandringsleder från 5 km till 82 km.',
     hero: {
       eyebrow: 'Norr om polcirkeln',

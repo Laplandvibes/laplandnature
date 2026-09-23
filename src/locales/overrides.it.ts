@@ -83,7 +83,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
     ],
   },
   home: {
-    metaTitle: 'Natura della Lapponia: parchi e aurora | LaplandNature',
+    metaTitle: 'Natura della Lapponia: parchi e aurora',
     metaDescription: 'La natura artica della Lapponia finlandese, sette parchi nazionali, oltre 200 notti di aurora all\'anno, kaamos (notte polare) e sentieri da 5 a 82 km.',
     hero: {
       alt: 'Natura artica innevata e colline di tundra nella Lapponia finlandese',
@@ -154,7 +154,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
     },
   },
   northernLights: {
-    metaTitle: 'Aurora boreale in Lapponia: dove e quando | LaplandNature',
+    metaTitle: 'Aurora boreale in Lapponia: dove e quando',
     metaDescription: 'Dove vedere l\'aurora boreale nella Lapponia finlandese, Inari, Utsjoki, Kilpisjärvi ed Enontekiö. Stagione da settembre a marzo.',
     hero: {
       alt: 'Aurora boreale verde sopra una foresta innevata nella Lapponia finlandese',
@@ -220,7 +220,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
     },
   },
   nationalParks: {
-    metaTitle: 'Parchi nazionali della Lapponia | LaplandNature',
+    metaTitle: 'Parchi nazionali della Lapponia',
     metaDescription: 'Cinque dei parchi nazionali della Lapponia finlandese, Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi e Pyhä-Luosto.',
     hero: {
       alt: 'Paesaggio aperto di tundra in un parco nazionale della Lapponia finlandese sotto un cielo limpido',
@@ -276,7 +276,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
     },
   },
   wildlife: {
-    metaTitle: 'Fauna della Lapponia: renne, orsi, ghiottoni | LaplandNature',
+    metaTitle: 'Fauna della Lapponia: renne, orsi, ghiottoni',
     metaDescription: 'Sei specie artiche iconiche nella Lapponia finlandese, dalle 200.000 renne semidomestiche alla volpe artica in pericolo critico e all\'elusivo ghiottone.',
     hero: {
       alt: 'Un orso bruno nella foresta boreale della Lapponia finlandese',
@@ -348,7 +348,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
     },
   },
   seasons: {
-    metaTitle: 'Le quattro stagioni della Lapponia | LaplandNature',
+    metaTitle: 'Le quattro stagioni della Lapponia',
     metaDescription: 'Ogni stagione oltre il circolo polare è un mondo diverso, i colori autunnali del ruska, la notte polare kaamos, il sole di mezzanotte e la neve primaverile.',
     hero: {
       alt: 'Colori autunnali della ruska su un paesaggio di tundra nella Lapponia finlandese',
@@ -412,7 +412,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   hiking: {
     difficulties: { easy: 'Facile', moderate: 'Moderato', challenging: 'Impegnativo', demanding: 'Molto impegnativo' },
-    metaTitle: 'Sentieri di trekking in Lapponia: 5–82 km | LaplandNature',
+    metaTitle: 'Sentieri di trekking in Lapponia: 5–82 km',
     metaDescription: 'Sei sentieri di trekking nella Lapponia finlandese e dintorni: Hetta-Pallas (55 km), Karhunkierros (82 km), Halti (55 km) e tre itinerari brevi.',
     hero: {
       alt: 'Un sentiero escursionistico che serpeggia su una collina di tundra nei colori della ruska, in Lapponia finlandese',
@@ -472,7 +472,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
     },
   },
   conservation: {
-    metaTitle: 'Conservazione nella Lapponia finlandese | LaplandNature',
+    metaTitle: 'Conservazione nella Lapponia finlandese',
     metaDescription: 'Metsähallitus gestisce l\'85 % delle aree dei fjäll della Lapponia e tutti e sette i parchi nazionali. Più SLL, WWF Finlandia e il Parlamento sami.',
     hero: {
       alt: 'Foresta vetusta protetta e colline di tundra nella natura selvaggia della Lapponia finlandese',
@@ -534,7 +534,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
     ],
   },
   freshwater: {
-    metaTitle: 'Acque dolci di Lapponia: laghi, fiumi, pesci | LaplandNature',
+    metaTitle: 'Acque dolci di Lapponia: laghi, fiumi, pesci',
     metaDescription: 'La Finlandia conta circa 188.000 laghi (SYKE). La Lapponia custodisce i più puri, con il Tornio-Muonio non regolato, le torbiere aapa e le foreste fredde.',
     hero: {
       eyebrow: 'Guida di riferimento',
@@ -651,7 +651,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
     metaDescription: 'Quali cookie utilizza LaplandNature.com, perché e come gestirli. Informativa sui cookie conforme GDPR / ePrivacy da LaPeso Oy.',
   },
   bearKuusamo: {
-    metaTitle: 'Bear Kuusamo: osservazione etica degli orsi | LaplandNature',
+    metaTitle: 'Bear Kuusamo: osservazione etica degli orsi',
     metaDescription: 'Bear Kuusamo gestisce i capanni per orsi più antichi e settentrionali di Ruka–Kuusamo. Vera osservazione degli orsi, dal 1° maggio al 30 settembre.',
     partnership: 'Collaborazione commerciale · Bear Kuusamo',
     hero: {

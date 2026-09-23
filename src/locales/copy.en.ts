@@ -91,7 +91,7 @@ const en: SectionCopy = {
     ],
   },
   home: {
-    metaTitle: 'Lapland Nature 2026: Aurora, Parks & Wildlife Guide',
+    metaTitle: 'Lapland Nature: Aurora, Parks & Wildlife Guide',
     metaDescription: "Finnish Lapland's arctic wilderness, seven national parks, 200+ aurora-viewing nights, the kaamos polar night and hiking trails from 5 km to 82 km.",
     hero: {
       eyebrow: 'Above the Arctic Circle',

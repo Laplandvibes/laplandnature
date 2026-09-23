@@ -91,7 +91,7 @@ const ja: SectionCopy = {
     ],
   },
   home: {
-    metaTitle: 'ラップランドの自然：北極圏の原野、オーロラと国立公園 | LaplandNature',
+    metaTitle: 'ラップランドの自然：北極圏の原野、オーロラと国立公園',
     metaDescription: 'フィンランド・ラップランドの北極圏の原野、7つの国立公園、年間200夜以上のオーロラ観察、極夜カーモス、5kmから82kmまでのハイキングコース。原野への旅をお計画ください。',
     hero: {
       alt: '雪に覆われた北極圏の原野となだらかな山々、フィンランド・ラップランド',
@@ -177,7 +177,7 @@ const ja: SectionCopy = {
     },
   },
   northernLights: {
-    metaTitle: 'ラップランドのオーロラ：観察場所と時期 | LaplandNature',
+    metaTitle: 'ラップランドのオーロラ：観察場所と時期',
     metaDescription: 'フィンランド・ラップランドでオーロラを観察できる場所、イナリ、ウツヨキ、キルピスヤルヴィ、エノンテキオ。シーズンは9月から4月上旬、最も暗い空は極夜カーモスの時期です。',
     hero: {
       alt: '雪の森の上に緑色に輝くオーロラ、フィンランド・ラップランド',
@@ -295,7 +295,7 @@ const ja: SectionCopy = {
     },
   },
   nationalParks: {
-    metaTitle: 'ラップランドの国立公園：5つの原野を歩く | LaplandNature',
+    metaTitle: 'ラップランドの国立公園：5つの原野を歩く',
     metaDescription: 'フィンランド・ラップランドの国立公園から5つをご紹介、ウルホ・ケッコネン、パッラス・ユッラス、レンメンヨキ、リーシトゥントゥリ、ピュハ・ルオスト。起点となる村、特徴、最適な訪問時期。',
     hero: {
       alt: '晴れた空の下、フィンランド・ラップランドの国立公園に広がる丘陵地帯',
@@ -406,7 +406,7 @@ const ja: SectionCopy = {
     },
   },
   wildlife: {
-    metaTitle: 'ラップランドの野生動物：トナカイ、ヒグマ、クズリほか | LaplandNature',
+    metaTitle: 'ラップランドの野生動物：トナカイ、ヒグマ、クズリほか',
     metaDescription: 'フィンランド・ラップランドで出会える北極圏の代表的な6種、20万頭の半家畜トナカイから、絶滅危惧種のホッキョクギツネ、姿を見せにくいクズリまで。',
     hero: {
       alt: 'フィンランド・ラップランドの針葉樹林にいるヒグマ',
@@ -546,7 +546,7 @@ const ja: SectionCopy = {
     },
   },
   bearKuusamo: {
-    metaTitle: 'ベア・クーサモ：フィンランドの倫理的なクマ観察 | LaplandNature',
+    metaTitle: 'ベア・クーサモ：フィンランドの倫理的なクマ観察',
     metaDescription: 'ベア・クーサモは、ルカ・クーサモ地域で最も歴史が長く、最も北にあるクマ観察用ハイドを運営しています。ラップランドのすぐそば、フィンランドで本物のクマ観察を、5月1日から9月30日まで。',
     partnership: 'タイアップ · Bear Kuusamo',
     hero: {
@@ -598,7 +598,7 @@ const ja: SectionCopy = {
     wildlifeCardCta: '記事を読む',
   },
   seasons: {
-    metaTitle: 'ラップランドの4つの季節：ルスカ、カーモス、白夜、春 | LaplandNature',
+    metaTitle: 'ラップランドの4つの季節：ルスカ、カーモス、白夜、春',
     metaDescription: '北極圏の各季節はそれぞれ別世界です、紅葉のルスカ、極夜のカーモス、白夜、春の雪の窓。訪問のタイミングと、見られるもの。',
     hero: {
       alt: '秋のルスカに染まるフィンランド・ラップランドの丘陵風景',
@@ -712,7 +712,7 @@ const ja: SectionCopy = {
     },
   },
   hiking: {
-    metaTitle: 'ラップランドとその周辺のハイキング：5km日帰りから82kmカルフンキエッロスまで | LaplandNature',
+    metaTitle: 'ラップランドとその周辺のハイキング：5km日帰りから82kmカルフンキエッロスまで',
     metaDescription: 'フィンランド・ラップランドとその周辺の6つのハイキングトレイル、ヘッタ〜パッラス(55km)、カルフンキエッロス(82km)、ハルティ／フィンランド最高地点(55km)、その他3つの短いルート。距離、所要時間、難易度、起点の宿泊拠点。',
     hero: {
       alt: '秋のルスカに染まる丘を縫うように続くハイキングコース、フィンランド・ラップランド',
@@ -844,7 +844,7 @@ const ja: SectionCopy = {
     },
   },
   conservation: {
-    metaTitle: 'フィンランド・ラップランドの自然保護：原野を守る組織 | LaplandNature',
+    metaTitle: 'フィンランド・ラップランドの自然保護：原野を守る組織',
     metaDescription: 'メツァハッリトゥスはラップランドの山地の85%と7つの国立公園を管理。さらにSLL、WWFフィンランド、サーミ議会、そして誰もが責任を持って自然にアクセスできる「自然享受権」の法的枠組み。',
     hero: {
       alt: '保護された原生林となだらかな山々、フィンランド・ラップランドの原野',
@@ -942,7 +942,7 @@ const ja: SectionCopy = {
     },
   },
   freshwater: {
-    metaTitle: 'ラップランドの淡水：湖、川、湿原、そして魚 | LaplandNature',
+    metaTitle: 'ラップランドの淡水：湖、川、湿原、そして魚',
     metaDescription: 'フィンランドには約188,000の湖沼があります（SYKE）。ラップランドにはその中でも最も清らかな水があり、加えて未開発のトルニオ・ムオニオ川水系、アーパ湿原、そして水を冷たく保つ森が広がります。なぜ清らかな水がこの地域で最も希少な資産なのか。',
     hero: {
       eyebrow: 'ラップランドの水',
@@ -1039,7 +1039,7 @@ const ja: SectionCopy = {
     verifyLine: '出典：SYKE（Järvi-meriwiki 湖沼登録）、ymparisto.fi（トルニオ・ムオニオ Natura 2000）、ym.fi（ラムサール湿地）、Metsähallitus、Luke、eräluvat.fi、およびフィンランド・ノルウェー間テノ協定。毎年の釣りの規則、手数料、シーズンは年ごとに改めて決定されます。旅の前に、公式ページで現行の数字を確認してください。',
   },
   editorial: {
-    metaTitle: '編集方針 | LaplandNature',
+    metaTitle: '編集方針',
     metaDescription: 'LaplandNatureがどのようにラップランドの自然ガイドをリサーチ、執筆、検証しているか。独立性の方針とアフィリエイト収益の扱い方。',
     h1: '編集方針',
     lastUpdated: '最終更新: 2026年4月',
@@ -1072,15 +1072,15 @@ const ja: SectionCopy = {
     parks: '国立公園',
   },
   privacy: {
-    metaTitle: 'プライバシーポリシー | LaplandNature',
+    metaTitle: 'プライバシーポリシー',
     metaDescription: 'LaPeso Oy(LaplandNature)が個人データをどのように処理するか：ニュースレター登録、アナリティクス、アフィリエイトクッキー。GDPR/eプライバシー準拠。',
   },
   terms: {
-    metaTitle: '利用規約 | LaplandNature',
+    metaTitle: '利用規約',
     metaDescription: 'LaplandNature.comの利用規約、コンテンツのライセンス、アフィリエイトの開示、編集基準。フィンランドのLaPeso Oyが運営しています。',
   },
   cookie: {
-    metaTitle: 'クッキーポリシー | LaplandNature',
+    metaTitle: 'クッキーポリシー',
     metaDescription: 'LaplandNature.comが使用するクッキー、その目的、管理方法。LaPeso OyによるGDPR/eプライバシー準拠のクッキー開示。',
   },
 }

@@ -83,7 +83,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
     ],
   },
   home: {
-    metaTitle: '拉普兰自然：北极荒野、极光与国家公园 | LaplandNature',
+    metaTitle: '拉普兰自然：北极荒野、极光与国家公园',
     metaDescription: '芬兰拉普兰的北极荒野，七座国家公园、每年 200 多个极光夜晚、kaamos（极夜）以及 5 公里到 82 公里不等的徒步线路。规划您的自然之旅。',
     hero: {
       alt: '芬兰拉普兰白雪覆盖的北极荒野和丘陵',
@@ -189,7 +189,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
     },
   },
   northernLights: {
-    metaTitle: '拉普兰的极光：在哪里、何时观赏 | LaplandNature',
+    metaTitle: '拉普兰的极光：在哪里、何时观赏',
     metaDescription: '在芬兰拉普兰何处观赏极光，伊纳里、Utsjoki、基尔皮斯耶尔维与 Enontekiö。极光季从九月持续到四月上旬，在极夜 kaamos 期间天空最暗。',
     hero: {
       alt: '芬兰拉普兰雪林上空闪耀的绿色北极光',
@@ -255,7 +255,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
     },
   },
   nationalParks: {
-    metaTitle: '拉普兰的国家公园：五片可徒步的荒野 | LaplandNature',
+    metaTitle: '拉普兰的国家公园：五片可徒步的荒野',
     metaDescription: '芬兰拉普兰五座国家公园精选，Urho Kekkonen、Pallas-Yllästunturi、Lemmenjoki、Riisitunturi 与 Pyhä-Luosto。门户村庄、标志性特征与最佳到访时间。',
     hero: {
       alt: '晴空下芬兰拉普兰国家公园开阔的丘陵景观',
@@ -311,7 +311,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
     },
   },
   wildlife: {
-    metaTitle: '拉普兰的野生动物：驯鹿、熊、狼獾及更多 | LaplandNature',
+    metaTitle: '拉普兰的野生动物：驯鹿、熊、狼獾及更多',
     metaDescription: '你能在芬兰拉普兰邂逅的六种标志性北极物种，从 20 万头半驯养驯鹿，到极危的北极狐，以及难得一见的狼獾。',
     hero: {
       alt: '芬兰拉普兰北方森林中的棕熊',
@@ -383,7 +383,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
     },
   },
   seasons: {
-    metaTitle: '拉普兰的四季：ruska、kaamos、午夜阳光、春雪 | LaplandNature',
+    metaTitle: '拉普兰的四季：ruska、kaamos、午夜阳光、春雪',
     metaDescription: '北极圈以北的每个季节都是另一个世界，ruska 的秋色、kaamos 极夜、午夜阳光，以及春雪的窗口。何时前来，会遇见什么。',
     hero: {
       alt: '芬兰拉普兰丘陵上的秋季鲁斯卡色彩',
@@ -447,7 +447,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   hiking: {
     difficulties: { easy: '简单', moderate: '中等', challenging: '有挑战', demanding: '高难度' },
-    metaTitle: '拉普兰及周边的徒步步道：从 5 公里单日徒步到 82 公里的 Karhunkierros | LaplandNature',
+    metaTitle: '拉普兰及周边的徒步步道：从 5 公里单日徒步到 82 公里的 Karhunkierros',
     metaDescription: '芬兰拉普兰及周边的六条徒步步道，Hetta-Pallas（55 公里）、Karhunkierros（82 公里）、Halti·芬兰最高点（55 公里），以及三条更短的路线。距离、用时、难度与出发据点。',
     hero: {
       alt: '蜿蜒穿过芬兰拉普兰秋色丘陵的徒步小径',
@@ -507,7 +507,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
     },
   },
   conservation: {
-    metaTitle: '芬兰拉普兰的自然保护：谁在守护荒野 | LaplandNature',
+    metaTitle: '芬兰拉普兰的自然保护：谁在守护荒野',
     metaDescription: 'Metsähallitus 管理拉普兰 85% 的 fjäll 区域与全部七座国家公园。此外还有 SLL、WWF 芬兰、萨米议会，以及让任何人都能负责任地亲近自然的自然权利法律框架。',
     hero: {
       alt: '芬兰拉普兰荒野中受保护的原始森林和丘陵',
@@ -569,7 +569,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
     ],
   },
   freshwater: {
-    metaTitle: '拉普兰的淡水：湖泊、河流、沼泽与鱼 | LaplandNature',
+    metaTitle: '拉普兰的淡水：湖泊、河流、沼泽与鱼',
     metaDescription: '芬兰约有 188,000 个湖泊与水塘（SYKE）。拉普兰拥有其中最洁净的一部分，还有未经调控的托尔尼奥-穆奥尼奥（Tornio-Muonio）水系、aapa 沼泽，以及让水保持清凉的森林。为什么洁净的水是这一地区最稀有的资产。',
     hero: {
       eyebrow: '核心指南',
@@ -686,7 +686,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
     metaDescription: 'LaplandNature.com 使用哪些 Cookie、为何使用，以及如何管理。来自 LaPeso Oy、符合 GDPR / ePrivacy 的 Cookie 披露。',
   },
   bearKuusamo: {
-    metaTitle: 'Bear Kuusamo：芬兰的生态观熊之旅 | LaplandNature',
+    metaTitle: 'Bear Kuusamo：芬兰的生态观熊之旅',
     metaDescription: 'Bear Kuusamo 经营着 Ruka–Kuusamo 地区历史最悠久、位置最靠北的观熊小屋。在芬兰、拉普兰边缘进行真正的观熊，5 月 1 日至 9 月 30 日。',
     partnership: '商业合作 · Bear Kuusamo',
     hero: {

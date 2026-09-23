@@ -91,7 +91,7 @@ const fi: SectionCopy = {
     ],
   },
   home: {
-    metaTitle: 'Lapin luonto: erämaa ja kansallispuistot | LaplandNature',
+    metaTitle: 'Lapin luonto: erämaa ja kansallispuistot',
     metaDescription: 'Suomen Lapin arktinen erämaa, seitsemän kansallispuistoa, yli 200 revontuliyötä, kaamoksen pimeys ja vaellusreittejä 5 km:stä 82 km:iin.',
     hero: {
       alt: 'Lumen peittämää arktista erämaata ja tuntureita Suomen Lapissa',
@@ -177,7 +177,7 @@ const fi: SectionCopy = {
     },
   },
   northernLights: {
-    metaTitle: 'Revontulet Lapissa: missä ja milloin näkee | LaplandNature',
+    metaTitle: 'Revontulet Lapissa: missä ja milloin näkee',
     metaDescription: 'Missä nähdä revontulet Suomen Lapissa, Inari, Utsjoki, Kilpisjärvi ja Enontekiö. Revontulikausi syyskuusta huhtikuun alkuunhun, pimeimmät yöt kaamoksen aikaan.',
     hero: {
       alt: 'Vihreänä hehkuvat revontulet lumisen metsän yllä Suomen Lapissa',
@@ -295,7 +295,7 @@ const fi: SectionCopy = {
     },
   },
   nationalParks: {
-    metaTitle: 'Lapin kansallispuistot: 5 erämaata | LaplandNature',
+    metaTitle: 'Lapin kansallispuistot: 5 erämaata',
     metaDescription: 'Viisi Lapin kansallispuistoa esittelyssä: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi ja Pyhä-Luosto. Porttikylät ja paras vierailuaika.',
     hero: {
       alt: 'Avointa tunturimaisemaa Suomen Lapin kansallispuistossa kirkkaan taivaan alla',
@@ -406,7 +406,7 @@ const fi: SectionCopy = {
     },
   },
   wildlife: {
-    metaTitle: 'Lapin eläimistö: porot, karhut, ahma ja muut | LaplandNature',
+    metaTitle: 'Lapin eläimistö: porot, karhut, ahma ja muut',
     metaDescription: 'Kuusi ikonista arktista lajia jotka voit kohdata Suomen Lapissa, 200 000 puolikesyä porosta äärimmäisen uhanalaiseen naaliin ja vaikeasti tavoitettavaan ahmaan.',
     hero: {
       alt: 'Karhu Suomen Lapin havumetsässä',
@@ -546,7 +546,7 @@ const fi: SectionCopy = {
     },
   },
   bearKuusamo: {
-    metaTitle: 'Bear Kuusamo: eettistä karhunkatselua | LaplandNature',
+    metaTitle: 'Bear Kuusamo: eettistä karhunkatselua',
     metaDescription: 'Bear Kuusamo pitää Ruka–Kuusamon alueen vanhimpia ja pohjoisimpia karhunkatselukojuja. Aitoa karhunkatselua Suomessa, aivan Lapin rajalla, 1.5.–30.9.',
     partnership: 'Kaupallinen yhteistyö · Bear Kuusamo',
     hero: {
@@ -598,7 +598,7 @@ const fi: SectionCopy = {
     wildlifeCardCta: 'Lue opas',
   },
   seasons: {
-    metaTitle: 'Lapin neljä vuodenaikaa: ruska–kaamos | LaplandNature',
+    metaTitle: 'Lapin neljä vuodenaikaa: ruska–kaamos',
     metaDescription: 'Jokainen vuodenaika napapiirin pohjoispuolella on oma maailmansa, ruskan värit, kaamoksen pimeys, keskiyön aurinko ja kevätlumi. Milloin tulla.',
     hero: {
       alt: 'Syksyn ruskan värit Suomen Lapin tunturimaisemassa',
@@ -712,7 +712,7 @@ const fi: SectionCopy = {
     },
   },
   hiking: {
-    metaTitle: 'Lapin vaellusreitit: 5 km–82 km | LaplandNature',
+    metaTitle: 'Lapin vaellusreitit: 5 km–82 km',
     metaDescription: 'Kuusi vaellusreittiä Suomen Lapissa ja lähialueilla: Hetta–Pallas (55 km), Karhunkierros (82 km), Halti (55 km) ja kolme lyhyempää. Etäisyydet ja porttikylät.',
     hero: {
       alt: 'Vaellusreitti mutkittelee ruskan värittämällä tunturilla Suomen Lapissa',
@@ -844,7 +844,7 @@ const fi: SectionCopy = {
     },
   },
   conservation: {
-    metaTitle: 'Luonnonsuojelu Lapissa | LaplandNature',
+    metaTitle: 'Luonnonsuojelu Lapissa',
     metaDescription: 'Metsähallitus hallinnoi 85 % Lapin tuntureista ja kaikkia seitsemää kansallispuistoa. Lisäksi SLL, WWF Suomi, Saamelaiskäräjät ja jokamiehenoikeudet.',
     hero: {
       alt: 'Suojeltua vanhaa metsää ja tuntureita Suomen Lapin erämaassa',
@@ -942,7 +942,7 @@ const fi: SectionCopy = {
     },
   },
   freshwater: {
-    metaTitle: 'Lapin vesistöt: järvet, joet, aavat ja kalat | LaplandNature',
+    metaTitle: 'Lapin vesistöt: järvet, joet, aavat ja kalat',
     metaDescription: 'Suomessa on noin 188 000 järveä (SYKE), ja Lapin vedet ovat maan puhtaimpia: säännöstelemätön Tornion–Muonionjoki, aapasuot ja vettä viilentävät metsät.',
     hero: {
       eyebrow: 'Lapin vedet',

@@ -91,7 +91,7 @@ const de: SectionCopy = {
     ],
   },
   home: {
-    metaTitle: 'Lapplands Natur: Wildnis & Nationalparks | LaplandNature',
+    metaTitle: 'Lapplands Natur: Wildnis & Nationalparks',
     metaDescription: 'Die arktische Wildnis Finnisch-Lapplands, sieben Nationalparks, über 200 Nordlicht-Nächte, die Polarnacht (Kaamos) und Wanderwege von 5 bis 82 km.',
     hero: {
       alt: 'Schneebedeckte arktische Wildnis und Fjälls in Finnisch-Lappland',
@@ -177,7 +177,7 @@ const de: SectionCopy = {
     },
   },
   northernLights: {
-    metaTitle: 'Nordlichter in Lappland: Wo und wann | LaplandNature',
+    metaTitle: 'Nordlichter in Lappland: Wo und wann',
     metaDescription: 'Wo Sie die Nordlichter in Finnisch-Lappland sehen, Inari, Utsjoki, Kilpisjärvi und Enontekiö. Saison September bis März, dunkelster Himmel im Kaamos.',
     hero: {
       alt: 'Grün leuchtende Polarlichter über einem verschneiten Wald in Finnisch-Lappland',
@@ -295,7 +295,7 @@ const de: SectionCopy = {
     },
   },
   nationalParks: {
-    metaTitle: 'Lapplands Nationalparks: 5 Wildnisse | LaplandNature',
+    metaTitle: 'Lapplands Nationalparks: 5 Wildnisse',
     metaDescription: 'Fünf der Nationalparks Finnisch-Lapplands: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi und Pyhä-Luosto. Ausgangsorte und beste Reisezeit.',
     hero: {
       alt: 'Offene Fjäll-Landschaft in einem Nationalpark in Finnisch-Lappland unter klarem Himmel',
@@ -406,7 +406,7 @@ const de: SectionCopy = {
     },
   },
   wildlife: {
-    metaTitle: 'Lapplands Tierwelt: Rentier, Bär, Vielfraß | LaplandNature',
+    metaTitle: 'Lapplands Tierwelt: Rentier, Bär, Vielfraß',
     metaDescription: 'Sechs ikonische arktische Arten in Finnisch-Lappland, von 200.000 halbdomestizierten Rentieren über den bedrohten Polarfuchs bis zum scheuen Vielfraß.',
     hero: {
       alt: 'Ein Braunbär im borealen Wald von Finnisch-Lappland',
@@ -546,7 +546,7 @@ const de: SectionCopy = {
     },
   },
   bearKuusamo: {
-    metaTitle: 'Bear Kuusamo: ethische Bärenbeobachtung | LaplandNature',
+    metaTitle: 'Bear Kuusamo: ethische Bärenbeobachtung',
     metaDescription: 'Bear Kuusamo betreibt die ältesten und nördlichsten Bärenverstecke in Ruka–Kuusamo. Echte Bärenbeobachtung am Rand Lapplands, 1. Mai bis 30. September.',
     partnership: 'Bezahlte Partnerschaft · Bear Kuusamo',
     hero: {
@@ -598,7 +598,7 @@ const de: SectionCopy = {
     wildlifeCardCta: 'Zum Beitrag',
   },
   seasons: {
-    metaTitle: 'Lapplands vier Jahreszeiten: Ruska–Kaamos | LaplandNature',
+    metaTitle: 'Lapplands vier Jahreszeiten: Ruska–Kaamos',
     metaDescription: 'Jede Jahreszeit nördlich des Polarkreises ist eine andere Welt, Ruska-Herbstfarben, Polarnacht (Kaamos), Mitternachtssonne und Frühlingsschnee.',
     hero: {
       alt: 'Herbstliche Ruska-Farben über einer Fjäll-Landschaft in Finnisch-Lappland',
@@ -712,7 +712,7 @@ const de: SectionCopy = {
     },
   },
   hiking: {
-    metaTitle: 'Lapplands Wanderwege: 5 km bis 82 km | LaplandNature',
+    metaTitle: 'Lapplands Wanderwege: 5 km bis 82 km',
     metaDescription: 'Sechs Wanderwege in Finnisch-Lappland und Umgebung: Hetta–Pallas (55 km), Karhunkierros (82 km), Halti (55 km) und drei kürzere Routen. Distanz und Basen.',
     hero: {
       alt: 'Ein Wanderweg schlängelt sich über einen herbstlichen Ruska-Fjäll in Finnisch-Lappland',
@@ -844,7 +844,7 @@ const de: SectionCopy = {
     },
   },
   conservation: {
-    metaTitle: 'Naturschutz in Finnisch-Lappland | LaplandNature',
+    metaTitle: 'Naturschutz in Finnisch-Lappland',
     metaDescription: 'Metsähallitus verwaltet 85 % der Fjäll-Gebiete und alle sieben Nationalparks Lapplands. Dazu SLL, WWF Finnland, das Sámi-Parlament und das Jedermannsrecht.',
     hero: {
       alt: 'Geschützter Urwald und Fjälls in der Wildnis von Finnisch-Lappland',
@@ -942,7 +942,7 @@ const de: SectionCopy = {
     },
   },
   freshwater: {
-    metaTitle: 'Lapplands Süßwasser: Seen, Flüsse & Moore | LaplandNature',
+    metaTitle: 'Lapplands Süßwasser: Seen, Flüsse & Moore',
     metaDescription: 'Finnland hat rund 188.000 Seen (SYKE). Lappland besitzt die saubersten, dazu das unregulierte Flusssystem Tornio-Muonio, Aapa-Moore und kühlende Wälder.',
     hero: {
       eyebrow: 'Säulen-Guide',
