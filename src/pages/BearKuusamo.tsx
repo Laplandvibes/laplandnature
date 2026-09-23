@@ -151,8 +151,10 @@ export default function BearKuusamo() {
                 className="w-full h-auto object-cover"
               />
             </div>
-            <figcaption className="mt-3 text-sm text-deep-night/60 leading-relaxed">
-              {c.treeCaption} <span className="text-deep-night/45">{c.photoCredit}</span>
+            {/* Kuvateksti on virke ja krediitti lähdeviite ⇒ leipätekstiä: 16 px, muste /80 ja /75.
+                /45 vaalealla oli 2,9:1 eli alle WCAG AA:n (§33, Vesa 20.9.2026). */}
+            <figcaption className="mt-3 text-base text-deep-night/80 leading-relaxed">
+              {c.treeCaption} <span className="text-deep-night/75">{c.photoCredit}</span>
             </figcaption>
           </figure>
         </div>
