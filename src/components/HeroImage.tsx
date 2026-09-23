@@ -169,9 +169,18 @@ export default function HeroImage({
         style={{ background: overlayGradient }}
       />
 
-      <div className={`relative text-center px-4 max-w-4xl ${contentAlignClass}`}>
+      <div className={`relative isolate text-center px-4 max-w-4xl ${contentAlignClass}`}>
+        {/* Reading backdrop behind the text stack only (23.9.2026). The deploy gates
+            measured the eyebrow at 2.2:1 and the lead paragraph at 3.05:1 over the
+            bright parts of hero-home: a text-shadow does not count toward contrast.
+            A local soft backdrop keeps the photo open everywhere else; the full-frame
+            scrim was deliberately LIGHTENED on 2026-08-01, so it is not darkened here. */}
+        <div
+          aria-hidden="true"
+          className="absolute -inset-x-6 -inset-y-8 -z-10 rounded-[3rem] bg-[radial-gradient(ellipse_at_center,rgba(15,23,42,0.6)_0%,rgba(15,23,42,0.5)_60%,rgba(15,23,42,0)_100%)]"
+        />
         {eyebrow && (
-          <p className="text-snow/85 uppercase tracking-[0.3em] text-xs sm:text-sm mb-5 [text-shadow:0_2px_12px_rgba(0,0,0,0.85)]">
+          <p className="inline-block rounded-full bg-deep-night/75 px-3 py-1 text-snow uppercase tracking-[0.3em] text-xs sm:text-sm mb-5">
             {eyebrow}
           </p>
         )}

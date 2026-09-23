@@ -36,14 +36,16 @@ const cardHrefs = [
   '/freshwater',
 ]
 
+// 700-step hexes, not the 500s (23.9.2026): 11 px snow text on emerald-500 was
+// 2.43:1, amber-500 2.06:1, sky-500 about 2.8:1. These are 5.25 / 4.81 / 5.9:1.
 const cardTagBgs = [
-  'bg-emerald-500',
-  'bg-emerald-500',
-  'bg-emerald-500',
-  'bg-emerald-500',
-  'bg-emerald-500',
-  'bg-amber-500',
-  'bg-sky-500',
+  'bg-[#047857]',
+  'bg-[#047857]',
+  'bg-[#047857]',
+  'bg-[#047857]',
+  'bg-[#047857]',
+  'bg-[#B45309]',
+  'bg-[#0369A1]',
 ]
 
 const ICONS = [Compass, Trees, Sun, Sparkles]
@@ -115,7 +117,7 @@ export default function Home() {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
           <Link
             to={to('/northern-lights')}
-            className="inline-flex items-center gap-2 bg-vibe-pink hover:bg-pink-600 text-snow font-semibold px-7 py-3.5 rounded-full transition-colors"
+            className="inline-flex items-center gap-2 bg-[#DB2777] hover:bg-[#BE185D] text-white font-semibold px-7 py-3.5 rounded-full transition-colors"
           >
             {c.hero.primaryCta}
             <ArrowRight className="w-4 h-4" />
