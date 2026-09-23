@@ -6,6 +6,22 @@ const SITE_URL = 'https://laplandnature.com'
 const DEFAULT_OG = 'https://laplandnature.com/images/hero-home.webp'
 const SITE_NAME = 'LaplandNature'
 
+// 🔴 The share card the PRERENDERER wrote for the URL the visitor landed on.
+// Key pages have their own card since 23.9.2026 (routes.json ogImage ->
+// /og/<slug>.jpg, summer/winter), and the site card is /og.jpg. This component
+// used to overwrite og:image with DEFAULT_OG (the home hero photo, not even a
+// 1200x630 card) right after load, so Google, which runs this code, saw that
+// on every page (measured live 23.9.2026 with scripts/og/audit_live_js.mjs).
+// Captured at module load, before any effect: on the landed URL the
+// prerendered value wins; after a client-side navigation the prop is used.
+const LANDED =
+  typeof document === 'undefined'
+    ? null
+    : {
+        path: window.location.pathname,
+        og: document.head.querySelector('meta[property="og:image"]')?.getAttribute('content') || null,
+      }
+
 const SUPPORTED: Lang[] = ['en', 'fi', 'de', 'ja', 'es', 'pt-BR', 'zh-CN', 'ko', 'fr', 'it', 'nl', 'sv']
 
 const URL_PREFIX_OF: Record<Lang, string> = {
@@ -119,7 +135,8 @@ export default function SEO({
     upsertMeta('meta[property="og:title"]', 'property', 'og:title', title)
     upsertMeta('meta[property="og:description"]', 'property', 'og:description', description)
     upsertMeta('meta[property="og:url"]', 'property', 'og:url', canonical)
-    upsertMeta('meta[property="og:image"]', 'property', 'og:image', ogImage)
+    const ogImageV = LANDED?.og && LANDED.path === window.location.pathname ? LANDED.og : ogImage
+    upsertMeta('meta[property="og:image"]', 'property', 'og:image', ogImageV)
     upsertMeta('meta[property="og:image:width"]', 'property', 'og:image:width', '1200')
     upsertMeta('meta[property="og:image:height"]', 'property', 'og:image:height', '630')
     upsertMeta('meta[property="og:locale"]', 'property', 'og:locale', ogLocale)
@@ -137,7 +154,7 @@ export default function SEO({
     upsertMeta('meta[name="twitter:card"]', 'name', 'twitter:card', 'summary_large_image')
     upsertMeta('meta[name="twitter:title"]', 'name', 'twitter:title', title)
     upsertMeta('meta[name="twitter:description"]', 'name', 'twitter:description', description)
-    upsertMeta('meta[name="twitter:image"]', 'name', 'twitter:image', ogImage)
+    upsertMeta('meta[name="twitter:image"]', 'name', 'twitter:image', ogImageV)
     upsertMeta('meta[name="twitter:site"]', 'name', 'twitter:site', '@laplandvibes')
   }, [title, description, canonicalPath, ogImage, keywords, prefix, bcp47, ogLocale, lang])
 
