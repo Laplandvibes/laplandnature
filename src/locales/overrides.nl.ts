@@ -522,7 +522,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
     },
   },
   editorial: {
-    metaTitle: 'Redactioneel beleid, LaplandNature',
+    metaTitle: 'Redactioneel beleid',
     metaDescription: 'Hoe LaplandNature zijn natuurgidsen over Lapland onderzoekt, schrijft en verifieert. Onafhankelijkheidsbeleid en omgang met affiliate-inkomsten.',
     h1: 'Redactioneel beleid',
     lastUpdated: 'Laatst bijgewerkt: april 2026',
@@ -631,7 +631,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
     verifyLine: 'Bronnen: SYKE (Järvi-meriwiki-merenregister), ymparisto.fi (Tornio-Muonio Natura 2000), ym.fi (Ramsar-wetlands), Metsähallitus, Luke, eräluvat.fi en het Fins-Noorse Teno-verdrag. Jaarlijkse visregels, heffingen en seizoenen worden elk jaar opnieuw vastgesteld, bevestig de geldende cijfers op de officiële pagina\'s voordat u afreist.',
   },
   notFound: {
-    metaTitle: 'Pagina niet gevonden, LaplandNature',
+    metaTitle: 'Pagina niet gevonden',
     metaDescription: 'De pagina die u zocht bestaat niet of is verplaatst.',
     h1: 'Van het pad af',
     body: 'De pagina die u zocht bestaat niet op LaplandNature. Probeer een van de pijlergidsen hieronder, daar bevindt de wildernis zich.',
@@ -639,15 +639,15 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
     parks: 'Nationale parken',
   },
   privacy: {
-    metaTitle: 'Privacybeleid, LaplandNature',
+    metaTitle: 'Privacybeleid',
     metaDescription: 'Hoe LaPeso Oy (LaplandNature) persoonsgegevens verwerkt: nieuwsbriefaanmeldingen, analytics en affiliate-cookies. AVG / ePrivacy-conform.',
   },
   terms: {
-    metaTitle: 'Gebruiksvoorwaarden, LaplandNature',
+    metaTitle: 'Gebruiksvoorwaarden',
     metaDescription: 'Voorwaarden voor het gebruik van LaplandNature.com, content-licenties en redactionele standaarden. Geëxploiteerd door LaPeso Oy in Finland.',
   },
   cookie: {
-    metaTitle: 'Cookiebeleid, LaplandNature',
+    metaTitle: 'Cookiebeleid',
     metaDescription: 'Welke cookies LaplandNature.com gebruikt, waarom, en hoe u ze beheert. AVG / ePrivacy-conforme cookieverklaringen van LaPeso Oy.',
   },
   bearKuusamo: {

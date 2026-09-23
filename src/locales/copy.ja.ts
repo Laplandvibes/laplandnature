@@ -1064,7 +1064,7 @@ const ja: SectionCopy = {
     correctionsAfter: '',
   },
   notFound: {
-    metaTitle: 'ページが見つかりません、LaplandNature',
+    metaTitle: 'ページが見つかりません',
     metaDescription: 'お探しのページは存在しないか、移動された可能性があります。',
     h1: 'トレイルから外れています',
     body: 'お探しのページはLaplandNatureには存在しません。以下の柱となるガイドのいずれかをお試しください、原野はそこにあります。',

@@ -557,7 +557,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
     },
   },
   editorial: {
-    metaTitle: '编辑方针，LaplandNature',
+    metaTitle: '编辑方针',
     metaDescription: 'LaplandNature 如何研究、撰写并核实其拉普兰自然指南。独立性方针，以及我们如何处理联盟收入。',
     h1: '编辑方针',
     lastUpdated: '最近更新：2026 年 4 月',
@@ -666,7 +666,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
     verifyLine: '来源：SYKE（Järvi-meriwiki 湖泊登记册）、ymparisto.fi（托尔尼奥-穆奥尼奥 Natura 2000）、ym.fi（拉姆萨尔湿地）、Metsähallitus、Luke、eräluvat.fi 以及芬兰-挪威泰诺协定。每年的垂钓规则、费用和季节都会重新确定，出行前请在官方页面上确认当前数字。',
   },
   notFound: {
-    metaTitle: '页面未找到，LaplandNature',
+    metaTitle: '页面未找到',
     metaDescription: '你所寻找的页面不存在或已被移动。',
     h1: '偏离了步道',
     body: '你所寻找的页面在 LaplandNature 上不存在。试试下面的核心指南之一，荒野就在那里。',
@@ -674,15 +674,15 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
     parks: '国家公园',
   },
   privacy: {
-    metaTitle: '隐私政策，LaplandNature',
+    metaTitle: '隐私政策',
     metaDescription: 'LaPeso Oy(LaplandNature)如何处理个人数据：简讯订阅、分析与联盟 Cookie。符合 GDPR / ePrivacy。',
   },
   terms: {
-    metaTitle: '使用条款，LaplandNature',
+    metaTitle: '使用条款',
     metaDescription: '规范 LaplandNature.com 使用的条款，内容授权、联盟披露与编辑标准。由芬兰的 LaPeso Oy 运营。',
   },
   cookie: {
-    metaTitle: 'Cookie 政策，LaplandNature',
+    metaTitle: 'Cookie 政策',
     metaDescription: 'LaplandNature.com 使用哪些 Cookie、为何使用，以及如何管理。来自 LaPeso Oy、符合 GDPR / ePrivacy 的 Cookie 披露。',
   },
   bearKuusamo: {

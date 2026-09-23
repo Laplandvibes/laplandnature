@@ -522,7 +522,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
     },
   },
   editorial: {
-    metaTitle: 'Politica editoriale, LaplandNature',
+    metaTitle: 'Politica editoriale',
     metaDescription: 'Come LaplandNature ricerca, scrive e verifica le sue guide alla natura della Lapponia. Politica di indipendenza e gestione dei ricavi di affiliazione.',
     h1: 'Politica editoriale',
     lastUpdated: 'Ultimo aggiornamento: aprile 2026',
@@ -631,7 +631,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
     verifyLine: 'Fonti: SYKE (registro dei laghi Järvi-meriwiki), ymparisto.fi (Tornio-Muonio Natura 2000), ym.fi (zone umide Ramsar), Metsähallitus, Luke, eräluvat.fi e l\'accordo Finlandia-Norvegia sul Teno. Regole, canoni e stagioni di pesca vengono ridecisi ogni anno, verifica le cifre in vigore sulle pagine ufficiali prima di partire.',
   },
   notFound: {
-    metaTitle: 'Pagina non trovata, LaplandNature',
+    metaTitle: 'Pagina non trovata',
     metaDescription: 'La pagina che cercava non esiste o è stata spostata.',
     h1: 'Fuori sentiero',
     body: 'La pagina che cercava non esiste su LaplandNature. Provi una delle guide di riferimento qui sotto, è lì che si trova la wilderness.',
@@ -639,15 +639,15 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
     parks: 'Parchi nazionali',
   },
   privacy: {
-    metaTitle: 'Informativa sulla privacy, LaplandNature',
+    metaTitle: 'Informativa sulla privacy',
     metaDescription: 'Come LaPeso Oy (LaplandNature) tratta i dati personali: iscrizioni alla newsletter, analytics e cookie di affiliazione. Conforme GDPR / ePrivacy.',
   },
   terms: {
-    metaTitle: 'Termini di utilizzo, LaplandNature',
+    metaTitle: 'Termini di utilizzo',
     metaDescription: 'Termini che regolano l\'utilizzo di LaplandNature.com, licenze dei contenuti, affiliazione e standard editoriali. Gestito da LaPeso Oy in Finlandia.',
   },
   cookie: {
-    metaTitle: 'Informativa sui cookie, LaplandNature',
+    metaTitle: 'Informativa sui cookie',
     metaDescription: 'Quali cookie utilizza LaplandNature.com, perché e come gestirli. Informativa sui cookie conforme GDPR / ePrivacy da LaPeso Oy.',
   },
   bearKuusamo: {

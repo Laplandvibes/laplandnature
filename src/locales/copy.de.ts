@@ -1039,7 +1039,7 @@ const de: SectionCopy = {
     verifyLine: 'Quellen: SYKE (Seenregister Järvi-meriwiki), ymparisto.fi (Tornio-Muonio Natura 2000), ym.fi (Ramsar-Feuchtgebiete), Metsähallitus, Luke, eräluvat.fi und das finnisch-norwegische Teno-Abkommen. Die jährlichen Angelregeln, Gebühren und Saisonzeiten werden jedes Jahr neu festgelegt, bestätigen Sie die aktuellen Zahlen auf den offiziellen Seiten, bevor Sie reisen.',
   },
   editorial: {
-    metaTitle: 'Redaktionsrichtlinie, LaplandNature',
+    metaTitle: 'Redaktionsrichtlinie',
     metaDescription: 'Wie LaplandNature seine Lappland-Naturführer recherchiert, schreibt und prüft. Unabhängigkeitspolitik und Umgang mit Affiliate-Einnahmen.',
     h1: 'Redaktionsrichtlinie',
     lastUpdated: 'Zuletzt aktualisiert: April 2026',
@@ -1064,7 +1064,7 @@ const de: SectionCopy = {
     correctionsAfter: '',
   },
   notFound: {
-    metaTitle: 'Seite nicht gefunden, LaplandNature',
+    metaTitle: 'Seite nicht gefunden',
     metaDescription: 'Die gesuchte Seite existiert nicht oder wurde verschoben.',
     h1: 'Vom Weg ab',
     body: 'Die gesuchte Seite existiert auf LaplandNature nicht. Versuchen Sie einen der Säulen-Guides unten, dort ist die Wildnis.',
@@ -1072,15 +1072,15 @@ const de: SectionCopy = {
     parks: 'Nationalparks',
   },
   privacy: {
-    metaTitle: 'Datenschutzerklärung, LaplandNature',
+    metaTitle: 'Datenschutzerklärung',
     metaDescription: 'Wie LaPeso Oy (LaplandNature) personenbezogene Daten verarbeitet: Newsletter-Anmeldungen, Analyse und Affiliate-Cookies. GDPR / ePrivacy konform.',
   },
   terms: {
-    metaTitle: 'Nutzungsbedingungen, LaplandNature',
+    metaTitle: 'Nutzungsbedingungen',
     metaDescription: 'Bedingungen für die Nutzung von LaplandNature.com, Inhaltslizenzierung, Affiliate-Hinweise und redaktionelle Standards. Von LaPeso Oy in Finnland.',
   },
   cookie: {
-    metaTitle: 'Cookie-Richtlinie, LaplandNature',
+    metaTitle: 'Cookie-Richtlinie',
     metaDescription: 'Welche Cookies LaplandNature.com nutzt, warum und wie Sie sie verwalten. GDPR / ePrivacy konforme Cookie-Hinweise von LaPeso Oy.',
   },
 }

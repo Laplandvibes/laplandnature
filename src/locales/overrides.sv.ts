@@ -503,7 +503,7 @@ export const SV_OVERRIDES: DeepPartial<SectionCopy> = {
     },
   },
   editorial: {
-    metaTitle: 'Redaktionell policy, LaplandNature',
+    metaTitle: 'Redaktionell policy',
     metaDescription: 'Hur LaplandNature researchar, skriver och verifierar sina naturguider om Lappland. Oberoendepolicy och hur vi hanterar affiliateintäkter.',
     h1: 'Redaktionell policy',
     lastUpdated: 'Senast uppdaterad: april 2026',
@@ -585,7 +585,7 @@ export const SV_OVERRIDES: DeepPartial<SectionCopy> = {
     verifyLine: 'Källor: SYKE (Järvi-meriwiki sjöregister), ymparisto.fi (Torne–Muonio Natura 2000), ym.fi (Ramsar-våtmarker), Metsähallitus, Luke, eräluvat.fi och det finsk-norska Tana-avtalet. Årliga fiskeregler, avgifter och säsonger bestäms om varje år, bekräfta gällande siffror på de officiella sidorna innan du reser.',
   },
   notFound: {
-    metaTitle: 'Sidan hittades inte, LaplandNature',
+    metaTitle: 'Sidan hittades inte',
     metaDescription: 'Sidan du letade efter finns inte eller har flyttats.',
     h1: 'Vid sidan av leden',
     body: 'Sidan du letade efter finns inte på LaplandNature. Prova en av pelarguiderna nedan, det är där vildmarken finns.',
@@ -593,15 +593,15 @@ export const SV_OVERRIDES: DeepPartial<SectionCopy> = {
     parks: 'Nationalparker',
   },
   privacy: {
-    metaTitle: 'Integritetspolicy, LaplandNature',
+    metaTitle: 'Integritetspolicy',
     metaDescription: 'Hur LaPeso Oy (LaplandNature) behandlar personuppgifter: nyhetsbrevsanmälningar, analys och affiliatecookies. GDPR / ePrivacy-förenligt.',
   },
   terms: {
-    metaTitle: 'Användarvillkor, LaplandNature',
+    metaTitle: 'Användarvillkor',
     metaDescription: 'Villkor för användning av LaplandNature.com, innehållslicensiering och redaktionella standarder. Drivs av LaPeso Oy i Finland.',
   },
   cookie: {
-    metaTitle: 'Cookiepolicy, LaplandNature',
+    metaTitle: 'Cookiepolicy',
     metaDescription: 'Vilka cookies LaplandNature.com använder, varför, och hur du hanterar dem. GDPR / ePrivacy-förenliga cookieförklaringar från LaPeso Oy.',
   },
   bearKuusamo: {

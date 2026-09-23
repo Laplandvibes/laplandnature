@@ -415,15 +415,15 @@
   },
   "/cookie-policy": {
     "en": {
-      "title": "Cookie Policy, LaplandNature",
+      "title": "Cookie Policy",
       "description": "What cookies LaplandNature.com uses, why, and how to manage them. GDPR / ePrivacy compliant cookie disclosures from LaPeso Oy."
     },
     "fi": {
-      "title": "Evästekäytäntö, LaplandNature",
+      "title": "Evästekäytäntö",
       "description": "Mitä evästeitä LaplandNature.com käyttää, miksi ja miten niitä hallitaan. GDPR / ePrivacy -yhteensopivat evästeilmoitukset LaPeso Oy:ltä."
     },
     "de": {
-      "title": "Cookie-Richtlinie, LaplandNature",
+      "title": "Cookie-Richtlinie",
       "description": "Welche Cookies LaplandNature.com nutzt, warum und wie Sie sie verwalten. GDPR / ePrivacy konforme Cookie-Hinweise von LaPeso Oy."
     },
     "ja": {
@@ -431,49 +431,49 @@
       "description": "LaplandNature.comが使用するクッキー、その目的、管理方法。LaPeso OyによるGDPR/eプライバシー準拠のクッキー開示。"
     },
     "es": {
-      "title": "Política de cookies y consentimiento, LaplandNature",
+      "title": "Política de cookies y consentimiento",
       "description": "Qué cookies usa LaplandNature.com, por qué y cómo gestionarlas. Divulgaciones de cookies conformes al RGPD / ePrivacy de LaPeso Oy."
     },
     "pt-BR": {
-      "title": "Política de cookies, LaplandNature",
+      "title": "Política de cookies",
       "description": "Quais cookies a LaplandNature.com usa, por quê e como gerenciá-los. Divulgações de cookies em conformidade com GDPR / ePrivacy da LaPeso Oy."
     },
     "zh-CN": {
-      "title": "Cookie 政策，LaplandNature",
+      "title": "Cookie 政策",
       "description": "LaplandNature.com 使用哪些 Cookie、为何使用，以及如何管理。来自 LaPeso Oy、符合 GDPR / ePrivacy 的 Cookie 披露。"
     },
     "ko": {
-      "title": "쿠키 정책, LaplandNature",
+      "title": "쿠키 정책",
       "description": "LaplandNature.com이 사용하는 쿠키와 그 이유, 관리 방법. GDPR/ePrivacy를 준수하는 LaPeso Oy의 쿠키 공개입니다."
     },
     "fr": {
-      "title": "Politique des cookies, LaplandNature",
+      "title": "Politique des cookies",
       "description": "Quels cookies LaplandNature.com utilise, pourquoi et comment les gérer. Divulgations de cookies conformes RGPD / ePrivacy par LaPeso Oy."
     },
     "it": {
-      "title": "Informativa sui cookie, LaplandNature",
+      "title": "Informativa sui cookie",
       "description": "Quali cookie utilizza LaplandNature.com, perché e come gestirli. Informativa sui cookie conforme GDPR / ePrivacy da LaPeso Oy."
     },
     "nl": {
-      "title": "Cookiebeleid, LaplandNature",
+      "title": "Cookiebeleid",
       "description": "Welke cookies LaplandNature.com gebruikt, waarom, en hoe u ze beheert. AVG / ePrivacy-conforme cookieverklaringen van LaPeso Oy."
     },
     "sv": {
-      "title": "Cookiepolicy, LaplandNature",
+      "title": "Cookiepolicy",
       "description": "Vilka cookies LaplandNature.com använder, varför, och hur du hanterar dem. GDPR / ePrivacy-förenliga cookieförklaringar från LaPeso Oy."
     }
   },
   "/editorial-policy": {
     "en": {
-      "title": "Editorial Policy, LaplandNature",
+      "title": "Editorial Policy",
       "description": "How LaplandNature researches, writes and verifies its Lapland nature guides. Independence policy and how we handle affiliate income."
     },
     "fi": {
-      "title": "Toimituslinja, LaplandNature",
+      "title": "Toimituslinja",
       "description": "Miten LaplandNature tutkii, kirjoittaa ja vahvistaa Lapin luonto-oppaansa. Riippumattomuuspolitiikka ja affiliate-tulojen käsittely."
     },
     "de": {
-      "title": "Redaktionsrichtlinie, LaplandNature",
+      "title": "Redaktionsrichtlinie",
       "description": "Wie LaplandNature seine Lappland-Naturführer recherchiert, schreibt und prüft. Unabhängigkeitspolitik und Umgang mit Affiliate-Einnahmen."
     },
     "ja": {
@@ -481,35 +481,35 @@
       "description": "LaplandNatureがどのようにラップランドの自然ガイドをリサーチ、執筆、検証しているか。独立性の方針とアフィリエイト収益の扱い方。"
     },
     "es": {
-      "title": "Política editorial y de fuentes, LaplandNature",
+      "title": "Política editorial y de fuentes",
       "description": "Cómo LaplandNature investiga, redacta y verifica sus guías de naturaleza de Laponia. Política de independencia y cómo gestionamos los ingresos de afiliación."
     },
     "pt-BR": {
-      "title": "Política editorial, LaplandNature",
+      "title": "Política editorial",
       "description": "Como a LaplandNature pesquisa, escreve e verifica seus guias de natureza da Lapônia. Política de independência e como lidamos com a receita de afiliação."
     },
     "zh-CN": {
-      "title": "编辑方针，LaplandNature",
+      "title": "编辑方针",
       "description": "LaplandNature 如何研究、撰写并核实其拉普兰自然指南。独立性方针，以及我们如何处理联盟收入。"
     },
     "ko": {
-      "title": "편집 방침, LaplandNature",
+      "title": "편집 방침",
       "description": "LaplandNature가 라플란드 자연 가이드를 어떻게 조사하고, 쓰고, 검증하는지. 독립성 정책과 제휴 수익 처리 방식을 안내합니다."
     },
     "fr": {
-      "title": "Politique éditoriale, LaplandNature",
+      "title": "Politique éditoriale",
       "description": "Comment LaplandNature recherche, écrit et vérifie ses guides nature de Laponie. Politique d'indépendance et traitement des revenus d'affiliation."
     },
     "it": {
-      "title": "Politica editoriale, LaplandNature",
+      "title": "Politica editoriale",
       "description": "Come LaplandNature ricerca, scrive e verifica le sue guide alla natura della Lapponia. Politica di indipendenza e gestione dei ricavi di affiliazione."
     },
     "nl": {
-      "title": "Redactioneel beleid, LaplandNature",
+      "title": "Redactioneel beleid",
       "description": "Hoe LaplandNature zijn natuurgidsen over Lapland onderzoekt, schrijft en verifieert. Onafhankelijkheidsbeleid en omgang met affiliate-inkomsten."
     },
     "sv": {
-      "title": "Redaktionell policy, LaplandNature",
+      "title": "Redaktionell policy",
       "description": "Hur LaplandNature researchar, skriver och verifierar sina naturguider om Lappland. Oberoendepolicy och hur vi hanterar affiliateintäkter."
     }
   },
@@ -1771,15 +1771,15 @@
   },
   "/privacy": {
     "en": {
-      "title": "Privacy Policy, LaplandNature",
+      "title": "Privacy Policy",
       "description": "How LaPeso Oy (LaplandNature) processes personal data: newsletter signups, analytics and affiliate cookies. GDPR / ePrivacy compliant."
     },
     "fi": {
-      "title": "Tietosuojakäytäntö, LaplandNature",
+      "title": "Tietosuojakäytäntö",
       "description": "Miten LaPeso Oy (LaplandNature) käsittelee henkilötietoja: uutiskirjeen tilaukset, analytiikka ja affiliate-evästeet. GDPR:n ja ePrivacyn mukaisesti."
     },
     "de": {
-      "title": "Datenschutzerklärung, LaplandNature",
+      "title": "Datenschutzerklärung",
       "description": "Wie LaPeso Oy (LaplandNature) personenbezogene Daten verarbeitet: Newsletter-Anmeldungen, Analyse und Affiliate-Cookies. GDPR / ePrivacy konform."
     },
     "ja": {
@@ -1787,35 +1787,35 @@
       "description": "LaPeso Oy(LaplandNature)が個人データをどのように処理するか：ニュースレター登録、アナリティクス、アフィリエイトクッキー。GDPR/eプライバシー準拠。"
     },
     "es": {
-      "title": "Política de privacidad, LaplandNature",
+      "title": "Política de privacidad",
       "description": "Cómo trata LaPeso Oy (LaplandNature) los datos personales: altas de boletín, analítica y cookies de afiliación. Conforme al RGPD / ePrivacy."
     },
     "pt-BR": {
-      "title": "Política de privacidade, LaplandNature",
+      "title": "Política de privacidade",
       "description": "Como a LaPeso Oy (LaplandNature) trata os dados pessoais: inscrições na newsletter, analytics e cookies de afiliação. Em conformidade com GDPR / ePrivacy."
     },
     "zh-CN": {
-      "title": "隐私政策，LaplandNature",
+      "title": "隐私政策",
       "description": "LaPeso Oy(LaplandNature)如何处理个人数据：简讯订阅、分析与联盟 Cookie。符合 GDPR / ePrivacy。"
     },
     "ko": {
-      "title": "개인정보처리방침, LaplandNature",
+      "title": "개인정보처리방침",
       "description": "LaPeso Oy(LaplandNature)가 개인 데이터를 처리하는 방식, 뉴스레터 가입, 분석, 제휴 쿠키. GDPR/ePrivacy 준수."
     },
     "fr": {
-      "title": "Politique de confidentialité, LaplandNature",
+      "title": "Politique de confidentialité",
       "description": "Comment LaPeso Oy (LaplandNature) traite les données personnelles : inscriptions à la newsletter, analytics et cookies d’affiliation. Conforme RGPD."
     },
     "it": {
-      "title": "Informativa sulla privacy, LaplandNature",
+      "title": "Informativa sulla privacy",
       "description": "Come LaPeso Oy (LaplandNature) tratta i dati personali: iscrizioni alla newsletter, analytics e cookie di affiliazione. Conforme GDPR / ePrivacy."
     },
     "nl": {
-      "title": "Privacybeleid, LaplandNature",
+      "title": "Privacybeleid",
       "description": "Hoe LaPeso Oy (LaplandNature) persoonsgegevens verwerkt: nieuwsbriefaanmeldingen, analytics en affiliate-cookies. AVG / ePrivacy-conform."
     },
     "sv": {
-      "title": "Integritetspolicy, LaplandNature",
+      "title": "Integritetspolicy",
       "description": "Hur LaPeso Oy (LaplandNature) behandlar personuppgifter: nyhetsbrevsanmälningar, analys och affiliatecookies. GDPR / ePrivacy-förenligt."
     }
   },
@@ -2135,15 +2135,15 @@
   },
   "/terms": {
     "en": {
-      "title": "Terms of Use, LaplandNature",
+      "title": "Terms of Use",
       "description": "Terms governing use of LaplandNature.com, content licensing, affiliate disclosures, and editorial standards. Operated by LaPeso Oy in Finland."
     },
     "fi": {
-      "title": "Käyttöehdot, LaplandNature",
+      "title": "Käyttöehdot",
       "description": "LaplandNature.com -sivuston käyttöehdot, sisällön lisensointi, affiliate-ilmoitukset ja toimitukselliset standardit. LaPeso Oy Suomesta."
     },
     "de": {
-      "title": "Nutzungsbedingungen, LaplandNature",
+      "title": "Nutzungsbedingungen",
       "description": "Bedingungen für die Nutzung von LaplandNature.com, Inhaltslizenzierung, Affiliate-Hinweise und redaktionelle Standards. Von LaPeso Oy in Finnland."
     },
     "ja": {
@@ -2151,35 +2151,35 @@
       "description": "LaplandNature.comの利用規約、コンテンツのライセンス、アフィリエイトの開示、編集基準。フィンランドのLaPeso Oyが運営しています。"
     },
     "es": {
-      "title": "Condiciones de uso, LaplandNature",
+      "title": "Condiciones de uso",
       "description": "Condiciones que rigen el uso de LaplandNature.com, licencias de contenido, afiliación y normas editoriales. Operado por LaPeso Oy en Finlandia."
     },
     "pt-BR": {
-      "title": "Termos de uso, LaplandNature",
+      "title": "Termos de uso",
       "description": "Termos que regem o uso de LaplandNature.com, licenças de conteúdo, divulgações de afiliação e padrões editoriais. Operado pela LaPeso Oy na Finlândia."
     },
     "zh-CN": {
-      "title": "使用条款，LaplandNature",
+      "title": "使用条款",
       "description": "规范 LaplandNature.com 使用的条款，内容授权、联盟披露与编辑标准。由芬兰的 LaPeso Oy 运营。"
     },
     "ko": {
-      "title": "이용 약관, LaplandNature",
+      "title": "이용 약관",
       "description": "LaplandNature.com 이용 약관, 콘텐츠 라이선스, 제휴 공개, 편집 기준. 핀란드 LaPeso Oy가 운영합니다."
     },
     "fr": {
-      "title": "Conditions d'utilisation, LaplandNature",
+      "title": "Conditions d'utilisation",
       "description": "Conditions régissant l'utilisation de LaplandNature.com, licences de contenu, affiliation et standards éditoriaux. Exploité par LaPeso Oy en Finlande."
     },
     "it": {
-      "title": "Termini di utilizzo, LaplandNature",
+      "title": "Termini di utilizzo",
       "description": "Termini che regolano l'utilizzo di LaplandNature.com, licenze dei contenuti, affiliazione e standard editoriali. Gestito da LaPeso Oy in Finlandia."
     },
     "nl": {
-      "title": "Gebruiksvoorwaarden, LaplandNature",
+      "title": "Gebruiksvoorwaarden",
       "description": "Voorwaarden voor het gebruik van LaplandNature.com, content-licenties en redactionele standaarden. Geëxploiteerd door LaPeso Oy in Finland."
     },
     "sv": {
-      "title": "Användarvillkor, LaplandNature",
+      "title": "Användarvillkor",
       "description": "Villkor för användning av LaplandNature.com, innehållslicensiering och redaktionella standarder. Drivs av LaPeso Oy i Finland."
     }
   },

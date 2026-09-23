@@ -1039,7 +1039,7 @@ const fi: SectionCopy = {
     verifyLine: 'Lähteet: SYKE (Järvi-meriwiki-järvirekisteri), ymparisto.fi (Tornio-Muonio Natura 2000), ym.fi (Ramsar-kosteikot), Metsähallitus, Luke, eraluvat.fi ja Suomen–Norjan Tenon sopimus. Vuosittaiset kalastussäännöt, maksut ja kaudet päätetään uudelleen joka vuosi, varmista voimassa olevat luvut virallisilta sivuilta ennen matkaa.',
   },
   editorial: {
-    metaTitle: 'Toimituslinja, LaplandNature',
+    metaTitle: 'Toimituslinja',
     metaDescription: 'Miten LaplandNature tutkii, kirjoittaa ja vahvistaa Lapin luonto-oppaansa. Riippumattomuuspolitiikka ja affiliate-tulojen käsittely.',
     h1: 'Toimituslinja',
     lastUpdated: 'Päivitetty viimeksi: huhtikuu 2026',
@@ -1064,7 +1064,7 @@ const fi: SectionCopy = {
     correctionsAfter: '',
   },
   notFound: {
-    metaTitle: 'Sivua ei löytynyt, LaplandNature',
+    metaTitle: 'Sivua ei löytynyt',
     metaDescription: 'Etsimääsi sivua ei ole olemassa tai se on siirtynyt.',
     h1: 'Polulta poistunut',
     body: 'Etsimääsi sivua ei ole LaplandNature-sivustolla. Kokeile yhtä pilariopasta alta, siellä erämaa on.',
@@ -1072,15 +1072,15 @@ const fi: SectionCopy = {
     parks: 'Kansallispuistot',
   },
   privacy: {
-    metaTitle: 'Tietosuojakäytäntö, LaplandNature',
+    metaTitle: 'Tietosuojakäytäntö',
     metaDescription: 'Miten LaPeso Oy (LaplandNature) käsittelee henkilötietoja: uutiskirjeen tilaukset, analytiikka ja affiliate-evästeet. GDPR:n ja ePrivacyn mukaisesti.',
   },
   terms: {
-    metaTitle: 'Käyttöehdot, LaplandNature',
+    metaTitle: 'Käyttöehdot',
     metaDescription: 'LaplandNature.com -sivuston käyttöehdot, sisällön lisensointi, affiliate-ilmoitukset ja toimitukselliset standardit. LaPeso Oy Suomesta.',
   },
   cookie: {
-    metaTitle: 'Evästekäytäntö, LaplandNature',
+    metaTitle: 'Evästekäytäntö',
     metaDescription: 'Mitä evästeitä LaplandNature.com käyttää, miksi ja miten niitä hallitaan. GDPR / ePrivacy -yhteensopivat evästeilmoitukset LaPeso Oy:ltä.',
   },
 }

@@ -522,7 +522,7 @@ export const KO_OVERRIDES: DeepPartial<SectionCopy> = {
     },
   },
   editorial: {
-    metaTitle: '편집 방침, LaplandNature',
+    metaTitle: '편집 방침',
     metaDescription: 'LaplandNature가 라플란드 자연 가이드를 어떻게 조사하고, 쓰고, 검증하는지. 독립성 정책과 제휴 수익 처리 방식을 안내합니다.',
     h1: '편집 방침',
     lastUpdated: '최종 업데이트: 2026년 4월',
@@ -631,7 +631,7 @@ export const KO_OVERRIDES: DeepPartial<SectionCopy> = {
     verifyLine: '출처: SYKE(Järvi-meriwiki 호수 등록부), ymparisto.fi(토르니오-무오니오 Natura 2000), ym.fi(람사르 습지), Metsähallitus, Luke, eräluvat.fi 및 핀란드-노르웨이 테노 협정. 연간 낚시 규정, 수수료, 시즌은 매년 다시 정해지므로, 떠나기 전에 공식 페이지에서 현행 수치를 확인하세요.',
   },
   notFound: {
-    metaTitle: '페이지를 찾을 수 없습니다, LaplandNature',
+    metaTitle: '페이지를 찾을 수 없습니다',
     metaDescription: '찾으시던 페이지가 존재하지 않거나 이동되었습니다.',
     h1: '길에서 벗어났습니다',
     body: '찾으시던 페이지는 LaplandNature에 존재하지 않습니다. 아래 핵심 가이드 중 하나를 시도해 보세요. 황야는 그곳에 있습니다.',
@@ -639,15 +639,15 @@ export const KO_OVERRIDES: DeepPartial<SectionCopy> = {
     parks: '국립공원',
   },
   privacy: {
-    metaTitle: '개인정보처리방침, LaplandNature',
+    metaTitle: '개인정보처리방침',
     metaDescription: 'LaPeso Oy(LaplandNature)가 개인 데이터를 처리하는 방식, 뉴스레터 가입, 분석, 제휴 쿠키. GDPR/ePrivacy 준수.',
   },
   terms: {
-    metaTitle: '이용 약관, LaplandNature',
+    metaTitle: '이용 약관',
     metaDescription: 'LaplandNature.com 이용 약관, 콘텐츠 라이선스, 제휴 공개, 편집 기준. 핀란드 LaPeso Oy가 운영합니다.',
   },
   cookie: {
-    metaTitle: '쿠키 정책, LaplandNature',
+    metaTitle: '쿠키 정책',
     metaDescription: 'LaplandNature.com이 사용하는 쿠키와 그 이유, 관리 방법. GDPR/ePrivacy를 준수하는 LaPeso Oy의 쿠키 공개입니다.',
   },
   bearKuusamo: {

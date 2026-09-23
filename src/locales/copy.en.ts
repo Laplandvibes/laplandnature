@@ -1039,7 +1039,7 @@ const en: SectionCopy = {
     verifyLine: 'Sources: SYKE (Järvi-meriwiki lake register), ymparisto.fi (Tornio-Muonio Natura 2000), ym.fi (Ramsar wetlands), Metsähallitus, Luke, eräluvat.fi and Finland-Norway Teno agreement. Yearly fishing rules, fees and seasons are re-decided annually, confirm current figures on the official pages before you travel.',
   },
   editorial: {
-    metaTitle: 'Editorial Policy, LaplandNature',
+    metaTitle: 'Editorial Policy',
     metaDescription: 'How LaplandNature researches, writes and verifies its Lapland nature guides. Independence policy and how we handle affiliate income.',
     h1: 'Editorial Policy',
     lastUpdated: 'Last updated: April 2026',
@@ -1064,7 +1064,7 @@ const en: SectionCopy = {
     correctionsAfter: '',
   },
   notFound: {
-    metaTitle: 'Page not found, LaplandNature',
+    metaTitle: 'Page not found',
     metaDescription: "The page you were looking for doesn't exist or has moved.",
     h1: 'Off the trail',
     body: "The page you were looking for doesn't exist on LaplandNature. Try one of the pillar guides below. That is where the wilderness is.",
@@ -1072,15 +1072,15 @@ const en: SectionCopy = {
     parks: 'National parks',
   },
   privacy: {
-    metaTitle: 'Privacy Policy, LaplandNature',
+    metaTitle: 'Privacy Policy',
     metaDescription: 'How LaPeso Oy (LaplandNature) processes personal data: newsletter signups, analytics and affiliate cookies. GDPR / ePrivacy compliant.',
   },
   terms: {
-    metaTitle: 'Terms of Use, LaplandNature',
+    metaTitle: 'Terms of Use',
     metaDescription: 'Terms governing use of LaplandNature.com, content licensing, affiliate disclosures, and editorial standards. Operated by LaPeso Oy in Finland.',
   },
   cookie: {
-    metaTitle: 'Cookie Policy, LaplandNature',
+    metaTitle: 'Cookie Policy',
     metaDescription: 'What cookies LaplandNature.com uses, why, and how to manage them. GDPR / ePrivacy compliant cookie disclosures from LaPeso Oy.',
   },
 }
