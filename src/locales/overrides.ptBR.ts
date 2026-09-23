@@ -50,7 +50,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
     privacy: 'Cancele com um clique.',
   },
   affiliateDisclosure: {
-    body: 'Esta página contém links de afiliados. Se você reservar por eles, a LaplandVibes pode receber uma comissão sem custo adicional para você.',
+    body: 'Esta página contém links de afiliados. Se você reservar por eles, o LaplandVibes pode receber uma comissão sem custo adicional para você.',
   },
   footerCookie: {
     affiliateNote: 'Mantido de forma independente pela LaPeso Oy na Lapônia finlandesa · última revisão em abril de 2026 · recebemos uma comissão de afiliação em algumas reservas, mas isso nunca determina quais destinos ou operadores recomendamos.',
