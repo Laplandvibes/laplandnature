@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
 import { AppPromoNudge } from './components/AppPromo'
 import { useEffect, useReducer, lazy, Suspense, type ReactNode } from 'react'
 import Nav from './components/Nav'
-import Footer from './shared/Footer'
+import Footer from './components/Footer'
 import CookieBanner from './shared/CookieBanner'
 import NewsletterPopup from './components/NewsletterPopup'
 const Home = lazy(() => import('./pages/Home'))
