@@ -116,7 +116,7 @@ export default function Home() {
       >
         <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
           <Link
-            to={to('/northern-lights')}
+            to={to('/northern-lights/')}
             className="inline-flex items-center gap-2 bg-[#DB2777] hover:bg-[#BE185D] text-white font-semibold px-7 py-3.5 rounded-full transition-colors"
           >
             {c.hero.primaryCta}
@@ -292,7 +292,7 @@ export default function Home() {
               lang={lang}
               variant="dark"
               imageSrc="/images/hero-bear-kuusamo.webp"
-              articleHref={to('/bear-kuusamo')}
+              articleHref={to('/bear-kuusamo/')}
               onArticleClick={(_k, sid) => trackPartnerClick(`ad_article:${sid}`)}
               onCtaClick={(_specKey, sid) => trackPartnerClick(`ad_unit:${sid}`)}
             />

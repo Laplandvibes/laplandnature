@@ -123,7 +123,7 @@ export default function Wildlife() {
               lang={lang}
               variant="dark"
               imageSrc="/images/hero-bear-kuusamo.webp"
-              articleHref={to('/bear-kuusamo')}
+              articleHref={to('/bear-kuusamo/')}
               onArticleClick={(_k, sid) => trackPartnerClick(`ad_article:${sid}`)}
               onCtaClick={(_specKey, sid) => trackPartnerClick(`ad_unit:${sid}`)}
             />
@@ -168,7 +168,7 @@ export default function Wildlife() {
                 which surfaced only the contract-excluded competitor. Never
                 restore a GYG search on a bear CTA. */}
             <Link
-              to={to('/bear-kuusamo')}
+              to={to('/bear-kuusamo/')}
               className="inline-flex items-center justify-center gap-2 bg-vibe-pink hover:bg-pink-600 text-snow font-semibold px-6 py-3 rounded-full transition-colors"
             >
               {c.browseHidesCta}
@@ -186,7 +186,7 @@ export default function Wildlife() {
 
           {/* Partner feature: Bear Kuusamo (commercial partnership) */}
           <Link
-            to={to('/bear-kuusamo')}
+            to={to('/bear-kuusamo/')}
             className="mt-8 group flex flex-col sm:flex-row items-stretch rounded-2xl border border-deep-night/10 bg-cream overflow-hidden hover:border-aurora-green/40 hover:shadow-md transition-all"
           >
             <div className="sm:w-52 shrink-0 aspect-[16/10] sm:aspect-auto overflow-hidden">
