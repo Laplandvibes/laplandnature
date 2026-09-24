@@ -72,6 +72,13 @@ export function NewsChrome({ current, children }: { current: string; children: R
  * Sivun otsikko, metat, kanoninen, hreflang ja JSON-LD. Palauttaa elementin, jonka
  * sivu renderöi: sivuston <SEO> hoitaa headin efektissä ja latoo JSON-LD:n
  * <script>-elementteinä, jotka React 19 nostaa headiin myös esirenderöinnissä.
+ *
+ * 🔴 `breadcrumbs` otetaan vastaan mutta EI latota JSON-LD:ksi (mitattu livenä 24.9.2026).
+ * Tällä sivustolla murupolun BreadcrumbListin kirjoittaa esirenderöijä jokaiselle reitille
+ * kanonisesta polusta (`scripts/_prerender_routes.mjs`), joten oma lohko tuotti sivulle
+ * KAKSI BreadcrumbListiä — muilla sivuilla (esim. /wildlife) niitä on yksi. Flightsilla
+ * tätä ei näy, koska siellä murupolun latoo sivuston oma `usePageMeta`, ei esirenderöijä.
+ * Näkyvä murupolku sivun ylälaidassa on eri asia ja tulee komponenttien omasta markupista.
  */
 export function useNewsHead(m: {
   title: string
@@ -81,23 +88,13 @@ export function useNewsHead(m: {
   breadcrumbs: { name: string; path: string }[]
   jsonLd?: unknown[]
 }): ReactNode {
-  const crumbs = {
-    '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
-    itemListElement: m.breadcrumbs.map((b, i) => ({
-      '@type': 'ListItem',
-      position: i + 1,
-      name: b.name,
-      item: `${SITE.origin}${b.path}`.replace(/\/?$/, '/'),
-    })),
-  }
   return (
     <SEO
       title={m.title}
       description={m.description}
       canonicalPath={m.path}
       ogImage={m.image}
-      jsonLd={[crumbs, ...((m.jsonLd ?? []) as object[])]}
+      jsonLd={(m.jsonLd ?? []) as object[]}
     />
   )
 }
