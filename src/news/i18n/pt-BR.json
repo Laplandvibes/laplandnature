@@ -1,0 +1,27 @@
+{
+  "section": "Notícias da natureza",
+  "nav": "Notícias",
+  "index": {
+    "seoTitle": "Notícias da natureza da Lapônia: pesquisa",
+    "description": "Notícias de pesquisa sobre a natureza da Lapônia finlandesa: as montanhas, os animais, as plantas e as estações. Cada texto cita e linka suas fontes.",
+    "h1": "Notícias da natureza da Lapônia",
+    "lead": "O que a pesquisa recente diz sobre a natureza da Lapônia finlandesa, escrito a partir dos artigos originais e dos comunicados, com todas as fontes citadas e linkadas.",
+    "aboutTitle": "Como apuramos",
+    "aboutText": "Abrimos cada fonte antes de escrever e contamos apenas o que ela diz. Quando o comunicado e o artigo científico divergem, dizemos de qual deles vem o número e linkamos os dois.",
+    "allRoutes": "Os animais da Lapônia, espécie por espécie"
+  },
+  "ui": {
+    "home": "Início",
+    "readMore": "Ler a matéria",
+    "published": "Publicado",
+    "updated": "Atualizado",
+    "byline": "Redação do LaplandNature",
+    "sources": "Fontes",
+    "source": "Fonte",
+    "read": "consultado",
+    "photo": "Foto",
+    "latest": "Últimas notícias da natureza",
+    "allNews": "Todas as notícias da natureza",
+    "moreNews": "Mais notícias da natureza"
+  }
+}

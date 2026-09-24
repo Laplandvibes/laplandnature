@@ -1,0 +1,82 @@
+{
+  "title": "Rentierbeweidung entscheidet, welche Insekten die Fjellblüten erreichen",
+  "seoTitle": "Kilpisjärvi: Rentierbeweidung und arktische Bestäuber",
+  "description": "Ein langjähriger Versuch bei Kilpisjärvi zeigt: Rentierbeweidung verändert das Verhältnis von Blüten und Insekten im Fjell stärker als zusätzliche Nährstoffe.",
+  "dek": "Eingezäunte Fjellwiesen zogen mehr Bestäuber an als beweidete, und am stärksten war der Effekt auf der kargen Tundra, berichtet eine Studie der Universität Oulu.",
+  "heroAlt": "Drei Rentiere weiden zwischen Fjellbirken auf einer grünen Wiese bei Kilpisjärvi im Hochsommer.",
+  "heroCaption": "Rentiere weiden im Fjellbirkengürtel bei Kilpisjärvi im Hochsommer. Das Foto stammt nicht von den Versuchsflächen.",
+  "body": [
+    {
+      "t": "p",
+      "text": "Die Beweidung durch Rentiere verändert das Verhältnis von Blüten und Insekten in den Fjells Lapplands stärker als die Zugabe von Nährstoffen. Das zeigt eine Studie der Universität Oulu, über die am 17.9.2026 informiert wurde. Am stärksten waren die Effekte auf karger Tundra, und die meisten Insekten zogen jene Fjellwiesen an, die gegen Beweidung eingezäunt waren."
+    },
+    {
+      "t": "h2",
+      "text": "Ein Zaun, zusätzliche Nährstoffe und zwei Fjellwiesen"
+    },
+    {
+      "t": "p",
+      "text": "Die Blütenbesucher wurden auf zwei Versuchsflächen nahe Kilpisjärvi gezählt. Eine liegt oberhalb der Baumgrenze auf karger Tundra, die andere auf einer nährstoffreicheren Wiese im Fjellbirkengürtel. Auf jeder Fläche blieben 16 Parzellen entweder den Rentieren offen oder wurden eingezäunt, mit oder ohne Nährstoffzugabe. Die Behandlungen wurden 2014–2015 angelegt, die Insekten im Juli 2022 beobachtet. Die Arbeit ist Teil des internationalen Nutrient-Network-Versuchs."
+    },
+    {
+      "t": "embed",
+      "id": "fence",
+      "title": "Blütenbesuche auf beiden Seiten des Zauns",
+      "items": [
+        "Fjellbirkenwiese, 600 m",
+        "Tundrawiese, 730 m",
+        "Von Rentieren beweidet",
+        "Eingezäunt",
+        "Eingezäunt und gedüngt",
+        "Blütenbesuche, gezählt im Juli 2022"
+      ],
+      "text": "Auf der Tundra kam der höchste Wert von Parzellen, die sowohl eingezäunt als auch gedüngt waren; auf der Fjellbirkenwiese von den eingezäunten Parzellen. Zahlen aus dem Fachartikel."
+    },
+    {
+      "t": "p",
+      "text": "Die Rentiere fernzuhalten war der einzelne Faktor mit der größten Wirkung. Der Zaun erhöhte die Zahl der Bestäuber und anderer Blütenbesucher, den Reichtum an Insektenfamilien und die Zahl der Besuche an den Pflanzen. Auf der kargen Tundrawiese waren die Effekte stärker als auf der nährstoffreicheren Wiese zwischen den Birken. Viele arktische Pflanzen sind auf die Bestäubung durch Insekten angewiesen, erinnert Risto Virtanen, Oberkustos an der Universität Oulu."
+    },
+    {
+      "t": "h2",
+      "text": "Wie viele Blüten, nicht wie viele Arten"
+    },
+    {
+      "t": "p",
+      "text": "Die Zahl der Insekten und der Reichtum an Insektenfamilien stiegen, je mehr Blüten vorhanden waren. Eine größere Zahl blühender Arten hob die Insektenzahl dagegen nicht in gleicher Weise."
+    },
+    {
+      "t": "note",
+      "text": "„Die Ergebnisse deuten darauf hin, dass in nördlichen Lebensräumen die Fülle der Blüten für Insekten wichtiger sein kann als die Zahl der blühenden Pflanzenarten“, sagt Nicolina Johanson, Doktorandin an der Universität Oulu."
+    },
+    {
+      "t": "h2",
+      "text": "Was man im Fjell sehen kann"
+    },
+    {
+      "t": "p",
+      "text": "Am härtesten greift die Beweidung kurz nach der Schneeschmelze, wenn die Rentiere die Blütenstängel schon im Wachsen fressen. Deshalb ist der Unterschied im Gelände sichtbar: Wo Rentiere geweidet haben, stehen weniger Blüten offen, und auf ihnen sitzen weniger Insekten. An einer Zaunlinie können die beiden Seiten wie zwei verschiedene Wiesen aussehen."
+    },
+    {
+      "t": "link",
+      "text": "Das Rentier prägt die Landschaft Lapplands am stärksten. Was sonst noch in den Fjells lebt, steht in unserem Tierführer.",
+      "label": "Die Tierwelt Lapplands",
+      "href": "/wildlife"
+    },
+    {
+      "t": "h2",
+      "text": "Was das für die Weideplanung bedeutet"
+    },
+    {
+      "t": "p",
+      "text": "Das neue finnische Rentierwirtschaftsgesetz verlangt eine Planung für die nachhaltige Nutzung der Rentierweiden. Die Forschenden merken an, dass Ort und Zeitpunkt der Beweidung, etwa Rotationsweide oder eine spätere Beweidung, für die Bestäubung wichtig sein können."
+    },
+    {
+      "t": "note",
+      "text": "„Der Zeitpunkt entscheidet, wie viele und welche Blüten die Fjellnatur den Insekten bietet“, sagt Virtanen."
+    },
+    {
+      "t": "p",
+      "text": "Die Studie erschien im August 2026 in der Zeitschrift Global Change Biology. Sie ist frei zugänglich, der vollständige Artikel lässt sich also ohne Abonnement lesen."
+    }
+  ]
+}

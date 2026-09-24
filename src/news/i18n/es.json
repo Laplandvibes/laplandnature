@@ -1,0 +1,27 @@
+{
+  "section": "Noticias de naturaleza",
+  "nav": "Noticias",
+  "index": {
+    "seoTitle": "Noticias de naturaleza de Laponia: investigación",
+    "description": "Noticias de investigación sobre la naturaleza de la Laponia finlandesa: los montes, su fauna y sus plantas. Cada artículo cita y enlaza sus fuentes.",
+    "h1": "Noticias de naturaleza de Laponia",
+    "lead": "Lo que dice la investigación reciente sobre la naturaleza de la Laponia finlandesa, escrito a partir de los artículos originales y de las notas de prensa, con las fuentes citadas y enlazadas.",
+    "aboutTitle": "Cómo trabajamos",
+    "aboutText": "Abrimos cada fuente antes de escribir y contamos solo lo que dice. Cuando la nota de prensa y el artículo científico no coinciden, indicamos de cuál procede cada dato y enlazamos ambos.",
+    "allRoutes": "La fauna de Laponia, especie a especie"
+  },
+  "ui": {
+    "home": "Inicio",
+    "readMore": "Leer el artículo",
+    "published": "Publicado",
+    "updated": "Actualizado",
+    "byline": "Redacción de LaplandNature",
+    "sources": "Fuentes",
+    "source": "Fuente",
+    "read": "consultado",
+    "photo": "Foto",
+    "latest": "Últimas noticias de naturaleza",
+    "allNews": "Todas las noticias de naturaleza",
+    "moreNews": "Más noticias de naturaleza"
+  }
+}

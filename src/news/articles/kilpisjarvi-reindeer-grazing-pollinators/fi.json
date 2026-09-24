@@ -1,0 +1,82 @@
+{
+  "title": "Porojen laidunnus ratkaisee, kuka käy tunturin kukilla",
+  "seoTitle": "Kilpisjärvi: porolaidunnus ja tunturin pölyttäjät",
+  "description": "Kilpisjärven pitkäaikainen koe osoitti, että porojen laidunnus muokkaa tunturin kukkien ja hyönteisten suhteita voimakkaammin kuin ravinnelisäys.",
+  "dek": "Laidunnukselta aidatut tunturiniityt houkuttelivat enemmän pölyttäjiä kuin laidunnetut, ja vaikutus oli voimakkain karulla tundralla, kertoo Oulun yliopiston tutkimus.",
+  "heroAlt": "Kolme poroa laiduntaa tunturikoivujen keskellä vihreällä niityllä Kilpisjärvellä keskikesällä.",
+  "heroCaption": "Porot laiduntavat tunturikoivuvyöhykkeessä Kilpisjärvellä keskikesällä. Kuva ei ole tutkimuksen koealoilta.",
+  "body": [
+    {
+      "t": "p",
+      "text": "Porojen laidunnus muokkaa Lapin tuntureiden kukkien ja hyönteisten suhteita voimakkaammin kuin ravinteiden lisääminen, kertoo Oulun yliopiston tutkimus, josta tiedotettiin 17.9.2026. Vaikutukset olivat voimakkaimpia karulla tundralla, ja eniten hyönteisiä houkuttelivat laidunnukselta aidatut tunturiniityt."
+    },
+    {
+      "t": "h2",
+      "text": "Aita, ravinnelisäys ja kaksi tunturiniittyä"
+    },
+    {
+      "t": "p",
+      "text": "Kukilla vierailevat hyönteiset laskettiin kahdella koealueella Kilpisjärven lähellä. Toinen on puurajan yläpuolella karulla tundralla, toinen ravinteikkaammalla niityllä tunturikoivuvyöhykkeessä. Kummallakin alueella 16 koealaa jätettiin joko porojen laidunnettavaksi tai aidattiin, ravinnelisäyksen kanssa tai ilman. Käsittelyt perustettiin 2014–2015 ja hyönteisiä havainnoitiin heinäkuussa 2022. Työ on osa kansainvälistä Nutrient Network -koetta."
+    },
+    {
+      "t": "embed",
+      "id": "fence",
+      "title": "Kukkavierailut aidan kahdella puolella",
+      "items": [
+        "Tunturikoivikon niitty, 600 m",
+        "Tundran niitty, 730 m",
+        "Porojen laiduntama",
+        "Aidattu",
+        "Aidattu ja ravinnelisätty",
+        "Kukkavierailuja heinäkuussa 2022"
+      ],
+      "text": "Tundralla suurin lukema tuli koealoilta, jotka oli sekä aidattu että ravinnelisätty; tunturikoivikon niityllä aidatuilta koealoilta. Luvut tutkimusjulkaisusta."
+    },
+    {
+      "t": "p",
+      "text": "Porojen pitäminen poissa oli yksittäisistä tekijöistä merkittävin. Aitaaminen lisäsi pölyttäjien ja muiden kukissa käyvien hyönteisten määrää, hyönteisheimojen rikkautta ja vierailuja kasveissa. Vaikutukset olivat voimakkaampia karulla tunturiniityllä kuin ravinteikkaammalla koivikon niityllä. Monet arktiset kasvit ovat riippuvaisia hyönteisten tekemästä pölytyksestä, muistuttaa Oulun yliopiston yli-intendentti Risto Virtanen."
+    },
+    {
+      "t": "h2",
+      "text": "Kukkien määrä ratkaisee, ei lajien määrä"
+    },
+    {
+      "t": "p",
+      "text": "Hyönteisten määrä ja hyönteisheimojen rikkaus kasvoivat, kun kukkien määrä kasvoi. Kukkivien lajien suurempi määrä ei sen sijaan lisännyt hyönteisiä samalla tavalla."
+    },
+    {
+      "t": "note",
+      "text": "”Tulokset viittaavat siihen, että pohjoisissa ympäristöissä kukkien runsaus voi olla hyönteisille tärkeämpää kuin kukkivien kasvilajien määrä”, toteaa Oulun yliopiston väitöskirjatutkija Nicolina Johanson."
+    },
+    {
+      "t": "h2",
+      "text": "Mitä tunturissa kulkija näkee"
+    },
+    {
+      "t": "p",
+      "text": "Laidunnus puree kovimmin pian lumien sulamisen jälkeen, kun porot syövät kukkavarsia niiden kehittyessä. Siksi ero näkyy maastossa: siellä missä porot ovat laiduntaneet, kukkia on auki vähemmän ja niillä on vähemmän hyönteisiä. Aidan kohdalla kaksi puolta voivat näyttää kahdelta eri niityltä."
+    },
+    {
+      "t": "link",
+      "text": "Poro on eläin, joka muokkaa Lapin maisemaa eniten. Mitä muuta tuntureilla elää, löytyy eläinoppaastamme.",
+      "label": "Lapin eläimet",
+      "href": "/wildlife"
+    },
+    {
+      "t": "h2",
+      "text": "Mitä tästä seuraa laidunten suunnittelulle"
+    },
+    {
+      "t": "p",
+      "text": "Uusi poronhoitolaki edellyttää porolaidunten kestävän käytön suunnittelua. Tutkijat huomauttavat, että laidunnuksen alueellinen ja ajallinen vaihtelu, kuten kiertävä tai myöhemmäksi ajoittuva laidunnus, voi olla tärkeää pölytyksen kannalta."
+    },
+    {
+      "t": "note",
+      "text": "”Ajoitus vaikuttaa siihen, kuinka paljon ja millaisia kukkia tunturiluonto tarjoaa hyönteisille”, Virtanen toteaa."
+    },
+    {
+      "t": "p",
+      "text": "Tutkimus julkaistiin Global Change Biology -lehdessä elokuussa 2026. Se on avoimesti saatavilla, joten koko artikkelin voi lukea ilman tilausta."
+    }
+  ]
+}

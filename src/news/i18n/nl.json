@@ -1,0 +1,27 @@
+{
+  "section": "Natuurnieuws",
+  "nav": "Nieuws",
+  "index": {
+    "seoTitle": "Natuurnieuws uit Lapland: onderzoek op de fjeld",
+    "description": "Onderzoeksnieuws over de natuur van Fins Lapland: de fjelden, de dieren, de planten en de seizoenen. Elk artikel noemt zijn bronnen en linkt ernaar.",
+    "h1": "Natuurnieuws uit Lapland",
+    "lead": "Wat nieuw onderzoek zegt over de natuur van Fins Lapland, geschreven vanuit de originele artikelen en persberichten, met alle bronnen genoemd en gelinkt.",
+    "aboutTitle": "Zo werken wij",
+    "aboutText": "Wij openen elke bron voordat wij schrijven en geven alleen weer wat erin staat. Wijken het persbericht en het wetenschappelijke artikel van elkaar af, dan zeggen wij uit welke van de twee een getal komt en linken wij naar allebei.",
+    "allRoutes": "De dieren van Lapland, soort voor soort"
+  },
+  "ui": {
+    "home": "Home",
+    "readMore": "Lees het artikel",
+    "published": "Gepubliceerd",
+    "updated": "Bijgewerkt",
+    "byline": "Redactie van LaplandNature",
+    "sources": "Bronnen",
+    "source": "Bron",
+    "read": "geraadpleegd",
+    "photo": "Foto",
+    "latest": "Laatste natuurnieuws",
+    "allNews": "Al het natuurnieuws",
+    "moreNews": "Meer natuurnieuws"
+  }
+}

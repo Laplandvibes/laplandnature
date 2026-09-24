@@ -1,0 +1,27 @@
+{
+  "section": "Naturnyheter",
+  "nav": "Nyheter",
+  "index": {
+    "seoTitle": "Naturnyheter från Lappland: forskning på fjället",
+    "description": "Forskningsnyheter om naturen i finska Lappland: fjällen, djuren, växterna och årstiderna. Varje artikel namnger och länkar sina källor.",
+    "h1": "Naturnyheter från Lappland",
+    "lead": "Vad ny forskning säger om naturen i finska Lappland, skrivet utifrån originalartiklarna och pressmeddelandena, med alla källor namngivna och länkade.",
+    "aboutTitle": "Så gör vi nyheterna",
+    "aboutText": "Vi öppnar varje källa innan vi skriver och återger bara det som står där. När pressmeddelandet och den vetenskapliga artikeln skiljer sig åt säger vi varifrån en siffra kommer och länkar båda.",
+    "allRoutes": "Lapplands djur, art för art"
+  },
+  "ui": {
+    "home": "Startsida",
+    "readMore": "Läs artikeln",
+    "published": "Publicerad",
+    "updated": "Uppdaterad",
+    "byline": "LaplandNature-redaktionen",
+    "sources": "Källor",
+    "source": "Källa",
+    "read": "läst",
+    "photo": "Foto",
+    "latest": "Senaste naturnyheterna",
+    "allNews": "Alla naturnyheter",
+    "moreNews": "Fler naturnyheter"
+  }
+}

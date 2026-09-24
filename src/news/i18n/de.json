@@ -1,0 +1,27 @@
+{
+  "section": "Naturnachrichten",
+  "nav": "Nachrichten",
+  "index": {
+    "seoTitle": "Naturnachrichten aus Lappland: Forschung im Fjell",
+    "description": "Forschungsnachrichten über die Natur des finnischen Lapplands: Fjells, Tiere, Pflanzen und Jahreszeiten. Jeder Beitrag nennt und verlinkt seine Quellen.",
+    "h1": "Naturnachrichten aus Lappland",
+    "lead": "Was neue Forschung über die Natur des finnischen Lapplands sagt, geschrieben aus den Originalarbeiten und Mitteilungen, mit benannten und verlinkten Quellen.",
+    "aboutTitle": "So arbeiten wir",
+    "aboutText": "Wir öffnen jede Quelle vor dem Schreiben und geben nur wieder, was dort steht. Wenn Mitteilung und Fachartikel abweichen, sagen wir, woher eine Zahl stammt, und verlinken beide.",
+    "allRoutes": "Die Tierwelt Lapplands, Art für Art"
+  },
+  "ui": {
+    "home": "Startseite",
+    "readMore": "Beitrag lesen",
+    "published": "Veröffentlicht",
+    "updated": "Aktualisiert",
+    "byline": "LaplandNature-Redaktion",
+    "sources": "Quellen",
+    "source": "Quelle",
+    "read": "gelesen",
+    "photo": "Foto",
+    "latest": "Neueste Naturnachrichten",
+    "allNews": "Alle Naturnachrichten",
+    "moreNews": "Weitere Naturnachrichten"
+  }
+}

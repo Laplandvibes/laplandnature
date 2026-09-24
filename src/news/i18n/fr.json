@@ -1,0 +1,27 @@
+{
+  "section": "Actualités nature",
+  "nav": "Actualités",
+  "index": {
+    "seoTitle": "Actualités nature de Laponie : la recherche",
+    "description": "La recherche sur la nature de la Laponie finlandaise : les fjells, la faune, les plantes et les saisons. Chaque article cite et relie ses sources.",
+    "h1": "Actualités nature de Laponie",
+    "lead": "Ce que dit la recherche récente sur la nature de la Laponie finlandaise, écrit à partir des articles originaux et des communiqués, avec toutes les sources nommées et reliées.",
+    "aboutTitle": "Notre méthode",
+    "aboutText": "Nous ouvrons chaque source avant d'écrire et ne rapportons que ce qu'elle dit. Quand le communiqué et l'article scientifique diffèrent, nous précisons d'où vient le chiffre et nous relions les deux.",
+    "allRoutes": "La faune de Laponie, espèce par espèce"
+  },
+  "ui": {
+    "home": "Accueil",
+    "readMore": "Lire l'article",
+    "published": "Publié",
+    "updated": "Mis à jour",
+    "byline": "Rédaction de LaplandNature",
+    "sources": "Sources",
+    "source": "Source",
+    "read": "consulté",
+    "photo": "Photo",
+    "latest": "Dernières actualités nature",
+    "allNews": "Toutes les actualités nature",
+    "moreNews": "Plus d'actualités nature"
+  }
+}

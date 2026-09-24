@@ -322,5 +322,167 @@
         "samaKuinKesa": true
       }
     }
+  },
+  "news": {
+    "route": "/news",
+    "line": "Reindeer, flowers and the fence",
+    "kaudet": {
+      "summer": {
+        "hero": "/images/news/kilpisjarvi-reindeer-1600.webp",
+        "bytes": 248374,
+        "sha256": "e7fc4cfa7b9c44cf0ed4376a2b2bb1416e3e47968fa62b795fca04929562c43e",
+        "heroSha": "0d451cc12e9280a7",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 16658,
+        "inkBox": [
+          382,
+          494,
+          818,
+          600
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 83.7,
+        "centerSq": 90.3,
+        "photoRegion": 100.6,
+        "photoRegionRef": 100.6,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 439,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": []
+      },
+      "winter": {
+        "hero": "/images/news/kilpisjarvi-reindeer-1600.webp",
+        "bytes": 248374,
+        "sha256": "e7fc4cfa7b9c44cf0ed4376a2b2bb1416e3e47968fa62b795fca04929562c43e",
+        "heroSha": "0d451cc12e9280a7",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 16658,
+        "inkBox": [
+          382,
+          494,
+          818,
+          600
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 83.7,
+        "centerSq": 90.3,
+        "photoRegion": 100.6,
+        "photoRegionRef": 100.6,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 439,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": [],
+        "samaKuinKesa": true
+      }
+    }
+  },
+  "news-kilpisjarvi-reindeer-grazing-pollinators": {
+    "route": "/news/kilpisjarvi-reindeer-grazing-pollinators",
+    "line": "Reindeer, flowers and the fence",
+    "kaudet": {
+      "summer": {
+        "hero": "/images/news/kilpisjarvi-reindeer-1600.webp",
+        "bytes": 248374,
+        "sha256": "e7fc4cfa7b9c44cf0ed4376a2b2bb1416e3e47968fa62b795fca04929562c43e",
+        "heroSha": "0d451cc12e9280a7",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 16658,
+        "inkBox": [
+          382,
+          494,
+          818,
+          600
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 83.7,
+        "centerSq": 90.3,
+        "photoRegion": 100.6,
+        "photoRegionRef": 100.6,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 439,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": []
+      },
+      "winter": {
+        "hero": "/images/news/kilpisjarvi-reindeer-1600.webp",
+        "bytes": 248374,
+        "sha256": "e7fc4cfa7b9c44cf0ed4376a2b2bb1416e3e47968fa62b795fca04929562c43e",
+        "heroSha": "0d451cc12e9280a7",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 16658,
+        "inkBox": [
+          382,
+          494,
+          818,
+          600
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 83.7,
+        "centerSq": 90.3,
+        "photoRegion": 100.6,
+        "photoRegionRef": 100.6,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 439,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": [],
+        "samaKuinKesa": true
+      }
+    }
   }
 }

@@ -1455,6 +1455,106 @@
       ]
     }
   },
+  "/news": {
+    "en": {
+      "title": "Lapland nature news: research from the fells",
+      "description": "Research news about the nature of Finnish Lapland: the fells, their wildlife, plants and seasons. Every story names and links its sources."
+    },
+    "fi": {
+      "title": "Lapin luontouutiset: tutkimusta tuntureilta",
+      "description": "Tutkimusuutisia Suomen Lapin luonnosta: tunturit, eläimet, kasvit ja vuodenajat. Jokainen juttu nimeää ja linkittää lähteensä."
+    },
+    "de": {
+      "title": "Naturnachrichten aus Lappland: Forschung im Fjell",
+      "description": "Forschungsnachrichten über die Natur des finnischen Lapplands: Fjells, Tiere, Pflanzen und Jahreszeiten. Jeder Beitrag nennt und verlinkt seine Quellen."
+    },
+    "ja": {
+      "title": "ラップランドの自然ニュース：ツンドラからの研究",
+      "description": "フィンランド・ラップランドの自然に関する研究ニュース。山地ツンドラ、野生動物、植物、四季について、すべての記事で出典を明記しリンクしています。"
+    },
+    "es": {
+      "title": "Noticias de naturaleza de Laponia: investigación",
+      "description": "Noticias de investigación sobre la naturaleza de la Laponia finlandesa: los montes, su fauna y sus plantas. Cada artículo cita y enlaza sus fuentes."
+    },
+    "pt-BR": {
+      "title": "Notícias da natureza da Lapônia: pesquisa",
+      "description": "Notícias de pesquisa sobre a natureza da Lapônia finlandesa: as montanhas, os animais, as plantas e as estações. Cada texto cita e linka suas fontes."
+    },
+    "zh-CN": {
+      "title": "拉普兰自然新闻：来自山地苔原的研究",
+      "description": "关于芬兰拉普兰自然的研究新闻：山地苔原、野生动物、植物与四季的最新发现。每篇报道都依据原始论文和新闻稿撰写，并注明与链接全部来源，读者可自行核对。"
+    },
+    "ko": {
+      "title": "라플란드 자연 뉴스: 툰드라에서 온 연구",
+      "description": "핀란드 라플란드의 자연에 관한 연구 뉴스입니다. 산지 툰드라와 야생동물, 식물, 계절을 다루며 모든 기사에 출처를 밝히고 링크합니다."
+    },
+    "fr": {
+      "title": "Actualités nature de Laponie : la recherche",
+      "description": "La recherche sur la nature de la Laponie finlandaise : les fjells, la faune, les plantes et les saisons. Chaque article cite et relie ses sources."
+    },
+    "it": {
+      "title": "Notizie dalla natura della Lapponia: ricerca",
+      "description": "Notizie di ricerca sulla natura della Lapponia finlandese: i fjell, la fauna, le piante e le stagioni. Ogni articolo cita e collega le proprie fonti."
+    },
+    "nl": {
+      "title": "Natuurnieuws uit Lapland: onderzoek op de fjeld",
+      "description": "Onderzoeksnieuws over de natuur van Fins Lapland: de fjelden, de dieren, de planten en de seizoenen. Elk artikel noemt zijn bronnen en linkt ernaar."
+    },
+    "sv": {
+      "title": "Naturnyheter från Lappland: forskning på fjället",
+      "description": "Forskningsnyheter om naturen i finska Lappland: fjällen, djuren, växterna och årstiderna. Varje artikel namnger och länkar sina källor."
+    }
+  },
+  "/news/kilpisjarvi-reindeer-grazing-pollinators": {
+    "en": {
+      "title": "Kilpisjärvi: reindeer grazing and arctic pollinators",
+      "description": "A long-running Kilpisjärvi experiment found that reindeer grazing changes flower and insect relationships on the fells more than added nutrients do."
+    },
+    "fi": {
+      "title": "Kilpisjärvi: porolaidunnus ja tunturin pölyttäjät",
+      "description": "Kilpisjärven pitkäaikainen koe osoitti, että porojen laidunnus muokkaa tunturin kukkien ja hyönteisten suhteita voimakkaammin kuin ravinnelisäys."
+    },
+    "de": {
+      "title": "Kilpisjärvi: Rentierbeweidung und arktische Bestäuber",
+      "description": "Ein langjähriger Versuch bei Kilpisjärvi zeigt: Rentierbeweidung verändert das Verhältnis von Blüten und Insekten im Fjell stärker als zusätzliche Nährstoffe."
+    },
+    "ja": {
+      "title": "キルピスヤルビ：トナカイ放牧と北極の送粉者",
+      "description": "キルピスヤルビの長期試験で、トナカイの放牧は養分の追加よりも強く、山地の花と昆虫の関係を変えていることが分かりました。効果はやせたツンドラで最も大きく、柵で守った草地に昆虫が最も多く集まりました。"
+    },
+    "es": {
+      "title": "Kilpisjärvi: pastoreo de renos y polinizadores",
+      "description": "Un experimento de larga duración en Kilpisjärvi muestra que el pastoreo de renos altera la relación entre flores e insectos más que añadir nutrientes."
+    },
+    "pt-BR": {
+      "title": "Kilpisjärvi: pastoreio de renas e polinizadores",
+      "description": "Um experimento de longa duração em Kilpisjärvi mostra que o pastoreio de renas muda a relação entre flores e insetos mais do que a adição de nutrientes."
+    },
+    "zh-CN": {
+      "title": "基尔皮斯耶尔维：驯鹿放牧与北极传粉者",
+      "description": "基尔皮斯耶尔维的长期试验显示，驯鹿放牧对山地花与昆虫关系的影响比追加养分更强烈。效果在贫瘠苔原上最明显，用围栏挡住放牧的草地吸引到的昆虫最多。"
+    },
+    "ko": {
+      "title": "킬피스얀비: 순록 방목과 북극의 수분매개자",
+      "description": "킬피스얀비의 장기 실험에서 순록 방목이 양분 추가보다 산지의 꽃과 곤충 관계를 더 크게 바꾸는 것으로 나타났습니다. 효과는 척박한 툰드라에서 가장 컸고, 울타리로 막은 초지에 곤충이 가장 많이 모였습니다."
+    },
+    "fr": {
+      "title": "Kilpisjärvi : pâturage des rennes et pollinisateurs",
+      "description": "Une expérience de longue durée à Kilpisjärvi montre que le pâturage des rennes modifie la relation entre fleurs et insectes plus que l'apport de nutriments."
+    },
+    "it": {
+      "title": "Kilpisjärvi: pascolo delle renne e impollinatori",
+      "description": "Un esperimento di lunga durata a Kilpisjärvi mostra che il pascolo delle renne cambia il rapporto tra fiori e insetti più dell'aggiunta di nutrienti."
+    },
+    "nl": {
+      "title": "Kilpisjärvi: rendierbegrazing en bestuivers",
+      "description": "Een langlopend experiment bij Kilpisjärvi laat zien dat rendierbegrazing de band tussen bloemen en insecten sterker verandert dan extra voedingsstoffen."
+    },
+    "sv": {
+      "title": "Kilpisjärvi: renbete och fjällets pollinatörer",
+      "description": "Ett långvarigt försök vid Kilpisjärvi visar att renbete förändrar förhållandet mellan blommor och insekter på fjället mer än tillförda näringsämnen gör."
+    }
+  },
   "/northern-lights": {
     "en": {
       "title": "Northern Lights in Lapland: Where & When to See Them",

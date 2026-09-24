@@ -1,0 +1,54 @@
+{
+  "slug": "kilpisjarvi-reindeer-grazing-pollinators",
+  "date": "2026-09-24",
+  "hero": {
+    "src": "/images/news/kilpisjarvi-reindeer-1600.webp",
+    "srcSmall": "/images/news/kilpisjarvi-reindeer-800.webp",
+    "width": 1600,
+    "height": 1066,
+    "position": "50% 62%",
+    "credit": {
+      "author": "Ninara",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Midsummer_in_Kilpisj%C3%A4rvi,_Lapland_(52223081004).jpg",
+      "assetId": "File:Midsummer in Kilpisjärvi, Lapland (52223081004).jpg",
+      "sourceName": "Wikimedia Commons",
+      "taken": "2022-06-25",
+      "retrieved": "2026-09-24"
+    }
+  },
+  "sources": [
+    {
+      "publisher": "Oulun yliopisto",
+      "title": "Porojen laidunnus muuttaa Lapin tuntureiden kasvien ja hyönteisten vuorovaikutusta",
+      "url": "https://www.sttinfo.fi/tiedote/72329889/porojen-laidunnus-muuttaa-lapin-tuntureiden-kasvien-ja-hyonteisten-vuorovaikutusta?publisherId=57858920&lang=fi",
+      "date": "2026-09-17"
+    },
+    {
+      "publisher": "Global Change Biology",
+      "title": "Johanson, N., Andrzejak, M., Olde Venterink, H., Carvalheiro, L. G., Eskelinen, A. & Virtanen, R.: Pollination Under Pressure: Grazing and Nutrient Enrichment Reshape Arctic Pollinator Communities and Interaction Networks",
+      "url": "https://doi.org/10.1111/gcb.71039",
+      "date": "2026-08-08"
+    }
+  ],
+  "embeds": {
+    "fence": {
+      "type": "fence",
+      "scale": 708,
+      "rows": [
+        {
+          "grazed": 289,
+          "protected": 708
+        },
+        {
+          "grazed": 15,
+          "protected": 158
+        }
+      ]
+    }
+  },
+  "ogCard": {
+    "line": "Reindeer, flowers and the fence"
+  }
+}

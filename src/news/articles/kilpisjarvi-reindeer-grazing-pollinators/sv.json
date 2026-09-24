@@ -1,0 +1,82 @@
+{
+  "title": "Renbetet avgör vilka insekter som når fjällets blommor",
+  "seoTitle": "Kilpisjärvi: renbete och fjällets pollinatörer",
+  "description": "Ett långvarigt försök vid Kilpisjärvi visar att renbete förändrar förhållandet mellan blommor och insekter på fjället mer än tillförda näringsämnen gör.",
+  "dek": "Fjällängar som stängslats mot bete drog till sig fler pollinatörer än betade ängar, och effekten var störst på den karga tundran, enligt en studie från Uleåborgs universitet.",
+  "heroAlt": "Tre renar betar bland fjällbjörkar på en grön äng vid Kilpisjärvi under högsommaren.",
+  "heroCaption": "Renar betar i fjällbjörkszonen vid Kilpisjärvi under högsommaren. Bilden är inte från försöksrutorna.",
+  "body": [
+    {
+      "t": "p",
+      "text": "Renbete förändrar förhållandet mellan blommor och insekter på Lapplands fjäll mer än tillförd näring gör. Det visar en studie från Uleåborgs universitet som det informerades om 17.9.2026. Effekterna var störst på karg tundra, och de fjällängar som drog till sig flest insekter var de som stängslats mot bete."
+    },
+    {
+      "t": "h2",
+      "text": "Ett stängsel, tillförd näring och två fjällängar"
+    },
+    {
+      "t": "p",
+      "text": "Blombesökarna räknades på två försöksområden nära Kilpisjärvi. Det ena ligger ovanför trädgränsen på karg tundra, det andra på en näringsrikare äng i fjällbjörkszonen. På varje område lämnades 16 rutor antingen öppna för renarna eller stängslades, med eller utan tillförd näring. Behandlingarna anlades 2014–2015 och insekterna observerades i juli 2022. Arbetet ingår i det internationella Nutrient Network-försöket."
+    },
+    {
+      "t": "embed",
+      "id": "fence",
+      "title": "Blombesök på stängslets två sidor",
+      "items": [
+        "Fjällbjörkäng, 600 m",
+        "Tundraäng, 730 m",
+        "Betad av renar",
+        "Stängslad",
+        "Stängslad och gödslad",
+        "Blombesök räknade i juli 2022"
+      ],
+      "text": "På tundran kom det högsta värdet från rutor som både stängslats och gödslats; på fjällbjörkängen från de stängslade rutorna. Siffrorna kommer från den vetenskapliga artikeln."
+    },
+    {
+      "t": "p",
+      "text": "Att hålla renarna borta var den enskilda faktor som betydde mest. Stängslet ökade antalet pollinatörer och andra blombesökande insekter, rikedomen av insektsfamiljer och antalet besök på växterna. Effekterna var starkare på den karga tundraängen än på den näringsrikare ängen bland björkarna. Många arktiska växter är beroende av insekternas pollinering, påminner Risto Virtanen, överintendent vid Uleåborgs universitet."
+    },
+    {
+      "t": "h2",
+      "text": "Hur många blommor, inte hur många arter"
+    },
+    {
+      "t": "p",
+      "text": "Antalet insekter och rikedomen av insektsfamiljer ökade när antalet blommor ökade. Ett större antal blommande arter höjde däremot inte insektsantalet på samma sätt."
+    },
+    {
+      "t": "note",
+      "text": "”Resultaten tyder på att blomrikedomen i nordliga miljöer kan vara viktigare för insekterna än antalet blommande växtarter”, säger Nicolina Johanson, doktorand vid Uleåborgs universitet."
+    },
+    {
+      "t": "h2",
+      "text": "Vad en vandrare kan se på fjället"
+    },
+    {
+      "t": "p",
+      "text": "Betet biter hårdast strax efter snösmältningen, när renarna äter blomstjälkarna medan de växer. Därför syns skillnaden i terrängen: där renarna har betat står färre blommor öppna, och på dem sitter färre insekter. Vid en stängsellinje kan de två sidorna se ut som två olika ängar."
+    },
+    {
+      "t": "link",
+      "text": "Renen är det djur som formar Lapplands landskap mest. Vad som annars lever på fjällen finns i vår djurguide.",
+      "label": "Lapplands djur",
+      "href": "/wildlife"
+    },
+    {
+      "t": "h2",
+      "text": "Vad det betyder för betesplaneringen"
+    },
+    {
+      "t": "p",
+      "text": "Finlands nya renskötsellag kräver planering för hållbar användning av renbetena. Forskarna påpekar att var och när betet sker, som roterande bete eller bete senare på säsongen, kan vara viktigt för pollineringen."
+    },
+    {
+      "t": "note",
+      "text": "”Tidpunkten avgör hur många och hurdana blommor fjällnaturen erbjuder insekterna”, säger Virtanen."
+    },
+    {
+      "t": "p",
+      "text": "Studien publicerades i tidskriften Global Change Biology i augusti 2026. Den är fritt tillgänglig, så hela artikeln går att läsa utan prenumeration."
+    }
+  ]
+}

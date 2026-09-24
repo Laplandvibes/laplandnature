@@ -1,0 +1,82 @@
+{
+  "title": "O pastoreio de renas decide quais insetos chegam às flores da montanha",
+  "seoTitle": "Kilpisjärvi: pastoreio de renas e polinizadores",
+  "description": "Um experimento de longa duração em Kilpisjärvi mostra que o pastoreio de renas muda a relação entre flores e insetos mais do que a adição de nutrientes.",
+  "dek": "Os campos de montanha cercados contra o pastoreio atraíram mais polinizadores do que os pastejados, e o efeito foi maior na tundra pobre, segundo um estudo da Universidade de Oulu.",
+  "heroAlt": "Três renas pastam entre bétulas de montanha em um campo verde em Kilpisjärvi no auge do verão.",
+  "heroCaption": "Renas pastando na faixa de bétulas de montanha em Kilpisjärvi no auge do verão. A foto não é das parcelas do experimento.",
+  "body": [
+    {
+      "t": "p",
+      "text": "O pastoreio de renas muda a relação entre flores e insetos nas montanhas da Lapônia mais do que a adição de nutrientes, segundo um estudo da Universidade de Oulu divulgado em 17.9.2026. Os efeitos foram maiores na tundra pobre, e os campos que atraíram mais insetos foram os cercados contra o pastoreio."
+    },
+    {
+      "t": "h2",
+      "text": "Uma cerca, nutrientes adicionados e dois campos de montanha"
+    },
+    {
+      "t": "p",
+      "text": "Os visitantes das flores foram contados em duas áreas experimentais perto de Kilpisjärvi. Uma fica acima do limite das árvores, em tundra pobre; a outra, em um campo mais fértil dentro da faixa de bétulas de montanha. Em cada área, 16 parcelas ficaram abertas às renas ou foram cercadas, com ou sem nutrientes adicionados. Os tratamentos foram montados em 2014–2015 e os insetos foram observados em julho de 2022. O trabalho faz parte do experimento internacional Nutrient Network."
+    },
+    {
+      "t": "embed",
+      "id": "fence",
+      "title": "Visitas às flores dos dois lados da cerca",
+      "items": [
+        "Campo de bétulas de montanha, 600 m",
+        "Campo de tundra, 730 m",
+        "Pastejado por renas",
+        "Cercado",
+        "Cercado e adubado",
+        "Visitas às flores contadas em julho de 2022"
+      ],
+      "text": "Na tundra, o valor mais alto veio de parcelas ao mesmo tempo cercadas e adubadas; no campo de bétulas, das parcelas cercadas. Números retirados do artigo científico."
+    },
+    {
+      "t": "p",
+      "text": "Manter as renas fora foi o fator isolado que mais pesou. A cerca aumentou o número de polinizadores e de outros insetos que visitam flores, a riqueza de famílias de insetos e o número de visitas às plantas. Os efeitos foram mais fortes no campo de tundra pobre do que no campo mais fértil entre as bétulas. Muitas plantas árticas dependem da polinização por insetos, lembra Risto Virtanen, curador sênior da Universidade de Oulu."
+    },
+    {
+      "t": "h2",
+      "text": "Quantas flores, não quantas espécies"
+    },
+    {
+      "t": "p",
+      "text": "O número de insetos e a riqueza de famílias de insetos cresceram à medida que aumentava o número de flores. Já um número maior de espécies floridas não elevou o número de insetos da mesma forma."
+    },
+    {
+      "t": "note",
+      "text": "“Os resultados sugerem que, em ambientes do norte, a abundância de flores pode importar mais para os insetos do que o número de espécies de plantas floridas”, diz Nicolina Johanson, pesquisadora de doutorado da Universidade de Oulu."
+    },
+    {
+      "t": "h2",
+      "text": "O que se vê ao caminhar pela montanha"
+    },
+    {
+      "t": "p",
+      "text": "O pastoreio morde com mais força logo depois do degelo, quando as renas comem as hastes das flores ainda em formação. Por isso a diferença aparece no terreno: onde as renas pastaram há menos flores abertas e menos insetos sobre elas. Ao longo de uma cerca, os dois lados podem parecer dois campos diferentes."
+    },
+    {
+      "t": "link",
+      "text": "A rena é o animal que mais molda a paisagem da Lapônia. O que mais vive nas montanhas está no nosso guia de fauna.",
+      "label": "Os animais da Lapônia",
+      "href": "/wildlife"
+    },
+    {
+      "t": "h2",
+      "text": "O que isso significa para o planejamento das pastagens"
+    },
+    {
+      "t": "p",
+      "text": "A nova lei finlandesa de criação de renas exige planejar o uso sustentável das pastagens. Os pesquisadores observam que onde e quando o pastoreio acontece, como no pastoreio rotativo ou mais tardio, pode ser importante para a polinização."
+    },
+    {
+      "t": "note",
+      "text": "“O momento decide quantas flores, e de que tipo, a natureza da montanha oferece aos insetos”, diz Virtanen."
+    },
+    {
+      "t": "p",
+      "text": "O estudo foi publicado na revista Global Change Biology em agosto de 2026. É de acesso aberto, de modo que o artigo completo pode ser lido sem assinatura."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "section": "Luontouutiset",
+  "nav": "Uutiset",
+  "index": {
+    "seoTitle": "Lapin luontouutiset: tutkimusta tuntureilta",
+    "description": "Tutkimusuutisia Suomen Lapin luonnosta: tunturit, eläimet, kasvit ja vuodenajat. Jokainen juttu nimeää ja linkittää lähteensä.",
+    "h1": "Lapin luontouutiset",
+    "lead": "Mitä uusi tutkimus kertoo Suomen Lapin luonnosta. Jutut kirjoitetaan alkuperäisistä julkaisuista ja tiedotteista, ja jokainen lähde on nimetty ja linkitetty.",
+    "aboutTitle": "Näin teemme uutiset",
+    "aboutText": "Avaamme jokaisen lähteen ennen kirjoittamista ja kerromme vain sen, mitä lähde sanoo. Jos tiedote ja tutkimusjulkaisu eroavat, kerromme kummasta luku on, ja linkitämme molemmat.",
+    "allRoutes": "Lapin eläimet lajeittain"
+  },
+  "ui": {
+    "home": "Etusivu",
+    "readMore": "Lue juttu",
+    "published": "Julkaistu",
+    "updated": "Päivitetty",
+    "byline": "LaplandNature-toimitus",
+    "sources": "Lähteet",
+    "source": "Lähde",
+    "read": "luettu",
+    "photo": "Kuva",
+    "latest": "Uusimmat luontouutiset",
+    "allNews": "Kaikki luontouutiset",
+    "moreNews": "Lisää luontouutisia"
+  }
+}

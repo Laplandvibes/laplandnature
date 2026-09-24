@@ -1,3 +1,4 @@
+import { lazy, Suspense } from 'react'
 import { Link } from 'react-router-dom'
 import { ArrowRight, Compass, Trees, Sparkles, Sun } from 'lucide-react'
 import SEO from '../components/SEO'
@@ -15,6 +16,13 @@ import { AD_SLOTS } from '../data/adSlots'
 import GygPicks from '../components/GygPicks';
 import { AppPromoHero } from '../components/AppPromo';
 import { seasonal } from '../lib/season'
+
+/**
+ * Uutisosion nosto etusivulle (24.9.2026). Laiskasti ladattu ja oma .nw-juuri, jotta
+ * etusivun nippu ei kanna uutisosion koodia eikä 12 kielen tekstejä; varattu korkeus
+ * pitää CLS:n nollassa myös silloin kun kortit tulevat verkosta.
+ */
+const LatestNews = lazy(() => import('../news/LatestNews'))
 
 const cardImages = [
   'card-national-parks.webp',
@@ -349,6 +357,12 @@ export default function Home() {
         </div>
       </section>
 
+
+      <div className="nw">
+        <Suspense fallback={<div style={{ minHeight: 420 }} />}>
+          <LatestNews />
+        </Suspense>
+      </div>
 
       <Newsletter />
     </>

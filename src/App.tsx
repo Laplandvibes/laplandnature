@@ -14,6 +14,8 @@ const Seasons = lazy(() => import('./pages/Seasons'))
 const HikingTrails = lazy(() => import('./pages/HikingTrails'))
 const Conservation = lazy(() => import('./pages/Conservation'))
 const Freshwater = lazy(() => import('./pages/Freshwater'))
+const NewsIndex = lazy(() => import('./news/NewsIndex'))
+const NewsArticle = lazy(() => import('./news/NewsArticle'))
 const EditorialPolicy = lazy(() => import('./pages/EditorialPolicy'))
 const PrivacyPolicy = lazy(() => import('./pages/PrivacyPolicy'))
 const Terms = lazy(() => import('./pages/Terms'))
@@ -179,6 +181,8 @@ export default function App() {
               <Route key={`${prefix}/hiking-trails`} path={`${prefix}/hiking-trails`} element={<HikingTrails />} />,
               <Route key={`${prefix}/conservation`} path={`${prefix}/conservation`} element={<Conservation />} />,
               <Route key={`${prefix}/freshwater`} path={`${prefix}/freshwater`} element={<Freshwater />} />,
+              <Route key={`${prefix}/news`} path={`${prefix}/news`} element={<NewsIndex />} />,
+              <Route key={`${prefix}/news/:slug`} path={`${prefix}/news/:slug`} element={<NewsArticle />} />,
               <Route key={`${prefix}/editorial-policy`} path={`${prefix}/editorial-policy`} element={<EditorialPolicy />} />,
               <Route key={`${prefix}/privacy`} path={`${prefix}/privacy`} element={<PrivacyPolicy />} />,
               <Route key={`${prefix}/terms`} path={`${prefix}/terms`} element={<Terms />} />,

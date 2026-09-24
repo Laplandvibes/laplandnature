@@ -7,6 +7,15 @@ import { COPY } from '../locales/copy'
 import EcosystemMenu from '../shared/EcosystemMenu'
 import LanguageSwitcher from '../i18n/LanguageSwitcher'
 
+/**
+ * Uutisosion nimi navissa. Osion omat käännökset (src/news/i18n/*.json) ladataan laiskasti vasta
+ * osiossa, joten yhden sanan taulukko on tässä — sama ratkaisu kuin App.tsx:n toimituslinjalinkissä.
+ */
+const NEWS_LABEL: Record<string, string> = {
+  en: 'News', fi: 'Uutiset', de: 'Nachrichten', ja: 'ニュース', es: 'Noticias', 'pt-BR': 'Notícias',
+  'zh-CN': '新闻', ko: '뉴스', fr: 'Actualités', it: 'Notizie', nl: 'Nieuws', sv: 'Nyheter',
+}
+
 /** Sama sivu loppukauttaviivasta riippumatta: sisääntulo on `/x/`, linkki voi olla `/x` (18.9.2026). */
 const samePath = (a: string, b: string) => a.replace(/\/+$/, '') === b.replace(/\/+$/, '')
 
@@ -26,6 +35,7 @@ export default function Nav() {
     { href: to('/seasons'), label: c.seasons },
     { href: to('/conservation'), label: c.conservation },
     { href: to('/freshwater'), label: c.freshwater },
+    { href: to('/news'), label: NEWS_LABEL[lang] ?? NEWS_LABEL.en },
   ]
 
   useEffect(() => {

@@ -1,0 +1,27 @@
+{
+  "section": "Nature news",
+  "nav": "News",
+  "index": {
+    "seoTitle": "Lapland nature news: research from the fells",
+    "description": "Research news about the nature of Finnish Lapland: the fells, their wildlife, plants and seasons. Every story names and links its sources.",
+    "h1": "Lapland nature news",
+    "lead": "What new research says about the nature of Finnish Lapland, written from the original papers and press releases, with every source named and linked.",
+    "aboutTitle": "How we report",
+    "aboutText": "We open every source before writing and report only what it says. Where a press release and the research paper differ, we say which one a number comes from, and we link both.",
+    "allRoutes": "Lapland wildlife, species by species"
+  },
+  "ui": {
+    "home": "Home",
+    "readMore": "Read the story",
+    "published": "Published",
+    "updated": "Updated",
+    "byline": "LaplandNature newsroom",
+    "sources": "Sources",
+    "source": "Source",
+    "read": "read",
+    "photo": "Photo",
+    "latest": "Latest nature news",
+    "allNews": "All nature news",
+    "moreNews": "More nature news"
+  }
+}

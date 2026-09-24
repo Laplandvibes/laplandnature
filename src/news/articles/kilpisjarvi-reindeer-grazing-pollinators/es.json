@@ -1,0 +1,82 @@
+{
+  "title": "El pastoreo de renos decide qué insectos llegan a las flores del monte",
+  "seoTitle": "Kilpisjärvi: pastoreo de renos y polinizadores",
+  "description": "Un experimento de larga duración en Kilpisjärvi muestra que el pastoreo de renos altera la relación entre flores e insectos más que añadir nutrientes.",
+  "dek": "Los prados de montaña vallados frente al pastoreo atrajeron más polinizadores que los pastoreados, y el efecto fue mayor en la tundra pobre, según un estudio de la Universidad de Oulu.",
+  "heroAlt": "Tres renos pastan entre abedules de montaña en un prado verde de Kilpisjärvi en pleno verano.",
+  "heroCaption": "Renos pastando en la zona de abedul de montaña de Kilpisjärvi en pleno verano. La fotografía no procede de las parcelas del experimento.",
+  "body": [
+    {
+      "t": "p",
+      "text": "El pastoreo de renos cambia la relación entre flores e insectos en los montes de Laponia más que el aporte de nutrientes, según un estudio de la Universidad de Oulu difundido el 17.9.2026. Los efectos fueron mayores en la tundra pobre, y los prados que atrajeron más insectos fueron los vallados frente al pastoreo."
+    },
+    {
+      "t": "h2",
+      "text": "Una valla, nutrientes añadidos y dos prados de montaña"
+    },
+    {
+      "t": "p",
+      "text": "Los visitantes de las flores se contaron en dos zonas experimentales cerca de Kilpisjärvi. Una está por encima del límite del arbolado, en tundra pobre; la otra, en un prado más fértil dentro de la zona de abedul de montaña. En cada zona, 16 parcelas quedaron abiertas a los renos o se vallaron, con o sin nutrientes añadidos. Los tratamientos se establecieron en 2014–2015 y los insectos se observaron en julio de 2022. El trabajo forma parte del experimento internacional Nutrient Network."
+    },
+    {
+      "t": "embed",
+      "id": "fence",
+      "title": "Visitas a las flores a ambos lados de la valla",
+      "items": [
+        "Prado de abedul de montaña, 600 m",
+        "Prado de tundra, 730 m",
+        "Pastoreado por renos",
+        "Vallado",
+        "Vallado y fertilizado",
+        "Visitas a las flores contadas en julio de 2022"
+      ],
+      "text": "En la tundra, el valor más alto vino de parcelas a la vez valladas y fertilizadas; en el prado de abedul, de las parcelas valladas. Cifras tomadas del artículo científico."
+    },
+    {
+      "t": "p",
+      "text": "Mantener fuera a los renos fue el factor que más pesó. La valla aumentó el número de polinizadores y de otros insectos que visitan las flores, la riqueza de familias de insectos y el número de visitas a las plantas. Los efectos fueron más fuertes en el prado de tundra pobre que en el prado más fértil entre los abedules. Muchas plantas árticas dependen de la polinización por insectos, recuerda Risto Virtanen, conservador jefe de la Universidad de Oulu."
+    },
+    {
+      "t": "h2",
+      "text": "Cuántas flores, no cuántas especies"
+    },
+    {
+      "t": "p",
+      "text": "El número de insectos y la riqueza de familias de insectos crecieron a medida que aumentaba el número de flores. En cambio, un mayor número de especies en flor no elevó el número de insectos de la misma manera."
+    },
+    {
+      "t": "note",
+      "text": "“Los resultados sugieren que, en los ambientes del norte, la abundancia de flores puede importar más a los insectos que el número de especies de plantas en flor”, afirma Nicolina Johanson, investigadora doctoral de la Universidad de Oulu."
+    },
+    {
+      "t": "h2",
+      "text": "Qué se ve al caminar por el monte"
+    },
+    {
+      "t": "p",
+      "text": "El pastoreo muerde con más fuerza justo después del deshielo, cuando los renos comen los tallos florales mientras se forman. Por eso la diferencia se ve sobre el terreno: donde han pastado los renos hay menos flores abiertas y menos insectos sobre ellas. A lo largo de una valla, los dos lados pueden parecer dos prados distintos."
+    },
+    {
+      "t": "link",
+      "text": "El reno es el animal que más moldea el paisaje de Laponia. Qué más vive en los montes está en nuestra guía de fauna.",
+      "label": "La fauna de Laponia",
+      "href": "/wildlife"
+    },
+    {
+      "t": "h2",
+      "text": "Qué significa para la planificación de los pastos"
+    },
+    {
+      "t": "p",
+      "text": "La nueva ley finlandesa de pastoreo de renos exige planificar el uso sostenible de los pastos. Los investigadores señalan que dónde y cuándo se pastorea, por ejemplo con pastoreo rotativo o más tardío, puede ser importante para la polinización."
+    },
+    {
+      "t": "note",
+      "text": "“El momento decide cuántas flores, y de qué tipo, ofrece la naturaleza del monte a los insectos”, dice Virtanen."
+    },
+    {
+      "t": "p",
+      "text": "El estudio se publicó en la revista Global Change Biology en agosto de 2026. Es de acceso abierto, así que el artículo completo puede leerse sin suscripción."
+    }
+  ]
+}
