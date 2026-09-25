@@ -10,7 +10,7 @@
     },
     "de": {
       "title": "Lapplands Natur: Wildnis & Nationalparks",
-      "description": "Die arktische Wildnis Finnisch-Lapplands: sieben Nationalparks, Nordlichthimmel von Ende August bis Anfang April, die Polarnacht (Kaamos) und Wanderwege bis 82 km."
+      "description": "Finnisch-Lapplands arktische Wildnis: sieben Nationalparks, Nordlichter von Ende August bis Anfang April, die Polarnacht (Kaamos) und Wege bis 82 km."
     },
     "ja": {
       "title": "ラップランドの自然：北極圏の原野、オーロラと国立公園",
@@ -18,11 +18,11 @@
     },
     "es": {
       "title": "Naturaleza de Laponia: parques y aurora",
-      "description": "La naturaleza ártica de la Laponia finlandesa: siete parques nacionales, cielos de aurora de finales de agosto a principios de abril, la noche polar del kaamos y senderos de hasta 82 km."
+      "description": "La naturaleza ártica de la Laponia finlandesa: siete parques nacionales, auroras de finales de agosto a abril, el kaamos y senderos de hasta 82 km."
     },
     "pt-BR": {
       "title": "Natureza da Lapônia: parques e aurora",
-      "description": "A natureza ártica da Lapônia finlandesa: sete parques nacionais, céus de aurora do fim de agosto ao início de abril, a noite polar do kaamos e trilhas de até 82 km."
+      "description": "A natureza ártica da Lapônia finlandesa: sete parques nacionais, auroras do fim de agosto ao início de abril, o kaamos e trilhas de até 82 km."
     },
     "zh-CN": {
       "title": "拉普兰自然：北极荒野、极光与国家公园",
@@ -34,11 +34,11 @@
     },
     "fr": {
       "title": "Nature de Laponie : parcs et aurore",
-      "description": "La nature arctique de la Laponie finlandaise : sept parcs nationaux, des aurores de fin août à début avril, la nuit polaire du kaamos et des sentiers de randonnée jusqu'à 82 km."
+      "description": "La nature arctique de la Laponie finlandaise : sept parcs nationaux, des aurores de fin août à début avril, le kaamos et des sentiers jusqu'à 82 km."
     },
     "it": {
       "title": "Natura della Lapponia: parchi e aurora",
-      "description": "La natura artica della Lapponia finlandese: sette parchi nazionali, aurore da fine agosto a inizio aprile, la notte polare del kaamos e sentieri di trekking fino a 82 km."
+      "description": "La natura artica della Lapponia finlandese: sette parchi nazionali, aurore da fine agosto a inizio aprile, il kaamos e sentieri fino a 82 km."
     },
     "nl": {
       "title": "Natuur van Lapland: parken en noorderlicht",
@@ -46,7 +46,7 @@
     },
     "sv": {
       "title": "Lapplands natur: norrsken, parker och djurliv",
-      "description": "Finska Lapplands arktiska vildmark: sju nationalparker, norrskenshimmel från slutet av augusti till början av april, polarnatten kaamos och vandringsleder på upp till 82 km."
+      "description": "Finska Lapplands arktiska vildmark: sju nationalparker, norrsken från slutet av augusti till början av april, polarnatten kaamos och leder upp till 82 km."
     }
   },
   "/bear-kuusamo": {
@@ -1038,7 +1038,7 @@
     },
     "fr": {
       "title": "Randonnée en Laponie : boucles d'un jour et Karhunkierros 82 km",
-      "description": "Six sentiers en Laponie finlandaise et alentour : Hetta–Pallas (environ 50 km), Karhunkierros (82 km), Halti (environ 55 km aller simple) et trois itinéraires plus courts.",
+      "description": "Six sentiers en Laponie finlandaise et alentour : Hetta–Pallas (environ 50 km), Karhunkierros (82 km), Halti (environ 55 km aller) et trois plus courts.",
       "faq": [
         {
           "q": "Combien de temps prend le Karhunkierros (Sentier de l'ours) ?",
@@ -1064,7 +1064,7 @@
     },
     "it": {
       "title": "Trekking in Lapponia: anelli di un giorno e Karhunkierros 82 km",
-      "description": "Sei sentieri nella Lapponia finlandese e dintorni: Hetta–Pallas (circa 50 km), Karhunkierros (82 km), Halti (circa 55 km di sola andata) e tre percorsi più brevi.",
+      "description": "Sei sentieri nella Lapponia finlandese e dintorni: Hetta–Pallas (circa 50 km), Karhunkierros (82 km), Halti (circa 55 km solo andata) e tre più brevi.",
       "faq": [
         {
           "q": "Quanto tempo richiede il Karhunkierros (Sentiero dell'orso)?",
@@ -1876,7 +1876,7 @@
     },
     "fi": {
       "title": "Tietosuojakäytäntö",
-      "description": "Miten LaPeso Oy (LaplandNature) käsittelee henkilötietoja: uutiskirjeen tilaukset, analytiikka ja affiliate-evästeet GDPR:n ja sähköisen viestinnän tietosuojasääntöjen mukaisesti."
+      "description": "Miten LaPeso Oy (LaplandNature) käsittelee henkilötietoja GDPR:n mukaisesti: uutiskirjeen tilaukset, analytiikka ja affiliate-evästeet."
     },
     "de": {
       "title": "Datenschutzerklärung",
@@ -2286,7 +2286,7 @@
   "/wildlife": {
     "en": {
       "title": "Lapland Wildlife: Reindeer, Bears, Wolverine & Fox",
-      "description": "Six arctic species of Finnish Lapland, from reindeer in the herding area to the critically endangered arctic fox and snowy owl, with status from Finland's Red List.",
+      "description": "Six arctic species of Finnish Lapland, from reindeer to the critically endangered arctic fox and snowy owl, with their status on Finland's Red List.",
       "faq": [
         {
           "q": "When can you see brown bears in Finnish Lapland?",
@@ -2390,7 +2390,7 @@
     },
     "es": {
       "title": "Fauna de Laponia: renos, osos, glotones",
-      "description": "Seis especies árticas de la Laponia finlandesa, desde los renos de la zona de pastoreo hasta el zorro ártico y el búho nival, en peligro crítico, con su estado según la Lista Roja de Finlandia.",
+      "description": "Seis especies árticas de la Laponia finlandesa, del reno al zorro ártico y el búho nival, en peligro crítico según la Lista Roja de Finlandia.",
       "faq": [
         {
           "q": "¿Cuándo se pueden ver osos pardos en la Laponia finlandesa?",
@@ -2416,7 +2416,7 @@
     },
     "pt-BR": {
       "title": "Fauna da Lapônia: renas, ursos, glutões",
-      "description": "Seis espécies árticas da Lapônia finlandesa, das renas da área de criação à raposa-do-ártico e à coruja-das-neves, em perigo crítico, com o status da Lista Vermelha da Finlândia.",
+      "description": "Seis espécies árticas da Lapônia finlandesa, das renas à raposa-do-ártico e à coruja-das-neves, em perigo crítico segundo a Lista Vermelha da Finlândia.",
       "faq": [
         {
           "q": "Quando dá para ver ursos-pardos na Lapônia finlandesa?",
@@ -2494,7 +2494,7 @@
     },
     "fr": {
       "title": "Faune de Laponie : rennes, ours, gloutons",
-      "description": "Six espèces arctiques de Laponie finlandaise, du renne de la zone d'élevage au renard polaire et au harfang des neiges en danger critique, avec leur statut selon la Liste rouge finlandaise.",
+      "description": "Six espèces arctiques de Laponie finlandaise, du renne au renard polaire et au harfang des neiges, en danger critique selon la Liste rouge finlandaise.",
       "faq": [
         {
           "q": "Quand peut-on voir des ours bruns en Laponie finlandaise ?",
@@ -2520,7 +2520,7 @@
     },
     "it": {
       "title": "Fauna della Lapponia: renne, orsi, ghiottoni",
-      "description": "Sei specie artiche della Lapponia finlandese, dalle renne della zona di allevamento alla volpe artica e al gufo delle nevi in pericolo critico, con lo status secondo la Lista rossa finlandese.",
+      "description": "Sei specie artiche della Lapponia finlandese, dalle renne alla volpe artica e al gufo delle nevi, in pericolo critico secondo la Lista rossa finlandese.",
       "faq": [
         {
           "q": "Quando si possono vedere gli orsi bruni nella Lapponia finlandese?",
@@ -2546,7 +2546,7 @@
     },
     "nl": {
       "title": "Wilde dieren in Lapland: rendieren, beren",
-      "description": "Zes arctische soorten van Fins Lapland, van rendieren in het rendierhouderijgebied tot de ernstig bedreigde poolvos en sneeuwuil, met hun status op de Finse Rode Lijst.",
+      "description": "Zes arctische soorten van Fins Lapland, van rendieren tot de ernstig bedreigde poolvos en sneeuwuil, met hun status op de Finse Rode Lijst.",
       "faq": [
         {
           "q": "Wanneer kunt u bruine beren zien in Fins Lapland?",
