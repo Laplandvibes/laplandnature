@@ -576,7 +576,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
       title: 'Água doce na Lapônia',
       subtitle: 'A terra dos mil lagos',
       description: 'A água fria e limpa é o luxo mais raro da Lapônia. Lagos, rios de curso livre, turfeiras aapa e florestas antigas formam um único sistema, e aqui a pesca só continua boa enquanto o conjunto inteiro está saudável.',
-      alt: 'Lago lapão liso como um espelho sob o sol da meia-noite, com uma turfeira aapa aberta em primeiro plano',
+      alt: 'Lago da Lapônia liso como um espelho sob o sol da meia-noite, com uma turfeira aapa aberta em primeiro plano',
     },
     introKicker: 'Por que a água vem primeiro',
     introH2: 'A água limpa é tudo',
