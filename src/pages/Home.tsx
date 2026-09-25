@@ -194,9 +194,12 @@ export default function Home() {
                 <div className="relative aspect-[16/10] overflow-hidden">
                   <PhotoCredit src={`/images/${f.image}`} plain />
                   {/* AVIF siblings for these seven cards existed but nothing
-                      pointed at them, so the WebP was always served. */}
+                      pointed at them, so the WebP was always served.
+                      26.9.2026: the build appends `?v=<hash>` to `f.image`, so a `.webp$`
+                      test never matched and this "avif" source still pointed at the WebP.
+                      The query is dropped: it is the WebP's hash, not the AVIF's. */}
                   <picture>
-                    <source type="image/avif" srcSet={`/images/${f.image.replace(/\.webp$/, '.avif')}`} />
+                    <source type="image/avif" srcSet={`/images/${f.image.replace(/\.webp(\?.*)?$/, '.avif')}`} />
                     <img
                       src={`/images/${f.image}`}
                       alt=""
