@@ -420,7 +420,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   wildlife: {
     metaTitle: 'Wilde dieren in Lapland: rendieren, beren',
-    metaDescription: 'Zes arctische soorten van Fins Lapland, van rendieren in het rendierhouderijgebied tot de ernstig bedreigde poolvos en sneeuwuil, met hun status op de Finse Rode Lijst.',
+    metaDescription: 'Zes arctische soorten van Fins Lapland, van rendieren tot de ernstig bedreigde poolvos en sneeuwuil, met hun status op de Finse Rode Lijst.',
     hero: {
       alt: 'Rendieren op de flank van de Saana, boven de boomgrens bij Kilpisjärvi',
       eyebrow: 'Pijlergids',

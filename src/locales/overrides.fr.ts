@@ -84,7 +84,7 @@ export const FR_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   home: {
     metaTitle: 'Nature de Laponie : parcs et aurore',
-    metaDescription: 'La nature arctique de la Laponie finlandaise : sept parcs nationaux, des aurores de fin août à début avril, la nuit polaire du kaamos et des sentiers de randonnée jusqu\'à 82 km.',
+    metaDescription: 'La nature arctique de la Laponie finlandaise : sept parcs nationaux, des aurores de fin août à début avril, le kaamos et des sentiers jusqu\'à 82 km.',
     hero: {
       alt: 'Paysage de fjälls en Laponie finlandaise',
       eyebrow: 'Au-delà du cercle polaire',
@@ -258,7 +258,7 @@ export const FR_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   wildlife: {
     metaTitle: 'Faune de Laponie : rennes, ours, gloutons',
-    metaDescription: 'Six espèces arctiques de Laponie finlandaise, du renne de la zone d\'élevage au renard polaire et au harfang des neiges en danger critique, avec leur statut selon la Liste rouge finlandaise.',
+    metaDescription: 'Six espèces arctiques de Laponie finlandaise, du renne au renard polaire et au harfang des neiges, en danger critique selon la Liste rouge finlandaise.',
     hero: {
       alt: 'Des rennes sur l\'épaule du Saana, au-dessus de la limite des arbres, à Kilpisjärvi',
       eyebrow: 'Guide phare',
@@ -392,7 +392,7 @@ export const FR_OVERRIDES: DeepPartial<SectionCopy> = {
   hiking: {
     difficulties: { easy: 'Facile', moderate: 'Modérée', challenging: 'Difficile', demanding: 'Très exigeante' },
     metaTitle: 'Randonnée en Laponie : boucles d\'un jour et Karhunkierros 82 km',
-    metaDescription: 'Six sentiers en Laponie finlandaise et alentour : Hetta–Pallas (environ 50 km), Karhunkierros (82 km), Halti (environ 55 km aller simple) et trois itinéraires plus courts.',
+    metaDescription: 'Six sentiers en Laponie finlandaise et alentour : Hetta–Pallas (environ 50 km), Karhunkierros (82 km), Halti (environ 55 km aller) et trois plus courts.',
     hero: {
       alt: 'Caillebotis à travers les linaigrettes au pied du Saana, à Kilpisjärvi',
       eyebrow: 'Guide phare',

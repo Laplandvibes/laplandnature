@@ -1079,7 +1079,7 @@ const fi: SectionCopy = {
   },
   privacy: {
     metaTitle: 'Tietosuojakäytäntö',
-    metaDescription: 'Miten LaPeso Oy (LaplandNature) käsittelee henkilötietoja: uutiskirjeen tilaukset, analytiikka ja affiliate-evästeet GDPR:n ja sähköisen viestinnän tietosuojasääntöjen mukaisesti.',
+    metaDescription: 'Miten LaPeso Oy (LaplandNature) käsittelee henkilötietoja GDPR:n mukaisesti: uutiskirjeen tilaukset, analytiikka ja affiliate-evästeet.',
   },
   terms: {
     metaTitle: 'Käyttöehdot',

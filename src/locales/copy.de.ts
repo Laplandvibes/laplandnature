@@ -92,7 +92,7 @@ const de: SectionCopy = {
   },
   home: {
     metaTitle: 'Lapplands Natur: Wildnis & Nationalparks',
-    metaDescription: 'Die arktische Wildnis Finnisch-Lapplands: sieben Nationalparks, Nordlichthimmel von Ende August bis Anfang April, die Polarnacht (Kaamos) und Wanderwege bis 82 km.',
+    metaDescription: 'Finnisch-Lapplands arktische Wildnis: sieben Nationalparks, Nordlichter von Ende August bis Anfang April, die Polarnacht (Kaamos) und Wege bis 82 km.',
     hero: {
       alt: 'Fjelllandschaft in Finnisch-Lappland',
       eyebrow: 'Nördlich des Polarkreises',

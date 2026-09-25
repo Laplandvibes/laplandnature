@@ -84,7 +84,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   home: {
     metaTitle: 'Natureza da Lapônia: parques e aurora',
-    metaDescription: 'A natureza ártica da Lapônia finlandesa: sete parques nacionais, céus de aurora do fim de agosto ao início de abril, a noite polar do kaamos e trilhas de até 82 km.',
+    metaDescription: 'A natureza ártica da Lapônia finlandesa: sete parques nacionais, auroras do fim de agosto ao início de abril, o kaamos e trilhas de até 82 km.',
     hero: {
       alt: 'Paisagem de fjälls na Lapônia finlandesa',
       eyebrow: 'Acima do Círculo Polar Ártico',
@@ -293,7 +293,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   wildlife: {
     metaTitle: 'Fauna da Lapônia: renas, ursos, glutões',
-    metaDescription: 'Seis espécies árticas da Lapônia finlandesa, das renas da área de criação à raposa-do-ártico e à coruja-das-neves, em perigo crítico, com o status da Lista Vermelha da Finlândia.',
+    metaDescription: 'Seis espécies árticas da Lapônia finlandesa, das renas à raposa-do-ártico e à coruja-das-neves, em perigo crítico segundo a Lista Vermelha da Finlândia.',
     hero: {
       alt: 'Renas na encosta do Saana, acima do limite das árvores, em Kilpisjärvi',
       eyebrow: 'Guia essencial',

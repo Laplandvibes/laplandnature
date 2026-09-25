@@ -84,7 +84,7 @@ export const SV_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   home: {
     metaTitle: 'Lapplands natur: norrsken, parker och djurliv',
-    metaDescription: 'Finska Lapplands arktiska vildmark: sju nationalparker, norrskenshimmel från slutet av augusti till början av april, polarnatten kaamos och vandringsleder på upp till 82 km.',
+    metaDescription: 'Finska Lapplands arktiska vildmark: sju nationalparker, norrsken från slutet av augusti till början av april, polarnatten kaamos och leder upp till 82 km.',
     hero: {
       eyebrow: 'Norr om polcirkeln',
       title: 'Orörd arktisk',

@@ -413,7 +413,7 @@ const en: SectionCopy = {
   },
   wildlife: {
     metaTitle: 'Lapland Wildlife: Reindeer, Bears, Wolverine & Fox',
-    metaDescription: "Six arctic species of Finnish Lapland, from reindeer in the herding area to the critically endangered arctic fox and snowy owl, with status from Finland's Red List.",
+    metaDescription: "Six arctic species of Finnish Lapland, from reindeer to the critically endangered arctic fox and snowy owl, with their status on Finland's Red List.",
     hero: {
       eyebrow: 'Pillar guide',
       title: 'Wildlife Watching',

@@ -84,7 +84,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   home: {
     metaTitle: 'Natura della Lapponia: parchi e aurora',
-    metaDescription: 'La natura artica della Lapponia finlandese: sette parchi nazionali, aurore da fine agosto a inizio aprile, la notte polare del kaamos e sentieri di trekking fino a 82 km.',
+    metaDescription: 'La natura artica della Lapponia finlandese: sette parchi nazionali, aurore da fine agosto a inizio aprile, il kaamos e sentieri fino a 82 km.',
     hero: {
       alt: 'Paesaggio di fjäll nella Lapponia finlandese',
       eyebrow: 'Oltre il circolo polare',
@@ -258,7 +258,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   wildlife: {
     metaTitle: 'Fauna della Lapponia: renne, orsi, ghiottoni',
-    metaDescription: 'Sei specie artiche della Lapponia finlandese, dalle renne della zona di allevamento alla volpe artica e al gufo delle nevi in pericolo critico, con lo status secondo la Lista rossa finlandese.',
+    metaDescription: 'Sei specie artiche della Lapponia finlandese, dalle renne alla volpe artica e al gufo delle nevi, in pericolo critico secondo la Lista rossa finlandese.',
     hero: {
       alt: 'Renne sul fianco del Saana, sopra il limite degli alberi, a Kilpisjärvi',
       eyebrow: 'Guida di riferimento',
@@ -392,7 +392,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
   hiking: {
     difficulties: { easy: 'Facile', moderate: 'Moderato', challenging: 'Impegnativo', demanding: 'Molto impegnativo' },
     metaTitle: 'Trekking in Lapponia: anelli di un giorno e Karhunkierros 82 km',
-    metaDescription: 'Sei sentieri nella Lapponia finlandese e dintorni: Hetta–Pallas (circa 50 km), Karhunkierros (82 km), Halti (circa 55 km di sola andata) e tre percorsi più brevi.',
+    metaDescription: 'Sei sentieri nella Lapponia finlandese e dintorni: Hetta–Pallas (circa 50 km), Karhunkierros (82 km), Halti (circa 55 km solo andata) e tre più brevi.',
     hero: {
       alt: 'Passerelle di legno tra gli eriofori ai piedi del Saana, a Kilpisjärvi',
       eyebrow: 'Guida di riferimento',
