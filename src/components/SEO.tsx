@@ -1,5 +1,6 @@
 // 2026-05-21: locale-aware — hreflang × 11 + og:locale + JSON-LD inLanguage.
 import { useEffect } from 'react'
+import { dedupeHeadLinks } from '../shared/seo/dedupeHeadLinks'
 import { useLang, type Lang } from '../i18n/useLang'
 
 const SITE_URL = 'https://laplandnature.com'
@@ -129,6 +130,12 @@ export default function SEO({
     xDefault.setAttribute('href', `${SITE_URL}${canonicalPath}`.replace(/\/?$/, '/'))
     xDefault.setAttribute('data-seo-hreflang', 'true')
     document.head.appendChild(xDefault)
+
+    // Esirenderöijä kirjoitti samat kanoniset ja hreflangit staattiseen HTML:ään, ja yllä oleva
+    // poisto koskee vain tämän komponentin omia (data-seo-hreflang) ⇒ renderöidyssä sivussa oli
+    // 26 hreflangia (mitattu 25.9.2026). Arvot identtiset, joten ei hakukonevirhe, mutta se peitti
+    // alleen oikean vian (sama kieli kahteen ERI osoitteeseen). Poistaa vain tarkat kaksoiskappaleet.
+    dedupeHeadLinks()
 
     upsertMeta('meta[property="og:type"]', 'property', 'og:type', 'website')
     upsertMeta('meta[property="og:site_name"]', 'property', 'og:site_name', SITE_NAME)
