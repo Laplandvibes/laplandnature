@@ -30,33 +30,27 @@ const TRAIL_HEADS = [
   { dest: 'Inari, Finland', sid: 'trailhead_lemmenjoki' },
 ]
 
-function difficultyColor(d: string): string {
-  const map: Record<string, string> = {
-    Easy: 'bg-emerald-100 text-emerald-700',
-    Helppo: 'bg-emerald-100 text-emerald-700',
-    Leicht: 'bg-emerald-100 text-emerald-700',
-    Moderate: 'bg-amber-100 text-amber-700',
-    Keskivaativa: 'bg-amber-100 text-amber-700',
-    Mittel: 'bg-amber-100 text-amber-700',
-    Challenging: 'bg-orange-100 text-orange-700',
-    Vaativa: 'bg-orange-100 text-orange-700',
-    Anspruchsvoll: 'bg-orange-100 text-orange-700',
-    Demanding: 'bg-rose-100 text-rose-700',
-    'Erittäin vaativa': 'bg-rose-100 text-rose-700',
-    'Sehr anspruchsvoll': 'bg-rose-100 text-rose-700',
-  }
-  return map[d] ?? 'bg-deep-night/10 text-deep-night/70'
+/**
+ * Badge colour from the page's OWN difficulty labels, so it works in every language (25.9.2026:
+ * the old table knew only en/fi/de words, and sv, es, pt-BR and the rest fell back to grey).
+ */
+function difficultyColor(d: string, labels: { easy: string; moderate: string; challenging: string; demanding: string }): string {
+  if (d === labels.easy) return 'bg-emerald-100 text-emerald-700'
+  if (d === labels.moderate) return 'bg-amber-100 text-amber-700'
+  if (d === labels.challenging) return 'bg-orange-100 text-orange-700'
+  if (d === labels.demanding) return 'bg-rose-100 text-rose-700'
+  return 'bg-deep-night/10 text-deep-night/70'
 }
 
 const HIKING_JSONLD = {
   '@context': 'https://schema.org',
   '@type': 'Article',
-  headline: 'Six hiking trails in and around Finnish Lapland: from 5 km to 82 km',
+  headline: 'Six hiking trails in and around Finnish Lapland: from day loops to 82 km',
   description: 'Karhunkierros, Hetta–Pallas, Halti and three more: the trails worth planning a Lapland trip around, with distance, duration and difficulty for each.',
   author: { '@type': 'Organization', name: 'LaplandNature editorial' },
   publisher: { '@type': 'Organization', name: 'LaPeso Oy' },
   datePublished: '2026-04-27',
-  dateModified: '2026-04-27',
+  dateModified: '2026-09-26',
   mainEntityOfPage: 'https://laplandnature.com/hiking-trails',
 
   image: "https://laplandnature.com/og/hiking-trails-1200x630.jpg",
@@ -188,7 +182,7 @@ export default function HikingTrails() {
             >
               <div className="flex items-start justify-between gap-3 mb-3">
                 <h2 className="font-heading text-2xl text-deep-night tracking-wide">{trail.name}</h2>
-                <span className={`text-[10px] font-semibold px-2.5 py-1 rounded-full whitespace-nowrap ${difficultyColor(trail.difficulty)}`}>
+                <span className={`text-[10px] font-semibold px-2.5 py-1 rounded-full whitespace-nowrap ${difficultyColor(trail.difficulty, c.difficulties)}`}>
                   {trail.difficulty}
                 </span>
               </div>

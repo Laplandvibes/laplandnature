@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react'
 import PageBreadcrumb from './PageBreadcrumb'
+import PhotoCredit from './PhotoCredit'
 
 interface HeroImageProps {
   /** Path under /images/, e.g. `hero-northern-lights.webp` */
@@ -59,13 +60,18 @@ interface HeroImageProps {
  *
  * Only add a name here after all four sibling files exist, or the srcset will
  * point at 404s. `hero-bear-kuusamo` deliberately stays out: it has no variants.
+ *
+ * 26.9.2026: `hero-home-winter` left the list on purpose. It is now a Commons panorama
+ * (Pallastunturi, 3.8:1) that may not be cropped, and a width ladder is wrong for a panorama:
+ * on a phone the hero is ~740 px tall, so object-cover needs ~2 800 px of width, not 800.
+ * The single 3 000 px file is served everywhere instead.
  */
 const RESPONSIVE_HEROES = new Set([
   'hero-conservation',
   'hero-freshwater',
   'hero-hiking',
   'hero-home',
-  'hero-home-winter',
+  'hero-home-autumn',
   'hero-national-parks',
   'hero-northern-lights',
   'hero-seasons',
@@ -108,7 +114,12 @@ export default function HeroImage({
   const overlayGradient =
     overlay === 'feature'
       ? 'linear-gradient(to bottom, rgba(15,23,42,0.82) 0%, rgba(15,23,42,0.55) 22%, rgba(15,23,42,0.28) 42%, rgba(15,23,42,0.10) 64%, rgba(15,23,42,0.05) 100%)'
-      : 'linear-gradient(180deg, rgba(15,23,42,0.55) 0%, rgba(15,23,42,0.45) 30%, rgba(15,23,42,0.55) 60%, rgba(15,23,42,0.85) 88%, rgba(15,23,42,1) 100%)'
+      : // 25.9.2026 (Vesa: "hero tekstien tausta ei ole hyvä, peittää kuvia liikaa"): the old
+        // wash was 45–55 % over the whole photo and faded to solid night at the bottom, and a
+        // second 60 % box sat on top of it behind the text. The page below the hero is cream,
+        // so there is nothing dark to merge into. Now: nav band at the top, the photo nearly
+        // clear in the middle and lower frame, the text carried by its own feathered backdrop.
+        'linear-gradient(180deg, rgba(15,23,42,0.50) 0%, rgba(15,23,42,0.16) 18%, rgba(15,23,42,0.08) 55%, rgba(15,23,42,0.22) 85%, rgba(15,23,42,0.40) 100%)'
 
   const alignClass =
     align === 'top' ? 'items-start' : 'items-center'
@@ -169,15 +180,20 @@ export default function HeroImage({
         style={{ background: overlayGradient }}
       />
 
+      {/* Tekijä + lisenssi oikeaan alakulmaan (Commons-kuvat) tai "Kuva: LaplandVibes" (omat). */}
+      <PhotoCredit src={`/images/${image}`} />
+
       <div className={`relative isolate text-center px-4 max-w-4xl ${contentAlignClass}`}>
         {/* Reading backdrop behind the text stack only (23.9.2026). The deploy gates
-            measured the eyebrow at 2.2:1 and the lead paragraph at 3.05:1 over the
-            bright parts of hero-home: a text-shadow does not count toward contrast.
-            A local soft backdrop keeps the photo open everywhere else; the full-frame
-            scrim was deliberately LIGHTENED on 2026-08-01, so it is not darkened here. */}
+            measure the pixels under each text line, and a text-shadow does not count.
+            25.9.2026: the first version was a clipped rounded box whose gradient was
+            sized to the box CORNERS (ellipse farthest-corner), so at the side edges it
+            was still ~35 % dark and read as a visible rectangle over the photo.
+            `closest-side` reaches zero at the element's own edges, and the element
+            reaches well past the text, so the darkening feathers out with no edge. */}
         <div
           aria-hidden="true"
-          className="absolute -inset-x-6 -inset-y-8 -z-10 rounded-[3rem] bg-[radial-gradient(ellipse_at_center,rgba(15,23,42,0.6)_0%,rgba(15,23,42,0.5)_60%,rgba(15,23,42,0)_100%)]"
+          className="absolute -inset-x-28 sm:-inset-x-40 -inset-y-20 -z-10 bg-[radial-gradient(closest-side,rgba(15,23,42,0.66)_0%,rgba(15,23,42,0.58)_50%,rgba(15,23,42,0.3)_78%,rgba(15,23,42,0)_100%)]"
         />
         {eyebrow && (
           <p className="inline-block rounded-full bg-deep-night/75 px-3 py-1 text-snow uppercase tracking-[0.3em] text-xs sm:text-sm mb-5">

@@ -21,7 +21,7 @@ const PARKS_JSONLD = {
   author: { '@type': 'Organization', name: 'LaplandNature editorial' },
   publisher: { '@type': 'Organization', name: 'LaPeso Oy' },
   datePublished: '2026-04-27',
-  dateModified: '2026-04-27',
+  dateModified: '2026-09-26',
   mainEntityOfPage: 'https://laplandnature.com/national-parks',
 
   image: "https://laplandnature.com/og/national-parks-1200x630.jpg",

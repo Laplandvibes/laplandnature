@@ -4,6 +4,7 @@ import SEO from '../components/SEO'
 import AffiliateCTA from '../components/AffiliateCTA'
 import HubLink from '../components/HubLink'
 import HeroImage from '../components/HeroImage'
+import PhotoCredit, { PhotoCreditsList } from '../components/PhotoCredit'
 import { useLang, useLocalePath } from '../i18n/useLang'
 import { COPY } from '../locales/copy'
 import FaqLinks, { type FaqNavKey } from '../components/FaqLinks'
@@ -20,30 +21,22 @@ const ANIMAL_LATIN = [
   'Cygnus cygnus',
 ]
 
-function statusKey(name: string): keyof typeof statusColor {
-  return (statusColor[name] ? name : 'Common') as keyof typeof statusColor
-}
-
-const statusColor: Record<string, string> = {
-  Common: 'bg-emerald-500/10 text-emerald-700',
-  'Yleinen': 'bg-emerald-500/10 text-emerald-700',
-  'Häufig': 'bg-emerald-500/10 text-emerald-700',
-  'Critically Endangered': 'bg-rose-500/10 text-rose-700',
-  'Erittäin uhanalainen': 'bg-rose-500/10 text-rose-700',
-  'Vom Aussterben bedroht': 'bg-rose-500/10 text-rose-700',
-  'Near Threatened': 'bg-amber-500/10 text-amber-700',
-  'Silmälläpidettävä': 'bg-amber-500/10 text-amber-700',
-  'Potenziell gefährdet': 'bg-amber-500/10 text-amber-700',
-  'Endangered': 'bg-orange-500/10 text-orange-700',
-  'Uhanalainen': 'bg-orange-500/10 text-orange-700',
-  'Stark gefährdet': 'bg-orange-500/10 text-orange-700',
-  'Rare Visitor': 'bg-sky-500/10 text-sky-700',
-  'Harvinainen vierailija': 'bg-sky-500/10 text-sky-700',
-  'Seltener Gast': 'bg-sky-500/10 text-sky-700',
-  'National Bird': 'bg-indigo-500/10 text-indigo-700',
-  'Kansallislintu': 'bg-indigo-500/10 text-indigo-700',
-  'Nationalvogel': 'bg-indigo-500/10 text-indigo-700',
-}
+/**
+ * Uhanalaisuusmerkin väri lajin JÄRJESTYKSEN mukaan, ei tekstin (25.9.2026).
+ * Tekstihaku ei tuntenut suomen "Äärimmäisen uhanalainen" -muotoa, joten naalin
+ * merkki näkyi suomeksi vihreänä kuin "Yleinen" laji, ja "Erittäin uhanalainen"
+ * (= EN) sai äärimmäisen uhanalaisen (CR) värin. Järjestys = copy.*.ts animals[]:
+ * poro, naali, karhu, ahma, tunturipöllö, laulujoutsen. Luokat: Suomen lajien
+ * uhanalaisuus 2019 (Punainen kirja).
+ */
+const STATUS_TONE = [
+  'bg-emerald-500/10 text-emerald-700', // poro: yleinen
+  'bg-rose-500/10 text-rose-700', // naali: CR
+  'bg-amber-500/10 text-amber-700', // karhu: NT
+  'bg-orange-500/10 text-orange-700', // ahma: EN
+  'bg-rose-500/10 text-rose-700', // tunturipöllö: CR (pesimälaji)
+  'bg-indigo-500/10 text-indigo-700', // laulujoutsen: kansallislintu
+]
 
 const W_JSONLD = {
   '@context': 'https://schema.org',
@@ -53,7 +46,7 @@ const W_JSONLD = {
   author: { '@type': 'Organization', name: 'LaplandNature editorial' },
   publisher: { '@type': 'Organization', name: 'LaPeso Oy' },
   datePublished: '2026-04-27',
-  dateModified: '2026-04-27',
+  dateModified: '2026-09-26',
   mainEntityOfPage: 'https://laplandnature.com/wildlife',
 
   image: "https://laplandnature.com/og/wildlife-1200x630.jpg",
@@ -90,9 +83,12 @@ export default function Wildlife() {
         jsonLd={[W_JSONLD, faqLd]}
       />
 
+      {/* Poro seisoo kuvassa keskellä: teksti ylös, jotta eläin jää näkyviin sen alle. */}
       <HeroImage
         image="hero-wildlife.webp"
         priority
+        align="top"
+        objectPosition="center 35%"
         alt={c.hero.alt}
         eyebrow={c.hero.eyebrow}
         title={c.hero.title}
@@ -140,7 +136,7 @@ export default function Wildlife() {
             >
               <div className="flex items-start justify-between gap-3 mb-3">
                 <h2 className="font-heading text-2xl text-deep-night tracking-wide">{animal.name}</h2>
-                <span className={`text-[10px] px-2.5 py-1 rounded-full font-semibold whitespace-nowrap ${statusColor[statusKey(animal.status)] ?? 'bg-deep-night/10 text-deep-night/70'}`}>
+                <span className={`text-[10px] px-2.5 py-1 rounded-full font-semibold whitespace-nowrap ${STATUS_TONE[i] ?? 'bg-deep-night/10 text-deep-night/70'}`}>
                   {animal.status}
                 </span>
               </div>
@@ -189,9 +185,10 @@ export default function Wildlife() {
             to={to('/bear-kuusamo/')}
             className="mt-8 group flex flex-col sm:flex-row items-stretch rounded-2xl border border-deep-night/10 bg-cream overflow-hidden hover:border-aurora-green/40 hover:shadow-md transition-all"
           >
-            <div className="sm:w-52 shrink-0 aspect-[16/10] sm:aspect-auto overflow-hidden">
+            <div className="relative sm:w-52 shrink-0 aspect-[16/10] sm:aspect-auto overflow-hidden">
+              <PhotoCredit src="/images/bear-kuusamo-tree.webp" plain />
               <img
-                src="/images/wildlife-bear.webp"
+                src="/images/bear-kuusamo-tree.webp"
                 alt=""
                 aria-hidden="true"
                 loading="lazy"
@@ -227,8 +224,8 @@ export default function Wildlife() {
 
           <ol className="space-y-5 mb-10">
             {c.bearNightSteps.map((s) => (
-              <li key={s.time} className="flex gap-4 items-start">
-                <span className={`flex-shrink-0 w-16 text-right font-heading text-xl tracking-wider ${s.highlight ? 'text-vibe-pink' : 'text-aurora-green'}`}>
+              <li key={s.time} className="flex flex-col sm:flex-row gap-1 sm:gap-4 items-start">
+                <span className={`sm:flex-shrink-0 sm:w-36 sm:text-right font-heading text-lg sm:text-xl leading-tight tracking-wider ${s.highlight ? 'text-vibe-pink' : 'text-aurora-green'}`}>
                   {s.time}
                 </span>
                 <div className={`border-l-2 pl-4 ${s.highlight ? 'border-vibe-pink/40' : 'border-aurora-green/40'}`}>
@@ -313,6 +310,8 @@ export default function Wildlife() {
           </div>
         </div>
       </section>
+
+      <PhotoCreditsList srcs={['/images/hero-wildlife.webp']} />
     </>
   )
 }

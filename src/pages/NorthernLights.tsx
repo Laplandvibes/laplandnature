@@ -18,11 +18,11 @@ const NL_JSONLD = {
   '@context': 'https://schema.org',
   '@type': 'Article',
   headline: 'Northern Lights in Finnish Lapland: where, when and how to see them',
-  description: 'A practical guide to seeing the aurora borealis in Finnish Lapland: best viewing spots, season timing, and viewing tips from experienced local observers.',
+  description: 'A practical guide to seeing the aurora borealis in Finnish Lapland: best viewing spots, season timing and viewing tips, with frequencies from the Finnish Meteorological Institute.',
   author: { '@type': 'Organization', name: 'LaplandNature editorial' },
   publisher: { '@type': 'Organization', name: 'LaPeso Oy' },
   datePublished: '2026-04-27',
-  dateModified: '2026-04-27',
+  dateModified: '2026-09-26',
   mainEntityOfPage: 'https://laplandnature.com/northern-lights',
 
   image: "https://laplandnature.com/og/northern-lights-1200x630.jpg",
@@ -144,8 +144,8 @@ export default function NorthernLights() {
 
           <ol className="space-y-5 mb-10">
             {c.oneNightSteps.map((s) => (
-              <li key={s.time} className="flex gap-4 items-start">
-                <span className={`flex-shrink-0 w-16 text-right font-heading text-xl tracking-wider ${s.highlight ? 'text-vibe-pink' : 'text-aurora-green'}`}>
+              <li key={s.time} className="flex flex-col sm:flex-row gap-1 sm:gap-4 items-start">
+                <span className={`sm:flex-shrink-0 sm:w-36 sm:text-right font-heading text-lg sm:text-xl leading-tight tracking-wider ${s.highlight ? 'text-vibe-pink' : 'text-aurora-green'}`}>
                   {s.time}
                 </span>
                 <div className={`border-l-2 pl-4 ${s.highlight ? 'border-vibe-pink/40' : 'border-aurora-green/40'}`}>

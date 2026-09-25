@@ -20,11 +20,11 @@ const CONSERVATION_JSONLD = {
   '@context': 'https://schema.org',
   '@type': 'Article',
   headline: 'Conservation in Finnish Lapland: who protects the wilderness, and how',
-  description: 'Metsähallitus manages 85% of fell areas and all seven national parks.',
+  description: "Metsähallitus manages 85% of Lapland's fell areas and all of its national parks.",
   author: { '@type': 'Organization', name: 'LaplandNature editorial' },
   publisher: { '@type': 'Organization', name: 'LaPeso Oy' },
   datePublished: '2026-04-27',
-  dateModified: '2026-04-27',
+  dateModified: '2026-09-26',
   mainEntityOfPage: 'https://laplandnature.com/conservation',
 
   image: "https://laplandnature.com/og/conservation-1200x630.jpg",

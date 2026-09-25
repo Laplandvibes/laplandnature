@@ -4,6 +4,7 @@ import { ArrowRight, Compass, Trees, Sparkles, Sun } from 'lucide-react'
 import SEO from '../components/SEO'
 import AffiliateCTA from '../components/AffiliateCTA'
 import HeroImage from '../components/HeroImage'
+import PhotoCredit, { PhotoCreditsList } from '../components/PhotoCredit'
 import LaplandMap from '../components/LaplandMap'
 import Newsletter from '../components/Newsletter'
 import { useLang, useLocalePath } from '../i18n/useLang'
@@ -64,7 +65,7 @@ const HOME_JSONLD = [
     '@type': 'TouristDestination',
     name: 'Finnish Lapland: Arctic Wilderness',
     description:
-      'Finnish Lapland: 100,367 km² of arctic country above the Arctic Circle. Northern lights, seven national parks, wildlife, hiking trails and four distinct seasons.',
+      'Finnish Lapland: 100,367 km² of arctic country, most of it above the Arctic Circle. Northern lights, seven national parks, wildlife, hiking trails and four distinct seasons.',
     touristType: ['Nature lovers', 'Hikers', 'Aurora chasers', 'Wildlife photographers'],
     url: 'https://laplandnature.com/',
     geo: { '@type': 'GeoCoordinates', latitude: 67.5, longitude: 26.0 },
@@ -84,6 +85,23 @@ const HOME_JSONLD = [
     publisher: { '@type': 'Organization', name: 'LaPeso Oy' },
   },
 ]
+
+/**
+ * Etusivun hero vuodenajan mukaan (26.9.2026, aidot kuvat tekoälyn tilalle): kesä touko–elo
+ * Pallastunturi kesäkuussa, syyskuu ruskainen Paistunturin erämaa, loka–huhti talvinen
+ * Pallastunturi. Talven ja kesän raja on verkoston sama kuin `seasonal()`:ssa ja /og.jpg:ssä;
+ * syyskuu on oma kuvansa, koska kesäkuun vihreä tunturi ruskan keskellä olisi väärä vuodenaika.
+ */
+function homeHero(): string {
+  const m = new Date().getMonth() + 1
+  if (m === 9) return 'hero-home-autumn.webp'
+  return seasonal('hero-home-winter.webp', 'hero-home.webp')
+}
+
+/** Pystykuvien ja panoraamojen rajaus kortissa (CSS, tiedostoa ei rajata: CC BY / BY-SA). */
+const CARD_POS: Record<string, string> = {
+  'card-northern-lights.webp': 'center 35%',
+}
 
 export default function Home() {
   const lang = useLang()
@@ -113,7 +131,7 @@ export default function Home() {
       />
 
       <HeroImage
-        image={seasonal('hero-home-winter.webp', 'hero-home.webp')}
+        image={homeHero()}
         size="xl"
         priority
         alt={c.hero.alt}
@@ -139,9 +157,74 @@ export default function Home() {
         </div>
       </HeroImage>
 
-      {/* PÄÄKUMPPANI-banneri heti heron alla — sivun paras mainospaikka,
-          tyhjänä kompakti house-ad → LV Media -portaali (cream-tausta → light) */}
-      <MainPartnerBanner config={AD_SLOTS} locale={lang} surface="light" />
+      {/* Pääkumppanipaikka heron alla vain kun se on oikeasti myyty (Vesa 25.9.2026:
+          "mainos voisi hero-osion alta poistua kunnes siinä on aito mainos"). Tyhjänä
+          se oli "Haluatko mainoksesi tähän?" -talon mainos sivun parhaalla paikalla. */}
+      {(AD_SLOTS.mainPartner ?? AD_SLOTS.sponsors?.[0]) && (
+        <MainPartnerBanner config={AD_SLOTS} locale={lang} surface="light" />
+      )}
+
+      {/* Heron alle se mitä lukija tuli hakemaan, kuvakortteina (Vesa 18.9.2026,
+          etusivun kärki: ei sovellusmainosta eikä talon mainosta ensimmäiseksi). */}
+      <section className="py-16 sm:py-24 px-4 sm:px-6">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-12 sm:mb-16">
+            <p className="text-aurora-green uppercase tracking-[0.25em] text-xs mb-3">{c.featured.kicker}</p>
+            <h2 className="font-heading text-4xl sm:text-5xl md:text-6xl text-deep-night tracking-wider mb-4">
+              {c.featured.h2}
+            </h2>
+            <div className="flex items-center justify-center gap-2 mb-5" aria-hidden="true">
+              <span className="h-px w-10 bg-aurora-green/50" />
+              <span className="w-1.5 h-1.5 rounded-full bg-aurora-green" />
+              <span className="h-px w-10 bg-aurora-green/50" />
+            </div>
+            <p className="text-deep-night/65 text-base sm:text-lg max-w-2xl mx-auto">
+              {c.featured.lead}
+            </p>
+          </div>
+
+          {/* Seitsemäs kortti jää riville yksin: flex-wrap keskittää sen, ruudukko jätti sen vasempaan reunaan. */}
+          <div className="flex flex-wrap justify-center gap-5 sm:gap-6">
+            {featured.map((f) => (
+              <Link
+                key={f.href}
+                to={f.href}
+                className="w-full sm:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1rem)] group rounded-2xl overflow-hidden border border-deep-night/10 bg-snow hover:shadow-xl hover:border-aurora-green/40 transition-all flex flex-col"
+              >
+                <div className="relative aspect-[16/10] overflow-hidden">
+                  <PhotoCredit src={`/images/${f.image}`} plain />
+                  {/* AVIF siblings for these seven cards existed but nothing
+                      pointed at them, so the WebP was always served. */}
+                  <picture>
+                    <source type="image/avif" srcSet={`/images/${f.image.replace(/\.webp$/, '.avif')}`} />
+                    <img
+                      src={`/images/${f.image}`}
+                      alt=""
+                      aria-hidden="true"
+                      loading="lazy"
+                      decoding="async"
+                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                      style={CARD_POS[f.image] ? { objectPosition: CARD_POS[f.image] } : undefined}
+                      width={1280}
+                      height={800}
+                    />
+                  </picture>
+                  <span className={`absolute top-3 left-3 ${f.tagBg} text-snow text-[11px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full shadow-md`}>
+                    {f.tag}
+                  </span>
+                </div>
+                <div className="p-6 flex flex-col flex-1">
+                  <h3 className="font-heading text-2xl text-deep-night tracking-wide mb-3">{f.title}</h3>
+                  <p className="text-deep-night/70 text-sm leading-relaxed mb-5 flex-1">{f.blurb}</p>
+                  <span className="block w-full text-center bg-finland-blue text-snow font-semibold text-sm px-5 py-3 rounded-lg group-hover:bg-vibe-pink transition-colors">
+                    {f.cta}
+                  </span>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
 
       <section
         className="relative overflow-hidden"
@@ -206,81 +289,14 @@ export default function Home() {
           }}
         />
       </section>
-      {/* App launch block, directly under the site's own opening. At the foot
-          of the page it measured 81 % down a 33 000 px front page, and an
-          announcement nobody scrolls to is not an announcement. */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <AppPromoHero />
-      </div>
 
-
-
-
-      {/* Kumppaniosio heti ensimmäisen sisältöosion (tilastoband) jälkeen:
-          kakkospääkumppani + 6 premium-paikkaa — pääkumppanit eivät näy
-          vierekkäin (banneri ↑ heron alla). Cream-tausta → surface="light". */}
+      {/* Kumppanikortit (Bear Kuusamo + Aurora Holidays) sisällön ja tilastokaistan jälkeen.
+          Cream-tausta → surface="light". */}
       <HomeAdSlots config={AD_SLOTS} locale={lang} surface="light" />
 
       {/* Varattavat GYG-tuotteet — korkealla sivulla mutta myytyjen mainospaikkojen ALAPUOLELLA */}
       <GygPicks />
 
-
-      <section className="py-16 sm:py-24 px-4 sm:px-6">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-12 sm:mb-16">
-            <p className="text-aurora-green uppercase tracking-[0.25em] text-xs mb-3">{c.featured.kicker}</p>
-            <h2 className="font-heading text-4xl sm:text-5xl md:text-6xl text-deep-night tracking-wider mb-4">
-              {c.featured.h2}
-            </h2>
-            <div className="flex items-center justify-center gap-2 mb-5" aria-hidden="true">
-              <span className="h-px w-10 bg-aurora-green/50" />
-              <span className="w-1.5 h-1.5 rounded-full bg-aurora-green" />
-              <span className="h-px w-10 bg-aurora-green/50" />
-            </div>
-            <p className="text-deep-night/65 text-base sm:text-lg max-w-2xl mx-auto">
-              {c.featured.lead}
-            </p>
-          </div>
-
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
-            {featured.map((f) => (
-              <Link
-                key={f.href}
-                to={f.href}
-                className="group rounded-2xl overflow-hidden border border-deep-night/10 bg-snow hover:shadow-xl hover:border-aurora-green/40 transition-all flex flex-col"
-              >
-                <div className="relative aspect-[16/10] overflow-hidden">
-                  {/* AVIF siblings for these seven cards existed but nothing
-                      pointed at them, so the WebP was always served. */}
-                  <picture>
-                    <source type="image/avif" srcSet={`/images/${f.image.replace(/\.webp$/, '.avif')}`} />
-                    <img
-                      src={`/images/${f.image}`}
-                      alt=""
-                      aria-hidden="true"
-                      loading="lazy"
-                      decoding="async"
-                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                      width={1280}
-                      height={800}
-                    />
-                  </picture>
-                  <span className={`absolute top-3 left-3 ${f.tagBg} text-snow text-[11px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full shadow-md`}>
-                    {f.tag}
-                  </span>
-                </div>
-                <div className="p-6 flex flex-col flex-1">
-                  <h3 className="font-heading text-2xl text-deep-night tracking-wide mb-3">{f.title}</h3>
-                  <p className="text-deep-night/70 text-sm leading-relaxed mb-5 flex-1">{f.blurb}</p>
-                  <span className="block w-full text-center bg-finland-blue text-snow font-semibold text-sm px-5 py-3 rounded-lg group-hover:bg-vibe-pink transition-colors">
-                    {f.cta}
-                  </span>
-                </div>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Maksettu kumppanipaikka etusivulla (Vesa 2026-07-26): "nature-sivulla
           voisi olla etusivulla jo tuo mainos, koska siten se herättää huomiota ja
@@ -363,6 +379,13 @@ export default function Home() {
           <LatestNews />
         </Suspense>
       </div>
+
+      {/* Sovellusmainos sisällön jälkeen, uutiskirjeen yläpuolella (etusivun kärki -sääntö 18.9.2026). */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <AppPromoHero />
+      </div>
+
+      <PhotoCreditsList srcs={[`/images/${homeHero()}`, ...cardImages.map((f) => `/images/${f}`)]} />
 
       <Newsletter />
     </>

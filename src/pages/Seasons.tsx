@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { Moon, Sun, Flower2, Leaf, ArrowRight, Calendar, Camera, AlertTriangle, HelpCircle, Plus } from 'lucide-react'
 import SEO from '../components/SEO'
 import HeroImage from '../components/HeroImage'
+import PhotoCredit from '../components/PhotoCredit'
 import AffiliateCTA from '../components/AffiliateCTA'
 import HubLink from '../components/HubLink'
 import { useLang, useLocalePath } from '../i18n/useLang'
@@ -27,7 +28,7 @@ const SEASONS_JSONLD = {
   author: { '@type': 'Organization', name: 'LaplandNature editorial' },
   publisher: { '@type': 'Organization', name: 'LaPeso Oy' },
   datePublished: '2026-04-27',
-  dateModified: '2026-04-27',
+  dateModified: '2026-09-26',
   mainEntityOfPage: 'https://laplandnature.com/seasons',
 
   image: "https://laplandnature.com/og/seasons-1200x630.jpg",
@@ -85,7 +86,8 @@ export default function Seasons() {
                 {/* Decorative: the card's own h2 names the season, so a
                     translated alt would only repeat it (see the alt rule in
                     the image-audit notes). */}
-                <div className="aspect-[16/9] overflow-hidden bg-deep-night/5">
+                <div className="relative aspect-[16/9] overflow-hidden bg-deep-night/5">
+                  <PhotoCredit src={`/images/${v.image}.webp`} />
                   <picture>
                     <source type="image/avif" srcSet={`/images/${v.image}.avif`} />
                     <img
@@ -146,7 +148,7 @@ export default function Seasons() {
                     <>{c.ruskaWeek4Suffix}<Link to={to('/hiking-trails')} className="text-vibe-pink hover:underline">{c.ruskaWeek4SuffixLink}</Link>).</>
                   )}
                   {i === 4 && (
-                    <>{c.ruskaWeek5Suffix}<Link to={to('/northern-lights')} className="text-vibe-pink hover:underline">{c.ruskaWeek5SuffixLink}</Link>.</>
+                    <>{c.ruskaWeek5Suffix}<Link to={to('/northern-lights')} className="text-vibe-pink hover:underline">{c.ruskaWeek5SuffixLink}</Link>{lang === 'ja' || lang === 'zh-CN' ? '。' : '.'}</>
                   )}
                 </div>
               </div>
