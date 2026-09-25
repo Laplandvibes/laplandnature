@@ -11,13 +11,10 @@ https://laplandnature.pages.dev/*
   X-Robots-Tag: noindex, nofollow
 # <<< LV-PAGESDEV-NOINDEX
 
-# >>> LV-LINK-PRELOAD (managed by apply_link_preload_headers.py)
-/
-  Link: </images/hero-home.webp>; rel=preload; as=image; fetchpriority=high
-
-/index.html
-  Link: </images/hero-home.webp>; rel=preload; as=image; fetchpriority=high
-# <<< LV-LINK-PRELOAD
+# LV-LINK-PRELOAD poistettu 26.9.2026: etusivun hero vaihtuu selaimessa (Home.tsx homeHero():
+# syyskuu syksy, touko-elo kesä, loka-huhti talvipanoraama), joten staattinen Link-otsake esilatasi
+# väärän kuvan 8 kk vuodessa. Preload tulee index.html:n kausiskriptistä. Älä aja
+# apply_link_preload_headers.py:tä tälle sivustolle.
 
 # >>> LV-SECURITY (managed)
 /*

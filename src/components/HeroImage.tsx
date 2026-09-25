@@ -65,18 +65,52 @@ interface HeroImageProps {
  * (Pallastunturi, 3.8:1) that may not be cropped, and a width ladder is wrong for a panorama:
  * on a phone the hero is ~740 px tall, so object-cover needs ~2 800 px of width, not 800.
  * The single 3 000 px file is served everywhere instead.
+ *
+ * 🔴 26.9.2026: the ladder had not worked since the image-versioning build step (9.9.). It
+ * appends `?v=<hash>` to every image string in the JS bundle, `image` included, so the old
+ * `.webp$` test never matched, `hasVariants` was always false and every phone loaded the
+ * 1 600 px file (same bug as laplandsnowmobile 25.9.). The name is now read without the query,
+ * and the srcsets are written out as literal strings so that the build versions each rung with
+ * its own hash — the same URLs index.html's homepage preload asks for, so it is fetched once.
  */
-const RESPONSIVE_HEROES = new Set([
-  'hero-conservation',
-  'hero-freshwater',
-  'hero-hiking',
-  'hero-home',
-  'hero-home-autumn',
-  'hero-national-parks',
-  'hero-northern-lights',
-  'hero-seasons',
-  'hero-wildlife',
-])
+const RESPONSIVE_HEROES: Record<string, { avif: string; webp: string }> = {
+  'hero-conservation': {
+    avif: '/images/hero-conservation-800.avif 800w, /images/hero-conservation-1200.avif 1200w',
+    webp: '/images/hero-conservation-800.webp 800w, /images/hero-conservation-1200.webp 1200w',
+  },
+  'hero-freshwater': {
+    avif: '/images/hero-freshwater-800.avif 800w, /images/hero-freshwater-1200.avif 1200w',
+    webp: '/images/hero-freshwater-800.webp 800w, /images/hero-freshwater-1200.webp 1200w',
+  },
+  'hero-hiking': {
+    avif: '/images/hero-hiking-800.avif 800w, /images/hero-hiking-1200.avif 1200w',
+    webp: '/images/hero-hiking-800.webp 800w, /images/hero-hiking-1200.webp 1200w',
+  },
+  'hero-home': {
+    avif: '/images/hero-home-800.avif 800w, /images/hero-home-1200.avif 1200w',
+    webp: '/images/hero-home-800.webp 800w, /images/hero-home-1200.webp 1200w',
+  },
+  'hero-home-autumn': {
+    avif: '/images/hero-home-autumn-800.avif 800w, /images/hero-home-autumn-1200.avif 1200w',
+    webp: '/images/hero-home-autumn-800.webp 800w, /images/hero-home-autumn-1200.webp 1200w',
+  },
+  'hero-national-parks': {
+    avif: '/images/hero-national-parks-800.avif 800w, /images/hero-national-parks-1200.avif 1200w',
+    webp: '/images/hero-national-parks-800.webp 800w, /images/hero-national-parks-1200.webp 1200w',
+  },
+  'hero-northern-lights': {
+    avif: '/images/hero-northern-lights-800.avif 800w, /images/hero-northern-lights-1200.avif 1200w',
+    webp: '/images/hero-northern-lights-800.webp 800w, /images/hero-northern-lights-1200.webp 1200w',
+  },
+  'hero-seasons': {
+    avif: '/images/hero-seasons-800.avif 800w, /images/hero-seasons-1200.avif 1200w',
+    webp: '/images/hero-seasons-800.webp 800w, /images/hero-seasons-1200.webp 1200w',
+  },
+  'hero-wildlife': {
+    avif: '/images/hero-wildlife-800.avif 800w, /images/hero-wildlife-1200.avif 1200w',
+    webp: '/images/hero-wildlife-800.webp 800w, /images/hero-wildlife-1200.webp 1200w',
+  },
+}
 
 /**
  * The ladder tops out at 1200 px, so it is offered to phones only. Above the
@@ -134,26 +168,26 @@ export default function HeroImage({
   const decorative = alt === null
   const altText = decorative ? '' : (alt ?? derivedAlt)
 
-  const base = image.replace(/\.(avif|webp|jpe?g|png)$/i, '')
-  const hasVariants = RESPONSIVE_HEROES.has(base)
+  const base = image.split('?')[0].replace(/\.(avif|webp|jpe?g|png)$/i, '')
+  const variants = RESPONSIVE_HEROES[base]
 
   return (
     <>
     <section className={`relative ${minH} flex ${alignClass} justify-center overflow-hidden`}>
       <picture>
-        {hasVariants && (
+        {variants && (
           <>
             <source
               type="image/avif"
               media={RESPONSIVE_MEDIA}
               sizes="100vw"
-              srcSet={`/images/${base}-800.avif 800w, /images/${base}-1200.avif 1200w`}
+              srcSet={variants.avif}
             />
             <source
               type="image/webp"
               media={RESPONSIVE_MEDIA}
               sizes="100vw"
-              srcSet={`/images/${base}-800.webp 800w, /images/${base}-1200.webp 1200w`}
+              srcSet={variants.webp}
             />
           </>
         )}

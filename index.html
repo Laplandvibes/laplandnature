@@ -129,17 +129,27 @@
       (function () {
         var p = location.pathname.replace(/\/+$/, '');
         if (p !== '' && !/^\/(fi|de|ja|es|br|cn|kr|fr|it|nl|sv)$/.test(p)) return;
+        // 26.9.2026: the hero is seasonal (Home.tsx homeHero(): September autumn, May–August
+        // summer, October–April winter panorama). A preload fixed to the summer file made a
+        // phone in September fetch two heroes and show one. Same month rule as homeHero();
+        // the URLs stay literal so the build versions them exactly like HeroImage's srcset.
+        var m = new Date().getMonth() + 1;
+        var h = m === 9
+          ? { srcset: '/images/hero-home-autumn-800.avif 800w, /images/hero-home-autumn-1200.avif 1200w', href: '/images/hero-home-autumn.webp' }
+          : m >= 5 && m <= 8
+            ? { srcset: '/images/hero-home-800.avif 800w, /images/hero-home-1200.avif 1200w', href: '/images/hero-home.webp' }
+            : { srcset: '', href: '/images/hero-home-winter.webp' };
         var l = document.createElement('link');
         l.rel = 'preload';
         l.as = 'image';
         l.fetchPriority = 'high';
-        if (window.matchMedia('(max-width: 767px)').matches) {
+        if (h.srcset && window.matchMedia('(max-width: 767px)').matches) {
           l.type = 'image/avif';
-          l.setAttribute('imagesrcset', '/images/hero-home-800.avif 800w, /images/hero-home-1200.avif 1200w');
+          l.setAttribute('imagesrcset', h.srcset);
           l.setAttribute('imagesizes', '100vw');
         } else {
           l.type = 'image/webp';
-          l.href = '/images/hero-home.webp';
+          l.href = h.href;
         }
         document.head.appendChild(l);
       })();
