@@ -87,7 +87,10 @@ export default function Nav() {
                 <Link
                   key={l.href}
                   to={l.href}
-                  className={`px-3 py-1.5 text-sm font-medium rounded-lg transition-colors ${
+                  // whitespace-nowrap + kapeampi sisennys 25.9.2026: työpöytävalikko alkaa 1280 px:stä,
+                  // ja espanjan ja hollannin pidemmät nimet ("Aurora boreal", "Nationale parken")
+                  // rivittyivät kahdelle riville juuri siinä leveydessä (7 löydöstä, portti `navi`).
+                  className={`whitespace-nowrap px-2.5 py-1.5 text-sm font-medium rounded-lg transition-colors ${
                     active
                       ? 'text-vibe-pink bg-vibe-pink/10'
                       : opaque
