@@ -23,7 +23,7 @@ export const FR_OVERRIDES: DeepPartial<SectionCopy> = {
       { title: 'La saison des aurores', body: 'Quand s\'ouvre la saison sombre et où le ciel est le plus souvent dégagé. Pour les chances de la nuit même, la source est la prévision d\'aurores de l\'Institut météorologique finlandais ; ce message n\'est pas une alerte en temps réel.' },
       { title: 'Sentiers et refuges', body: 'Quand le ruska gagne les fjälls, quand les refuges sur réservation deviennent réservables et comment tient la neige de printemps, avec vérification auprès de Metsähallitus.' },
       { title: 'Faune', body: 'Quand les affûts à ours ouvrent pour la saison, quand ont lieu les rassemblements de rennes et ce qui change sur la Liste rouge des espèces menacées de Finlande.' },
-      { title: 'Nouveau sur le site', body: 'Nouveaux guides et corrections sur LaplandNature, et actualités de la nature lapone vérifiées à la source.' },
+      { title: 'Nouveau sur le site', body: 'Nouveaux guides et corrections sur LaplandNature, et actualités de la nature en Laponie vérifiées à la source.' },
     ],
     emailPlaceholder: 'votre@email.com',
     sendBtn: 'Recevoir les lettres de Laponie',
@@ -272,7 +272,7 @@ export const FR_OVERRIDES: DeepPartial<SectionCopy> = {
       { name: 'Ours brun', description: 'En Finlande, l\'ours brun vit surtout dans l\'est, le long de la frontière russe. Les affûts d\'observation se trouvent autour de Kuusamo et de Suomussalmi, juste au sud de la Laponie, et ouvrent du printemps à l\'automne.', status: 'Quasi menacé' },
       { name: 'Glouton', description: 'L\'un des prédateurs les plus insaisissables des forêts et des fjälls du Nord. Très puissant pour sa taille, il parcourt d\'immenses territoires. La Finlande compte quelques centaines de gloutons (Luke), et on les voit rarement.', status: 'En danger' },
       { name: 'Harfang des neiges', description: 'Le harfang des neiges ne niche que rarement en Finlande, dans les fjälls les plus septentrionaux lors des bonnes années à lemmings, et il est en danger critique en tant qu\'oiseau nicheur de Finlande. En hiver, des individus erratiques apparaissent parfois bien plus au sud.', status: 'En danger critique' },
-      { name: 'Cygne chanteur', description: 'L\'oiseau national de Finlande niche dans les zones humides et les lacs tranquilles de Laponie. Son cri claironnant porte sur des kilomètres dans les soirées d\'été, un son qui définit l\'été lapon.', status: 'Oiseau national' }
+      { name: 'Cygne chanteur', description: 'L\'oiseau national de Finlande niche dans les zones humides et les lacs tranquilles de Laponie. Son cri claironnant porte sur des kilomètres dans les soirées d\'été, un son qui définit l\'été en Laponie.', status: 'Oiseau national' }
     ],
     statuses: {
       common: 'Commun',

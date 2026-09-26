@@ -272,7 +272,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
       { name: 'Orso bruno', description: 'In Finlandia gli orsi bruni vivono soprattutto a est, lungo il confine russo. I capanni di osservazione si trovano intorno a Kuusamo e Suomussalmi, appena a sud della Lapponia, e sono aperti dalla primavera all\'autunno.', status: 'Quasi minacciata' },
       { name: 'Ghiottone', description: 'Uno dei predatori più sfuggenti delle foreste e dei fjäll del nord. Eccezionalmente forte per la sua taglia, percorre territori vastissimi. In Finlandia vivono alcune centinaia di ghiottoni (Luke), e si vedono di rado.', status: 'In pericolo' },
       { name: 'Gufo delle nevi', description: 'Il gufo delle nevi nidifica in Finlandia solo di rado, sui fjäll più settentrionali negli anni ricchi di lemming, ed è in pericolo critico come nidificante in Finlandia. In inverno, individui erratici compaiono talvolta molto più a sud.', status: 'In pericolo critico' },
-      { name: 'Cigno selvatico', description: 'L\'uccello nazionale della Finlandia nidifica nelle zone umide e nei laghi tranquilli della Lapponia. Il suo richiamo trombettato si propaga per chilometri nelle serate estive ferme, un suono che definisce l\'estate lappone.', status: 'Uccello nazionale' }
+      { name: 'Cigno selvatico', description: 'L\'uccello nazionale della Finlandia nidifica nelle zone umide e nei laghi tranquilli della Lapponia. Il suo richiamo trombettato si propaga per chilometri nelle serate estive ferme, un suono che definisce l\'estate in Lapponia.', status: 'Uccello nazionale' }
     ],
     statuses: {
       common: 'Comune',

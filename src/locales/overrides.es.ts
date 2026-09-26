@@ -337,7 +337,7 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
       { name: 'Oso pardo', description: 'Los osos pardos de Finlandia viven sobre todo en el este, a lo largo de la frontera rusa. Los hides de observación de osos están en torno a Kuusamo y Suomussalmi, justo al sur de Laponia, y abren de primavera a otoño.', status: 'Casi amenazado' },
       { name: 'Glotón', description: 'Uno de los depredadores más esquivos de los bosques y fjälls del norte. Inmensamente fuerte para su tamaño, recorre territorios enormes. En Finlandia hay unos pocos cientos de glotones (Luke), y rara vez se ven.', status: 'En peligro' },
       { name: 'Búho nival', description: 'El búho nival cría en Finlandia solo en contadas ocasiones, en los fjälls más septentrionales y en los años buenos de lemmings, y está en peligro crítico como ave nidificante en el país. En invierno, algunos búhos errantes aparecen de vez en cuando mucho más al sur.', status: 'En peligro crítico' },
-      { name: 'Cisne cantor', description: 'El ave nacional de Finlandia cría en los humedales y lagos tranquilos de Laponia. Su llamada de trompeta se oye a kilómetros en las quietas tardes de verano, un sonido que define el verano lapón.', status: 'Ave nacional' },
+      { name: 'Cisne cantor', description: 'El ave nacional de Finlandia cría en los humedales y lagos tranquilos de Laponia. Su llamada de trompeta se oye a kilómetros en las quietas tardes de verano, un sonido que define el verano en Laponia.', status: 'Ave nacional' },
     ],
     statuses: {
       common: 'Común',
