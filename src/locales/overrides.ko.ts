@@ -394,7 +394,7 @@ export const KO_OVERRIDES: DeepPartial<SectionCopy> = {
     metaTitle: '라플란드 하이킹 트레일: 당일 순환 코스부터 82km 카르훈키에로스까지',
     metaDescription: '핀란드 라플란드와 그 주변의 하이킹 트레일 여섯 곳: 헤타–팔라스(약 50km), 카르훈키에로스(82km), 할티(편도 약 55km), 그리고 더 짧은 세 코스.',
     hero: {
-      alt: '킬피스야르비 사나 산기슭의 황새풀 사이로 난 나무 데크길',
+      alt: '오울랑카 국립공원 카르훈키에로스 트레일, 붉은빛 암벽 사이를 흐르는 키우타쾽개스 급류',
       eyebrow: '핵심 가이드',
       title: '하이킹 트레일',
       subtitle: '라플란드의',

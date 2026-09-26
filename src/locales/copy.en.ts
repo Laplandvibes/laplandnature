@@ -715,7 +715,7 @@ const en: SectionCopy = {
       title: 'Hiking Trails',
       subtitle: 'Of Lapland',
       description: "From easy day hikes to multi-day wilderness expeditions. Lapland's trails take you through ancient forests, across open fells, along wild rivers, and to Finland's highest point.",
-      alt: 'Duckboards through cotton grass at the foot of Saana fell in Kilpisjärvi',
+      alt: 'Kiutaköngäs rapids between reddish cliffs on the Karhunkierros trail, Oulanka National Park',
     },
     karhuKicker: 'Route card · Karhunkierros',
     karhuH2: 'Karhunkierros leg by leg: huts, rapids and distances',

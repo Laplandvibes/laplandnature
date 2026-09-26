@@ -75,6 +75,11 @@ function ArticleView({ meta }: { meta: NewsMeta }) {
           style={meta.hero.position ? { objectPosition: meta.hero.position } : undefined}
         />
         <div className="nw-art-scrim" aria-hidden="true" />
+        {/* Kuvaaja + lisenssi kuvan oikeaan alakulmaan, kuten sivuston muissa kuvissa (PhotoCredit). */}
+        <p className="nw-art-credit">
+          {ui.ui.photo}: <a href={credit.sourceUrl} target="_blank" rel="noopener">{credit.author} / {credit.sourceName}</a>,{' '}
+          <a href={credit.licenseUrl} target="_blank" rel="noopener license">{credit.license}</a>
+        </p>
         <div className="wrap nw-narrow nw-art-body">
           <nav className="crumbs" aria-label="Breadcrumb">
             <span><Link to={to('/')}>{ui.ui.home}</Link></span>
@@ -89,30 +94,26 @@ function ArticleView({ meta }: { meta: NewsMeta }) {
           <p className="nw-dek">{text.dek}</p>
         </div>
       </header>
-      <div className="wrap nw-narrow nw-art-meta">
-        <p className="nw-byline">
-          <span>{ui.ui.byline}</span>
-          <span aria-hidden="true"> · </span>
-          <span>{ui.ui.published} <time dateTime={meta.date}>{formatDate(meta.date, lang)}</time></span>
-          {meta.updated && (
-            <>
-              <span aria-hidden="true"> · </span>
-              <span>{ui.ui.updated} <time dateTime={meta.updated}>{formatDate(meta.updated, lang)}</time></span>
-            </>
-          )}
-          <span aria-hidden="true"> · </span>
-          <span>{ui.ui.sources}: {publishers.join(', ')}</span>
-        </p>
-        <p className="nw-art-cap">
-          {text.heroCaption && <span>{text.heroCaption} </span>}
-          <span className="nw-credit">
-            {ui.ui.photo}: <a href={credit.sourceUrl} target="_blank" rel="noopener">{credit.author} / {credit.sourceName}</a>,{' '}
-            <a href={credit.licenseUrl} target="_blank" rel="noopener license">{credit.license}</a>
-          </span>
-        </p>
-      </div>
-
-      <article className="nw-sheet">
+      {/* 26.9.2026 (Vesa: "artikkelin hero osion alla on jotenkin tosi huono, tämä listaus"):
+          byline, sources and the photo caption used to hang as loose grey lines between the hero
+          and the sheet, on a wider column than the sheet itself. They are now the sheet's own
+          header, and the sheet rises over the photo with a shadow. */}
+      <article className="nw-sheet nw-sheet-lift">
+        <header className="nw-sheet-meta">
+          <p className="nw-byline">
+            <span className="nw-by">{ui.ui.byline}</span>
+            <span aria-hidden="true" className="nw-dot">·</span>
+            <span>{ui.ui.published} <time dateTime={meta.date}>{formatDate(meta.date, lang)}</time></span>
+            {meta.updated && (
+              <>
+                <span aria-hidden="true" className="nw-dot">·</span>
+                <span>{ui.ui.updated} <time dateTime={meta.updated}>{formatDate(meta.updated, lang)}</time></span>
+              </>
+            )}
+          </p>
+          <p className="nw-byline nw-byline-src">{ui.ui.sources}: {publishers.join(', ')}</p>
+          {text.heroCaption && <p className="nw-art-cap">{text.heroCaption}</p>}
+        </header>
         <Prose blocks={text.body} meta={meta} />
         <section className="nw-sources" aria-labelledby="nw-sources-h">
           <h2 id="nw-sources-h" className="nw-sources-h">{ui.ui.sources}</h2>

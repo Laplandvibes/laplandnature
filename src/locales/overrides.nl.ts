@@ -673,7 +673,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
     metaTitle: 'Wandelpaden in Lapland: van dagrondjes tot de Karhunkierros van 82 km',
     metaDescription: 'Zes wandelpaden in en rond Fins Lapland: Hetta–Pallas (ongeveer 50 km), Karhunkierros (82 km), Halti (ongeveer 55 km enkele reis) en drie kortere routes.',
     hero: {
-      alt: 'Vlonderpad door wollegras aan de voet van de Saana bij Kilpisjärvi',
+      alt: 'De stroomversnelling Kiutaköngäs tussen roodachtige rotswanden langs de Karhunkierros in nationaal park Oulanka',
       eyebrow: 'Pijlergids',
       title: 'Wandelpaden',
       subtitle: 'Van Lapland',

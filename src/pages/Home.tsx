@@ -1,6 +1,6 @@
 import { lazy, Suspense } from 'react'
 import { Link } from 'react-router-dom'
-import { ArrowRight, Compass, Trees, Sparkles, Sun } from 'lucide-react'
+import { ArrowRight } from 'lucide-react'
 import SEO from '../components/SEO'
 import AffiliateCTA from '../components/AffiliateCTA'
 import HeroImage from '../components/HeroImage'
@@ -57,7 +57,6 @@ const cardTagBgs = [
   'bg-[#0369A1]',
 ]
 
-const ICONS = [Compass, Trees, Sun, Sparkles]
 
 const HOME_JSONLD = [
   {
@@ -244,39 +243,37 @@ export default function Home() {
           }}
         />
 
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 py-16 sm:py-24">
-          <div className="text-center max-w-3xl mx-auto mb-12 sm:mb-16">
-            <p className="text-aurora-green uppercase tracking-[0.3em] text-xs sm:text-sm font-semibold mb-4">
+        {/* 26.9.2026 (Vesa: "geneeriset iconit pois, keskitetty luvut ja ilmaa ja varjoja"):
+            the four stats were one joined grid with a stock icon above each number. Now each
+            is its own card, number centred, more room around and between them, and a real
+            drop shadow so the cards lift off the band instead of sitting flat in it. */}
+        <div className="max-w-6xl mx-auto px-5 sm:px-8 py-24 sm:py-32">
+          <div className="text-center max-w-3xl mx-auto mb-16 sm:mb-20">
+            <p className="text-aurora-green uppercase tracking-[0.3em] text-xs sm:text-sm font-semibold mb-5">
               {c.band.kicker}
             </p>
-            <p className="font-heading text-3xl sm:text-5xl md:text-6xl text-snow tracking-wider leading-[1.05]">
+            <p className="font-heading text-3xl sm:text-4xl md:text-5xl text-snow tracking-wider leading-[1.12]">
               {c.band.h}<span className="text-aurora-green">{c.band.hHighlight}</span>{c.band.hSuffix}
             </p>
           </div>
 
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-px bg-snow/10 rounded-2xl overflow-hidden border border-snow/15">
-            {c.band.stats.map((s, i) => {
-              const Icon = ICONS[i]
-              return (
-                <div
-                  key={s.primary}
-                  className="bg-finland-blue/95 backdrop-blur-sm p-6 sm:p-7 flex flex-col gap-3 items-center text-center sm:items-start sm:text-left"
-                >
-                  <Icon className="w-5 h-5 text-aurora-green" />
-                  <div>
-                    <div className="font-heading text-4xl sm:text-5xl text-snow tracking-wider leading-none">
-                      {s.value}
-                    </div>
-                    <div className="font-heading text-aurora-green text-base sm:text-lg tracking-wide mt-1.5">
-                      {s.primary}
-                    </div>
-                    <div className="text-snow/65 text-xs sm:text-sm leading-snug mt-1.5">
-                      {s.body}
-                    </div>
-                  </div>
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-7">
+            {c.band.stats.map((s) => (
+              <div
+                key={s.primary}
+                className="rounded-3xl bg-[#0B3A78] ring-1 ring-inset ring-white/10 px-3 sm:px-6 py-8 sm:py-12 text-center shadow-[0_28px_56px_-24px_rgba(2,8,23,0.85),0_2px_0_0_rgba(255,255,255,0.06)_inset]"
+              >
+                <div className="font-heading text-5xl sm:text-7xl text-snow tracking-wider leading-none">
+                  {s.value}
                 </div>
-              )
-            })}
+                <div className="font-heading text-aurora-green text-base sm:text-xl tracking-wide mt-3 sm:mt-4 leading-tight">
+                  {s.primary}
+                </div>
+                <div className="text-snow/75 text-xs sm:text-sm leading-relaxed mt-2 sm:mt-3 max-w-[24ch] mx-auto">
+                  {s.body}
+                </div>
+              </div>
+            ))}
           </div>
         </div>
 

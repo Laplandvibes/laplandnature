@@ -8,7 +8,7 @@ import { COPY } from '../locales/copy'
  * the nav and the hero. Self-hides on home + unmapped routes (shared/Breadcrumbs
  * returns null there), so HeroImage can mount it unconditionally.
  */
-export default function PageBreadcrumb() {
+export default function PageBreadcrumb({ currentLabel }: { currentLabel?: string } = {}) {
   const lang = useLang()
   const c = COPY[lang]
   const to = useLocalePath()
@@ -19,12 +19,15 @@ export default function PageBreadcrumb() {
     '/northern-lights': c.nav.northernLights,
     '/seasons': c.nav.seasons,
     '/conservation': c.nav.conservation,
+    // 26.9.2026: /freshwater was missing, so the Vesistöt page had no breadcrumb at all.
+    '/freshwater': c.nav.freshwater,
   }
   return (
     <Breadcrumbs
       lang={lang}
       to={to}
       labelMap={labelMap}
+      currentLabel={currentLabel}
       className="bg-cream text-deep-night border-b border-deep-night/10"
       accentClassName="hover:text-vibe-pink hover:opacity-100"
     />

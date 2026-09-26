@@ -8,7 +8,10 @@
     "lead": "O que a pesquisa recente diz sobre a natureza da Lapônia finlandesa, escrito a partir dos artigos originais e dos comunicados, com todas as fontes citadas e linkadas.",
     "aboutTitle": "Como apuramos",
     "aboutText": "Abrimos cada fonte antes de escrever e contamos apenas o que ela diz. Quando o comunicado e o artigo científico divergem, dizemos de qual deles vem o número e linkamos os dois.",
-    "allRoutes": "Os animais da Lapônia, espécie por espécie"
+    "allRoutes": "Os animais da Lapônia, espécie por espécie",
+    "heroTitle": "A natureza da Lapônia",
+    "heroSubtitle": "o que a pesquisa mostra",
+    "heroAlt": "Renas pastando na tundra de outono ao pé dos fjälls, em Kilpisjärvi"
   },
   "ui": {
     "home": "Início",

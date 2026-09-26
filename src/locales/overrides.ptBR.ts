@@ -429,7 +429,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
     metaTitle: 'Trilhas da Lapônia: de circuitos curtos ao Karhunkierros de 82 km',
     metaDescription: 'Seis trilhas na Lapônia finlandesa e arredores: Hetta–Pallas (cerca de 50 km), Karhunkierros (82 km), Halti (cerca de 55 km só de ida) e três rotas mais curtas.',
     hero: {
-      alt: 'Passarelas de madeira entre algodões-do-brejo no sopé do Saana, em Kilpisjärvi',
+      alt: 'As corredeiras de Kiutaköngäs entre paredões avermelhados na trilha Karhunkierros, no Parque Nacional de Oulanka',
       eyebrow: 'Guia essencial',
       title: 'Trilhas',
       subtitle: 'Da Lapônia',

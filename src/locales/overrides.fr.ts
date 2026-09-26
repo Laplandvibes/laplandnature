@@ -394,7 +394,7 @@ export const FR_OVERRIDES: DeepPartial<SectionCopy> = {
     metaTitle: 'Randonnée en Laponie : boucles d\'un jour et Karhunkierros 82 km',
     metaDescription: 'Six sentiers en Laponie finlandaise et alentour : Hetta–Pallas (environ 50 km), Karhunkierros (82 km), Halti (environ 55 km aller) et trois plus courts.',
     hero: {
-      alt: 'Caillebotis à travers les linaigrettes au pied du Saana, à Kilpisjärvi',
+      alt: 'Les rapides de Kiutaköngäs entre des falaises rougeâtres, sur le Karhunkierros, dans le parc national d\'Oulanka',
       eyebrow: 'Guide phare',
       title: 'Sentiers de randonnée',
       subtitle: 'De Laponie',

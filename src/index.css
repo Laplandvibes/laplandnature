@@ -238,3 +238,8 @@ h1 > span, h2 > span, h3 > span, h4 > span, button > span, summary > span {
     transform: translateY(-50%);
   }
 }
+
+/* 26.9.2026: CJK-otsikot rivittyvät fraasirajoilta, eivät kesken sanan ("ラップラン / ドの自然" /news-herossa).
+   ja: auto-phrase (Chrome 119+, muut selaimet ohittavat ja rivittävät kuten ennen); ko: sanaväleistä. */
+h1:lang(ja),h2:lang(ja){word-break:auto-phrase}
+h1:lang(ko),h2:lang(ko){word-break:keep-all}

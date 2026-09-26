@@ -398,7 +398,7 @@ export const SV_OVERRIDES: DeepPartial<SectionCopy> = {
       title: 'Vandringsleder',
       subtitle: 'I Lappland',
       description: 'Från lätta dagsturer till flerdagars vildmarksexpeditioner. Lapplands leder tar dig genom urskogar, över öppna fjäll, längs vilda älvar och till Finlands högsta punkt.',
-      alt: 'Spångar genom ängsull vid foten av Saana i Kilpisjärvi',
+      alt: 'Forsen Kiutaköngäs mellan rödaktiga klippor längs Karhunkierros i Oulanka nationalpark',
     },
     karhuKicker: 'Ledbeskrivning · Karhunkierros',
     karhuH2: 'Karhunkierros etapp för etapp: stugor, forsar och avstånd',

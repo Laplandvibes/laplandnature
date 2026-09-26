@@ -394,7 +394,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
     metaTitle: '拉普兰徒步步道：从单日环线到 82 公里的 Karhunkierros',
     metaDescription: '芬兰拉普兰及周边的六条徒步步道：Hetta–Pallas（约 50 公里）、Karhunkierros（82 公里）、Halti（单程约 55 公里），以及三条较短的路线。',
     hero: {
-      alt: 'Kilpisjärvi 的 Saana 山脚下，穿过羊胡子草的木栈道',
+      alt: 'Oulanka 国家公园 Karhunkierros 步道旁，红褐色岩壁间的 Kiutaköngäs 急流',
       eyebrow: '核心指南',
       title: '徒步步道',
       subtitle: '拉普兰的',

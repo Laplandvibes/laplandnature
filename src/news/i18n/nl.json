@@ -8,7 +8,10 @@
     "lead": "Wat nieuw onderzoek zegt over de natuur van Fins Lapland, geschreven vanuit de originele artikelen en persberichten, met alle bronnen genoemd en gelinkt.",
     "aboutTitle": "Zo werken wij",
     "aboutText": "Wij openen elke bron voordat wij schrijven en geven alleen weer wat erin staat. Wijken het persbericht en het wetenschappelijke artikel van elkaar af, dan zeggen wij uit welke van de twee een getal komt en linken wij naar allebei.",
-    "allRoutes": "De dieren van Lapland, soort voor soort"
+    "allRoutes": "De dieren van Lapland, soort voor soort",
+    "heroTitle": "De natuur van Lapland",
+    "heroSubtitle": "wat het onderzoek laat zien",
+    "heroAlt": "Rendieren grazen op de herfstige toendra onder de fjells bij Kilpisjärvi"
   },
   "ui": {
     "home": "Home",

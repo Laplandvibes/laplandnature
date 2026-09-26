@@ -1,7 +1,7 @@
 import { use } from 'react';
-import { Link } from 'react-router-dom';
 import { useLang, useLocalePath } from '../i18n/useLang';
 import LocaleLink from '../i18n/LocaleLink';
+import HeroImage from '../components/HeroImage';
 import { ARTICLES, loadAllTexts, loadUi } from './registry';
 import NewsCard from './NewsCard';
 import { NewsChrome, SITE, useNewsHead } from './site';
@@ -61,17 +61,20 @@ export default function NewsIndex() {
   return (
     <NewsChrome current={SITE.path}>
       {head}
-      <header className="nw-head">
-        <div className="wrap">
-          <nav className="crumbs" aria-label="Breadcrumb">
-            <span><Link to={to('/')}>{ui.ui.home}</Link></span>
-            <span><span className="sep" aria-hidden="true">›</span><span aria-current="page">{ui.section}</span></span>
-          </nav>
-          <span className="eyebrow">{ui.section}</span>
-          <h1 className="serif nw-h1">{ui.index.h1}</h1>
-          <p className="nw-lead">{ui.index.lead}</p>
-        </div>
-      </header>
+      {/* 26.9.2026 (Vesa: "uutiset sivun hero osio on aivan kamala"): the dark gradient
+          band is gone. The section now opens like every other pillar page on this site, with
+          a real photograph, the same text backdrop and the photographer credit in the corner.
+          The breadcrumb comes from HeroImage (below the photo), as on the other pages. */}
+      <HeroImage
+        image="hero-news.webp"
+        priority
+        alt={ui.index.heroAlt}
+        eyebrow={ui.section}
+        title={ui.index.heroTitle}
+        subtitle={ui.index.heroSubtitle}
+        description={ui.index.lead}
+        crumbLabel={ui.section}
+      />
 
       <section className="nw-listing" aria-label={ui.section}>
         <div className="wrap">

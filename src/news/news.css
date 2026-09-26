@@ -37,17 +37,8 @@
 .nw .crumbs .sep{margin:0 6px;opacity:.6}
 .nw .sechead{margin-bottom:18px}
 
-/* ── Osion etusivun yläpalkki ────────────────────────────────────────────── */
-.nw .nw-head{position:relative;color:#fff;padding:64px 0 56px;overflow:hidden;
-  background:radial-gradient(70% 90% at 86% -10%,rgba(16,185,129,.30) 0%,rgba(16,185,129,0) 62%),
-             radial-gradient(60% 70% at 0% 110%,rgba(236,72,153,.16) 0%,rgba(236,72,153,0) 60%),
-             linear-gradient(180deg,#0F172A 0%,#12241F 100%)}
-.nw .nw-head .wrap{position:relative}
-.nw .nw-head .eyebrow{color:#6EE7B7;display:block}
-.nw .nw-head .crumbs{color:#D2DAE4}
-.nw .nw-head .crumbs a{color:#fff}
+/* ── Otsikko (juttusivun hero) ─────────────────────────────────────────── */
 .nw .nw-h1{font-size:clamp(42px,6.4vw,76px);line-height:.98;margin-top:10px;max-width:18ch;text-wrap:balance}
-.nw .nw-lead{color:#D4DCE6;font-size:clamp(16px,2vw,19px);line-height:1.55;max-width:62ch;margin-top:16px}
 
 /* CJK: Bebas ei sisällä CJK-merkkejä ⇒ varafontti, eikä versaalimitoitus sovi niille. */
 .nw .nw-h1:lang(ja),.nw .nw-h1:lang(zh),.nw .nw-h1:lang(ko){font-family:var(--font-body),system-ui,sans-serif;font-weight:700;line-height:1.25;font-size:clamp(28px,4.4vw,48px);max-width:none;letter-spacing:0}
@@ -55,7 +46,8 @@
 .nw .nw-h1:lang(ja){word-break:auto-phrase}
 
 /* ── Juttusivun hero: kuva koko leveydelle, otsikko kuvan päällä ─────────── */
-.nw .nw-art{position:relative;min-height:min(78vh,700px);display:flex;align-items:flex-end;overflow:hidden;background:#0F172A;color:#fff;padding:72px 0 52px}
+.nw{--lift:64px}
+.nw .nw-art{position:relative;min-height:min(78vh,700px);display:flex;align-items:flex-end;overflow:hidden;background:#0F172A;color:#fff;padding:72px 0 calc(var(--lift) + 52px)}
 .nw .nw-art-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 .nw .nw-art-scrim{position:absolute;inset:0;background:linear-gradient(to top,rgba(10,20,17,.94) 0%,rgba(10,20,17,.80) 34%,rgba(10,20,17,.26) 68%,rgba(10,20,17,.44) 100%)}
 .nw .nw-art-body{position:relative}
@@ -65,11 +57,20 @@
 .nw .nw-art .crumbs a{color:#fff}
 .nw .nw-kicker{font:600 12px var(--font-body),'DM Sans',system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#6EE7B7;margin:0}
 .nw .nw-dek{font-size:clamp(17px,2.1vw,21px);line-height:1.5;max-width:60ch;margin-top:16px}
-.nw .nw-art-meta{padding-top:18px;padding-bottom:4px}
-.nw .nw-byline{color:var(--muted);font-size:14px;line-height:1.6;margin:0}
-.nw .nw-art-cap{font-size:14px;line-height:1.55;color:var(--muted);margin-top:6px}
-.nw .nw-credit a{color:var(--ink2);text-decoration:underline;text-underline-offset:2px}
-@media(max-width:640px){.nw .nw-art{min-height:520px;padding:64px 0 32px}}
+/* Kuvaaja + lisenssi kuvan oikeassa alakulmassa, paperin nousun yläpuolella (sama ilme kuin PhotoCredit). */
+.nw .nw-art-credit{position:absolute;right:12px;bottom:calc(var(--lift) + 10px);z-index:2;margin:0;max-width:calc(100% - 24px);
+  background:rgba(0,0,0,.55);color:#fff;font-size:11px;line-height:1.45;padding:3px 9px;border-radius:6px}
+.nw .nw-art-credit a{color:#fff;text-decoration:underline;text-underline-offset:2px}
+/* Paperi nousee kuvan päälle: jutun tiedot ovat sen oma otsake, ei irtorivejä kuvan ja paperin välissä. */
+.nw .nw-sheet.nw-sheet-lift{position:relative;z-index:3;margin-top:calc(var(--lift) * -1);border-color:transparent;
+  box-shadow:0 34px 70px -34px rgba(15,23,42,.45),0 2px 8px rgba(15,23,42,.06)}
+.nw .nw-sheet-meta{padding-bottom:22px;margin-bottom:30px;border-bottom:1px solid var(--line)}
+.nw .nw-byline{display:flex;flex-wrap:wrap;align-items:baseline;color:var(--muted);font-size:14.5px;line-height:1.6;margin:0}
+.nw .nw-by{color:var(--ink);font-weight:700}
+.nw .nw-dot{margin:0 9px;opacity:.55}
+.nw .nw-byline-src{margin-top:2px}
+.nw .nw-art-cap{font-size:14px;line-height:1.55;color:var(--muted);font-style:italic;margin:12px 0 0}
+@media(max-width:640px){.nw{--lift:40px}.nw .nw-art{min-height:520px;padding:64px 0 calc(var(--lift) + 50px)}.nw .nw-byline{flex-direction:column}.nw .nw-dot{display:none}}
 
 /* ── Arkki: jutun runko valkoisella paperilla kermalla ───────────────────── */
 .nw .nw-sheet{max-width:800px;margin:30px auto 0;background:var(--white);border:1px solid var(--line);border-radius:22px;padding:clamp(22px,4.6vw,54px)}
@@ -165,8 +166,10 @@
   color:var(--ink2);font-size:15px;font-weight:600;text-decoration:none;line-height:1.3}
 .nw .nw-morepages a:hover{border-color:var(--forest);color:var(--forest)}
 @media(max-width:640px){
-  .nw .nw-head{padding:48px 0 44px}
   .nw .nw-sheet{margin-top:22px;border-radius:16px;margin-left:12px;margin-right:12px}
   .nw .nw-card-body{padding:20px 20px 22px}
   .nw .nw-fence{padding:18px 15px 15px}
 }
+
+/* 26.9.2026: korea rivittyy sanaväleistä myös leipätekstissä ("초 / 지보다" katkesi kesken sanan). */
+.nw :is(p,li):lang(ko){word-break:keep-all}

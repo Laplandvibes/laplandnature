@@ -721,7 +721,7 @@ const fi: SectionCopy = {
     metaTitle: 'Lapin vaellusreitit: päivälenkeistä Karhunkierrokseen',
     metaDescription: 'Kuusi vaellusreittiä Lapissa ja sen lähellä: Hetta–Pallas (noin 50 km), Karhunkierros (82 km), Halti (noin 55 km suuntaansa) ja kolme lyhyempää reittiä.',
     hero: {
-      alt: 'Pitkospuut tupasvillan keskellä Saanan juurella Kilpisjärvellä',
+      alt: 'Kiutaköngäs punertavien kallioiden välissä Karhunkierroksen varrella Oulangan kansallispuistossa',
       eyebrow: 'Lapin retket',
       title: 'Vaellusreitit',
       subtitle: 'Päiväretkistä monen päivän vaelluksiin',

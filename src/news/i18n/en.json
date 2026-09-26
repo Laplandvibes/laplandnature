@@ -8,7 +8,10 @@
     "lead": "What new research says about the nature of Finnish Lapland, written from the original papers and press releases, with every source named and linked.",
     "aboutTitle": "How we report",
     "aboutText": "We open every source before writing and report only what it says. Where a press release and the research paper differ, we say which one a number comes from, and we link both.",
-    "allRoutes": "Lapland wildlife, species by species"
+    "allRoutes": "Lapland wildlife, species by species",
+    "heroTitle": "Lapland's nature",
+    "heroSubtitle": "what the research shows",
+    "heroAlt": "Reindeer grazing on autumn tundra below the fells at Kilpisjärvi"
   },
   "ui": {
     "home": "Home",

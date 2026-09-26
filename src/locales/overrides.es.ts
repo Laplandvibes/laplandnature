@@ -489,7 +489,7 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
     metaTitle: 'Senderos de Laponia: de rutas cortas al Karhunkierros de 82 km',
     metaDescription: 'Seis senderos en la Laponia finlandesa y sus alrededores: Hetta–Pallas (unos 50 km), Karhunkierros (82 km), Halti (unos 55 km solo ida) y tres rutas más cortas.',
     hero: {
-      alt: 'Pasarelas de madera entre algodoncillos al pie del Saana, en Kilpisjärvi',
+      alt: 'Los rápidos de Kiutaköngäs entre paredes rojizas en el Karhunkierros, en el Parque Nacional de Oulanka',
       eyebrow: 'Guía esencial',
       title: 'Senderos',
       subtitle: 'De Laponia',

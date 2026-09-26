@@ -8,7 +8,10 @@
     "lead": "Ce que dit la recherche récente sur la nature de la Laponie finlandaise, écrit à partir des articles originaux et des communiqués, avec toutes les sources nommées et reliées.",
     "aboutTitle": "Notre méthode",
     "aboutText": "Nous ouvrons chaque source avant d'écrire et ne rapportons que ce qu'elle dit. Quand le communiqué et l'article scientifique diffèrent, nous précisons d'où vient le chiffre et nous relions les deux.",
-    "allRoutes": "La faune de Laponie, espèce par espèce"
+    "allRoutes": "La faune de Laponie, espèce par espèce",
+    "heroTitle": "La nature de Laponie",
+    "heroSubtitle": "ce que montre la recherche",
+    "heroAlt": "Des rennes paissent sur la toundra automnale au pied des fjälls, à Kilpisjärvi"
   },
   "ui": {
     "home": "Accueil",

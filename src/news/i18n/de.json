@@ -8,7 +8,10 @@
     "lead": "Was neue Forschung über die Natur des finnischen Lapplands sagt, geschrieben aus den Originalarbeiten und Mitteilungen, mit benannten und verlinkten Quellen.",
     "aboutTitle": "So arbeiten wir",
     "aboutText": "Wir öffnen jede Quelle vor dem Schreiben und geben nur wieder, was dort steht. Wenn Mitteilung und Fachartikel abweichen, sagen wir, woher eine Zahl stammt, und verlinken beide.",
-    "allRoutes": "Die Tierwelt Lapplands, Art für Art"
+    "allRoutes": "Die Tierwelt Lapplands, Art für Art",
+    "heroTitle": "Lapplands Natur",
+    "heroSubtitle": "was die Forschung zeigt",
+    "heroAlt": "Rentiere weiden auf herbstlicher Tundra unterhalb der Fjells bei Kilpisjärvi"
   },
   "ui": {
     "home": "Startseite",

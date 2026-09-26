@@ -394,7 +394,7 @@ export const IT_OVERRIDES: DeepPartial<SectionCopy> = {
     metaTitle: 'Trekking in Lapponia: anelli di un giorno e Karhunkierros 82 km',
     metaDescription: 'Sei sentieri nella Lapponia finlandese e dintorni: Hetta–Pallas (circa 50 km), Karhunkierros (82 km), Halti (circa 55 km solo andata) e tre più brevi.',
     hero: {
-      alt: 'Passerelle di legno tra gli eriofori ai piedi del Saana, a Kilpisjärvi',
+      alt: 'Le rapide di Kiutaköngäs tra pareti rossastre lungo il Karhunkierros, nel Parco nazionale di Oulanka',
       eyebrow: 'Guida di riferimento',
       title: 'Sentieri di trekking',
       subtitle: 'Della Lapponia',

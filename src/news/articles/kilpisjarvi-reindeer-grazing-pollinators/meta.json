@@ -2,20 +2,20 @@
   "slug": "kilpisjarvi-reindeer-grazing-pollinators",
   "date": "2026-09-24",
   "hero": {
-    "src": "/images/news/kilpisjarvi-reindeer-1600.webp",
-    "srcSmall": "/images/news/kilpisjarvi-reindeer-800.webp",
+    "src": "/images/news/kasivarsi-reindeer-1600.webp",
+    "srcSmall": "/images/news/kasivarsi-reindeer-800.webp",
     "width": 1600,
-    "height": 1066,
-    "position": "50% 62%",
+    "height": 1200,
+    "position": "50% 45%",
     "credit": {
-      "author": "Ninara",
-      "license": "CC BY 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Midsummer_in_Kilpisj%C3%A4rvi,_Lapland_(52223081004).jpg",
-      "assetId": "File:Midsummer in Kilpisjärvi, Lapland (52223081004).jpg",
+      "author": "BishkekRocks",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:K%C3%A4sivarsi_porot_1.JPG",
+      "assetId": "File:Käsivarsi porot 1.JPG",
       "sourceName": "Wikimedia Commons",
-      "taken": "2022-06-25",
-      "retrieved": "2026-09-24"
+      "taken": "2007-09-06",
+      "retrieved": "2026-09-26"
     }
   },
   "sources": [

@@ -88,6 +88,9 @@ export default function HikingTrails() {
       <HeroImage
         image="hero-hiking.webp"
         priority
+        // Kiutaköngäs (26.9.2026): keep the forest along the top edge in the wide crop, so the
+        // hero reads as a trail through the woods to the rapids, not a close-up of wet rock.
+        objectPosition="center 18%"
         alt={c.hero.alt}
         eyebrow={c.hero.eyebrow}
         title={c.hero.title}

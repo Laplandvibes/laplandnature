@@ -711,7 +711,7 @@ const de: SectionCopy = {
     metaTitle: 'Lapplands Wanderwege: Tagesrunden bis Karhunkierros (82 km)',
     metaDescription: 'Sechs Wanderwege in Finnisch-Lappland und Umgebung: Hetta–Pallas (etwa 50 km), Karhunkierros (82 km), Halti (etwa 55 km einfach) und drei kürzere Routen.',
     hero: {
-      alt: 'Holzbohlenweg durch Wollgras am Fuß des Saana bei Kilpisjärvi',
+      alt: 'Die Stromschnelle Kiutaköngäs zwischen rötlichen Felswänden am Karhunkierros im Oulanka-Nationalpark',
       eyebrow: 'Säulen-Guide',
       title: 'Wanderwege',
       subtitle: 'Lapplands',

@@ -47,6 +47,8 @@ interface HeroImageProps {
    * centered cover behaviour.
    */
   objectPosition?: string
+  /** Breadcrumb label for a route PageBreadcrumb does not map from COPY (e.g. /news). */
+  crumbLabel?: string
 }
 
 /**
@@ -98,6 +100,10 @@ const RESPONSIVE_HEROES: Record<string, { avif: string; webp: string }> = {
     avif: '/images/hero-national-parks-800.avif 800w, /images/hero-national-parks-1200.avif 1200w',
     webp: '/images/hero-national-parks-800.webp 800w, /images/hero-national-parks-1200.webp 1200w',
   },
+  'hero-news': {
+    avif: '/images/hero-news-800.avif 800w, /images/hero-news-1200.avif 1200w',
+    webp: '/images/hero-news-800.webp 800w, /images/hero-news-1200.webp 1200w',
+  },
   'hero-northern-lights': {
     avif: '/images/hero-northern-lights-800.avif 800w, /images/hero-northern-lights-1200.avif 1200w',
     webp: '/images/hero-northern-lights-800.webp 800w, /images/hero-northern-lights-1200.webp 1200w',
@@ -139,6 +145,7 @@ export default function HeroImage({
   overlay = 'default',
   align = 'center',
   objectPosition,
+  crumbLabel,
 }: HeroImageProps) {
   const minH = size === 'xl' ? 'min-h-[88vh]' : 'min-h-[68vh] sm:min-h-[72vh]'
 
@@ -258,7 +265,7 @@ export default function HeroImage({
         {children && <div className="mt-9">{children}</div>}
       </div>
     </section>
-    <PageBreadcrumb />
+    <PageBreadcrumb currentLabel={crumbLabel} />
     </>
   )
 }

@@ -8,7 +8,10 @@
     "lead": "Che cosa dice la ricerca recente sulla natura della Lapponia finlandese, scritto a partire dagli articoli originali e dai comunicati, con tutte le fonti citate e collegate.",
     "aboutTitle": "Come lavoriamo",
     "aboutText": "Apriamo ogni fonte prima di scrivere e riportiamo soltanto ciò che dice. Quando il comunicato e l'articolo scientifico non coincidono, indichiamo da quale dei due proviene il dato e colleghiamo entrambi.",
-    "allRoutes": "La fauna della Lapponia, specie per specie"
+    "allRoutes": "La fauna della Lapponia, specie per specie",
+    "heroTitle": "La natura della Lapponia",
+    "heroSubtitle": "cosa mostra la ricerca",
+    "heroAlt": "Renne al pascolo sulla tundra autunnale ai piedi dei fjäll, a Kilpisjärvi"
   },
   "ui": {
     "home": "Home",

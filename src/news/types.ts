@@ -113,6 +113,10 @@ export interface NewsUi {
     aboutTitle: string;
     aboutText: string;
     allRoutes: string;
+    /** Osion etusivun valokuvahero (laplandnature 26.9.2026): otsikko, pinkki jatko ja kuvan alt. */
+    heroTitle: string;
+    heroSubtitle: string;
+    heroAlt: string;
   };
   ui: {
     home: string;

@@ -8,7 +8,10 @@
     "lead": "Vad ny forskning säger om naturen i finska Lappland, skrivet utifrån originalartiklarna och pressmeddelandena, med alla källor namngivna och länkade.",
     "aboutTitle": "Så gör vi nyheterna",
     "aboutText": "Vi öppnar varje källa innan vi skriver och återger bara det som står där. När pressmeddelandet och den vetenskapliga artikeln skiljer sig åt säger vi varifrån en siffra kommer och länkar båda.",
-    "allRoutes": "Lapplands djur, art för art"
+    "allRoutes": "Lapplands djur, art för art",
+    "heroTitle": "Lapplands natur",
+    "heroSubtitle": "vad forskningen visar",
+    "heroAlt": "Renar betar på höstfärgad tundra nedanför fjällen vid Kilpisjärvi"
   },
   "ui": {
     "home": "Startsida",

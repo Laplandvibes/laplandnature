@@ -145,7 +145,7 @@ for (const lang of LANGS) {
   ui[lang] = readJson(p);
   const u = ui[lang];
   for (const k of ['section', 'nav']) if (!u[k]) err(`i18n/${lang}`, `kenttä ${k} puuttuu`);
-  for (const k of ['seoTitle', 'description', 'h1', 'lead', 'aboutTitle', 'aboutText', 'allRoutes']) if (!u.index?.[k]) err(`i18n/${lang}`, `index.${k} puuttuu`);
+  for (const k of ['seoTitle', 'description', 'h1', 'lead', 'aboutTitle', 'aboutText', 'allRoutes', 'heroTitle', 'heroSubtitle', 'heroAlt']) if (!u.index?.[k]) err(`i18n/${lang}`, `index.${k} puuttuu`);
   for (const k of ['home', 'readMore', 'published', 'updated', 'byline', 'sources', 'source', 'read', 'photo', 'latest', 'allNews', 'moreNews']) if (!u.ui?.[k]) err(`i18n/${lang}`, `ui.${k} puuttuu`);
   if (u.index) {
     if (len(u.index.seoTitle) > 60) err(`i18n/${lang}`, `index.seoTitle ${len(u.index.seoTitle)} > 60`);
@@ -259,13 +259,18 @@ const rel = (p) => p.replace(ROOT, '').replace(/\\/g, '/').replace(/^\//, '');
 const routesPath = resolve(ROOT, 'scripts/routes.json');
 const routes = readJson(routesPath).filter((r) => r.path !== SECTION && !r.path.startsWith(`${SECTION}/`));
 const newest = articles[0];
+// laplandnature 26.9.2026: osion etusivulla on oma valokuvahero (NewsIndex → HeroImage), joten
+// sen jakokortti on sama kuva eikä uusimman jutun kuva. Jakokuva on SIVUN kortti (lv_permanent_rules §34).
+const INDEX_OG = { hero: '/images/hero-news.webp', line: 'Nature news, sources named' };
 routes.push({
   path: SECTION,
   fallbackTitle: ui.en.index.seoTitle,
   fallbackDescription: ui.en.index.description,
-  ...(newest ? (newest.meta.ogCard
-    ? { ogImage: `/og/news.jpg`, ogCard: { hero: newest.meta.hero.src, line: newest.meta.ogCard.line } }
-    : { ogImage: newest.meta.hero.src }) : {}),
+  ...(INDEX_OG
+    ? { ogImage: `/og/news.jpg`, ogCard: INDEX_OG }
+    : newest ? (newest.meta.ogCard
+      ? { ogImage: `/og/news.jpg`, ogCard: { hero: newest.meta.hero.src, line: newest.meta.ogCard.line } }
+      : { ogImage: newest.meta.hero.src }) : {}),
   harvestRecord: { file: `${rel(join(CACHE, '_index'))}/{lang}.json`, key: 'news', mode: 'jsonFile' },
 });
 for (const a of articles) {
