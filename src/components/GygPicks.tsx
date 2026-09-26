@@ -1,5 +1,5 @@
 import { MapPin, Clock, Ticket, ArrowUpRight } from 'lucide-react';
-import { NATURE_PICKS, gygHref, GYG_PRICE_AS_OF } from '../shared/gyg/picks';
+import { NATURE_PICKS, gygHref, GYG_PRICE_AS_OF, localizePicks } from '../shared/gyg/picks';
 import { GYG_IMAGES } from '../data/gygImages';
 import { useLang } from '../i18n/useLang';
 
@@ -182,7 +182,9 @@ export default function GygPicks() {
   const lang = useLang();
   const t = (m: Record<string, string>): string => m[lang] ?? m.en;
   const L = COPY;
-  const rows = NATURE_PICKS;
+  // Title, place and duration in the page's language (2026-09-26). A row with no
+  // translation for this locale is dropped rather than shown in English.
+  const rows = localizePicks(NATURE_PICKS, lang);
 
   if (!rows.length) return null;
 
