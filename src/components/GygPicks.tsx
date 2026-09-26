@@ -149,7 +149,7 @@ const COPY = {
     "sv": "Bläddra och boka på GetYourGuide"
   },
   "ledeCategory": {
-    "en": "A partner-maintained list, always current, we do not name a single tour here.",
+    "en": "A partner-maintained list, always current. We do not name a single tour here.",
     "fi": "Kumppanin ylläpitämä lista, aina ajantasainen; emme nimeä yksittäistä retkeä.",
     "de": "Eine vom Partner gepflegte Liste, immer aktuell.",
     "ja": "パートナーが管理する最新のリストです。",
