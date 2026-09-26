@@ -176,7 +176,9 @@ export default function AdUnit({
   onArticleClick,
   className = '',
 }: AdUnitProps) {
-  const c = spec.copy[lang] ?? spec.copy.en
+  // No `?? spec.copy.en` (26.9.2026): an advertiser with fi+en copy would otherwise show
+  // English on the ten other locales — the bug ProductRail had on 16 sites.
+  const c = spec.copy[lang]
   if (!c) return null // e.g. a Finnish-only shop on a /ja page — show nothing
 
   const Icon = spec.icon
