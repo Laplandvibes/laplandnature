@@ -99,9 +99,7 @@ function homeHero(): string {
 }
 
 /** Pystykuvien ja panoraamojen rajaus kortissa (CSS, tiedostoa ei rajata: CC BY / BY-SA). */
-const CARD_POS: Record<string, string> = {
-  'card-northern-lights.webp': 'center 35%',
-}
+const CARD_POS: Record<string, string> = {}
 
 export default function Home() {
   const lang = useLang()
