@@ -276,6 +276,10 @@ for (const slug of existsSync(ART_DIR) ? readdirSync(ART_DIR).sort() : []) {
     const f = meta.hero?.[k];
     if (!f || !existsSync(resolve(ROOT, 'public', f.replace(/^\//, '')))) err(where, `hero.${k} puuttuu public/-kansiosta: ${f}`);
   }
+  // Valinnaiset isot ja AVIF-versiot: jos ne on nimetty, tiedostojen pitää olla olemassa.
+  for (const [k, f] of [['srcLarge', meta.hero?.srcLarge], ...Object.entries(meta.hero?.avif ?? {}).map(([n, v]) => [`avif.${n}`, v])]) {
+    if (f && !existsSync(resolve(ROOT, 'public', f.replace(/^\//, '')))) err(where, `hero.${k} puuttuu public/-kansiosta: ${f}`);
+  }
   for (const k of ['author', 'license', 'licenseUrl', 'sourceUrl', 'assetId', 'sourceName', 'retrieved']) if (!meta.hero?.credit?.[k]) err(where, `hero.credit.${k} puuttuu (lisenssikuitti)`);
   if (meta.ogCard && (!meta.ogCard.line || len(meta.ogCard.line) > 40)) err(where, `ogCard.line puuttuu tai yli 40 merkkiä (${len(meta.ogCard?.line ?? '')})`);
   if (!Array.isArray(meta.sources) || !meta.sources.length) err(where, 'lähteet puuttuvat');

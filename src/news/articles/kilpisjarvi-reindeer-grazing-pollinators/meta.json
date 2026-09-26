@@ -2,19 +2,25 @@
   "slug": "kilpisjarvi-reindeer-grazing-pollinators",
   "date": "2026-09-24",
   "hero": {
-    "src": "/images/news/kasivarsi-reindeer-1600.webp",
-    "srcSmall": "/images/news/kasivarsi-reindeer-800.webp",
+    "src": "/images/news/kilpisjarvi-tundra-1600.webp",
+    "srcSmall": "/images/news/kilpisjarvi-tundra-800.webp",
+    "srcLarge": "/images/news/kilpisjarvi-tundra-2400.webp",
+    "avif": {
+      "small": "/images/news/kilpisjarvi-tundra-800.avif",
+      "src": "/images/news/kilpisjarvi-tundra-1600.avif",
+      "large": "/images/news/kilpisjarvi-tundra-2400.avif"
+    },
     "width": 1600,
-    "height": 1200,
-    "position": "50% 45%",
+    "height": 1091,
+    "position": "50% 22%",
     "credit": {
-      "author": "BishkekRocks",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:K%C3%A4sivarsi_porot_1.JPG",
-      "assetId": "File:Käsivarsi porot 1.JPG",
+      "author": "Ninara",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kilpisj%C3%A4rvi,_Finland_(51492924215).jpg",
+      "assetId": "File:Kilpisjärvi, Finland (51492924215).jpg",
       "sourceName": "Wikimedia Commons",
-      "taken": "2007-09-06",
+      "taken": "2021-09-04",
       "retrieved": "2026-09-26"
     }
   },

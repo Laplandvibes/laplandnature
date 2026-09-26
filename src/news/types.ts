@@ -82,6 +82,13 @@ export interface NewsHero {
   src: string;
   /** Pieni versio kortteihin (800 px). */
   srcSmall: string;
+  /**
+   * laplandnature 26.9.2026 (Vesa: "pikselöityy"): 2 000 px:n näytöllä 1600 px:n kuva venyi.
+   * Isoin versio (2400 px) juttusivun herolle; kortit eivät tarvitse sitä.
+   */
+  srcLarge?: string;
+  /** Sama kolmen koon sarja AVIF-muodossa (800 / 1600 / 2400), sama järjestys kuin webp. */
+  avif?: { small: string; src: string; large: string };
   width: number;
   height: number;
   /** object-position 16:9-kehyksessä, kun kuva on eri kuvasuhteessa (vain näyttö, tiedostoa ei rajata). */

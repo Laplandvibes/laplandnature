@@ -134,18 +134,22 @@
         // phone in September fetch two heroes and show one. Same month rule as homeHero();
         // the URLs stay literal so the build versions them exactly like HeroImage's srcset.
         var m = new Date().getMonth() + 1;
+        // Desktop (26.9.2026): HeroImage serves a 1920 / 2560 px AVIF ladder above 768 px, so the
+        // preload asks for the same ladder; the 1600 px webp was stretched on wide screens.
         var h = m === 9
-          ? { srcset: '/images/hero-home-autumn-800.avif 800w, /images/hero-home-autumn-1200.avif 1200w', href: '/images/hero-home-autumn.webp' }
+          ? { srcset: '/images/hero-home-autumn-800.avif 800w, /images/hero-home-autumn-1200.avif 1200w', desk: '/images/hero-home-autumn-1920.avif 1920w, /images/hero-home-autumn-2560.avif 2560w', href: '/images/hero-home-autumn.webp' }
           : m >= 5 && m <= 8
-            ? { srcset: '/images/hero-home-800.avif 800w, /images/hero-home-1200.avif 1200w', href: '/images/hero-home.webp' }
-            : { srcset: '', href: '/images/hero-home-winter.webp' };
+            ? { srcset: '/images/hero-home-800.avif 800w, /images/hero-home-1200.avif 1200w', desk: '/images/hero-home-1920.avif 1920w, /images/hero-home-2560.avif 2560w', href: '/images/hero-home.webp' }
+            : { srcset: '', desk: '', href: '/images/hero-home-winter.webp' };
         var l = document.createElement('link');
         l.rel = 'preload';
         l.as = 'image';
         l.fetchPriority = 'high';
-        if (h.srcset && window.matchMedia('(max-width: 767px)').matches) {
+        var phone = window.matchMedia('(max-width: 767px)').matches;
+        var set = phone ? h.srcset : h.desk;
+        if (set) {
           l.type = 'image/avif';
-          l.setAttribute('imagesrcset', h.srcset);
+          l.setAttribute('imagesrcset', set);
           l.setAttribute('imagesizes', '100vw');
         } else {
           l.type = 'image/webp';

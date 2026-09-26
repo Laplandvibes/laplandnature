@@ -74,57 +74,82 @@ interface HeroImageProps {
  * 1 600 px file (same bug as laplandsnowmobile 25.9.). The name is now read without the query,
  * and the srcsets are written out as literal strings so that the build versions each rung with
  * its own hash — the same URLs index.html's homepage preload asks for, so it is fetched once.
+ *
+ * 🔴 26.9.2026 (Vesa: "ei ole tarpeeksi korkealaatuinen kuva, pikselöityy"): above `md` every device
+ * got the single 1 600 px file, so a 2 000 px wide browser stretched it. Desktop now has its own
+ * 1 920 / 2 560 px ladder (avif + webp) made straight from the originals; the 1 600 px file stays as the
+ * plain <img> fallback.
  */
-const RESPONSIVE_HEROES: Record<string, { avif: string; webp: string }> = {
+const RESPONSIVE_HEROES: Record<string, { avif: string; webp: string; avifDesk: string; webpDesk: string }> = {
   'hero-conservation': {
     avif: '/images/hero-conservation-800.avif 800w, /images/hero-conservation-1200.avif 1200w',
     webp: '/images/hero-conservation-800.webp 800w, /images/hero-conservation-1200.webp 1200w',
+    avifDesk: '/images/hero-conservation-1920.avif 1920w, /images/hero-conservation-2560.avif 2560w',
+    webpDesk: '/images/hero-conservation-1920.webp 1920w, /images/hero-conservation-2560.webp 2560w',
   },
   'hero-freshwater': {
     avif: '/images/hero-freshwater-800.avif 800w, /images/hero-freshwater-1200.avif 1200w',
     webp: '/images/hero-freshwater-800.webp 800w, /images/hero-freshwater-1200.webp 1200w',
+    avifDesk: '/images/hero-freshwater-1920.avif 1920w, /images/hero-freshwater-2560.avif 2560w',
+    webpDesk: '/images/hero-freshwater-1920.webp 1920w, /images/hero-freshwater-2560.webp 2560w',
   },
   'hero-hiking': {
     avif: '/images/hero-hiking-800.avif 800w, /images/hero-hiking-1200.avif 1200w',
     webp: '/images/hero-hiking-800.webp 800w, /images/hero-hiking-1200.webp 1200w',
+    avifDesk: '/images/hero-hiking-1920.avif 1920w, /images/hero-hiking-2560.avif 2560w',
+    webpDesk: '/images/hero-hiking-1920.webp 1920w, /images/hero-hiking-2560.webp 2560w',
   },
   'hero-home': {
     avif: '/images/hero-home-800.avif 800w, /images/hero-home-1200.avif 1200w',
     webp: '/images/hero-home-800.webp 800w, /images/hero-home-1200.webp 1200w',
+    avifDesk: '/images/hero-home-1920.avif 1920w, /images/hero-home-2560.avif 2560w',
+    webpDesk: '/images/hero-home-1920.webp 1920w, /images/hero-home-2560.webp 2560w',
   },
   'hero-home-autumn': {
     avif: '/images/hero-home-autumn-800.avif 800w, /images/hero-home-autumn-1200.avif 1200w',
     webp: '/images/hero-home-autumn-800.webp 800w, /images/hero-home-autumn-1200.webp 1200w',
+    avifDesk: '/images/hero-home-autumn-1920.avif 1920w, /images/hero-home-autumn-2560.avif 2560w',
+    webpDesk: '/images/hero-home-autumn-1920.webp 1920w, /images/hero-home-autumn-2560.webp 2560w',
   },
   'hero-national-parks': {
     avif: '/images/hero-national-parks-800.avif 800w, /images/hero-national-parks-1200.avif 1200w',
     webp: '/images/hero-national-parks-800.webp 800w, /images/hero-national-parks-1200.webp 1200w',
+    avifDesk: '/images/hero-national-parks-1920.avif 1920w, /images/hero-national-parks-2560.avif 2560w',
+    webpDesk: '/images/hero-national-parks-1920.webp 1920w, /images/hero-national-parks-2560.webp 2560w',
   },
   'hero-news': {
     avif: '/images/hero-news-800.avif 800w, /images/hero-news-1200.avif 1200w',
     webp: '/images/hero-news-800.webp 800w, /images/hero-news-1200.webp 1200w',
+    avifDesk: '/images/hero-news-1920.avif 1920w, /images/hero-news-2560.avif 2560w',
+    webpDesk: '/images/hero-news-1920.webp 1920w, /images/hero-news-2560.webp 2560w',
   },
   'hero-northern-lights': {
     avif: '/images/hero-northern-lights-800.avif 800w, /images/hero-northern-lights-1200.avif 1200w',
     webp: '/images/hero-northern-lights-800.webp 800w, /images/hero-northern-lights-1200.webp 1200w',
+    avifDesk: '/images/hero-northern-lights-1920.avif 1920w, /images/hero-northern-lights-2560.avif 2560w',
+    webpDesk: '/images/hero-northern-lights-1920.webp 1920w, /images/hero-northern-lights-2560.webp 2560w',
   },
   'hero-seasons': {
     avif: '/images/hero-seasons-800.avif 800w, /images/hero-seasons-1200.avif 1200w',
     webp: '/images/hero-seasons-800.webp 800w, /images/hero-seasons-1200.webp 1200w',
+    avifDesk: '/images/hero-seasons-1920.avif 1920w, /images/hero-seasons-2560.avif 2560w',
+    webpDesk: '/images/hero-seasons-1920.webp 1920w, /images/hero-seasons-2560.webp 2560w',
   },
   'hero-wildlife': {
     avif: '/images/hero-wildlife-800.avif 800w, /images/hero-wildlife-1200.avif 1200w',
     webp: '/images/hero-wildlife-800.webp 800w, /images/hero-wildlife-1200.webp 1200w',
+    avifDesk: '/images/hero-wildlife-1920.avif 1920w, /images/hero-wildlife-2560.avif 2560w',
+    webpDesk: '/images/hero-wildlife-1920.webp 1920w, /images/hero-wildlife-2560.webp 2560w',
   },
 }
 
 /**
- * The ladder tops out at 1200 px, so it is offered to phones only. Above the
- * `md` breakpoint the original 1920 px file is still served — a 1280 px screen
- * at DPR 2 wants 2560 px and would have had to upscale the 1200 px rung, which
- * is a visible cost on a photo-led page for no real saving.
+ * Phones get the 800 / 1200 px ladder. Above the `md` breakpoint the 1920 / 2560 px
+ * ladder takes over (26.9.2026): a 1280 px screen at DPR 2 or a 2 000 px wide browser
+ * wants ~2 560 px, and the single 1 600 px file it used to get was visibly stretched.
  */
 const RESPONSIVE_MEDIA = '(max-width: 767px)'
+const DESKTOP_MEDIA = '(min-width: 768px)'
 
 /**
  * Full-bleed image hero with deep-night overlay + LV typographic stack.
@@ -196,6 +221,8 @@ export default function HeroImage({
               sizes="100vw"
               srcSet={variants.webp}
             />
+            <source type="image/avif" media={DESKTOP_MEDIA} sizes="100vw" srcSet={variants.avifDesk} />
+            <source type="image/webp" media={DESKTOP_MEDIA} sizes="100vw" srcSet={variants.webpDesk} />
           </>
         )}
         <img

@@ -62,18 +62,33 @@ function ArticleView({ meta }: { meta: NewsMeta }) {
           liukuvärin varassa, kirjoittaja- ja kuvatiedot kuvan alla. Kuvatiedostoa ei rajata —
           16:9-kehys on näyttörajaus ja object-position pitää kohteen kuvassa. */}
       <header className="nw-art">
-        <img
-          className="nw-art-img"
-          src={meta.hero.src}
-          srcSet={`${meta.hero.srcSmall} 800w, ${meta.hero.src} 1600w`}
-          sizes="100vw"
-          width={meta.hero.width}
-          height={meta.hero.height}
-          alt={text.heroAlt}
-          fetchPriority="high"
-          decoding="async"
-          style={meta.hero.position ? { objectPosition: meta.hero.position } : undefined}
-        />
+        {/* 26.9.2026: 2400 px -versio ja AVIF, kun jutulla ne on — 1600 px venyi 2 000 px:n näytöllä. */}
+        <picture>
+          {meta.hero.avif && (
+            <source
+              type="image/avif"
+              sizes="100vw"
+              srcSet={`${meta.hero.avif.small} 800w, ${meta.hero.avif.src} 1600w, ${meta.hero.avif.large} 2400w`}
+            />
+          )}
+          {/* webp-sarja omana sourcenaan, <img>:ssä vain src: kun sarja oli img:n srcSetissä,
+              puhelin latasi sekä 1600 px webp:n että avifin (mitattu 26.9.2026). */}
+          <source
+            type="image/webp"
+            sizes="100vw"
+            srcSet={`${meta.hero.srcSmall} 800w, ${meta.hero.src} 1600w${meta.hero.srcLarge ? `, ${meta.hero.srcLarge} 2400w` : ''}`}
+          />
+          <img
+            className="nw-art-img"
+            src={meta.hero.src}
+            width={meta.hero.width}
+            height={meta.hero.height}
+            alt={text.heroAlt}
+            fetchPriority="high"
+            decoding="async"
+            style={meta.hero.position ? { objectPosition: meta.hero.position } : undefined}
+          />
+        </picture>
         <div className="nw-art-scrim" aria-hidden="true" />
         {/* Kuvaaja + lisenssi kuvan oikeaan alakulmaan, kuten sivuston muissa kuvissa (PhotoCredit). */}
         <p className="nw-art-credit">
