@@ -375,7 +375,10 @@ const routes = readJson(routesPath).filter((r) => r.path !== SECTION && !r.path.
 const newest = articles[0];
 // laplandnature 26.9.2026: osion etusivulla on oma valokuvahero (NewsIndex → HeroImage), joten
 // sen jakokortti on sama kuva eikä uusimman jutun kuva. Jakokuva on SIVUN kortti (lv_permanent_rules §34).
-const INDEX_OG = { hero: '/images/hero-news.webp', line: 'Nature news, sources named' };
+// 🔴 27.9.2026: EI hero-news. Hero on CC BY-SA 4.0 (Ximonic, Tenojoki), ja jakokortti on kuvasta tehty
+// muunnelma, joten BY-SA ei käy sen pohjaksi (§34.2). Kortti tehdään omasta kuvasta (Juuso, Kemijärvi).
+// Tämä rivi kirjoittaa routes.jsonin joka buildissa: jos korjaat vain routes.jsonia, build palauttaa BY-SA:n.
+const INDEX_OG = { hero: '/images/freshwater-mires.webp', line: 'Nature news, sources named' };
 routes.push({
   path: SECTION,
   fallbackTitle: ui.en.index.seoTitle,

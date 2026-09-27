@@ -11,7 +11,7 @@
     "fallbackTitle": "Northern Lights",
     "ogImage": "/og/northern-lights.jpg",
     "ogCard": {
-      "hero": "/images/hero-northern-lights.webp",
+      "hero": "/images/card-aurora-helukka.webp",
       "line": "Aurora forecasts, spots and camera tips"
     }
   },
@@ -20,7 +20,7 @@
     "fallbackTitle": "National Parks",
     "ogImage": "/og/national-parks.jpg",
     "ogCard": {
-      "hero": "/images/hero-national-parks.webp",
+      "hero": "/images/hero-hiking-2560.webp",
       "line": "Fell parks, gorges and wilderness huts"
     }
   },
@@ -29,7 +29,7 @@
     "fallbackTitle": "Wildlife",
     "ogImage": "/og/wildlife.jpg",
     "ogCard": {
-      "hero": "/images/hero-wildlife.webp",
+      "hero": "/images/card-wildlife.webp",
       "line": "Reindeer, bears, wolverines and foxes"
     }
   },
@@ -92,7 +92,7 @@
     "fallbackDescription": "Research news about the nature of Finnish Lapland: the fells, their wildlife, plants and seasons. Every story names and links its sources.",
     "ogImage": "/og/news.jpg",
     "ogCard": {
-      "hero": "/images/hero-news.webp",
+      "hero": "/images/freshwater-mires.webp",
       "line": "Nature news, sources named"
     },
     "harvestRecord": {

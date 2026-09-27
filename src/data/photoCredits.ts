@@ -38,6 +38,7 @@ export type PhotoCredit = {
     | 'CC BY-SA 4.0'
     | 'CC0 1.0'
     | 'Public domain'
+    | 'Pexels License'
     | 'own'
     | 'partner'
   licenseUrl?: string
@@ -86,6 +87,12 @@ export const PHOTO_CREDITS: Record<string, PhotoCredit> = {
   'freshwater-mires': { author: 'LaplandVibes', license: 'own', sourceId: 'Juuso Lahtela, IMG_5244 (Drive: Juuson kuvat, Kemijärvi), rajaus 0,1600 3024×1890', taken: '2026-09-21', place: 'Kemijärvi', receipt: 'Oma kuva, käyttöoikeus Vesa 23.9.2026 (lv_permanent_rules §37), otettu käyttöön 26.9.2026, 0 €' },
   'freshwater-forests': { author: 'Ximonic (Simo Räsänen)', license: 'CC BY-SA 3.0', licenseUrl: 'https://creativecommons.org/licenses/by-sa/3.0', sourceUrl: 'https://commons.wikimedia.org/wiki/File:Alajoki_towards_north_in_Inari%2C_Lapland%2C_Finland%2C_2017_November.jpg', sourceId: 'Alajoki towards north in Inari, Lapland, Finland, 2017 November.jpg (sha1 01a57f3cc6df33710b581c05d8230a4f7e76a064, 3000x2000)', taken: '2017-11-14', place: 'Alajoki, Inari', receipt: 'Wikimedia Commons, otettu käyttöön 26.9.2026, 0 €, vain pienennys (ei rajausta)' },
   'freshwater-rivers': { author: 'LaplandVibes', license: 'own', sourceId: '20260721_172809.jpg (Vesan heinäkuun 2026 reissu)', taken: '2026-07-21', place: 'Tornionjoki, Korpikoski, Pello', receipt: 'Oma kuva, käytössä 30.8.2026 alkaen (b474556), 0 €' },
+  // /northern-lights-sivun JAKOKORTIN valokuva, ei näy sivulla (27.9.2026). Sivun hero (hero-northern-lights) on
+  // CC BY-SA 4.0, ja jakokortti on kuvasta tehty muunnelma (lv_permanent_rules §34.2): routes.json ogCard.hero.
+  // Muut kolme BY-SA-reittikorttia (/national-parks, /wildlife, /news) tehtiin sivuston omista ei-BY-SA-kuvista
+  // (hero-hiking, card-wildlife, freshwater-mires). Sivustokortin lähteet: OG_CARD_SOURCES alla.
+  // Pexels ei vaadi mainintaa; kuitti silti tähän.
+  'card-aurora-helukka': { author: 'Gu Bra', license: 'Pexels License', licenseUrl: 'https://www.pexels.com/license/', sourceUrl: 'https://www.pexels.com/photo/green-northern-lights-above-snow-field-16171421/', sourceId: 'Pexels 16171421 "Green Northern Lights above Snow Field" (alkuperäinen 3239x2160, sha256 ks. KUVA-INVENTAARIO §6b)', taken: '2023-04-01 (lataus Pexelsiin)', place: 'Helukka, Kolari (kuvaajan oma sijaintitieto)', receipt: 'Pexels, otettu käyttöön 27.9.2026, 0 €, pienennetty 1800x1200 WebP, ei rajausta. Tarkistettu 100 %:ssa: aito valokuva, ei ihmisiä eikä luettavia kylttejä (kylän valot ja auton valo kaukana). Saman illan muut ruudut (16171418/19) eivät ole verkostossa' },
   'bear-kuusamo-tree': { author: 'Piritta Paija / Bear Kuusamo', license: 'partner', sourceId: 'Bear Kuusamon toimittama kuva (kumppanimateriaali)', taken: '', place: 'Kuusamo', receipt: 'Kumppanin oma tiedosto, käytössä kumppaniartikkelissa 7/2026' },
 }
 
