@@ -12,16 +12,10 @@
           for (var p in map) {
             if (path === '/' + p || path.indexOf('/' + p + '/') === 0) { loc = map[p]; break; }
           }
-          // 🔴🔴 EI YLIKIRJOITETA ESIRENDEROITYA OTSIKKOA (21.9.2026, ajoitus korjattu 24.9.2026).
-          // T on kasin yllapidetty kopio etusivun otsikoista ja ehti vanhentua; sivut esirenderoidaan
-          // kielittain, joten palvelin lahettaa jo oikean otsikon. 21.9. vartija ei toiminut: tama
-          // lohko on headin alussa ja title-elementti jasennetaan vasta sen jalkeen, joten ajohetkella
-          // document.title oli '' ja kirjoitus loi oman elementin palvelimen otsikon eteen (mitattu
-          // 24.9.2026: laplandchristmas.com/fi/accommodation/ valilehdella "Joulu Lapissa: ..." 12 ms,
-          // kunnes React vaihtoi sivun oman 763 ms). Siksi vertailu vasta readyState 'interactive'
-          // -hetkella: koko HTML on jasennetty, Reactin moduuliskripti ei viela ajanut. T:ta kaytetaan
-          // vain kun otsikko puuttuu tai muunkielinen reitti kantaa yha kuoren EN-oletusta
-          // (= esirenderoimaton reitti). Lahde: scripts/lib/otsikkovartija.mjs, ala muokkaa kasin.
+          // Otsikkovartija: T:ta kaytetaan vain, kun sivulla ei ole otsikkoa tai muunkielinen
+          // reitti kantaa yha kuoren EN-oletusta (= esirenderoimaton reitti). Vertailu tehdaan
+          // readyState 'interactive' -hetkella, kun title-elementti on jasennetty.
+          // Lahde: scripts/lib/otsikkovartija.mjs, ala muokkaa kasin.
           var oletus = "Lapland Nature: Arctic Wilderness, Aurora & National Parks";
           var aseta = function () {
             try {
@@ -110,32 +104,24 @@
     <meta name="twitter:site" content="@laplandvibes" />
     <meta name="twitter:title" content="Lapland Nature: Arctic Wilderness, Aurora & National Parks" />
     <meta name="twitter:description" content="Finnish Lapland's arctic wilderness: seven national parks, aurora season, kaamos, and hiking trails. From the team behind LaplandVibes." />
-    <!-- LV ecosystem brand fonts (Bebas Neue + DM Sans), self-hosted from
-         public/fonts since 2026-08-16 — Google Fonts links removed with them. -->
+    <!-- LV ecosystem brand fonts (Bebas Neue + DM Sans), self-hosted from public/fonts. -->
 
 
-    <!-- Hero LCP preload — the homepage hero is the largest-contentful element,
-         and preloading shaves ~200-500 ms off mobile LCP because the request
-         fires before the JS bundle parses.
-
-         🔴 This used to be a static <link> for /images/hero-home.webp. The
-         prerender copies this <head> into all 156 route files, so EVERY page
-         pulled 231 kB of the homepage hero at fetchpriority=high — pillar pages
-         that show a different hero, and /terms, which has no hero at all
-         (measured 2026-08-25 at 390 px). The preload now fires only on a
-         homepage, and on phones it points at the same AVIF rung <picture> in
-         HeroImage.tsx will pick, so the file is fetched once, not twice. -->
+    <!-- Hero LCP preload: the homepage hero is the largest-contentful element, and
+         preloading lets the request start before the JS bundle parses. The prerender copies
+         this <head> into every route file, so the preload fires only on a homepage, and on
+         phones it points at the same AVIF rung that <picture> in HeroImage.tsx picks, so the
+         file is fetched once. -->
     <script>
       (function () {
         var p = location.pathname.replace(/\/+$/, '');
         if (p !== '' && !/^\/(fi|de|ja|es|br|cn|kr|fr|it|nl|sv)$/.test(p)) return;
-        // 26.9.2026: the hero is seasonal (Home.tsx homeHero(): September autumn, May–August
-        // summer, October–April winter panorama). A preload fixed to the summer file made a
-        // phone in September fetch two heroes and show one. Same month rule as homeHero();
-        // the URLs stay literal so the build versions them exactly like HeroImage's srcset.
+        // The hero is seasonal (Home.tsx homeHero(): September autumn, May–August summer,
+        // October–April winter panorama), so the preload follows the same month rule. The URLs
+        // stay literal so the build versions them exactly like HeroImage's srcset.
         var m = new Date().getMonth() + 1;
-        // Desktop (26.9.2026): HeroImage serves a 1920 / 2560 px AVIF ladder above 768 px, so the
-        // preload asks for the same ladder; the 1600 px webp was stretched on wide screens.
+        // Desktop: HeroImage serves a 1920 / 2560 px AVIF ladder above 768 px, so the
+        // preload asks for the same ladder.
         var h = m === 9
           ? { srcset: '/images/hero-home-autumn-800.avif 800w, /images/hero-home-autumn-1200.avif 1200w', desk: '/images/hero-home-autumn-1920.avif 1920w, /images/hero-home-autumn-2560.avif 2560w', href: '/images/hero-home-autumn.webp' }
           : m >= 5 && m <= 8
@@ -193,17 +179,11 @@
           ad_personalization: 'granted'
         });
       }
-      /* 🔴 Ala mittaa kehityskonetta eika Cloudflaren esikatselubuildeja tuotanto-
-         propertyyn. Mitattu 27.8.2026 hubin GA:sta: hostnamena esiintyi localhost
-         (/fi 96 katselua, /fi/media 81) ja SEITSEMAN eri *.pages.dev-esikatselua.
-         Sama portti jonka Umami saa data-domains-attribuutista; GA:n oma
-         IP-suodatin ei kata naita lainkaan. */
-      /* QA-liikenne pois mittareista (Vesa 17.9.2026, laplandstays-auditin kohta 6;
-         levitys koko verkostoon 17.9. illalla). Ei IP-listoja: kotiyhteyden osoite
-         vaihtuu ja puhelin on eri verkossa. ?w=qa kerran => lippu jaa selaimen
-         localStorageen ja GA + Umami ovat pois paalta talla selaimella pysyvasti;
-         ?w=live palauttaa. navigator.webdriver = Playwright/Puppeteer-portit, eivat
-         kavijoita. Poikkeus lv_measure=1: verify_funnel_live DEEP tarvitsee lahetykset. */
+      /* Kehityskone (localhost) ja Cloudflaren esikatselubuildit (*.pages.dev) eivat
+         mittaa tuotanto-propertyyn. Umamilla sama rajaus on data-domains-attribuutti. */
+      /* QA-liikenne pois mittareista: ?w=qa asettaa selaimeen lipun, jolla GA ja Umami
+         ovat pois paalta; ?w=live palauttaa. Automaatioselain (navigator.webdriver)
+         ohitetaan samoin, paitsi kun localStorage lv_measure=1. */
       var lvQa = false;
       try {
         var lvW = new URLSearchParams(location.search).get('w');
@@ -215,9 +195,8 @@
       } catch (e) {}
       var lvHost = location.hostname;
       if (lvQa || lvHost === 'localhost' || lvHost === '127.0.0.1' || lvHost === '[::1]' || lvHost.indexOf('.pages.dev') !== -1) {
-        /* GA:n virallinen opt-out. Pelkka gtagin neutralointi ei riita:
-           gtag/js?id=... lataa kontin joka tapauksessa (mitattu esikatselu-
-           hostilla: google_tag_manager sai avaimen vaikka gtag oli no-op). */
+        /* GA:n virallinen opt-out. Pelkka gtagin neutralointi ei riita, koska
+           gtag/js?id=... lataa kontin joka tapauksessa. */
         window['ga-disable-G-6MF4NX4PYJ'] = true;
         gtag = function () {};
       }
