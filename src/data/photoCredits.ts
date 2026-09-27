@@ -98,3 +98,57 @@ export function creditKey(src: string): string {
 export function creditFor(src: string): PhotoCredit | undefined {
   return PHOTO_CREDITS[creditKey(src)]
 }
+
+/**
+ * Jakokortin (og-summer.jpg / og-winter.jpg) lähdekuvat, 27.9.2026.
+ *
+ * Etusivun herot ovat CC BY-SA -kuvia, ja jakokortti on kuvasta tehty muunnelma (valokuva + palkki +
+ * sanamerkki), joten BY-SA ei käy sen pohjaksi (lv_permanent_rules §34.2). Sivuston muista kuvista
+ * yksikään talvi- tai revontulikuva ei ole BY-SA:ton, ja kesän muut kuvat ovat Kuusamosta, syksyltä tai jo
+ * toisella sivustolla, joten kortit tehdään näistä kahdesta. Ne eivät näy millään sivulla, eikä kummankaan
+ * lisenssi vaadi tekijän mainintaa (Public domain, Pexels). Kytkentä: lv-opsin scripts/sivustot.json
+ * `og.korttikuva` { kesa, talvi }. Älä poista tiedostoja: gate:og kaatuu, jos kortin lähdekuva puuttuu.
+ */
+export const OG_CARD_SOURCES: Record<'summer' | 'winter', {
+  file: string
+  source: string
+  id: string
+  url: string
+  author: string
+  license: string
+  taken: string
+  place: string
+  retrieved: string
+  priceEur: 0
+  changes: string
+  checks: string
+}> = {
+  summer: {
+    file: '/images/og-source-summer-hetta-pallas-trail.jpg',
+    source: 'Wikimedia Commons',
+    id: 'Pyhäkero-Sioskuru.jpg (sha1 068b47d857d896a2fba90047227d8661e3253dea, 2048×1254, Canon PowerShot A75)',
+    url: 'https://commons.wikimedia.org/wiki/File:Pyh%C3%A4kero-Sioskuru.jpg',
+    author: 'Havesj',
+    license: 'Public domain ({{PD-self}}: tekijän oma luovutus, ei nimeämisvaatimusta)',
+    taken: '2005-08-02',
+    place: 'Hetta–Pallas-vaellusreitti, Pyhäkeron ja Sioskurun väli (Pallas-Yllästunturin kansallispuisto, Enontekiö) — Commonsin kuvaus ja luokat',
+    retrieved: '2026-09-27',
+    priceEur: 0,
+    changes: 'uudelleenpakattu JPEG q88 (1 980 028 → 457 995 tavua), ei rajausta eikä pienennystä',
+    checks: 'lisenssi Commonsin API:sta (PD-self, AttributionRequired false); ei ihmisiä, ei kylttejä; verkoston nimi- ja 64×36-pikselihaku 27.9.2026: ei muualla (lähin 28,6/255)',
+  },
+  winter: {
+    file: '/images/og-source-winter-aurora-forest.jpg',
+    source: 'Pexels',
+    id: '36628426 (Markku, "Vibrant Aurora Borealis Over Snowy Finnish Forest", 7008×4672)',
+    url: 'https://www.pexels.com/photo/vibrant-aurora-borealis-over-snowy-finnish-forest-36628426/',
+    author: 'Markku (Pexels)',
+    license: 'Pexels License (kaupallinen käyttö ja muokkaus sallittu, ei nimeämisvaatimusta)',
+    taken: 'ladattu Pexelsiin 2026-03-18',
+    place: 'ei vahvistettu: Pexelsin kuvaus sanoo Kemi, lataajan tunnisteissa myös Rovaniemi ja Sweden ⇒ kortti eikä alt väitä paikkaa',
+    retrieved: '2026-09-27',
+    priceEur: 0,
+    changes: 'pienennetty 7008×4672 → 2400×1600, JPEG q84, ei rajausta',
+    checks: 'katsottu täydellä koolla: aito pitkä valotus (satelliitin juova, värikohina, kuuma pikseli, johdonmukainen lumi), ei ihmisiä, ei kylttejä eikä merkkejä; verkoston tunniste- ja 64×36-pikselihaku 27.9.2026: ei muualla (lähin 29,4/255)',
+  },
+}
