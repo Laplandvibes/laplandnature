@@ -19,6 +19,8 @@
 // prefix (language=fi -> /fi-fi/lappi-suomi-l2652/). Same contract as
 // shared/gyg/picks.ts.
 
+import { GYG_LOCALE_PREFIX, gygProductPath } from '../shared/gyg/picks'
+
 const REDIRECT_BASE = 'https://go.laplandvibes.com'
 // No GYG_PARTNER_ID / SITE_ID here on purpose. The Worker owns the partner id
 // (env.GYG_PARTNER_ID) and derives `cmp=lv_<domain>_<sid>` from the Referer, so
@@ -105,11 +107,18 @@ export function buildAffiliateUrl({
   // would be invisible to our own click count. `partner_id` + `cmp` are added
   // by the Worker from env + Referer, so the ID lives in exactly one place.
   if (partner === "activities") {
-    const path = (destination ?? "").replace(/^\/+/, "").replace(/\/+$/, "");
+    const dest = (destination ?? "").replace(/^\/+/, "").replace(/\/+$/, "");
+    // 🔴🔴 A PRODUCT path (`…-t<id>`) gets no prefix from the Worker, which also
+    // drops `language` for it (LV-GYG-PRODUCT-NOPREFIX, 2026-09-20): with
+    // `language` alone the product opened in the visitor's GYG market language,
+    // English for most readers. A non-English product link carries its own
+    // `<lang>-<cc>/-t<id>/` (gygProductPath) and no `language`; English keeps
+    // the full slug. Location and category paths keep `language` for the Worker.
+    const path = GYG_LOCALE_PREFIX[lang] ? gygProductPath(dest, lang) : dest;
     const params = new URLSearchParams();
     params.set("sid", sid);
     const gygLang = GYG_LANGUAGE[lang];
-    if (gygLang) params.set("language", gygLang);
+    if (gygLang && !path.includes("/-t")) params.set("language", gygLang);
     if (query) {
       for (const [k, v] of Object.entries(query)) {
         if (v !== undefined && v !== null && v !== "") {
