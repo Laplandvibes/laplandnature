@@ -1,6 +1,6 @@
+import { useEffect, useRef, useState } from 'react';
 import { MapPin, Clock, Ticket, ArrowUpRight } from 'lucide-react';
 import { NATURE_PICKS, gygHref, GYG_PRICE_AS_OF, localizePicks } from '../shared/gyg/picks';
-import { GYG_IMAGES } from '../data/gygImages';
 import { useLang } from '../i18n/useLang';
 
 /**
@@ -178,6 +178,27 @@ const fiDate = (iso: string, locale: string): string => {
     : d.toLocaleDateString(locale, { day: 'numeric', month: 'numeric', year: 'numeric', timeZone: 'UTC' });
 };
 
+/**
+ * GetYourGuide's own "activities" widget shows these products with GetYourGuide's
+ * product photos and live prices. A partner's product is never shown with an
+ * illustration of our own, and the affiliate programme gives us links, not
+ * pictures, so the photos come only through the widget. The Integration Analyzer
+ * script in index.html turns the data-gyg-* box into an iframe (same mechanism as
+ * laplandtours, laplanddeals and laplandkids).
+ *
+ * If no iframe has mounted after a few seconds (ad blocker, tracking protection,
+ * slow network) the box collapses and the same products are listed as plain text
+ * cards routed through the Worker, so the section is never an empty rectangle.
+ * A late iframe still takes over: the check keeps polling.
+ */
+const GYG_PARTNER_ID = 'VRMKD7N';
+const GYG_LOCALE: Record<string, string> = {
+  en: 'en-US', fi: 'fi-FI', de: 'de-DE', ja: 'ja-JP', es: 'es-ES',
+  'pt-BR': 'pt-BR', 'zh-CN': 'zh-CN', ko: 'ko-KR', fr: 'fr-FR', it: 'it-IT', nl: 'nl-NL', sv: 'sv-SE',
+};
+/** Product id from the path's "-t<id>" suffix. */
+const tourId = (path: string): string | null => /-t(\d+)\/?$/.exec(path)?.[1] ?? null;
+
 export default function GygPicks() {
   const lang = useLang();
   const t = (m: Record<string, string>): string => m[lang] ?? m.en;
@@ -185,6 +206,29 @@ export default function GygPicks() {
   // Title, place and duration in the page's language (2026-09-26). A row with no
   // translation for this locale is dropped rather than shown in English.
   const rows = localizePicks(NATURE_PICKS, lang);
+  const ids = rows.map((p) => tourId(p.path)).filter((x): x is string => !!x).join(',');
+
+  const boxRef = useRef<HTMLDivElement>(null);
+  const [blocked, setBlocked] = useState(false);
+  useEffect(() => {
+    // State is only set inside the timers (react-hooks/set-state-in-effect);
+    // the first tick re-evaluates after a language switch too.
+    let cancelled = false;
+    let waited = 0;
+    const FIRST = 2500, STEP = 1000, MAX = 12000;
+    let timer: ReturnType<typeof setTimeout>;
+    const tick = (delay: number) => {
+      timer = setTimeout(() => {
+        if (cancelled) return;
+        waited += delay;
+        if (boxRef.current?.querySelector('iframe')) { setBlocked(false); return; }
+        setBlocked(true);
+        if (waited < MAX) tick(STEP);
+      }, delay);
+    };
+    tick(FIRST);
+    return () => { cancelled = true; clearTimeout(timer); };
+  }, [lang, ids]);
 
   if (!rows.length) return null;
 
@@ -199,6 +243,26 @@ export default function GygPicks() {
           <p className="max-w-2xl text-black/65">{t(L.ledeProduct)}</p>
         </div>
 
+        {/* The widget picks its own columns from its width: one (about 1 500 px of
+            stacked cards on a phone), three plus a lone fourth on a tablet, four
+            from about 1 100 px. Below xl the box is therefore given a fixed
+            four-across width and the row scrolls sideways, with the next card
+            peeking in at the edge; from xl the column is wide enough. */}
+        <div className={blocked ? '' : '-mx-4 px-4 sm:-mx-6 sm:px-6 overflow-x-auto overscroll-x-contain xl:mx-0 xl:px-0 xl:overflow-visible'}>
+          <div
+            ref={boxRef}
+            key={`gyg-${lang}-${ids}`}
+            className={blocked ? 'h-0 overflow-hidden' : 'min-h-[160px] w-[1120px] xl:w-auto'}
+            data-gyg-widget="activities"
+            data-gyg-partner-id={GYG_PARTNER_ID}
+            data-gyg-locale-code={GYG_LOCALE[lang] ?? 'en-US'}
+            data-gyg-cmp="lv_laplandnature_home"
+            data-gyg-tour-ids={ids}
+            data-gyg-number-of-items={String(rows.length)}
+          />
+        </div>
+
+        {blocked && (
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
         {rows.map((p) => (
           <a
@@ -206,32 +270,20 @@ export default function GygPicks() {
             href={gygHref(p, lang)}
             target="_blank"
             rel="sponsored nofollow noopener"
-            className="group flex flex-col overflow-hidden rounded-2xl border bg-white border-black/10 shadow-sm no-underline transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:border-[#BE185D]/40"
+            className="group flex flex-row items-center gap-3 p-4 sm:flex-col sm:items-stretch sm:gap-0 sm:p-0 overflow-hidden rounded-2xl border bg-white border-black/10 shadow-sm no-underline transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:border-[#BE185D]/40"
           >
-            {GYG_IMAGES[p.path] ? (
-              <img
-                src={GYG_IMAGES[p.path]}
-                alt=""
-                loading="lazy"
-                className="aspect-[4/3] w-full object-cover transition-transform duration-500 group-hover:scale-105"
-              />
-            ) : (
-              /* Brand-approved fallback: a gradient, never a stock photo. */
-              <div className="aspect-[4/3] w-full bg-gradient-to-br from-[#0d2818] via-[#0F172A] to-[#1e1b4b]" />
-            )}
-
-            <div className="flex flex-1 flex-col p-5">
+            <div className="flex min-w-0 flex-1 flex-col sm:p-5">
               <p className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-[#BE185D]">
                 <MapPin className="h-3.5 w-3.5" aria-hidden="true" />
                 {p.place}
               </p>
 
-              <h3 className="mt-2 flex-1 text-base font-bold leading-snug text-[#0F172A]">{p.title}</h3>
+              <h3 className="mt-0.5 sm:mt-2 sm:flex-1 text-[15px] sm:text-base font-bold leading-snug text-[#0F172A]">{p.title}</h3>
 
               {/* Only when a real length exists — one source row carried a sales
                   badge in this field, and a badge is not a duration. */}
               {p.duration && (
-                <p className="mt-2 inline-flex items-center gap-1.5 text-sm text-black/55">
+                <p className="mt-1 sm:mt-2 inline-flex items-center gap-1.5 text-sm text-black/55">
                   <Clock className="h-3.5 w-3.5" aria-hidden="true" />
                   {p.duration}
                 </p>
@@ -245,25 +297,28 @@ export default function GygPicks() {
                   the rows we opened, but the catalogue does not record the unit
                   and some GetYourGuide products are priced per group. */}
               {p.price && (
-                <p className="mt-3 flex items-baseline gap-1.5">
+                <p className="mt-1 sm:mt-3 flex items-baseline gap-1.5">
                   <span className="text-[11px] uppercase tracking-wider text-black/55">{t(L.priceFrom)}</span>
                   <span className="text-lg font-bold text-[#0F172A]">{p.price}</span>
                 </p>
               )}
 
-              <span className="mt-4 inline-flex items-center justify-center gap-2 rounded-full bg-[#DB2777] px-4 py-2.5 text-sm font-bold text-white transition-opacity group-hover:opacity-90">
+              <span className="mt-4 hidden sm:inline-flex items-center justify-center gap-2 rounded-full bg-[#DB2777] px-4 py-2.5 text-sm font-bold text-white transition-opacity group-hover:opacity-90">
                 <Ticket className="h-4 w-4" aria-hidden="true" />
                 {t(L.ctaProduct)}
                 <ArrowUpRight className="h-3.5 w-3.5" aria-hidden="true" />
               </span>
 
-              <span className="mt-2 text-center text-[11px] text-black/55">
+              <span className="mt-1 sm:mt-2 text-left sm:text-center text-[11px] text-black/55">
                 {p.price ? `${t(L.priceSource)} ${fiDate(GYG_PRICE_AS_OF, lang)}` : t(L.via)}
               </span>
             </div>
+            {/* On a phone the row has no button; the arrow says it opens GetYourGuide. */}
+            <ArrowUpRight className="h-5 w-5 shrink-0 self-center text-[#BE185D] sm:hidden" aria-hidden="true" />
           </a>
         ))}
         </div>
+        )}
       </div>
     </section>
   );
