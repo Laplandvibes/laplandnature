@@ -34,73 +34,73 @@ const FAQ_LINKS: FaqNavKey[][] = [[], ['conservation'], ['conservation'], [], ['
 const CHAPTER_ALTS: Record<string, [string, string, string, string]> = {
   "en": [
     "Islands in Lake Inari seen from Ukko island",
-    "The Tornio river at the Korpikoski rapids in Pello in July",
+    "The Tornio river at the Kattilakoski rapids in Pello in July",
     "Sunset over a bog pond in Kemijärvi in September",
     "The Alajoki river in snowy forest in Inari in November"
   ],
   "fi": [
     "Inarijärven saaria Ukonsaaren näköalapaikalta",
-    "Tornionjoki Korpikoskella Pellossa heinäkuussa",
+    "Tornionjoki Kattilakoskella Pellossa heinäkuussa",
     "Auringonlasku suolammen yllä Kemijärvellä syyskuussa",
     "Alajoki lumisessa metsässä Inarissa marraskuussa"
   ],
   "de": [
     "Inseln im Inarisee, von der Insel Ukko aus gesehen",
-    "Der Tornionjoki an der Stromschnelle Korpikoski in Pello im Juli",
+    "Der Tornionjoki an der Stromschnelle Kattilakoski in Pello im Juli",
     "Sonnenuntergang über einem Moorteich in Kemijärvi im September",
     "Der Fluss Alajoki im verschneiten Wald in Inari im November"
   ],
   "sv": [
     "Öar i Enare träsk sedda från ön Ukko",
-    "Torne älv vid forsen Korpikoski i Pello i juli",
+    "Torne älv vid forsen Kattilakoski i Pello i juli",
     "Solnedgång över en myrtjärn i Kemijärvi i september",
     "Alajoki i snöig skog i Enare i november"
   ],
   "fr": [
     "Îles du lac Inari vues depuis l'île d'Ukko",
-    "La Tornionjoki aux rapides de Korpikoski, à Pello, en juillet",
+    "La Tornionjoki aux rapides de Kattilakoski, à Pello, en juillet",
     "Coucher de soleil sur un étang de tourbière à Kemijärvi en septembre",
     "La rivière Alajoki dans une forêt enneigée à Inari en novembre"
   ],
   "it": [
     "Isole del lago Inari viste dall'isola di Ukko",
-    "Il fiume Tornionjoki alle rapide di Korpikoski, a Pello, a luglio",
+    "Il fiume Tornionjoki alle rapide di Kattilakoski, a Pello, a luglio",
     "Tramonto su uno stagno di torbiera a Kemijärvi a settembre",
     "Il fiume Alajoki in un bosco innevato a Inari a novembre"
   ],
   "es": [
     "Islas del lago Inari vistas desde la isla de Ukko",
-    "El río Tornionjoki en los rápidos de Korpikoski, en Pello, en julio",
+    "El río Tornionjoki en los rápidos de Kattilakoski, en Pello, en julio",
     "Atardecer sobre una laguna de turbera en Kemijärvi en septiembre",
     "El río Alajoki en un bosque nevado en Inari en noviembre"
   ],
   "pt-BR": [
     "Ilhas do lago Inari vistas da ilha de Ukko",
-    "O rio Tornionjoki nas corredeiras de Korpikoski, em Pello, em julho",
+    "O rio Tornionjoki nas corredeiras de Kattilakoski, em Pello, em julho",
     "Pôr do sol sobre um lago de turfeira em Kemijärvi em setembro",
     "O rio Alajoki em uma floresta nevada em Inari em novembro"
   ],
   "nl": [
     "Eilanden in het Inarimeer, gezien vanaf het eiland Ukko",
-    "De Tornionjoki bij de stroomversnelling Korpikoski in Pello in juli",
+    "De Tornionjoki bij de stroomversnelling Kattilakoski in Pello in juli",
     "Zonsondergang boven een veenplas in Kemijärvi in september",
     "De rivier Alajoki in besneeuwd bos in Inari in november"
   ],
   "ja": [
     "ウッコ島から見たイナリ湖の島々",
-    "7月、ペッロのコルピコスキ急流を流れるトルニオ川",
+    "7月、ペッロのカッティラコスキ急流を流れるトルニオ川",
     "9月、ケミヤルヴィの沼の池に沈む夕日",
     "11月、イナリの雪の森を流れるアラヨキ川"
   ],
   "ko": [
     "우코섬에서 바라본 이나리 호수의 섬들",
-    "7월 펠로의 코르피코스키 급류를 지나는 토르니오강",
+    "7월 펠로의 카틸라코스키 급류를 지나는 토르니오강",
     "9월 케미야르비 늪 연못 위의 일몰",
     "11월 이나리의 눈 덮인 숲을 흐르는 알라요키강"
   ],
   "zh-CN": [
     "从 Ukko 岛眺望伊纳里湖中的岛屿",
-    "7 月，佩洛 Korpikoski 急流处的托尔尼奥河",
+    "7 月，佩洛 Kattilakoski 急流处的托尔尼奥河",
     "9 月，Kemijärvi 沼泽池塘上空的日落",
     "11 月，伊纳里雪林中的 Alajoki 河"
   ]
