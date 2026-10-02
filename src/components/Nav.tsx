@@ -25,6 +25,9 @@ export default function Nav() {
   const location = useLocation()
   const lang = useLang()
   const to = useLocalePath()
+  // Espanja 1280–1439 px: standardinavissa (reunat 32 px, sanamerkki 30 px) linkit
+  // ylittivät rivin 5 px:llä (mitattu 2.10.2026), joten sivutila 10 → 8 px vain es:lle.
+  const linkPad = lang === 'es' ? 'px-2 min-[90rem]:px-2.5' : 'px-2.5'
   const c = COPY[lang].nav
 
   const links = [
@@ -69,7 +72,7 @@ export default function Nav() {
           scrolled ? 'shadow-[0_2px_20px_rgba(15,23,42,0.35)]' : ''
         }`}
       >
-        <div className="lv-navrivi max-w-screen-2xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16">
+        <div className="lv-navrivi max-w-screen-2xl mx-auto px-4 sm:px-6 xl:px-8 flex items-center justify-between h-16">
           <div className="lv-navvasen flex items-center gap-3 sm:gap-5 shrink-0">
             <EcosystemMenu lang={lang} currentDomain="laplandnature.com" variant="dark" />
             <div className="lv-wm-paikka">
@@ -89,7 +92,7 @@ export default function Nav() {
                   // whitespace-nowrap + kapeampi sisennys 25.9.2026: työpöytävalikko alkaa 1280 px:stä,
                   // ja espanjan ja hollannin pidemmät nimet ("Aurora boreal", "Nationale parken")
                   // rivittyivät kahdelle riville juuri siinä leveydessä (7 löydöstä, portti `navi`).
-                  className={`whitespace-nowrap px-2.5 py-1.5 text-sm font-medium rounded-lg transition-colors ${
+                  className={`whitespace-nowrap ${linkPad} py-1.5 text-sm font-medium rounded-lg transition-colors ${
                     active
                       ? 'text-vibe-pink bg-vibe-pink/10'
                       : 'text-snow/90 hover:text-snow hover:bg-snow/10'

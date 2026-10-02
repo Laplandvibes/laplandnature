@@ -16,7 +16,7 @@ interface LogoProps {
 
 const SIZE = {
   sm: 'text-xl sm:text-2xl',
-  md: 'text-2xl sm:text-[28px]',
+  md: 'text-2xl sm:text-[28px] xl:text-3xl',
   lg: 'text-4xl sm:text-5xl md:text-6xl',
 }
 
