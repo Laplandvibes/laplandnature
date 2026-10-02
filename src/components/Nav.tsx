@@ -72,12 +72,14 @@ export default function Nav() {
             : 'bg-gradient-to-b from-deep-night/40 to-transparent'
         }`}
       >
-        <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16">
-          <div className="flex items-center gap-3 sm:gap-5 shrink-0">
+        <div className="lv-navrivi max-w-screen-2xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16">
+          <div className="lv-navvasen flex items-center gap-3 sm:gap-5 shrink-0">
             <EcosystemMenu lang={lang} currentDomain="laplandnature.com" variant={opaque ? 'light' : 'dark'} />
-            <Link to={to('/')} className="flex items-center shrink-0 min-h-11" aria-label="LaplandNature home">
-              <Logo variant={logoVariant} size="md" />
-            </Link>
+            <div className="lv-wm-paikka">
+              <Link to={to('/')} className="flex items-center shrink-0 min-h-11" aria-label="LaplandNature home">
+                <Logo variant={logoVariant} size="md" nav />
+              </Link>
+            </div>
           </div>
 
           <div className="hidden xl:flex items-center gap-0.5">
