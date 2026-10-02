@@ -48,11 +48,10 @@ export default function Nav() {
   useEffect(() => { setOpen(false) }, [location.pathname])
 
 
-  const isHome = samePath(location.pathname, '/') || samePath(location.pathname, '/fi') || samePath(location.pathname, '/de')
-  // On Home: transparent over Hero gradient, switches to opaque on scroll.
-  // Other pages: opaque immediately so the cream page bg has a clear nav band.
-  const opaque = scrolled || !isHome
-  const logoVariant = opaque ? 'light' : 'dark'
+  // Navi on aina tumma (deep-night) kuten verkoston muilla sivustoilla. Etusivun ylälaidassa se oli läpinäkyvä
+  // vaalean sivupohjan päällä (hero alkaa vasta navin alta) ⇒ valkoinen sanamerkki ja ohjaimet 1,4:1; kerman
+  // värisellä navilla taas vihreä NATURE oli 2,4:1. Tummalla: LAPLAND 17:1, NATURE 6,9:1, # 5:1.
+  const logoVariant = 'dark'
 
 
 
@@ -66,15 +65,13 @@ export default function Nav() {
   return (
     <>
       <nav
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-          opaque
-            ? 'bg-cream/95 backdrop-blur-md shadow-[0_2px_20px_rgba(15,23,42,0.06)] border-b border-deep-night/10'
-            : 'bg-gradient-to-b from-deep-night/40 to-transparent'
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-deep-night border-b border-white/10 ${
+          scrolled ? 'shadow-[0_2px_20px_rgba(15,23,42,0.35)]' : ''
         }`}
       >
         <div className="lv-navrivi max-w-screen-2xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16">
           <div className="lv-navvasen flex items-center gap-3 sm:gap-5 shrink-0">
-            <EcosystemMenu lang={lang} currentDomain="laplandnature.com" variant={opaque ? 'light' : 'dark'} />
+            <EcosystemMenu lang={lang} currentDomain="laplandnature.com" variant="dark" />
             <div className="lv-wm-paikka">
               <Link to={to('/')} className="flex items-center shrink-0 min-h-11" aria-label="LaplandNature home">
                 <Logo variant={logoVariant} size="md" nav />
@@ -95,26 +92,24 @@ export default function Nav() {
                   className={`whitespace-nowrap px-2.5 py-1.5 text-sm font-medium rounded-lg transition-colors ${
                     active
                       ? 'text-vibe-pink bg-vibe-pink/10'
-                      : opaque
-                        ? 'text-deep-night/80 hover:text-vibe-pink hover:bg-vibe-pink/5'
-                        : 'text-snow/90 hover:text-snow hover:bg-snow/10'
+                      : 'text-snow/90 hover:text-snow hover:bg-snow/10'
                   }`}
                 >
                   {l.label}
                 </Link>
               )
             })}
-            <div className={`ml-2 pl-3 border-l ${opaque ? 'border-deep-night/15' : 'border-snow/20'}`}>
-              <LangDropdown dark={!opaque} />
+            <div className="ml-2 pl-3 border-l border-snow/20">
+              <LangDropdown dark />
             </div>
           </div>
 
           <div className="xl:hidden flex items-center gap-2">
             <div className="relative inline-flex items-center">
-              <LanguageSwitcher tone={opaque ? 'light' : 'dark'} />
+              <LanguageSwitcher tone="dark" />
             </div>
             <button
-              className={`inline-flex items-center justify-center min-h-11 min-w-11 p-2.5 rounded-lg transition-colors ${opaque ? 'text-deep-night' : 'text-snow'}`}
+              className={`inline-flex items-center justify-center min-h-11 min-w-11 p-2.5 rounded-lg transition-colors text-snow`}
               onClick={() => setOpen(!open)}
               aria-label="Toggle menu"
               aria-expanded={open}
