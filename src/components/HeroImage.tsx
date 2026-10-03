@@ -1,6 +1,8 @@
 import type { ReactNode } from 'react'
 import PageBreadcrumb from './PageBreadcrumb'
 import PhotoCredit from './PhotoCredit'
+import { useLang } from '../i18n/useLang'
+import { bebasEm, Fraasit, ilmanValeja } from '../lib/otsikkoRivit'
 
 interface HeroImageProps {
   /** Path under /images/, e.g. `hero-northern-lights.webp` */
@@ -200,6 +202,32 @@ export default function HeroImage({
   const decorative = alt === null
   const altText = decorative ? '' : (alt ?? derivedAlt)
 
+  // ── Otsikon rivit tietokoneella (Vesa 3.10.2026: "tehdään turhaan kolmirivisiä") ──────────────────────────
+  // Mitattu livenä 3.10.: etusivun otsikko "UNTOUCHED ARCTIC / WILDERNESS" jätti 8 kielellä yhden sanan toiselle
+  // riville ja de 1920 px:llä kolme riviä, koska koko kasvoi 106 px:iin ja palsta pysyi 864 px:ssä.
+  //  • Yhden sanan alaotsikko jatkaa otsikon lausetta ("arktinen erämaa"), joten xl+ se tulee samalle riville.
+  //    Monisanainen alaotsikko ("Aurora borealis", "Of Lapland") on oma rivinsä kuten ennen. Yksi rivi vasta xl:stä:
+  //    1024 px:ssä rivi täyttäisi koko leveyden ja pinkki loppu osuisi kuvan vaaleaan reunaan (laplandfood 3.10.).
+  //  • lg+ koko = pienempi kahdesta, suunniteltu --h1-max tai koko jolla pisin rivi mahtuu 72rem - 4rem leveyteen
+  //    (100vw-pohjainen, koska palsta kutistuu tekstin mittaiseksi eikä kelpaa kyselysäiliöksi).
+  //  • ja/zh: keep-all + <wbr> fraasien väliin, ei katkoa kesken sanan.
+  const lang = useLang()
+  const cjk = ilmanValeja(lang)
+  const titleStr = typeof title === 'string' ? title : null
+  const subStr = typeof subtitle === 'string' ? subtitle : null
+  const TRACKING = 0.05 // tracking-wider
+  const kaksiEm = titleStr !== null && (subtitle == null || subStr !== null)
+    ? Math.max(bebasEm(titleStr, TRACKING), subStr ? bebasEm(subStr, TRACKING) : 0)
+    : null
+  const yksiRivi = kaksiEm !== null && !cjk && subStr !== null && !/\s/.test(subStr.trim())
+    && bebasEm(`${titleStr} ${subStr}`, TRACKING) <= 14
+  const xlEm = yksiRivi ? bebasEm(`${titleStr} ${subStr}`, TRACKING) : kaksiEm
+  const sovitus = kaksiEm === null
+    ? ''
+    : size === 'xl'
+      ? 'lg:[--h1-max:6rem] xl:[--h1-max:clamp(96px,1.5vw_+_76.8px,115.2px)] lg:[font-size:min(var(--h1-max),calc((min(100vw,72rem)_-_4rem)/var(--h1-em-lg)))] xl:[font-size:min(var(--h1-max),calc((min(100vw,72rem)_-_4rem)/var(--h1-em-xl)))]'
+      : 'lg:[--h1-max:4.5rem] xl:[--h1-max:clamp(96px,1.5vw_+_76.8px,115.2px)] lg:[font-size:min(var(--h1-max),calc((min(100vw,72rem)_-_4rem)/var(--h1-em-lg)))] xl:[font-size:min(var(--h1-max),calc((min(100vw,72rem)_-_4rem)/var(--h1-em-xl)))]'
+
   const base = image.split('?')[0].replace(/\.(avif|webp|jpe?g|png)$/i, '')
   const variants = RESPONSIVE_HEROES[base]
 
@@ -251,7 +279,7 @@ export default function HeroImage({
       {/* Tekijä + lisenssi oikeaan alakulmaan (Commons-kuvat) tai "Kuva: LaplandVibes" (omat). */}
       <PhotoCredit src={`/images/${image}`} />
 
-      <div className={`relative isolate text-center px-4 max-w-4xl ${contentAlignClass}`}>
+      <div className={`relative isolate text-center px-4 max-w-4xl lg:max-w-6xl ${contentAlignClass}`}>
         {/* Reading backdrop behind the text stack only (23.9.2026). The deploy gates
             measure the pixels under each text line, and a text-shadow does not count.
             25.9.2026: the first version was a clipped rounded box whose gradient was
@@ -268,11 +296,15 @@ export default function HeroImage({
             {eyebrow}
           </p>
         )}
-        <h1 className={`font-heading ${size === 'xl' ? 'text-5xl sm:text-6xl md:text-7xl lg:text-8xl' : 'text-5xl sm:text-6xl md:text-7xl'} text-snow xl:text-[clamp(96px,1.5vw_+_76.8px,115.2px)] tracking-wider leading-[0.95] mb-4 drop-shadow-[0_2px_16px_rgba(0,0,0,0.9)]`}>
-          {title}
+        <h1
+          className={`font-heading text-5xl sm:text-6xl md:text-7xl ${sovitus || (size === 'xl' ? 'lg:text-8xl xl:text-[clamp(96px,1.5vw_+_76.8px,115.2px)]' : 'xl:text-[clamp(96px,1.5vw_+_76.8px,115.2px)]')} text-snow tracking-wider leading-[0.95] mb-4 drop-shadow-[0_2px_16px_rgba(0,0,0,0.9)]${cjk ? ' [word-break:keep-all] [overflow-wrap:anywhere]' : ''}`}
+          style={kaksiEm === null ? undefined : { ['--h1-em-lg' as string]: kaksiEm.toFixed(2), ['--h1-em-xl' as string]: (xlEm ?? kaksiEm).toFixed(2) }}
+        >
+          {titleStr !== null ? <Fraasit text={titleStr} lang={lang} /> : title}
+          {yksiRivi && ' '}
           {subtitle && (
             <span
-              className="block mt-1 drop-shadow-[0_2px_10px_rgba(0,0,0,0.8)]"
+              className={`${yksiRivi ? 'block xl:inline xl:mt-0' : 'block'} mt-1 drop-shadow-[0_2px_10px_rgba(0,0,0,0.8)]`}
               style={{
                 background: 'linear-gradient(90deg, #EC4899 0%, #F472B6 50%, #EC4899 100%)',
                 WebkitBackgroundClip: 'text',
@@ -280,7 +312,7 @@ export default function HeroImage({
                 backgroundClip: 'text',
               }}
             >
-              {subtitle}
+              {subStr !== null ? <Fraasit text={subStr} lang={lang} /> : subtitle}
             </span>
           )}
         </h1>

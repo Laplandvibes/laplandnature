@@ -3,6 +3,7 @@ import { ArrowRight, CheckCircle2, Bell, Trees, Compass, PawPrint, AlertCircle }
 import { trackNewsletterSignup } from '../lib/analytics'
 import { useLang, useLocalePath, type Lang } from '../i18n/useLang'
 import { COPY } from '../locales/copy'
+import { bebasEm, Fraasit, ilmanValeja } from '../lib/otsikkoRivit'
 import FounderByline from '../shared/FounderByline';
 
 /**
@@ -170,9 +171,17 @@ export default function Newsletter() {
           <p className="text-xs sm:text-sm tracking-[0.3em] uppercase text-white/85 font-semibold mb-3">
             {c.eyebrow}
           </p>
-          <h2 className="font-heading text-4xl sm:text-5xl md:text-6xl text-white tracking-wide mb-4">
-            {c.h2Line1}<br className="hidden sm:block" /> {c.h2Line2}
-          </h2>
+          {/* lg+: otsikko 768 px:n palstaa leveämpänä (960 / xl 1024 px), ja sm+ koko pidemmän rivin mukaan.
+              768 px:ssä "Written when there is something to say." ei mahtunut 60 px:llä: kolme–neljä riviä
+              en/de/ja/fr/nl/sv (Vesa 3.10.2026: "tehdään turhaan kolmirivisiä"). */}
+          <div className="@container lg:-mx-24 xl:-mx-32">
+            <h2
+              className={`font-heading text-4xl sm:[--h2-max:3rem] md:[--h2-max:3.75rem] sm:[font-size:min(var(--h2-max),calc(100cqi/var(--h2-em)))] text-white tracking-wide mb-4${ilmanValeja(lang) ? ' [word-break:keep-all] [overflow-wrap:anywhere]' : ''}`}
+              style={{ ['--h2-em' as string]: Math.max(bebasEm(c.h2Line1, 0.025), bebasEm(c.h2Line2, 0.025)).toFixed(2) }}
+            >
+              <Fraasit text={c.h2Line1} lang={lang} /><br className="hidden sm:block" /> <Fraasit text={c.h2Line2} lang={lang} />
+            </h2>
+          </div>
           <p className="text-white/90 text-base sm:text-lg max-w-2xl mx-auto mb-12 leading-relaxed">
             {c.lead}
           </p>
