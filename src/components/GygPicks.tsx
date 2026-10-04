@@ -1,5 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
-import { MapPin, Clock, Ticket, ArrowUpRight } from 'lucide-react';
+import type { CSSProperties } from 'react';
+import { MapPin, Clock, Ticket, ArrowUpRight, Footprints, MountainSnow, Snowflake, Sparkles, TreePine } from 'lucide-react';
+import type { LucideIcon } from 'lucide-react';
 import { NATURE_PICKS, gygHref, GYG_PRICE_AS_OF, localizePicks } from '../shared/gyg/picks';
 import { useLang } from '../i18n/useLang';
 
@@ -199,6 +201,35 @@ const GYG_LOCALE: Record<string, string> = {
 /** Product id from the path's "-t<id>" suffix. */
 const tourId = (path: string): string | null => /-t(\d+)\/?$/.exec(path)?.[1] ?? null;
 
+/**
+ * The fallback cards carry no picture (4.10.2026, Vesa looked at them with the
+ * widget blocked: "miksi visuaalisuus on näin poor?"). A photo is not allowed
+ * here: a partner's product is never AI, and a scenery photo on a product card
+ * reads as a photo OF the product. So the card gets the network's placeholder
+ * gradient with contour lines, an icon for the kind of trip and the place in
+ * Bebas — a sign of what the trip is, not a picture claiming to show it.
+ * Keyed on the product path (English slug, same in every language — `title` is
+ * already localised by localizePicks); order matters (a "hiking and
+ * snowshoeing" trip is hiking first).
+ */
+const ICON_RULES: Array<[RegExp, LucideIcon]> = [
+  [/aurora|northern-lights/i, Sparkles],
+  [/waterfall|canyon/i, MountainSnow],
+  [/hiking/i, Footprints],
+  [/snowshoe|snowhotel/i, Snowflake],
+];
+const tripIcon = (path: string): LucideIcon =>
+  ICON_RULES.find(([re]) => re.test(path))?.[1] ?? TreePine;
+
+/** Network placeholder gradient (CLAUDE.md) + faint contour rings. */
+const HEADER_BG: CSSProperties = {
+  backgroundImage: [
+    'repeating-radial-gradient(circle at 85% 115%, rgba(255,255,255,0.07) 0 1px, transparent 1px 15px)',
+    'radial-gradient(120% 90% at 0% 0%, rgba(16,185,129,0.28), transparent 60%)',
+    'linear-gradient(135deg, #0d2818 0%, #0F172A 55%, #1e1b4b 100%)',
+  ].join(','),
+};
+
 export default function GygPicks() {
   const lang = useLang();
   const t = (m: Record<string, string>): string => m[lang] ?? m.en;
@@ -237,7 +268,7 @@ export default function GygPicks() {
       <div className="max-w-7xl mx-auto">
         <div className="mb-10 sm:mb-12">
           <p className="font-bold tracking-[0.18em] uppercase text-sm mb-3 text-[#BE185D]">{t(L.kicker)}</p>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-3 text-[#0F172A]">
+          <h2 className="font-heading text-4xl sm:text-5xl md:text-6xl tracking-wider mb-3 text-[#0F172A]">
             {t(L.headingProduct)}
           </h2>
           <p className="max-w-2xl text-black/65">{t(L.ledeProduct)}</p>
@@ -263,60 +294,81 @@ export default function GygPicks() {
         </div>
 
         {blocked && (
-        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-        {rows.map((p) => (
+        <div className="grid gap-4 sm:gap-5 sm:grid-cols-2 xl:grid-cols-4">
+        {rows.map((p) => {
+          const Icon = tripIcon(p.path);
+          return (
           <a
             key={p.path}
             href={gygHref(p, lang)}
             target="_blank"
             rel="sponsored nofollow noopener"
-            className="group flex flex-row items-center gap-3 p-4 sm:flex-col sm:items-stretch sm:gap-0 sm:p-0 overflow-hidden rounded-2xl border bg-white border-black/10 shadow-sm no-underline transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:border-[#BE185D]/40"
+            className="group flex flex-row items-stretch overflow-hidden rounded-2xl border bg-white border-black/10 shadow-[0_18px_40px_-28px_rgba(15,23,42,0.55)] no-underline transition-[transform,box-shadow,border-color] duration-300 ease-out hover:-translate-y-1 hover:shadow-[0_28px_56px_-28px_rgba(15,23,42,0.6)] hover:border-[#BE185D]/40 sm:flex-col"
           >
-            <div className="flex min-w-0 flex-1 flex-col sm:p-5">
-              <p className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-[#BE185D]">
+            {/* Sign of the trip, not a picture of it (see ICON_RULES). On a phone a
+                square tile beside the text, from sm a header band with the place. */}
+            <div
+              aria-hidden="true"
+              className="relative flex w-20 shrink-0 items-center justify-center sm:h-36 sm:w-auto sm:items-start sm:justify-between sm:p-5"
+              style={HEADER_BG}
+            >
+              <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-white/10 ring-1 ring-inset ring-white/20 text-[#6EE7B7] transition-transform duration-300 ease-out group-hover:scale-105">
+                <Icon className="h-6 w-6" strokeWidth={1.75} />
+              </span>
+              <span className="absolute bottom-3 left-5 hidden font-heading text-3xl leading-none tracking-wide text-snow sm:block">
+                {p.place}
+              </span>
+            </div>
+
+            <div className="flex min-w-0 flex-1 flex-col p-4 sm:p-5">
+              <p className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-[#BE185D] sm:hidden">
                 <MapPin className="h-3.5 w-3.5" aria-hidden="true" />
                 {p.place}
               </p>
 
-              <h3 className="mt-0.5 sm:mt-2 sm:flex-1 text-[15px] sm:text-base font-bold leading-snug text-[#0F172A]">{p.title}</h3>
+              {/* DM Sans, not the global Bebas h3: condensed capitals at 16-17 px
+                  were the unreadable part of the old card. */}
+              <h3 className="mt-1 sm:mt-0 sm:flex-1 font-body normal-case tracking-normal text-[16px] sm:text-[17px] font-bold leading-snug text-[#0F172A] [&:lang(ja)]:[word-break:auto-phrase] [&:lang(ko)]:[word-break:keep-all]">
+                {p.title}
+              </h3>
 
-              {/* Only when a real length exists — one source row carried a sales
-                  badge in this field, and a badge is not a duration. */}
-              {p.duration && (
-                <p className="mt-1 sm:mt-2 inline-flex items-center gap-1.5 text-sm text-black/55">
-                  <Clock className="h-3.5 w-3.5" aria-hidden="true" />
-                  {p.duration}
-                </p>
+              {/* Duration only when a real length exists — one source row carried a
+                  sales badge in this field, and a badge is not a duration.
+                  GetYourGuide's OWN "from" price, never ours, with source and date
+                  under the button. No "per person": the catalogue does not record
+                  the unit and some products are priced per group. */}
+              {(p.duration || p.price) && (
+                <div className="mt-2 sm:mt-4 flex flex-wrap items-center gap-x-3 gap-y-1">
+                  {p.duration && (
+                    <span className="inline-flex items-center gap-1.5 text-sm text-black/60">
+                      <Clock className="h-4 w-4" aria-hidden="true" />
+                      {p.duration}
+                    </span>
+                  )}
+                  {p.price && (
+                    <span className="inline-flex items-baseline gap-1.5 sm:ml-auto">
+                      <span className="text-xs text-black/60">{t(L.priceFrom)}</span>
+                      <span className="font-heading text-2xl sm:text-3xl leading-none tracking-wide text-[#0F172A]">{p.price}</span>
+                    </span>
+                  )}
+                </div>
               )}
 
-              {/* GetYourGuide's OWN "from" price, with source and date beside it.
-                  It is not our price and we cannot keep it current — the partner
-                  changes it. Rendering it bare would be a promise we break on
-                  their behalf; rendering it dated is a fact about a moment.
-                  Deliberately no "per person": spot checks showed per-person on
-                  the rows we opened, but the catalogue does not record the unit
-                  and some GetYourGuide products are priced per group. */}
-              {p.price && (
-                <p className="mt-1 sm:mt-3 flex items-baseline gap-1.5">
-                  <span className="text-[11px] uppercase tracking-wider text-black/55">{t(L.priceFrom)}</span>
-                  <span className="text-lg font-bold text-[#0F172A]">{p.price}</span>
-                </p>
-              )}
-
-              <span className="mt-4 hidden sm:inline-flex items-center justify-center gap-2 rounded-full bg-[#DB2777] px-4 py-2.5 text-sm font-bold text-white transition-opacity group-hover:opacity-90">
+              <span className="mt-4 hidden sm:inline-flex items-center justify-center gap-2 rounded-full bg-[#DB2777] px-4 py-2.5 text-sm font-bold text-white transition-colors group-hover:bg-[#BE185D]">
                 <Ticket className="h-4 w-4" aria-hidden="true" />
                 {t(L.ctaProduct)}
                 <ArrowUpRight className="h-3.5 w-3.5" aria-hidden="true" />
               </span>
 
-              <span className="mt-1 sm:mt-2 text-left sm:text-center text-[11px] text-black/55">
+              <span className="mt-1.5 sm:mt-2 text-left sm:text-center text-xs text-black/60">
                 {p.price ? `${t(L.priceSource)} ${fiDate(GYG_PRICE_AS_OF, lang)}` : t(L.via)}
               </span>
             </div>
             {/* On a phone the row has no button; the arrow says it opens GetYourGuide. */}
-            <ArrowUpRight className="h-5 w-5 shrink-0 self-center text-[#BE185D] sm:hidden" aria-hidden="true" />
+            <ArrowUpRight className="mr-3 h-5 w-5 shrink-0 self-center text-[#BE185D] sm:hidden" aria-hidden="true" />
           </a>
-        ))}
+          );
+        })}
         </div>
         )}
       </div>

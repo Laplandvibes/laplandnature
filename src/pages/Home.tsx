@@ -10,11 +10,9 @@ import Newsletter from '../components/Newsletter'
 import { useLang, useLocalePath } from '../i18n/useLang'
 import { COPY } from '../locales/copy'
 import HomeAdSlots, { MainPartnerBanner } from '../shared/HomeAdSlots'
-import AdUnit from '../shared/ads/AdUnit'
-import bearKuusamoAd from '../shared/ads/advertisers/bearkuusamo'
-import { trackPartnerClick } from '../lib/analytics'
 import { AD_SLOTS } from '../data/adSlots'
 import GygPicks from '../components/GygPicks';
+import FeaturedArticle from '../components/FeaturedArticle';
 import { AppPromoHero } from '../components/AppPromo';
 import { seasonal } from '../lib/season'
 
@@ -296,31 +294,11 @@ export default function Home() {
       <GygPicks />
 
 
-      {/* Maksettu kumppanipaikka etusivulla (Vesa 2026-07-26): "nature-sivulla
-          voisi olla etusivulla jo tuo mainos, koska siten se herättää huomiota ja
-          muut yrittäjät uskaltautuvat mukaan" — eli näyteikkuna sekä Bear
-          Kuusamolle että myytäville paikoille. Sama dark-band-käsittely kuin
-          /wildlife-sijoittelussa: valkoinen kortti katoaisi cream-taustaan, joten
-          variant="dark" oman deep-night-kaistan sisällä. Kieliportti kuten kaikki
-          LV:n omat mainospaikat (fi/en/sv). */}
-      {/* Maksettu kumppanimainos näkyy KAIKILLA 12 kielellä (Vesa 2026-07-30):
-          speksi kantaa nyt täydet käännökset, joten kieliporttia ei tarvita. */}
-      {(
-        <section className="px-4 sm:px-6 py-12 sm:py-16 bg-deep-night">
-          <div className="max-w-6xl mx-auto">
-            <AdUnit
-              spec={bearKuusamoAd}
-              sid="home_featured_below"
-              lang={lang}
-              variant="dark"
-              imageSrc="/images/hero-bear-kuusamo.webp"
-              articleHref={to('/bear-kuusamo/')}
-              onArticleClick={(_k, sid) => trackPartnerClick(`ad_article:${sid}`)}
-              onCtaClick={(_specKey, sid) => trackPartnerClick(`ad_unit:${sid}`)}
-            />
-          </div>
-        </section>
-      )}
+      {/* Bear Kuusamon toinen mainos (tumma AdUnit-kaista, sid home_featured_below) poistettu
+          (Vesa 4.10.2026: "bear kuusamo mainos kaksi kertaa. poista alempi"): kumppanikortti A
+          yllä riittää. Tilalle toimituksellinen nosto kumppanijuttuun, jonne etusivulta ei
+          muuten olisi enää linkkiä. */}
+      <FeaturedArticle />
 
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-snow border-y border-deep-night/8">
         <div className="max-w-6xl mx-auto">
