@@ -655,7 +655,7 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
     lakes: {
       title: 'Lagos',
       body1: 'A Finlandia se la llama a menudo la tierra de los mil lagos, y la cifra real es mucho mayor: unos 188 000 lagos y estanques de al menos 0,05 hectáreas, según el registro Järvi-meriwiki de SYKE. Los de Laponia están entre los más cristalinos, alimentados por el deshielo y cuencas sombreadas en lugar de por la escorrentía agrícola.',
-      body2: 'El lago Inari (Inarijärvi), en el corazón del territorio sami, es uno de los mayores lagos de Finlandia y alimenta el sistema del Paatsjoki, que drena hacia el norte hasta el océano Ártico. Su agua fría y rica en oxígeno acoge al salvelino ártico, la trucha común y el coregono, especies que solo prosperan donde el agua se mantiene fría y limpia.',
+      body2: 'El lago Inari (Inarijärvi), en el corazón del territorio sami, es uno de los mayores lagos de Finlandia y alimenta el sistema del Paatsjoki, que drena hacia el norte hasta el océano Ártico. Su agua fría y rica en oxígeno acoge al salvelino ártico, la trucha común y el corégono, especies que solo prosperan donde el agua se mantiene fría y limpia.',
     },
     rivers: {
       title: 'Ríos de curso libre',

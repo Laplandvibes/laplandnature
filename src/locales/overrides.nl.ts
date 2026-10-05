@@ -939,7 +939,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
     lakes: {
       title: 'Meren',
       body1: 'Finland wordt vaak het land van duizend meren genoemd, en het werkelijke getal ligt veel hoger: ongeveer 188.000 meren en poelen van minstens 0,05 hectare, volgens het Järvi-meriwiki-register van SYKE. Die van Lapland behoren tot de helderste, gevoed door smeltwater en beschaduwde stroomgebieden in plaats van door afspoeling van landbouwgrond.',
-      body2: 'Het Inarimeer (Inarijärvi), in het hart van het Samische thuisland, is een van de grootste meren van Finland en voedt het riviersysteem van de Paatsjoki dat noordwaarts naar de Noordelijke IJszee afwatert. Het koude, zuurstofrijke water herbergt riddervis, beekforel en houting, soorten die alleen gedijen waar het water koud en schoon blijft.',
+      body2: 'Het Inarimeer (Inarijärvi), in het hart van het Samische thuisland, is een van de grootste meren van Finland en voedt het riviersysteem van de Paatsjoki dat noordwaarts naar de Noordelijke IJszee afwatert. Het koude, zuurstofrijke water herbergt riddervis, beekforel en marene, soorten die alleen gedijen waar het water koud en schoon blijft.',
     },
     rivers: {
       title: 'Vrij stromende rivieren',

@@ -955,7 +955,7 @@ const de: SectionCopy = {
     lakes: {
       title: 'Seen',
       body1: 'Finnland wird oft das Land der tausend Seen genannt, und die wahre Zahl ist weit größer: rund 188.000 Seen und Teiche von mindestens 0,05 Hektar, laut SYKEs Register Järvi-meriwiki. Lapplands Seen gehören zu den klarsten, gespeist von Schmelzwasser und beschatteten Einzugsgebieten statt von landwirtschaftlichem Abfluss.',
-      body2: 'Der Inarisee (Inarijärvi) im Herzen des samischen Kernlands ist einer der größten Seen Finnlands und speist das Flusssystem des Paatsjoki, das nach Norden zum Nordpolarmeer entwässert. Sein kaltes, sauerstoffreiches Wasser trägt Seesaibling, Bachforelle und Maräne, Arten, die nur dort gedeihen, wo das Wasser kalt und sauber bleibt.',
+      body2: 'Der Inarisee (Inarijärvi) im Herzen des samischen Kernlands ist einer der größten Seen Finnlands und speist das Flusssystem des Paatsjoki, das nach Norden zum Nordpolarmeer entwässert. Sein kaltes, sauerstoffreiches Wasser trägt Seesaibling, Bachforelle und Felchen, Arten, die nur dort gedeihen, wo das Wasser kalt und sauber bleibt.',
     },
     rivers: {
       title: 'Frei fließende Flüsse',
