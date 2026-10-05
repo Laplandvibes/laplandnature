@@ -1,0 +1,73 @@
+{
+  "title": "Grupos de turistas não podem ocupar os refúgios abertos",
+  "seoTitle": "Refúgios abertos na Finlândia: quem pode dormir neles",
+  "description": "Os refúgios abertos dos parques nacionais finlandeses são gratuitos para caminhantes. Empresas de turismo não podem hospedar clientes ali, diz a Metsähallitus.",
+  "dek": "Segundo a Metsähallitus, é preciso reforçar a fiscalização. Em março, sua equipe encontrou cerca de 70 grupos guiados em destinos populares da Lapônia e de Koillismaa, e a maioria dos clientes eram viajantes internacionais.",
+  "heroAlt": "Uma cabana de toras desgastada pelo tempo, com chaminé vermelha, entre pinheiros e bétulas num dia ensolarado de verão; mais ao fundo, outra construção de toras.",
+  "heroCaption": "Refúgio aberto de Oahujoki, no Parque Nacional de Lemmenjoki, em Inari, em agosto de 2019.",
+  "body": [
+    {
+      "t": "p",
+      "text": "O direito de acesso à natureza não permite que um grupo de turistas se aposse de um refúgio em parque nacional, afirmou a Metsähallitus no jornal Maaseudun Tulevaisuus em 27 de setembro de 2026, acrescentando que é preciso reforçar a fiscalização. A Metsähallitus administra os parques nacionais da Finlândia e cuida da manutenção dos refúgios que ficam neles."
+    },
+    {
+      "t": "h2",
+      "text": "Para quem são os refúgios abertos"
+    },
+    {
+      "t": "p",
+      "text": "O refúgio aberto é um abrigo gratuito, compartilhado por todos, onde quem faz trilha por conta própria pode descansar e passar a noite sem reserva. As regras de convivência da Metsähallitus para os refúgios definem as condições: eles são destinados a caminhantes individuais, por uma noite, e grupos maiores e quem fica mais tempo devem usar barraca ou um refúgio com reserva ou de aluguel. Quem chega antes abre espaço para quem chega depois, e a prioridade é de quem se desloca pela própria força, sem motor."
+    },
+    {
+      "t": "p",
+      "text": "Ninguém pode se apropriar de um refúgio para si ou para o seu grupo, por exemplo espalhando o equipamento ou trancando a porta, e o horário de silêncio vai das 23:00 às 06:00."
+    },
+    {
+      "t": "ul",
+      "items": [
+        "Leve barraca: o refúgio pode estar lotado, e a recomendação é acampar perto dos refúgios e das áreas de descanso.",
+        "Se você precisa de uma cama certa, garanta seu lugar num refúgio com reserva ou de aluguel.",
+        "Use seu próprio fogareiro de camping só ao ar livre, nunca dentro do refúgio.",
+        "Leve seu lixo de volta e escreva no livro de visitas seu nome e seu próximo destino."
+      ]
+    },
+    {
+      "t": "h2",
+      "text": "O que as empresas de turismo podem fazer"
+    },
+    {
+      "t": "p",
+      "text": "Uma empresa que leva clientes pagantes a áreas protegidas do Estado precisa de um acordo de cooperação com a Metsähallitus. O acordo permite usar trilhas, áreas de descanso e banheiros, mas não cobre a hospedagem de clientes nos refúgios abertos, e a empresa não pode reservar áreas de descanso para o próprio grupo. Com autorização da Metsähallitus, um refúgio pode servir de área de descanso, mas os clientes precisam passar a noite em refúgios com reserva ou de aluguel, ou em hospedagem particular."
+    },
+    {
+      "t": "p",
+      "text": "As empresas com acordo pagam uma taxa anual calculada pelo número de clientes que levam. No fim de 2025, a Metsähallitus tinha 730 empresas parceiras de turismo. Os locais com mais acordos eram o Parque Nacional de Pallas-Yllästunturi (113), a área selvagem de Käsivarsi (94) e o Parque Nacional de Urho Kekkonen (75), e o número de acordos cresce sobretudo nos arredores de Rovaniemi."
+    },
+    {
+      "t": "h2",
+      "text": "O que a fiscalização encontrou"
+    },
+    {
+      "t": "p",
+      "text": "Em março de 2026, a Metsähallitus realizou 11 dias de fiscalização em destinos populares da Lapônia e de Koillismaa: os parques nacionais de Oulanka, Riisitunturi e Pallas-Yllästunturi, Korouoma, a área protegida de Valtavaara e Pyhävaara, e a área de trilhas de Napapiiri, perto de Rovaniemi. A equipe conversou com guias de cerca de 30 empresas e encontrou cerca de 70 grupos, mais de 600 pessoas no total. A maioria dos clientes das empresas eram viajantes internacionais."
+    },
+    {
+      "t": "p",
+      "text": "A maioria das empresas estava com os acordos em dia, e não foi preciso aplicar sanções. Mesmo assim, a Metsähallitus tem recebido muitos relatos de que empresas de turismo tomaram áreas de descanso para uso próprio e impediram outros caminhantes de chegar aos locais de fogueira ou aos refúgios. A fiscalização vai continuar nas trilhas mais procuradas, tanto no verão quanto no inverno."
+    },
+    {
+      "t": "h2",
+      "text": "O que isso significa para a sua viagem"
+    },
+    {
+      "t": "p",
+      "text": "Se um passeio guiado inclui uma noite na natureza selvagem, pergunte onde você vai dormir. Pelas regras da Metsähallitus, uma empresa não pode usar um refúgio aberto como hospedagem para os clientes, então a resposta deve ser uma barraca, um refúgio com reserva ou de aluguel, ou uma hospedagem particular. Se você faz trilha por conta própria, leve barraca mesmo que pretenda dormir nos refúgios."
+    },
+    {
+      "t": "link",
+      "text": "As rotas de refúgio em refúgio, como a Hetta–Pallas, estão no nosso guia de trilhas.",
+      "label": "Trilhas da Lapônia",
+      "href": "/hiking-trails"
+    }
+  ]
+}

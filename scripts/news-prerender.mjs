@@ -284,6 +284,10 @@ for (const slug of existsSync(ART_DIR) ? readdirSync(ART_DIR).sort() : []) {
   }
   for (const k of ['author', 'license', 'licenseUrl', 'sourceUrl', 'assetId', 'sourceName', 'retrieved']) if (!meta.hero?.credit?.[k]) err(where, `hero.credit.${k} puuttuu (lisenssikuitti)`);
   if (meta.ogCard && (!meta.ogCard.line || len(meta.ogCard.line) > 40)) err(where, `ogCard.line puuttuu tai yli 40 merkkiä (${len(meta.ogCard?.line ?? '')})`);
+  // 🔴 5.10.2026 (lv_permanent_rules §34.2): jakokortti on kuvasta tehty muunnelma ilman tekijää ⇒ BY-SA-hero ei
+  // käy sen pohjaksi. Silloin kortille oma nimeämisvapaa kuva `ogCard.hero` (CC0, PD, Pexels), kuitti photoCredits.ts:ään.
+  if (meta.ogCard && !meta.ogCard.hero && /SA/i.test(meta.hero?.credit?.license || '')) err(where, `hero on ${meta.hero.credit.license}: jakokortille tarvitaan oma nimeämisvapaa ogCard.hero (§34.2)`);
+  if (meta.ogCard?.hero && !existsSync(resolve(ROOT, 'public', meta.ogCard.hero.replace(/^\//, '')))) err(where, `ogCard.hero puuttuu public/-kansiosta: ${meta.ogCard.hero}`);
   if (!Array.isArray(meta.sources) || !meta.sources.length) err(where, 'lähteet puuttuvat');
   for (const s of meta.sources || []) if (!s.url || !s.publisher || !s.title || !(s.date || s.read)) err(where, `lähteestä puuttuu url/publisher/title/date|read: ${s.url}`);
   for (const s of meta.sources || []) if (!/^[a-z]{2,3}(-[A-Za-z0-9]{2,8})*$/.test(s.lang || '')) err(where, `lähteen otsikon kieli puuttuu (lang = lähdesivun <html lang>, esim. "fi"): ${s.url}`);
@@ -398,8 +402,10 @@ for (const a of articles) {
     path: `${SECTION}/${a.slug}`,
     fallbackTitle: a.texts.en.seoTitle || a.texts.en.title,
     fallbackDescription: a.texts.en.description,
+    // 5.10.2026: `ogCard.hero` = oma kortin pohjakuva, kun jutun hero on BY-SA (§34.2, portti yllä).
+    // `focus` = kortin rajauskohta (object-position), sama kenttä kuin skiresortsin kopiossa.
     ...(a.meta.ogCard
-      ? { ogImage: `/og/news-${a.slug}.jpg`, ogCard: { hero: a.meta.hero.src, line: a.meta.ogCard.line } }
+      ? { ogImage: `/og/news-${a.slug}.jpg`, ogCard: { hero: a.meta.ogCard.hero || a.meta.hero.src, line: a.meta.ogCard.line, ...(a.meta.ogCard.focus ? { focus: a.meta.ogCard.focus } : {}) } }
       : { ogImage: a.meta.hero.src }),
     harvestRecord: { file: `${rel(join(CACHE, a.slug))}/{lang}.json`, key: a.slug, mode: 'jsonFile' },
   });

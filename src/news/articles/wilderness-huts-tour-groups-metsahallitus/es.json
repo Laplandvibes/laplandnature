@@ -1,0 +1,73 @@
+{
+  "title": "Los grupos turísticos no pueden acaparar los refugios abiertos",
+  "seoTitle": "Refugios abiertos en Finlandia: quién puede dormir en ellos",
+  "description": "Los refugios abiertos de los parques nacionales de Finlandia son gratis para senderistas, no para alojar a clientes de empresas turísticas, dice Metsähallitus.",
+  "dek": "Según Metsähallitus, hay que reforzar la supervisión. En marzo, su personal se encontró con unos 70 grupos guiados en destinos populares de Laponia y Koillismaa, y la mayoría de los clientes eran viajeros internacionales.",
+  "heroAlt": "Una cabaña de troncos envejecida, con chimenea roja, entre pinos y abedules en un día soleado de verano; más atrás se ve otro edificio de troncos.",
+  "heroCaption": "El refugio abierto de Oahujoki, en el Parque nacional de Lemmenjoki (Inari), en agosto de 2019.",
+  "body": [
+    {
+      "t": "p",
+      "text": "El derecho de acceso a la naturaleza no permite que un grupo turístico acapare un refugio en un parque nacional, señaló Metsähallitus en el periódico Maaseudun Tulevaisuus el 27 de septiembre de 2026, y añadió que hace falta reforzar la supervisión. Metsähallitus gestiona los parques nacionales de Finlandia y mantiene sus refugios."
+    },
+    {
+      "t": "h2",
+      "text": "Para quién son los refugios abiertos"
+    },
+    {
+      "t": "p",
+      "text": "Un refugio abierto es gratuito y compartido por todos, y en él los senderistas que viajan por su cuenta pueden descansar y pasar la noche sin reservar. Las normas de convivencia de Metsähallitus para los refugios fijan las condiciones: están pensados para senderistas individuales y para una sola noche, y los grupos más grandes y quienes se quedan más tiempo deben usar una tienda de campaña o un refugio de reserva o de alquiler. Quien llega antes hace sitio a quien llega después, y tienen prioridad quienes se desplazan por su propio esfuerzo, sin motor."
+    },
+    {
+      "t": "p",
+      "text": "Nadie puede adueñarse de un refugio para sí o para su grupo, por ejemplo extendiendo su equipo o cerrando la puerta con llave, y el horario de silencio va de las 23:00 a las 06:00."
+    },
+    {
+      "t": "ul",
+      "items": [
+        "Lleve tienda de campaña: el refugio puede estar lleno, y se recomienda acampar cerca de los refugios y de las áreas de descanso.",
+        "Si necesita una cama garantizada, asegúrese una plaza en un refugio de reserva o de alquiler.",
+        "Use su propio hornillo de camping solo al aire libre, nunca dentro del refugio.",
+        "Llévese la basura y anote en el libro de visitas su nombre y su próximo destino."
+      ]
+    },
+    {
+      "t": "h2",
+      "text": "Qué pueden hacer las empresas turísticas"
+    },
+    {
+      "t": "p",
+      "text": "Una empresa que lleva clientes de pago a áreas protegidas del Estado necesita un acuerdo de cooperación con Metsähallitus. El acuerdo le permite usar senderos, áreas de descanso y baños, pero no incluye alojar a sus clientes en los refugios abiertos, y la empresa no puede reservar áreas de descanso para su propio grupo. Con permiso de Metsähallitus, un refugio puede servir como área de descanso, pero los clientes deben pasar la noche en refugios de reserva o de alquiler, o en alojamientos privados."
+    },
+    {
+      "t": "p",
+      "text": "Las empresas con acuerdo pagan una tarifa anual que depende del número de clientes que llevan. A finales de 2025, Metsähallitus tenía 730 empresas turísticas asociadas. Los lugares con más acuerdos eran el Parque nacional de Pallas-Yllästunturi (113), el área silvestre de Käsivarsi (94) y el Parque nacional de Urho Kekkonen (75), y el número de acuerdos crece sobre todo en torno a Rovaniemi."
+    },
+    {
+      "t": "h2",
+      "text": "Qué encontraron los controles"
+    },
+    {
+      "t": "p",
+      "text": "En marzo de 2026, Metsähallitus organizó 11 jornadas de control en destinos populares de Laponia y Koillismaa: los parques nacionales de Oulanka, Riisitunturi y Pallas-Yllästunturi, Korouoma, el área protegida de Valtavaara y Pyhävaara, y el área de senderismo de Napapiiri, cerca de Rovaniemi. Su personal habló con guías de unas 30 empresas y se encontró con unos 70 grupos, más de 600 personas en total. La mayoría de los clientes de las empresas eran viajeros internacionales."
+    },
+    {
+      "t": "p",
+      "text": "La mayoría de las empresas tenían sus acuerdos en regla, y no hizo falta imponer sanciones. Aun así, Metsähallitus ha recibido numerosos avisos de que algunas empresas turísticas se han quedado con áreas de descanso para su propio uso y han impedido a otros senderistas acercarse a los puntos de fogata o a los refugios. Metsähallitus seguirá con los controles en los senderos más concurridos, tanto en verano como en invierno."
+    },
+    {
+      "t": "h2",
+      "text": "Qué significa para su viaje"
+    },
+    {
+      "t": "p",
+      "text": "Si una excursión guiada incluye una noche en plena naturaleza, pregunte dónde va a dormir. Según las normas de Metsähallitus, una empresa no puede usar un refugio abierto como alojamiento para sus clientes, así que la respuesta debería ser una tienda de campaña, un refugio de reserva o de alquiler, o un alojamiento privado. Si hace senderismo por su cuenta, lleve tienda de campaña aunque piense dormir en refugios."
+    },
+    {
+      "t": "link",
+      "text": "Las rutas de refugio en refugio, como la Hetta–Pallas, se describen en nuestra guía de senderismo.",
+      "label": "Senderos de Laponia",
+      "href": "/hiking-trails"
+    }
+  ]
+}

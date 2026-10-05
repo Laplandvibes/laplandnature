@@ -1458,51 +1458,51 @@
   "/news": {
     "en": {
       "title": "Lapland nature news: research from the fells",
-      "description": "Research news about the nature of Finnish Lapland: the fells, their wildlife, plants and seasons. Every story names and links its sources."
+      "description": "News about the nature of Finnish Lapland: research, protected areas and the rules on the trails. Every story names and links its sources."
     },
     "fi": {
       "title": "Lapin luontouutiset: tutkimusta tuntureilta",
-      "description": "Tutkimusuutisia Suomen Lapin luonnosta: tunturit, eläimet, kasvit ja vuodenajat. Jokainen juttu nimeää ja linkittää lähteensä."
+      "description": "Uutisia Suomen Lapin luonnosta: tutkimus, suojelualueet ja retkeilyn säännöt. Jokainen juttu nimeää ja linkittää lähteensä."
     },
     "de": {
       "title": "Naturnachrichten aus Lappland: Forschung im Fjell",
-      "description": "Forschungsnachrichten über die Natur des finnischen Lapplands: Fjells, Tiere, Pflanzen und Jahreszeiten. Jeder Beitrag nennt und verlinkt seine Quellen."
+      "description": "Nachrichten über die Natur des finnischen Lapplands: Forschung, Schutzgebiete und Regeln auf den Wanderwegen. Jeder Beitrag nennt und verlinkt seine Quellen."
     },
     "ja": {
       "title": "ラップランドの自然ニュース：ツンドラからの研究",
-      "description": "フィンランド・ラップランドの自然に関する研究ニュース。山地ツンドラ、野生動物、植物、四季について、すべての記事で出典を明記しリンクしています。"
+      "description": "フィンランド・ラップランドの自然に関するニュースです。研究、保護区、そしてトレイルのルールを取り上げ、すべての記事で出典を明記してリンクしています。"
     },
     "es": {
       "title": "Noticias de naturaleza de Laponia: investigación",
-      "description": "Noticias de investigación sobre la naturaleza de la Laponia finlandesa: los montes, su fauna y sus plantas. Cada artículo cita y enlaza sus fuentes."
+      "description": "Noticias sobre la naturaleza de la Laponia finlandesa: investigación, áreas protegidas y las normas de los senderos. Cada artículo cita y enlaza sus fuentes."
     },
     "pt-BR": {
       "title": "Notícias da natureza da Lapônia: pesquisa",
-      "description": "Notícias de pesquisa sobre a natureza da Lapônia finlandesa: as montanhas, os animais, as plantas e as estações. Cada texto cita e linka suas fontes."
+      "description": "Notícias sobre a natureza da Lapônia finlandesa: pesquisa, áreas protegidas e as regras das trilhas. Cada texto cita e linka suas fontes."
     },
     "zh-CN": {
       "title": "拉普兰自然新闻：来自山地苔原的研究",
-      "description": "关于芬兰拉普兰自然的研究新闻：山地苔原、野生动物、植物与四季的最新发现。每篇报道都依据原始论文和新闻稿撰写，并注明与链接全部来源，读者可自行核对。"
+      "description": "关于芬兰拉普兰自然的新闻：最新的研究成果、自然保护区，以及徒步步道上的规则。每篇报道都依据原始来源撰写，并注明与链接全部来源，读者可以自行核对。"
     },
     "ko": {
       "title": "라플란드 자연 뉴스: 툰드라에서 온 연구",
-      "description": "핀란드 라플란드의 자연에 관한 연구 뉴스입니다. 산지 툰드라와 야생동물, 식물, 계절을 다루며 모든 기사에 출처를 밝히고 링크합니다."
+      "description": "핀란드 라플란드의 자연에 관한 뉴스입니다. 연구와 보호 구역, 트레일 이용 규칙을 다루며, 모든 기사에 출처를 밝히고 링크합니다."
     },
     "fr": {
       "title": "Actualités nature de Laponie : la recherche",
-      "description": "La recherche sur la nature de la Laponie finlandaise : les fjells, la faune, les plantes et les saisons. Chaque article cite et relie ses sources."
+      "description": "L'actualité de la nature en Laponie finlandaise : recherche, aires protégées et règles sur les sentiers. Chaque article cite ses sources, liens à l'appui."
     },
     "it": {
       "title": "Notizie dalla natura della Lapponia: ricerca",
-      "description": "Notizie di ricerca sulla natura della Lapponia finlandese: i fjell, la fauna, le piante e le stagioni. Ogni articolo cita e collega le proprie fonti."
+      "description": "Notizie sulla natura della Lapponia finlandese: la ricerca, le aree protette e le regole sui sentieri. Ogni articolo cita le proprie fonti, con i link."
     },
     "nl": {
       "title": "Natuurnieuws uit Lapland: onderzoek op de fjeld",
-      "description": "Onderzoeksnieuws over de natuur van Fins Lapland: de fjelden, de dieren, de planten en de seizoenen. Elk artikel noemt zijn bronnen en linkt ernaar."
+      "description": "Nieuws over de natuur van Fins Lapland: onderzoek, beschermde gebieden en de regels op de wandelpaden. Elk artikel noemt zijn bronnen en linkt ernaar."
     },
     "sv": {
       "title": "Naturnyheter från Lappland: forskning på fjället",
-      "description": "Forskningsnyheter om naturen i finska Lappland: fjällen, djuren, växterna och årstiderna. Varje artikel namnger och länkar sina källor."
+      "description": "Nyheter om naturen i finska Lappland: forskning, skyddsområden och reglerna på lederna. Varje artikel namnger och länkar sina källor."
     }
   },
   "/news/kilpisjarvi-reindeer-grazing-pollinators": {
@@ -1553,6 +1553,106 @@
     "sv": {
       "title": "Kilpisjärvi: renbete och fjällets pollinatörer",
       "description": "Ett långvarigt försök vid Kilpisjärvi visar att renbete förändrar förhållandet mellan blommor och insekter på fjället mer än tillförda näringsämnen gör."
+    }
+  },
+  "/news/sakatti-mine-viiankiaapa-compensation": {
+    "en": {
+      "title": "Sakatti mine and Viiankiaapa: compensation plan falls short",
+      "description": "Metsähallitus and the Finnish Supervisory Agency (LVV) say AA Sakatti Mining's plan to compensate for harm to the protected Viiankiaapa mire is not enough."
+    },
+    "fi": {
+      "title": "Sakatin kaivos ja Viiankiaapa: korvaussuunnitelma ei riitä",
+      "description": "Metsähallitus sekä Lupa- ja valvontavirasto pitävät AA Sakatti Miningin suunnitelmaa suojellun Viiankiaavan haittojen korvaamiseksi riittämättömänä."
+    },
+    "de": {
+      "title": "Sakatti-Mine und Viiankiaapa: Ausgleichsplan unzureichend",
+      "description": "Metsähallitus und die Genehmigungsbehörde LVV halten den Plan von AA Sakatti Mining zum Ausgleich der Schäden am geschützten Moor Viiankiaapa für unzureichend."
+    },
+    "ja": {
+      "title": "サカッティ鉱山とヴィーアンキアーパ湿原：代償措置計画は不十分",
+      "description": "メッツァハッリトゥスと許認可当局LVVは、保護されたヴィーアンキアーパ湿原への悪影響を埋め合わせるAA Sakatti Miningの計画は不十分だとしています。"
+    },
+    "es": {
+      "title": "Mina de Sakatti y Viiankiaapa: compensación insuficiente",
+      "description": "Metsähallitus y la autoridad de permisos LVV ven insuficiente el plan de AA Sakatti Mining para compensar el daño a la turbera protegida de Viiankiaapa."
+    },
+    "pt-BR": {
+      "title": "Mina de Sakatti e Viiankiaapa: compensação insuficiente",
+      "description": "Para a Metsähallitus e a autoridade de licenciamento LVV, não basta o plano da AA Sakatti Mining para compensar os danos à turfeira protegida de Viiankiaapa."
+    },
+    "zh-CN": {
+      "title": "萨卡蒂矿与维安基阿帕沼泽：补偿计划不足",
+      "description": "Metsähallitus和许可主管机构LVV认为，AA Sakatti Mining为弥补对受保护的维安基阿帕沼泽造成的损害而制定的计划并不充分。"
+    },
+    "ko": {
+      "title": "사카티 광산과 비안키아파: 습원 보상 계획 불충분",
+      "description": "Metsähallitus와 인허가 당국 LVV는 AA Sakatti Mining이 보호 습원 비안키아파에 끼칠 피해를 보상하려고 세운 계획이 충분하지 않다고 밝혔습니다."
+    },
+    "fr": {
+      "title": "Mine de Sakatti et Viiankiaapa : compensation insuffisante",
+      "description": "Metsähallitus et l'autorité des permis LVV jugent insuffisant le plan d'AA Sakatti Mining pour compenser les atteintes à la tourbière protégée de Viiankiaapa."
+    },
+    "it": {
+      "title": "Miniera di Sakatti e Viiankiaapa: compensazione inadeguata",
+      "description": "Metsähallitus e l'autorità LVV giudicano insufficiente il piano di AA Sakatti Mining per compensare i danni alla torbiera protetta di Viiankiaapa."
+    },
+    "nl": {
+      "title": "Sakatti-mijn en Viiankiaapa: compensatieplan schiet tekort",
+      "description": "Metsähallitus en de vergunningsdienst LVV vinden het plan van AA Sakatti Mining om de schade aan het beschermde veen Viiankiaapa te compenseren onvoldoende."
+    },
+    "sv": {
+      "title": "Sakattigruvan och Viiankiaapa: kompensationen räcker inte",
+      "description": "Metsähallitus och tillståndsmyndigheten LVV anser att AA Sakatti Minings plan för att kompensera skadorna på den skyddade myren Viiankiaapa inte räcker."
+    }
+  },
+  "/news/wilderness-huts-tour-groups-metsahallitus": {
+    "en": {
+      "title": "Open wilderness huts in Finland: rules for hikers and groups",
+      "description": "Open wilderness huts in Finland's national parks are free shelters for hikers. Tour companies may not lodge their customers in them, Metsähallitus says."
+    },
+    "fi": {
+      "title": "Autiotupa: säännöt retkeilijöille ja matkailuryhmille",
+      "description": "Kansallispuistojen autiotuvat ovat maksuttomia omatoimiretkeilijöille. Matkailuyritys ei saa majoittaa niissä asiakkaitaan, muistuttaa Metsähallitus."
+    },
+    "de": {
+      "title": "Wildnishütten in Finnland: Regeln für Wanderer und Gruppen",
+      "description": "Offene Wildnishütten in Finnlands Nationalparks sind für Wanderer kostenlos. Tourismusunternehmen dürfen dort keine Kunden unterbringen, so Metsähallitus."
+    },
+    "ja": {
+      "title": "フィンランドの無人小屋：ハイカーとツアー団体のルール",
+      "description": "フィンランドの国立公園にある無人小屋は、ハイカーが無料で使える避難小屋です。ツアー会社が客をそこに泊めることはできないと、メッツァハッリトゥスは述べています。"
+    },
+    "es": {
+      "title": "Refugios abiertos en Finlandia: quién puede dormir en ellos",
+      "description": "Los refugios abiertos de los parques nacionales de Finlandia son gratis para senderistas, no para alojar a clientes de empresas turísticas, dice Metsähallitus."
+    },
+    "pt-BR": {
+      "title": "Refúgios abertos na Finlândia: quem pode dormir neles",
+      "description": "Os refúgios abertos dos parques nacionais finlandeses são gratuitos para caminhantes. Empresas de turismo não podem hospedar clientes ali, diz a Metsähallitus."
+    },
+    "zh-CN": {
+      "title": "芬兰开放式荒野山屋：徒步者与旅行团须知规则",
+      "description": "芬兰国家公园中的开放式荒野山屋是供徒步者免费使用的庇护所。Metsähallitus表示，旅游公司不得安排客人在这些山屋中过夜，并称需要加强监管。"
+    },
+    "ko": {
+      "title": "핀란드 자유 이용 황야 산장: 하이커와 단체가 지킬 규칙",
+      "description": "핀란드 국립공원의 자유 이용 황야 산장은 하이커가 무료로 쉬고 묵는 곳입니다. Metsähallitus는 투어 업체가 이곳에 고객을 재워서는 안 된다고 밝혔습니다."
+    },
+    "fr": {
+      "title": "Refuges libres finlandais : règles pour marcheurs et groupes",
+      "description": "Les refuges libres des parcs nationaux finlandais sont gratuits pour les randonneurs. Les voyagistes ne peuvent pas y loger de clients, rappelle Metsähallitus."
+    },
+    "it": {
+      "title": "Rifugi liberi finlandesi: regole per escursionisti e gruppi",
+      "description": "I rifugi liberi dei parchi nazionali finlandesi sono gratuiti per gli escursionisti. Chi organizza tour non può farvi dormire i clienti, ricorda Metsähallitus."
+    },
+    "nl": {
+      "title": "Wildernishut in Finland: regels voor wandelaars en groepen",
+      "description": "Open wildernishutten in Finse nationale parken zijn gratis onderdak voor wandelaars. Reisorganisaties mogen er geen klanten onderbrengen, zegt Metsähallitus."
+    },
+    "sv": {
+      "title": "Vildmarksstugor i Finland: regler för vandrare och grupper",
+      "description": "Öppna vildmarksstugor i Finlands nationalparker är gratis för vandrare. Turistföretag får inte inkvartera sina kunder i dem, säger Metsähallitus."
     }
   },
   "/northern-lights": {

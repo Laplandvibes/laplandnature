@@ -1,0 +1,93 @@
+{
+  "slug": "sakatti-mine-viiankiaapa-compensation",
+  "date": "2026-10-05",
+  "hero": {
+    "src": "/images/news/viiankiaapa-duckboards-1600.webp",
+    "srcSmall": "/images/news/viiankiaapa-duckboards-800.webp",
+    "srcLarge": "/images/news/viiankiaapa-duckboards-2400.webp",
+    "avif": {
+      "small": "/images/news/viiankiaapa-duckboards-800.avif",
+      "src": "/images/news/viiankiaapa-duckboards-1600.avif",
+      "large": "/images/news/viiankiaapa-duckboards-2400.avif"
+    },
+    "width": 1600,
+    "height": 857,
+    "position": "68% 50%",
+    "credit": {
+      "author": "TuomoS",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Viiankiaapa-2022.jpg",
+      "assetId": "File:Viiankiaapa-2022.jpg",
+      "sourceName": "Wikimedia Commons",
+      "taken": "2022-07-29",
+      "retrieved": "2026-10-05"
+    }
+  },
+  "sources": [
+    {
+      "publisher": "Metsähallitus",
+      "title": "Metsähallitus: Sakatin kaivoshankkeen Natura-korvaussuunnitelma ei riitä täysimääräisesti korvaamaan kaikkia Viiankiaavan heikennyksiä",
+      "lang": "fi",
+      "url": "https://www.metsa.fi/tiedotteet/metsahallitus-sakatin-kaivoshankkeen-natura-korvaussuunnitelma-ei-riita-taysimaaraisesti-korvaamaan-kaikkia-viiankiaavan-heikennyksia/",
+      "date": "2026-10-02"
+    },
+    {
+      "publisher": "Metsähallitus",
+      "title": "Metsähallituksen lausunto Viiankiaavan Natura 2000 -alueeseen kohdistuvien heikennysten korvaamiseksi laaditusta suunnitelmasta, Sakatin kaivoshankkeen vaihemaakuntakaava",
+      "lang": "fi",
+      "url": "https://www.metsa.fi/wp-content/uploads/2026/10/metsahallituksen-lausunto-viiankiaavan-natura-2000-alueeseen-kohdistuvien-heikennysten-korvaamiseksi-laaditusta-suunnitelmasta-sakatin-kaivoshankkeen-vaihemaakuntakaava.pdf",
+      "date": "2026-10-02"
+    },
+    {
+      "publisher": "Lupa- ja valvontavirasto",
+      "title": "Lupa- ja valvontavirasto: Sakatin kaivoshankkeen Natura 2000 -verkostolle aiheutuvien heikennysten korvaamista koskevaa suunnitelmaa on täydennettävä",
+      "lang": "fi",
+      "url": "https://www.sttinfo.fi/tiedote/72381474/lupa-ja-valvontavirasto-sakatin-kaivoshankkeen-natura-2000-verkostolle-aiheutuvien-heikennysten-korvaamista-koskevaa-suunnitelmaa-on-taydennettava?lang=fi",
+      "date": "2026-10-02"
+    },
+    {
+      "publisher": "Yle",
+      "title": "Metsähallitus: Kaivosyhtiön suunnitelma Viiankiaavan haittojen kompensoinnista ei ole riittävä",
+      "lang": "fi",
+      "url": "https://yle.fi/a/74-20249602",
+      "date": "2026-10-02"
+    },
+    {
+      "publisher": "Luontoon.fi",
+      "title": "Viiankiaavan luontopolku",
+      "lang": "fi",
+      "url": "https://www.luontoon.fi/fi/reitit/viiankiaavan-luontopolku-sodankyla-16731",
+      "read": "2026-10-05"
+    },
+    {
+      "publisher": "Metsähallitus",
+      "title": "Soidensuojelualue Viiankiaapa (retkeilyesite)",
+      "lang": "fi",
+      "url": "https://julkaisut.metsa.fi/wp-content/uploads/sites/2/2023/02/viiankiaapafin.pdf",
+      "read": "2026-10-05"
+    }
+  ],
+  "embeds": {
+    "mire": {
+      "type": "fence",
+      "rowScale": true,
+      "plain": true,
+      "rows": [
+        {
+          "grazed": 1000,
+          "protected": 0
+        },
+        {
+          "grazed": 78,
+          "protected": 27
+        }
+      ]
+    }
+  },
+  "ogCard": {
+    "line": "Viiankiaapa: offset plan falls short",
+    "hero": "/images/og-source-news-martimoaapa.jpg",
+    "focus": "50% 64%"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "wilderness-huts-tour-groups-metsahallitus",
+  "date": "2026-10-05",
+  "hero": {
+    "src": "/images/news/oahujoki-wilderness-hut-1600.webp",
+    "srcSmall": "/images/news/oahujoki-wilderness-hut-800.webp",
+    "srcLarge": "/images/news/oahujoki-wilderness-hut-2400.webp",
+    "avif": {
+      "small": "/images/news/oahujoki-wilderness-hut-800.avif",
+      "src": "/images/news/oahujoki-wilderness-hut-1600.avif",
+      "large": "/images/news/oahujoki-wilderness-hut-2400.avif"
+    },
+    "width": 1600,
+    "height": 900,
+    "credit": {
+      "author": "Markus Säynevirta",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oahujoki_wilderness_hut_in_Lemmenjoki_National_Park,_Inari_(August_2019,_2).jpg",
+      "assetId": "File:Oahujoki wilderness hut in Lemmenjoki National Park, Inari (August 2019, 2).jpg",
+      "sourceName": "Wikimedia Commons",
+      "taken": "2019-08-22",
+      "retrieved": "2026-10-05"
+    }
+  },
+  "sources": [
+    {
+      "publisher": "Maaseudun Tulevaisuus",
+      "title": "Turistiryhmä ei voi vallata kansallispuiston autiotupaa jokaisenoikeudella, muistuttaa Metsähallitus: ”Valvontaa on tarve lisätä”",
+      "lang": "fi",
+      "url": "https://www.maaseuduntulevaisuus.fi/uutiset/46e6bc46-007b-407c-924b-afbd49397b42",
+      "date": "2026-09-27"
+    },
+    {
+      "publisher": "Luontoon.fi",
+      "title": "Tupaetiketti",
+      "lang": "fi",
+      "url": "https://www.luontoon.fi/fi/artikkelit/tupaetiketti",
+      "date": "2024-08-05"
+    },
+    {
+      "publisher": "Luontoon.fi",
+      "title": "Tuvat",
+      "lang": "fi",
+      "url": "https://www.luontoon.fi/fi/lajit/retkeily-ja-ulkoilu/vinkit/majoitteet/tuvat",
+      "read": "2026-10-05"
+    },
+    {
+      "publisher": "Metsähallitus",
+      "title": "Luontomatkailuyrityksillä sopimukset pääosin kunnossa – sääntöjen ja turvallisuusohjeiden noudattamisessa parantamisen varaa",
+      "lang": "fi",
+      "url": "https://www.metsa.fi/tiedotteet/luontomatkailuyrityksilla-sopimukset-paaosin-kunnossa-saantojen-ja-turvallisuusohjeiden-noudattamisessa-parantamisen-varaa/",
+      "date": "2026-04-02"
+    },
+    {
+      "publisher": "Metsähallitus",
+      "title": "Metsähallitus tehostaa yritystoiminnan valvontaa retkikohteissa",
+      "lang": "fi",
+      "url": "https://www.metsa.fi/tiedotteet/metsahallitus-tehostaa-yritystoiminnan-valvontaa-retkikohteissa/",
+      "date": "2026-02-23"
+    }
+  ],
+  "ogCard": {
+    "line": "Wilderness huts are not for tour groups",
+    "hero": "/images/og-source-news-piltuanjoki-hut.jpg",
+    "focus": "50% 16%"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "title": "Les groupes de touristes ne peuvent pas accaparer les refuges libres",
+  "seoTitle": "Refuges libres finlandais : règles pour marcheurs et groupes",
+  "description": "Les refuges libres des parcs nationaux finlandais sont gratuits pour les randonneurs. Les voyagistes ne peuvent pas y loger de clients, rappelle Metsähallitus.",
+  "dek": "Selon Metsähallitus, la surveillance doit être renforcée. En mars, son personnel a rencontré environ 70 groupes guidés sur des sites de randonnée fréquentés de Laponie et de Koillismaa, et la plupart des clients étaient des voyageurs internationaux.",
+  "heroAlt": "Une cabane en rondins patinée par le temps, à la cheminée rouge, entre pins et bouleaux par une journée d'été ensoleillée, avec un second bâtiment en rondins à l'arrière-plan.",
+  "heroCaption": "Le refuge libre d'Oahujoki, dans le parc national de Lemmenjoki, à Inari, en août 2019.",
+  "body": [
+    {
+      "t": "p",
+      "text": "Le droit d'accès à la nature ne permet pas à un groupe de touristes d'accaparer un refuge libre dans un parc national, a rappelé Metsähallitus dans le journal Maaseudun Tulevaisuus le 27 septembre 2026, en ajoutant que la surveillance doit être renforcée. Metsähallitus gère les parcs nationaux de Finlande et entretient leurs refuges."
+    },
+    {
+      "t": "h2",
+      "text": "À qui sont destinés les refuges libres"
+    },
+    {
+      "t": "p",
+      "text": "Un refuge libre est un abri gratuit, partagé par tous, où les randonneurs autonomes peuvent se reposer et passer la nuit sans réserver. Le code de bonne conduite des refuges de Metsähallitus en fixe les conditions : les refuges sont destinés aux randonneurs individuels, pour une nuit, et les groupes plus importants, ainsi que ceux qui restent plus d'une nuit, devraient utiliser une tente, un refuge sur réservation ou un refuge de location. Les premiers arrivés font de la place aux suivants, et la priorité va à ceux qui se déplacent à la force de leurs muscles."
+    },
+    {
+      "t": "p",
+      "text": "Personne ne peut s'approprier un refuge pour soi ou pour son groupe, par exemple en étalant ses affaires ou en verrouillant la porte, et le silence est de rigueur de 23 h à 6 h."
+    },
+    {
+      "t": "ul",
+      "items": [
+        "Emportez une tente : le refuge peut être plein, et il est recommandé de camper près des refuges et des aires de pause.",
+        "S'il vous faut un lit garanti, optez pour un refuge sur réservation ou de location.",
+        "N'utilisez votre propre réchaud qu'à l'extérieur, jamais à l'intérieur du refuge.",
+        "Remportez vos déchets et inscrivez votre nom et votre prochaine destination dans le livre d'or."
+      ]
+    },
+    {
+      "t": "h2",
+      "text": "Ce que peuvent faire les entreprises touristiques"
+    },
+    {
+      "t": "p",
+      "text": "Une entreprise qui emmène des clients payants dans les aires protégées de l'État doit disposer d'un accord de coopération avec Metsähallitus. Cet accord lui permet d'utiliser les sentiers, les aires de pause et les toilettes, mais il ne couvre pas l'hébergement de clients dans les refuges libres, et l'entreprise ne peut pas réserver d'aires de pause pour son propre groupe. Avec l'autorisation de Metsähallitus, un refuge peut servir d'aire de pause, mais les clients doivent passer la nuit dans des refuges sur réservation ou de location, ou dans un hébergement privé."
+    },
+    {
+      "t": "p",
+      "text": "Les entreprises titulaires d'un accord versent une redevance annuelle calculée selon le nombre de clients qu'elles amènent. Fin 2025, Metsähallitus comptait 730 partenaires touristiques. Les accords étaient les plus nombreux dans le parc national de Pallas-Yllästunturi (113), la zone de nature sauvage du Käsivarsi (94) et le parc national d'Urho Kekkonen (75), et leur nombre augmente surtout autour de Rovaniemi."
+    },
+    {
+      "t": "h2",
+      "text": "Ce qu'ont révélé les contrôles"
+    },
+    {
+      "t": "p",
+      "text": "En mars 2026, Metsähallitus a organisé 11 journées de contrôle sur des sites de randonnée fréquentés de Laponie et de Koillismaa : les parcs nationaux d'Oulanka, de Riisitunturi et de Pallas-Yllästunturi, Korouoma, la zone protégée de Valtavaara et Pyhävaara, et la zone de randonnée de Napapiiri, près de Rovaniemi. Son personnel s'est entretenu avec des guides d'environ 30 entreprises et a rencontré environ 70 groupes, soit plus de 600 personnes au total. La plupart des clients de ces entreprises étaient des voyageurs internationaux."
+    },
+    {
+      "t": "p",
+      "text": "La plupart des entreprises avaient des accords en règle, et aucune sanction n'a été nécessaire. Metsähallitus a toutefois reçu de nombreux signalements selon lesquels des entreprises touristiques ont réservé des aires de pause à leur propre usage et tenu d'autres randonneurs à l'écart des foyers ou des refuges. Les contrôles se poursuivront sur les sentiers fréquentés, l'été comme l'hiver."
+    },
+    {
+      "t": "h2",
+      "text": "Ce que cela signifie pour votre voyage"
+    },
+    {
+      "t": "p",
+      "text": "Si une excursion guidée comprend une nuit en pleine nature, demandez où vous dormirez. Selon les règles de Metsähallitus, une entreprise ne peut pas utiliser un refuge libre pour héberger ses clients : la réponse devrait donc être une tente, un refuge sur réservation ou de location, ou un hébergement privé. Si vous randonnez en autonomie, emportez une tente même si vous prévoyez de dormir en refuge."
+    },
+    {
+      "t": "link",
+      "text": "Les itinéraires de refuge en refuge, comme Hetta–Pallas, sont décrits dans notre guide de randonnée.",
+      "label": "Sentiers de randonnée en Laponie",
+      "href": "/hiking-trails"
+    }
+  ]
+}

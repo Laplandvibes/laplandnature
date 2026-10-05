@@ -1,0 +1,73 @@
+{
+  "title": "Turistgrupper får inte ta över Finlands öppna vildmarksstugor",
+  "seoTitle": "Vildmarksstugor i Finland: regler för vandrare och grupper",
+  "description": "Öppna vildmarksstugor i Finlands nationalparker är gratis för vandrare. Turistföretag får inte inkvartera sina kunder i dem, säger Metsähallitus.",
+  "dek": "Enligt Metsähallitus behövs mer tillsyn. I mars träffade personalen omkring 70 guidade grupper på populära utflyktsmål i Lappland och Koillismaa, och de flesta kunderna var internationella resenärer.",
+  "heroAlt": "En väderbiten timmerstuga med röd skorsten bland tallar och björkar en solig sommardag, och längre bak en andra timmerbyggnad.",
+  "heroCaption": "Den öppna vildmarksstugan vid Oahujoki i Lemmenjoki nationalpark, Enare, i augusti 2019.",
+  "body": [
+    {
+      "t": "p",
+      "text": "Allemansrätten ger inte en turistgrupp rätt att ta över en vildmarksstuga i en nationalpark. Det påpekade Metsähallitus i tidningen Maaseudun Tulevaisuus den 27 september 2026 och tillade att tillsynen behöver öka. Metsähallitus förvaltar Finlands nationalparker och sköter stugorna i dem."
+    },
+    {
+      "t": "h2",
+      "text": "Vem de öppna stugorna är till för"
+    },
+    {
+      "t": "p",
+      "text": "En öppen vildmarksstuga (ödestuga) är en gratis plats som alla delar på, där vandrare som rör sig på egen hand kan vila och övernatta utan att boka. Stugetiketten från Metsähallitus anger villkoren: stugorna är till för enskilda vandrare som stannar en natt, medan större grupper och den som stannar längre ska använda tält eller en reserverings- eller hyresstuga. Den som kommer först gör plats för den som kommer senare, och vandrare som tar sig fram med egen muskelkraft har företräde."
+    },
+    {
+      "t": "p",
+      "text": "Ingen får lägga beslag på en stuga för sig själv eller sin grupp, till exempel genom att breda ut sin utrustning eller låsa dörren, och tystnad gäller kl. 23.00–06.00."
+    },
+    {
+      "t": "ul",
+      "items": [
+        "Ta med dig ett tält: stugan kan vara full, och det rekommenderas att tälta nära stugor och rastplatser.",
+        "Om du behöver en säker sovplats, boka en reserverings- eller hyresstuga.",
+        "Använd ditt eget friluftskök bara utomhus, aldrig inne i stugan.",
+        "Ta med dig skräpet och skriv ditt namn och ditt nästa mål i gästboken."
+      ]
+    },
+    {
+      "t": "h2",
+      "text": "Vad turistföretag får göra"
+    },
+    {
+      "t": "p",
+      "text": "Ett företag som tar med betalande kunder till statens skyddsområden behöver ett samarbetsavtal med Metsähallitus. Avtalet ger rätt att använda leder, rastplatser och toaletter, men det omfattar inte inkvartering av kunder i vildmarksstugor, och företaget kan inte reservera rastplatser för sin egen grupp. Med tillstånd från Metsähallitus kan en stuga användas som rastplats, men kunderna måste övernatta i reserverings- eller hyresstugor eller i privat inkvartering."
+    },
+    {
+      "t": "p",
+      "text": "Företag med avtal betalar en årlig avgift som beror på hur många kunder de tar med sig. I slutet av 2025 hade Metsähallitus 730 samarbetspartner inom turismen. Flest avtal fanns i Pallas-Yllästunturi nationalpark (113), i ödemarksområdet Käsivarsi (94) och i Urho Kekkonens nationalpark (75), och antalet avtal växer särskilt kring Rovaniemi."
+    },
+    {
+      "t": "h2",
+      "text": "Vad tillsynen visade"
+    },
+    {
+      "t": "p",
+      "text": "I mars 2026 höll Metsähallitus 11 tillsynsdagar på populära utflyktsmål i Lappland och Koillismaa: nationalparkerna Oulanka, Riisitunturi och Pallas-Yllästunturi, Korouoma, skyddsområdet Valtavaara och Pyhävaara samt friluftsområdet Napapiiri nära Rovaniemi. Personalen talade med guider från omkring 30 företag och träffade omkring 70 grupper, sammanlagt över 600 personer. De flesta av företagens kunder var internationella resenärer."
+    },
+    {
+      "t": "p",
+      "text": "De flesta företagen hade sina avtal i ordning, och inga sanktioner behövdes. Metsähallitus har ändå fått många synpunkter om att turistföretag har lagt beslag på rastplatser och hindrat andra vandrare från att komma åt eldplatser eller stugor. Tillsynen på populära leder fortsätter både sommar och vinter."
+    },
+    {
+      "t": "h2",
+      "text": "Vad det betyder för din resa"
+    },
+    {
+      "t": "p",
+      "text": "Om en guidad tur innehåller en natt i vildmarken, fråga var du ska sova. Enligt reglerna från Metsähallitus får ett företag inte använda en öppen vildmarksstuga som inkvartering för sina kunder, så svaret bör vara tält, en reserverings- eller hyresstuga eller privat inkvartering. Om du vandrar på egen hand, ta med tält även om du planerar att sova i stugor."
+    },
+    {
+      "t": "link",
+      "text": "Leder från stuga till stuga, som Hetta–Pallas, beskriver vi i vår vandringsguide.",
+      "label": "Vandringsleder i Lappland",
+      "href": "/hiking-trails"
+    }
+  ]
+}

@@ -484,5 +484,167 @@
         "samaKuinKesa": true
       }
     }
+  },
+  "news-sakatti-mine-viiankiaapa-compensation": {
+    "route": "/news/sakatti-mine-viiankiaapa-compensation",
+    "line": "Viiankiaapa: offset plan falls short",
+    "kaudet": {
+      "summer": {
+        "hero": "/images/og-source-news-martimoaapa.jpg",
+        "bytes": 191291,
+        "sha256": "a5b4f8a3866b31964b40715040a0cf010cacb262882d7b824a3c069850a09e08",
+        "heroSha": "f088bf6c358c9637",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 16969,
+        "inkBox": [
+          376,
+          494,
+          823,
+          603
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 74.6,
+        "centerSq": 79.1,
+        "photoRegion": 88,
+        "photoRegionRef": 88,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 448,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": []
+      },
+      "winter": {
+        "hero": "/images/og-source-news-martimoaapa.jpg",
+        "bytes": 191291,
+        "sha256": "a5b4f8a3866b31964b40715040a0cf010cacb262882d7b824a3c069850a09e08",
+        "heroSha": "f088bf6c358c9637",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 16969,
+        "inkBox": [
+          376,
+          494,
+          823,
+          603
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 74.6,
+        "centerSq": 79.1,
+        "photoRegion": 88,
+        "photoRegionRef": 88,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 448,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": [],
+        "samaKuinKesa": true
+      }
+    }
+  },
+  "news-wilderness-huts-tour-groups-metsahallitus": {
+    "route": "/news/wilderness-huts-tour-groups-metsahallitus",
+    "line": "Wilderness huts are not for tour groups",
+    "kaudet": {
+      "summer": {
+        "hero": "/images/og-source-news-piltuanjoki-hut.jpg",
+        "bytes": 197323,
+        "sha256": "92165a65e16f6280effcfd072ed7d11d406fb1620a7bba252ea0941d0e2545b4",
+        "heroSha": "beb79f81336cf61e",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 17466,
+        "inkBox": [
+          337,
+          494,
+          862,
+          603
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 104,
+        "centerSq": 95.7,
+        "photoRegion": 128.1,
+        "photoRegionRef": 128.1,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 525,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": []
+      },
+      "winter": {
+        "hero": "/images/og-source-news-piltuanjoki-hut.jpg",
+        "bytes": 197323,
+        "sha256": "92165a65e16f6280effcfd072ed7d11d406fb1620a7bba252ea0941d0e2545b4",
+        "heroSha": "beb79f81336cf61e",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 17466,
+        "inkBox": [
+          337,
+          494,
+          862,
+          603
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 104,
+        "centerSq": 95.7,
+        "photoRegion": 128.1,
+        "photoRegionRef": 128.1,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 525,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": [],
+        "samaKuinKesa": true
+      }
+    }
   }
 }

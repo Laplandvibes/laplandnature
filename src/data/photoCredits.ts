@@ -159,3 +159,55 @@ export const OG_CARD_SOURCES: Record<'summer' | 'winter', {
     checks: 'katsottu täydellä koolla: aito pitkä valotus (satelliitin juova, värikohina, kuuma pikseli, johdonmukainen lumi), ei ihmisiä, ei kylttejä eikä merkkejä; verkoston tunniste- ja 64×36-pikselihaku 27.9.2026: ei muualla (lähin 29,4/255)',
   },
 }
+
+/**
+ * Uutisjuttujen jakokorttien omat lähdekuvat, 5.10.2026.
+ *
+ * Molempien juttujen herot ovat CC BY-SA 4.0 (Viiankiaapa: TuomoS, Oahujoki: Markus Säynevirta; kuitit jutun
+ * meta.jsonissa), ja jakokortti on kuvasta tehty muunnelma ilman tekijää ⇒ kortille oma nimeämisvapaa kuva
+ * (lv_permanent_rules §34.2). Kytkentä: jutun meta.json `ogCard.hero`; scripts/news-prerender.mjs kaataa buildin,
+ * jos BY-SA-herolla ei ole omaa kortin kuvaa. Kuvat eivät näy millään sivulla. Älä poista tiedostoja.
+ */
+export const NEWS_OG_CARD_SOURCES: Record<string, {
+  file: string
+  source: string
+  id: string
+  url: string
+  author: string
+  license: string
+  taken: string
+  place: string
+  retrieved: string
+  priceEur: 0
+  changes: string
+  checks: string
+}> = {
+  'sakatti-mine-viiankiaapa-compensation': {
+    file: '/images/og-source-news-martimoaapa.jpg',
+    source: 'Wikimedia Commons',
+    id: 'Martimoaapa.JPG (sha1 laskettu tiedostosta = API, 3264×2448)',
+    url: 'https://commons.wikimedia.org/wiki/File:Martimoaapa.JPG',
+    author: 'SeppVei',
+    license: 'Public domain (tekijän oma luovutus, ei nimeämisvaatimusta)',
+    taken: '2010-05-07',
+    place: 'Martimoaapa, Tervola (aapasuo Lapissa, Commonsin kuvaus); kortti ei väitä paikkaa',
+    retrieved: '2026-10-05',
+    priceEur: 0,
+    changes: 'pienennetty 3264×2448 → 2400×1800, JPEG q86, ei rajausta',
+    checks: 'lisenssi Commonsin API:sta; ei ihmisiä eikä kylttejä; verkoston nimihaku 29 repoon + 64×36-pikselihaku 8 860 kuvaan 5.10.2026: ei muualla (lähin 23,4/255)',
+  },
+  'wilderness-huts-tour-groups-metsahallitus': {
+    file: '/images/og-source-news-piltuanjoki-hut.jpg',
+    source: 'Wikimedia Commons',
+    id: 'Piltuanjoki hut.JPG (sha1 = API, 3264×2448)',
+    url: 'https://commons.wikimedia.org/wiki/File:Piltuanjoki_hut.JPG',
+    author: 'SeppVei',
+    license: 'CC0 1.0 (ei nimeämisvaatimusta)',
+    taken: '2012-08-20',
+    place: 'Saunakankaan autiotupa Piltuanjoella, Pudasjärvi (Commonsin kuvaus); kortti ei väitä paikkaa',
+    retrieved: '2026-10-05',
+    priceEur: 0,
+    changes: 'pienennetty 3264×2448 → 2400×1800, JPEG q86, ei rajausta',
+    checks: 'lisenssi Commonsin API:sta; ei ihmisiä eikä kylttejä; verkoston nimihaku 29 repoon + 64×36-pikselihaku 8 860 kuvaan 5.10.2026: ei muualla (lähin 42,0/255)',
+  },
+}

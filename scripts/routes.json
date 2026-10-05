@@ -89,7 +89,7 @@
   {
     "path": "/news",
     "fallbackTitle": "Lapland nature news: research from the fells",
-    "fallbackDescription": "Research news about the nature of Finnish Lapland: the fells, their wildlife, plants and seasons. Every story names and links its sources.",
+    "fallbackDescription": "News about the nature of Finnish Lapland: research, protected areas and the rules on the trails. Every story names and links its sources.",
     "ogImage": "/og/news.jpg",
     "ogCard": {
       "hero": "/images/freshwater-mires.webp",
@@ -98,6 +98,38 @@
     "harvestRecord": {
       "file": "node_modules/.cache/lv-news/_index/{lang}.json",
       "key": "news",
+      "mode": "jsonFile"
+    }
+  },
+  {
+    "path": "/news/sakatti-mine-viiankiaapa-compensation",
+    "fallbackTitle": "Sakatti mine and Viiankiaapa: compensation plan falls short",
+    "fallbackDescription": "Metsähallitus and the Finnish Supervisory Agency (LVV) say AA Sakatti Mining's plan to compensate for harm to the protected Viiankiaapa mire is not enough.",
+    "ogImage": "/og/news-sakatti-mine-viiankiaapa-compensation.jpg",
+    "ogCard": {
+      "hero": "/images/og-source-news-martimoaapa.jpg",
+      "line": "Viiankiaapa: offset plan falls short",
+      "focus": "50% 64%"
+    },
+    "harvestRecord": {
+      "file": "node_modules/.cache/lv-news/sakatti-mine-viiankiaapa-compensation/{lang}.json",
+      "key": "sakatti-mine-viiankiaapa-compensation",
+      "mode": "jsonFile"
+    }
+  },
+  {
+    "path": "/news/wilderness-huts-tour-groups-metsahallitus",
+    "fallbackTitle": "Open wilderness huts in Finland: rules for hikers and groups",
+    "fallbackDescription": "Open wilderness huts in Finland's national parks are free shelters for hikers. Tour companies may not lodge their customers in them, Metsähallitus says.",
+    "ogImage": "/og/news-wilderness-huts-tour-groups-metsahallitus.jpg",
+    "ogCard": {
+      "hero": "/images/og-source-news-piltuanjoki-hut.jpg",
+      "line": "Wilderness huts are not for tour groups",
+      "focus": "50% 16%"
+    },
+    "harvestRecord": {
+      "file": "node_modules/.cache/lv-news/wilderness-huts-tour-groups-metsahallitus/{lang}.json",
+      "key": "wilderness-huts-tour-groups-metsahallitus",
       "mode": "jsonFile"
     }
   },
