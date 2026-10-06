@@ -487,7 +487,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   conservation: {
     metaTitle: 'Conservação na Lapônia finlandesa',
-    metaDescription: 'A Metsähallitus administra 85% das áreas de fjäll da Lapônia e todos os seus parques nacionais. E ainda SLL, WWF Finlândia, o Parlamento Sámi e o que o direito de acesso à natureza permite.',
+    metaDescription: 'A Metsähallitus administra 85% das áreas de fjäll da Lapônia e todos os seus parques nacionais.',
     hero: {
       alt: 'Pinheiros mortos e vivos na floresta antiga do Kivitunturi, em Savukoski',
       eyebrow: 'Guia essencial',
@@ -549,7 +549,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   freshwater: {
     metaTitle: 'Água doce na Lapônia: lagos, rios, peixes',
-    metaDescription: 'A Finlândia tem cerca de 188.000 lagos (SYKE). A Lapônia abriga os mais limpos, com o rio Tornio-Muonio não regulado, turfeiras aapa e florestas frias.',
+    metaDescription: 'A Finlândia tem cerca de 188.000 lagos (SYKE). A Lapônia abriga alguns dos mais limpos, com o rio Tornio-Muonio não regulado, turfeiras aapa e florestas frias.',
     hero: {
       eyebrow: 'Guia essencial',
       title: 'Água doce na Lapônia',

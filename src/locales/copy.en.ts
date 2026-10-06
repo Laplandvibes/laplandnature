@@ -939,7 +939,7 @@ const en: SectionCopy = {
   },
   freshwater: {
     metaTitle: 'Freshwater Lapland: Lakes, Rivers, Mires & Fish',
-    metaDescription: 'Finland has roughly 188,000 lakes and ponds (SYKE). Lapland holds the cleanest, plus the unregulated Tornio-Muonio river, aapa mires and cold-water forests.',
+    metaDescription: 'Finland has roughly 188,000 lakes and ponds (SYKE). Lapland holds some of the cleanest, plus the unregulated Tornio-Muonio river, aapa mires and shady forests.',
     hero: {
       eyebrow: 'Pillar guide',
       title: 'Freshwater Lapland',

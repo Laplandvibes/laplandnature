@@ -452,7 +452,7 @@ export const FR_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   conservation: {
     metaTitle: 'Conservation en Laponie finlandaise',
-    metaDescription: 'Metsähallitus gère 85 % des zones de fjälls de Laponie et tous ses parcs nationaux. Et aussi la SLL, le WWF Finlande, le Parlement sami et ce que permet le droit d\'accès à la nature.',
+    metaDescription: 'Metsähallitus gère 85 % des zones de fjälls de Laponie et tous ses parcs nationaux.',
     hero: {
       alt: 'Pins morts et vivants dans la vieille forêt du Kivitunturi, à Savukoski',
       eyebrow: 'Guide phare',
@@ -514,7 +514,7 @@ export const FR_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   freshwater: {
     metaTitle: 'Eaux douces de Laponie : lacs et rivières',
-    metaDescription: 'La Finlande compte environ 188 000 lacs (SYKE). La Laponie en abrite les plus purs, avec le Tornio-Muonio non aménagé, les tourbières aapa et ses forêts.',
+    metaDescription: 'La Finlande compte environ 188 000 lacs (SYKE). La Laponie abrite certains des plus purs, avec le Tornio-Muonio non aménagé, les tourbières aapa et ses forêts.',
     hero: {
       eyebrow: 'Guide phare',
       title: 'Eaux douces de Laponie',

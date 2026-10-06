@@ -154,7 +154,7 @@
     },
     "de": {
       "title": "Naturschutz in Finnisch-Lappland",
-      "description": "Metsähallitus verwaltet 85 % der Fjällgebiete Lapplands und alle seine Nationalparks. Dazu SLL, WWF Finnland, das Sámi-Parlament und was das Jedermannsrecht erlaubt.",
+      "description": "Metsähallitus verwaltet 85 % der Fjällgebiete Lapplands und alle seine Nationalparks.",
       "faq": [
         {
           "q": "Was ist das Jedermannsrecht in Finnland?",
@@ -206,7 +206,7 @@
     },
     "es": {
       "title": "Conservación en la Laponia finlandesa",
-      "description": "Metsähallitus gestiona el 85 % de las zonas de fjäll de Laponia y todos sus parques nacionales. Además, SLL, WWF Finlandia, el Parlamento Sami y lo que permite el derecho de acceso a la naturaleza.",
+      "description": "Metsähallitus gestiona el 85 % de las zonas de fjäll de Laponia y todos sus parques nacionales.",
       "faq": [
         {
           "q": "¿Qué es el derecho de acceso a la naturaleza en Finlandia?",
@@ -232,7 +232,7 @@
     },
     "pt-BR": {
       "title": "Conservação na Lapônia finlandesa",
-      "description": "A Metsähallitus administra 85% das áreas de fjäll da Lapônia e todos os seus parques nacionais. E ainda SLL, WWF Finlândia, o Parlamento Sámi e o que o direito de acesso à natureza permite.",
+      "description": "A Metsähallitus administra 85% das áreas de fjäll da Lapônia e todos os seus parques nacionais.",
       "faq": [
         {
           "q": "O que é o direito de acesso à natureza na Finlândia?",
@@ -310,7 +310,7 @@
     },
     "fr": {
       "title": "Conservation en Laponie finlandaise",
-      "description": "Metsähallitus gère 85 % des zones de fjälls de Laponie et tous ses parcs nationaux. Et aussi la SLL, le WWF Finlande, le Parlement sami et ce que permet le droit d'accès à la nature.",
+      "description": "Metsähallitus gère 85 % des zones de fjälls de Laponie et tous ses parcs nationaux.",
       "faq": [
         {
           "q": "Qu'est-ce que le droit d'accès à la nature en Finlande ?",
@@ -336,7 +336,7 @@
     },
     "it": {
       "title": "Conservazione nella Lapponia finlandese",
-      "description": "Metsähallitus gestisce l'85% delle aree di fjäll della Lapponia e tutti i suoi parchi nazionali. In più SLL, WWF Finlandia, il Parlamento sami e cosa consente il diritto di accesso alla natura.",
+      "description": "Metsähallitus gestisce l'85% delle aree di fjäll della Lapponia e tutti i suoi parchi nazionali.",
       "faq": [
         {
           "q": "Che cos'è il diritto di accesso alla natura in Finlandia?",
@@ -362,7 +362,7 @@
     },
     "nl": {
       "title": "Natuurbehoud in Fins Lapland",
-      "description": "Metsähallitus beheert 85 % van de fjällgebieden van Lapland en al zijn nationale parken. Plus SLL, WWF Finland, het Sami-parlement en wat het allemansrecht toestaat.",
+      "description": "Metsähallitus beheert 85 % van de fjällgebieden van Lapland en al zijn nationale parken.",
       "faq": [
         {
           "q": "Wat is het allemansrecht (jokamiehenoikeudet) in Finland?",
@@ -490,7 +490,7 @@
     },
     "zh-CN": {
       "title": "编辑方针",
-      "description": "LaplandNature 如何研究、撰写并核实其拉普兰自然指南。独立性方针，以及我们如何处理联盟收入。"
+      "description": "LaplandNature 如何研究、撰写并核实其拉普兰自然指南。独立性方针，以及我们如何处理联盟收入。LaplandNature 是 LaplandVibes 网络的一部分，由一个芬兰小团队运营。"
     },
     "ko": {
       "title": "편집 방침",
@@ -516,7 +516,7 @@
   "/freshwater": {
     "en": {
       "title": "Freshwater Lapland: Lakes, Rivers, Mires & Fish",
-      "description": "Finland has roughly 188,000 lakes and ponds (SYKE). Lapland holds the cleanest, plus the unregulated Tornio-Muonio river, aapa mires and cold-water forests.",
+      "description": "Finland has roughly 188,000 lakes and ponds (SYKE). Lapland holds some of the cleanest, plus the unregulated Tornio-Muonio river, aapa mires and shady forests.",
       "faq": [
         {
           "q": "How many lakes does Finland have?",
@@ -568,7 +568,7 @@
     },
     "de": {
       "title": "Lapplands Süßwasser: Seen, Flüsse & Moore",
-      "description": "Finnland hat rund 188.000 Seen (SYKE). Lappland besitzt die saubersten, dazu das unregulierte Flusssystem Tornio-Muonio, Aapa-Moore und kühlende Wälder.",
+      "description": "Finnland hat rund 188.000 Seen (SYKE). Lappland birgt einige der saubersten, dazu das unregulierte Flusssystem Tornio-Muonio, Aapa-Moore und kühlende Wälder.",
       "faq": [
         {
           "q": "Wie viele Seen hat Finnland?",
@@ -594,7 +594,7 @@
     },
     "ja": {
       "title": "ラップランドの淡水：湖、川、湿原、そして魚",
-      "description": "フィンランドには約188,000の湖沼があります（SYKE）。ラップランドにはその中でも最も清らかな水があり、加えて未開発のトルニオ・ムオニオ川水系、アーパ湿原、そして水を冷たく保つ森が広がります。なぜ清らかな水がこの地域で最も希少な資産なのか。",
+      "description": "フィンランドには約188,000の湖沼があります（SYKE）。ラップランドにはその中でも最も清らかな部類の水があり、加えて未開発のトルニオ・ムオニオ川水系、アーパ湿原、そして水を冷たく保つ森が広がります。",
       "faq": [
         {
           "q": "フィンランドにはいくつの湖がありますか？",
@@ -620,7 +620,7 @@
     },
     "es": {
       "title": "Agua dulce en Laponia: lagos, ríos, peces",
-      "description": "Finlandia tiene unos 188 000 lagos (SYKE). Laponia alberga los más limpios, con el río Tornio-Muonio sin regular, turberas aapa y bosques de agua fría.",
+      "description": "Finlandia tiene unos 188 000 lagos (SYKE). Laponia alberga algunos de los más limpios, con el río Tornio-Muonio sin regular, turberas aapa y bosques fríos.",
       "faq": [
         {
           "q": "¿Cuántos lagos tiene Finlandia?",
@@ -646,7 +646,7 @@
     },
     "pt-BR": {
       "title": "Água doce na Lapônia: lagos, rios, peixes",
-      "description": "A Finlândia tem cerca de 188.000 lagos (SYKE). A Lapônia abriga os mais limpos, com o rio Tornio-Muonio não regulado, turfeiras aapa e florestas frias.",
+      "description": "A Finlândia tem cerca de 188.000 lagos (SYKE). A Lapônia abriga alguns dos mais limpos, com o rio Tornio-Muonio não regulado, turfeiras aapa e florestas frias.",
       "faq": [
         {
           "q": "Quantos lagos tem a Finlândia?",
@@ -698,7 +698,7 @@
     },
     "ko": {
       "title": "라플란드의 담수: 호수, 강, 습원, 그리고 물고기",
-      "description": "핀란드에는 약 188,000개의 호수와 못이 있습니다(SYKE). 라플란드는 그중 가장 맑은 물을 품고 있으며, 댐이 없는 토르니오-무오니오 수계, 아파 습원, 그리고 물을 차갑게 유지하는 숲도 함께 있습니다. 맑은 물이 이 지역에서 가장 희귀한 자산인 이유.",
+      "description": "핀란드에는 약 188,000개의 호수와 못이 있습니다(SYKE). 라플란드는 그중 가장 맑은 축에 드는 물을 품고 있으며, 댐이 없는 토르니오-무오니오 수계, 아파 습원, 물을 차갑게 유지하는 숲도 함께 있습니다.",
       "faq": [
         {
           "q": "핀란드에는 호수가 몇 개나 있나요?",
@@ -724,7 +724,7 @@
     },
     "fr": {
       "title": "Eaux douces de Laponie : lacs et rivières",
-      "description": "La Finlande compte environ 188 000 lacs (SYKE). La Laponie en abrite les plus purs, avec le Tornio-Muonio non aménagé, les tourbières aapa et ses forêts.",
+      "description": "La Finlande compte environ 188 000 lacs (SYKE). La Laponie abrite certains des plus purs, avec le Tornio-Muonio non aménagé, les tourbières aapa et ses forêts.",
       "faq": [
         {
           "q": "Combien de lacs compte la Finlande ?",
@@ -750,7 +750,7 @@
     },
     "it": {
       "title": "Acque dolci di Lapponia: laghi, fiumi, pesci",
-      "description": "La Finlandia conta circa 188.000 laghi (SYKE). La Lapponia custodisce i più puri, con il Tornio-Muonio non regolato, le torbiere aapa e le foreste fredde.",
+      "description": "La Finlandia conta circa 188.000 laghi (SYKE). La Lapponia ospita alcuni dei più puri, con il Tornio-Muonio non regolato, le torbiere aapa e le foreste fredde.",
       "faq": [
         {
           "q": "Quanti laghi ha la Finlandia?",
@@ -776,7 +776,7 @@
     },
     "nl": {
       "title": "Zoet water in Lapland: meren, rivieren, vis",
-      "description": "Finland telt ongeveer 188.000 meren (SYKE). Lapland herbergt de schoonste, plus het ongereguleerde Tornio-Muonio, aapa-venen en bossen die het water koelen.",
+      "description": "Finland telt ongeveer 188.000 meren (SYKE). Lapland herbergt enkele van de schoonste, plus het ongereguleerde Tornio-Muonio, aapa-venen en schaduwrijke bossen.",
       "faq": [
         {
           "q": "Hoeveel meren heeft Finland?",
@@ -802,7 +802,7 @@
     },
     "sv": {
       "title": "Sötvatten i Lappland: sjöar, älvar, myrar och fisk",
-      "description": "Finland har ungefär 188 000 sjöar (SYKE). Lappland rymmer de renaste, plus det oreglerade Torne–Muonio-älvsystemet, aapamyrar och svala skogar.",
+      "description": "Finland har ungefär 188 000 sjöar (SYKE). Lappland rymmer några av de renaste, plus det oreglerade Torne–Muonio-älvsystemet, aapamyrar och svala skogar.",
       "faq": [
         {
           "q": "Hur många sjöar har Finland?",
@@ -2360,7 +2360,7 @@
     },
     "zh-CN": {
       "title": "使用条款",
-      "description": "规范 LaplandNature.com 使用的条款，内容授权、联盟披露与编辑标准。由芬兰的 LaPeso Oy 运营。"
+      "description": "规范 LaplandNature.com 使用的条款，内容授权、联盟披露与编辑标准。由芬兰的 LaPeso Oy 运营。访问或使用本网站，即表示您同意本条款。"
     },
     "ko": {
       "title": "이용 약관",
@@ -2438,7 +2438,7 @@
     },
     "de": {
       "title": "Lapplands Tierwelt: Rentier, Bär, Vielfraß",
-      "description": "Sechs arktische Arten Finnisch-Lapplands, vom Rentier im Rentierhaltungsgebiet bis zu den vom Aussterben bedrohten Polarfüchsen und Schnee-Eulen. Status laut Roter Liste Finnlands.",
+      "description": "Sechs arktische Arten Finnisch-Lapplands, vom Rentier im Rentierhaltungsgebiet bis zu den vom Aussterben bedrohten Polarfüchsen und Schnee-Eulen.",
       "faq": [
         {
           "q": "Wann kann man im finnischen Lappland Braunbären sehen?",

@@ -17,7 +17,10 @@
  *        - rungon rakenne (lohkotyypit, upotusten id:t, linkkien kohteet) poikkeaa englannista,
  *        - käännöksessä on luku jota englanninkielisessä vastinlohkossa ei ole, tai englannin
  *          ≥10-luku (vuosi, päivä, määrä) puuttuu käännöksestä (numeroportti, 08-natiivikaannos),
- *        - hakutuloksen otsikko > 60 merkkiä tai metakuvaus ei ole 70–160 merkkiä,
+ *        - hakutuloksen otsikko > 60 merkkiä tai metakuvaus on esirenderöinnin ikkunan ulkopuolella
+ *          (alle 70 merkkiä ja alle 100 leveysyksikköä, tai yli 160 merkkiä / 200 leveysyksikköä;
+ *          CJK-merkki = 2): _prerender_routes.mjs jatkaisi tai leikkaisi sen, ja selain näyttäisi
+ *          eri tekstin kuin palvelimen HTML (gate:meta-hydraatio),
  *        - välimerkit: fr ilman sitomatonta väliä ennen ; : ! ?, es ilman ¿/¡-paria, ja/zh
  *          puolileveä ?/! tai pilkku CJK-tekstissä,
  *        - em-viiva (U+2014) missä tahansa kielitiedoston kentässä (myös i18n), tai meta-puhe jutun
@@ -75,6 +78,17 @@ const errors = [];
 const err = (where, msg) => errors.push(`${where}: ${msg}`);
 const readJson = (p) => JSON.parse(readFileSync(p, 'utf-8'));
 const len = (s) => [...String(s ?? '')].length;
+// Esirenderöinnin ikkuna: sama merkkiluokka ja rajat kuin _prerender_routes.mjs:n
+// ensureDescriptionLength() + clampDescription(). Ikkunan sisällä kuvaus julkaistaan sellaisenaan.
+const LEVEA = /[\u1100-\u11FF\u2E80-\uA4CF\uA960-\uA97F\uAC00-\uD7FF\uF900-\uFAFF\uFE30-\uFE4F\uFF00-\uFF60\uFFE0-\uFFE6]/;
+const leveys = (s) => [...String(s ?? '')].reduce((n, c) => n + (LEVEA.test(c) ? 2 : 1), 0);
+function kuvausIkkunanUlkopuolella(s) {
+  const d = String(s ?? '').trim();
+  const m = `${d.length} merkkiä / ${leveys(d)} leveysyksikköä`;
+  if (d.length > 160 || leveys(d) > 200 || len(d.replace(/\s+/g, ' ')) > 160) return `${m} (enintään 160 merkkiä ja 200 leveysyksikköä; CJK-merkki = 2)`;
+  if (d.length < 70 && leveys(d) < 100) return `${m} (vähintään 70 merkkiä tai 100 leveysyksikköä; CJK-merkki = 2)`;
+  return null;
+}
 
 // ── Numeroportti ────────────────────────────────────────────────────────────
 // Kuukausien nimet → numero, jotta "20 December 2026" ja "20.12.2026" vertautuvat.
@@ -257,8 +271,8 @@ for (const lang of LANGS) {
   for (const k of ['home', 'readMore', 'published', 'updated', 'byline', 'sources', 'source', 'read', 'photo', 'latest', 'allNews', 'moreNews']) if (!u.ui?.[k]) err(`i18n/${lang}`, `ui.${k} puuttuu`);
   if (u.index) {
     if (len(u.index.seoTitle) > 60) err(`i18n/${lang}`, `index.seoTitle ${len(u.index.seoTitle)} > 60`);
-    const d = len(u.index.description);
-    if (d < 70 || d > 160) err(`i18n/${lang}`, `index.description ${d} merkkiä (pitää olla 70–160)`);
+    const d = kuvausIkkunanUlkopuolella(u.index.description);
+    if (d) err(`i18n/${lang}`, `index.description ${d}`);
     for (const s of Object.values(u.index)) punctuation(`i18n/${lang}`, lang, s);
   }
 }
@@ -316,8 +330,8 @@ for (const slug of existsSync(ART_DIR) ? readdirSync(ART_DIR).sort() : []) {
     for (const k of ['title', 'description', 'dek', 'heroAlt']) if (!t[k]) err(w, `kenttä ${k} puuttuu`);
     const seo = t.seoTitle || t.title || '';
     if (len(seo) > 60) err(w, `hakuotsikko ${len(seo)} > 60 merkkiä: "${seo}"`);
-    const d = len(t.description);
-    if (d < 70 || d > 160) err(w, `metakuvaus ${d} merkkiä (pitää olla 70–160)`);
+    const d = kuvausIkkunanUlkopuolella(t.description);
+    if (d) err(w, `metakuvaus ${d}`);
     const sig = (t.body || []).map(signature).join(' | ');
     if (sig !== enSig) err(w, `rungon rakenne poikkeaa englannista:\n      en: ${enSig}\n      ${lang}: ${sig}`);
 

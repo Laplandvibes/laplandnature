@@ -515,7 +515,7 @@ export const SV_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   freshwater: {
     metaTitle: 'Sötvatten i Lappland: sjöar, älvar, myrar och fisk',
-    metaDescription: 'Finland har ungefär 188 000 sjöar (SYKE). Lappland rymmer de renaste, plus det oreglerade Torne–Muonio-älvsystemet, aapamyrar och svala skogar.',
+    metaDescription: 'Finland har ungefär 188 000 sjöar (SYKE). Lappland rymmer några av de renaste, plus det oreglerade Torne–Muonio-älvsystemet, aapamyrar och svala skogar.',
     hero: {
       eyebrow: 'Pelarguide',
       title: 'Sötvatten i Lappland',

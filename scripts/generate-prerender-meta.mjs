@@ -14,10 +14,19 @@
  * Vite SSR resolves every locale correctly (incl. EN-fallback for keys an
  * override omits — same as the live site).
  *
- * Consumed by ../_prerender_routes.mjs via --meta=scripts/prerender-meta.json
- * (tried FIRST in the auto reader order). Degrades gracefully: on any error the
- * script exits 0 with whatever it extracted, and the prerenderer falls back to
- * routes.json fallbackTitle / EN for missing entries.
+ * Consumed by scripts/_prerender_routes.mjs via --meta=scripts/prerender-meta.json
+ * (tried FIRST in the auto reader order). Degrades gracefully: on an extraction
+ * error the script exits 0 with whatever it extracted, and the prerenderer falls
+ * back to routes.json fallbackTitle / EN for missing entries.
+ *
+ * One deliberate stop (exit 1): a description outside the prerender window.
+ * scripts/_prerender_routes.mjs extends a description under 70 characters /
+ * 100 width units with the page's own sentences and cuts one over 160
+ * characters / 200 width units (ensureDescriptionLength + clampDescription; a
+ * CJK character counts as 2 width units). SEO.tsx shows the source text as it
+ * is, so a description outside that window would give search engines and share
+ * cards one text and the browser another (gate:meta-hydraatio). Fix the text in
+ * src/locales (copy.<lang>.ts / overrides.<lang>.ts), never the prerender.
  *
  * STRICTLY READ-ONLY over src/ — no source files are modified.
  */
@@ -58,6 +67,21 @@ const warnings = [];
 function warn(msg) {
   warnings.push(msg);
   console.warn(`[meta] WARN: ${msg}`);
+}
+
+// The prerender window: same character class and limits as
+// ensureDescriptionLength() + clampDescription() in scripts/_prerender_routes.mjs.
+// Inside it the prerender leaves a description untouched.
+const LEVEA = /[\u1100-\u11FF\u2E80-\uA4CF\uA960-\uA97F\uAC00-\uD7FF\uF900-\uFAFF\uFE30-\uFE4F\uFF00-\uFF60\uFFE0-\uFFE6]/;
+const leveys = (x) => [...String(x)].reduce((n, c) => n + (LEVEA.test(c) ? 2 : 1), 0);
+function outsideWindow(desc) {
+  const d = String(desc).trim();
+  const s = d.replace(/\s+/g, ' ');
+  if (d.length > 160 || leveys(d) > 200 || [...s].length > 160) {
+    return `over 160 characters / 200 width units (${d.length} / ${leveys(d)})`;
+  }
+  if (d.length < 70 && leveys(d) < 100) return `under 70 characters / 100 width units (${d.length} / ${leveys(d)})`;
+  return null;
 }
 
 async function main() {
@@ -160,10 +184,31 @@ async function main() {
     console.log(`[meta] sample / fi: ${sample.fi?.title}`);
     console.log(`[meta] sample / de: ${sample.de?.title}`);
   }
+
+  // Window check (see the header): a description the prerender would extend or
+  // cut stops the build here, before the static HTML can differ from the browser.
+  const outside = [];
+  let checked = 0;
+  for (const [path, byLang] of Object.entries(sorted)) {
+    for (const [lang, m] of Object.entries(byLang)) {
+      if (typeof m.description !== 'string') continue;
+      checked++;
+      const why = outsideWindow(m.description);
+      if (why) outside.push(`  ${lang.padEnd(5)} ${path} (${ROUTE_TO_SECTION[path]}.metaDescription): ${why}\n        ${m.description}`);
+    }
+  }
+  if (outside.length) {
+    console.error(`\n[meta] ❌ ${outside.length} description(s) outside the prerender window: the prerender would extend or cut them, and the static HTML would differ from what the browser shows.`);
+    console.error(outside.join('\n'));
+    console.error('[meta] Write each one in its own language to 70–160 characters (CJK: 100–200 width units, a CJK character = 2) in src/locales/copy.<lang>.ts or overrides.<lang>.ts.\n');
+    return false;
+  }
+  console.log(`[meta] window OK — ${checked} descriptions inside the prerender window`);
+  return true;
 }
 
 main()
-  .then(() => process.exit(0))
+  .then((ok) => process.exit(ok === false ? 1 : 0))
   .catch((err) => {
     console.error('[meta] ERROR (non-fatal, build continues with fallback titles):', err);
     process.exit(0);

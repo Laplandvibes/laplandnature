@@ -502,7 +502,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   editorial: {
     metaTitle: '编辑方针',
-    metaDescription: 'LaplandNature 如何研究、撰写并核实其拉普兰自然指南。独立性方针，以及我们如何处理联盟收入。',
+    metaDescription: 'LaplandNature 如何研究、撰写并核实其拉普兰自然指南。独立性方针，以及我们如何处理联盟收入。LaplandNature 是 LaplandVibes 网络的一部分，由一个芬兰小团队运营。',
     h1: '编辑方针',
     lastUpdated: '最近更新：2026 年 9 月',
     sections: [
@@ -596,7 +596,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   terms: {
     metaTitle: '使用条款',
-    metaDescription: '规范 LaplandNature.com 使用的条款，内容授权、联盟披露与编辑标准。由芬兰的 LaPeso Oy 运营。',
+    metaDescription: '规范 LaplandNature.com 使用的条款，内容授权、联盟披露与编辑标准。由芬兰的 LaPeso Oy 运营。访问或使用本网站，即表示您同意本条款。',
   },
   cookie: {
     metaTitle: 'Cookie 政策',

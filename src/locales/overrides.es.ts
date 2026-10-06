@@ -562,7 +562,7 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   conservation: {
     metaTitle: 'Conservación en la Laponia finlandesa',
-    metaDescription: 'Metsähallitus gestiona el 85 % de las zonas de fjäll de Laponia y todos sus parques nacionales. Además, SLL, WWF Finlandia, el Parlamento Sami y lo que permite el derecho de acceso a la naturaleza.',
+    metaDescription: 'Metsähallitus gestiona el 85 % de las zonas de fjäll de Laponia y todos sus parques nacionales.',
     hero: {
       alt: 'Pinos muertos y vivos en el bosque viejo del Kivitunturi, en Savukoski',
       eyebrow: 'Guía esencial',
@@ -639,7 +639,7 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   freshwater: {
     metaTitle: 'Agua dulce en Laponia: lagos, ríos, peces',
-    metaDescription: 'Finlandia tiene unos 188 000 lagos (SYKE). Laponia alberga los más limpios, con el río Tornio-Muonio sin regular, turberas aapa y bosques de agua fría.',
+    metaDescription: 'Finlandia tiene unos 188 000 lagos (SYKE). Laponia alberga algunos de los más limpios, con el río Tornio-Muonio sin regular, turberas aapa y bosques fríos.',
     hero: {
       eyebrow: 'Guía esencial',
       title: 'Agua dulce en Laponia',

@@ -413,7 +413,7 @@ const de: SectionCopy = {
   },
   wildlife: {
     metaTitle: 'Lapplands Tierwelt: Rentier, Bär, Vielfraß',
-    metaDescription: 'Sechs arktische Arten Finnisch-Lapplands, vom Rentier im Rentierhaltungsgebiet bis zu den vom Aussterben bedrohten Polarfüchsen und Schnee-Eulen. Status laut Roter Liste Finnlands.',
+    metaDescription: 'Sechs arktische Arten Finnisch-Lapplands, vom Rentier im Rentierhaltungsgebiet bis zu den vom Aussterben bedrohten Polarfüchsen und Schnee-Eulen.',
     hero: {
       alt: 'Rentiere an der Schulter des Saana oberhalb der Baumgrenze bei Kilpisjärvi',
       eyebrow: 'Säulen-Guide',
@@ -841,7 +841,7 @@ const de: SectionCopy = {
   },
   conservation: {
     metaTitle: 'Naturschutz in Finnisch-Lappland',
-    metaDescription: 'Metsähallitus verwaltet 85 % der Fjällgebiete Lapplands und alle seine Nationalparks. Dazu SLL, WWF Finnland, das Sámi-Parlament und was das Jedermannsrecht erlaubt.',
+    metaDescription: 'Metsähallitus verwaltet 85 % der Fjällgebiete Lapplands und alle seine Nationalparks.',
     hero: {
       alt: 'Tote und lebende Kiefern im alten Wald des Kivitunturi in Savukoski',
       eyebrow: 'Säulen-Guide',
@@ -939,7 +939,7 @@ const de: SectionCopy = {
   },
   freshwater: {
     metaTitle: 'Lapplands Süßwasser: Seen, Flüsse & Moore',
-    metaDescription: 'Finnland hat rund 188.000 Seen (SYKE). Lappland besitzt die saubersten, dazu das unregulierte Flusssystem Tornio-Muonio, Aapa-Moore und kühlende Wälder.',
+    metaDescription: 'Finnland hat rund 188.000 Seen (SYKE). Lappland birgt einige der saubersten, dazu das unregulierte Flusssystem Tornio-Muonio, Aapa-Moore und kühlende Wälder.',
     hero: {
       eyebrow: 'Säulen-Guide',
       title: 'Süßwasser Lappland',

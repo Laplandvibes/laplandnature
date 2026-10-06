@@ -802,7 +802,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   conservation: {
     metaTitle: 'Natuurbehoud in Fins Lapland',
-    metaDescription: 'Metsähallitus beheert 85 % van de fjällgebieden van Lapland en al zijn nationale parken. Plus SLL, WWF Finland, het Sami-parlement en wat het allemansrecht toestaat.',
+    metaDescription: 'Metsähallitus beheert 85 % van de fjällgebieden van Lapland en al zijn nationale parken.',
     hero: {
       alt: 'Dode en levende dennen in het oude bos van de Kivitunturi in Savukoski',
       eyebrow: 'Pijlergids',
@@ -923,7 +923,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   freshwater: {
     metaTitle: 'Zoet water in Lapland: meren, rivieren, vis',
-    metaDescription: 'Finland telt ongeveer 188.000 meren (SYKE). Lapland herbergt de schoonste, plus het ongereguleerde Tornio-Muonio, aapa-venen en bossen die het water koelen.',
+    metaDescription: 'Finland telt ongeveer 188.000 meren (SYKE). Lapland herbergt enkele van de schoonste, plus het ongereguleerde Tornio-Muonio, aapa-venen en schaduwrijke bossen.',
     hero: {
       eyebrow: 'Pijlergids',
       title: 'Zoet water in Lapland',
