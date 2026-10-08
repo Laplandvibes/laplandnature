@@ -13,7 +13,7 @@ export default function CookiePolicy() {
         description={c.metaDescription}
         canonicalPath="/cookie-policy"
       />
-      <CookieContent siteName="LaplandNature" lang={lang} />
+      <CookieContent siteId="laplandnature" siteName="LaplandNature" lang={lang} />
     </>
   )
 }
