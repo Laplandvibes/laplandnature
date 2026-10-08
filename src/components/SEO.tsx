@@ -148,15 +148,8 @@ export default function SEO({
     upsertMeta('meta[property="og:image:height"]', 'property', 'og:image:height', '630')
     upsertMeta('meta[property="og:locale"]', 'property', 'og:locale', ogLocale)
 
-    // og:locale:alternate × 10 others
-    document.head.querySelectorAll('meta[property="og:locale:alternate"][data-seo-og]').forEach((el) => el.remove())
-    SUPPORTED.filter((l) => l !== lang).forEach((l) => {
-      const m = document.createElement('meta')
-      m.setAttribute('property', 'og:locale:alternate')
-      m.setAttribute('content', OG_LOCALE[l])
-      m.setAttribute('data-seo-og', 'true')
-      document.head.appendChild(m)
-    })
+    // og:locale:alternate EI täällä (8.10.2026): esirenderöity HTML ei kirjoita sitä, ja Facebook lukee vain
+    // staattisen HTML:n, joten tämän hookin lisäämällä tagilla ei ollut lukijaa (gate:og-js "vain-js" joka sivulla).
 
     upsertMeta('meta[name="twitter:card"]', 'name', 'twitter:card', 'summary_large_image')
     upsertMeta('meta[name="twitter:title"]', 'name', 'twitter:title', title)
