@@ -45,13 +45,16 @@
 .nw .nw-h1:lang(ko){word-break:keep-all}
 .nw .nw-h1:lang(ja){word-break:auto-phrase}
 
-/* ── Juttusivun hero: kuva koko leveydelle, otsikko kuvan päällä ─────────── */
+/* ── Juttusivun hero ───────────────────────────────────────────────────────
+   14.10.2026 verkoston heromalli (feedback_hero_kuva_puhtaana_otsikko_alle): alle 1024 px kuva omana
+   kaistanaan (verkoston kaistamitat) ilman tummennusta ja teksti alla; 1024 px:stä teksti kuvan päällä. */
 .nw{--lift:64px}
-.nw .nw-art{position:relative;min-height:min(78vh,700px);display:flex;align-items:flex-end;overflow:hidden;background:#0F172A;color:#fff;padding:72px 0 calc(var(--lift) + 52px)}
+.nw .nw-art{position:relative;overflow:hidden;background:#0F172A;color:#fff;padding:0 0 calc(var(--lift) + 34px)}
+.nw .nw-art-media{position:relative;height:42svh;min-height:240px;overflow:hidden;background:#0B1220}
 .nw .nw-art-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-.nw .nw-art-scrim{position:absolute;inset:0;background:linear-gradient(to top,rgba(10,20,17,.94) 0%,rgba(10,20,17,.80) 34%,rgba(10,20,17,.26) 68%,rgba(10,20,17,.44) 100%)}
-.nw .nw-art-body{position:relative}
-.nw .nw-art .nw-h1{font-size:clamp(36px,4.8vw,62px);line-height:1;max-width:none;margin-top:10px;text-shadow:0 2px 24px rgba(0,0,0,.4)}
+.nw .nw-art-scrim{display:none}
+.nw .nw-art-body{position:relative;padding-top:22px}
+.nw .nw-art .nw-h1{font-size:clamp(36px,4.8vw,62px);line-height:1;max-width:none;margin-top:10px}
 .nw .nw-art .nw-dek{color:#EDF2F0;max-width:58ch}
 .nw .nw-art .crumbs{color:#D2DAE4}
 .nw .nw-art .crumbs a{color:#fff}
@@ -65,7 +68,7 @@
 .nw .nw-art .nw-kicker > span[aria-hidden]{display:none}
 .nw .nw-dek{font-size:clamp(17px,2.1vw,21px);line-height:1.5;max-width:60ch;margin-top:16px}
 /* Kuvaaja + lisenssi kuvan oikeassa alakulmassa, paperin nousun yläpuolella (sama ilme kuin PhotoCredit). */
-.nw .nw-art-credit{position:absolute;right:12px;bottom:calc(var(--lift) + 10px);z-index:2;margin:0;max-width:calc(100% - 24px);
+.nw .nw-art-credit{position:absolute;right:8px;bottom:8px;z-index:2;margin:0;max-width:calc(100% - 16px);
   background:rgba(0,0,0,.55);color:#fff;font-size:11px;line-height:1.45;padding:3px 9px;border-radius:6px}
 .nw .nw-art-credit a{color:#fff;text-decoration:underline;text-underline-offset:2px}
 /* Paperi nousee kuvan päälle: jutun tiedot ovat sen oma otsake, ei irtorivejä kuvan ja paperin välissä. */
@@ -77,10 +80,22 @@
 .nw .nw-dot{margin:0 9px;opacity:.55}
 .nw .nw-byline-src{margin-top:2px}
 .nw .nw-art-cap{font-size:14px;line-height:1.55;color:var(--muted);font-style:italic;margin:12px 0 0}
-@media(max-width:640px){.nw{--lift:40px}.nw .nw-art{min-height:520px;padding:64px 0 calc(var(--lift) + 50px)}
-  /* 5.10.2026 (heroteksti 320/375 px, pitkät kielet): otsikko kiertää 3–4 riville ja yläosa osui kirkkaalle taivaalle (pahin 2,2:1).
-     Puhelimella tumma ulottuu korkeammalle; tietokoneen kuva ennallaan. */
-  .nw .nw-art-scrim{background:linear-gradient(to top,rgba(10,20,17,.94) 0%,rgba(10,20,17,.86) 40%,rgba(10,20,17,.62) 75%,rgba(10,20,17,.55) 100%)}.nw .nw-byline{flex-direction:column}.nw .nw-dot{display:none}}
+@media(max-width:640px){.nw{--lift:40px}.nw .nw-byline{flex-direction:column}.nw .nw-dot{display:none}}
+/* 14.10.2026: alle 375 px 36 px:n otsikko kiersi neljälle riville (360 px: en/fi/de, es/pt-BR); 34 px:llä
+   enintään kolme riviä kaikilla 12 kielellä (puhelimessa kolme riviä saa olla, feedback_otsikot_ei_turhia_kolmirivisia). */
+@media(max-width:374.98px){.nw .nw-art .nw-h1{font-size:34px}}
+@media(min-width:640px){.nw .nw-art-media{height:380px}}
+@media(min-width:768px){.nw .nw-art-media{height:440px}}
+/* 1024 px:stä teksti kuvan päällä: yksi liukuväri tekstin puolelle (alareuna), tekstin yläpuolella kuva ilman tummennusta.
+   Alaosan arvot ennallaan (heroteksti-portti 5.10.: 0 löydöstä); yläreunan .44 pois, navi on läpinäkymätön. */
+@media(min-width:1024px){
+  .nw .nw-art{display:flex;align-items:flex-end;min-height:min(78vh,700px);padding:72px 0 calc(var(--lift) + 52px)}
+  .nw .nw-art-media{position:absolute;inset:0;height:auto;min-height:0}
+  .nw .nw-art-scrim{display:block;position:absolute;inset:0;background:linear-gradient(to top,rgba(10,20,17,.94) 0%,rgba(10,20,17,.80) 34%,rgba(10,20,17,.26) 68%,rgba(10,20,17,0) 88%)}
+  .nw .nw-art-body{padding-top:0}
+  .nw .nw-art .nw-h1{text-shadow:0 2px 24px rgba(0,0,0,.4)}
+  .nw .nw-art-credit{right:12px;bottom:calc(var(--lift) + 10px);max-width:calc(100% - 24px)}
+}
 
 /* ── Arkki: jutun runko valkoisella paperilla kermalla ───────────────────── */
 .nw .nw-sheet{max-width:800px;margin:30px auto 0;background:var(--white);border:1px solid var(--line);border-radius:22px;padding:clamp(22px,4.6vw,54px)}
