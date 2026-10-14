@@ -1,9 +1,10 @@
 {
-  "title": "Syötteen kansallispuistosta löytyi 1 549 eliölajia 24 tunnissa",
+  "title": "Syötteen kansallispuistosta 1 549 eliölajia vuorokaudessa",
   "seoTitle": "Syötteen Bioblitz: 1 549 eliölajia vuorokaudessa",
   "description": "Noin 50 asiantuntijaa etsi lajeja Syötteen kansallispuistosta vuorokauden ajan elokuussa. Yli puolta löydetyistä lajeista ei ollut aiemmin havaittu alueelta.",
   "dek": "Alueelle uusia lajeja on 829, ja löydetyistä lajeista 107 on Suomen punaisella listalla. Harvinaisimpia löytöjä olivat kaksi jäkälää, joista toinen on äärimmäisen uhanalainen.",
-  "heroAlt": "PENDING",
+  "heroAlt": "Kuolleita ja eläviä mäntyjä vanhassa metsässä Savukoskella: harmaa, kiertynyt kelo-oksa kaartuu paksun rungon ympäri, ja kaatuneita puita makaa mustikanvarvikossa.",
+  "heroCaption": "Vanhaa metsää Kivitunturilla Savukoskella.",
   "body": [
     {
       "t": "p",

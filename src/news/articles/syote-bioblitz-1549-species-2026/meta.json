@@ -2,14 +2,21 @@
   "slug": "syote-bioblitz-1549-species-2026",
   "date": "2026-10-14",
   "hero": {
-    "src": "PENDING",
-    "srcSmall": "PENDING",
-    "width": 1600,
-    "height": 900,
-    "credit": {}
-  },
-  "ogCard": {
-    "line": "1,549 species in 24 hours at Syöte"
+    "src": "/images/hero-conservation-1920.webp",
+    "srcSmall": "/images/hero-conservation-800.webp",
+    "width": 1920,
+    "height": 1280,
+    "position": "50% 45%",
+    "credit": {
+      "author": "Ximonic (Simo Räsänen)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dead_and_alive_pinetrees_of_Kivitunturi%2C_Savukoski%2C_Lapland%2C_Finland%2C_2021_June.jpg",
+      "assetId": "File:Dead and alive pinetrees of Kivitunturi, Savukoski, Lapland, Finland, 2021 June.jpg",
+      "sourceName": "Wikimedia Commons",
+      "taken": "2021-06-16",
+      "retrieved": "2026-09-26"
+    }
   },
   "sources": [
     {
