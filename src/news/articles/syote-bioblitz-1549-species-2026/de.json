@@ -1,0 +1,56 @@
+{
+  "title": "Experten fanden im Syöte-Nationalpark 1.549 Arten in 24 Stunden",
+  "seoTitle": "BioBlitz im Syöte-Nationalpark: 1.549 Arten in 24 Stunden",
+  "description": "Rund 50 Fachleute suchten im August 24 Stunden lang im Syöte-Nationalpark nach Arten. Über die Hälfte der Funde war dort zuvor nie nachgewiesen worden.",
+  "dek": "829 der Arten sind neu für das Gebiet, 107 stehen auf der Roten Liste Finnlands. Zu den seltensten Nachweisen zählten zwei Flechten, eine davon ist vom Aussterben bedroht.",
+  "heroAlt": "PENDING",
+  "body": [
+    {
+      "t": "p",
+      "text": "Rund 50 Artenexperten durchsuchten den Syöte-Nationalpark und das Wandergebiet Syöte von 12 Uhr am 14. August bis 12 Uhr am 15. August 2026. Die 24-stündige Aktion, ein von Metsähallitus Parks & Wildlife Finland veranstalteter BioBlitz, hatte 1.000 Arten zum Ziel, und das im Oktober veröffentlichte Endergebnis lag bei 1.549."
+    },
+    {
+      "t": "h2",
+      "text": "Was gefunden wurde"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "Pilze: 285 Arten, mehr als bei jedem früheren BioBlitz von Metsähallitus. Davon waren 94 Porlinge und 191 überwiegend Lamellenpilze, und 170 sind neu für den Park.",
+        "Pflanzen: 246 Arten.",
+        "Käfer: 221 Arten.",
+        "Flechten: 192 Arten, davon 25 gefährdet."
+      ]
+    },
+    {
+      "t": "p",
+      "text": "Laut dem Mykologen Tapio Kekki gab es im Sommer keine langen Trockenperioden und genug Regen. Andere Pilze als Porlinge waren in Syöte zuvor kaum untersucht worden, deshalb waren viele der gefundenen Arten neu für den Park."
+    },
+    {
+      "t": "h2",
+      "text": "Zwei seltene Flechten"
+    },
+    {
+      "t": "p",
+      "text": "In einem alten Fichtenwald an den Hängen des Sotivaara wuchs reichlich eine Flechte, die auf Finnisch sauvaneulajäkälä heißt. Sie gilt als stark gefährdet und war in Finnland zuvor nur an wenigen Stellen gefunden worden. Die vom Aussterben bedrohte Flechte lapinnyppyjäkälä wurde erstmals in Nordösterbotten nachgewiesen."
+    },
+    {
+      "t": "p",
+      "text": "Nach Angaben von Sampsa Malmberg, Naturschutzexperte bei Metsähallitus, lassen sich die Beobachtungen zum Beispiel bei der Planung von Pflege und Nutzung des Gebiets verwenden."
+    },
+    {
+      "t": "h2",
+      "text": "Wo Syöte liegt"
+    },
+    {
+      "t": "p",
+      "text": "Der Syöte-Nationalpark wurde 2000 gegründet und ist rund 300 km² groß. Er liegt in Pudasjärvi und Taivalkoski in Nordösterbotten sowie in Posio, das zu Lappland gehört."
+    },
+    {
+      "t": "link",
+      "text": "Lapplands Nationalparks und die Dörfer, die sich jeweils als Ausgangspunkt eignen, finden Sie auf unserer Seite über die Nationalparks.",
+      "label": "Nationalparks in Lappland",
+      "href": "/national-parks"
+    }
+  ]
+}

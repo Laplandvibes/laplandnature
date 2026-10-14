@@ -1,0 +1,44 @@
+{
+  "slug": "syote-bioblitz-1549-species-2026",
+  "date": "2026-10-14",
+  "hero": {
+    "src": "PENDING",
+    "srcSmall": "PENDING",
+    "width": 1600,
+    "height": 900,
+    "credit": {}
+  },
+  "ogCard": {
+    "line": "1,549 species in 24 hours at Syöte"
+  },
+  "sources": [
+    {
+      "publisher": "Metsähallitus",
+      "title": "Yhdessä vuorokaudessa löytyi yli 1500 eliölajia Syötteen kansallispuistosta",
+      "lang": "fi",
+      "url": "https://www.epressi.com/tiedotteet/ymparisto-ja-luonto/yhdessa-vuorokaudessa-loytyi-yli-1500-eliolajia-syotteen-kansallispuistosta.html",
+      "read": "2026-10-14"
+    },
+    {
+      "publisher": "Yle",
+      "title": "Yhdessä vuorokaudessa Syötteen kansallispuistosta löytyi yli 1 500 eliölajia, niistä yli puolet on alueelle uusia",
+      "lang": "fi",
+      "url": "https://yle.fi/a/74-20250436",
+      "read": "2026-10-14"
+    },
+    {
+      "publisher": "Metsähallitus",
+      "title": "Vuorokauden mittainen lajijahti jalkauttaa eliölajien huippuasiantuntijoita Syötteen kansallispuistoon 14.-15.8.2026",
+      "lang": "fi",
+      "url": "https://www.luontoon.fi/fi/ajankohtaista/vuorokauden-mittainen-lajijahti-jalkauttaa-eliolajien-huippuasiantuntijoita-syotteen-kansallispuistoon-14-1582026",
+      "date": "2026-08-07"
+    },
+    {
+      "publisher": "Maaseudun Tulevaisuus",
+      "title": "Syötteen 24 tunnin lajijahti tähtäsi kunnianhimoiseen tavoitteeseen",
+      "lang": "fi",
+      "url": "https://www.maaseuduntulevaisuus.fi/metsa/e3bf91a6-2972-4b5f-b41e-ef0ed22eec88",
+      "date": "2026-10-09"
+    }
+  ]
+}

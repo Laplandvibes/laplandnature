@@ -1,0 +1,56 @@
+{
+  "title": "Nel Parco nazionale di Syöte trovate 1.549 specie in 24 ore",
+  "seoTitle": "BioBlitz nel Parco nazionale di Syöte: 1.549 specie in 24 h",
+  "description": "Circa 50 esperti hanno esplorato il Parco nazionale di Syöte per 24 ore ad agosto. Più della metà delle specie trovate non era mai stata segnalata nella zona.",
+  "dek": "Di queste specie, 829 sono nuove per l'area e 107 figurano nella Lista Rossa finlandese. Tra le scoperte più rare ci sono due licheni, uno dei quali in pericolo critico.",
+  "heroAlt": "PENDING",
+  "body": [
+    {
+      "t": "p",
+      "text": "Circa 50 esperti naturalisti hanno esplorato il Parco nazionale di Syöte e l'area escursionistica di Syöte dalle 12 del 14 agosto alle 12 del 15 agosto 2026. L'evento di 24 ore, un BioBlitz organizzato da Metsähallitus, l'ente statale che gestisce i parchi nazionali finlandesi, puntava a trovare 1.000 specie, e il conteggio finale pubblicato a ottobre è stato di 1.549."
+    },
+    {
+      "t": "h2",
+      "text": "Che cosa è stato trovato"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "Funghi: 285 specie, più che in qualsiasi precedente BioBlitz di Metsähallitus. Di queste, 94 erano polipori e 191 per lo più funghi a lamelle, e 170 sono nuove per il parco.",
+        "Piante: 246 specie.",
+        "Coleotteri: 221 specie.",
+        "Licheni: 192 specie, di cui 25 minacciate."
+      ]
+    },
+    {
+      "t": "p",
+      "text": "Secondo il micologo Tapio Kekki, l'estate non ha avuto lunghi periodi di siccità e la pioggia è stata sufficiente. I funghi diversi dai polipori erano stati studiati pochissimo a Syöte, perciò molte delle specie trovate erano nuove per il parco."
+    },
+    {
+      "t": "h2",
+      "text": "Due licheni rari"
+    },
+    {
+      "t": "p",
+      "text": "In una vecchia foresta di abeti rossi sulle pendici del Sotivaara cresceva in abbondanza un lichene chiamato in finlandese sauvaneulajäkälä. È classificato come specie in pericolo, e in Finlandia in precedenza era stato trovato solo in pochi siti. Il lapinnyppyjäkälä, un lichene in pericolo critico, è stato osservato per la prima volta nell'Ostrobotnia settentrionale."
+    },
+    {
+      "t": "p",
+      "text": "Secondo Sampsa Malmberg, specialista della conservazione della natura presso Metsähallitus, le osservazioni possono servire per esempio a pianificare la gestione e l'uso dell'area."
+    },
+    {
+      "t": "h2",
+      "text": "Dove si trova Syöte"
+    },
+    {
+      "t": "p",
+      "text": "Il Parco nazionale di Syöte è stato istituito nel 2000 e si estende su circa 300 km². Si trova nei comuni di Pudasjärvi e Taivalkoski, nell'Ostrobotnia settentrionale, e in quello di Posio, che appartiene alla Lapponia."
+    },
+    {
+      "t": "link",
+      "text": "I parchi nazionali della Lapponia, e i villaggi da cui partire per ciascuno, sono nella nostra pagina dedicata ai parchi nazionali.",
+      "label": "Parchi nazionali della Lapponia",
+      "href": "/national-parks"
+    }
+  ]
+}
