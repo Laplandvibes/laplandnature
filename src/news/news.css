@@ -161,9 +161,16 @@
 .nw .nw-card-dek{color:var(--ink2);font-size:16px;line-height:1.55;margin:10px 0 0;flex:1}
 .nw .nw-card-more{align-self:flex-start;margin-top:16px;color:var(--link);font-weight:700;font-size:15px;text-decoration:none;border-bottom:2px solid rgba(190,24,93,.3);padding-bottom:1px}
 .nw .nw-card-wide{flex-direction:row}
-.nw .nw-card-wide .nw-card-img{flex:0 0 56%;aspect-ratio:auto;min-height:330px}
+.nw .nw-card-wide .nw-card-img{flex:0 0 46%;aspect-ratio:auto;min-height:330px}
 .nw .nw-card-wide .nw-card-body{padding:34px 36px;justify-content:center}
-.nw .nw-card-wide .nw-card-title{font-size:clamp(32px,3.2vw,44px)}
+/* 14.10.2026 (audit_otsikkorivit): leveän kortin 41–44 px:n otsikko kiersi 44 %:n palstassa kolmelle riville
+   kaikilla kielillä, ja ruudukon 32–34 px:n otsikot osin myös. Kuva 46 %, leveän otsikko enintään 34 px ja ruudukon
+   enintään 30 px ⇒ kaksi riviä 1024–1920 px:llä 12 kielellä (mitattu ennen muutosta injektoidulla CSS:llä). */
+.nw .nw-card-wide .nw-card-title{font-size:clamp(28px,2.5vw,34px)}
+@media(min-width:861px){
+  .nw .nw-grid .nw-card-title{font-size:clamp(26px,2.2vw,30px)}
+  .nw .nw-grid .nw-card-title:lang(ja),.nw .nw-grid .nw-card-title:lang(zh),.nw .nw-grid .nw-card-title:lang(ko){font-size:22px}
+}
 .nw .nw-card-wide .nw-card-dek{flex:0}
 @media(max-width:860px){
   .nw .nw-card-wide{flex-direction:column}
