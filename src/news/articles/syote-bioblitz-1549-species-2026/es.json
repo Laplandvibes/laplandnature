@@ -1,0 +1,57 @@
+{
+  "title": "1549 especies en 24 horas en el Parque nacional de Syöte",
+  "seoTitle": "Parque nacional de Syöte: 1549 especies en 24 horas",
+  "description": "Unos 50 expertos buscaron especies en el Parque nacional de Syöte durante 24 horas en agosto. Más de la mitad nunca se habían registrado antes en la zona.",
+  "dek": "Del total, 829 especies son nuevas en la zona y 107 figuran en la Lista Roja de Finlandia. Entre los hallazgos más raros hubo dos líquenes, uno de ellos en peligro crítico.",
+  "heroAlt": "Pinos muertos y vivos en un bosque viejo de Savukoski: una rama seca, gris y retorcida, se enrosca alrededor de un tronco grueso, y hay árboles caídos sobre el sotobosque de arándanos.",
+  "heroCaption": "Bosque viejo del Kivitunturi, en Savukoski, Laponia.",
+  "body": [
+    {
+      "t": "p",
+      "text": "Unos 50 expertos en identificación de especies recorrieron el Parque nacional de Syöte y el área de senderismo de Syöte desde las 12:00 del 14 de agosto hasta las 12:00 del 15 de agosto de 2026. Este evento de 24 horas, un BioBlitz organizado por Parks & Wildlife Finland, la unidad de Metsähallitus que gestiona los parques nacionales de Finlandia, tenía como meta encontrar 1000 especies, y el recuento final, publicado en octubre, fue de 1549."
+    },
+    {
+      "t": "h2",
+      "text": "Qué encontraron"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "Hongos: 285 especies, más que en cualquier BioBlitz anterior de Metsähallitus. De ellas, 94 eran políporos y 191, en su mayoría, hongos con láminas; 170 son nuevas para el parque.",
+        "Plantas: 246 especies.",
+        "Escarabajos: 221 especies.",
+        "Líquenes: 192 especies, 25 de ellas amenazadas."
+      ]
+    },
+    {
+      "t": "p",
+      "text": "Según el micólogo Tapio Kekki, el verano no tuvo largos periodos secos y llovió lo suficiente. Los hongos que no son políporos apenas se habían estudiado en Syöte, así que muchas de las especies encontradas eran nuevas para el parque."
+    },
+    {
+      "t": "h2",
+      "text": "Dos líquenes raros"
+    },
+    {
+      "t": "p",
+      "text": "En un viejo bosque de abetos rojos de las laderas de Sotivaara crecía en abundancia un liquen que en finés se llama sauvaneulajäkälä. Está clasificado como especie en peligro, y en Finlandia solo se había encontrado antes en unos pocos lugares. El lapinnyppyjäkälä, un liquen en peligro crítico, se registró por primera vez en Ostrobotnia del Norte."
+    },
+    {
+      "t": "p",
+      "text": "Según Sampsa Malmberg, especialista en conservación de Metsähallitus, las observaciones pueden servir, por ejemplo, para planificar la gestión y el uso de la zona."
+    },
+    {
+      "t": "h2",
+      "text": "Dónde está Syöte"
+    },
+    {
+      "t": "p",
+      "text": "El Parque nacional de Syöte se creó en el año 2000 y abarca unos 300 km². Se extiende por Pudasjärvi y Taivalkoski, en Ostrobotnia del Norte, y por Posio, que pertenece a Laponia."
+    },
+    {
+      "t": "link",
+      "text": "Los parques nacionales de Laponia, y el pueblo desde el que conviene visitar cada uno, están en nuestra página de parques nacionales.",
+      "label": "Parques nacionales de Laponia",
+      "href": "/national-parks"
+    }
+  ]
+}

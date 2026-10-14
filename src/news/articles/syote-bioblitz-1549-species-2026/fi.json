@@ -1,0 +1,57 @@
+{
+  "title": "Syötteen kansallispuistosta 1 549 eliölajia vuorokaudessa",
+  "seoTitle": "Syötteen Bioblitz: 1 549 eliölajia vuorokaudessa",
+  "description": "Noin 50 asiantuntijaa etsi lajeja Syötteen kansallispuistosta vuorokauden ajan elokuussa. Yli puolta löydetyistä lajeista ei ollut aiemmin havaittu alueelta.",
+  "dek": "Alueelle uusia lajeja on 829, ja löydetyistä lajeista 107 on Suomen punaisella listalla. Harvinaisimpia löytöjä olivat kaksi jäkälää, joista toinen on äärimmäisen uhanalainen.",
+  "heroAlt": "Kuolleita ja eläviä mäntyjä vanhassa metsässä Savukoskella: harmaa, kiertynyt kelo-oksa kaartuu paksun rungon ympäri, ja kaatuneita puita makaa mustikanvarvikossa.",
+  "heroCaption": "Vanhaa metsää Kivitunturilla Savukoskella.",
+  "body": [
+    {
+      "t": "p",
+      "text": "Noin 50 lajiasiantuntijaa kartoitti Syötteen kansallispuistoa ja Syötteen retkeilyaluetta 14. elokuuta kello 12 – 15. elokuuta 2026 kello 12. Metsähallituksen Luontopalvelujen järjestämän 24 tunnin Bioblitz-lajijahdin tavoite oli löytää 1 000 lajia, ja lokakuussa julkaistu lopullinen tulos oli 1 549."
+    },
+    {
+      "t": "h2",
+      "text": "Mitä löytyi"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "Sieniä 285 lajia, enemmän kuin yhdessäkään aiemmassa Metsähallituksen Bioblitzissä. Kääpiä niistä oli 94 ja enimmäkseen helttasieniä 191, ja puistolle uusia on 170.",
+        "Kasveja 246 lajia.",
+        "Kovakuoriaisia 221 lajia.",
+        "Jäkäliä 192 lajia, joista 25 on uhanalaisia."
+      ]
+    },
+    {
+      "t": "p",
+      "text": "Sieniasiantuntija Tapio Kekin mukaan kesällä ei ollut pitkiä kuivia jaksoja ja sadetta tuli riittävästi. Muita sieniä kuin kääpiä oli Syötteellä tutkittu aiemmin hyvin vähän, joten puistolle uusia lajeja löytyi paljon."
+    },
+    {
+      "t": "h2",
+      "text": "Kaksi harvinaista jäkälää"
+    },
+    {
+      "t": "p",
+      "text": "Sotivaaran rinteen vanhassa kuusikossa kasvoi runsaasti sauvaneulajäkälää. Se on luokiteltu erittäin uhanalaiseksi, ja Suomesta se on löydetty aiemmin vain muutamalta paikalta. Äärimmäisen uhanalaisesta lapinnyppyjäkälästä tehtiin ensimmäinen havainto Pohjois-Pohjanmaalla."
+    },
+    {
+      "t": "p",
+      "text": "Metsähallituksen luonnonsuojelun erityisasiantuntijan Sampsa Malmbergin mukaan havaintoja voidaan käyttää esimerkiksi alueen hoidon ja käytön suunnittelussa."
+    },
+    {
+      "t": "h2",
+      "text": "Missä Syöte on"
+    },
+    {
+      "t": "p",
+      "text": "Syötteen kansallispuisto perustettiin vuonna 2000, ja sen pinta-ala on noin 300 km². Puisto sijaitsee Pohjois-Pohjanmaalla Pudasjärven ja Taivalkosken alueella sekä Lapin maakuntaan kuuluvassa Posiossa."
+    },
+    {
+      "t": "link",
+      "text": "Lapin kansallispuistot ja kylät, joista kuhunkin on helpointa lähteä, löydät kansallispuistosivultamme.",
+      "label": "Lapin kansallispuistot",
+      "href": "/national-parks"
+    }
+  ]
+}

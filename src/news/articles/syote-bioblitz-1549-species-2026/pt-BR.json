@@ -1,0 +1,57 @@
+{
+  "title": "1.549 espécies em 24 horas no Parque Nacional de Syöte",
+  "seoTitle": "Parque Nacional de Syöte: 1.549 espécies em 24 horas",
+  "description": "Cerca de 50 especialistas procuraram espécies no Parque Nacional de Syöte por 24 horas em agosto. Mais da metade nunca tinha sido registrada na área.",
+  "dek": "Do total, 829 espécies são novas na área e 107 constam da Lista Vermelha da Finlândia. Entre os achados mais raros estavam dois líquens, um deles criticamente em perigo.",
+  "heroAlt": "Pinheiros mortos e vivos em uma floresta antiga em Savukoski: um galho seco, cinza e retorcido, se enrola em torno de um tronco grosso, e há árvores caídas sobre a vegetação rasteira de mirtilos.",
+  "heroCaption": "Floresta antiga do Kivitunturi, em Savukoski, na Lapônia.",
+  "body": [
+    {
+      "t": "p",
+      "text": "Cerca de 50 especialistas em identificação de espécies percorreram o Parque Nacional de Syöte e a área de trilhas de Syöte das 12:00 de 14 de agosto às 12:00 de 15 de agosto de 2026. O evento de 24 horas, um BioBlitz organizado pela Parks & Wildlife Finland, a unidade da Metsähallitus que administra os parques nacionais da Finlândia, tinha como meta encontrar 1.000 espécies, e o resultado final, divulgado em outubro, foi de 1.549."
+    },
+    {
+      "t": "h2",
+      "text": "O que foi encontrado"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "Fungos: 285 espécies, mais do que em qualquer BioBlitz anterior da Metsähallitus. Delas, 94 eram poliporos (orelhas-de-pau) e 191, em sua maioria, fungos com lamelas; 170 são novas para o parque.",
+        "Plantas: 246 espécies.",
+        "Besouros: 221 espécies.",
+        "Líquens: 192 espécies, 25 delas ameaçadas."
+      ]
+    },
+    {
+      "t": "p",
+      "text": "Segundo o micólogo Tapio Kekki, o verão não teve longos períodos de seca e choveu o suficiente. Os fungos que não são poliporos tinham sido muito pouco estudados em Syöte, por isso muitas das espécies encontradas eram novas para o parque."
+    },
+    {
+      "t": "h2",
+      "text": "Dois líquens raros"
+    },
+    {
+      "t": "p",
+      "text": "Numa floresta antiga de abetos-vermelhos nas encostas de Sotivaara, um líquen chamado em finlandês sauvaneulajäkälä crescia em abundância. Ele está classificado como em perigo, e na Finlândia só tinha sido encontrado antes em poucos locais. O lapinnyppyjäkälä, um líquen criticamente em perigo, foi registrado pela primeira vez na Ostrobótnia do Norte."
+    },
+    {
+      "t": "p",
+      "text": "Segundo Sampsa Malmberg, especialista em conservação da Metsähallitus, as observações podem ser usadas, por exemplo, no planejamento do manejo e do uso da área."
+    },
+    {
+      "t": "h2",
+      "text": "Onde fica Syöte"
+    },
+    {
+      "t": "p",
+      "text": "O Parque Nacional de Syöte foi criado em 2000 e tem cerca de 300 km². Ele fica em Pudasjärvi e Taivalkoski, na Ostrobótnia do Norte, e em Posio, que pertence à Lapônia."
+    },
+    {
+      "t": "link",
+      "text": "Os parques nacionais da Lapônia, e o vilarejo que serve de base para conhecer cada um, estão na nossa página de parques nacionais.",
+      "label": "Parques nacionais da Lapônia",
+      "href": "/national-parks"
+    }
+  ]
+}

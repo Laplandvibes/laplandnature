@@ -1605,6 +1605,56 @@
       "description": "Metsähallitus och tillståndsmyndigheten LVV anser att AA Sakatti Minings plan för att kompensera skadorna på den skyddade myren Viiankiaapa inte räcker."
     }
   },
+  "/news/syote-bioblitz-1549-species-2026": {
+    "en": {
+      "title": "Syöte National Park BioBlitz: 1,549 species in 24 hours",
+      "description": "About 50 experts searched Syöte National Park for 24 hours in August. More than half of the species they found had never been recorded in the area before."
+    },
+    "fi": {
+      "title": "Syötteen Bioblitz: 1 549 eliölajia vuorokaudessa",
+      "description": "Noin 50 asiantuntijaa etsi lajeja Syötteen kansallispuistosta vuorokauden ajan elokuussa. Yli puolta löydetyistä lajeista ei ollut aiemmin havaittu alueelta."
+    },
+    "de": {
+      "title": "BioBlitz im Syöte-Nationalpark: 1.549 Arten in 24 Stunden",
+      "description": "Rund 50 Fachleute suchten im August 24 Stunden lang im Syöte-Nationalpark nach Arten. Über die Hälfte der Funde war dort zuvor nie nachgewiesen worden."
+    },
+    "ja": {
+      "title": "シュオテ国立公園のBioBlitz：24時間で1549種",
+      "description": "8月、約50人の専門家がシュオテ国立公園で24時間にわたって生物の種を調べました。見つかった種の半数以上は、この地域でそれまで一度も記録されたことのないものでした。"
+    },
+    "es": {
+      "title": "Parque nacional de Syöte: 1549 especies en 24 horas",
+      "description": "Unos 50 expertos buscaron especies en el Parque nacional de Syöte durante 24 horas en agosto. Más de la mitad nunca se habían registrado antes en la zona."
+    },
+    "pt-BR": {
+      "title": "Parque Nacional de Syöte: 1.549 espécies em 24 horas",
+      "description": "Cerca de 50 especialistas procuraram espécies no Parque Nacional de Syöte por 24 horas em agosto. Mais da metade nunca tinha sido registrada na área."
+    },
+    "zh-CN": {
+      "title": "Syöte国家公园BioBlitz：24小时1549个物种",
+      "description": "8月，约50名专家在芬兰北部的Syöte国家公园连续24小时开展物种调查。在他们找到的所有物种中，有一半以上此前从未在该地区留下过任何记录。"
+    },
+    "ko": {
+      "title": "쉬외테 국립공원 BioBlitz: 24시간 동안 1549종",
+      "description": "8월에 전문가 약 50명이 24시간 동안 쉬외테 국립공원에서 생물종을 조사했습니다. 발견된 종의 절반 이상은 이 지역에서 한 번도 기록된 적이 없던 종입니다."
+    },
+    "fr": {
+      "title": "BioBlitz au parc national de Syöte : 1 549 espèces en 24 h",
+      "description": "Environ 50 experts ont exploré le parc national de Syöte pendant 24 heures en août. Plus de la moitié des espèces relevées n'y avaient jamais été signalées."
+    },
+    "it": {
+      "title": "BioBlitz nel Parco nazionale di Syöte: 1.549 specie in 24 h",
+      "description": "Circa 50 esperti hanno esplorato il Parco nazionale di Syöte per 24 ore ad agosto. Più della metà delle specie trovate non era mai stata segnalata nella zona."
+    },
+    "nl": {
+      "title": "BioBlitz in nationaal park Syöte: 1.549 soorten in 24 uur",
+      "description": "Ongeveer 50 experts zochten in augustus 24 uur lang naar soorten in het nationale park Syöte. Ruim de helft van de vondsten was er nooit eerder waargenomen."
+    },
+    "sv": {
+      "title": "BioBlitz i Syöte nationalpark: 1 549 arter på 24 timmar",
+      "description": "Omkring 50 experter letade efter arter i Syöte nationalpark i 24 timmar i augusti. Över hälften av arterna hade aldrig tidigare påträffats i området."
+    }
+  },
   "/news/wilderness-huts-tour-groups-metsahallitus": {
     "en": {
       "title": "Open wilderness huts in Finland: rules for hikers and groups",

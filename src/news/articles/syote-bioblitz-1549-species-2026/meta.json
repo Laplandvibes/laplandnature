@@ -1,0 +1,51 @@
+{
+  "slug": "syote-bioblitz-1549-species-2026",
+  "date": "2026-10-14",
+  "hero": {
+    "src": "/images/hero-conservation-1920.webp",
+    "srcSmall": "/images/hero-conservation-800.webp",
+    "width": 1920,
+    "height": 1280,
+    "position": "50% 45%",
+    "credit": {
+      "author": "Ximonic (Simo Räsänen)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dead_and_alive_pinetrees_of_Kivitunturi%2C_Savukoski%2C_Lapland%2C_Finland%2C_2021_June.jpg",
+      "assetId": "File:Dead and alive pinetrees of Kivitunturi, Savukoski, Lapland, Finland, 2021 June.jpg",
+      "sourceName": "Wikimedia Commons",
+      "taken": "2021-06-16",
+      "retrieved": "2026-09-26"
+    }
+  },
+  "sources": [
+    {
+      "publisher": "Metsähallitus",
+      "title": "Yhdessä vuorokaudessa löytyi yli 1500 eliölajia Syötteen kansallispuistosta",
+      "lang": "fi",
+      "url": "https://www.epressi.com/tiedotteet/ymparisto-ja-luonto/yhdessa-vuorokaudessa-loytyi-yli-1500-eliolajia-syotteen-kansallispuistosta.html",
+      "read": "2026-10-14"
+    },
+    {
+      "publisher": "Yle",
+      "title": "Yhdessä vuorokaudessa Syötteen kansallispuistosta löytyi yli 1 500 eliölajia, niistä yli puolet on alueelle uusia",
+      "lang": "fi",
+      "url": "https://yle.fi/a/74-20250436",
+      "read": "2026-10-14"
+    },
+    {
+      "publisher": "Metsähallitus",
+      "title": "Vuorokauden mittainen lajijahti jalkauttaa eliölajien huippuasiantuntijoita Syötteen kansallispuistoon 14.-15.8.2026",
+      "lang": "fi",
+      "url": "https://www.luontoon.fi/fi/ajankohtaista/vuorokauden-mittainen-lajijahti-jalkauttaa-eliolajien-huippuasiantuntijoita-syotteen-kansallispuistoon-14-1582026",
+      "date": "2026-08-07"
+    },
+    {
+      "publisher": "Maaseudun Tulevaisuus",
+      "title": "Syötteen 24 tunnin lajijahti tähtäsi kunnianhimoiseen tavoitteeseen",
+      "lang": "fi",
+      "url": "https://www.maaseuduntulevaisuus.fi/metsa/e3bf91a6-2972-4b5f-b41e-ef0ed22eec88",
+      "date": "2026-10-09"
+    }
+  ]
+}
