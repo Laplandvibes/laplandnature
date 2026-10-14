@@ -60,41 +60,46 @@ function ArticleView({ meta }: { meta: NewsMeta }) {
       {/* Sama hero kuin laplandflightsissa 23.9.2026 alkaen (Vesa: "uutiset-osion hero-osio on
           ihan kamala"): kuva koko leveydelle, otsikko + ingressi kuvan päällä alareunan
           liukuvärin varassa, kirjoittaja- ja kuvatiedot kuvan alla. Kuvatiedostoa ei rajata —
-          16:9-kehys on näyttörajaus ja object-position pitää kohteen kuvassa. */}
+          16:9-kehys on näyttörajaus ja object-position pitää kohteen kuvassa.
+          14.10.2026: kuva, liukuväri ja krediitti omassa kääreessään (.nw-art-media), jotta
+          verkoston heromalli toimii: alle 1024 px kuva omana kaistanaan ilman tummennusta ja
+          teksti sen alla, 1024 px:stä teksti kuvan päällä (news.css). */}
       <header className="nw-art">
-        {/* 26.9.2026: 2400 px -versio ja AVIF, kun jutulla ne on — 1600 px venyi 2 000 px:n näytöllä. */}
-        <picture>
-          {meta.hero.avif && (
+        <div className="nw-art-media" data-lv-tp-tausta="hero">
+          {/* 26.9.2026: 2400 px -versio ja AVIF, kun jutulla ne on — 1600 px venyi 2 000 px:n näytöllä. */}
+          <picture>
+            {meta.hero.avif && (
+              <source
+                type="image/avif"
+                sizes="100vw"
+                srcSet={`${meta.hero.avif.small} 800w, ${meta.hero.avif.src} 1600w, ${meta.hero.avif.large} 2400w`}
+              />
+            )}
+            {/* webp-sarja omana sourcenaan, <img>:ssä vain src: kun sarja oli img:n srcSetissä,
+                puhelin latasi sekä 1600 px webp:n että avifin (mitattu 26.9.2026). */}
             <source
-              type="image/avif"
+              type="image/webp"
               sizes="100vw"
-              srcSet={`${meta.hero.avif.small} 800w, ${meta.hero.avif.src} 1600w, ${meta.hero.avif.large} 2400w`}
+              srcSet={`${meta.hero.srcSmall} 800w, ${meta.hero.src} 1600w${meta.hero.srcLarge ? `, ${meta.hero.srcLarge} 2400w` : ''}`}
             />
-          )}
-          {/* webp-sarja omana sourcenaan, <img>:ssä vain src: kun sarja oli img:n srcSetissä,
-              puhelin latasi sekä 1600 px webp:n että avifin (mitattu 26.9.2026). */}
-          <source
-            type="image/webp"
-            sizes="100vw"
-            srcSet={`${meta.hero.srcSmall} 800w, ${meta.hero.src} 1600w${meta.hero.srcLarge ? `, ${meta.hero.srcLarge} 2400w` : ''}`}
-          />
-          <img
-            className="nw-art-img"
-            src={meta.hero.src}
-            width={meta.hero.width}
-            height={meta.hero.height}
-            alt={text.heroAlt}
-            fetchPriority="high"
-            decoding="async"
-            style={meta.hero.position ? { objectPosition: meta.hero.position } : undefined}
-          />
-        </picture>
-        <div className="nw-art-scrim" aria-hidden="true" />
-        {/* Kuvaaja + lisenssi kuvan oikeaan alakulmaan, kuten sivuston muissa kuvissa (PhotoCredit). */}
-        <p className="nw-art-credit">
-          {ui.ui.photo}: <a href={credit.sourceUrl} target="_blank" rel="noopener">{credit.author} / {credit.sourceName}</a>,{' '}
-          <a href={credit.licenseUrl} target="_blank" rel="noopener license">{credit.license}</a>
-        </p>
+            <img
+              className="nw-art-img"
+              src={meta.hero.src}
+              width={meta.hero.width}
+              height={meta.hero.height}
+              alt={text.heroAlt}
+              fetchPriority="high"
+              decoding="async"
+              style={meta.hero.position ? { objectPosition: meta.hero.position } : undefined}
+            />
+          </picture>
+          <div className="nw-art-scrim" aria-hidden="true" />
+          {/* Kuvaaja + lisenssi kuvan oikeaan alakulmaan, kuten sivuston muissa kuvissa (PhotoCredit). */}
+          <p className="nw-art-credit">
+            {ui.ui.photo}: <a href={credit.sourceUrl} target="_blank" rel="noopener">{credit.author} / {credit.sourceName}</a>,{' '}
+            <a href={credit.licenseUrl} target="_blank" rel="noopener license">{credit.license}</a>
+          </p>
+        </div>
         <div className="wrap nw-narrow nw-art-body">
           <nav className="crumbs" aria-label="Breadcrumb">
             <span><Link to={to('/')}>{ui.ui.home}</Link></span>
