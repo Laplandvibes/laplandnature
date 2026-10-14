@@ -17,10 +17,10 @@ import type { NewsMeta } from './types';
  *                kumpi täyttää rivit (jäännös 0 kolmella ⇒ 3, muuten 2)
  */
 export function layoutFor(n: number): { featured: boolean; cols: 2 | 3 } {
+  // 14.10.2026: aina kaksi palstaa. Kolmen palstan 299 px:n kortissa otsikko kiersi 3–4 riville
+  // (audit_otsikkorivit). Uusin leveänä vain kun loput täyttävät rivit pareittain (pariton määrä).
   if (n <= 1) return { featured: true, cols: 2 };
-  if (n === 2) return { featured: false, cols: 2 };
-  const rest = n - 1;
-  return { featured: true, cols: rest % 3 === 0 ? 3 : 2 };
+  return { featured: n % 2 === 1, cols: 2 };
 }
 
 export default function NewsIndex() {

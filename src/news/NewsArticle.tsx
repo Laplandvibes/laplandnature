@@ -21,7 +21,9 @@ function ArticleView({ meta }: { meta: NewsMeta }) {
   const text = use(loadText(meta.slug, lang));
   const ui = use(loadUi(lang));
   const all = use(loadAllTexts(lang));
-  const others = ARTICLES.filter((a) => a.slug !== meta.slug).slice(0, 3);
+  // 14.10.2026: kaksi juttua kahteen palstaan (oli kolme kolmeen): 299 px:n palstassa 34 px:n otsikko kiersi
+  // kolmelle riville useimmilla kielillä (audit_otsikkorivit, feedback_otsikot_ei_turhia_kolmirivisia).
+  const others = ARTICLES.filter((a) => a.slug !== meta.slug).slice(0, 2);
   const path = `${SITE.path}/${meta.slug}`;
   const canonical = `${SITE.origin}${to(path)}/`;
   const image = `${SITE.origin}${meta.hero.src}`;
@@ -166,7 +168,7 @@ function ArticleView({ meta }: { meta: NewsMeta }) {
             {others.length === 1 ? (
               <NewsCard meta={others[0]} text={all[others[0].slug]} ui={ui} surface="related" wide />
             ) : (
-              <div className={`nw-grid nw-grid-${others.length === 3 ? 3 : 2}`}>
+              <div className="nw-grid nw-grid-2">
                 {others.map((o) => <NewsCard key={o.slug} meta={o} text={all[o.slug]} ui={ui} surface="related" />)}
               </div>
             )}
