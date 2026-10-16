@@ -1,0 +1,81 @@
+{
+  "slug": "tornio-river-water-level-live-haparanda",
+  "date": "2026-10-16",
+  "hero": {
+    "src": "/images/news/tornio-river-flood-1600.webp",
+    "srcSmall": "/images/news/tornio-river-flood-800.webp",
+    "srcLarge": "/images/news/tornio-river-flood-2400.webp",
+    "avif": {
+      "small": "/images/news/tornio-river-flood-800.avif",
+      "src": "/images/news/tornio-river-flood-1600.avif",
+      "large": "/images/news/tornio-river-flood-2400.avif"
+    },
+    "width": 1600,
+    "height": 1200,
+    "position": "50% 50%",
+    "credit": {
+      "author": "Methem (Mikko J. Putkonen)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Torne_River_flooding_in_Tornio_20230521_014.jpg",
+      "assetId": "File:Torne River flooding in Tornio 20230521 014.jpg",
+      "sourceName": "Wikimedia Commons",
+      "taken": "2023-05-21",
+      "retrieved": "2026-10-16"
+    }
+  },
+  "sources": [
+    {
+      "publisher": "Haparanda stad",
+      "title": "Följ vattennivån i Torne älv – i realtid",
+      "lang": "sv",
+      "url": "https://www.haparanda.se/nyheter/nyheter/2026-10-09-folj-vattennivan-i-torne-alv---i-realtid",
+      "date": "2026-10-09"
+    },
+    {
+      "publisher": "Haparanda stad",
+      "title": "Vattennivån i Torneälven",
+      "lang": "sv",
+      "url": "https://www.haparanda.se/kommun-och-politik/sakerhet-och-trygghet/vattennivan-i-tornealven",
+      "read": "2026-10-16"
+    },
+    {
+      "publisher": "Haparanda stad / Intoto",
+      "title": "Lär känna Torneälven",
+      "lang": "sv",
+      "url": "https://my.intoto.io/sv/haparanda",
+      "read": "2026-10-16"
+    },
+    {
+      "publisher": "SMHI",
+      "title": "Islossning i Torneälven (Hydrologi nr 118)",
+      "lang": "sv",
+      "url": "https://www.smhi.se/download/18.7e3bfdac1919d93368c91c2/1726232901327/SMHI%20Rapport%20-%20Islossning%20i%20Torne%C3%A4lven.pdf",
+      "read": "2026-10-16"
+    },
+    {
+      "publisher": "Lapin ELY-keskus, Länsstyrelsen i Norrbottens län, Suomalais-ruotsalainen rajajokikomissio",
+      "title": "Tulvaopas Tornionlaakso",
+      "lang": "fi",
+      "url": "https://www.doria.fi/bitstream/10024/186900/1/Tulva_opas_Tornionlaakso_FI_20230317.pdf",
+      "date": "2023-03-17"
+    },
+    {
+      "publisher": "Suomen ympäristökeskus",
+      "title": "Reaaliaikainen seuranta: Lappi",
+      "lang": "fi",
+      "url": "https://wwwi3.ymparisto.fi/i3/realtime/LAP.htm",
+      "read": "2026-10-16"
+    },
+    {
+      "publisher": "Lapin Kansa / Lounais-Lappi",
+      "title": "Tulvaseuranta Tornionjoella paranee",
+      "lang": "fi",
+      "url": "https://www.lapinkansa.fi/tulvaseuranta-tornionjoella-paranee/13707450",
+      "date": "2026-10-16"
+    }
+  ],
+  "ogCard": {
+    "line": "Tornio River levels, live"
+  }
+}

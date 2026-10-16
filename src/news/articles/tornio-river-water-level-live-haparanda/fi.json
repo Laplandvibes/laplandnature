@@ -1,0 +1,64 @@
+{
+  "title": "Tornionjoen vedenkorkeutta voi nyt seurata reaaliajassa myös jokisuulla",
+  "seoTitle": "Tornionjoen vedenkorkeus reaaliajassa myös jokisuulla",
+  "description": "Haaparannan kunta asensi Tornionjoen suulle tutka-antureita. Lukemat näkyvät netissä, ja niillä halutaan huomata tulvariski ajoissa erityisesti keväällä.",
+  "dek": "Haaparannan uudessa karttapalvelussa on yhdeksän mittauspistettä jokisuulta Pajalaan. Neljällä jokisuun asemalla on omat varoitusrajat.",
+  "heroAlt": "Tornionjoki tulvillaan toukokuussa: vesi peittää rantakoivujen tyvet, ja taustalla joen ylittää pitkä maantiesilta.",
+  "heroCaption": "Kevättulva Tornionjoessa Torniossa toukokuussa 2023.",
+  "body": [
+    {
+      "t": "p",
+      "text": "Joen Ruotsin puolella oleva Haaparannan kunta on asentanut Tornionjoen varteen antureita, jotka mittaavat joen vedenkorkeutta tutkalla. Kunta kertoi palvelusta 9. lokakuuta, ja lukemat näkyvät sen verkkosivulla reaaliajassa."
+    },
+    {
+      "t": "p",
+      "text": "Kunnan mukaan tarkoitus on huomata merkit mahdollisesta tulvariskistä ajoissa, jotta kunta voi nostaa valmiuttaan, ja antaa joen lähellä asuville ja liikkuville mahdollisuus seurata tilannetta itse, etenkin kevättulvan aikana. Mittaukset toimivat myös ylimääräisenä tarkistuspisteenä golfkentän pohjoispuolisella tulvapenkereellä."
+    },
+    {
+      "t": "h2",
+      "text": "Mitä palvelussa näkyy"
+    },
+    {
+      "t": "p",
+      "text": "Kartalla on yhdeksän mittauspistettä. Neljä niistä on jokisuulla Haaparannan kohdalla: Skyddsvallen, EU-parken, Strandcafé ja Tjärhovet. Loput viisi ovat ylempänä vesistössä, esimerkiksi Övertorneåssa, Pellossa ja Pajalassa, ja kahdesta niistä näkyy virtaama."
+    },
+    {
+      "t": "ul",
+      "items": [
+        "Nuoli kertoo, nouseeko vai laskeeko vesi.",
+        "Väri kertoo, onko lukema matala vai korkea aseman aiempiin mittauksiin verrattuna. Korkea lukema ei palvelun mukaan tarkoita automaattisesti vaaraa.",
+        "Jokisuun neljällä asemalla on lisäksi varoitusrajat. Keltainen reunus tarkoittaa, että vesi on noin metrin vaaratason alapuolella."
+      ]
+    },
+    {
+      "t": "p",
+      "text": "Palvelu muistuttaa tarkistamaan, milloin lukema on päivittynyt, koska tilanne joessa voi muuttua nopeasti. Tulvan aikana pitää seurata myös Haaparannan kunnan ja viranomaisten tiedotteita."
+    },
+    {
+      "t": "h2",
+      "text": "Miksi juuri jokisuu"
+    },
+    {
+      "t": "p",
+      "text": "Ruotsin ilmatieteen ja hydrologian laitoksen SMHI:n mukaan Tornionjoen erityinen ongelma ovat jääpadot jokisuulla. Merijää pysyy paikallaan pidempään kuin jokijää, ja kun jokijää lähtee liikkeelle, se voi pysähtyä merijäähän ja padota veden. Vuonna 1990 vesi nousi näin joen alajuoksulla 3,2 metriä tavallista korkeammalle."
+    },
+    {
+      "t": "p",
+      "text": "Tornionlaakson tulvaoppaan mukaan tulvavahinkojen riski Tornion alueella syntyy, kun vedenkorkeus Tornion havaintoasemalla ylittää tason N2000+4,20 metriä."
+    },
+    {
+      "t": "h2",
+      "text": "Suomen puolen lukemat"
+    },
+    {
+      "t": "p",
+      "text": "Suomen ympäristökeskus mittaa vedenkorkeutta Tornion kaupungin kohdalla. Lukemat ja kolmen päivän ennusteen näkee vesi.fi-karttapalvelusta, ja ympäristökeskuksen reaaliaikaisessa seurannassa ovat myös Kukkolankosken, Matkakosken ja Pellon asemat."
+    },
+    {
+      "t": "link",
+      "text": "Miksi rakentamaton Tornion–Muonionjoen vesistö on pohjoisen luonnolle tärkeä, kerromme vesistösivullamme.",
+      "label": "Vesistöt ja kalakannat",
+      "href": "/freshwater"
+    }
+  ]
+}

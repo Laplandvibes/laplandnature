@@ -646,5 +646,167 @@
         "samaKuinKesa": true
       }
     }
+  },
+  "news-kuusinkijoki-catchment-restoration-kuusamo": {
+    "route": "/news/kuusinkijoki-catchment-restoration-kuusamo",
+    "line": "Restoring the Kuusinkijoki catchment",
+    "kaudet": {
+      "summer": {
+        "hero": "/images/news/kapykoski-kuusinkijoki-1600.webp",
+        "bytes": 235429,
+        "sha256": "f1222e4fc2bbc78a653072914db805a262be8c379d6da8f055a2b56956e9d790",
+        "heroSha": "9132db10ab27c569",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 17604,
+        "inkBox": [
+          342,
+          494,
+          858,
+          603
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 85.3,
+        "centerSq": 88.7,
+        "photoRegion": 102.5,
+        "photoRegionRef": 102.5,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 518,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": []
+      },
+      "winter": {
+        "hero": "/images/news/kapykoski-kuusinkijoki-1600.webp",
+        "bytes": 235429,
+        "sha256": "f1222e4fc2bbc78a653072914db805a262be8c379d6da8f055a2b56956e9d790",
+        "heroSha": "9132db10ab27c569",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 17604,
+        "inkBox": [
+          342,
+          494,
+          858,
+          603
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 85.3,
+        "centerSq": 88.7,
+        "photoRegion": 102.5,
+        "photoRegionRef": 102.5,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 518,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": [],
+        "samaKuinKesa": true
+      }
+    }
+  },
+  "news-tornio-river-water-level-live-haparanda": {
+    "route": "/news/tornio-river-water-level-live-haparanda",
+    "line": "Tornio River levels, live",
+    "kaudet": {
+      "summer": {
+        "hero": "/images/news/tornio-river-flood-1600.webp",
+        "bytes": 169980,
+        "sha256": "cdfaf010324ef4a0a6452fde210b75b24c99d1ed5d8573222b1f35deaabeee3e",
+        "heroSha": "939ace498b899774",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 15341,
+        "inkBox": [
+          392,
+          494,
+          806,
+          600
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 98.9,
+        "centerSq": 108,
+        "photoRegion": 121.7,
+        "photoRegionRef": 121.7,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 309,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": []
+      },
+      "winter": {
+        "hero": "/images/news/tornio-river-flood-1600.webp",
+        "bytes": 169980,
+        "sha256": "cdfaf010324ef4a0a6452fde210b75b24c99d1ed5d8573222b1f35deaabeee3e",
+        "heroSha": "939ace498b899774",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 15341,
+        "inkBox": [
+          392,
+          494,
+          806,
+          600
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 98.9,
+        "centerSq": 108,
+        "photoRegion": 121.7,
+        "photoRegionRef": 121.7,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 309,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": [],
+        "samaKuinKesa": true
+      }
+    }
   }
 }

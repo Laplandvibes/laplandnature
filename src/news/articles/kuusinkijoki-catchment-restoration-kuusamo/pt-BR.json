@@ -1,0 +1,64 @@
+{
+  "title": "Começa em Kuusamo a restauração da bacia do rio Kuusinkijoki",
+  "seoTitle": "Kuusinkijoki: turfeiras e campos da bacia são restaurados",
+  "description": "Uma associação local dedicada ao rio e a empresa Hiilipörssi bloqueiam valas em turfeiras e criam áreas úmidas para que menos húmus e nutrientes cheguem ao rio.",
+  "dek": "A água do rio escureceu 58% desde a década de 1970. O trabalho começa pelas valas das turfeiras e pelas áreas úmidas da bacia de Kiitämä, perto da fronteira leste da Finlândia.",
+  "heroAlt": "As corredeiras de Käpykoski, no rio Kuusinkijoki, em um dia de verão: a água se agita entre as pedras, e nas duas margens cresce uma floresta densa de abetos e bétulas.",
+  "heroCaption": "As corredeiras de Käpykoski, no rio Kuusinkijoki, em Kuusamo.",
+  "body": [
+    {
+      "t": "p",
+      "text": "Em Kuusamo, começaram os trabalhos de restauração da bacia do rio Kuusinkijoki. A associação local Kuusinkijoki kuntoon ry, dedicada ao rio, deu início às obras no vilarejo de Hänninen, às margens do lago Kiitämäjärvi, e tem como meta restaurar toda a bacia."
+    },
+    {
+      "t": "h2",
+      "text": "Por que o rio precisa disso"
+    },
+    {
+      "t": "p",
+      "text": "O Kuusinkijoki é conhecido pelo tímalo e pela truta-marrom lacustre, e, segundo a associação, a água do seu leito principal ainda é, em sua maior parte, de excelente qualidade. Um estudo encomendado para o projeto, no entanto, constatou que, em relação à década de 1970, a carga de fósforo tinha aumentado 28% e a água tinha escurecido 58%."
+    },
+    {
+      "t": "p",
+      "text": "Segundo Matti Aikio, presidente da associação, as valas de drenagem florestal e os campos abandonados sobrecarregam o rio de forma lenta, mas traiçoeira, e vale a pena agir agora, enquanto a água ainda está em boas condições."
+    },
+    {
+      "t": "h2",
+      "text": "O que está sendo feito"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "Nas turfeiras drenadas, as valas são bloqueadas e árvores são retiradas, para que o nível da água na turfeira volte a subir.",
+        "Em campos que deixaram de ser cultivados, são construídas áreas úmidas para proteger a água e para as aves.",
+        "Quando a água corre mais devagar, os sólidos em suspensão se depositam e os nutrientes se fixam no solo e nas plantas antes de chegar ao rio."
+      ]
+    },
+    {
+      "t": "p",
+      "text": "As turfeiras são restauradas pela Hiilipörssi Oy, uma empresa especializada na restauração de turfeiras. O trabalho é gratuito para os proprietários das terras, que ainda recebem uma compensação pela conservação. A Hiilipörssi é financiada por empresas que fazem trabalho voluntário pela natureza e pelo clima."
+    },
+    {
+      "t": "p",
+      "text": "A primeira área é a bacia de Kiitämä, perto da fronteira leste. Segundo o plano publicado em março, a meta da primeira fase é restaurar cerca de 200–400 hectares de turfeira e criar duas áreas úmidas. Depois, o trabalho segue rio abaixo, uma sub-bacia por vez."
+    },
+    {
+      "t": "h2",
+      "text": "O próximo passo depois de libertar o rio"
+    },
+    {
+      "t": "p",
+      "text": "A restauração dá continuidade ao projeto que a associação realizou entre 2020 e 2025, que abriu mais de 400 quilômetros de rotas de migração para os peixes. A principal obra foi a abertura do leito do Piilijoki, que contorna a usina hidrelétrica de Myllykoski. Esse projeto custou 5,5 milhões de euros."
+    },
+    {
+      "t": "p",
+      "text": "Segundo a Hiilipörssi, a restauração também melhora os habitats de aves aquáticas, de aves galiformes da floresta e de plantas de turfeira, como a amora-ártica e o oxicoco."
+    },
+    {
+      "t": "link",
+      "text": "Por que a água fria e limpa é uma das coisas mais valiosas da natureza do norte está explicado na nossa página sobre água doce.",
+      "label": "Água doce na Lapônia",
+      "href": "/freshwater"
+    }
+  ]
+}

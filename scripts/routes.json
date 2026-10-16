@@ -102,6 +102,36 @@
     }
   },
   {
+    "path": "/news/kuusinkijoki-catchment-restoration-kuusamo",
+    "fallbackTitle": "Kuusinkijoki river catchment restoration begins in Kuusamo",
+    "fallbackDescription": "A local river association and the company Hiilipörssi are blocking mire ditches and building wetlands so that less humus and fewer nutrients reach the river.",
+    "ogImage": "/og/news-kuusinkijoki-catchment-restoration-kuusamo.jpg",
+    "ogCard": {
+      "hero": "/images/news/kapykoski-kuusinkijoki-1600.webp",
+      "line": "Restoring the Kuusinkijoki catchment"
+    },
+    "harvestRecord": {
+      "file": "node_modules/.cache/lv-news/kuusinkijoki-catchment-restoration-kuusamo/{lang}.json",
+      "key": "kuusinkijoki-catchment-restoration-kuusamo",
+      "mode": "jsonFile"
+    }
+  },
+  {
+    "path": "/news/tornio-river-water-level-live-haparanda",
+    "fallbackTitle": "Tornio River water level live at the river mouth",
+    "fallbackDescription": "Haparanda has installed radar sensors along the Tornio River. The readings are online in real time and are meant to show flood risk early, especially in spring.",
+    "ogImage": "/og/news-tornio-river-water-level-live-haparanda.jpg",
+    "ogCard": {
+      "hero": "/images/news/tornio-river-flood-1600.webp",
+      "line": "Tornio River levels, live"
+    },
+    "harvestRecord": {
+      "file": "node_modules/.cache/lv-news/tornio-river-water-level-live-haparanda/{lang}.json",
+      "key": "tornio-river-water-level-live-haparanda",
+      "mode": "jsonFile"
+    }
+  },
+  {
     "path": "/news/syote-bioblitz-1549-species-2026",
     "fallbackTitle": "Syöte National Park BioBlitz: 1,549 species in 24 hours",
     "fallbackDescription": "About 50 experts searched Syöte National Park for 24 hours in August. More than half of the species they found had never been recorded in the area before.",

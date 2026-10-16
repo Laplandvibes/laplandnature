@@ -1,0 +1,64 @@
+{
+  "title": "Vattennivån i Torne älv kan nu följas i realtid vid mynningen",
+  "seoTitle": "Torne älv: vattennivån vid mynningen i realtid",
+  "description": "Haparanda kommun har satt upp radarsensorer längs Torne älv. Mätvärdena visas i realtid på nätet och ska varna tidigt för översvämningsrisk, särskilt på våren.",
+  "dek": "Haparandas nya karttjänst visar nio mätpunkter från älvmynningen upp till Pajala. De fyra stationerna vid mynningen har egna varningsnivåer.",
+  "heroAlt": "Torne älv svämmar över i maj: vattnet står runt foten av björkarna på stranden, och i bakgrunden korsar en lång vägbro älven.",
+  "heroCaption": "Vårflod i Torne älv i Torneå, maj 2023.",
+  "body": [
+    {
+      "t": "p",
+      "text": "Haparanda kommun, på den svenska sidan av älven, har satt upp sensorer längs Torne älv som mäter vattennivån med radar. Kommunen presenterade tjänsten den 9 oktober, och mätvärdena visas i realtid på kommunens webbplats."
+    },
+    {
+      "t": "p",
+      "text": "Enligt kommunen är syftet att tidigt upptäcka tecken på en möjlig översvämningsrisk, så att kommunen kan höja sin beredskap i god tid, och att låta den som bor eller vistas nära älven följa läget själv, särskilt under vårfloden. Mätningarna fungerar också som en extra kontrollpunkt vid översvämningsvallen norr om golfbanan."
+    },
+    {
+      "t": "h2",
+      "text": "Det här visar tjänsten"
+    },
+    {
+      "t": "p",
+      "text": "Kartan har nio mätpunkter. Fyra av dem ligger vid älvmynningen i Haparanda: Skyddsvallen, EU-parken, Strandcafé och Tjärhovet. De övriga fem ligger längre upp i älvsystemet, till exempel i Övertorneå, Pello och Pajala, och två av dem visar flödet."
+    },
+    {
+      "t": "ul",
+      "items": [
+        "Pilen visar om vattnet stiger eller sjunker.",
+        "Färgen visar om ett mätvärde är lågt eller högt jämfört med stationens tidigare mätningar. Enligt tjänsten betyder ett högt värde inte automatiskt fara.",
+        "De fyra stationerna vid mynningen har dessutom varningsnivåer. En gul ram betyder att vattnet ligger ungefär en meter under faronivån."
+      ]
+    },
+    {
+      "t": "p",
+      "text": "Tjänsten påminner om att kontrollera när ett mätvärde senast uppdaterades, eftersom läget i älven kan ändras snabbt. Följ vid översvämning också meddelandena från Haparanda kommun och myndigheterna."
+    },
+    {
+      "t": "h2",
+      "text": "Varför just mynningen"
+    },
+    {
+      "t": "p",
+      "text": "Enligt SMHI, Sveriges meteorologiska och hydrologiska institut, är isdämningar vid mynningen ett särskilt problem i Torne älv. Havsisen ligger kvar längre än älvisen, och när älvisen bryts upp kan den stanna mot havsisen och dämma upp vattnet. År 1990 steg vattnet i älvens nedre del på så sätt 3,2 meter över det normala."
+    },
+    {
+      "t": "p",
+      "text": "Enligt översvämningsguiden för Tornedalen uppstår risk för översvämningsskador i Torneåtrakten när vattennivån vid mätstationen i Torneå stiger över N2000+4,20 meter."
+    },
+    {
+      "t": "h2",
+      "text": "Mätvärden på finska sidan"
+    },
+    {
+      "t": "p",
+      "text": "Finlands miljöcentral mäter vattennivån i Torneå. Mätvärdena och en prognos för tre dygn finns i karttjänsten vesi.fi, och i miljöcentralens realtidsövervakning finns också stationerna Kukkolankoski, Matkakoski och Pello."
+    },
+    {
+      "t": "link",
+      "text": "Varför det odämda Torne–Muonio-systemet är viktigt för naturen i norr förklarar vi på vår sida om sötvatten.",
+      "label": "Sötvatten & fiskbestånd",
+      "href": "/freshwater"
+    }
+  ]
+}

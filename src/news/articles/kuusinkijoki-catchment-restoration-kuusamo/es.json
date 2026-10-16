@@ -1,0 +1,64 @@
+{
+  "title": "Comienza en Kuusamo la restauración de la cuenca del río Kuusinkijoki",
+  "seoTitle": "Río Kuusinkijoki: restauran turberas y campos de su cuenca",
+  "description": "Una asociación local dedicada al río y la empresa Hiilipörssi bloquean zanjas en turberas y crean humedales para que al río lleguen menos humus y nutrientes.",
+  "dek": "El agua del río se ha oscurecido un 58 % desde la década de 1970. Los trabajos empiezan por las zanjas de las turberas y los humedales de la cuenca de Kiitämä, cerca de la frontera oriental de Finlandia.",
+  "heroAlt": "Los rápidos de Käpykoski, en el río Kuusinkijoki, un día de verano: el agua se agita entre las rocas, y en ambas orillas crece un denso bosque de abetos y abedules.",
+  "heroCaption": "Los rápidos de Käpykoski, en el río Kuusinkijoki, en Kuusamo.",
+  "body": [
+    {
+      "t": "p",
+      "text": "En Kuusamo comenzaron los trabajos para restaurar la cuenca del río Kuusinkijoki. La asociación local Kuusinkijoki kuntoon ry, dedicada al río, empezó en el pueblo de Hänninen, junto al lago Kiitämäjärvi, y su objetivo es restaurar toda la cuenca."
+    },
+    {
+      "t": "h2",
+      "text": "Por qué el río lo necesita"
+    },
+    {
+      "t": "p",
+      "text": "El Kuusinkijoki es conocido por el tímalo y la trucha lacustre, y según la asociación el agua de su cauce principal sigue siendo en su mayor parte de excelente calidad. Sin embargo, un estudio encargado para el proyecto halló que, en comparación con la década de 1970, la carga de fósforo había aumentado un 28 % y el agua se había oscurecido un 58 %."
+    },
+    {
+      "t": "p",
+      "text": "Según Matti Aikio, presidente de la asociación, las zanjas de drenaje forestal y los campos abandonados someten al río a una carga lenta pero insidiosa, y conviene actuar ahora, mientras el agua todavía está en buen estado."
+    },
+    {
+      "t": "h2",
+      "text": "Qué se está haciendo"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "En las turberas drenadas se bloquean las zanjas y se retiran árboles para que el nivel del agua de la turbera vuelva a subir.",
+        "En campos que ya no se cultivan se construyen humedales para proteger el agua y para las aves.",
+        "Cuando el agua fluye más despacio, los sólidos en suspensión se depositan y los nutrientes se fijan al suelo y a las plantas antes de llegar al río."
+      ]
+    },
+    {
+      "t": "p",
+      "text": "Las turberas las restaura Hiilipörssi Oy, una empresa especializada en la restauración de turberas. El trabajo es gratuito para los propietarios de los terrenos, que además reciben una compensación por la protección. Hiilipörssi obtiene la financiación de empresas que realizan acciones voluntarias en favor de la naturaleza y el clima."
+    },
+    {
+      "t": "p",
+      "text": "La primera zona es la cuenca de Kiitämä, cerca de la frontera oriental. Según el plan publicado en marzo, la primera fase busca restaurar unas 200–400 hectáreas de turbera y crear dos humedales. Después, el trabajo avanzará río abajo, subcuenca por subcuenca."
+    },
+    {
+      "t": "h2",
+      "text": "El siguiente paso tras liberar el río"
+    },
+    {
+      "t": "p",
+      "text": "La restauración da continuidad al proyecto que la asociación llevó a cabo entre 2020 y 2025, que abrió más de 400 kilómetros de rutas migratorias a los peces. Su obra principal fue abrir el cauce del Piilijoki, que rodea la central hidroeléctrica de Myllykoski. Ese proyecto costó 5,5 millones de euros."
+    },
+    {
+      "t": "p",
+      "text": "Según Hiilipörssi, la restauración también mejora los hábitats de las aves acuáticas, las gallináceas del bosque y las plantas de turbera, como la mora ártica y el arándano agrio."
+    },
+    {
+      "t": "link",
+      "text": "Por qué el agua fría y limpia es uno de los bienes más valiosos de la naturaleza del norte se explica en nuestra página sobre agua dulce.",
+      "label": "Agua dulce en Laponia",
+      "href": "/freshwater"
+    }
+  ]
+}

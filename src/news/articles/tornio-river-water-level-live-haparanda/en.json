@@ -1,0 +1,64 @@
+{
+  "title": "Tornio River water levels can now be followed live at the river mouth",
+  "seoTitle": "Tornio River water level live at the river mouth",
+  "description": "Haparanda has installed radar sensors along the Tornio River. The readings are online in real time and are meant to show flood risk early, especially in spring.",
+  "dek": "Haparanda’s new map service shows nine measuring points from the river mouth up to Pajala. The four stations at the mouth have their own warning levels.",
+  "heroAlt": "The Tornio River in flood in May: water covers the bases of the birches on the bank, and a long road bridge crosses the river in the background.",
+  "heroCaption": "Spring flood on the Tornio River in Tornio, May 2023.",
+  "body": [
+    {
+      "t": "p",
+      "text": "The municipality of Haparanda, on the Swedish side of the river, has installed sensors along the Tornio River that measure its water level by radar. The municipality announced the service on 9 October, and the readings are on its website in real time."
+    },
+    {
+      "t": "p",
+      "text": "According to the municipality, the aim is to spot signs of a possible flood risk early, so that it can raise its preparedness in good time, and to let people who live or spend time near the river follow the situation themselves, especially during the spring flood. The measurements also serve as an extra check point at the flood embankment north of the golf course."
+    },
+    {
+      "t": "h2",
+      "text": "What the service shows"
+    },
+    {
+      "t": "p",
+      "text": "The map has nine measuring points. Four of them are at the river mouth in Haparanda: Skyddsvallen, EU-parken, Strandcafé and Tjärhovet. The other five are further up the river system, for example in Övertorneå, Pello and Pajala, and two of them show the flow rate."
+    },
+    {
+      "t": "ul",
+      "items": [
+        "The arrow shows whether the water is rising or falling.",
+        "The colour shows whether a reading is low or high compared with the station’s earlier measurements. According to the service, a high reading does not automatically mean danger.",
+        "The four stations at the river mouth also have warning levels. A yellow border means the water is about one metre below the danger level."
+      ]
+    },
+    {
+      "t": "p",
+      "text": "The service reminds users to check when a reading was last updated, because conditions in the river can change quickly. During a flood, follow the notices from Haparanda and the authorities as well."
+    },
+    {
+      "t": "h2",
+      "text": "Why the river mouth"
+    },
+    {
+      "t": "p",
+      "text": "According to SMHI, the Swedish Meteorological and Hydrological Institute, ice jams at the river mouth are a particular problem on the Tornio River. Sea ice stays in place longer than river ice, and when the river ice breaks up it can stop against the sea ice and dam the water. In 1990 this raised the water in the lower river 3.2 metres above its normal level."
+    },
+    {
+      "t": "p",
+      "text": "According to the flood guide for the Tornio valley, the risk of flood damage in the Tornio area begins when the water level at the Tornio gauging station rises above N2000+4.20 metres."
+    },
+    {
+      "t": "h2",
+      "text": "Readings on the Finnish side"
+    },
+    {
+      "t": "p",
+      "text": "The Finnish Environment Institute measures the water level in the town of Tornio. Its readings and a three-day forecast are on the vesi.fi map service, and the institute’s real-time monitoring also lists the Kukkolankoski, Matkakoski and Pello stations."
+    },
+    {
+      "t": "link",
+      "text": "Why the undammed Tornio–Muonio river system matters to northern nature is explained on our freshwater page.",
+      "label": "Freshwater and fish stocks",
+      "href": "/freshwater"
+    }
+  ]
+}

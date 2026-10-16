@@ -1,0 +1,64 @@
+{
+  "title": "Nível do rio Tornionjoki já pode ser acompanhado ao vivo na foz",
+  "seoTitle": "Rio Tornionjoki: nível da água ao vivo na foz",
+  "description": "Haparanda instalou sensores de radar no rio Tornionjoki. As leituras ficam online em tempo real para mostrar cedo o risco de enchente, sobretudo na primavera.",
+  "dek": "O novo serviço de mapas de Haparanda mostra nove pontos de medição, da foz até Pajala. As quatro estações da foz têm níveis de alerta próprios.",
+  "heroAlt": "O rio Tornionjoki transbordando em maio: a água cobre a base das bétulas da margem e, ao fundo, uma longa ponte rodoviária atravessa o rio.",
+  "heroCaption": "Cheia de primavera no rio Tornionjoki, em Tornio, em maio de 2023.",
+  "body": [
+    {
+      "t": "p",
+      "text": "O município de Haparanda, no lado sueco do rio, instalou ao longo do rio Tornionjoki sensores que medem o nível da água por radar. O município anunciou o serviço em 9 de outubro, e as leituras aparecem em tempo real no seu site."
+    },
+    {
+      "t": "p",
+      "text": "Segundo o município, o objetivo é perceber cedo os sinais de um possível risco de enchente, para poder reforçar a prontidão a tempo, e permitir que quem mora ou passa tempo perto do rio acompanhe a situação por conta própria, sobretudo durante a cheia de primavera. As medições também servem como ponto de verificação extra no dique de proteção contra cheias ao norte do campo de golfe."
+    },
+    {
+      "t": "h2",
+      "text": "O que o serviço mostra"
+    },
+    {
+      "t": "p",
+      "text": "O mapa tem nove pontos de medição. Quatro ficam na foz, em Haparanda: Skyddsvallen, EU-parken, Strandcafé e Tjärhovet. Os outros cinco ficam mais acima na bacia, por exemplo em Övertorneå, Pello e Pajala, e dois deles mostram a vazão."
+    },
+    {
+      "t": "ul",
+      "items": [
+        "A seta mostra se a água está subindo ou descendo.",
+        "A cor mostra se uma leitura está baixa ou alta em comparação com as medições anteriores da estação. Segundo o serviço, uma leitura alta não significa automaticamente perigo.",
+        "As quatro estações da foz também têm níveis de alerta. Uma borda amarela significa que a água está cerca de um metro abaixo do nível de perigo."
+      ]
+    },
+    {
+      "t": "p",
+      "text": "O serviço lembra de verificar quando uma leitura foi atualizada pela última vez, porque a situação no rio pode mudar rapidamente. Durante uma enchente, acompanhe também os avisos de Haparanda e das autoridades."
+    },
+    {
+      "t": "h2",
+      "text": "Por que a foz"
+    },
+    {
+      "t": "p",
+      "text": "Segundo o SMHI, o Instituto Meteorológico e Hidrológico da Suécia, as barragens de gelo na foz são um problema específico do rio Tornionjoki. O gelo marinho fica no lugar por mais tempo que o gelo do rio, e quando o gelo do rio se rompe, pode parar contra o gelo marinho e represar a água. Em 1990, isso fez a água subir 3,2 metros acima do nível normal no curso inferior do rio."
+    },
+    {
+      "t": "p",
+      "text": "Segundo o guia de enchentes do vale do Tornionjoki, o risco de danos por enchente na região de Tornio começa quando o nível da água na estação de medição de Tornio ultrapassa N2000+4,20 metros."
+    },
+    {
+      "t": "h2",
+      "text": "As leituras do lado finlandês"
+    },
+    {
+      "t": "p",
+      "text": "O Instituto Finlandês do Meio Ambiente mede o nível da água na cidade de Tornio. As leituras e uma previsão de três dias estão no serviço de mapas vesi.fi, e o monitoramento em tempo real do instituto também inclui as estações de Kukkolankoski, Matkakoski e Pello."
+    },
+    {
+      "t": "link",
+      "text": "Na nossa página sobre água doce, explicamos por que o sistema fluvial Tornio-Muonio, sem barragens, é importante para a natureza do norte.",
+      "label": "Água doce na Lapônia",
+      "href": "/freshwater"
+    }
+  ]
+}

@@ -1555,6 +1555,56 @@
       "description": "Ett långvarigt försök vid Kilpisjärvi visar att renbete förändrar förhållandet mellan blommor och insekter på fjället mer än tillförda näringsämnen gör."
     }
   },
+  "/news/kuusinkijoki-catchment-restoration-kuusamo": {
+    "en": {
+      "title": "Kuusinkijoki river catchment restoration begins in Kuusamo",
+      "description": "A local river association and the company Hiilipörssi are blocking mire ditches and building wetlands so that less humus and fewer nutrients reach the river."
+    },
+    "fi": {
+      "title": "Kuusinkijoki: valuma-alueen soita ja peltoja ennallistetaan",
+      "description": "Kuusinkijoki kuntoon ry ja Hiilipörssi tukkivat suo-ojia ja rakentavat kosteikkoja, jotta jokeen valuisi vähemmän humusta ja ravinteita."
+    },
+    "de": {
+      "title": "Kuusinkijoki: Moore und Felder im Einzugsgebiet renaturiert",
+      "description": "Ein lokaler Flussverein und die Firma Hiilipörssi verschließen Moorgräben und legen Feuchtgebiete an, damit weniger Humus und Nährstoffe in den Fluss gelangen."
+    },
+    "ja": {
+      "title": "クーシンキ川：流域の湿原と農地を再生",
+      "description": "地元の河川団体と企業Hiilipörssiが、湿原の排水溝をふさぎ、湿地を造っています。川に流れ込む腐植質と栄養塩を減らすための取り組みです。"
+    },
+    "es": {
+      "title": "Río Kuusinkijoki: restauran turberas y campos de su cuenca",
+      "description": "Una asociación local dedicada al río y la empresa Hiilipörssi bloquean zanjas en turberas y crean humedales para que al río lleguen menos humus y nutrientes."
+    },
+    "pt-BR": {
+      "title": "Kuusinkijoki: turfeiras e campos da bacia são restaurados",
+      "description": "Uma associação local dedicada ao rio e a empresa Hiilipörssi bloqueiam valas em turfeiras e criam áreas úmidas para que menos húmus e nutrientes cheguem ao rio."
+    },
+    "zh-CN": {
+      "title": "库辛基河：修复流域内的沼泽与农田",
+      "description": "在库萨莫，当地一个河流协会与Hiilipörssi公司正在堵塞沼泽排水沟、建设湿地，以减少流入河中的腐殖质和营养物质。"
+    },
+    "ko": {
+      "title": "쿠싱키강: 유역의 습원과 농지 복원",
+      "description": "지역 하천 단체와 기업 Hiilipörssi가 습원 배수로를 막고 습지를 조성하고 있습니다. 강으로 흘러드는 부식질과 영양염류를 줄이기 위한 작업입니다."
+    },
+    "fr": {
+      "title": "Kuusinkijoki : restauration des tourbières et des champs",
+      "description": "Une association locale et la société Hiilipörssi ferment des fossés de tourbières et créent des zones humides pour limiter l’apport d’humus et de nutriments."
+    },
+    "it": {
+      "title": "Kuusinkijoki: ripristino di torbiere e campi nel bacino",
+      "description": "Un’associazione locale per il fiume e l’azienda Hiilipörssi chiudono i fossi delle torbiere e creano zone umide perché al fiume arrivino meno humus e nutrienti."
+    },
+    "nl": {
+      "title": "Kuusinkijoki: herstel van venen en akkers in stroomgebied",
+      "description": "Een lokale riviervereniging en het bedrijf Hiilipörssi dichten veengreppels en leggen wetlands aan, zodat minder humus en voedingsstoffen de rivier bereiken."
+    },
+    "sv": {
+      "title": "Kuusinkijoki: avrinningsområdets myrar och åkrar restaureras",
+      "description": "En lokal älvförening och företaget Hiilipörssi lägger igen myrdiken och anlägger våtmarker så att mindre humus och färre näringsämnen når älven."
+    }
+  },
   "/news/sakatti-mine-viiankiaapa-compensation": {
     "en": {
       "title": "Sakatti mine and Viiankiaapa: compensation plan falls short",
@@ -1653,6 +1703,56 @@
     "sv": {
       "title": "BioBlitz i Syöte nationalpark: 1 549 arter på 24 timmar",
       "description": "Omkring 50 experter letade efter arter i Syöte nationalpark i 24 timmar i augusti. Över hälften av arterna hade aldrig tidigare påträffats i området."
+    }
+  },
+  "/news/tornio-river-water-level-live-haparanda": {
+    "en": {
+      "title": "Tornio River water level live at the river mouth",
+      "description": "Haparanda has installed radar sensors along the Tornio River. The readings are online in real time and are meant to show flood risk early, especially in spring."
+    },
+    "fi": {
+      "title": "Tornionjoen vedenkorkeus reaaliajassa myös jokisuulla",
+      "description": "Haaparannan kunta asensi Tornionjoen suulle tutka-antureita. Lukemat näkyvät netissä, ja niillä halutaan huomata tulvariski ajoissa erityisesti keväällä."
+    },
+    "de": {
+      "title": "Tornionjoki: Wasserstand an der Mündung live",
+      "description": "Haparanda hat am Tornionjoki Radarsensoren installiert. Die Messwerte sind in Echtzeit online und sollen Hochwassergefahr früh anzeigen, vor allem im Frühjahr."
+    },
+    "ja": {
+      "title": "トルニオ川河口の水位をリアルタイムで確認",
+      "description": "ハパランダ市がトルニオ川沿いにレーダーセンサーを設置しました。測定値はネット上にリアルタイムで公開され、特に春に洪水の危険を早めに知らせることを目的としています。"
+    },
+    "es": {
+      "title": "Río Tornionjoki: nivel del agua en vivo en la desembocadura",
+      "description": "Haparanda instaló sensores de radar en el Tornionjoki. Las lecturas, en línea en tiempo real, buscan anticipar el riesgo de inundación, sobre todo en primavera."
+    },
+    "pt-BR": {
+      "title": "Rio Tornionjoki: nível da água ao vivo na foz",
+      "description": "Haparanda instalou sensores de radar no rio Tornionjoki. As leituras ficam online em tempo real para mostrar cedo o risco de enchente, sobretudo na primavera."
+    },
+    "zh-CN": {
+      "title": "托尔尼奥河河口水位实时查看",
+      "description": "哈帕兰达市在托尔尼奥河沿岸安装了雷达传感器。读数在网上实时公布，目的是及早显示洪水风险，尤其是在春季。"
+    },
+    "ko": {
+      "title": "토르니오강 하구 수위 실시간 확인",
+      "description": "하파란다시가 토르니오강을 따라 레이더 센서를 설치했습니다. 측정값은 인터넷에 실시간으로 공개되며, 특히 봄철에 홍수 위험을 미리 알아차리도록 돕기 위한 것입니다."
+    },
+    "fr": {
+      "title": "Tornionjoki : niveau de l'eau en direct à l'embouchure",
+      "description": "Haparanda a installé des capteurs radar sur la Tornionjoki. Les relevés sont en ligne en temps réel pour signaler tôt un risque de crue, surtout au printemps."
+    },
+    "it": {
+      "title": "Tornionjoki: livello dell'acqua in tempo reale alla foce",
+      "description": "Haparanda ha installato sensori radar sul Tornionjoki. I dati sono online in tempo reale per segnalare presto il rischio di piena, soprattutto in primavera."
+    },
+    "nl": {
+      "title": "Tornionjoki: waterstand bij de monding live",
+      "description": "Haparanda heeft radarsensoren langs de Tornionjoki geplaatst. De metingen staan live online en moeten overstromingsgevaar vroeg tonen, vooral in het voorjaar."
+    },
+    "sv": {
+      "title": "Torne älv: vattennivån vid mynningen i realtid",
+      "description": "Haparanda kommun har satt upp radarsensorer längs Torne älv. Mätvärdena visas i realtid på nätet och ska varna tidigt för översvämningsrisk, särskilt på våren."
     }
   },
   "/news/wilderness-huts-tour-groups-metsahallitus": {

@@ -1,0 +1,46 @@
+{
+  "slug": "kuusinkijoki-catchment-restoration-kuusamo",
+  "date": "2026-10-16",
+  "hero": {
+    "src": "/images/news/kapykoski-kuusinkijoki-1600.webp",
+    "srcSmall": "/images/news/kapykoski-kuusinkijoki-800.webp",
+    "srcLarge": "/images/news/kapykoski-kuusinkijoki-2400.webp",
+    "avif": {
+      "small": "/images/news/kapykoski-kuusinkijoki-800.avif",
+      "src": "/images/news/kapykoski-kuusinkijoki-1600.avif",
+      "large": "/images/news/kapykoski-kuusinkijoki-2400.avif"
+    },
+    "width": 1600,
+    "height": 1063,
+    "position": "50% 55%",
+    "credit": {
+      "author": "Risto Varhe",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:River_Kuusinki,_july_2005_-_panoramio.jpg",
+      "assetId": "File:River Kuusinki, july 2005 - panoramio.jpg",
+      "sourceName": "Wikimedia Commons",
+      "taken": "2005-07",
+      "retrieved": "2026-10-16"
+    }
+  },
+  "sources": [
+    {
+      "publisher": "Hiilipörssi Oy",
+      "title": "“On kaksi vaihtoehtoa: joko nämä vedet pelastetaan tai sitten ei”– vapautetun Kuusinkijoen kunnostamista jatketaan valuma-alueen ennallistamisella",
+      "lang": "fi",
+      "url": "https://www.sttinfo.fi/tiedote/71911765/on-kaksi-vaihtoehtoa-joko-nama-vedet-pelastetaan-tai-sitten-ei-vapautetun-kuusinkijoen-kunnostamista-jatketaan-valuma-alueen-ennallistamisella?publisherId=69821187&lang=fi",
+      "date": "2026-03-27"
+    },
+    {
+      "publisher": "Koillissanomat",
+      "title": "Valtavat vesistön ennallistamistyöt alkoivat Kuusamossa – tavoitteena ennallistaa koko Kuusinkijoen valuma-alue",
+      "lang": "fi",
+      "url": "https://www.koillissanomat.fi/valtavat-vesiston-ennallistamistyot-alkoivat-kuusa/13701929",
+      "date": "2026-10-13"
+    }
+  ],
+  "ogCard": {
+    "line": "Restoring the Kuusinkijoki catchment"
+  }
+}

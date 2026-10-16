@@ -1,0 +1,64 @@
+{
+  "title": "Waterstand van de Tornionjoki nu live te volgen bij de monding",
+  "seoTitle": "Tornionjoki: waterstand bij de monding live",
+  "description": "Haparanda heeft radarsensoren langs de Tornionjoki geplaatst. De metingen staan live online en moeten overstromingsgevaar vroeg tonen, vooral in het voorjaar.",
+  "dek": "De nieuwe kaartdienst van Haparanda toont negen meetpunten, van de monding tot aan Pajala. De vier stations bij de monding hebben eigen waarschuwingsniveaus.",
+  "heroAlt": "De Tornionjoki treedt in mei buiten haar oevers: het water staat rond de voet van de berken op de oever, en op de achtergrond overspant een lange verkeersbrug de rivier.",
+  "heroCaption": "Voorjaarshoogwater op de Tornionjoki in Tornio, mei 2023.",
+  "body": [
+    {
+      "t": "p",
+      "text": "De gemeente Haparanda, aan de Zweedse kant van de rivier, heeft langs de Tornionjoki sensoren geplaatst die de waterstand met radar meten. De gemeente maakte de dienst op 9 oktober bekend, en de metingen staan in realtime op haar website."
+    },
+    {
+      "t": "p",
+      "text": "Volgens de gemeente is het doel om tekenen van mogelijk overstromingsgevaar vroeg op te merken, zodat ze haar paraatheid op tijd kan verhogen, en om mensen die bij de rivier wonen of er verblijven de situatie zelf te laten volgen, vooral tijdens het voorjaarshoogwater. De metingen dienen ook als extra controlepunt bij de dijk ten noorden van de golfbaan."
+    },
+    {
+      "t": "h2",
+      "text": "Wat de dienst laat zien"
+    },
+    {
+      "t": "p",
+      "text": "Op de kaart staan negen meetpunten. Vier daarvan liggen bij de monding in Haparanda: Skyddsvallen, EU-parken, Strandcafé en Tjärhovet. De andere vijf liggen verder stroomopwaarts in het riviersysteem, bijvoorbeeld in Övertorneå, Pello en Pajala, en twee ervan tonen het debiet."
+    },
+    {
+      "t": "ul",
+      "items": [
+        "De pijl laat zien of het water stijgt of daalt.",
+        "De kleur laat zien of een meting laag of hoog is vergeleken met eerdere metingen van het station. Een hoge meting betekent volgens de dienst niet automatisch gevaar.",
+        "De vier stations bij de monding hebben daarnaast waarschuwingsniveaus. Een gele rand betekent dat het water ongeveer een meter onder het gevarenniveau staat."
+      ]
+    },
+    {
+      "t": "p",
+      "text": "De dienst raadt aan te controleren wanneer een meting voor het laatst is bijgewerkt, omdat de situatie op de rivier snel kan veranderen. Volg bij hoogwater ook de berichten van Haparanda en de autoriteiten."
+    },
+    {
+      "t": "h2",
+      "text": "Waarom juist de monding"
+    },
+    {
+      "t": "p",
+      "text": "Volgens het SMHI, het Zweeds Meteorologisch en Hydrologisch Instituut, zijn ijsdammen bij de monding een bijzonder probleem van de Tornionjoki. Het zee-ijs blijft langer liggen dan het rivierijs, en als het rivierijs openbreekt, kan het tegen het zee-ijs vastlopen en het water opstuwen. In 1990 steeg het water in de benedenloop zo 3,2 meter boven het normale peil."
+    },
+    {
+      "t": "p",
+      "text": "Volgens de overstromingsgids voor het dal van de Tornionjoki ontstaat in de omgeving van Tornio risico op overstromingsschade zodra de waterstand bij meetstation Tornio boven N2000+4,20 meter komt."
+    },
+    {
+      "t": "h2",
+      "text": "Metingen aan Finse kant"
+    },
+    {
+      "t": "p",
+      "text": "Het Fins Milieu-instituut meet de waterstand in de stad Tornio. De metingen en een verwachting voor drie dagen staan op de kaartdienst vesi.fi, en in de realtimemonitoring van het instituut staan ook de stations Kukkolankoski, Matkakoski en Pello."
+    },
+    {
+      "t": "link",
+      "text": "Waarom het niet-afgedamde Tornio-Muonio-systeem belangrijk is voor de natuur in het noorden, leest u op onze pagina over zoet water.",
+      "label": "Zoet water in Lapland",
+      "href": "/freshwater"
+    }
+  ]
+}

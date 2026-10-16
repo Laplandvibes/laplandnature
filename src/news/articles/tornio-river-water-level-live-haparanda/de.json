@@ -1,0 +1,64 @@
+{
+  "title": "Wasserstand des Tornionjoki lässt sich jetzt an der Mündung live verfolgen",
+  "seoTitle": "Tornionjoki: Wasserstand an der Mündung live",
+  "description": "Haparanda hat am Tornionjoki Radarsensoren installiert. Die Messwerte sind in Echtzeit online und sollen Hochwassergefahr früh anzeigen, vor allem im Frühjahr.",
+  "dek": "Der neue Kartendienst von Haparanda zeigt neun Messpunkte von der Flussmündung bis hinauf nach Pajala. Die vier Stationen an der Mündung haben eigene Warnstufen.",
+  "heroAlt": "Der Tornionjoki führt im Mai Hochwasser: Das Wasser steht um die Stämme der Birken am Ufer, im Hintergrund überspannt eine lange Straßenbrücke den Fluss.",
+  "heroCaption": "Frühjahrshochwasser am Tornionjoki in Tornio, Mai 2023.",
+  "body": [
+    {
+      "t": "p",
+      "text": "Die Gemeinde Haparanda auf der schwedischen Seite des Flusses hat am Tornionjoki Sensoren installiert, die den Wasserstand per Radar messen. Die Gemeinde stellte den Dienst am 9. Oktober vor, die Messwerte stehen in Echtzeit auf ihrer Website."
+    },
+    {
+      "t": "p",
+      "text": "Nach Angaben der Gemeinde sollen so Anzeichen einer möglichen Hochwassergefahr früh erkannt werden, damit sie ihre Bereitschaft rechtzeitig erhöhen kann. Zugleich sollen Menschen, die am Fluss wohnen oder sich dort aufhalten, die Lage selbst verfolgen können, vor allem während des Frühjahrshochwassers. Die Messungen dienen außerdem als zusätzlicher Kontrollpunkt am Hochwasserdeich nördlich des Golfplatzes."
+    },
+    {
+      "t": "h2",
+      "text": "Was der Dienst zeigt"
+    },
+    {
+      "t": "p",
+      "text": "Auf der Karte sind neun Messpunkte eingezeichnet. Vier davon liegen an der Flussmündung in Haparanda: Skyddsvallen, EU-parken, Strandcafé und Tjärhovet. Die übrigen fünf liegen weiter flussaufwärts im Flusssystem, etwa in Övertorneå, Pello und Pajala, und zwei von ihnen zeigen den Durchfluss."
+    },
+    {
+      "t": "ul",
+      "items": [
+        "Der Pfeil zeigt, ob das Wasser steigt oder fällt.",
+        "Die Farbe zeigt, ob ein Messwert im Vergleich zu den früheren Messungen der Station niedrig oder hoch ist. Ein hoher Wert bedeutet laut dem Dienst nicht automatisch Gefahr.",
+        "Die vier Stationen an der Mündung haben zusätzlich Warnstufen. Ein gelber Rand bedeutet, dass das Wasser etwa einen Meter unter der Gefahrenstufe liegt."
+      ]
+    },
+    {
+      "t": "p",
+      "text": "Der Dienst erinnert daran, zu prüfen, wann ein Messwert zuletzt aktualisiert wurde, denn die Lage am Fluss kann sich schnell ändern. Achten Sie bei Hochwasser auch auf die Mitteilungen von Haparanda und der Behörden."
+    },
+    {
+      "t": "h2",
+      "text": "Warum gerade die Mündung"
+    },
+    {
+      "t": "p",
+      "text": "Laut SMHI, dem Schwedischen Meteorologischen und Hydrologischen Institut, sind Eisstaus an der Mündung ein besonderes Problem des Tornionjoki. Das Meereis bleibt länger liegen als das Flusseis, und wenn das Flusseis aufbricht, kann es am Meereis hängen bleiben und das Wasser aufstauen. 1990 stieg das Wasser im Unterlauf dadurch 3,2 Meter über den normalen Stand."
+    },
+    {
+      "t": "p",
+      "text": "Laut dem Hochwasserratgeber für das Tornionjoki-Tal beginnt die Gefahr von Hochwasserschäden im Raum Tornio, wenn der Wasserstand am Pegel Tornio über N2000+4,20 Meter steigt."
+    },
+    {
+      "t": "h2",
+      "text": "Messwerte auf finnischer Seite"
+    },
+    {
+      "t": "p",
+      "text": "Das Finnische Umweltinstitut misst den Wasserstand in der Stadt Tornio. Seine Messwerte und eine Prognose für drei Tage stehen im Kartendienst vesi.fi, und in der Echtzeitüberwachung des Instituts sind auch die Stationen Kukkolankoski, Matkakoski und Pello aufgeführt."
+    },
+    {
+      "t": "link",
+      "text": "Warum das nicht aufgestaute Flusssystem Tornio-Muonio für die Natur im Norden wichtig ist, lesen Sie auf unserer Seite über Süßwasser.",
+      "label": "Süßwasser & Fischbestände",
+      "href": "/freshwater"
+    }
+  ]
+}

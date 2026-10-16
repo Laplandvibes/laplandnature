@@ -1,0 +1,64 @@
+{
+  "title": "À Kuusamo, la restauration du bassin versant de la Kuusinkijoki a débuté",
+  "seoTitle": "Kuusinkijoki : restauration des tourbières et des champs",
+  "description": "Une association locale et la société Hiilipörssi ferment des fossés de tourbières et créent des zones humides pour limiter l’apport d’humus et de nutriments.",
+  "dek": "L’eau de la rivière s’est assombrie de 58 % depuis les années 1970. Les travaux commencent par les fossés de tourbières et les zones humides du bassin de Kiitämä, près de la frontière orientale de la Finlande.",
+  "heroAlt": "Les rapides de Käpykoski, sur la Kuusinkijoki, un jour d’été : l’eau bouillonne entre les rochers, et une épaisse forêt d’épicéas et de bouleaux couvre les deux rives.",
+  "heroCaption": "Les rapides de Käpykoski, sur la Kuusinkijoki, à Kuusamo.",
+  "body": [
+    {
+      "t": "p",
+      "text": "Les travaux de restauration du bassin versant de la rivière Kuusinkijoki ont commencé à Kuusamo. L’association locale Kuusinkijoki kuntoon ry, qui se consacre à la rivière, a lancé le chantier dans le village de Hänninen, au bord du lac Kiitämäjärvi, avec pour objectif de restaurer l’ensemble du bassin versant."
+    },
+    {
+      "t": "h2",
+      "text": "Pourquoi la rivière en a besoin"
+    },
+    {
+      "t": "p",
+      "text": "La Kuusinkijoki est connue pour l’ombre et la truite lacustre, et selon l’association, l’eau de son cours principal reste en grande partie d’excellente qualité. Une étude commandée pour le projet a toutefois montré que, par rapport aux années 1970, la charge en phosphore avait augmenté de 28 % et l’eau s’était assombrie de 58 %."
+    },
+    {
+      "t": "p",
+      "text": "Selon Matti Aikio, président de l’association, les fossés de drainage forestier et les champs abandonnés pèsent sur la rivière de façon lente mais insidieuse, et il vaut la peine d’agir dès maintenant, tant que l’eau est encore en bon état."
+    },
+    {
+      "t": "h2",
+      "text": "Ce qui est fait"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "Dans les tourbières drainées, les fossés sont bouchés et des arbres sont retirés, afin que le niveau de l’eau remonte dans la tourbière.",
+        "Sur des champs qui ne sont plus cultivés, on aménage des zones humides destinées à la protection de l’eau et aux oiseaux.",
+        "Quand l’eau s’écoule plus lentement, les matières en suspension se déposent et les nutriments se fixent dans le sol et la végétation avant d’atteindre la rivière."
+      ]
+    },
+    {
+      "t": "p",
+      "text": "Les tourbières sont restaurées par Hiilipörssi Oy, une entreprise spécialisée dans la restauration des tourbières. Les travaux sont gratuits pour les propriétaires fonciers, qui perçoivent en outre une indemnité de protection. Hiilipörssi est financée par des entreprises qui agissent volontairement pour la nature et le climat."
+    },
+    {
+      "t": "p",
+      "text": "La première zone est le bassin de Kiitämä, près de la frontière orientale. Selon le plan publié en mars, la première phase vise à restaurer environ 200–400 hectares de tourbières et à créer deux zones humides. Les travaux descendront ensuite la rivière, un sous-bassin après l’autre."
+    },
+    {
+      "t": "h2",
+      "text": "Une nouvelle étape après la libération de la rivière"
+    },
+    {
+      "t": "p",
+      "text": "Cette restauration prolonge le projet mené par l’association de 2020 à 2025, qui a ouvert plus de 400 kilomètres de voies de migration aux poissons. Son chantier principal a été l’ouverture du lit de la Piilijoki, qui contourne la centrale hydroélectrique de Myllykoski. Ce projet a coûté 5,5 millions d’euros."
+    },
+    {
+      "t": "p",
+      "text": "Selon Hiilipörssi, la restauration améliore aussi les habitats des oiseaux d’eau, des gallinacés forestiers et des plantes de tourbière comme la plaquebière et la canneberge."
+    },
+    {
+      "t": "link",
+      "text": "Pourquoi une eau froide et pure compte parmi ce que la nature du Nord a de plus précieux, notre page sur les eaux douces l’explique.",
+      "label": "Eaux douces de Laponie",
+      "href": "/freshwater"
+    }
+  ]
+}

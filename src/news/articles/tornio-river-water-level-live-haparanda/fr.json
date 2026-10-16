@@ -1,0 +1,64 @@
+{
+  "title": "Le niveau de la Tornionjoki se suit désormais en direct à son embouchure",
+  "seoTitle": "Tornionjoki : niveau de l'eau en direct à l'embouchure",
+  "description": "Haparanda a installé des capteurs radar sur la Tornionjoki. Les relevés sont en ligne en temps réel pour signaler tôt un risque de crue, surtout au printemps.",
+  "dek": "Le nouveau service cartographique d'Haparanda affiche neuf points de mesure, de l'embouchure jusqu'à Pajala. Les quatre stations de l'embouchure ont leurs propres seuils d'alerte.",
+  "heroAlt": "La Tornionjoki en crue en mai : l'eau recouvre le pied des bouleaux de la rive, et à l'arrière-plan un long pont routier franchit la rivière.",
+  "heroCaption": "Crue de printemps de la Tornionjoki à Tornio, en mai 2023.",
+  "body": [
+    {
+      "t": "p",
+      "text": "La commune d'Haparanda, située sur la rive suédoise, a installé le long de la Tornionjoki des capteurs qui mesurent le niveau de l'eau par radar. La commune a annoncé le service le 9 octobre, et les relevés s'affichent en temps réel sur son site internet."
+    },
+    {
+      "t": "p",
+      "text": "Selon la commune, l'objectif est de repérer tôt les signes d'un éventuel risque de crue, afin de pouvoir renforcer sa préparation à temps, et de permettre aux personnes qui vivent ou passent du temps près de la rivière de suivre elles-mêmes la situation, en particulier pendant la crue de printemps. Les mesures servent aussi de point de contrôle supplémentaire sur la digue anti-crue située au nord du terrain de golf."
+    },
+    {
+      "t": "h2",
+      "text": "Ce que montre le service"
+    },
+    {
+      "t": "p",
+      "text": "La carte compte neuf points de mesure. Quatre se trouvent à l'embouchure, à Haparanda : Skyddsvallen, EU-parken, Strandcafé et Tjärhovet. Les cinq autres sont situés plus en amont dans le bassin, par exemple à Övertorneå, Pello et Pajala, et deux d'entre eux indiquent le débit."
+    },
+    {
+      "t": "ul",
+      "items": [
+        "La flèche indique si l'eau monte ou baisse.",
+        "La couleur indique si un relevé est bas ou élevé par rapport aux mesures antérieures de la station. Selon le service, un relevé élevé ne signifie pas automatiquement un danger.",
+        "Les quatre stations de l'embouchure ont en plus des seuils d'alerte. Un contour jaune signifie que l'eau se trouve à environ un mètre sous le niveau de danger."
+      ]
+    },
+    {
+      "t": "p",
+      "text": "Le service rappelle de vérifier à quand remonte la dernière mise à jour d'un relevé, car la situation dans la rivière peut évoluer rapidement. En cas de crue, suivez aussi les communiqués d'Haparanda et des autorités."
+    },
+    {
+      "t": "h2",
+      "text": "Pourquoi l'embouchure"
+    },
+    {
+      "t": "p",
+      "text": "Selon le SMHI, l'Institut météorologique et hydrologique suédois, les embâcles à l'embouchure sont un problème particulier de la Tornionjoki. La glace de mer reste en place plus longtemps que la glace de la rivière ; lorsque celle-ci se rompt, elle peut buter contre la glace de mer et faire barrage à l'eau. En 1990, l'eau est ainsi montée de 3,2 mètres au-dessus de son niveau normal dans le cours inférieur."
+    },
+    {
+      "t": "p",
+      "text": "Selon le guide des crues de la vallée de la Tornionjoki, le risque de dégâts dus aux crues commence dans la région de Tornio lorsque le niveau de l'eau à la station de mesure de Tornio dépasse N2000+4,20 mètres."
+    },
+    {
+      "t": "h2",
+      "text": "Les relevés côté finlandais"
+    },
+    {
+      "t": "p",
+      "text": "L'Institut finlandais de l'environnement mesure le niveau de l'eau dans la ville de Tornio. Ses relevés et une prévision à trois jours sont disponibles sur le service cartographique vesi.fi, et le suivi en temps réel de l'institut recense aussi les stations de Kukkolankoski, Matkakoski et Pello."
+    },
+    {
+      "t": "link",
+      "text": "Notre page sur les eaux douces explique pourquoi le système du Tornio-Muonio, sans barrage, compte pour la nature du Nord.",
+      "label": "Eaux douces de Laponie",
+      "href": "/freshwater"
+    }
+  ]
+}

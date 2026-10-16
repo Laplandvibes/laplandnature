@@ -1,0 +1,64 @@
+{
+  "title": "El nivel del río Tornionjoki ya puede seguirse en vivo en la desembocadura",
+  "seoTitle": "Río Tornionjoki: nivel del agua en vivo en la desembocadura",
+  "description": "Haparanda instaló sensores de radar en el Tornionjoki. Las lecturas, en línea en tiempo real, buscan anticipar el riesgo de inundación, sobre todo en primavera.",
+  "dek": "El nuevo servicio de mapas de Haparanda muestra nueve puntos de medición, desde la desembocadura hasta Pajala. Las cuatro estaciones de la desembocadura tienen sus propios niveles de alerta.",
+  "heroAlt": "El río Tornionjoki desbordado en mayo: el agua cubre la base de los abedules de la orilla y, al fondo, un largo puente de carretera cruza el río.",
+  "heroCaption": "Crecida de primavera del río Tornionjoki en Tornio, en mayo de 2023.",
+  "body": [
+    {
+      "t": "p",
+      "text": "El municipio de Haparanda, en el lado sueco del río, instaló a lo largo del río Tornionjoki sensores que miden el nivel del agua por radar. El municipio anunció el servicio el 9 de octubre, y las lecturas aparecen en tiempo real en su sitio web."
+    },
+    {
+      "t": "p",
+      "text": "Según el municipio, el objetivo es detectar a tiempo las señales de un posible riesgo de inundación, para poder elevar su nivel de preparación con antelación, y permitir que quienes viven o pasan tiempo cerca del río sigan la situación por su cuenta, sobre todo durante la crecida de primavera. Las mediciones sirven además como punto de control adicional en el dique de protección al norte del campo de golf."
+    },
+    {
+      "t": "h2",
+      "text": "Qué muestra el servicio"
+    },
+    {
+      "t": "p",
+      "text": "El mapa tiene nueve puntos de medición. Cuatro están en la desembocadura, en Haparanda: Skyddsvallen, EU-parken, Strandcafé y Tjärhovet. Los otros cinco están más arriba en la cuenca, por ejemplo en Övertorneå, Pello y Pajala, y dos de ellos muestran el caudal."
+    },
+    {
+      "t": "ul",
+      "items": [
+        "La flecha indica si el agua sube o baja.",
+        "El color indica si una lectura es baja o alta en comparación con las mediciones anteriores de la estación. Según el servicio, una lectura alta no significa automáticamente peligro.",
+        "Las cuatro estaciones de la desembocadura tienen además niveles de alerta. Un borde amarillo significa que el agua está a cerca de un metro por debajo del nivel de peligro."
+      ]
+    },
+    {
+      "t": "p",
+      "text": "El servicio recuerda comprobar cuándo se actualizó una lectura por última vez, porque la situación en el río puede cambiar rápidamente. Durante una inundación, siga también los avisos de Haparanda y de las autoridades."
+    },
+    {
+      "t": "h2",
+      "text": "Por qué la desembocadura"
+    },
+    {
+      "t": "p",
+      "text": "Según el SMHI, el Instituto Meteorológico e Hidrológico de Suecia, los tapones de hielo en la desembocadura son un problema particular del río Tornionjoki. El hielo marino permanece en su sitio más tiempo que el del río, y cuando el hielo fluvial se rompe puede detenerse contra el hielo marino y represar el agua. En 1990, esto hizo subir el agua del curso bajo 3,2 metros por encima de su nivel normal."
+    },
+    {
+      "t": "p",
+      "text": "Según la guía de inundaciones del valle del Tornionjoki, el riesgo de daños por inundación en la zona de Tornio comienza cuando el nivel del agua en la estación de medición de Tornio supera N2000+4,20 metros."
+    },
+    {
+      "t": "h2",
+      "text": "Las lecturas del lado finlandés"
+    },
+    {
+      "t": "p",
+      "text": "El Instituto Finlandés del Medio Ambiente mide el nivel del agua en la ciudad de Tornio. Sus lecturas y un pronóstico a tres días están en el servicio de mapas vesi.fi, y el monitoreo en tiempo real del instituto incluye también las estaciones de Kukkolankoski, Matkakoski y Pello."
+    },
+    {
+      "t": "link",
+      "text": "Por qué el sistema fluvial Tornio-Muonio, sin represas, es importante para la naturaleza del norte se explica en nuestra página sobre agua dulce.",
+      "label": "Agua dulce en Laponia",
+      "href": "/freshwater"
+    }
+  ]
+}

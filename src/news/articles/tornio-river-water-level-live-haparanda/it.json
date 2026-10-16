@@ -1,0 +1,64 @@
+{
+  "title": "Il livello del fiume Tornionjoki si può ora seguire in diretta alla foce",
+  "seoTitle": "Tornionjoki: livello dell'acqua in tempo reale alla foce",
+  "description": "Haparanda ha installato sensori radar sul Tornionjoki. I dati sono online in tempo reale per segnalare presto il rischio di piena, soprattutto in primavera.",
+  "dek": "Il nuovo servizio cartografico di Haparanda mostra nove punti di misura, dalla foce fino a Pajala. Le quattro stazioni alla foce hanno soglie di allerta proprie.",
+  "heroAlt": "Il fiume Tornionjoki in piena a maggio: l'acqua copre la base delle betulle sulla riva e sullo sfondo un lungo ponte stradale attraversa il fiume.",
+  "heroCaption": "Piena primaverile del Tornionjoki a Tornio, maggio 2023.",
+  "body": [
+    {
+      "t": "p",
+      "text": "Il comune di Haparanda, sulla sponda svedese del fiume, ha installato lungo il Tornionjoki dei sensori che misurano il livello dell'acqua con il radar. Il comune ha annunciato il servizio il 9 ottobre e le letture sono disponibili in tempo reale sul suo sito."
+    },
+    {
+      "t": "p",
+      "text": "Secondo il comune, l'obiettivo è cogliere presto i segnali di un possibile rischio di piena, così da alzare per tempo il livello di preparazione, e permettere a chi vive o trascorre del tempo vicino al fiume di seguire autonomamente la situazione, soprattutto durante la piena primaverile. Le misurazioni fungono anche da punto di controllo aggiuntivo sull'argine a nord del campo da golf."
+    },
+    {
+      "t": "h2",
+      "text": "Che cosa mostra il servizio"
+    },
+    {
+      "t": "p",
+      "text": "Sulla mappa ci sono nove punti di misura. Quattro si trovano alla foce, a Haparanda: Skyddsvallen, EU-parken, Strandcafé e Tjärhovet. Gli altri cinque sono più a monte nel bacino, per esempio a Övertorneå, Pello e Pajala, e due di essi mostrano la portata."
+    },
+    {
+      "t": "ul",
+      "items": [
+        "La freccia indica se l'acqua sale o scende.",
+        "Il colore indica se una lettura è bassa o alta rispetto alle misurazioni precedenti della stazione. Secondo il servizio, una lettura alta non significa automaticamente pericolo.",
+        "Le quattro stazioni alla foce hanno inoltre delle soglie di allerta. Un bordo giallo significa che l'acqua è circa un metro sotto il livello di pericolo."
+      ]
+    },
+    {
+      "t": "p",
+      "text": "Il servizio ricorda di controllare quando una lettura è stata aggiornata l'ultima volta, perché la situazione nel fiume può cambiare rapidamente. In caso di piena, segua anche i comunicati di Haparanda e delle autorità."
+    },
+    {
+      "t": "h2",
+      "text": "Perché proprio la foce"
+    },
+    {
+      "t": "p",
+      "text": "Secondo lo SMHI, l'Istituto meteorologico e idrologico svedese, gli ingorghi di ghiaccio alla foce sono un problema particolare del Tornionjoki. Il ghiaccio marino resta al suo posto più a lungo di quello fluviale, e quando il ghiaccio del fiume si rompe può bloccarsi contro il ghiaccio marino e fare da diga all'acqua. Nel 1990 l'acqua nel corso inferiore del fiume è salita così di 3,2 metri sopra il livello normale."
+    },
+    {
+      "t": "p",
+      "text": "Secondo la guida alle piene della valle del Tornionjoki, nella zona di Tornio il rischio di danni da piena inizia quando il livello dell'acqua alla stazione idrometrica di Tornio supera N2000+4,20 metri."
+    },
+    {
+      "t": "h2",
+      "text": "Le letture sul lato finlandese"
+    },
+    {
+      "t": "p",
+      "text": "L'Istituto finlandese per l'ambiente misura il livello dell'acqua nella città di Tornio. I suoi dati e una previsione a tre giorni si trovano sul servizio cartografico vesi.fi, e il monitoraggio in tempo reale dell'istituto elenca anche le stazioni di Kukkolankoski, Matkakoski e Pello."
+    },
+    {
+      "t": "link",
+      "text": "Perché il sistema fluviale del Tornio-Muonio, privo di dighe, è importante per la natura del Nord lo spieghiamo nella nostra pagina sulle acque dolci.",
+      "label": "Acque dolci di Lapponia",
+      "href": "/freshwater"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "title": "Kuusinkijoen valuma-alueen ennallistaminen alkoi Kuusamossa",
+  "seoTitle": "Kuusinkijoki: valuma-alueen soita ja peltoja ennallistetaan",
+  "description": "Kuusinkijoki kuntoon ry ja Hiilipörssi tukkivat suo-ojia ja rakentavat kosteikkoja, jotta jokeen valuisi vähemmän humusta ja ravinteita.",
+  "dek": "Joen vesi on tummunut 58 prosenttia 1970-luvulta. Ensin tukitaan suo-ojia ja rakennetaan kosteikkoja Kiitämän vesistöalueella itärajan tuntumassa.",
+  "heroAlt": "Kuusinkijoen Käpykoski kesäpäivänä: vesi kuohuu kivien välissä, ja rannoilla kasvaa tiheää kuusi- ja koivumetsää.",
+  "heroCaption": "Käpykoski Kuusinkijoessa Kuusamossa.",
+  "body": [
+    {
+      "t": "p",
+      "text": "Kuusamossa on alkanut Kuusinkijoen valuma-alueen kunnostus. Kuusinkijoki kuntoon ry aloitti työt Kiitämäjärven Hännisen kylässä, ja yhdistyksen tavoite on kunnostaa koko joen valuma-alue."
+    },
+    {
+      "t": "h2",
+      "text": "Miksi joki tarvitsee tätä"
+    },
+    {
+      "t": "p",
+      "text": "Kuusinkijoki tunnetaan harjuksesta ja järvitaimenesta, ja sen pääuoman vedenlaatu on yhdistyksen mukaan yhä pääosin erinomainen. Hankkeen yhteydessä teetetyssä selvityksessä veden fosforikuormitus oli kuitenkin kasvanut 28 prosenttia ja vesi tummunut 58 prosenttia 1970-luvun arvoihin verrattuna."
+    },
+    {
+      "t": "p",
+      "text": "Yhdistyksen puheenjohtajan Matti Aikion mukaan metsäojitukset ja hylätyt pellot kuormittavat jokea hitaasti mutta salakavalasti, ja toimiin kannattaa ryhtyä nyt, kun vedet ovat vielä hyvässä kunnossa."
+    },
+    {
+      "t": "h2",
+      "text": "Mitä tehdään"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "Ojitettujen soiden ojat tukitaan ja puustoa poistetaan, jotta suon vedenpinta nousee.",
+        "Viljelystä poistuneille pelloille rakennetaan vesiensuojelu- ja lintukosteikkoja.",
+        "Kun vesi virtaa hitaammin, kiintoaine ehtii suodattua ja ravinteet sitoutua maahan ja kasvillisuuteen ennen jokea."
+      ]
+    },
+    {
+      "t": "p",
+      "text": "Suot ennallistaa Hiilipörssi Oy. Maanomistajalle ennallistaminen on maksutonta, ja hän saa suojelukorvausta. Hiilipörssi rahoittaa työn yrityksiltä, jotka tekevät vapaaehtoista luonto- ja ilmastotyötä."
+    },
+    {
+      "t": "p",
+      "text": "Ensimmäinen kohde on Kiitämän vesistöalue lähellä itärajaa. Maaliskuussa julkaistun suunnitelman mukaan ensimmäisen vaiheen tavoite on ennallistaa noin 200–400 hehtaaria suota ja perustaa kaksi kosteikkoa. Sen jälkeen työ jatkuu vesistöalue kerrallaan kohti joen alajuoksua."
+    },
+    {
+      "t": "h2",
+      "text": "Jatkoa joen vapauttamiselle"
+    },
+    {
+      "t": "p",
+      "text": "Kunnostus jatkaa yhdistyksen vuosina 2020–2025 tekemää hanketta, joka avasi vaelluskaloille yli 400 kilometriä nousureittejä. Sen tärkein työ oli Piilijoen uoman avaaminen Myllykosken voimalaitoksen ohi. Hanke maksoi 5,5 miljoonaa euroa."
+    },
+    {
+      "t": "p",
+      "text": "Hiilipörssin mukaan ennallistaminen parantaa myös vesilintujen, metsäkanalintujen ja suokasvien, kuten hillan ja karpalon, elinympäristöjä."
+    },
+    {
+      "t": "link",
+      "text": "Miksi kylmä ja puhdas vesi on pohjoisen luonnon arvokkaimpia asioita, kerromme vesistösivullamme.",
+      "label": "Vesistöt ja kalakannat",
+      "href": "/freshwater"
+    }
+  ]
+}
