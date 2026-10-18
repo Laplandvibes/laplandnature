@@ -408,7 +408,7 @@ routes.push({
     ? { ogImage: `/og/news.jpg`, ogCard: INDEX_OG }
     : newest ? (newest.meta.ogCard
       ? { ogImage: `/og/news.jpg`, ogCard: { hero: newest.meta.hero.src, line: newest.meta.ogCard.line } }
-      : { ogImage: newest.meta.hero.src }) : {}),
+      : /BY-SA/i.test(newest.meta.hero?.credit?.license || '') ? {} : { ogImage: newest.meta.hero.src }) : {}),
   harvestRecord: { file: `${rel(join(CACHE, '_index'))}/{lang}.json`, key: 'news', mode: 'jsonFile' },
 });
 for (const a of articles) {
@@ -418,9 +418,11 @@ for (const a of articles) {
     fallbackDescription: a.texts.en.description,
     // 5.10.2026: `ogCard.hero` = oma kortin pohjakuva, kun jutun hero on BY-SA (§34.2, portti yllä).
     // `focus` = kortin rajauskohta (object-position), sama kenttä kuin skiresortsin kopiossa.
+    // 18.10.2026 (laplandtransportin malli 2.10.): ilman korttia og:image = hero vain, jos hero EI ole BY-SA.
+    // BY-SA-hero ⇒ ei ogImagea = sivustokortti (§34.2): raaka valokuva ei ole jakokuva (gate:jakokuvat, väärä mitta).
     ...(a.meta.ogCard
       ? { ogImage: `/og/news-${a.slug}.jpg`, ogCard: { hero: a.meta.ogCard.hero || a.meta.hero.src, line: a.meta.ogCard.line, ...(a.meta.ogCard.focus ? { focus: a.meta.ogCard.focus } : {}) } }
-      : { ogImage: a.meta.hero.src }),
+      : /BY-SA/i.test(a.meta.hero?.credit?.license || '') ? {} : { ogImage: a.meta.hero.src }),
     harvestRecord: { file: `${rel(join(CACHE, a.slug))}/{lang}.json`, key: a.slug, mode: 'jsonFile' },
   });
 }

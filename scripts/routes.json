@@ -135,7 +135,6 @@
     "path": "/news/syote-bioblitz-1549-species-2026",
     "fallbackTitle": "Syöte National Park BioBlitz: 1,549 species in 24 hours",
     "fallbackDescription": "About 50 experts searched Syöte National Park for 24 hours in August. More than half of the species they found had never been recorded in the area before.",
-    "ogImage": "/images/hero-conservation-1920.webp",
     "harvestRecord": {
       "file": "node_modules/.cache/lv-news/syote-bioblitz-1549-species-2026/{lang}.json",
       "key": "syote-bioblitz-1549-species-2026",
