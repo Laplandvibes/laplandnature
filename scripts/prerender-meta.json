@@ -400,7 +400,7 @@
         },
         {
           "q": "Vem förvaltar Lapplands nationalparker och vildmark?",
-          "a": "Metsähallitus (Forststyrelsens naturtjänster), den statliga instansen, förvaltar cirka 85 % av Lapplands fjällområden och alla nationalparker, och sköter leder, vildmarksstugor och besökscentrum. Påverkansarbetet för naturvård kommer från Finlands naturskyddsförbund (SLL) och WWF Finland, medan Sametinget har självstyre över samiskt språk och samisk kultur i samernas hembygdsområde. Renskötseln sköts av renbeteslagen, inte av Sametinget."
+          "a": "Metsähallitus (Forststyrelsens naturtjänster), den statliga instansen, förvaltar cirka 85 % av Lapplands fjällområden och alla nationalparker, och sköter leder, ödestugor och besökscentrum. Påverkansarbetet för naturvård kommer från Finlands naturskyddsförbund (SLL) och WWF Finland, medan Sametinget har självstyre över samiskt språk och samisk kultur i samernas hembygdsområde. Renskötseln sköts av renbeteslagen, inte av Sametinget."
         },
         {
           "q": "Har renar företräde på Lapplands vägar?",
@@ -1120,15 +1120,15 @@
       "faq": [
         {
           "q": "Hur lång tid tar Karhunkierros (Björnleden)?",
-          "a": "Hela Karhunkierros är cirka 82 km och de flesta vandrare går den på fyra till sex dagar, med övernattning i de öppna vildmarksstugorna längs leden. Starka vandrare gör den på fyra långa dagar; vill du ha tid vid forsarna, vattenfallen och hängbroarna, planera fem. Den kortare slingan Pieni Karhunkierros fångar höjdpunkterna på 12 km."
+          "a": "Hela Karhunkierros är cirka 82 km och de flesta vandrare går den på fyra till sex dagar, med övernattning i ödestugorna längs leden. Starka vandrare gör den på fyra långa dagar; vill du ha tid vid forsarna, vattenfallen och hängbroarna, planera fem. Den kortare slingan Pieni Karhunkierros fångar höjdpunkterna på 12 km."
         },
         {
           "q": "Vilken är den populäraste vandringsleden i Lappland?",
           "a": "Karhunkierros kallas ofta Finlands populäraste vandringsled. I själva Lappland är den mest kända långa leden Hetta–Pallas, cirka 50 km och utmärkt 1934, i Pallas-Yllästunturi, Finlands mest besökta nationalpark. Den går mest ovanför trädgränsen, och stugorna delar upp den på tre eller fyra dagar mellan Hetta och Pallas."
         },
         {
-          "q": "Måste man boka vildmarksstugor i förväg?",
-          "a": "Öppna vildmarksstugor (autiotupa) är gratis och först till kvarn, du kan inte reservera dem, och vid ruska-toppen i september kan de bli fulla redan på eftermiddagen. Reserveringsstugor (varaustupa) måste bokas och betalas i förväg på eraluvat.fi, 20 € per bädd och natt 2026, och är värda det för en garanterad plats på välbesökta sträckor."
+          "q": "Måste man boka ödestugor i förväg?",
+          "a": "Ödestugor (autiotupa) är gratis och först till kvarn, du kan inte reservera dem, och vid ruska-toppen i september kan de bli fulla redan på eftermiddagen. Reserveringsstugor (varaustupa) måste bokas och betalas i förväg på eraluvat.fi, 20 € per bädd och natt 2026, och är värda det för en garanterad plats på välbesökta sträckor."
         },
         {
           "q": "Hur hög är Finlands högsta punkt, och kan man vandra dit?",
@@ -1442,7 +1442,7 @@
         },
         {
           "q": "Behöver man tillstånd eller inträdesavgift för Lapplands nationalparker?",
-          "a": "Nej. Finlands nationalparker är gratis att besöka och det finns inget tillstånd för vanlig vandring, dagsbesök eller övernattning i öppna vildmarksstugor. Vissa reserveringsstugor och bastur tar en liten avgift, och guidade aktiviteter eller guldvaskning vid Lemmenjoki har sina egna kostnader, men att gå lederna kostar ingenting."
+          "a": "Nej. Finlands nationalparker är gratis att besöka och det finns inget tillstånd för vanlig vandring, dagsbesök eller övernattning i ödestugor. Vissa reserveringsstugor och bastur tar en liten avgift, och guidade aktiviteter eller guldvaskning vid Lemmenjoki har sina egna kostnader, men att gå lederna kostar ingenting."
         },
         {
           "q": "När är den bästa tiden att besöka parkerna?",
@@ -1801,8 +1801,8 @@
       "description": "Open wildernishutten in Finse nationale parken zijn gratis onderdak voor wandelaars. Reisorganisaties mogen er geen klanten onderbrengen, zegt Metsähallitus."
     },
     "sv": {
-      "title": "Vildmarksstugor i Finland: regler för vandrare och grupper",
-      "description": "Öppna vildmarksstugor i Finlands nationalparker är gratis för vandrare. Turistföretag får inte inkvartera sina kunder i dem, säger Metsähallitus."
+      "title": "Ödestugor i Finland: regler för vandrare och grupper",
+      "description": "Ödestugorna i Finlands nationalparker är gratis för vandrare. Turistföretag får inte inkvartera sina kunder i dem, säger Metsähallitus."
     }
   },
   "/northern-lights": {
