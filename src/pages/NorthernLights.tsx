@@ -10,6 +10,7 @@ import HeroImage from '../components/HeroImage'
 import { useLang, useLocalePath } from '../i18n/useLang'
 import { COPY } from '../locales/copy'
 import FaqLinks, { type FaqNavKey } from '../components/FaqLinks'
+import { AppPromoAurora } from '../components/AppPromo'
 
 const spotSids = ['aurora_spot_inari', 'aurora_spot_utsjoki', 'aurora_spot_kilpisjarvi', 'aurora_spot_enontekio']
 const spotDestinations = ['Inari, Finland', 'Utsjoki, Finland', 'Kilpisjärvi, Finland', 'Enontekiö, Finland']
@@ -174,6 +175,10 @@ export default function NorthernLights() {
               })}
             </div>
           </div>
+
+          {/* Illan aikataulun ensimmäinen askel on ennusteen katsominen: appin revontulinäkymä näyttää
+              tämän yön todennäköisyyden tunneittain (Kp-indeksi, pilvisyys). */}
+          <AppPromoAurora placement="aurora_one_night" />
         </div>
       </section>
 

@@ -14,3 +14,8 @@ export function AppPromoHero() {
 export function AppPromoNudge() {
   return <Nudge focus={FOCUS} />;
 }
+
+/** Revontuliyksikkö: nappi avaa appin revontulinäkymän (laplandvisit 8.9.2026, revontulisivuille 19.10.2026). */
+export function AppPromoAurora({ placement }: { placement: string }) {
+  return <Hero focus="aurora" placement={placement} />;
+}
