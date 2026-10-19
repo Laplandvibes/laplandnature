@@ -25,6 +25,9 @@ const PAIKAT = [
   '拉普兰', '芬兰', '罗瓦涅米', '萨利色尔卡', '萨里塞尔卡', '伊纳里', '莱维', '列维', '于拉斯', '于莱斯', '赫尔辛基',
   '托尔尼奥', '萨米', '库萨莫', '鲁卡', '基蒂莱', '凯米', '奥卢', '基尔皮斯耶尔维', '圣诞老人村', '圣诞老人', '皮哈',
   '帕拉斯', '伊瓦洛', '卢奥斯托', '萨拉', '索丹屈莱', '阿卡斯隆波洛', '穆奥尼奥', '科拉里', '拉努阿',
+  // muu translitteraatio, jonka ICU pilkkoo merkeittäin (哈|士|奇): ilman tätä 您的哈士奇 oli yksi pala ja
+  // laplandhuskysafarisin /cn/-otsikko jäi 1280 px:llä kolmelle riville (19.10.2026)
+  '哈士奇',
   '拉普蘭', '芬蘭', '於拉斯', '伊納里', '羅瓦涅米', '薩利色爾卡', '赫爾辛基', '薩米', '伊瓦洛', '基蒂萊',
   '聖誕老人村', '聖誕老人', '魯卡', '庫薩莫', '皮哈', '凱米', '盧奧斯托', '列維', '萊維', '托爾尼奧',
   'ラップランド', 'フィンランド', 'ロヴァニエミ', 'レヴィ', 'ユッラス', 'サーリセルカ', 'ヘルシンキ', 'イナリ',
@@ -131,7 +134,11 @@ export function katkokohdat(teksti: string): number[] {
         // Kaksi partikkelia peräkkäin on yksi yhdyspartikkeli (へ|の, に|は, で|も): ei katkoa niiden väliin. ICU antaa
         // ラップランドへの muodossa ラップランド|へ|の, ja ilman tätä otsikko katkesi "ラップランドへ / の行き方" (hubi 16.10.2026).
         const partikkeliJono = JA_PARTIKKELI.test(nytTeksti); // vain yksimerkkinen: PITKA-listassa on myös でき/です (が|できます saa katketa)
-        l = apuverbi || katakananJalkeen || (JA_PARTIKKELI.test(edTeksti) && !partikkeliJono) ? 'pehmea' : 'kova';
+        // ICU antaa yhdyspartikkelin yhtenä palana (ひとつ|では|ありま|せん): sen JÄLKEEN on sama lauseenosaraja kuin
+        // yksimerkkisen partikkelin jälkeen. Ilman tätä ひとつではありません。 oli 10 merkin yksikkö, joka katkesi
+        // hätäkatkona ひとつではありま / せん。 (laplandnightlife, laplandwellness /ja/ 360–412 px, 19.10.2026).
+        const yhdysPartikkeli = /^(では|には|とは|へは|でも|にも|からは|までは)$/u.test(edTeksti);
+        l = apuverbi || katakananJalkeen || ((JA_PARTIKKELI.test(edTeksti) || yhdysPartikkeli) && !partikkeliJono) ? 'pehmea' : 'kova';
       } else if (HAN.test(a) && HAN.test(b)) l = ed.length >= 2 && nyt.length >= 2 ? 'pehmea' : 'kova'; // kanjiyhdyssana
       else if (KATA.test(a) && KATA.test(b) && (ed.length <= 2 || nyt.length <= 2)) {
         // ICU pilkkoo tuntemattoman vierassanan ≤ 2 merkin paloiksi (ハス|キー), joiden väliin ei katketa. Pidennysmerkkiin
