@@ -175,9 +175,11 @@ export default function NorthernLights() {
               })}
             </div>
           </div>
-
-          {/* Illan aikataulun ensimmäinen askel on ennusteen katsominen: appin revontulinäkymä näyttää
-              tämän yön todennäköisyyden tunneittain (Kp-indeksi, pilvisyys). */}
+        </div>
+        {/* Illan aikataulun ensimmäinen askel on ennusteen katsominen: appin revontulinäkymä näyttää tämän yön
+            todennäköisyyden tunneittain (Kp-indeksi, pilvisyys). Oma 5xl-palsta: 4xl:ssä (896 px) kortti jäi alle
+            900 px:n rajan, jolloin puhelin ja QR pinoutuivat ja tekstin alle jäi tyhjää (mitattu livenä 19.10.). */}
+        <div className="max-w-5xl mx-auto">
           <AppPromoAurora placement="aurora_one_night" />
         </div>
       </section>
