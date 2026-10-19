@@ -10,8 +10,9 @@ import compression from 'vite-plugin-compression2'
 // react/react-router-dom/lucide-react. Without this, the dev server and prod
 // build embed a second React instance and hooks fail with "Invalid hook call".
 import { trailingSlashLinks } from "./src/shared/router/trailingSlashPlugin";
+import { cjkOtsikot } from "./src/shared/cjk/cjkOtsikotPlugin";
 export default defineConfig({
-  plugins: [trailingSlashLinks(), react(), tailwindcss(), compression({ algorithms: ['brotliCompress'], threshold: 1024 })],
+  plugins: [cjkOtsikot(), trailingSlashLinks(), react(), tailwindcss(), compression({ algorithms: ['brotliCompress'], threshold: 1024 })],
   resolve: {
     dedupe: ['react', 'react-dom', 'react-router-dom', 'lucide-react'],
     alias: {
