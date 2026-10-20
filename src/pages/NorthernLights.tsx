@@ -77,6 +77,13 @@ export default function NorthernLights() {
             </span>
           </div>
         </div>
+        {/* Appin revontuliyksikkö johdannon perään: nappi avaa appin revontulinäkymän (tämän yön todennäköisyys
+            tunneittain, Kp-indeksi, pilvisyys). 🔴 Vesa 20.10.2026: "aivan liian alhaalla" — "Yksi revontuliyö"
+            -osion lopussa se oli 5,7 näytöllistä alhaalla puhelimella. Oma 5xl-palsta: 4xl:ssä (896 px) puhelin ja
+            QR pinoutuivat (19.10.). */}
+        <div className="max-w-5xl mx-auto">
+          <AppPromoAurora placement="aurora_intro" />
+        </div>
       </section>
 
       <section className="pb-16 sm:pb-20 px-4 sm:px-6">
@@ -175,12 +182,6 @@ export default function NorthernLights() {
               })}
             </div>
           </div>
-        </div>
-        {/* Illan aikataulun ensimmäinen askel on ennusteen katsominen: appin revontulinäkymä näyttää tämän yön
-            todennäköisyyden tunneittain (Kp-indeksi, pilvisyys). Oma 5xl-palsta: 4xl:ssä (896 px) kortti jäi alle
-            900 px:n rajan, jolloin puhelin ja QR pinoutuivat ja tekstin alle jäi tyhjää (mitattu livenä 19.10.). */}
-        <div className="max-w-5xl mx-auto">
-          <AppPromoAurora placement="aurora_one_night" />
         </div>
       </section>
 
