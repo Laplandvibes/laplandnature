@@ -74,7 +74,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
       { name: 'Kilpisjärvi', note: 'Tríplice fronteira · aurora em cerca de 75% das noites escuras (FMI)' },
       { name: 'Enontekiö', note: 'Entre os céus mais escuros da Finlândia nos mapas de poluição luminosa' },
       { name: 'Hetta', note: 'Extremo norte da trilha Hetta–Pallas' },
-      { name: 'Ruka / Oulanka', note: 'Karhunkierros de 82 km · pontes suspensas e corredeiras · Kuusamo, logo ao sul da Lapônia' },
+      { name: 'Ruka / Oulanka', note: 'Karhunkierros de 81 km · pontes suspensas e corredeiras · Kuusamo, logo ao sul da Lapônia' },
       { name: 'Kilpisjärvi (Halti)', note: 'Cerca de 55 km só de ida até o Halti, o ponto mais alto da Finlândia (1.324 m)' },
       { name: 'Pyhä', note: 'Isokuru, o desfiladeiro mais profundo da Finlândia · circuito de Karhunjuomalampi de 10 km' },
       { name: 'Esconderijos de ursos de Kuusamo', note: 'Esconderijos de urso-pardo · da primavera ao outono · logo ao sul da Lapônia' },
@@ -84,7 +84,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   home: {
     metaTitle: 'Natureza da Lapônia: parques e aurora',
-    metaDescription: 'A natureza ártica da Lapônia finlandesa: sete parques nacionais, auroras do fim de agosto ao início de abril, o kaamos e trilhas de até 82 km.',
+    metaDescription: 'A natureza ártica da Lapônia finlandesa: sete parques nacionais, auroras do fim de agosto ao início de abril, o kaamos e trilhas de até 81 km.',
     hero: {
       alt: 'Paisagem de fjälls na Lapônia finlandesa',
       eyebrow: 'Acima do Círculo Polar Ártico',
@@ -132,7 +132,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
         {
           tag: 'Trilhas',
           title: 'Caminhadas e trilhas',
-          blurb: 'Percorra as trilhas mais emblemáticas da Finlândia, das pontes suspensas do Karhunkierros de 82 km ao ponto mais alto da Finlândia, na encosta do Halti (1.324 m).',
+          blurb: 'Percorra as trilhas mais emblemáticas da Finlândia, das pontes suspensas do Karhunkierros de 81 km ao ponto mais alto da Finlândia, na encosta do Halti (1.324 m).',
           cta: 'Explorar as trilhas',
         },
         {
@@ -426,8 +426,8 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   hiking: {
     difficulties: { easy: 'Fácil', moderate: 'Moderada', challenging: 'Difícil', demanding: 'Exigente' },
-    metaTitle: 'Trilhas da Lapônia: de circuitos curtos ao Karhunkierros de 82 km',
-    metaDescription: 'Seis trilhas na Lapônia finlandesa e arredores: Hetta–Pallas (cerca de 50 km), Karhunkierros (82 km), Halti (cerca de 55 km só de ida) e três rotas mais curtas.',
+    metaTitle: 'Trilhas da Lapônia: de circuitos curtos ao Karhunkierros de 81 km',
+    metaDescription: 'Seis trilhas na Lapônia finlandesa e arredores: Hetta–Pallas (cerca de 50 km), Karhunkierros (81 km), Halti (cerca de 55 km só de ida) e três rotas mais curtas.',
     hero: {
       alt: 'As corredeiras de Kiutaköngäs entre paredões avermelhados na trilha Karhunkierros, no Parque Nacional de Oulanka',
       eyebrow: 'Guia essencial',
@@ -437,7 +437,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
     },
     karhuKicker: 'Ficha da rota · Karhunkierros',
     karhuH2: 'O Karhunkierros etapa por etapa: refúgios, corredeiras e distâncias',
-    karhuLead: 'O Karhunkierros, de 82 km, vai de Hautajärvi, em Salla, sobre o Círculo Polar Ártico, rumo ao sul pelo Parque Nacional de Oulanka até Ruka, em Kuusamo. A maioria leva de quatro a seis dias. As etapas abaixo seguem os refúgios abertos; as distâncias vêm do guia da trilha da cidade de Kuusamo. A trilha sobe mais no trecho final.',
+    karhuLead: 'O Karhunkierros, de 81 km, vai de Hautajärvi, em Salla, sobre o Círculo Polar Ártico, rumo ao sul pelo Parque Nacional de Oulanka até Ruka, em Kuusamo. A maioria leva de quatro a seis dias. As etapas abaixo seguem os refúgios abertos; as distâncias vêm do guia da trilha da cidade de Kuusamo. A trilha sobe mais no trecho final.',
     days: [
       { day: 'Etapa 1 · cerca de 18 km', title: 'Hautajärvi → Taivalköngäs', body: 'A partir do centro de visitantes do Karhunkierros, em Hautajärvi, a trilha acompanha o Savinajoki, que desce cerca de 60 m em corredeiras quase contínuas. O refúgio de Savilampi (para 10 pessoas) fica junto a uma longa ponte suspensa, e um desvio de cerca de 1 km leva ao cânion de Oulanka.', note: 'Taivalköngäs: corredeiras de mais de 6 m de altura, cruzadas por três pontes suspensas · refúgio aberto para 10–15 pessoas' },
       { day: 'Etapa 2 · cerca de 24 km', title: 'Taivalköngäs → Jussinkämppä', body: 'Passando pelo centro de visitantes e pelo camping de Oulanka até Kiutaköngäs, uma corredeira com 13,7 m de queda e paredões avermelhados de dolomita. Depois, a trilha segue pela floresta até Ansakämppä e Jussinkämppä.', note: 'Ansakämppä e Jussinkämppä: refúgios abertos' },
@@ -455,10 +455,10 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
     oulankaGuidedCta: 'Opções de dia guiado em Oulanka',
     listKicker: 'A lista completa de trilhas',
     listH2: 'Seis trilhas para planejar uma viagem em torno delas',
-    listLead: 'De um circuito por um desfiladeiro em Pyhä-Luosto ao Karhunkierros de 82 km descrito acima. Cada trilha leva a um vilarejo de início de trilha onde vale a pena se hospedar.',
+    listLead: 'De um circuito por um desfiladeiro em Pyhä-Luosto ao Karhunkierros de 81 km descrito acima. Cada trilha leva a um vilarejo de início de trilha onde vale a pena se hospedar.',
     trails: [
       { name: 'Trilha Hetta–Pallas', description: 'A trilha longa mais popular do Parque Nacional de Pallas-Yllästunturi, sinalizada em 1934, pela cadeia de fjälls entre Hetta e Pallas. Terreno de fjäll aberto, com vistas amplas e refúgios ao longo do caminho.', distance: 'cerca de 50 km', duration: '3–4 dias', difficulty: 'Difícil' },
-      { name: 'Karhunkierros (Trilha do Urso)', description: 'Uma das trilhas mais conhecidas da Finlândia, de Hautajärvi a Ruka pelo Parque Nacional de Oulanka, entre corredeiras, pontes suspensas e gargantas fluviais.', distance: '82 km', duration: '4–6 dias', difficulty: 'Difícil' },
+      { name: 'Karhunkierros (Trilha do Urso)', description: 'Uma das trilhas mais conhecidas da Finlândia, de Hautajärvi a Ruka pelo Parque Nacional de Oulanka, entre corredeiras, pontes suspensas e gargantas fluviais.', distance: '81 km', duration: '4–6 dias', difficulty: 'Difícil' },
       { name: 'Trilhas de um dia de Saariselkä', description: 'Cerca de 200 km de trilhas sinalizadas em torno de Saariselkä, Kiilopää e Kakslauttanen, cerca de 80 km delas dentro do Parque Nacional de Urho Kekkonen. Os circuitos de um dia vão de trilhas curtas de natureza a 14 km.', distance: '1–14 km', duration: '1–6 horas', difficulty: 'Fácil' },
       { name: 'Trilha do Halti – o ponto mais alto da Finlândia', description: 'Travessia até o ponto mais alto da Finlândia, na encosta do Halti, a 1.324 m, no coração da natureza selvagem de Käsivarsi, junto à fronteira com a Noruega. Remota e exposta: o tempo muda rápido, então leve mapa e bússola e saiba usá-los.', distance: 'cerca de 55 km só de ida', duration: '6–8 dias ida e volta', difficulty: 'Exigente' },
       { name: 'Desfiladeiro de Isokuru e circuito de Karhunjuomalampi', description: 'Um circuito por Isokuru, o desfiladeiro mais profundo da Finlândia, no Parque Nacional de Pyhä-Luosto. Uma passarela larga percorre o fundo do desfiladeiro até a cachoeira de Pyhänkasteenputous, e depois 447 degraus sobem até a crista de Uhriharju. Também há uma rota sinalizada sem degraus até o desfiladeiro.', distance: '10 km (circuito)', duration: '3–4 horas', difficulty: 'Moderada' },
@@ -477,7 +477,7 @@ export const PTBR_OVERRIDES: DeepPartial<SectionCopy> = {
       eyebrow: 'Perguntas frequentes',
       h2: 'Trilhas na Lapônia, perguntas frequentes',
       items: [
-        { q: 'Quanto tempo leva o Karhunkierros (Trilha do Urso)?', a: 'O Karhunkierros completo tem cerca de 82 km e a maioria o percorre em quatro a seis dias, dormindo nos refúgios abertos ao longo da trilha. Caminhantes em boa forma fazem em quatro dias longos; se quiser tempo para as corredeiras, as cachoeiras e as pontes suspensas, planeje cinco. O circuito mais curto do Pieni Karhunkierros reúne os destaques em 12 km.' },
+        { q: 'Quanto tempo leva o Karhunkierros (Trilha do Urso)?', a: 'O Karhunkierros completo tem cerca de 81 km e a maioria o percorre em quatro a seis dias, dormindo nos refúgios abertos ao longo da trilha. Caminhantes em boa forma fazem em quatro dias longos; se quiser tempo para as corredeiras, as cachoeiras e as pontes suspensas, planeje cinco. O circuito mais curto do Pieni Karhunkierros reúne os destaques em 12 km.' },
         { q: 'Qual é a trilha mais popular da Lapônia?', a: 'O Karhunkierros costuma ser chamado de a trilha mais popular da Finlândia. Na própria Lapônia, a rota longa mais conhecida é a Hetta–Pallas, com cerca de 50 km e sinalizada em 1934, no Pallas-Yllästunturi, o parque nacional mais visitado da Finlândia. Ela corre quase toda acima do limite das árvores, e os refúgios a dividem em três ou quatro dias entre Hetta e Pallas.' },
         { q: 'É preciso reservar os refúgios com antecedência?', a: 'Os refúgios abertos (autiotupa) são gratuitos e ocupados por ordem de chegada; não dá para reservá-los, e no auge do ruska, em setembro, eles podem lotar no meio da tarde. Os refúgios com reserva (varaustupa) precisam ser reservados e pagos com antecedência em eraluvat.fi, 20 € por cama por noite em 2026, e valem a pena para garantir uma cama nos trechos movimentados.' },
         { q: 'Qual é a altura do ponto mais alto da Finlândia, e dá para chegar a pé?', a: 'O ponto mais alto da Finlândia fica na encosta do Halti, a 1.324 m, no interior selvagem de Kilpisjärvi, perto da fronteira com a Noruega. São cerca de 55 km só de ida a partir de Kilpisjärvi, então a ida e volta soma uns 110 km e leva de seis a oito dias para a maioria. A rota é remota e exposta; leve mapa e bússola.' },

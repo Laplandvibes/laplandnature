@@ -74,7 +74,7 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
       { name: 'Kilpisjärvi', note: 'Punto de los tres países · aurora en cerca del 75 % de las noches oscuras (FMI)' },
       { name: 'Enontekiö', note: 'Entre los cielos más oscuros de Finlandia según los mapas de contaminación lumínica' },
       { name: 'Hetta', note: 'Extremo norte del sendero Hetta–Pallas' },
-      { name: 'Ruka / Oulanka', note: 'Karhunkierros de 82 km · puentes colgantes y rápidos · Kuusamo, justo al sur de Laponia' },
+      { name: 'Ruka / Oulanka', note: 'Karhunkierros de 81 km · puentes colgantes y rápidos · Kuusamo, justo al sur de Laponia' },
       { name: 'Kilpisjärvi (Halti)', note: 'Unos 55 km solo ida hasta el Halti, el punto más alto de Finlandia (1324 m)' },
       { name: 'Pyhä', note: 'Isokuru, la garganta más profunda de Finlandia · circuito de Karhunjuomalampi de 10 km' },
       { name: 'Hides de osos de Kuusamo', note: 'Hides de oso pardo · de primavera a otoño · justo al sur de Laponia' },
@@ -84,7 +84,7 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   home: {
     metaTitle: 'Naturaleza de Laponia: parques y aurora',
-    metaDescription: 'La naturaleza ártica de la Laponia finlandesa: siete parques nacionales, auroras de finales de agosto a abril, el kaamos y senderos de hasta 82 km.',
+    metaDescription: 'La naturaleza ártica de la Laponia finlandesa: siete parques nacionales, auroras de finales de agosto a abril, el kaamos y senderos de hasta 81 km.',
     hero: {
       alt: 'Paisaje de fjäll en la Laponia finlandesa',
       eyebrow: 'Al norte del Círculo Polar',
@@ -132,7 +132,7 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
         {
           tag: 'Senderos',
           title: 'Rutas de senderismo',
-          blurb: 'Recorra los senderos más emblemáticos de Finlandia, desde los puentes colgantes del Karhunkierros de 82 km hasta el punto más alto de Finlandia, en la ladera del Halti (1324 m).',
+          blurb: 'Recorra los senderos más emblemáticos de Finlandia, desde los puentes colgantes del Karhunkierros de 81 km hasta el punto más alto de Finlandia, en la ladera del Halti (1324 m).',
           cta: 'Explorar los senderos',
         },
         {
@@ -486,8 +486,8 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   hiking: {
     difficulties: { easy: 'Fácil', moderate: 'Moderada', challenging: 'Exigente', demanding: 'Muy exigente' },
-    metaTitle: 'Senderos de Laponia: de rutas cortas al Karhunkierros de 82 km',
-    metaDescription: 'Seis senderos en la Laponia finlandesa y sus alrededores: Hetta–Pallas (unos 50 km), Karhunkierros (82 km), Halti (unos 55 km solo ida) y tres rutas más cortas.',
+    metaTitle: 'Senderos de Laponia: de rutas cortas al Karhunkierros de 81 km',
+    metaDescription: 'Seis senderos en la Laponia finlandesa y sus alrededores: Hetta–Pallas (unos 50 km), Karhunkierros (81 km), Halti (unos 55 km solo ida) y tres rutas más cortas.',
     hero: {
       alt: 'Los rápidos de Kiutaköngäs entre paredes rojizas en el Karhunkierros, en el Parque Nacional de Oulanka',
       eyebrow: 'Guía esencial',
@@ -497,7 +497,7 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
     },
     karhuKicker: 'Ficha de ruta · Karhunkierros',
     karhuH2: 'El Karhunkierros etapa a etapa: refugios, rápidos y distancias',
-    karhuLead: 'El Karhunkierros, de 82 km, va desde Hautajärvi, en Salla, sobre el Círculo Polar Ártico, hacia el sur a través del Parque nacional de Oulanka hasta Ruka, en Kuusamo. La mayoría tarda de cuatro a seis días. Las etapas de abajo siguen los refugios abiertos; las distancias proceden de la guía del sendero de la ciudad de Kuusamo. El sendero gana altura hacia el final.',
+    karhuLead: 'El Karhunkierros, de 81 km, va desde Hautajärvi, en Salla, sobre el Círculo Polar Ártico, hacia el sur a través del Parque nacional de Oulanka hasta Ruka, en Kuusamo. La mayoría tarda de cuatro a seis días. Las etapas de abajo siguen los refugios abiertos; las distancias proceden de la guía del sendero de la ciudad de Kuusamo. El sendero gana altura hacia el final.',
     days: [
       { day: 'Etapa 1 · unos 18 km', title: 'Hautajärvi → Taivalköngäs', body: 'Desde el centro de visitantes del Karhunkierros en Hautajärvi, el sendero sigue el Savinajoki, que desciende unos 60 m en rápidos casi continuos. El refugio de Savilampi (para 10 personas) está junto a un largo puente colgante, y un desvío de aproximadamente 1 km lleva al cañón del Oulanka.', note: 'Taivalköngäs: rápidos de más de 6 m de altura, cruzados por tres puentes colgantes · refugio abierto para 10–15 personas' },
       { day: 'Etapa 2 · unos 24 km', title: 'Taivalköngäs → Jussinkämppä', body: 'Se pasa por el centro de visitantes y el camping de Oulanka hasta Kiutaköngäs, un rápido con una caída de 13,7 m y paredes rojizas de dolomita. Después, el sendero continúa por el bosque hasta Ansakämppä y Jussinkämppä.', note: 'Ansakämppä y Jussinkämppä: refugios abiertos' },
@@ -515,10 +515,10 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
     oulankaGuidedCta: 'Opciones de día guiado en Oulanka',
     listKicker: 'La lista completa de senderos',
     listH2: 'Seis senderos para planificar un viaje en torno a ellos',
-    listLead: 'Desde un circuito por una garganta en Pyhä-Luosto hasta el Karhunkierros de 82 km descrito arriba. Cada sendero enlaza con un pueblo de inicio del sendero cerca del cual le conviene alojarse.',
+    listLead: 'Desde un circuito por una garganta en Pyhä-Luosto hasta el Karhunkierros de 81 km descrito arriba. Cada sendero enlaza con un pueblo de inicio del sendero cerca del cual le conviene alojarse.',
     trails: [
       { name: 'Sendero Hetta–Pallas', description: 'El sendero largo más popular del Parque nacional de Pallas-Yllästunturi, señalizado en 1934, que recorre la cadena de fjälls entre Hetta y Pallas. Terreno de fjäll abierto, con amplias vistas y refugios a lo largo del camino.', distance: 'unos 50 km', duration: '3–4 días', difficulty: 'Exigente' },
-      { name: 'Karhunkierros (Senda del Oso)', description: 'Uno de los senderos más conocidos de Finlandia, de Hautajärvi a Ruka a través del Parque nacional de Oulanka, entre rápidos, puentes colgantes y gargantas fluviales.', distance: '82 km', duration: '4–6 días', difficulty: 'Exigente' },
+      { name: 'Karhunkierros (Senda del Oso)', description: 'Uno de los senderos más conocidos de Finlandia, de Hautajärvi a Ruka a través del Parque nacional de Oulanka, entre rápidos, puentes colgantes y gargantas fluviales.', distance: '81 km', duration: '4–6 días', difficulty: 'Exigente' },
       { name: 'Rutas de día de Saariselkä', description: 'Unos 200 km de senderos señalizados en torno a Saariselkä, Kiilopää y Kakslauttanen, de los cuales unos 80 km están dentro del Parque nacional de Urho Kekkonen. Los circuitos de un día van desde senderos naturales cortos hasta 14 km.', distance: '1–14 km', duration: '1–6 horas', difficulty: 'Fácil' },
       { name: 'Sendero del Halti: el punto más alto de Finlandia', description: 'Travesía hasta el punto más alto de Finlandia, en la ladera del Halti, a 1324 m, en plena naturaleza de Käsivarsi, junto a la frontera noruega. Remoto y expuesto: el tiempo cambia rápido, así que lleve mapa y brújula y sepa usarlos.', distance: 'unos 55 km solo ida', duration: '6–8 días ida y vuelta', difficulty: 'Muy exigente' },
       { name: 'Garganta de Isokuru y circuito de Karhunjuomalampi', description: 'Un circuito por Isokuru, la garganta más profunda de Finlandia, en el Parque nacional de Pyhä-Luosto. Una pasarela ancha recorre el fondo de la garganta hasta la cascada de Pyhänkasteenputous, y después 447 escalones suben a la cresta de Uhriharju. También hay señalizada una ruta sin escalones hasta la garganta.', distance: '10 km (circuito)', duration: '3–4 horas', difficulty: 'Moderada' },
@@ -539,7 +539,7 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
       items: [
         {
           q: '¿Cuánto se tarda en recorrer el Karhunkierros (Senda del Oso)?',
-          a: 'El Karhunkierros completo mide unos 82 km y la mayoría lo recorre en cuatro a seis días, durmiendo en los refugios abiertos del sendero. Los caminantes en buena forma lo hacen en cuatro jornadas largas; si quiere tiempo para los rápidos, las cascadas y los puentes colgantes, cuente con cinco. El circuito más corto del Pieni Karhunkierros reúne lo más destacado en 12 km.',
+          a: 'El Karhunkierros completo mide unos 81 km y la mayoría lo recorre en cuatro a seis días, durmiendo en los refugios abiertos del sendero. Los caminantes en buena forma lo hacen en cuatro jornadas largas; si quiere tiempo para los rápidos, las cascadas y los puentes colgantes, cuente con cinco. El circuito más corto del Pieni Karhunkierros reúne lo más destacado en 12 km.',
         },
         {
           q: '¿Cuál es el sendero más popular de Laponia?',

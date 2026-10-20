@@ -82,7 +82,7 @@ const en: SectionCopy = {
       { name: 'Kilpisjärvi', note: 'Three-country corner · aurora on about 75% of dark nights (FMI)' },
       { name: 'Enontekiö', note: 'Among the darkest skies in Finland on light-pollution maps' },
       { name: 'Hetta', note: 'North end of the Hetta–Pallas trail' },
-      { name: 'Ruka / Oulanka', note: '82 km Karhunkierros · suspension bridges and rapids · Kuusamo, just south of Lapland' },
+      { name: 'Ruka / Oulanka', note: '81 km Karhunkierros · suspension bridges and rapids · Kuusamo, just south of Lapland' },
       { name: 'Kilpisjärvi (Halti)', note: "About 55 km one way to Halti, Finland's highest point (1,324 m)" },
       { name: 'Pyhä', note: "Isokuru, Finland's deepest gorge · 10 km Karhunjuomalampi loop" },
       { name: 'Kuusamo bear hides', note: 'Brown-bear hides · spring to autumn · just south of Lapland' },
@@ -92,7 +92,7 @@ const en: SectionCopy = {
   },
   home: {
     metaTitle: 'Lapland Nature: Aurora, Parks & Wildlife Guide',
-    metaDescription: "Finnish Lapland's arctic wilderness: seven national parks, aurora skies from late August to early April, the kaamos polar night and hiking trails up to 82 km.",
+    metaDescription: "Finnish Lapland's arctic wilderness: seven national parks, aurora skies from late August to early April, the kaamos polar night and hiking trails up to 81 km.",
     hero: {
       eyebrow: 'Above the Arctic Circle',
       title: 'Untouched arctic',
@@ -140,7 +140,7 @@ const en: SectionCopy = {
         {
           tag: 'Trails',
           title: 'Hiking Trails',
-          blurb: "Walk Finland's most iconic trails, from the 82 km Karhunkierros suspension bridges to Finland's highest point on the shoulder of Halti (1,324 m).",
+          blurb: "Walk Finland's most iconic trails, from the 81 km Karhunkierros suspension bridges to Finland's highest point on the shoulder of Halti (1,324 m).",
           cta: 'Explore Hiking Trails',
         },
         {
@@ -708,8 +708,8 @@ const en: SectionCopy = {
     },
   },
   hiking: {
-    metaTitle: 'Lapland Hiking Trails: Day Loops to the 82 km Karhunkierros',
-    metaDescription: 'Six hiking trails in and around Finnish Lapland: Hetta–Pallas (about 50 km), Karhunkierros (82 km), Halti (about 55 km one way) and three shorter routes.',
+    metaTitle: 'Lapland Hiking Trails: Day Loops to the 81 km Karhunkierros',
+    metaDescription: 'Six hiking trails in and around Finnish Lapland: Hetta–Pallas (about 50 km), Karhunkierros (81 km), Halti (about 55 km one way) and three shorter routes.',
     hero: {
       eyebrow: 'Pillar guide',
       title: 'Hiking Trails',
@@ -719,7 +719,7 @@ const en: SectionCopy = {
     },
     karhuKicker: 'Route card · Karhunkierros',
     karhuH2: 'Karhunkierros leg by leg: huts, rapids and distances',
-    karhuLead: 'The 82 km Karhunkierros runs from Hautajärvi in Salla, on the Arctic Circle, south through Oulanka National Park to Ruka in Kuusamo. Most people take four to six days. The legs below follow the open wilderness huts; the distances come from the City of Kuusamo trail guide. The trail climbs towards the end.',
+    karhuLead: 'The 81 km Karhunkierros runs from Hautajärvi in Salla, on the Arctic Circle, south through Oulanka National Park to Ruka in Kuusamo. Most people take four to six days. The legs below follow the open wilderness huts; the distances come from the City of Kuusamo trail guide. The trail climbs towards the end.',
     days: [
       {
         day: 'Leg 1 · about 18 km',
@@ -757,7 +757,7 @@ const en: SectionCopy = {
     oulankaGuidedCta: 'Guided Oulanka day-walk options',
     listKicker: 'The full trail list',
     listH2: 'Six trails worth planning a trip around',
-    listLead: "From a gorge loop in Pyhä-Luosto to the 82 km Karhunkierros above. Each links to a trailhead village you'll want to stay near.",
+    listLead: "From a gorge loop in Pyhä-Luosto to the 81 km Karhunkierros above. Each links to a trailhead village you'll want to stay near.",
     trails: [
       {
         name: 'Hetta–Pallas Trail',
@@ -769,7 +769,7 @@ const en: SectionCopy = {
       {
         name: 'Karhunkierros (Bear Trail)',
         description: "One of Finland's best-known trails, from Hautajärvi to Ruka through Oulanka National Park, past rapids, suspension bridges and river gorges.",
-        distance: '82 km',
+        distance: '81 km',
         duration: '4–6 days',
         difficulty: 'Challenging',
       },
@@ -818,7 +818,7 @@ const en: SectionCopy = {
       items: [
         {
           q: 'How long does the Karhunkierros (Bear Trail) take?',
-          a: 'The full Karhunkierros is about 82 km and most hikers walk it in four to six days, sleeping in the open wilderness huts along the trail. Strong walkers do it in four long days; if you want time at the rapids, waterfalls and suspension bridges, plan five. The shorter Pieni Karhunkierros loop covers the highlights in 12 km.',
+          a: 'The full Karhunkierros is about 81 km and most hikers walk it in four to six days, sleeping in the open wilderness huts along the trail. Strong walkers do it in four long days; if you want time at the rapids, waterfalls and suspension bridges, plan five. The shorter Pieni Karhunkierros loop covers the highlights in 12 km.',
         },
         {
           q: 'What is the most popular hiking trail in Lapland?',

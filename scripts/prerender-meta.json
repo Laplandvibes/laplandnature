@@ -2,51 +2,51 @@
   "/": {
     "en": {
       "title": "Lapland Nature: Aurora, Parks & Wildlife Guide",
-      "description": "Finnish Lapland's arctic wilderness: seven national parks, aurora skies from late August to early April, the kaamos polar night and hiking trails up to 82 km."
+      "description": "Finnish Lapland's arctic wilderness: seven national parks, aurora skies from late August to early April, the kaamos polar night and hiking trails up to 81 km."
     },
     "fi": {
       "title": "Lapin luonto: erämaat ja kansallispuistot",
-      "description": "Suomen Lapin erämaat: seitsemän kansallispuistoa, revontulet elokuun lopulta huhtikuun alkuun, kaamos ja vaellusreitit lyhyistä lenkeistä 82 kilometriin."
+      "description": "Suomen Lapin erämaat: seitsemän kansallispuistoa, revontulet elokuun lopulta huhtikuun alkuun, kaamos ja vaellusreitit lyhyistä lenkeistä 81 kilometriin."
     },
     "de": {
       "title": "Lapplands Natur: Wildnis & Nationalparks",
-      "description": "Finnisch-Lapplands arktische Wildnis: sieben Nationalparks, Nordlichter von Ende August bis Anfang April, die Polarnacht (Kaamos) und Wege bis 82 km."
+      "description": "Finnisch-Lapplands arktische Wildnis: sieben Nationalparks, Nordlichter von Ende August bis Anfang April, die Polarnacht (Kaamos) und Wege bis 81 km."
     },
     "ja": {
       "title": "ラップランドの自然：北極圏の原野、オーロラと国立公園",
-      "description": "フィンランド・ラップランドの北極圏の原野。7つの国立公園、8月下旬から4月上旬まで続くオーロラの空、極夜カーモス、最長82kmのハイキングトレイル。"
+      "description": "フィンランド・ラップランドの北極圏の原野。7つの国立公園、8月下旬から4月上旬まで続くオーロラの空、極夜カーモス、最長81kmのハイキングトレイル。"
     },
     "es": {
       "title": "Naturaleza de Laponia: parques y aurora",
-      "description": "La naturaleza ártica de la Laponia finlandesa: siete parques nacionales, auroras de finales de agosto a abril, el kaamos y senderos de hasta 82 km."
+      "description": "La naturaleza ártica de la Laponia finlandesa: siete parques nacionales, auroras de finales de agosto a abril, el kaamos y senderos de hasta 81 km."
     },
     "pt-BR": {
       "title": "Natureza da Lapônia: parques e aurora",
-      "description": "A natureza ártica da Lapônia finlandesa: sete parques nacionais, auroras do fim de agosto ao início de abril, o kaamos e trilhas de até 82 km."
+      "description": "A natureza ártica da Lapônia finlandesa: sete parques nacionais, auroras do fim de agosto ao início de abril, o kaamos e trilhas de até 81 km."
     },
     "zh-CN": {
       "title": "拉普兰自然：北极荒野、极光与国家公园",
-      "description": "芬兰拉普兰的北极荒野：七座国家公园、八月下旬至四月初的极光季、kaamos 极夜，以及最长 82 公里的徒步步道。"
+      "description": "芬兰拉普兰的北极荒野：七座国家公园、八月下旬至四月初的极光季、kaamos 极夜，以及最长 81 公里的徒步步道。"
     },
     "ko": {
       "title": "라플란드의 자연: 북극 자연, 오로라, 국립공원",
-      "description": "핀란드 라플란드의 북극 자연: 일곱 국립공원, 8월 말부터 4월 초까지 이어지는 오로라 시즌, 카모스(극야), 그리고 최장 82km의 하이킹 트레일."
+      "description": "핀란드 라플란드의 북극 자연: 일곱 국립공원, 8월 말부터 4월 초까지 이어지는 오로라 시즌, 카모스(극야), 그리고 최장 81km의 하이킹 트레일."
     },
     "fr": {
       "title": "Nature de Laponie : parcs et aurore",
-      "description": "La nature arctique de la Laponie finlandaise : sept parcs nationaux, des aurores de fin août à début avril, le kaamos et des sentiers jusqu'à 82 km."
+      "description": "La nature arctique de la Laponie finlandaise : sept parcs nationaux, des aurores de fin août à début avril, le kaamos et des sentiers jusqu'à 81 km."
     },
     "it": {
       "title": "Natura della Lapponia: parchi e aurora",
-      "description": "La natura artica della Lapponia finlandese: sette parchi nazionali, aurore da fine agosto a inizio aprile, il kaamos e sentieri fino a 82 km."
+      "description": "La natura artica della Lapponia finlandese: sette parchi nazionali, aurore da fine agosto a inizio aprile, il kaamos e sentieri fino a 81 km."
     },
     "nl": {
       "title": "Natuur van Lapland: parken en noorderlicht",
-      "description": "De arctische wildernis van Fins Lapland: zeven nationale parken, noorderlicht van eind augustus tot begin april, de poolnacht kaamos en wandelpaden tot 82 km."
+      "description": "De arctische wildernis van Fins Lapland: zeven nationale parken, noorderlicht van eind augustus tot begin april, de poolnacht kaamos en wandelpaden tot 81 km."
     },
     "sv": {
       "title": "Lapplands natur: norrsken, parker och djurliv",
-      "description": "Finska Lapplands arktiska vildmark: sju nationalparker, norrsken från slutet av augusti till början av april, polarnatten kaamos och leder upp till 82 km."
+      "description": "Finska Lapplands arktiska vildmark: sju nationalparker, norrsken från slutet av augusti till början av april, polarnatten kaamos och leder upp till 81 km."
     }
   },
   "/bear-kuusamo": {
@@ -829,12 +829,12 @@
   },
   "/hiking-trails": {
     "en": {
-      "title": "Lapland Hiking Trails: Day Loops to the 82 km Karhunkierros",
-      "description": "Six hiking trails in and around Finnish Lapland: Hetta–Pallas (about 50 km), Karhunkierros (82 km), Halti (about 55 km one way) and three shorter routes.",
+      "title": "Lapland Hiking Trails: Day Loops to the 81 km Karhunkierros",
+      "description": "Six hiking trails in and around Finnish Lapland: Hetta–Pallas (about 50 km), Karhunkierros (81 km), Halti (about 55 km one way) and three shorter routes.",
       "faq": [
         {
           "q": "How long does the Karhunkierros (Bear Trail) take?",
-          "a": "The full Karhunkierros is about 82 km and most hikers walk it in four to six days, sleeping in the open wilderness huts along the trail. Strong walkers do it in four long days; if you want time at the rapids, waterfalls and suspension bridges, plan five. The shorter Pieni Karhunkierros loop covers the highlights in 12 km."
+          "a": "The full Karhunkierros is about 81 km and most hikers walk it in four to six days, sleeping in the open wilderness huts along the trail. Strong walkers do it in four long days; if you want time at the rapids, waterfalls and suspension bridges, plan five. The shorter Pieni Karhunkierros loop covers the highlights in 12 km."
         },
         {
           "q": "What is the most popular hiking trail in Lapland?",
@@ -856,11 +856,11 @@
     },
     "fi": {
       "title": "Lapin vaellusreitit: päivälenkeistä Karhunkierrokseen",
-      "description": "Kuusi vaellusreittiä Lapissa ja sen lähellä: Hetta–Pallas (noin 50 km), Karhunkierros (82 km), Halti (noin 55 km suuntaansa) ja kolme lyhyempää reittiä.",
+      "description": "Kuusi vaellusreittiä Lapissa ja sen lähellä: Hetta–Pallas (noin 50 km), Karhunkierros (81 km), Halti (noin 55 km suuntaansa) ja kolme lyhyempää reittiä.",
       "faq": [
         {
           "q": "Kuinka kauan Karhunkierros kestää?",
-          "a": "Koko Karhunkierros on noin 82 km, ja useimmat kävelevät sen 4–6 päivässä yöpyen reitin varren autiotuvissa. Vahvat kävelijät selviävät neljässä pitkässä päivässä, mutta jos haluat viipyä koskilla, putouksilla ja riippusilloilla, varaa viisi päivää. Lyhyempi Pieni Karhunkierros kiertää kohokohdat 12 kilometrissä."
+          "a": "Koko Karhunkierros on noin 81 km, ja useimmat kävelevät sen 4–6 päivässä yöpyen reitin varren autiotuvissa. Vahvat kävelijät selviävät neljässä pitkässä päivässä, mutta jos haluat viipyä koskilla, putouksilla ja riippusilloilla, varaa viisi päivää. Lyhyempi Pieni Karhunkierros kiertää kohokohdat 12 kilometrissä."
         },
         {
           "q": "Mikä on Lapin suosituin vaellusreitti?",
@@ -881,12 +881,12 @@
       ]
     },
     "de": {
-      "title": "Lapplands Wanderwege: Tagesrunden bis Karhunkierros (82 km)",
-      "description": "Sechs Wanderwege in Finnisch-Lappland und Umgebung: Hetta–Pallas (etwa 50 km), Karhunkierros (82 km), Halti (etwa 55 km einfach) und drei kürzere Routen.",
+      "title": "Lapplands Wanderwege: Tagesrunden bis Karhunkierros (81 km)",
+      "description": "Sechs Wanderwege in Finnisch-Lappland und Umgebung: Hetta–Pallas (etwa 50 km), Karhunkierros (81 km), Halti (etwa 55 km einfach) und drei kürzere Routen.",
       "faq": [
         {
           "q": "Wie lange dauert der Karhunkierros (Bärenpfad)?",
-          "a": "Der komplette Karhunkierros ist etwa 82 km lang, und die meisten Wanderer bewältigen ihn in vier bis sechs Tagen mit Übernachtung in den offenen Wildnishütten entlang des Weges. Starke Geher schaffen ihn in vier langen Tagen; wenn Sie Zeit an den Stromschnellen, Wasserfällen und Hängebrücken wollen, planen Sie fünf. Die kürzere Pieni-Karhunkierros-Runde fasst die Höhepunkte auf 12 km zusammen."
+          "a": "Der komplette Karhunkierros ist etwa 81 km lang, und die meisten Wanderer bewältigen ihn in vier bis sechs Tagen mit Übernachtung in den offenen Wildnishütten entlang des Weges. Starke Geher schaffen ihn in vier langen Tagen; wenn Sie Zeit an den Stromschnellen, Wasserfällen und Hängebrücken wollen, planen Sie fünf. Die kürzere Pieni-Karhunkierros-Runde fasst die Höhepunkte auf 12 km zusammen."
         },
         {
           "q": "Was ist der beliebteste Wanderweg in Lappland?",
@@ -907,12 +907,12 @@
       ]
     },
     "ja": {
-      "title": "ラップランドのハイキングトレイル：日帰り周回から82kmのカルフンキエッロスまで",
-      "description": "フィンランド・ラップランドとその周辺の6つのハイキングトレイル：ヘッタ〜パッラス（約50km）、カルフンキエッロス（82km）、ハルティ（片道約55km）と、より短い3つのルート。",
+      "title": "ラップランドのハイキングトレイル：日帰り周回から81kmのカルフンキエッロスまで",
+      "description": "フィンランド・ラップランドとその周辺の6つのハイキングトレイル：ヘッタ〜パッラス（約50km）、カルフンキエッロス（81km）、ハルティ（片道約55km）と、より短い3つのルート。",
       "faq": [
         {
           "q": "カルフンキエッロス（クマのトレイル）はどのくらいかかりますか？",
-          "a": "カルフンキエッロスの全長は約82kmで、多くのハイカーはトレイル沿いの無人小屋に泊まりながら4〜6日で歩きます。健脚なら長い4日間で歩き通せますが、急流や滝、吊り橋でゆっくり過ごしたいなら5日を見ておきましょう。短いピエニ・カルフンキエッロスの周回路なら、12kmで見どころを回れます。"
+          "a": "カルフンキエッロスの全長は約81kmで、多くのハイカーはトレイル沿いの無人小屋に泊まりながら4〜6日で歩きます。健脚なら長い4日間で歩き通せますが、急流や滝、吊り橋でゆっくり過ごしたいなら5日を見ておきましょう。短いピエニ・カルフンキエッロスの周回路なら、12kmで見どころを回れます。"
         },
         {
           "q": "ラップランドで最も人気のあるハイキングコースは？",
@@ -933,12 +933,12 @@
       ]
     },
     "es": {
-      "title": "Senderos de Laponia: de rutas cortas al Karhunkierros de 82 km",
-      "description": "Seis senderos en la Laponia finlandesa y sus alrededores: Hetta–Pallas (unos 50 km), Karhunkierros (82 km), Halti (unos 55 km solo ida) y tres rutas más cortas.",
+      "title": "Senderos de Laponia: de rutas cortas al Karhunkierros de 81 km",
+      "description": "Seis senderos en la Laponia finlandesa y sus alrededores: Hetta–Pallas (unos 50 km), Karhunkierros (81 km), Halti (unos 55 km solo ida) y tres rutas más cortas.",
       "faq": [
         {
           "q": "¿Cuánto se tarda en recorrer el Karhunkierros (Senda del Oso)?",
-          "a": "El Karhunkierros completo mide unos 82 km y la mayoría lo recorre en cuatro a seis días, durmiendo en los refugios abiertos del sendero. Los caminantes en buena forma lo hacen en cuatro jornadas largas; si quiere tiempo para los rápidos, las cascadas y los puentes colgantes, cuente con cinco. El circuito más corto del Pieni Karhunkierros reúne lo más destacado en 12 km."
+          "a": "El Karhunkierros completo mide unos 81 km y la mayoría lo recorre en cuatro a seis días, durmiendo en los refugios abiertos del sendero. Los caminantes en buena forma lo hacen en cuatro jornadas largas; si quiere tiempo para los rápidos, las cascadas y los puentes colgantes, cuente con cinco. El circuito más corto del Pieni Karhunkierros reúne lo más destacado en 12 km."
         },
         {
           "q": "¿Cuál es el sendero más popular de Laponia?",
@@ -959,12 +959,12 @@
       ]
     },
     "pt-BR": {
-      "title": "Trilhas da Lapônia: de circuitos curtos ao Karhunkierros de 82 km",
-      "description": "Seis trilhas na Lapônia finlandesa e arredores: Hetta–Pallas (cerca de 50 km), Karhunkierros (82 km), Halti (cerca de 55 km só de ida) e três rotas mais curtas.",
+      "title": "Trilhas da Lapônia: de circuitos curtos ao Karhunkierros de 81 km",
+      "description": "Seis trilhas na Lapônia finlandesa e arredores: Hetta–Pallas (cerca de 50 km), Karhunkierros (81 km), Halti (cerca de 55 km só de ida) e três rotas mais curtas.",
       "faq": [
         {
           "q": "Quanto tempo leva o Karhunkierros (Trilha do Urso)?",
-          "a": "O Karhunkierros completo tem cerca de 82 km e a maioria o percorre em quatro a seis dias, dormindo nos refúgios abertos ao longo da trilha. Caminhantes em boa forma fazem em quatro dias longos; se quiser tempo para as corredeiras, as cachoeiras e as pontes suspensas, planeje cinco. O circuito mais curto do Pieni Karhunkierros reúne os destaques em 12 km."
+          "a": "O Karhunkierros completo tem cerca de 81 km e a maioria o percorre em quatro a seis dias, dormindo nos refúgios abertos ao longo da trilha. Caminhantes em boa forma fazem em quatro dias longos; se quiser tempo para as corredeiras, as cachoeiras e as pontes suspensas, planeje cinco. O circuito mais curto do Pieni Karhunkierros reúne os destaques em 12 km."
         },
         {
           "q": "Qual é a trilha mais popular da Lapônia?",
@@ -985,12 +985,12 @@
       ]
     },
     "zh-CN": {
-      "title": "拉普兰徒步步道：从单日环线到 82 公里的 Karhunkierros",
-      "description": "芬兰拉普兰及周边的六条徒步步道：Hetta–Pallas（约 50 公里）、Karhunkierros（82 公里）、Halti（单程约 55 公里），以及三条较短的路线。",
+      "title": "拉普兰徒步步道：从单日环线到 81 公里的 Karhunkierros",
+      "description": "芬兰拉普兰及周边的六条徒步步道：Hetta–Pallas（约 50 公里）、Karhunkierros（81 公里）、Halti（单程约 55 公里），以及三条较短的路线。",
       "faq": [
         {
           "q": "Karhunkierros（熊径）要走多久？",
-          "a": "完整的 Karhunkierros 约 82 公里，多数徒步者用四到六天走完，夜宿步道沿线的开放式荒野山屋。脚力强的人四个长日即可走完；若想在急流、瀑布与吊桥处多停留，就安排五天。更短的 Pieni Karhunkierros 环线用 12 公里串起精华段。"
+          "a": "完整的 Karhunkierros 约 81 公里，多数徒步者用四到六天走完，夜宿步道沿线的开放式荒野山屋。脚力强的人四个长日即可走完；若想在急流、瀑布与吊桥处多停留，就安排五天。更短的 Pieni Karhunkierros 环线用 12 公里串起精华段。"
         },
         {
           "q": "拉普兰最受欢迎的徒步步道是哪条？",
@@ -1011,12 +1011,12 @@
       ]
     },
     "ko": {
-      "title": "라플란드 하이킹 트레일: 당일 순환 코스부터 82km 카르훈키에로스까지",
-      "description": "핀란드 라플란드와 그 주변의 하이킹 트레일 여섯 곳: 헤타–팔라스(약 50km), 카르훈키에로스(82km), 할티(편도 약 55km), 그리고 더 짧은 세 코스.",
+      "title": "라플란드 하이킹 트레일: 당일 순환 코스부터 81km 카르훈키에로스까지",
+      "description": "핀란드 라플란드와 그 주변의 하이킹 트레일 여섯 곳: 헤타–팔라스(약 50km), 카르훈키에로스(81km), 할티(편도 약 55km), 그리고 더 짧은 세 코스.",
       "faq": [
         {
           "q": "카르훈키에로스(베어 트레일)는 얼마나 걸리나요?",
-          "a": "카르훈키에로스 전 구간은 약 82km이며, 대부분의 하이커는 트레일을 따라 있는 자유 이용 황야 산장에서 묵으며 나흘에서 엿새에 걸쳐 걷습니다. 체력이 좋은 하이커는 하루를 길게 잡아 나흘 만에 끝내기도 합니다. 급류와 폭포, 출렁다리에서 시간을 보내고 싶다면 닷새를 잡으세요. 더 짧은 피에니 카르훈키에로스 순환로는 12km로 핵심을 둘러봅니다."
+          "a": "카르훈키에로스 전 구간은 약 81km이며, 대부분의 하이커는 트레일을 따라 있는 자유 이용 황야 산장에서 묵으며 나흘에서 엿새에 걸쳐 걷습니다. 체력이 좋은 하이커는 하루를 길게 잡아 나흘 만에 끝내기도 합니다. 급류와 폭포, 출렁다리에서 시간을 보내고 싶다면 닷새를 잡으세요. 더 짧은 피에니 카르훈키에로스 순환로는 12km로 핵심을 둘러봅니다."
         },
         {
           "q": "라플란드에서 가장 인기 있는 하이킹 트레일은 무엇인가요?",
@@ -1037,12 +1037,12 @@
       ]
     },
     "fr": {
-      "title": "Randonnée en Laponie : boucles d'un jour et Karhunkierros 82 km",
-      "description": "Six sentiers en Laponie finlandaise et alentour : Hetta–Pallas (environ 50 km), Karhunkierros (82 km), Halti (environ 55 km aller) et trois plus courts.",
+      "title": "Randonnée en Laponie : boucles d'un jour et Karhunkierros 81 km",
+      "description": "Six sentiers en Laponie finlandaise et alentour : Hetta–Pallas (environ 50 km), Karhunkierros (81 km), Halti (environ 55 km aller) et trois plus courts.",
       "faq": [
         {
           "q": "Combien de temps prend le Karhunkierros (Sentier de l'ours) ?",
-          "a": "Le Karhunkierros complet fait environ 82 km et la plupart des randonneurs le parcourent en quatre à six jours, en dormant dans les refuges libres le long du sentier. Les marcheurs aguerris le bouclent en quatre longues journées ; si vous voulez prendre le temps aux rapides, aux cascades et aux ponts suspendus, prévoyez cinq jours. La boucle plus courte du Pieni Karhunkierros couvre les temps forts en 12 km."
+          "a": "Le Karhunkierros complet fait environ 81 km et la plupart des randonneurs le parcourent en quatre à six jours, en dormant dans les refuges libres le long du sentier. Les marcheurs aguerris le bouclent en quatre longues journées ; si vous voulez prendre le temps aux rapides, aux cascades et aux ponts suspendus, prévoyez cinq jours. La boucle plus courte du Pieni Karhunkierros couvre les temps forts en 12 km."
         },
         {
           "q": "Quel est le sentier de randonnée le plus populaire de Laponie ?",
@@ -1063,12 +1063,12 @@
       ]
     },
     "it": {
-      "title": "Trekking in Lapponia: anelli di un giorno e Karhunkierros 82 km",
-      "description": "Sei sentieri nella Lapponia finlandese e dintorni: Hetta–Pallas (circa 50 km), Karhunkierros (82 km), Halti (circa 55 km solo andata) e tre più brevi.",
+      "title": "Trekking in Lapponia: anelli di un giorno e Karhunkierros 81 km",
+      "description": "Sei sentieri nella Lapponia finlandese e dintorni: Hetta–Pallas (circa 50 km), Karhunkierros (81 km), Halti (circa 55 km solo andata) e tre più brevi.",
       "faq": [
         {
           "q": "Quanto tempo richiede il Karhunkierros (Sentiero dell'orso)?",
-          "a": "Il Karhunkierros completo misura circa 82 km e la maggior parte degli escursionisti lo percorre in quattro-sei giorni, dormendo nei rifugi liberi lungo il sentiero. I camminatori allenati lo concludono in quattro lunghe giornate; se desidera prendersi del tempo alle rapide, alle cascate e ai ponti sospesi, metta in conto cinque giorni. L'anello più breve del Pieni Karhunkierros copre i punti salienti in 12 km."
+          "a": "Il Karhunkierros completo misura circa 81 km e la maggior parte degli escursionisti lo percorre in quattro-sei giorni, dormendo nei rifugi liberi lungo il sentiero. I camminatori allenati lo concludono in quattro lunghe giornate; se desidera prendersi del tempo alle rapide, alle cascate e ai ponti sospesi, metta in conto cinque giorni. L'anello più breve del Pieni Karhunkierros copre i punti salienti in 12 km."
         },
         {
           "q": "Qual è il sentiero di trekking più popolare della Lapponia?",
@@ -1089,12 +1089,12 @@
       ]
     },
     "nl": {
-      "title": "Wandelpaden in Lapland: van dagrondjes tot de Karhunkierros van 82 km",
-      "description": "Zes wandelpaden in en rond Fins Lapland: Hetta–Pallas (ongeveer 50 km), Karhunkierros (82 km), Halti (ongeveer 55 km enkele reis) en drie kortere routes.",
+      "title": "Wandelpaden in Lapland: van dagrondjes tot de Karhunkierros van 81 km",
+      "description": "Zes wandelpaden in en rond Fins Lapland: Hetta–Pallas (ongeveer 50 km), Karhunkierros (81 km), Halti (ongeveer 55 km enkele reis) en drie kortere routes.",
       "faq": [
         {
           "q": "Hoe lang duurt de Karhunkierros (Berenronde)?",
-          "a": "De volledige Karhunkierros is ongeveer 82 km en de meeste wandelaars lopen hem in vier tot zes dagen, met overnachtingen in de open wildernishutten langs het pad. Sterke wandelaars doen het in vier lange dagen; wilt u tijd bij de stroomversnellingen, watervallen en hangbruggen, plan dan vijf dagen. De kortere lus Pieni Karhunkierros brengt de hoogtepunten samen in 12 km."
+          "a": "De volledige Karhunkierros is ongeveer 81 km en de meeste wandelaars lopen hem in vier tot zes dagen, met overnachtingen in de open wildernishutten langs het pad. Sterke wandelaars doen het in vier lange dagen; wilt u tijd bij de stroomversnellingen, watervallen en hangbruggen, plan dan vijf dagen. De kortere lus Pieni Karhunkierros brengt de hoogtepunten samen in 12 km."
         },
         {
           "q": "Wat is het populairste wandelpad van Lapland?",
@@ -1115,12 +1115,12 @@
       ]
     },
     "sv": {
-      "title": "Vandringsleder i Lappland: dagsslingor till 82 km Karhunkierros",
-      "description": "Sex vandringsleder i finska Lappland med omnejd: Hetta–Pallas (cirka 50 km), Karhunkierros (82 km), Halti (cirka 55 km enkel väg) och tre kortare leder.",
+      "title": "Vandringsleder i Lappland: dagsslingor till 81 km Karhunkierros",
+      "description": "Sex vandringsleder i finska Lappland med omnejd: Hetta–Pallas (cirka 50 km), Karhunkierros (81 km), Halti (cirka 55 km enkel väg) och tre kortare leder.",
       "faq": [
         {
           "q": "Hur lång tid tar Karhunkierros (Björnleden)?",
-          "a": "Hela Karhunkierros är cirka 82 km och de flesta vandrare går den på fyra till sex dagar, med övernattning i ödestugorna längs leden. Starka vandrare gör den på fyra långa dagar; vill du ha tid vid forsarna, vattenfallen och hängbroarna, planera fem. Den kortare slingan Pieni Karhunkierros fångar höjdpunkterna på 12 km."
+          "a": "Hela Karhunkierros är cirka 81 km och de flesta vandrare går den på fyra till sex dagar, med övernattning i ödestugorna längs leden. Starka vandrare gör den på fyra långa dagar; vill du ha tid vid forsarna, vattenfallen och hängbroarna, planera fem. Den kortare slingan Pieni Karhunkierros fångar höjdpunkterna på 12 km."
         },
         {
           "q": "Vilken är den populäraste vandringsleden i Lappland?",

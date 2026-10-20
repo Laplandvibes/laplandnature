@@ -45,7 +45,7 @@ function difficultyColor(d: string, labels: { easy: string; moderate: string; ch
 const HIKING_JSONLD = {
   '@context': 'https://schema.org',
   '@type': 'Article',
-  headline: 'Six hiking trails in and around Finnish Lapland: from day loops to 82 km',
+  headline: 'Six hiking trails in and around Finnish Lapland: from day loops to 81 km',
   description: 'Karhunkierros, Hetta–Pallas, Halti and three more: the trails worth planning a Lapland trip around, with distance, duration and difficulty for each.',
   author: { '@type': 'Organization', name: 'LaplandNature editorial' },
   publisher: { '@type': 'Organization', name: 'LaPeso Oy' },

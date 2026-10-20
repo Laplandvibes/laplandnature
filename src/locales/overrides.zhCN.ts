@@ -74,7 +74,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
       { name: '基尔皮斯耶尔维', note: '三国交界 · 约 75% 的黑暗夜晚可见极光（FMI）' },
       { name: '埃农泰基厄', note: '光污染地图上芬兰最暗的天空之一' },
       { name: '海塔', note: 'Hetta–Pallas 步道的北端' },
-      { name: '鲁卡 / 奥兰卡', note: '82 公里 Karhunkierros · 吊桥与急流 · 库萨莫，拉普兰以南不远' },
+      { name: '鲁卡 / 奥兰卡', note: '81 公里 Karhunkierros · 吊桥与急流 · 库萨莫，拉普兰以南不远' },
       { name: '基尔皮斯耶尔维（哈尔蒂）', note: '单程约 55 公里至芬兰最高点哈尔蒂（1,324 米）' },
       { name: '皮哈', note: '芬兰最深的峡谷 Isokuru · 10 公里 Karhunjuomalampi 环线' },
       { name: '库萨莫观熊隐蔽屋', note: '棕熊观察隐蔽屋 · 春季至秋季 · 拉普兰以南不远' },
@@ -84,7 +84,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   home: {
     metaTitle: '拉普兰自然：北极荒野、极光与国家公园',
-    metaDescription: '芬兰拉普兰的北极荒野：七座国家公园、八月下旬至四月初的极光季、kaamos 极夜，以及最长 82 公里的徒步步道。',
+    metaDescription: '芬兰拉普兰的北极荒野：七座国家公园、八月下旬至四月初的极光季、kaamos 极夜，以及最长 81 公里的徒步步道。',
     hero: {
       alt: '芬兰拉普兰的山地风光',
       eyebrow: '北极圈以北',
@@ -114,7 +114,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
         { tag: '保护区', title: '国家公园', blurb: '拉普兰有七座国家公园，我们介绍其中五座，从 Urho Kekkonen 的山地到 Riisitunturi 披着冠雪的树林。', cta: '探索国家公园' },
         { tag: '野生动物', title: '观察野生动物', blurb: '在拉普兰以南不远的隐蔽屋观察棕熊，在公路和山地上与驯鹿相遇，并了解哪些物种最为稀有：北极狐和雪鸮。', cta: '探索野生动物' },
         { tag: '极光', title: '北极光', blurb: '极光季从八月下旬持续到四月初。在基尔皮斯耶尔维，大约每四个晴夜中有三个能见到极光（FMI）。', cta: '探索北极光' },
-        { tag: '步道', title: '徒步路线', blurb: '走遍芬兰最具代表性的步道，从 82 公里 Karhunkierros 的吊桥到哈尔蒂山肩上的芬兰最高点（1,324 米）。', cta: '探索徒步路线' },
+        { tag: '步道', title: '徒步路线', blurb: '走遍芬兰最具代表性的步道，从 81 公里 Karhunkierros 的吊桥到哈尔蒂山肩上的芬兰最高点（1,324 米）。', cta: '探索徒步路线' },
         { tag: '守护', title: '自然保护', blurb: 'Metsähallitus 管理拉普兰 85% 的山地区域和全部国家公园。另附自然享用权：它允许什么，不允许什么。', cta: '探索自然保护' },
         { tag: '夏季', title: '午夜阳光', blurb: '北极圈以北，盛夏时节太阳不落。在 Utsjoki，午夜阳光连续 70 多天。', cta: '探索四季' },
         { tag: '水', title: '淡水', blurb: '约 188,000 个湖泊、自由流淌的托尔尼奥河与 aapa 沼泽。洁净的冷水为何重要，又是什么让鱼得以留存。', cta: '探索淡水' },
@@ -391,8 +391,8 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   hiking: {
     difficulties: { easy: '简单', moderate: '中等', challenging: '有挑战', demanding: '高难度' },
-    metaTitle: '拉普兰徒步步道：从单日环线到 82 公里的 Karhunkierros',
-    metaDescription: '芬兰拉普兰及周边的六条徒步步道：Hetta–Pallas（约 50 公里）、Karhunkierros（82 公里）、Halti（单程约 55 公里），以及三条较短的路线。',
+    metaTitle: '拉普兰徒步步道：从单日环线到 81 公里的 Karhunkierros',
+    metaDescription: '芬兰拉普兰及周边的六条徒步步道：Hetta–Pallas（约 50 公里）、Karhunkierros（81 公里）、Halti（单程约 55 公里），以及三条较短的路线。',
     hero: {
       alt: 'Oulanka 国家公园 Karhunkierros 步道旁，红褐色岩壁间的 Kiutaköngäs 急流',
       eyebrow: '核心指南',
@@ -402,7 +402,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
     },
     karhuKicker: '路线卡 · Karhunkierros',
     karhuH2: 'Karhunkierros 分段介绍：山屋、急流与距离',
-    karhuLead: '82 公里的 Karhunkierros 从北极圈上 Salla 的 Hautajärvi 出发，向南穿过 Oulanka 国家公园，抵达 Kuusamo 的 Ruka。多数人走四到六天。下面的分段以开放式荒野山屋为节点，距离取自 Kuusamo 市的步道指南。步道越接近终点，爬升越多。',
+    karhuLead: '81 公里的 Karhunkierros 从北极圈上 Salla 的 Hautajärvi 出发，向南穿过 Oulanka 国家公园，抵达 Kuusamo 的 Ruka。多数人走四到六天。下面的分段以开放式荒野山屋为节点，距离取自 Kuusamo 市的步道指南。步道越接近终点，爬升越多。',
     days: [
       { day: '第 1 段 · 约 18 公里', title: 'Hautajärvi → Taivalköngäs', body: '从 Hautajärvi 的 Karhunkierros 游客中心出发，步道沿着 Savinajoki 河前行，河水以几乎连续不断的急流下落约 60 米。Savilampi 山屋（可住 10 人）位于一座长吊桥旁，一条约 1 公里的岔路通往 Oulanka 峡谷。', note: 'Taivalköngäs：高逾 6 米的急流，由三座吊桥跨越 · 可住 10–15 人的开放式山屋' },
       { day: '第 2 段 · 约 24 公里', title: 'Taivalköngäs → Jussinkämppä', body: '经过 Oulanka 游客中心和营地，抵达 Kiutaköngäs：一处落差 13.7 米的急流，两岸是泛红的白云岩峭壁。之后步道穿过森林，前往 Ansakämppä 和 Jussinkämppä。', note: 'Ansakämppä 和 Jussinkämppä：开放式山屋' },
@@ -420,10 +420,10 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
     oulankaGuidedCta: 'Oulanka 向导单日徒步选项',
     listKicker: '完整步道清单',
     listH2: '六条值得为之规划一趟旅程的步道',
-    listLead: '从 Pyhä-Luosto 的峡谷环线，到上文的 82 公里 Karhunkierros。每条都连着一个你会想就近落脚的出发村庄。',
+    listLead: '从 Pyhä-Luosto 的峡谷环线，到上文的 81 公里 Karhunkierros。每条都连着一个你会想就近落脚的出发村庄。',
     trails: [
       { name: 'Hetta–Pallas 步道', description: 'Pallas-Yllästunturi 国家公园最受欢迎的长距离步道，1934 年标出，纵贯 Hetta 与 Pallas 之间连绵的山丘。沿途是视野开阔的山地地形，并设有荒野山屋。', distance: '约 50 公里', duration: '3–4 天', difficulty: '较难' },
-      { name: 'Karhunkierros（熊径）', description: '芬兰最知名的步道之一，从 Hautajärvi 穿过 Oulanka 国家公园到 Ruka，沿途经过急流、吊桥和河谷。', distance: '82 公里', duration: '4–6 天', difficulty: '较难' },
+      { name: 'Karhunkierros（熊径）', description: '芬兰最知名的步道之一，从 Hautajärvi 穿过 Oulanka 国家公园到 Ruka，沿途经过急流、吊桥和河谷。', distance: '81 公里', duration: '4–6 天', difficulty: '较难' },
       { name: 'Saariselkä 单日步道', description: 'Saariselkä、Kiilopää 和 Kakslauttanen 一带约有 200 公里标识步道，其中约 80 公里位于 Urho Kekkonen 国家公园内。单日环线从短途自然小径到 14 公里不等。', distance: '1–14 公里', duration: '1–6 小时', difficulty: '简单' },
       { name: 'Halti 步道：芬兰最高点', description: '前往芬兰最高点的徒步：最高点位于哈尔蒂山肩上，海拔 1,324 米，深藏在挪威边境旁的 Käsivarsi 荒野之中。路线偏远且缺少遮蔽，天气变化很快，请携带地图和指南针，并懂得如何使用。', distance: '单程约 55 公里', duration: '往返 6–8 天', difficulty: '高难' },
       { name: 'Isokuru 峡谷与 Karhunjuomalampi 环线', description: '一条穿过 Pyhä-Luosto 国家公园内芬兰最深峡谷 Isokuru 的环线。宽阔的栈道沿峡谷底部通往 Pyhänkasteenputous 瀑布，随后 447 级台阶登上 Uhriharju 山脊。另有一条无台阶的进峡谷路线，也设有标识。', distance: '10 公里（环线）', duration: '3–4 小时', difficulty: '中等' },
@@ -442,7 +442,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
       eyebrow: '常见问题',
       h2: '在拉普兰徒步，常见问题',
       items: [
-        { q: 'Karhunkierros（熊径）要走多久？', a: '完整的 Karhunkierros 约 82 公里，多数徒步者用四到六天走完，夜宿步道沿线的开放式荒野山屋。脚力强的人四个长日即可走完；若想在急流、瀑布与吊桥处多停留，就安排五天。更短的 Pieni Karhunkierros 环线用 12 公里串起精华段。' },
+        { q: 'Karhunkierros（熊径）要走多久？', a: '完整的 Karhunkierros 约 81 公里，多数徒步者用四到六天走完，夜宿步道沿线的开放式荒野山屋。脚力强的人四个长日即可走完；若想在急流、瀑布与吊桥处多停留，就安排五天。更短的 Pieni Karhunkierros 环线用 12 公里串起精华段。' },
         { q: '拉普兰最受欢迎的徒步步道是哪条？', a: 'Karhunkierros 常被称为芬兰最受欢迎的徒步步道。在拉普兰境内，最知名的长距离路线是 Hetta–Pallas，约 50 公里，1934 年标出，位于芬兰游客最多的国家公园 Pallas-Yllästunturi。它大部分路段位于林木线以上，山屋把 Hetta 与 Pallas 之间的路程分成三到四天。' },
         { q: '荒野山屋需要提前预订吗？', a: '开放式荒野山屋（autiotupa）免费且先到先得，无法预订，九月 ruska 高峰时可能下午过半就住满。预订山屋（varaustupa）须提前在 eraluvat.fi 预订并付费，2026 年每床每晚 20 欧元；在繁忙路段为确保有床位，很值得。' },
         { q: '芬兰最高点有多高，可以徒步抵达吗？', a: '芬兰最高点位于 Halti 的山肩之上，海拔 1,324 米，深藏在靠近挪威边境的基尔皮斯耶尔维腹地。从基尔皮斯耶尔维出发单程约 55 公里，往返约 110 公里，多数徒步者需要六到八天。路线偏远且缺少遮蔽，请携带地图和指南针。' },

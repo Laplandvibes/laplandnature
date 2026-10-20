@@ -82,7 +82,7 @@ const de: SectionCopy = {
       { name: 'Kilpisjärvi', note: 'Dreiländereck · Nordlicht in etwa 75 % der dunklen Nächte (FMI)' },
       { name: 'Enontekiö', note: 'Auf Lichtverschmutzungskarten unter den dunkelsten Himmeln Finnlands' },
       { name: 'Hetta', note: 'Nordende des Hetta–Pallas-Wegs' },
-      { name: 'Ruka / Oulanka', note: '82 km Karhunkierros · Hängebrücken und Stromschnellen · Kuusamo, knapp südlich von Lappland' },
+      { name: 'Ruka / Oulanka', note: '81 km Karhunkierros · Hängebrücken und Stromschnellen · Kuusamo, knapp südlich von Lappland' },
       { name: 'Kilpisjärvi (Halti)', note: 'Etwa 55 km einfach zum Halti, Finnlands höchstem Punkt (1.324 m)' },
       { name: 'Pyhä', note: 'Isokuru, Finnlands tiefste Schlucht · 10 km Karhunjuomalampi-Runde' },
       { name: 'Bärenverstecke Kuusamo', note: 'Braunbären-Verstecke · Frühling bis Herbst · knapp südlich von Lappland' },
@@ -92,7 +92,7 @@ const de: SectionCopy = {
   },
   home: {
     metaTitle: 'Lapplands Natur: Wildnis & Nationalparks',
-    metaDescription: 'Finnisch-Lapplands arktische Wildnis: sieben Nationalparks, Nordlichter von Ende August bis Anfang April, die Polarnacht (Kaamos) und Wege bis 82 km.',
+    metaDescription: 'Finnisch-Lapplands arktische Wildnis: sieben Nationalparks, Nordlichter von Ende August bis Anfang April, die Polarnacht (Kaamos) und Wege bis 81 km.',
     hero: {
       alt: 'Fjelllandschaft in Finnisch-Lappland',
       eyebrow: 'Nördlich des Polarkreises',
@@ -140,7 +140,7 @@ const de: SectionCopy = {
         {
           tag: 'Wege',
           title: 'Wanderwege',
-          blurb: 'Gehen Sie Finnlands berühmteste Wege, von den Hängebrücken des 82 km Karhunkierros bis zu Finnlands höchstem Punkt an der Flanke des Halti (1.324 m).',
+          blurb: 'Gehen Sie Finnlands berühmteste Wege, von den Hängebrücken des 81 km Karhunkierros bis zu Finnlands höchstem Punkt an der Flanke des Halti (1.324 m).',
           cta: 'Wanderwege erkunden',
         },
         {
@@ -708,8 +708,8 @@ const de: SectionCopy = {
     },
   },
   hiking: {
-    metaTitle: 'Lapplands Wanderwege: Tagesrunden bis Karhunkierros (82 km)',
-    metaDescription: 'Sechs Wanderwege in Finnisch-Lappland und Umgebung: Hetta–Pallas (etwa 50 km), Karhunkierros (82 km), Halti (etwa 55 km einfach) und drei kürzere Routen.',
+    metaTitle: 'Lapplands Wanderwege: Tagesrunden bis Karhunkierros (81 km)',
+    metaDescription: 'Sechs Wanderwege in Finnisch-Lappland und Umgebung: Hetta–Pallas (etwa 50 km), Karhunkierros (81 km), Halti (etwa 55 km einfach) und drei kürzere Routen.',
     hero: {
       alt: 'Die Stromschnelle Kiutaköngäs zwischen rötlichen Felswänden am Karhunkierros im Oulanka-Nationalpark',
       eyebrow: 'Säulen-Guide',
@@ -719,7 +719,7 @@ const de: SectionCopy = {
     },
     karhuKicker: 'Routensteckbrief · Karhunkierros',
     karhuH2: 'Karhunkierros Etappe für Etappe: Hütten, Stromschnellen und Distanzen',
-    karhuLead: 'Der 82 km lange Karhunkierros führt von Hautajärvi in Salla am Polarkreis nach Süden durch den Oulanka-Nationalpark bis Ruka in Kuusamo. Die meisten brauchen vier bis sechs Tage. Die Etappen unten orientieren sich an den offenen Wildnishütten; die Distanzen stammen aus dem Wegführer der Stadt Kuusamo. Gegen Ende steigt der Weg an.',
+    karhuLead: 'Der 81 km lange Karhunkierros führt von Hautajärvi in Salla am Polarkreis nach Süden durch den Oulanka-Nationalpark bis Ruka in Kuusamo. Die meisten brauchen vier bis sechs Tage. Die Etappen unten orientieren sich an den offenen Wildnishütten; die Distanzen stammen aus dem Wegführer der Stadt Kuusamo. Gegen Ende steigt der Weg an.',
     days: [
       {
         day: 'Etappe 1 · etwa 18 km',
@@ -757,7 +757,7 @@ const de: SectionCopy = {
     oulankaGuidedCta: 'Geführte Oulanka-Tagestouren',
     listKicker: 'Die vollständige Wegeliste',
     listH2: 'Sechs Wege, um die sich eine Reise planen lässt',
-    listLead: 'Von einer Schluchtrunde im Pyhä-Luosto-Nationalpark bis zum 82 km langen Karhunkierros oben. Jeder Weg ist mit einem Ausgangsort verbunden, in dessen Nähe Sie übernachten möchten.',
+    listLead: 'Von einer Schluchtrunde im Pyhä-Luosto-Nationalpark bis zum 81 km langen Karhunkierros oben. Jeder Weg ist mit einem Ausgangsort verbunden, in dessen Nähe Sie übernachten möchten.',
     trails: [
       {
         name: 'Hetta–Pallas-Weg',
@@ -769,7 +769,7 @@ const de: SectionCopy = {
       {
         name: 'Karhunkierros (Bärenweg)',
         description: 'Einer der bekanntesten Wege Finnlands, von Hautajärvi nach Ruka durch den Oulanka-Nationalpark, vorbei an Stromschnellen, Hängebrücken und Flussschluchten.',
-        distance: '82 km',
+        distance: '81 km',
         duration: '4–6 Tage',
         difficulty: 'Anspruchsvoll',
       },
@@ -818,7 +818,7 @@ const de: SectionCopy = {
       items: [
         {
           q: 'Wie lange dauert der Karhunkierros (Bärenpfad)?',
-          a: 'Der komplette Karhunkierros ist etwa 82 km lang, und die meisten Wanderer bewältigen ihn in vier bis sechs Tagen mit Übernachtung in den offenen Wildnishütten entlang des Weges. Starke Geher schaffen ihn in vier langen Tagen; wenn Sie Zeit an den Stromschnellen, Wasserfällen und Hängebrücken wollen, planen Sie fünf. Die kürzere Pieni-Karhunkierros-Runde fasst die Höhepunkte auf 12 km zusammen.',
+          a: 'Der komplette Karhunkierros ist etwa 81 km lang, und die meisten Wanderer bewältigen ihn in vier bis sechs Tagen mit Übernachtung in den offenen Wildnishütten entlang des Weges. Starke Geher schaffen ihn in vier langen Tagen; wenn Sie Zeit an den Stromschnellen, Wasserfällen und Hängebrücken wollen, planen Sie fünf. Die kürzere Pieni-Karhunkierros-Runde fasst die Höhepunkte auf 12 km zusammen.',
         },
         {
           q: 'Was ist der beliebteste Wanderweg in Lappland?',

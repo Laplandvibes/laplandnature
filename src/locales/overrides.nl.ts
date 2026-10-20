@@ -86,7 +86,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
       { name: 'Kilpisjärvi', note: 'Drielandenpunt · noorderlicht in ongeveer 75 % van de donkere nachten (FMI)' },
       { name: 'Enontekiö', note: 'Een van de donkerste hemels van Finland op lichtvervuilingskaarten' },
       { name: 'Hetta', note: 'Noordelijk eindpunt van de Hetta–Pallas-route' },
-      { name: 'Ruka / Oulanka', note: 'Karhunkierros van 82 km · hangbruggen en stroomversnellingen · Kuusamo, net ten zuiden van Lapland' },
+      { name: 'Ruka / Oulanka', note: 'Karhunkierros van 81 km · hangbruggen en stroomversnellingen · Kuusamo, net ten zuiden van Lapland' },
       { name: 'Kilpisjärvi (Halti)', note: 'Ongeveer 55 km enkele reis naar de Halti, het hoogste punt van Finland (1.324 m)' },
       { name: 'Pyhä', note: 'Isokuru, de diepste kloof van Finland · lus van 10 km via Karhunjuomalampi' },
       { name: 'Berenhutten van Kuusamo', note: 'Kijkhutten voor bruine beren · van voorjaar tot herfst · net ten zuiden van Lapland' },
@@ -96,7 +96,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   home: {
     metaTitle: 'Natuur van Lapland: parken en noorderlicht',
-    metaDescription: 'De arctische wildernis van Fins Lapland: zeven nationale parken, noorderlicht van eind augustus tot begin april, de poolnacht kaamos en wandelpaden tot 82 km.',
+    metaDescription: 'De arctische wildernis van Fins Lapland: zeven nationale parken, noorderlicht van eind augustus tot begin april, de poolnacht kaamos en wandelpaden tot 81 km.',
     hero: {
       alt: 'Fjelllandschap in Fins Lapland',
       eyebrow: 'Boven de poolcirkel',
@@ -144,7 +144,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
         {
           tag: 'Paden',
           title: 'Wandelen',
-          blurb: 'Loop de bekendste paden van Finland, van de hangbruggen van de Karhunkierros (82 km) tot het hoogste punt van Finland op de flank van de Halti (1.324 m).',
+          blurb: 'Loop de bekendste paden van Finland, van de hangbruggen van de Karhunkierros (81 km) tot het hoogste punt van Finland op de flank van de Halti (1.324 m).',
           cta: 'Ontdek het wandelen',
         },
         {
@@ -670,8 +670,8 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   hiking: {
     difficulties: { easy: 'Makkelijk', moderate: 'Gemiddeld', challenging: 'Uitdagend', demanding: 'Zwaar' },
-    metaTitle: 'Wandelpaden in Lapland: van dagrondjes tot de Karhunkierros van 82 km',
-    metaDescription: 'Zes wandelpaden in en rond Fins Lapland: Hetta–Pallas (ongeveer 50 km), Karhunkierros (82 km), Halti (ongeveer 55 km enkele reis) en drie kortere routes.',
+    metaTitle: 'Wandelpaden in Lapland: van dagrondjes tot de Karhunkierros van 81 km',
+    metaDescription: 'Zes wandelpaden in en rond Fins Lapland: Hetta–Pallas (ongeveer 50 km), Karhunkierros (81 km), Halti (ongeveer 55 km enkele reis) en drie kortere routes.',
     hero: {
       alt: 'De stroomversnelling Kiutaköngäs tussen roodachtige rotswanden langs de Karhunkierros in nationaal park Oulanka',
       eyebrow: 'Pijlergids',
@@ -681,7 +681,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
     },
     karhuKicker: 'Routekaart · Karhunkierros',
     karhuH2: 'De Karhunkierros etappe voor etappe: hutten, stroomversnellingen en afstanden',
-    karhuLead: 'De Karhunkierros van 82 km loopt van Hautajärvi in Salla, op de poolcirkel, zuidwaarts door het nationale park Oulanka naar Ruka in Kuusamo. De meeste mensen doen er vier tot zes dagen over. De etappes hieronder volgen de open wildernishutten; de afstanden komen uit de routegids van de stad Kuusamo. Het pad stijgt richting het einde.',
+    karhuLead: 'De Karhunkierros van 81 km loopt van Hautajärvi in Salla, op de poolcirkel, zuidwaarts door het nationale park Oulanka naar Ruka in Kuusamo. De meeste mensen doen er vier tot zes dagen over. De etappes hieronder volgen de open wildernishutten; de afstanden komen uit de routegids van de stad Kuusamo. Het pad stijgt richting het einde.',
     days: [
       {
         day: 'Etappe 1 · ongeveer 18 km',
@@ -719,7 +719,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
     oulankaGuidedCta: 'Begeleide dagwandelingen in Oulanka',
     listKicker: 'De volledige padenlijst',
     listH2: 'Zes paden waarvoor het de moeite waard is een reis te plannen',
-    listLead: 'Van een kloofrondje in Pyhä-Luosto tot de Karhunkierros van 82 km hierboven. Elk pad sluit aan bij een startdorp waar u in de buurt wilt overnachten.',
+    listLead: 'Van een kloofrondje in Pyhä-Luosto tot de Karhunkierros van 81 km hierboven. Elk pad sluit aan bij een startdorp waar u in de buurt wilt overnachten.',
     trails: [
       {
         name: 'Hetta–Pallas-pad',
@@ -731,7 +731,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
       {
         name: 'Karhunkierros (Berenpad)',
         description: 'Een van de bekendste paden van Finland, van Hautajärvi naar Ruka door het nationale park Oulanka, langs stroomversnellingen, hangbruggen en rivierkloven.',
-        distance: '82 km',
+        distance: '81 km',
         duration: '4–6 dagen',
         difficulty: 'Zwaar',
       },
@@ -779,7 +779,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
       items: [
         {
           q: 'Hoe lang duurt de Karhunkierros (Berenronde)?',
-          a: 'De volledige Karhunkierros is ongeveer 82 km en de meeste wandelaars lopen hem in vier tot zes dagen, met overnachtingen in de open wildernishutten langs het pad. Sterke wandelaars doen het in vier lange dagen; wilt u tijd bij de stroomversnellingen, watervallen en hangbruggen, plan dan vijf dagen. De kortere lus Pieni Karhunkierros brengt de hoogtepunten samen in 12 km.',
+          a: 'De volledige Karhunkierros is ongeveer 81 km en de meeste wandelaars lopen hem in vier tot zes dagen, met overnachtingen in de open wildernishutten langs het pad. Sterke wandelaars doen het in vier lange dagen; wilt u tijd bij de stroomversnellingen, watervallen en hangbruggen, plan dan vijf dagen. De kortere lus Pieni Karhunkierros brengt de hoogtepunten samen in 12 km.',
         },
         {
           q: 'Wat is het populairste wandelpad van Lapland?',

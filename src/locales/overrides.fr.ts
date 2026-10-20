@@ -74,7 +74,7 @@ export const FR_OVERRIDES: DeepPartial<SectionCopy> = {
       { name: 'Kilpisjärvi', note: 'Point des trois frontières · aurores environ 75 % des nuits noires (FMI)' },
       { name: 'Enontekiö', note: 'Parmi les ciels les plus sombres de Finlande sur les cartes de pollution lumineuse' },
       { name: 'Hetta', note: 'Extrémité nord du sentier Hetta–Pallas' },
-      { name: 'Ruka / Oulanka', note: 'Karhunkierros de 82 km · ponts suspendus et rapides · Kuusamo, juste au sud de la Laponie' },
+      { name: 'Ruka / Oulanka', note: 'Karhunkierros de 81 km · ponts suspendus et rapides · Kuusamo, juste au sud de la Laponie' },
       { name: 'Kilpisjärvi (Halti)', note: 'Environ 55 km aller simple jusqu\'au Halti, point culminant de Finlande (1 324 m)' },
       { name: 'Pyhä', note: 'Isokuru, la gorge la plus profonde de Finlande · boucle de Karhunjuomalampi, 10 km' },
       { name: 'Affûts à ours de Kuusamo', note: 'Affûts d\'observation de l\'ours brun · du printemps à l\'automne · juste au sud de la Laponie' },
@@ -84,7 +84,7 @@ export const FR_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   home: {
     metaTitle: 'Nature de Laponie : parcs et aurore',
-    metaDescription: 'La nature arctique de la Laponie finlandaise : sept parcs nationaux, des aurores de fin août à début avril, le kaamos et des sentiers jusqu\'à 82 km.',
+    metaDescription: 'La nature arctique de la Laponie finlandaise : sept parcs nationaux, des aurores de fin août à début avril, le kaamos et des sentiers jusqu\'à 81 km.',
     hero: {
       alt: 'Paysage de fjälls en Laponie finlandaise',
       eyebrow: 'Au-delà du cercle polaire',
@@ -114,7 +114,7 @@ export const FR_OVERRIDES: DeepPartial<SectionCopy> = {
         { tag: 'Zones protégées', title: 'Parcs nationaux', blurb: 'La Laponie compte sept parcs nationaux ; nous en présentons cinq, des fjälls d\'Urho Kekkonen aux arbres couronnés de neige de Riisitunturi.', cta: 'Explorer les parcs nationaux' },
         { tag: 'Faune', title: 'Observation de la faune', blurb: 'Observez l\'ours brun depuis des affûts juste au sud de la Laponie, croisez des rennes sur les routes et les fjälls, et découvrez les espèces les plus rares : le renard polaire et le harfang des neiges.', cta: 'Explorer la faune' },
         { tag: 'Aurore', title: 'Aurore boréale', blurb: 'La saison des aurores va de fin août à début avril. À Kilpisjärvi, l\'aurore apparaît environ trois nuits claires sur quatre (FMI).', cta: 'Explorer l\'aurore' },
-        { tag: 'Sentiers', title: 'Randonnée', blurb: 'Parcourez les sentiers les plus emblématiques de Finlande, des ponts suspendus du Karhunkierros (82 km) au point culminant du pays, sur l\'épaule du Halti (1 324 m).', cta: 'Explorer la randonnée' },
+        { tag: 'Sentiers', title: 'Randonnée', blurb: 'Parcourez les sentiers les plus emblématiques de Finlande, des ponts suspendus du Karhunkierros (81 km) au point culminant du pays, sur l\'épaule du Halti (1 324 m).', cta: 'Explorer la randonnée' },
         { tag: 'Gestion', title: 'Conservation', blurb: 'Metsähallitus gère 85 % des zones de fjälls de Laponie et tous ses parcs nationaux. Et le droit d\'accès à la nature : ce qu\'il permet, et ce qu\'il ne permet pas.', cta: 'Explorer la conservation' },
         { tag: 'Été', title: 'Soleil de minuit', blurb: 'Au-delà du cercle polaire, le soleil ne se couche pas en plein été. À Utsjoki, le soleil de minuit dure plus de 70 jours d\'affilée.', cta: 'Explorer les saisons' },
         { tag: 'Eau', title: 'Eaux douces', blurb: 'Environ 188 000 lacs, la rivière Tornio au cours libre et les tourbières aapa. Pourquoi une eau froide et pure compte, et ce qui y maintient le poisson.', cta: 'Explorer les eaux douces' },
@@ -391,8 +391,8 @@ export const FR_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   hiking: {
     difficulties: { easy: 'Facile', moderate: 'Modérée', challenging: 'Difficile', demanding: 'Très exigeante' },
-    metaTitle: 'Randonnée en Laponie : boucles d\'un jour et Karhunkierros 82 km',
-    metaDescription: 'Six sentiers en Laponie finlandaise et alentour : Hetta–Pallas (environ 50 km), Karhunkierros (82 km), Halti (environ 55 km aller) et trois plus courts.',
+    metaTitle: 'Randonnée en Laponie : boucles d\'un jour et Karhunkierros 81 km',
+    metaDescription: 'Six sentiers en Laponie finlandaise et alentour : Hetta–Pallas (environ 50 km), Karhunkierros (81 km), Halti (environ 55 km aller) et trois plus courts.',
     hero: {
       alt: 'Les rapides de Kiutaköngäs entre des falaises rougeâtres, sur le Karhunkierros, dans le parc national d\'Oulanka',
       eyebrow: 'Guide phare',
@@ -402,7 +402,7 @@ export const FR_OVERRIDES: DeepPartial<SectionCopy> = {
     },
     karhuKicker: 'Fiche itinéraire · Karhunkierros',
     karhuH2: 'Le Karhunkierros étape par étape : refuges, rapides et distances',
-    karhuLead: 'Le Karhunkierros, long de 82 km, part de Hautajärvi, à Salla, sur le cercle polaire, et descend vers le sud à travers le parc national d\'Oulanka jusqu\'à Ruka, à Kuusamo. La plupart des marcheurs y consacrent quatre à six jours. Les étapes ci-dessous suivent les refuges libres ; les distances proviennent du guide du sentier de la ville de Kuusamo. Le sentier monte vers la fin.',
+    karhuLead: 'Le Karhunkierros, long de 81 km, part de Hautajärvi, à Salla, sur le cercle polaire, et descend vers le sud à travers le parc national d\'Oulanka jusqu\'à Ruka, à Kuusamo. La plupart des marcheurs y consacrent quatre à six jours. Les étapes ci-dessous suivent les refuges libres ; les distances proviennent du guide du sentier de la ville de Kuusamo. Le sentier monte vers la fin.',
     days: [
       { day: 'Étape 1 · environ 18 km', title: 'Hautajärvi → Taivalköngäs', body: 'Depuis le centre des visiteurs du Karhunkierros à Hautajärvi, le sentier suit la Savinajoki, qui descend d\'environ 60 m en rapides presque continus. Le refuge de Savilampi (10 places) se dresse près d\'un long pont suspendu, et un sentier annexe d\'environ 1 km mène au canyon d\'Oulanka.', note: 'Taivalköngäs : rapides de plus de 6 m de haut, franchis par trois ponts suspendus · refuge libre de 10 à 15 places' },
       { day: 'Étape 2 · environ 24 km', title: 'Taivalköngäs → Jussinkämppä', body: 'Le sentier passe par le centre des visiteurs et le camping d\'Oulanka jusqu\'à Kiutaköngäs, un rapide de 13,7 m de dénivelé bordé de falaises de dolomite rougeâtre. Il continue ensuite à travers la forêt jusqu\'à Ansakämppä et Jussinkämppä.', note: 'Ansakämppä et Jussinkämppä : refuges libres' },
@@ -420,10 +420,10 @@ export const FR_OVERRIDES: DeepPartial<SectionCopy> = {
     oulankaGuidedCta: 'Sorties guidées à la journée à Oulanka',
     listKicker: 'La liste complète des sentiers',
     listH2: 'Six sentiers qui valent un voyage à eux seuls',
-    listLead: 'D\'une boucle dans une gorge de Pyhä-Luosto au Karhunkierros de 82 km présenté plus haut. Chacun renvoie à un village de départ près duquel vous voudrez loger.',
+    listLead: 'D\'une boucle dans une gorge de Pyhä-Luosto au Karhunkierros de 81 km présenté plus haut. Chacun renvoie à un village de départ près duquel vous voudrez loger.',
     trails: [
       { name: 'Sentier Hetta–Pallas', description: 'Le sentier de longue distance le plus fréquenté du parc national de Pallas-Yllästunturi, balisé en 1934, sur la chaîne de fjälls entre Hetta et Pallas. Terrain de fjäll dénudé aux vues larges, avec des refuges tout au long du parcours.', distance: 'environ 50 km', duration: '3–4 jours', difficulty: 'Difficile' },
-      { name: 'Karhunkierros (Sentier de l\'ours)', description: 'L\'un des sentiers les plus connus de Finlande, de Hautajärvi à Ruka à travers le parc national d\'Oulanka, entre rapides, ponts suspendus et gorges fluviales.', distance: '82 km', duration: '4–6 jours', difficulty: 'Difficile' },
+      { name: 'Karhunkierros (Sentier de l\'ours)', description: 'L\'un des sentiers les plus connus de Finlande, de Hautajärvi à Ruka à travers le parc national d\'Oulanka, entre rapides, ponts suspendus et gorges fluviales.', distance: '81 km', duration: '4–6 jours', difficulty: 'Difficile' },
       { name: 'Sentiers de Saariselkä', description: 'Environ 200 km de sentiers balisés autour de Saariselkä, Kiilopää et Kakslauttanen, dont environ 80 km dans le parc national d\'Urho Kekkonen. Les boucles d\'une journée vont du court sentier nature jusqu\'à 14 km.', distance: '1–14 km', duration: '1–6 h', difficulty: 'Facile' },
       { name: 'Sentier du Halti – le point culminant de Finlande', description: 'Marche vers le point culminant de Finlande, sur l\'épaule du Halti à 1 324 m, au cœur de la nature sauvage du Käsivarsi, près de la frontière norvégienne. Un itinéraire isolé et exposé : le temps change vite, alors emportez carte et boussole, et sachez vous en servir.', distance: 'environ 55 km (aller simple)', duration: '6–8 jours aller-retour', difficulty: 'Très difficile' },
       { name: 'Gorge d\'Isokuru et boucle de Karhunjuomalampi', description: 'Une boucle par Isokuru, la gorge la plus profonde de Finlande, dans le parc national de Pyhä-Luosto. Une large passerelle en bois longe le fond de la gorge jusqu\'à la cascade de Pyhänkasteenputous, puis 447 marches montent jusqu\'à la crête d\'Uhriharju. Un itinéraire sans marches vers la gorge est également balisé.', distance: '10 km (boucle)', duration: '3–4 h', difficulty: 'Modéré' },
@@ -442,7 +442,7 @@ export const FR_OVERRIDES: DeepPartial<SectionCopy> = {
       eyebrow: 'Questions fréquentes',
       h2: 'La randonnée en Laponie, questions fréquentes',
       items: [
-        { q: 'Combien de temps prend le Karhunkierros (Sentier de l\'ours) ?', a: 'Le Karhunkierros complet fait environ 82 km et la plupart des randonneurs le parcourent en quatre à six jours, en dormant dans les refuges libres le long du sentier. Les marcheurs aguerris le bouclent en quatre longues journées ; si vous voulez prendre le temps aux rapides, aux cascades et aux ponts suspendus, prévoyez cinq jours. La boucle plus courte du Pieni Karhunkierros couvre les temps forts en 12 km.' },
+        { q: 'Combien de temps prend le Karhunkierros (Sentier de l\'ours) ?', a: 'Le Karhunkierros complet fait environ 81 km et la plupart des randonneurs le parcourent en quatre à six jours, en dormant dans les refuges libres le long du sentier. Les marcheurs aguerris le bouclent en quatre longues journées ; si vous voulez prendre le temps aux rapides, aux cascades et aux ponts suspendus, prévoyez cinq jours. La boucle plus courte du Pieni Karhunkierros couvre les temps forts en 12 km.' },
         { q: 'Quel est le sentier de randonnée le plus populaire de Laponie ?', a: 'Le Karhunkierros est souvent présenté comme le sentier de randonnée le plus populaire de Finlande. En Laponie même, le grand itinéraire le plus connu est Hetta–Pallas, environ 50 km, balisé en 1934, dans le parc de Pallas-Yllästunturi, le parc national le plus visité de Finlande. Il passe surtout au-dessus de la limite des arbres, et les refuges le découpent en trois ou quatre jours entre Hetta et Pallas.' },
         { q: 'Faut-il réserver les refuges à l\'avance ?', a: 'Les refuges libres (autiotupa) sont gratuits et attribués au premier arrivé ; on ne peut pas les réserver, et au pic du ruska, en septembre, ils peuvent être pleins dès le milieu de l\'après-midi. Les refuges sur réservation (varaustupa) se réservent et se paient à l\'avance sur eraluvat.fi, 20 € par lit et par nuit en 2026, et valent la peine pour avoir un lit garanti sur les tronçons fréquentés.' },
         { q: 'Quelle est l\'altitude du point culminant de Finlande, et peut-on y monter ?', a: 'Le point culminant de Finlande se trouve sur l\'épaule du Halti, à 1 324 m, au cœur de l\'arrière-pays de Kilpisjärvi, près de la frontière norvégienne. Il est à environ 55 km de Kilpisjärvi en aller simple : l\'aller-retour fait donc autour de 110 km et prend six à huit jours à la plupart des marcheurs. L\'itinéraire est isolé et exposé ; emportez carte et boussole.' },

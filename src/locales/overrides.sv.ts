@@ -74,7 +74,7 @@ export const SV_OVERRIDES: DeepPartial<SectionCopy> = {
       { name: 'Kilpisjärvi', note: 'Treriksröset · norrsken cirka 75 % av de mörka nätterna (FMI)' },
       { name: 'Enontekiö', note: 'Bland Finlands mörkaste himlar på kartor över ljusföroreningar' },
       { name: 'Hetta', note: 'Norra änden av Hetta–Pallas-leden' },
-      { name: 'Ruka / Oulanka', note: '82 km Karhunkierros · hängbroar och forsar · Kuusamo, strax söder om Lappland' },
+      { name: 'Ruka / Oulanka', note: '81 km Karhunkierros · hängbroar och forsar · Kuusamo, strax söder om Lappland' },
       { name: 'Kilpisjärvi (Halti)', note: 'Cirka 55 km enkel väg till Halti, Finlands högsta punkt (1 324 m)' },
       { name: 'Pyhä', note: 'Isokuru, Finlands djupaste ravin · 10 km Karhunjuomalampi-slingan' },
       { name: 'Kuusamo björngömslen', note: 'Brunbjörnsgömslen · vår till höst · strax söder om Lappland' },
@@ -84,7 +84,7 @@ export const SV_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   home: {
     metaTitle: 'Lapplands natur: norrsken, parker och djurliv',
-    metaDescription: 'Finska Lapplands arktiska vildmark: sju nationalparker, norrsken från slutet av augusti till början av april, polarnatten kaamos och leder upp till 82 km.',
+    metaDescription: 'Finska Lapplands arktiska vildmark: sju nationalparker, norrsken från slutet av augusti till början av april, polarnatten kaamos och leder upp till 81 km.',
     hero: {
       eyebrow: 'Norr om polcirkeln',
       title: 'Orörd arktisk',
@@ -114,7 +114,7 @@ export const SV_OVERRIDES: DeepPartial<SectionCopy> = {
         { tag: 'Skyddade områden', title: 'Nationalparker', blurb: 'Lappland har sju nationalparker; fem av dem presenterar vi närmare, från Urho Kekkonens fjäll till Riisitunturis snökrönta träd.', cta: 'Utforska nationalparkerna' },
         { tag: 'Djurliv', title: 'Djurskådning', blurb: 'Se brunbjörnar från gömslen strax söder om Lappland, möt renar på vägarna och fjällen och ta reda på vilka arter som är mest sällsynta: fjällräven och fjällugglan.', cta: 'Utforska djurlivet' },
         { tag: 'Norrsken', title: 'Norrsken', blurb: 'Norrskenssäsongen pågår från slutet av augusti till början av april. I Kilpisjärvi syns norrskenet ungefär tre klara nätter av fyra (FMI).', cta: 'Utforska norrskenet' },
-        { tag: 'Leder', title: 'Vandringsleder', blurb: 'Gå Finlands mest kända leder, från Karhunkierros hängbroar (82 km) till Finlands högsta punkt på Haltis sluttning (1 324 m).', cta: 'Utforska vandringslederna' },
+        { tag: 'Leder', title: 'Vandringsleder', blurb: 'Gå Finlands mest kända leder, från Karhunkierros hängbroar (81 km) till Finlands högsta punkt på Haltis sluttning (1 324 m).', cta: 'Utforska vandringslederna' },
         { tag: 'Förvaltning', title: 'Naturvård', blurb: 'Metsähallitus förvaltar 85 % av Lapplands fjällområden och alla dess nationalparker. Plus allemansrätten: vad den tillåter och vad den inte tillåter.', cta: 'Utforska naturvården' },
         { tag: 'Sommar', title: 'Midnattssol', blurb: 'Norr om polcirkeln går solen inte ner vid midsommar. I Utsjoki håller midnattssolen i över 70 dygn i rad.', cta: 'Utforska årstiderna' },
         { tag: 'Vatten', title: 'Sötvatten', blurb: 'Ungefär 188 000 sjöar, den fritt flödande Torne älv och aapamyrar. Varför rent, kallt vatten spelar roll och vad som håller fisken kvar i det.', cta: 'Utforska sötvattnet' },
@@ -391,8 +391,8 @@ export const SV_OVERRIDES: DeepPartial<SectionCopy> = {
   },
   hiking: {
     difficulties: { easy: 'Lätt', moderate: 'Medel', challenging: 'Krävande', demanding: 'Mycket krävande' },
-    metaTitle: 'Vandringsleder i Lappland: dagsslingor till 82 km Karhunkierros',
-    metaDescription: 'Sex vandringsleder i finska Lappland med omnejd: Hetta–Pallas (cirka 50 km), Karhunkierros (82 km), Halti (cirka 55 km enkel väg) och tre kortare leder.',
+    metaTitle: 'Vandringsleder i Lappland: dagsslingor till 81 km Karhunkierros',
+    metaDescription: 'Sex vandringsleder i finska Lappland med omnejd: Hetta–Pallas (cirka 50 km), Karhunkierros (81 km), Halti (cirka 55 km enkel väg) och tre kortare leder.',
     hero: {
       eyebrow: 'Pelarguide',
       title: 'Vandringsleder',
@@ -402,7 +402,7 @@ export const SV_OVERRIDES: DeepPartial<SectionCopy> = {
     },
     karhuKicker: 'Ledbeskrivning · Karhunkierros',
     karhuH2: 'Karhunkierros etapp för etapp: stugor, forsar och avstånd',
-    karhuLead: 'Den 82 km långa Karhunkierros går från Hautajärvi i Salla, vid polcirkeln, söderut genom Oulanka nationalpark till Ruka i Kuusamo. De flesta tar fyra till sex dagar på sig. Etapperna nedan följer ödestugorna; avstånden kommer från Kuusamo stads ledguide. Leden stiger mot slutet.',
+    karhuLead: 'Den 81 km långa Karhunkierros går från Hautajärvi i Salla, vid polcirkeln, söderut genom Oulanka nationalpark till Ruka i Kuusamo. De flesta tar fyra till sex dagar på sig. Etapperna nedan följer ödestugorna; avstånden kommer från Kuusamo stads ledguide. Leden stiger mot slutet.',
     days: [
       { day: 'Etapp 1 · cirka 18 km', title: 'Hautajärvi → Taivalköngäs', body: 'Från Karhunkierros besökscentrum i Hautajärvi följer leden Savinajoki, som faller cirka 60 m i nästan sammanhängande forsar. Savilampi-stugan (för 10 personer) står vid en lång hängbro, och en avstickare på cirka 1 km leder till Oulanka-kanjonen.', note: 'Taivalköngäs: forsar över 6 m höga, med tre hängbroar över · öppen stuga för 10–15 personer' },
       { day: 'Etapp 2 · cirka 24 km', title: 'Taivalköngäs → Jussinkämppä', body: 'Förbi Oulanka besökscentrum och campingplats till Kiutaköngäs, en fors med 13,7 m fallhöjd och rödaktiga dolomitklippor. Sedan fortsätter leden genom skogen till Ansakämppä och Jussinkämppä.', note: 'Ansakämppä och Jussinkämppä: öppna stugor' },
@@ -420,10 +420,10 @@ export const SV_OVERRIDES: DeepPartial<SectionCopy> = {
     oulankaGuidedCta: 'Guidade dagsturer i Oulanka',
     listKicker: 'Hela ledlistan',
     listH2: 'Sex leder värda att planera en resa kring',
-    listLead: 'Från en ravinslinga i Pyhä-Luosto till den 82 km långa Karhunkierros ovan. Varje led knyter an till en ledstartsby du vill bo nära.',
+    listLead: 'Från en ravinslinga i Pyhä-Luosto till den 81 km långa Karhunkierros ovan. Varje led knyter an till en ledstartsby du vill bo nära.',
     trails: [
       { name: 'Hetta–Pallas-leden', description: 'Den populäraste långa leden i Pallas-Yllästunturi nationalpark, utmärkt 1934, över fjällkedjan mellan Hetta och Pallas. Öppen fjällterräng med vida vyer och ödestugor längs vägen.', distance: 'cirka 50 km', duration: '3–4 dagar', difficulty: 'Krävande' },
-      { name: 'Karhunkierros (Björnleden)', description: 'En av Finlands mest kända leder, från Hautajärvi till Ruka genom Oulanka nationalpark, förbi forsar, hängbroar och älvraviner.', distance: '82 km', duration: '4–6 dagar', difficulty: 'Krävande' },
+      { name: 'Karhunkierros (Björnleden)', description: 'En av Finlands mest kända leder, från Hautajärvi till Ruka genom Oulanka nationalpark, förbi forsar, hängbroar och älvraviner.', distance: '81 km', duration: '4–6 dagar', difficulty: 'Krävande' },
       { name: 'Dagsleder i Saariselkä', description: 'Omkring 200 km utmärkta leder kring Saariselkä, Kiilopää och Kakslauttanen, varav cirka 80 km inne i Urho Kekkonens nationalpark. Dagsslingorna sträcker sig från korta naturstigar till 14 km.', distance: '1–14 km', duration: '1–6 timmar', difficulty: 'Lätt' },
       { name: 'Haltileden – till Finlands högsta punkt', description: 'Vandra till Finlands högsta punkt, på Haltis sluttning på 1 324 m, djupt i Käsivarsis vildmark vid norska gränsen. Avlägset och utsatt: vädret skiftar snabbt, så ta med karta och kompass och se till att du kan använda dem.', distance: 'cirka 55 km enkel väg', duration: '6–8 dagar tur och retur', difficulty: 'Mycket krävande' },
       { name: 'Isokuru-ravinen och Karhunjuomalampi-slingan', description: 'En slinga genom Isokuru, Finlands djupaste ravin, i Pyhä-Luosto nationalpark. En bred spång löper längs ravinens botten till vattenfallet Pyhänkasteenputous, och sedan klättrar 447 trappsteg upp till åsen Uhriharju. En väg utan trappor ner i ravinen är också utmärkt.', distance: '10 km (slinga)', duration: '3–4 timmar', difficulty: 'Medel' },
@@ -442,7 +442,7 @@ export const SV_OVERRIDES: DeepPartial<SectionCopy> = {
       eyebrow: 'Vanliga frågor',
       h2: 'Vandring i Lappland, vanliga frågor',
       items: [
-        { q: 'Hur lång tid tar Karhunkierros (Björnleden)?', a: 'Hela Karhunkierros är cirka 82 km och de flesta vandrare går den på fyra till sex dagar, med övernattning i ödestugorna längs leden. Starka vandrare gör den på fyra långa dagar; vill du ha tid vid forsarna, vattenfallen och hängbroarna, planera fem. Den kortare slingan Pieni Karhunkierros fångar höjdpunkterna på 12 km.' },
+        { q: 'Hur lång tid tar Karhunkierros (Björnleden)?', a: 'Hela Karhunkierros är cirka 81 km och de flesta vandrare går den på fyra till sex dagar, med övernattning i ödestugorna längs leden. Starka vandrare gör den på fyra långa dagar; vill du ha tid vid forsarna, vattenfallen och hängbroarna, planera fem. Den kortare slingan Pieni Karhunkierros fångar höjdpunkterna på 12 km.' },
         { q: 'Vilken är den populäraste vandringsleden i Lappland?', a: 'Karhunkierros kallas ofta Finlands populäraste vandringsled. I själva Lappland är den mest kända långa leden Hetta–Pallas, cirka 50 km och utmärkt 1934, i Pallas-Yllästunturi, Finlands mest besökta nationalpark. Den går mest ovanför trädgränsen, och stugorna delar upp den på tre eller fyra dagar mellan Hetta och Pallas.' },
         { q: 'Måste man boka ödestugor i förväg?', a: 'Ödestugor (autiotupa) är gratis och först till kvarn, du kan inte reservera dem, och vid ruska-toppen i september kan de bli fulla redan på eftermiddagen. Reserveringsstugor (varaustupa) måste bokas och betalas i förväg på eraluvat.fi, 20 € per bädd och natt 2026, och är värda det för en garanterad plats på välbesökta sträckor.' },
         { q: 'Hur hög är Finlands högsta punkt, och kan man vandra dit?', a: 'Finlands högsta punkt ligger på Haltis sluttning på 1 324 m, djupt i Kilpisjärvis inland nära norska gränsen. Det är cirka 55 km enkel väg från Kilpisjärvi, så tur och retur blir omkring 110 km och tar de flesta sex till åtta dagar. Rutten är avlägsen och utsatt; ha med karta och kompass.' },

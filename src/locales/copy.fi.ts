@@ -92,7 +92,7 @@ const fi: SectionCopy = {
       { name: 'Kilpisjärvi', note: 'Kolmen valtakunnan raja · revontulia noin 75 %:na selkeistä öistä (IL)' },
       { name: 'Enontekiö', note: 'Suomen pimeimpiä taivaita valosaastekartoilla' },
       { name: 'Hetta', note: 'Hetta–Pallas-reitin pohjoispää' },
-      { name: 'Ruka / Oulanka', note: '82 km:n Karhunkierros · riippusillat ja kosket · Kuusamo, Lapin rajan eteläpuolella' },
+      { name: 'Ruka / Oulanka', note: '81 km:n Karhunkierros · riippusillat ja kosket · Kuusamo, Lapin rajan eteläpuolella' },
       { name: 'Kilpisjärvi (Halti)', note: 'Haltille noin 55 km suuntaansa · Suomen korkein kohta 1 324 m' },
       { name: 'Pyhä', note: 'Isokuru, Suomen syvin rotko · Karhunjuomalammen kierros 10 km' },
       { name: 'Kuusamon karhukojut', note: 'Karhujen katselukojut · keväästä syksyyn · Lapin rajan eteläpuolella' },
@@ -102,7 +102,7 @@ const fi: SectionCopy = {
   },
   home: {
     metaTitle: 'Lapin luonto: erämaat ja kansallispuistot',
-    metaDescription: 'Suomen Lapin erämaat: seitsemän kansallispuistoa, revontulet elokuun lopulta huhtikuun alkuun, kaamos ja vaellusreitit lyhyistä lenkeistä 82 kilometriin.',
+    metaDescription: 'Suomen Lapin erämaat: seitsemän kansallispuistoa, revontulet elokuun lopulta huhtikuun alkuun, kaamos ja vaellusreitit lyhyistä lenkeistä 81 kilometriin.',
     hero: {
       alt: 'Lapin tunturimaisemaa',
       eyebrow: 'Napapiirin pohjoispuolella',
@@ -150,7 +150,7 @@ const fi: SectionCopy = {
         {
           tag: 'Reitit',
           title: 'Vaellusreitit',
-          blurb: 'Karhunkierroksen riippusilloilta (82 km) Haltin rinteelle, Suomen korkeimpaan kohtaan 1 324 metrissä.',
+          blurb: 'Karhunkierroksen riippusilloilta (81 km) Haltin rinteelle, Suomen korkeimpaan kohtaan 1 324 metrissä.',
           cta: 'Tutustu reitteihin',
         },
         {
@@ -719,7 +719,7 @@ const fi: SectionCopy = {
   },
   hiking: {
     metaTitle: 'Lapin vaellusreitit: päivälenkeistä Karhunkierrokseen',
-    metaDescription: 'Kuusi vaellusreittiä Lapissa ja sen lähellä: Hetta–Pallas (noin 50 km), Karhunkierros (82 km), Halti (noin 55 km suuntaansa) ja kolme lyhyempää reittiä.',
+    metaDescription: 'Kuusi vaellusreittiä Lapissa ja sen lähellä: Hetta–Pallas (noin 50 km), Karhunkierros (81 km), Halti (noin 55 km suuntaansa) ja kolme lyhyempää reittiä.',
     hero: {
       alt: 'Kiutaköngäs punertavien kallioiden välissä Karhunkierroksen varrella Oulangan kansallispuistossa',
       eyebrow: 'Lapin retket',
@@ -729,7 +729,7 @@ const fi: SectionCopy = {
     },
     karhuKicker: 'Reittikortti · Karhunkierros',
     karhuH2: 'Karhunkierros osuus osuudelta: tuvat, kosket ja matkat',
-    karhuLead: '82 km:n Karhunkierros kulkee Sallan Hautajärveltä napapiiriltä etelään Oulangan kansallispuiston halki Kuusamon Rukalle. Useimmat kävelevät sen 4–6 päivässä. Alla olevat osuudet kulkevat autiotuvalta toiselle, ja matkat ovat Kuusamon kaupungin reittioppaasta. Reitti nousee loppua kohti.',
+    karhuLead: '81 km:n Karhunkierros kulkee Sallan Hautajärveltä napapiiriltä etelään Oulangan kansallispuiston halki Kuusamon Rukalle. Useimmat kävelevät sen 4–6 päivässä. Alla olevat osuudet kulkevat autiotuvalta toiselle, ja matkat ovat Kuusamon kaupungin reittioppaasta. Reitti nousee loppua kohti.',
     days: [
       {
         day: 'Osuus 1 · noin 18 km',
@@ -767,7 +767,7 @@ const fi: SectionCopy = {
     oulankaGuidedCta: 'Opastetut päiväretket Oulangalla',
     listKicker: 'Kaikki reitit',
     listH2: 'Kuusi reittiä, joiden ympärille matkan voi suunnitella',
-    listLead: 'Pyhä-Luoston rotkokierroksesta 82 km:n Karhunkierrokseen. Jokaisen lähellä on kylä, jossa kannattaa yöpyä.',
+    listLead: 'Pyhä-Luoston rotkokierroksesta 81 km:n Karhunkierrokseen. Jokaisen lähellä on kylä, jossa kannattaa yöpyä.',
     trails: [
       {
         name: 'Hetta–Pallas-reitti',
@@ -779,7 +779,7 @@ const fi: SectionCopy = {
       {
         name: 'Karhunkierros',
         description: 'Yksi Suomen tunnetuimmista reiteistä kulkee Hautajärveltä Rukalle Oulangan kansallispuiston halki koskien, riippusiltojen ja jokikurujen ohi.',
-        distance: '82 km',
+        distance: '81 km',
         duration: '4–6 päivää',
         difficulty: 'Vaativa',
       },
@@ -822,7 +822,7 @@ const fi: SectionCopy = {
       items: [
         {
           q: 'Kuinka kauan Karhunkierros kestää?',
-          a: 'Koko Karhunkierros on noin 82 km, ja useimmat kävelevät sen 4–6 päivässä yöpyen reitin varren autiotuvissa. Vahvat kävelijät selviävät neljässä pitkässä päivässä, mutta jos haluat viipyä koskilla, putouksilla ja riippusilloilla, varaa viisi päivää. Lyhyempi Pieni Karhunkierros kiertää kohokohdat 12 kilometrissä.',
+          a: 'Koko Karhunkierros on noin 81 km, ja useimmat kävelevät sen 4–6 päivässä yöpyen reitin varren autiotuvissa. Vahvat kävelijät selviävät neljässä pitkässä päivässä, mutta jos haluat viipyä koskilla, putouksilla ja riippusilloilla, varaa viisi päivää. Lyhyempi Pieni Karhunkierros kiertää kohokohdat 12 kilometrissä.',
         },
         {
           q: 'Mikä on Lapin suosituin vaellusreitti?',
