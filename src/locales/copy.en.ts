@@ -717,12 +717,16 @@ const en: SectionCopy = {
       description: "From easy day hikes to multi-day wilderness expeditions. Lapland's trails take you through ancient forests, across open fells, along wild rivers, and to Finland's highest point.",
       alt: 'Kiutaköngäs rapids between reddish cliffs on the Karhunkierros trail, Oulanka National Park',
     },
+    // Karhunkierros route card. Source: Metsähallitus route description on Luontoon.fi, read 20.10.2026:
+    // 81 km route from the Hautajärvi car park, 71 km from the Ristikallio car park; the trail ends at the
+    // Saarua car park in East Ruka (moved from Ruka village, news 14.4.2026). Legs 19 / 24 / 14 / 22 km come
+    // from the same page (sections are rounded, so they add up to 79 against the official 81).
     karhuKicker: 'Route card · Karhunkierros',
     karhuH2: 'Karhunkierros leg by leg: huts, rapids and distances',
-    karhuLead: 'The 81 km Karhunkierros runs from Hautajärvi in Salla, on the Arctic Circle, south through Oulanka National Park to Ruka in Kuusamo. Most people take four to six days. The legs below follow the open wilderness huts; the distances come from the City of Kuusamo trail guide. The trail climbs towards the end.',
+    karhuLead: 'The 81 km Karhunkierros runs from Hautajärvi in Salla, on the Arctic Circle, south through Oulanka National Park to the Saarua car park in East Ruka, Kuusamo. Most people take four to six days. The legs below follow the open wilderness huts; the distances come from the Metsähallitus route description on Luontoon.fi. The trail climbs towards the end.',
     days: [
       {
-        day: 'Leg 1 · about 18 km',
+        day: 'Leg 1 · about 19 km',
         title: 'Hautajärvi → Taivalköngäs',
         body: 'From the Karhunkierros Visitor Centre at Hautajärvi the trail follows the Savinajoki, which falls about 60 m in almost continuous rapids. The Savilampi hut (for 10) stands by a long suspension bridge, and a side path of about 1 km leads to the Oulanka canyon.',
         note: 'Taivalköngäs: rapids over 6 m high, crossed by three suspension bridges · open hut for 10–15',
@@ -740,9 +744,9 @@ const en: SectionCopy = {
         note: 'Siilastupa: open hut next to Jyrävä',
       },
       {
-        day: 'Leg 4 · about 24 km',
-        title: 'Siilastupa → Ruka',
-        body: 'Past the Aallokkokoski rapid, with a short side path to Myllykoski, then Porontimajoki and the long climb over Konttainen and Valtavaara to Ruka.',
+        day: 'Leg 4 · about 22 km',
+        title: 'Siilastupa → Saarua (Ruka)',
+        body: 'Past the Aallokkokoski rapid, with a short side path to Myllykoski, then Porontimajoki and the long climb over Konttainen and Valtavaara, then down to the Saarua car park in East Ruka, where the trail ends.',
         note: 'Porontimajoki: open hut · Valtavaara: day hut',
       },
     ],
@@ -768,7 +772,7 @@ const en: SectionCopy = {
       },
       {
         name: 'Karhunkierros (Bear Trail)',
-        description: "One of Finland's best-known trails, from Hautajärvi to Ruka through Oulanka National Park, past rapids, suspension bridges and river gorges.",
+        description: "One of Finland's best-known trails, from Hautajärvi to Saarua in East Ruka through Oulanka National Park, past rapids, suspension bridges and river gorges.",
         distance: '81 km',
         duration: '4–6 days',
         difficulty: 'Challenging',

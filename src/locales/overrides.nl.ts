@@ -681,10 +681,10 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
     },
     karhuKicker: 'Routekaart · Karhunkierros',
     karhuH2: 'De Karhunkierros etappe voor etappe: hutten, stroomversnellingen en afstanden',
-    karhuLead: 'De Karhunkierros van 81 km loopt van Hautajärvi in Salla, op de poolcirkel, zuidwaarts door het nationale park Oulanka naar Ruka in Kuusamo. De meeste mensen doen er vier tot zes dagen over. De etappes hieronder volgen de open wildernishutten; de afstanden komen uit de routegids van de stad Kuusamo. Het pad stijgt richting het einde.',
+    karhuLead: 'De Karhunkierros van 81 km loopt van Hautajärvi in Salla, op de poolcirkel, zuidwaarts door het nationale park Oulanka naar de parkeerplaats van Saarua in Oost-Ruka, bij Kuusamo. De meeste mensen doen er vier tot zes dagen over. De etappes hieronder volgen de open wildernishutten; de afstanden komen uit de routebeschrijving van Metsähallitus op Luontoon.fi. Het pad stijgt richting het einde.',
     days: [
       {
-        day: 'Etappe 1 · ongeveer 18 km',
+        day: 'Etappe 1 · ongeveer 19 km',
         title: 'Hautajärvi → Taivalköngäs',
         body: 'Vanaf het bezoekerscentrum van de Karhunkierros in Hautajärvi volgt het pad de Savinajoki, die in bijna onafgebroken stroomversnellingen ongeveer 60 m daalt. De hut Savilampi (voor 10 personen) staat bij een lange hangbrug, en een zijpad van ongeveer 1 km leidt naar de kloof van de Oulanka.',
         note: 'Taivalköngäs: stroomversnellingen van meer dan 6 m hoog, met drie hangbruggen · open hut voor 10–15 personen',
@@ -702,9 +702,9 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
         note: 'Siilastupa: open hut naast Jyrävä',
       },
       {
-        day: 'Etappe 4 · ongeveer 24 km',
-        title: 'Siilastupa → Ruka',
-        body: 'Langs de stroomversnelling Aallokkokoski, met een kort zijpad naar Myllykoski, dan Porontimajoki en de lange klim over Konttainen en Valtavaara naar Ruka.',
+        day: 'Etappe 4 · ongeveer 22 km',
+        title: 'Siilastupa → Saarua (Ruka)',
+        body: 'Langs de stroomversnelling Aallokkokoski, met een kort zijpad naar Myllykoski, dan Porontimajoki en de lange klim over Konttainen en Valtavaara, dan de afdaling naar de parkeerplaats van Saarua in Oost-Ruka, waar het pad eindigt.',
         note: 'Porontimajoki: open hut · Valtavaara: daghut',
       },
     ],
@@ -730,7 +730,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
       },
       {
         name: 'Karhunkierros (Berenpad)',
-        description: 'Een van de bekendste paden van Finland, van Hautajärvi naar Ruka door het nationale park Oulanka, langs stroomversnellingen, hangbruggen en rivierkloven.',
+        description: 'Een van de bekendste paden van Finland, van Hautajärvi naar Saarua in Oost-Ruka door het nationale park Oulanka, langs stroomversnellingen, hangbruggen en rivierkloven.',
         distance: '81 km',
         duration: '4–6 dagen',
         difficulty: 'Zwaar',

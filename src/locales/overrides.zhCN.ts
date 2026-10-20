@@ -402,12 +402,12 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
     },
     karhuKicker: '路线卡 · Karhunkierros',
     karhuH2: 'Karhunkierros 分段介绍：山屋、急流与距离',
-    karhuLead: '81 公里的 Karhunkierros 从北极圈上 Salla 的 Hautajärvi 出发，向南穿过 Oulanka 国家公园，抵达 Kuusamo 的 Ruka。多数人走四到六天。下面的分段以开放式荒野山屋为节点，距离取自 Kuusamo 市的步道指南。步道越接近终点，爬升越多。',
+    karhuLead: '81 公里的 Karhunkierros 从北极圈上 Salla 的 Hautajärvi 出发，向南穿过 Oulanka 国家公园，抵达 Kuusamo 的 Ruka 东部 Saarua 停车场。多数人走四到六天。下面的分段以开放式荒野山屋为节点，距离取自 Metsähallitus 在 Luontoon.fi 上的路线说明。步道越接近终点，爬升越多。',
     days: [
-      { day: '第 1 段 · 约 18 公里', title: 'Hautajärvi → Taivalköngäs', body: '从 Hautajärvi 的 Karhunkierros 游客中心出发，步道沿着 Savinajoki 河前行，河水以几乎连续不断的急流下落约 60 米。Savilampi 山屋（可住 10 人）位于一座长吊桥旁，一条约 1 公里的岔路通往 Oulanka 峡谷。', note: 'Taivalköngäs：高逾 6 米的急流，由三座吊桥跨越 · 可住 10–15 人的开放式山屋' },
+      { day: '第 1 段 · 约 19 公里', title: 'Hautajärvi → Taivalköngäs', body: '从 Hautajärvi 的 Karhunkierros 游客中心出发，步道沿着 Savinajoki 河前行，河水以几乎连续不断的急流下落约 60 米。Savilampi 山屋（可住 10 人）位于一座长吊桥旁，一条约 1 公里的岔路通往 Oulanka 峡谷。', note: 'Taivalköngäs：高逾 6 米的急流，由三座吊桥跨越 · 可住 10–15 人的开放式山屋' },
       { day: '第 2 段 · 约 24 公里', title: 'Taivalköngäs → Jussinkämppä', body: '经过 Oulanka 游客中心和营地，抵达 Kiutaköngäs：一处落差 13.7 米的急流，两岸是泛红的白云岩峭壁。之后步道穿过森林，前往 Ansakämppä 和 Jussinkämppä。', note: 'Ansakämppä 和 Jussinkämppä：开放式山屋' },
       { day: '第 3 段 · 约 14 公里', title: 'Jussinkämppä → Siilastupa', body: '下到 Kitkajoki 河谷，经过 Harrisuvanto，抵达 Kitkajoki 上最壮观的急流 Jyrävä，落差约 9 米。急流下方的水潭有生命危险：请走在步道上。', note: 'Siilastupa：Jyrävä 旁的开放式山屋' },
-      { day: '第 4 段 · 约 24 公里', title: 'Siilastupa → Ruka', body: '经过 Aallokkokoski 急流（有一条通往 Myllykoski 的短岔路），然后是 Porontimajoki，再长距离爬升，翻过 Konttainen 和 Valtavaara 抵达 Ruka。', note: 'Porontimajoki：开放式山屋 · Valtavaara：日间小屋' },
+      { day: '第 4 段 · 约 22 公里', title: 'Siilastupa → Saarua（Ruka）', body: '经过 Aallokkokoski 急流（有一条通往 Myllykoski 的短岔路），然后是 Porontimajoki，再长距离爬升，翻过 Konttainen 和 Valtavaara，然后下到 Ruka 东部的 Saarua 停车场，步道在此结束。', note: 'Porontimajoki：开放式山屋 · Valtavaara：日间小屋' },
     ],
     differentlyH3: '出发之前',
     differently: [
@@ -423,7 +423,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
     listLead: '从 Pyhä-Luosto 的峡谷环线，到上文的 81 公里 Karhunkierros。每条都连着一个你会想就近落脚的出发村庄。',
     trails: [
       { name: 'Hetta–Pallas 步道', description: 'Pallas-Yllästunturi 国家公园最受欢迎的长距离步道，1934 年标出，纵贯 Hetta 与 Pallas 之间连绵的山丘。沿途是视野开阔的山地地形，并设有荒野山屋。', distance: '约 50 公里', duration: '3–4 天', difficulty: '较难' },
-      { name: 'Karhunkierros（熊径）', description: '芬兰最知名的步道之一，从 Hautajärvi 穿过 Oulanka 国家公园到 Ruka，沿途经过急流、吊桥和河谷。', distance: '81 公里', duration: '4–6 天', difficulty: '较难' },
+      { name: 'Karhunkierros（熊径）', description: '芬兰最知名的步道之一，从 Hautajärvi 穿过 Oulanka 国家公园到 Ruka 东部的 Saarua，沿途经过急流、吊桥和河谷。', distance: '81 公里', duration: '4–6 天', difficulty: '较难' },
       { name: 'Saariselkä 单日步道', description: 'Saariselkä、Kiilopää 和 Kakslauttanen 一带约有 200 公里标识步道，其中约 80 公里位于 Urho Kekkonen 国家公园内。单日环线从短途自然小径到 14 公里不等。', distance: '1–14 公里', duration: '1–6 小时', difficulty: '简单' },
       { name: 'Halti 步道：芬兰最高点', description: '前往芬兰最高点的徒步：最高点位于哈尔蒂山肩上，海拔 1,324 米，深藏在挪威边境旁的 Käsivarsi 荒野之中。路线偏远且缺少遮蔽，天气变化很快，请携带地图和指南针，并懂得如何使用。', distance: '单程约 55 公里', duration: '往返 6–8 天', difficulty: '高难' },
       { name: 'Isokuru 峡谷与 Karhunjuomalampi 环线', description: '一条穿过 Pyhä-Luosto 国家公园内芬兰最深峡谷 Isokuru 的环线。宽阔的栈道沿峡谷底部通往 Pyhänkasteenputous 瀑布，随后 447 级台阶登上 Uhriharju 山脊。另有一条无台阶的进峡谷路线，也设有标识。', distance: '10 公里（环线）', duration: '3–4 小时', difficulty: '中等' },

@@ -719,10 +719,10 @@ const de: SectionCopy = {
     },
     karhuKicker: 'Routensteckbrief · Karhunkierros',
     karhuH2: 'Karhunkierros Etappe für Etappe: Hütten, Stromschnellen und Distanzen',
-    karhuLead: 'Der 81 km lange Karhunkierros führt von Hautajärvi in Salla am Polarkreis nach Süden durch den Oulanka-Nationalpark bis Ruka in Kuusamo. Die meisten brauchen vier bis sechs Tage. Die Etappen unten orientieren sich an den offenen Wildnishütten; die Distanzen stammen aus dem Wegführer der Stadt Kuusamo. Gegen Ende steigt der Weg an.',
+    karhuLead: 'Der 81 km lange Karhunkierros führt von Hautajärvi in Salla am Polarkreis nach Süden durch den Oulanka-Nationalpark bis zum Parkplatz Saarua in Ost-Ruka bei Kuusamo. Die meisten brauchen vier bis sechs Tage. Die Etappen unten orientieren sich an den offenen Wildnishütten; die Distanzen stammen aus der Routenbeschreibung von Metsähallitus auf Luontoon.fi. Gegen Ende steigt der Weg an.',
     days: [
       {
-        day: 'Etappe 1 · etwa 18 km',
+        day: 'Etappe 1 · etwa 19 km',
         title: 'Hautajärvi → Taivalköngäs',
         body: 'Vom Besucherzentrum Karhunkierros in Hautajärvi folgt der Weg dem Savinajoki, der in fast durchgehenden Stromschnellen etwa 60 m fällt. Die Savilampi-Hütte (für 10 Personen) steht an einer langen Hängebrücke, und ein Abstecher von etwa 1 km führt zum Oulanka-Canyon.',
         note: 'Taivalköngäs: über 6 m hohe Stromschnellen, überspannt von drei Hängebrücken · offene Hütte für 10–15 Personen',
@@ -740,9 +740,9 @@ const de: SectionCopy = {
         note: 'Siilastupa: offene Hütte neben dem Jyrävä',
       },
       {
-        day: 'Etappe 4 · etwa 24 km',
-        title: 'Siilastupa → Ruka',
-        body: 'Vorbei an der Stromschnelle Aallokkokoski, mit einem kurzen Abstecher nach Myllykoski, dann Porontimajoki und der lange Anstieg über Konttainen und Valtavaara nach Ruka.',
+        day: 'Etappe 4 · etwa 22 km',
+        title: 'Siilastupa → Saarua (Ruka)',
+        body: 'Vorbei an der Stromschnelle Aallokkokoski, mit einem kurzen Abstecher nach Myllykoski, dann Porontimajoki und der lange Anstieg über Konttainen und Valtavaara, dann der Abstieg zum Parkplatz Saarua in Ost-Ruka, wo der Weg endet.',
         note: 'Porontimajoki: offene Hütte · Valtavaara: Tageshütte',
       },
     ],
@@ -768,7 +768,7 @@ const de: SectionCopy = {
       },
       {
         name: 'Karhunkierros (Bärenweg)',
-        description: 'Einer der bekanntesten Wege Finnlands, von Hautajärvi nach Ruka durch den Oulanka-Nationalpark, vorbei an Stromschnellen, Hängebrücken und Flussschluchten.',
+        description: 'Einer der bekanntesten Wege Finnlands, von Hautajärvi nach Saarua in Ost-Ruka durch den Oulanka-Nationalpark, vorbei an Stromschnellen, Hängebrücken und Flussschluchten.',
         distance: '81 km',
         duration: '4–6 Tage',
         difficulty: 'Anspruchsvoll',

@@ -729,10 +729,10 @@ const fi: SectionCopy = {
     },
     karhuKicker: 'Reittikortti · Karhunkierros',
     karhuH2: 'Karhunkierros osuus osuudelta: tuvat, kosket ja matkat',
-    karhuLead: '81 km:n Karhunkierros kulkee Sallan Hautajärveltä napapiiriltä etelään Oulangan kansallispuiston halki Kuusamon Rukalle. Useimmat kävelevät sen 4–6 päivässä. Alla olevat osuudet kulkevat autiotuvalta toiselle, ja matkat ovat Kuusamon kaupungin reittioppaasta. Reitti nousee loppua kohti.',
+    karhuLead: '81 km:n Karhunkierros kulkee Sallan Hautajärveltä napapiiriltä etelään Oulangan kansallispuiston halki Kuusamon Itä-Rukan Saaruan pysäköintialueelle. Useimmat kävelevät sen 4–6 päivässä. Alla olevat osuudet kulkevat autiotuvalta toiselle, ja matkat ovat Metsähallituksen reittikuvauksesta (Luontoon.fi). Reitti nousee loppua kohti.',
     days: [
       {
-        day: 'Osuus 1 · noin 18 km',
+        day: 'Osuus 1 · noin 19 km',
         title: 'Hautajärvi → Taivalköngäs',
         body: 'Hautajärven Karhunkierroksen luontokeskukselta reitti seuraa Savinajokea, joka laskee lähes yhtenäisenä koskena noin 60 metriä. Savilammen autiotupa (10 hengelle) on pitkän riippusillan vieressä, ja sen läheltä pääsee noin kilometrin sivupolkua Oulangan kanjonille.',
         note: 'Taivalköngäs: yli 6 metrin putous, kolme riippusiltaa · autiotupa 10–15 hengelle',
@@ -750,9 +750,9 @@ const fi: SectionCopy = {
         note: 'Siilastupa: autiotupa Jyrävän vieressä',
       },
       {
-        day: 'Osuus 4 · noin 24 km',
-        title: 'Siilastupa → Ruka',
-        body: 'Aallokkokosken ohi, josta lyhyt sivupolku vie Myllykoskelle, sitten Porontimajoelle ja pitkä nousu Konttaisen ja Valtavaaran yli Rukalle.',
+        day: 'Osuus 4 · noin 22 km',
+        title: 'Siilastupa → Saarua (Ruka)',
+        body: 'Aallokkokosken ohi, josta lyhyt sivupolku vie Myllykoskelle, sitten Porontimajoelle ja pitkä nousu Konttaisen ja Valtavaaran yli, sitten lasku Itä-Rukan Saaruan pysäköintialueelle, johon reitti päättyy.',
         note: 'Porontimajoki: autiotupa · Valtavaara: päivätupa',
       },
     ],
@@ -778,7 +778,7 @@ const fi: SectionCopy = {
       },
       {
         name: 'Karhunkierros',
-        description: 'Yksi Suomen tunnetuimmista reiteistä kulkee Hautajärveltä Rukalle Oulangan kansallispuiston halki koskien, riippusiltojen ja jokikurujen ohi.',
+        description: 'Yksi Suomen tunnetuimmista reiteistä kulkee Hautajärveltä Oulangan kansallispuiston halki Itä-Rukan Saaruaan koskien, riippusiltojen ja jokikurujen ohi.',
         distance: '81 km',
         duration: '4–6 päivää',
         difficulty: 'Vaativa',
