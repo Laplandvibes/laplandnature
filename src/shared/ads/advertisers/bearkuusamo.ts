@@ -98,7 +98,7 @@ const bearkuusamo: AdSpec = {
     es: {
       eyebrow: 'Avistamiento ético de osos',
       headline: 'Una noche en un escondite de osos, al borde de Laponia',
-      sub: 'Los guías de osos originales de Kuusamo, más de veinte años en los bosques de la frontera oriental. Observa osos pardos salvajes, glotones y pigargos desde un escondite fotográfico.',
+      sub: 'Los guías de osos originales de Kuusamo, más de veinte años en los bosques de la frontera oriental. Observe osos pardos salvajes, glotones y pigargos desde un escondite fotográfico.',
       trust: ['Más de 20 años', '7 escondites fotográficos', 'Salidas de tarde y nocturnas'],
       cta: 'Reservar la observación',
       poweredBy: 'Bear Kuusamo',
