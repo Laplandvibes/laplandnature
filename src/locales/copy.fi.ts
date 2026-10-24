@@ -308,7 +308,7 @@ const fi: SectionCopy = {
     metaTitle: 'Lapin kansallispuistot: viisi erämaata',
     metaDescription: 'Viisi Lapin kansallispuistoa: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi ja Pyhä-Luosto. Porttikylät, reitit ja paras vierailuaika.',
     hero: {
-      alt: 'Näkymä Kultakerolta Pyhä-Luoston kansallispuiston ruskametsiin',
+      alt: 'Pitkospuut Tunturiaavan rimpisuon poikki Pyhätunturin alla syyskuussa, Pyhä-Luoston kansallispuisto',
       eyebrow: 'Lapin erämaat',
       title: 'Kansallispuistot',
       subtitle: 'Viisi suojeltua erämaata',

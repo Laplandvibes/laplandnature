@@ -85,8 +85,8 @@ const HOME_JSONLD = [
 
 /**
  * Etusivun hero vuodenajan mukaan (26.9.2026, aidot kuvat tekoälyn tilalle): kesä touko–elo
- * Pallastunturi kesäkuussa, syyskuu ruskainen Paistunturin erämaa, loka–huhti talvinen
- * Pallastunturi. Talven ja kesän raja on verkoston sama kuin `seasonal()`:ssa ja /og.jpg:ssä;
+ * Pallastunturi kesäkuussa, syyskuu ruskainen Paistunturin erämaa, loka–huhti huurteinen
+ * koivikko (Pexels 30433172, 24.10.2026). Talven ja kesän raja on verkoston sama kuin `seasonal()`:ssa ja /og.jpg:ssä;
  * syyskuu on oma kuvansa, koska kesäkuun vihreä tunturi ruskan keskellä olisi väärä vuodenaika.
  */
 function homeHero(): string {

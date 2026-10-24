@@ -305,7 +305,7 @@ export const NL_OVERRIDES: DeepPartial<SectionCopy> = {
     metaTitle: 'Nationale parken van Lapland',
     metaDescription: 'Vijf van de nationale parken van Fins Lapland, Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi en Pyhä-Luosto.',
     hero: {
-      alt: 'Uitzicht vanaf de fjell Kultakero over de herfstbossen van nationaal park Pyhä-Luosto',
+      alt: 'Vlonderpad over het hoogveen Tunturiaapa onder de fjells van Pyhä in september, nationaal park Pyhä-Luosto',
       eyebrow: 'Pijlergids',
       title: 'Nationale parken',
       subtitle: 'Beschermde wildernis',

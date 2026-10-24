@@ -203,7 +203,7 @@ export const ZHCN_OVERRIDES: DeepPartial<SectionCopy> = {
     metaTitle: '拉普兰的国家公园：五片可徒步的荒野',
     metaDescription: '芬兰拉普兰五座国家公园精选，Urho Kekkonen、Pallas-Yllästunturi、Lemmenjoki、Riisitunturi 与 Pyhä-Luosto。门户村庄、标志性特征与最佳到访时间。',
     hero: {
-      alt: '从 Kultakero 山眺望 Pyhä-Luosto 国家公园的秋色森林',
+      alt: '九月，Pyhä-Luosto 国家公园内 Pyhä 山脚下横穿 Tunturiaapa 条带沼泽的木栈道',
       eyebrow: '核心指南',
       title: '国家公园',
       subtitle: '受保护的荒野',

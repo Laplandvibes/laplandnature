@@ -298,7 +298,7 @@ const de: SectionCopy = {
     metaTitle: 'Lapplands Nationalparks: 5 Wildnisse',
     metaDescription: 'Fünf der Nationalparks Finnisch-Lapplands: Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi und Pyhä-Luosto. Ausgangsorte und beste Reisezeit.',
     hero: {
-      alt: 'Blick vom Fjell Kultakero über die herbstlichen Wälder des Nationalparks Pyhä-Luosto',
+      alt: 'Bohlenweg über das Strangmoor Tunturiaapa unter den Fjells von Pyhä im September, Nationalpark Pyhä-Luosto',
       eyebrow: 'Säulen-Guide',
       title: 'Nationalparks',
       subtitle: 'Geschützte Wildnis',

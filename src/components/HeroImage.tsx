@@ -107,6 +107,13 @@ const RESPONSIVE_HEROES: Record<string, { avif: string; webp: string; avifDesk: 
     avifDesk: '/images/hero-home-1920.avif 1920w, /images/hero-home-2560.avif 2560w',
     webpDesk: '/images/hero-home-1920.webp 1920w, /images/hero-home-2560.webp 2560w',
   },
+  // 24.10.2026: talvihero on taas 3:2-valokuva (Pexels 30433172), ei rajaamatonta panoraamaa, joten portaat palasivat.
+  'hero-home-winter': {
+    avif: '/images/hero-home-winter-800.avif 800w, /images/hero-home-winter-1200.avif 1200w',
+    webp: '/images/hero-home-winter-800.webp 800w, /images/hero-home-winter-1200.webp 1200w',
+    avifDesk: '/images/hero-home-winter-1920.avif 1920w, /images/hero-home-winter-2560.avif 2560w',
+    webpDesk: '/images/hero-home-winter-1920.webp 1920w, /images/hero-home-winter-2560.webp 2560w',
+  },
   'hero-home-autumn': {
     avif: '/images/hero-home-autumn-800.avif 800w, /images/hero-home-autumn-1200.avif 1200w',
     webp: '/images/hero-home-autumn-800.webp 800w, /images/hero-home-autumn-1200.webp 1200w',

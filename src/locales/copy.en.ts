@@ -302,7 +302,7 @@ const en: SectionCopy = {
       title: 'National Parks',
       subtitle: 'Protected wilderness',
       description: "We profile five of Lapland's seven national parks, from open-fell traverses to snow-crowned forests and the gold country of Lemmenjoki. Each has its own gateway village to base out of.",
-      alt: 'View from Kultakero fell over the autumn forests of Pyhä-Luosto National Park',
+      alt: 'Duckboards across the Tunturiaapa string bog below the Pyhä fells in September, Pyhä-Luosto National Park',
     },
     parks: [
       {

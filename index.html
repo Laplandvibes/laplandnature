@@ -117,7 +117,7 @@
         var p = location.pathname.replace(/\/+$/, '');
         if (p !== '' && !/^\/(fi|de|ja|es|br|cn|kr|fr|it|nl|sv)$/.test(p)) return;
         // The hero is seasonal (Home.tsx homeHero(): September autumn, May–August summer,
-        // October–April winter panorama), so the preload follows the same month rule. The URLs
+        // October–April winter photo), so the preload follows the same month rule. The URLs
         // stay literal so the build versions them exactly like HeroImage's srcset.
         var m = new Date().getMonth() + 1;
         // Desktop: HeroImage serves a 1920 / 2560 px AVIF ladder above 768 px, so the
@@ -126,7 +126,7 @@
           ? { srcset: '/images/hero-home-autumn-800.avif 800w, /images/hero-home-autumn-1200.avif 1200w', desk: '/images/hero-home-autumn-1920.avif 1920w, /images/hero-home-autumn-2560.avif 2560w', href: '/images/hero-home-autumn.webp' }
           : m >= 5 && m <= 8
             ? { srcset: '/images/hero-home-800.avif 800w, /images/hero-home-1200.avif 1200w', desk: '/images/hero-home-1920.avif 1920w, /images/hero-home-2560.avif 2560w', href: '/images/hero-home.webp' }
-            : { srcset: '', desk: '', href: '/images/hero-home-winter.webp' };
+            : { srcset: '/images/hero-home-winter-800.avif 800w, /images/hero-home-winter-1200.avif 1200w', desk: '/images/hero-home-winter-1920.avif 1920w, /images/hero-home-winter-2560.avif 2560w', href: '/images/hero-home-winter.webp' };
         var l = document.createElement('link');
         l.rel = 'preload';
         l.as = 'image';

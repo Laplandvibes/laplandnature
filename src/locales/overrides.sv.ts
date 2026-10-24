@@ -207,7 +207,7 @@ export const SV_OVERRIDES: DeepPartial<SectionCopy> = {
       title: 'Nationalparker',
       subtitle: 'Skyddad vildmark',
       description: 'Vi presenterar fem av Lapplands sju nationalparker, från traverser över öppna fjäll till snökrönta skogar och guldlandet kring Lemmenjoki. Var och en har en egen ingångsby att utgå från.',
-      alt: 'Utsikt från Kultakero över höstskogarna i Pyhä-Luosto nationalpark',
+      alt: 'Spång över strängmyren Tunturiaapa nedanför Pyhäfjällen i september, Pyhä-Luosto nationalpark',
     },
     parks: [
       { name: 'Urho Kekkonens nationalpark', description: 'Finlands näst största nationalpark, 2 550 km². Vidsträckta öppna fjäll, djupa älvraviner och gamla tallskogar. En klassiker för flerdagarsvandring och turåkning på skidor.', highlight: 'Finlands näst största park', visited: 'Saariselkä, Kiilopää, Tankavaara' },

@@ -203,7 +203,7 @@ export const KO_OVERRIDES: DeepPartial<SectionCopy> = {
     metaTitle: '라플란드 국립공원: 하이킹할 다섯 곳의 황야',
     metaDescription: '핀란드 라플란드 국립공원 다섯 곳, 우르호 케코넨, 팔라스-윌래스툰투리, 렘멘요키, 리시툰투리, 퓌해-루오스토. 출입구 마을, 대표적 특징, 방문 시기를 안내합니다.',
     hero: {
-      alt: '쿨타케로에서 바라본 퓌해-루오스토 국립공원의 단풍 숲',
+      alt: '9월, 퓌해-루오스토 국립공원 퓌해 산 아래 툰투리아파 습지를 가로지르는 나무 길',
       eyebrow: '핵심 가이드',
       title: '국립공원',
       subtitle: '보호된 황야',

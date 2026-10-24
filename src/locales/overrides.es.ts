@@ -253,7 +253,7 @@ export const ES_OVERRIDES: DeepPartial<SectionCopy> = {
     metaTitle: 'Parques nacionales de Laponia',
     metaDescription: 'Cinco de los parques nacionales de la Laponia finlandesa, Urho Kekkonen, Pallas-Yllästunturi, Lemmenjoki, Riisitunturi y Pyhä-Luosto.',
     hero: {
-      alt: 'Vista desde el fjäll Kultakero sobre los bosques otoñales del Parque Nacional de Pyhä-Luosto',
+      alt: 'Pasarela de tablones sobre la turbera Tunturiaapa, bajo los fjälls de Pyhä, en septiembre, Parque Nacional de Pyhä-Luosto',
       eyebrow: 'Guía esencial',
       title: 'Parques nacionales',
       subtitle: 'Naturaleza protegida',
