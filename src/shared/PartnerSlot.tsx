@@ -440,7 +440,7 @@ export default function PartnerSlot({ partner, variant, locale, className, place
             >
               <img
                 src={partner.logoSrc}
-                alt={partner.logoAlt ?? `${partner.name} logo`}
+                alt={partner.logoAlt ?? partner.name}
                 // 🔴 EI `loading="lazy"`: kortin oma valokuva latautuu eagerinä,
                 // joten lazy logo saapuisi sen jälkeen ja maksaneen kumppanin
                 // brändimerkki "poksahtaisi" paikalleen viiveellä. Logo on

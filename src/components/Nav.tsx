@@ -3,6 +3,19 @@ import { Link, useLocation} from 'react-router-dom'
 import { Menu, X} from 'lucide-react'
 import Logo from './Logo'
 import { useLang, useLocalePath } from '../i18n/useLang'
+
+/** Ruudunlukijan nimet (gate:a11y-nimet, verkoston yhteinen sanasto). */
+const HOME_LABEL: Record<string, string> = {
+  en: 'LaplandNature home', fi: 'LaplandNature, etusivu', sv: 'LaplandNature, startsida', de: 'LaplandNature, Startseite',
+  es: 'LaplandNature, página de inicio', fr: 'LaplandNature, page d’accueil', it: 'LaplandNature, pagina iniziale',
+  nl: 'LaplandNature, startpagina', 'pt-BR': 'LaplandNature, página inicial', ja: 'LaplandNature ホーム', ko: 'LaplandNature 홈',
+  'zh-CN': 'LaplandNature 首页',
+}
+const TOGGLE_MENU: Record<string, string> = {
+  en: 'Toggle menu', fi: 'Avaa tai sulje valikko', sv: 'Öppna eller stäng menyn', de: 'Menü öffnen oder schließen',
+  es: 'Abrir o cerrar el menú', fr: 'Ouvrir ou fermer le menu', it: 'Apri o chiudi il menu', nl: 'Menu openen of sluiten',
+  'pt-BR': 'Abrir ou fechar o menu', ja: 'メニューを開閉', ko: '메뉴 열기/닫기', 'zh-CN': '打开或关闭菜单',
+}
 import { COPY } from '../locales/copy'
 import EcosystemMenu from '../shared/EcosystemMenu'
 import LanguageSwitcher from '../i18n/LanguageSwitcher'
@@ -76,7 +89,7 @@ export default function Nav() {
           <div className="lv-navvasen flex items-center gap-3 sm:gap-5 shrink-0">
             <EcosystemMenu lang={lang} currentDomain="laplandnature.com" variant="dark" />
             <div className="lv-wm-paikka">
-              <Link to={to('/')} className="flex items-center shrink-0 min-h-11" aria-label="LaplandNature home">
+              <Link to={to('/')} className="flex items-center shrink-0 min-h-11" aria-label={HOME_LABEL[lang] ?? HOME_LABEL.en}>
                 <Logo variant={logoVariant} size="md" nav />
               </Link>
             </div>
@@ -114,7 +127,7 @@ export default function Nav() {
             <button
               className={`inline-flex items-center justify-center min-h-11 min-w-11 p-2.5 rounded-lg transition-colors text-snow`}
               onClick={() => setOpen(!open)}
-              aria-label="Toggle menu"
+              aria-label={TOGGLE_MENU[lang] ?? TOGGLE_MENU.en}
               aria-expanded={open}
             >
               {open ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}

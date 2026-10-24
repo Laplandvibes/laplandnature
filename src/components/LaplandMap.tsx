@@ -140,6 +140,22 @@ function esc(s: string): string {
     .replace(/"/g, '&quot;')
 }
 
+/** Kartan ohjainten nimet ruudunlukijalle (gate:a11y-nimet). */
+const MAP_UI: Record<string, { zoomIn: string; zoomOut: string; leaflet: string }> = {
+  en: { zoomIn: 'Zoom in', zoomOut: 'Zoom out', leaflet: 'A JavaScript library for interactive maps' },
+  fi: { zoomIn: 'Lähennä', zoomOut: 'Loitonna', leaflet: 'JavaScript-kirjasto interaktiivisille kartoille' },
+  sv: { zoomIn: 'Zooma in', zoomOut: 'Zooma ut', leaflet: 'Ett JavaScript-bibliotek för interaktiva kartor' },
+  de: { zoomIn: 'Vergrößern', zoomOut: 'Verkleinern', leaflet: 'Eine JavaScript-Bibliothek für interaktive Karten' },
+  es: { zoomIn: 'Acercar', zoomOut: 'Alejar', leaflet: 'Una biblioteca de JavaScript para mapas interactivos' },
+  fr: { zoomIn: 'Zoom avant', zoomOut: 'Zoom arrière', leaflet: 'Une bibliothèque JavaScript pour cartes interactives' },
+  it: { zoomIn: 'Ingrandisci', zoomOut: 'Riduci', leaflet: 'Una libreria JavaScript per mappe interattive' },
+  nl: { zoomIn: 'Inzoomen', zoomOut: 'Uitzoomen', leaflet: 'Een JavaScript-bibliotheek voor interactieve kaarten' },
+  'pt-BR': { zoomIn: 'Aproximar', zoomOut: 'Afastar', leaflet: 'Uma biblioteca JavaScript para mapas interativos' },
+  ja: { zoomIn: '拡大', zoomOut: '縮小', leaflet: 'インタラクティブ地図のためのJavaScriptライブラリ' },
+  ko: { zoomIn: '확대', zoomOut: '축소', leaflet: '인터랙티브 지도를 위한 JavaScript 라이브러리' },
+  'zh-CN': { zoomIn: '放大', zoomOut: '缩小', leaflet: '用于交互式地图的 JavaScript 库' },
+}
+
 export default function LaplandMap() {
   const ref = useRef<HTMLDivElement>(null)
   const mapRef = useRef<L.Map | null>(null)
@@ -174,10 +190,17 @@ export default function LaplandMap() {
       // One-finger drag on a phone should scroll the page, not pan the map.
       // The place list below does everything panning would have done.
       dragging: !L.Browser.mobile,
-      zoomControl: true,
+      // Oma zoom-ohjain: Leafletin oletusnimet "Zoom in/out" olivat englantia joka kielellä (gate:a11y-nimet).
+      zoomControl: false,
       attributionControl: true,
     })
     mapRef.current = lmap
+    const zt = MAP_UI[lang] ?? MAP_UI.en
+    L.control.zoom({ zoomInTitle: zt.zoomIn, zoomOutTitle: zt.zoomOut }).addTo(lmap)
+    const ac = lmap.attributionControl
+    if (ac && typeof ac.options.prefix === 'string') {
+      ac.setPrefix(ac.options.prefix.replace('A JavaScript library for interactive maps', zt.leaflet))
+    }
 
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
       minZoom: 5,
