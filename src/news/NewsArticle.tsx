@@ -7,6 +7,7 @@ import Prose from './Prose';
 import NewsCard from './NewsCard';
 import { NewsAds, NewsChrome, NotFoundPage, SITE, useNewsHead } from './site';
 import type { NewsMeta } from './types';
+import ShareBar, { ShareButton } from '../shared/ShareBar/ShareBar';
 
 export default function NewsArticle() {
   const { slug = '' } = useParams();
@@ -135,8 +136,11 @@ function ArticleView({ meta }: { meta: NewsMeta }) {
           </p>
           <p className="nw-byline nw-byline-src">{labelPrefix(ui.ui.sources, lang)}{joinList(publishers, lang)}</p>
           {text.heroCaption && <p className="nw-art-cap">{text.heroCaption}</p>}
+          {/* Jaa-nappi tekijärivin alle omalle rivilleen ja jako jutun loppuun (Vesa 24.10.2026). */}
+          <ShareButton lang={lang} title={text.title} excerpt={text.dek} tone="light" className="mt-4" />
         </header>
         <Prose blocks={text.body} meta={meta} />
+        <ShareBar lang={lang} title={text.title} tone="light" />
         <section className="nw-sources" aria-labelledby="nw-sources-h">
           <h2 id="nw-sources-h" className="nw-sources-h">{ui.ui.sources}</h2>
           <ol>

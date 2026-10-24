@@ -6,6 +6,7 @@ import HubLink from '../components/HubLink'
 import { useLang, useLocalePath } from '../i18n/useLang'
 import { COPY } from '../locales/copy'
 import { trackPartnerClick } from '../lib/analytics'
+import ShareBar, { ShareButton } from '../shared/ShareBar/ShareBar'
 
 // Bear Kuusamo brand green — used only as a restrained accent (partnership
 // label + indicator dot), never as body-text colour.
@@ -103,6 +104,8 @@ export default function BearKuusamo() {
           <div className="mb-6">
             <PartnershipLabel />
           </div>
+          {/* Jaa-nappi jutun alkuun omalle rivilleen ja jako loppuun (Vesa 24.10.2026). */}
+          <ShareButton lang={lang} title={c.hero.title} excerpt={c.metaDescription} tone="light" className="mb-6" />
           <div className="max-w-none text-deep-night/80 leading-relaxed space-y-5">
             {/* Lead paragraph — larger, so the feature has a clear opening beat
                 under the photo. */}
@@ -248,6 +251,7 @@ export default function BearKuusamo() {
               {c.crossHub}
             </HubLink>
           </div>
+          <ShareBar lang={lang} title={c.hero.title} tone="light" />
         </div>
       </section>
 
