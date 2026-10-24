@@ -2,7 +2,7 @@ import { use } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { useLang, useLocalePath } from '../i18n/useLang';
 import { ARTICLE_BY_SLUG, ARTICLES, loadAllTexts, loadText, loadUi } from './registry';
-import { formatDate } from './format';
+import { formatDate, joinList, labelPrefix } from './format';
 import Prose from './Prose';
 import NewsCard from './NewsCard';
 import { NewsAds, NewsChrome, NotFoundPage, SITE, useNewsHead } from './site';
@@ -98,7 +98,7 @@ function ArticleView({ meta }: { meta: NewsMeta }) {
           <div className="nw-art-scrim" aria-hidden="true" />
           {/* Kuvaaja + lisenssi kuvan oikeaan alakulmaan, kuten sivuston muissa kuvissa (PhotoCredit). */}
           <p className="nw-art-credit">
-            {ui.ui.photo}: <a href={credit.sourceUrl} target="_blank" rel="noopener">{credit.author} / {credit.sourceName}</a>,{' '}
+            {labelPrefix(ui.ui.photo, lang)}<a href={credit.sourceUrl} target="_blank" rel="noopener">{credit.author} / {credit.sourceName}</a>,{' '}
             <a href={credit.licenseUrl} target="_blank" rel="noopener license">{credit.license}</a>
           </p>
         </div>
@@ -133,7 +133,7 @@ function ArticleView({ meta }: { meta: NewsMeta }) {
               </>
             )}
           </p>
-          <p className="nw-byline nw-byline-src">{ui.ui.sources}: {publishers.join(', ')}</p>
+          <p className="nw-byline nw-byline-src">{labelPrefix(ui.ui.sources, lang)}{joinList(publishers, lang)}</p>
           {text.heroCaption && <p className="nw-art-cap">{text.heroCaption}</p>}
         </header>
         <Prose blocks={text.body} meta={meta} />
