@@ -73,7 +73,7 @@ export function PhotoCreditsList({ srcs }: { srcs: string[] }) {
         <ul className="space-y-1">
           {rows.map(({ c }) => (
             <li key={c!.sourceId}>
-              <span lang="fi">{c!.place}</span> ({c!.taken.slice(0, 4)}):{' '}
+              {c!.place && <><span lang="fi">{c!.place}</span>{' '}</>}({c!.taken.slice(0, 4)}):{' '}
               <a href={c!.sourceUrl} target="_blank" rel="noopener" className="underline underline-offset-2">{c!.author}</a>
               {c!.licenseUrl && (
                 <>

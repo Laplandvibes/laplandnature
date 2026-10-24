@@ -48,8 +48,11 @@ export type PhotoCredit = {
   sourceId: string
   /** Kuvauspäivä YYYY-MM(-DD) lähteen mukaan. */
   taken: string
-  /** Paikka lähteen kuvauksen, GPS:n tai tunnistetun kyltin mukaan. */
+  /** Paikka lähteen kuvauksen, GPS:n tai tunnistetun kyltin mukaan. Vain paikannimi: tämä piirtyy
+   *  PhotoCreditsListiin. Tyhjä, jos paikka ei ole varma. */
   place: string
+  /** Sisäinen muistiinpano paikan lähteestä tai varmuudesta. EI piirretä sivulle (julkinen teksti ei ole työpäiväkirja). */
+  placeNote?: string
   /** Kuitti: milloin otettu käyttöön ja hinta. */
   receipt: string
 }
@@ -92,7 +95,7 @@ export const PHOTO_CREDITS: Record<string, PhotoCredit> = {
   // Muut kolme BY-SA-reittikorttia (/national-parks, /wildlife, /news) tehtiin sivuston omista ei-BY-SA-kuvista
   // (hero-hiking, card-wildlife, freshwater-mires). Sivustokortin lähteet: OG_CARD_SOURCES alla.
   // Pexels ei vaadi mainintaa; kuitti silti tähän.
-  'card-aurora-helukka': { author: 'Gu Bra', license: 'Pexels License', licenseUrl: 'https://www.pexels.com/license/', sourceUrl: 'https://www.pexels.com/photo/green-northern-lights-above-snow-field-16171421/', sourceId: 'Pexels 16171421 "Green Northern Lights above Snow Field" (alkuperäinen 3239x2160, sha256 ks. KUVA-INVENTAARIO §6b)', taken: '2023-04-01 (lataus Pexelsiin)', place: 'Helukka, Kolari (kuvaajan oma sijaintitieto)', receipt: 'Pexels, otettu käyttöön 27.9.2026, 0 €, pienennetty 1800x1200 WebP, ei rajausta. Tarkistettu 100 %:ssa: aito valokuva, ei ihmisiä eikä luettavia kylttejä (kylän valot ja auton valo kaukana). Saman illan muut ruudut (16171418/19) eivät ole verkostossa' },
+  'card-aurora-helukka': { author: 'Gu Bra', license: 'Pexels License', licenseUrl: 'https://www.pexels.com/license/', sourceUrl: 'https://www.pexels.com/photo/green-northern-lights-above-snow-field-16171421/', sourceId: 'Pexels 16171421 "Green Northern Lights above Snow Field" (alkuperäinen 3239x2160, sha256 ks. KUVA-INVENTAARIO §6b)', taken: '2023-04-01 (lataus Pexelsiin)', place: 'Helukka, Kolari', placeNote: 'kuvaajan oma sijaintitieto', receipt: 'Pexels, otettu käyttöön 27.9.2026, 0 €, pienennetty 1800x1200 WebP, ei rajausta. Tarkistettu 100 %:ssa: aito valokuva, ei ihmisiä eikä luettavia kylttejä (kylän valot ja auton valo kaukana). Saman illan muut ruudut (16171418/19) eivät ole verkostossa' },
   'bear-kuusamo-tree': { author: 'Piritta Paija / Bear Kuusamo', license: 'partner', sourceId: 'Bear Kuusamon toimittama kuva (kumppanimateriaali)', taken: '', place: 'Kuusamo', receipt: 'Kumppanin oma tiedosto, käytössä kumppaniartikkelissa 7/2026' },
 }
 
@@ -125,6 +128,8 @@ export const OG_CARD_SOURCES: Record<'summer' | 'winter', {
   license: string
   taken: string
   place: string
+  /** Sisäinen muistiinpano paikan lähteestä tai varmuudesta. EI piirretä sivulle (julkinen teksti ei ole työpäiväkirja). */
+  placeNote?: string
   retrieved: string
   priceEur: 0
   changes: string
@@ -138,7 +143,8 @@ export const OG_CARD_SOURCES: Record<'summer' | 'winter', {
     author: 'Havesj',
     license: 'Public domain ({{PD-self}}: tekijän oma luovutus, ei nimeämisvaatimusta)',
     taken: '2005-08-02',
-    place: 'Hetta–Pallas-vaellusreitti, Pyhäkeron ja Sioskurun väli (Pallas-Yllästunturin kansallispuisto, Enontekiö) — Commonsin kuvaus ja luokat',
+    place: 'Hetta–Pallas-vaellusreitti, Pyhäkeron ja Sioskurun väli (Pallas-Yllästunturin kansallispuisto, Enontekiö)',
+    placeNote: 'Commonsin kuvaus ja luokat',
     retrieved: '2026-09-27',
     priceEur: 0,
     changes: 'uudelleenpakattu JPEG q88 (1 980 028 → 457 995 tavua), ei rajausta eikä pienennystä',
@@ -152,7 +158,8 @@ export const OG_CARD_SOURCES: Record<'summer' | 'winter', {
     author: 'Markku (Pexels)',
     license: 'Pexels License (kaupallinen käyttö ja muokkaus sallittu, ei nimeämisvaatimusta)',
     taken: 'ladattu Pexelsiin 2026-03-18',
-    place: 'ei vahvistettu: Pexelsin kuvaus sanoo Kemi, lataajan tunnisteissa myös Rovaniemi ja Sweden ⇒ kortti eikä alt väitä paikkaa',
+    place: '',
+    placeNote: 'ei vahvistettu: Pexelsin kuvaus sanoo Kemi, lataajan tunnisteissa myös Rovaniemi ja Sweden ⇒ kortti eikä alt väitä paikkaa',
     retrieved: '2026-09-27',
     priceEur: 0,
     changes: 'pienennetty 7008×4672 → 2400×1600, JPEG q84, ei rajausta',
@@ -177,6 +184,8 @@ export const NEWS_OG_CARD_SOURCES: Record<string, {
   license: string
   taken: string
   place: string
+  /** Sisäinen muistiinpano paikan lähteestä tai varmuudesta. EI piirretä sivulle (julkinen teksti ei ole työpäiväkirja). */
+  placeNote?: string
   retrieved: string
   priceEur: 0
   changes: string
@@ -190,7 +199,8 @@ export const NEWS_OG_CARD_SOURCES: Record<string, {
     author: 'SeppVei',
     license: 'Public domain (tekijän oma luovutus, ei nimeämisvaatimusta)',
     taken: '2010-05-07',
-    place: 'Martimoaapa, Tervola (aapasuo Lapissa, Commonsin kuvaus); kortti ei väitä paikkaa',
+    place: 'Martimoaapa, Tervola',
+    placeNote: 'aapasuo Lapissa, Commonsin kuvaus; kortti ei väitä paikkaa',
     retrieved: '2026-10-05',
     priceEur: 0,
     changes: 'pienennetty 3264×2448 → 2400×1800, JPEG q86, ei rajausta',
@@ -204,7 +214,8 @@ export const NEWS_OG_CARD_SOURCES: Record<string, {
     author: 'SeppVei',
     license: 'CC0 1.0 (ei nimeämisvaatimusta)',
     taken: '2012-08-20',
-    place: 'Saunakankaan autiotupa Piltuanjoella, Pudasjärvi (Commonsin kuvaus); kortti ei väitä paikkaa',
+    place: 'Saunakankaan autiotupa Piltuanjoella, Pudasjärvi',
+    placeNote: 'Commonsin kuvaus; kortti ei väitä paikkaa',
     retrieved: '2026-10-05',
     priceEur: 0,
     changes: 'pienennetty 3264×2448 → 2400×1800, JPEG q86, ei rajausta',
