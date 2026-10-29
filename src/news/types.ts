@@ -100,6 +100,8 @@ export interface NewsHero {
 }
 
 export interface NewsMeta {
+  /** Original-language names retained in translated article text. */
+  inlineLanguages?: Record<string, string>;
   slug: string;
   /** Julkaisupäivä ISO. */
   date: string;

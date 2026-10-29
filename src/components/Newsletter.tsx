@@ -1,3 +1,13 @@
+function newsletterEmailLabel(): string {
+  const lang = typeof document === 'undefined' ? 'en' : document.documentElement.lang.toLowerCase().split('-')[0];
+  return ({fi:'Sähköpostiosoite',en:'Email address',de:'E-Mail-Adresse',es:'Correo electrónico',fr:'Adresse e-mail',it:'Indirizzo email',nl:'E-mailadres',sv:'E-postadress',ja:'メールアドレス',ko:'이메일 주소',pt:'Endereço de e-mail',zh:'电子邮箱'} as Record<string,string>)[lang] || 'Email address';
+}
+
+function newsletterLanguageNotice(): string {
+  const lang = typeof document === 'undefined' ? 'en' : document.documentElement.lang.toLowerCase().split('-')[0];
+  const notes: Record<string, string> = {"fi":"Uutiskirjeet ovat suomeksi.","en":"Newsletters are in English.","de":"Die Newsletter werden auf Englisch versendet.","ja":"ニュースレターは英語でお届けします。","ko":"뉴스레터는 영어로 발송됩니다.","fr":"Les newsletters sont envoyées en anglais.","it":"Le newsletter sono inviate in inglese.","nl":"De nieuwsbrieven zijn in het Engels.","sv":"Nyhetsbreven skickas på engelska.","es":"Los boletines se envían en inglés.","pt":"As newsletters são enviadas em inglês.","zh":"订阅邮件以英语发送。"};
+  return notes[lang] || notes.en;
+}
 import { useEffect, useRef, useState, type FormEvent } from 'react'
 import { ArrowRight, CheckCircle2, Bell, Trees, Compass, PawPrint, AlertCircle } from 'lucide-react'
 import { trackNewsletterSignup } from '../lib/analytics'
@@ -213,8 +223,7 @@ export default function Newsletter() {
             </div>
           ) : (
             <><FounderByline tone="pink" />
-            <form
-              onSubmit={onSubmit}
+            <form style={{ background: '#0F172A', color: '#F9FAFB', padding: 16, borderRadius: 16 }} onSubmit={onSubmit}
               onInvalidCapture={(e) => {
                 if (blockedTracked.current) return;
                 blockedTracked.current = true;
@@ -226,7 +235,7 @@ export default function Newsletter() {
             >
               <div className="flex flex-col sm:flex-row gap-3">
                 <label className="sr-only" htmlFor="newsletter-email">Email</label>
-                <input
+                <label style={{display:'flex',flexDirection:'column',gap:8,flex:'1 1 0%',minWidth:0,textAlign:'left',fontSize:14,color:'#F9FAFB'}}><span>{newsletterEmailLabel()}</span><span style={{fontSize:13,lineHeight:1.5}}>{newsletterLanguageNotice()}</span><input autoComplete="email" style={{ background: '#FFFFFF', color: '#1F2937', WebkitTextFillColor: '#1F2937', border: '1px solid #64748B' }}
                   id="newsletter-email"
                   type="email"
                   value={email}
@@ -235,18 +244,18 @@ export default function Newsletter() {
                   placeholder={c.emailPlaceholder}
                   required
                   className="flex-1 px-5 py-4 rounded-xl text-deep-night bg-white placeholder:text-deep-night/50 focus:outline-none focus:ring-2 focus:ring-white/70 border border-white/40"
-                />
+                /></label>
                 <button
                   type="submit"
                   disabled={status === 'loading'}
                   className="px-6 py-4 bg-white font-bold rounded-xl hover:bg-gray-100 transition-colors flex items-center gap-2 justify-center disabled:opacity-70 disabled:cursor-not-allowed"
-                  style={{ color: '#DB2777' }}
+                  style={{ color: '#9D174D' }}
                 >
                   {status === 'loading' ? c.sending : c.sendBtn}
                   <ArrowRight className="w-4 h-4" />
                 </button>
               </div>
-              <label
+              <label style={{color:"#F9FAFB"}}
                 htmlFor="newsletter-consent"
                 className="flex items-start gap-3 text-left text-white/85 text-xs sm:text-sm leading-relaxed cursor-pointer"
               >
@@ -259,10 +268,9 @@ export default function Newsletter() {
                   required
                   className="mt-0.5 w-4 h-4 shrink-0 rounded border border-white/50 bg-white/20 accent-white focus:outline-none focus:ring-2 focus:ring-white/70 cursor-pointer"
                 />
-                <span>
+                <span style={{color:"#F9FAFB"}}>
                   {consentCopy.checkbox}{' '}
-                  <a
-                    href={to('/privacy/')}
+                  <a style={{color:"#BAE6FD",textDecoration:"underline"}}                     href={to('/privacy/')}
                     className="underline hover:text-white"
                   >
                     {consentCopy.privacy}
@@ -279,7 +287,7 @@ export default function Newsletter() {
             </div>
           )}
 
-          <p className="text-white/75 text-xs mt-5">
+          <p className="text-white/90 text-sm mt-5">
             {c.footnote}{' '}
             <a href={to('/privacy/')} className="underline hover:text-white">{c.privacyLink}</a>.
           </p>

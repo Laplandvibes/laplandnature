@@ -47,5 +47,9 @@
       "url": "https://www.maaseuduntulevaisuus.fi/metsa/e3bf91a6-2972-4b5f-b41e-ef0ed22eec88",
       "date": "2026-10-09"
     }
-  ]
+  ],
+  "inlineLanguages": {
+    "sauvaneulajäkälä": "fi",
+    "lapinnyppyjäkälä": "fi"
+  }
 }
