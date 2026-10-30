@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 import { MapPin, Calendar, Lightbulb, ArrowRight, Moon, Activity, Camera, HelpCircle, Plus } from 'lucide-react'
 import SEO from '../components/SEO'
 import AffiliateCTA from '../components/AffiliateCTA'
+import SemboUkCodeStrip from '../components/SemboUkCodeStrip'
 import HubLink from '../components/HubLink'
 import HeroImage from '../components/HeroImage'
 import { useLang, useLocalePath } from '../i18n/useLang'
@@ -114,6 +115,8 @@ export default function NorthernLights() {
               </div>
             ))}
           </div>
+          {/* English "stay in" links above open sembo.co.uk: Sembo UK's code for November bookings. */}
+          <SemboUkCodeStrip lang={lang} surface="aurora_spot" className="mt-6 max-w-xl" />
         </div>
       </section>
 
