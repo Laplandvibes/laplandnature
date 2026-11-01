@@ -28,8 +28,8 @@ export default function Logo({ variant = 'light', className = '', size = 'md', n
   const base = SIZE[size]
   const lap = variant === 'dark' ? 'text-snow' : 'text-deep-night'
   return (
-    <span
-      className={`font-heading tracking-wide leading-none ${base}${nav ? ' lv-wm' : ''} ${className}`}
+    <span translate="no"
+      className={`notranslate font-heading tracking-wide leading-none ${base}${nav ? ' lv-wm' : ''} ${className}`}
       data-lv-sanamerkki={nav ? '' : undefined}
       style={nav ? WM_STYLE : undefined}
       aria-label="LaplandNature"
