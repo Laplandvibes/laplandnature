@@ -187,7 +187,7 @@ export default function Newsletter() {
     >
       <div className="max-w-5xl mx-auto">
         <div className="text-center max-w-3xl mx-auto">
-          <p className="text-xs sm:text-sm tracking-[0.3em] uppercase text-white/85 font-semibold mb-3">
+          <p translate="no" className="notranslate text-xs sm:text-sm tracking-[0.3em] uppercase text-white/85 font-semibold mb-3">
             {c.eyebrow}
           </p>
           {/* lg+: otsikko 768 px:n palstaa leveämpänä (960 / xl 1024 px), ja sm+ koko pidemmän rivin mukaan.
