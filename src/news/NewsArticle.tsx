@@ -2,7 +2,7 @@ import { use } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { useLang, useLocalePath } from '../i18n/useLang';
 import { ARTICLE_BY_SLUG, ARTICLES, loadAllTexts, loadText, loadUi } from './registry';
-import { formatDate, joinList, labelPrefix } from './format';
+import { formatDate, labelPrefix } from './format';
 import Prose from './Prose';
 import NewsCard from './NewsCard';
 import { NewsAds, NewsChrome, NotFoundPage, SITE, useNewsHead } from './site';
@@ -54,8 +54,6 @@ function ArticleView({ meta }: { meta: NewsMeta }) {
       citation: meta.sources.map((s) => s.localized?.[lang]?.url ?? s.url),
     }],
   });
-
-  const publishers = [...new Set(meta.sources.map((s) => s.publisher))];
 
   return (
     <NewsChrome current={path}>
@@ -134,7 +132,8 @@ function ArticleView({ meta }: { meta: NewsMeta }) {
               </>
             )}
           </p>
-          <p className="nw-byline nw-byline-src">{labelPrefix(ui.ui.sources, lang)}{joinList(publishers, lang)}</p>
+          {/* Vesa 6.11.2026 (laplandchristmas): "miksi lähteet pitää olla ekana eikä artikkelin lopussa pohjalla": lähdeluettelo
+              on vain jutun lopussa (nw-sources); alussa kirjoittaja, päivät, kuvateksti ja jakonappi. */}
           {text.heroCaption && <p className="nw-art-cap">{text.heroCaption}</p>}
           {/* Jaa-nappi tekijärivin alle omalle rivilleen ja jako jutun loppuun (Vesa 24.10.2026). */}
           <ShareButton lang={lang} title={text.title} excerpt={text.dek} tone="light" className="mt-4" />
