@@ -89,11 +89,11 @@ export default function NorthernLights() {
 
       <section className="pb-16 sm:pb-20 px-4 sm:px-6">
         <div className="max-w-6xl mx-auto">
-          <h2 className="font-heading text-3xl sm:text-4xl text-deep-night tracking-wider mb-3 flex items-center gap-3">
+          <h2 className="font-heading text-3xl sm:text-4xl text-deep-night tracking-wider mb-3 flex items-center gap-3 justify-center lg:justify-start">
             <MapPin className="w-6 h-6 text-vibe-pink" />
             {c.spotsH2}
           </h2>
-          <p className="text-deep-night/65 max-w-2xl mb-10">{c.spotsLead}</p>
+          <p className="text-deep-night/65 max-w-2xl mb-10 mx-auto w-fit lg:mx-0 lg:w-auto">{c.spotsLead}</p>
 
           <div className="grid sm:grid-cols-2 gap-5">
             {c.spots.map((spot, i) => (
@@ -142,14 +142,14 @@ export default function NorthernLights() {
 
       <section className="py-12 sm:py-16 px-4 sm:px-6 border-y border-deep-night/8 bg-gradient-to-br from-deep-night via-deep-night to-emerald-950 text-snow">
         <div className="max-w-4xl mx-auto">
-          <div className="flex items-center gap-2 text-aurora-green text-xs uppercase tracking-[0.25em] mb-3">
+          <div className="flex items-center gap-2 text-aurora-green text-xs uppercase tracking-[0.25em] mb-3 justify-center lg:justify-start">
             <Moon className="w-4 h-4" />
             {c.oneNightKicker}
           </div>
-          <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl tracking-wider mb-4 leading-tight">
+          <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl tracking-wider mb-4 leading-tight text-center lg:text-left">
             {c.oneNightH2}
           </h2>
-          <p className="text-snow/80 leading-relaxed mb-8 text-lg">
+          <p className="text-snow/80 leading-relaxed mb-8 text-lg mx-auto w-fit lg:mx-0 lg:w-auto">
             {c.oneNightLead}
           </p>
 
@@ -190,11 +190,11 @@ export default function NorthernLights() {
 
       <section className="pt-12 sm:pt-16 pb-4 px-4 sm:px-6">
         <div className="max-w-4xl mx-auto">
-          <div className="flex items-center gap-2 text-aurora-green text-xs uppercase tracking-[0.25em] mb-3">
+          <div className="flex items-center gap-2 text-aurora-green text-xs uppercase tracking-[0.25em] mb-3 justify-center lg:justify-start">
             <HelpCircle className="w-4 h-4" />
             {c.faq.eyebrow}
           </div>
-          <h2 className="font-heading text-3xl sm:text-4xl text-deep-night tracking-wider mb-8">
+          <h2 className="font-heading text-3xl sm:text-4xl text-deep-night tracking-wider mb-8 text-center lg:text-left">
             {c.faq.h2}
           </h2>
           <div className="space-y-3">
@@ -217,7 +217,7 @@ export default function NorthernLights() {
           <h2 className="font-heading text-3xl sm:text-4xl text-deep-night tracking-wider mb-4">
             {c.finalH2}
           </h2>
-          <p className="text-deep-night/70 mb-7 max-w-xl mx-auto">
+          <p className="text-deep-night/70 mb-7 max-w-xl mx-auto max-lg:w-fit max-lg:text-left">
             {c.finalLead}
           </p>
           <AffiliateCTA

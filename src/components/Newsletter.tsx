@@ -207,7 +207,7 @@ export default function Newsletter() {
               <Fraasit text={c.h2Line1} lang={lang} /><br className="hidden sm:block" /> <Fraasit text={c.h2Line2} lang={lang} />
             </h2>
           </div>
-          <p className="text-white/90 text-base sm:text-lg max-w-2xl mx-auto mb-12 leading-relaxed">
+          <p className="text-white/90 text-base sm:text-lg max-w-2xl mx-auto max-lg:w-fit max-lg:text-left mb-12 leading-relaxed">
             {c.lead}
           </p>
         </div>

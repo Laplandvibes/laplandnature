@@ -76,7 +76,7 @@ export default function Conservation() {
             <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl text-deep-night tracking-wider mb-4">
               {c.orgsH2}
             </h2>
-            <p className="text-deep-night/70 max-w-2xl mx-auto">{c.orgsLead}</p>
+            <p className="text-deep-night/70 max-w-2xl mx-auto max-lg:w-fit max-lg:text-left">{c.orgsLead}</p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-5 sm:gap-6">
@@ -143,11 +143,11 @@ export default function Conservation() {
 
       <section className="pb-16 px-4 sm:px-6">
         <div className="max-w-4xl mx-auto">
-          <div className="flex items-center gap-2 text-aurora-green text-xs uppercase tracking-[0.25em] mb-3">
+          <div className="flex items-center gap-2 text-aurora-green text-xs uppercase tracking-[0.25em] mb-3 justify-center lg:justify-start">
             <HelpCircle className="w-4 h-4" />
             {c.faq.eyebrow}
           </div>
-          <h2 className="font-heading text-3xl sm:text-4xl text-deep-night tracking-wider mb-8">
+          <h2 className="font-heading text-3xl sm:text-4xl text-deep-night tracking-wider mb-8 text-center lg:text-left">
             {c.faq.h2}
           </h2>
           <div className="space-y-3">
@@ -167,13 +167,13 @@ export default function Conservation() {
 
       <section className="pb-20 px-4 sm:px-6">
         <div className="max-w-4xl mx-auto">
-          <p className="text-aurora-green uppercase tracking-[0.25em] text-xs mb-3">{c.finalKicker}</p>
-          <h2 className="font-heading text-3xl sm:text-4xl text-deep-night tracking-wider mb-4">
+          <p className="text-aurora-green uppercase tracking-[0.25em] text-xs mb-3 text-center lg:text-left">{c.finalKicker}</p>
+          <h2 className="font-heading text-3xl sm:text-4xl text-deep-night tracking-wider mb-4 text-center lg:text-left">
             {c.finalH2}
           </h2>
-          <p className="text-deep-night/75 leading-relaxed mb-7">{c.finalLead}</p>
+          <p className="text-deep-night/75 leading-relaxed mb-7 mx-auto w-fit lg:mx-0 lg:w-auto">{c.finalLead}</p>
 
-          <div className="flex flex-col sm:flex-row gap-3 mb-10">
+          <div className="flex flex-col sm:flex-row gap-3 mb-10 sm:justify-center lg:justify-start">
             <AffiliateCTA
               partner="hotels"
               sid="conservation_local_stay"
@@ -193,7 +193,7 @@ export default function Conservation() {
             </AffiliateCTA>
           </div>
 
-          <div className="flex flex-wrap gap-2 text-sm">
+          <div className="flex flex-wrap justify-center lg:justify-start gap-2 text-sm">
             <Link to={to('/wildlife')} className="px-4 py-2 rounded-full bg-aurora-green/10 text-aurora-green border border-aurora-green/25 hover:bg-aurora-green hover:text-snow transition-colors font-semibold">
               {c.crossLinks.wildlife}
             </Link>

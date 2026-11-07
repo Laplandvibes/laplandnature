@@ -149,15 +149,15 @@ export default function Wildlife() {
 
       <section className="py-12 sm:py-16 px-4 sm:px-6 border-y border-deep-night/8 bg-snow">
         <div className="max-w-4xl mx-auto">
-          <p className="text-aurora-green uppercase tracking-[0.25em] text-xs mb-3">{c.bearKicker}</p>
-          <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl text-deep-night tracking-wider mb-5">
+          <p className="text-aurora-green uppercase tracking-[0.25em] text-xs mb-3 text-center lg:text-left">{c.bearKicker}</p>
+          <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl text-deep-night tracking-wider mb-5 text-center lg:text-left">
             {c.bearH2}
           </h2>
           <div className="prose prose-deep-night max-w-none text-deep-night/80 leading-relaxed space-y-4">
             {c.bearBody.map((p, i) => <p key={i}>{p}</p>)}
           </div>
 
-          <div className="mt-8 flex flex-col sm:flex-row gap-3">
+          <div className="mt-8 flex flex-col sm:flex-row gap-3 sm:justify-center lg:justify-start">
             {/* Bear hides = PAID partner category (Bear Kuusamo, Vesa 2026-07-25):
                 this CTA goes to our own partner feature, whose tracked links book
                 directly with Bear Kuusamo. It used to be a GYG Kuusamo search —
@@ -213,14 +213,14 @@ export default function Wildlife() {
 
       <section className="py-12 sm:py-16 px-4 sm:px-6 bg-gradient-to-br from-deep-night via-deep-night to-emerald-950 text-snow">
         <div className="max-w-4xl mx-auto">
-          <div className="flex items-center gap-2 text-aurora-green text-xs uppercase tracking-[0.25em] mb-3">
+          <div className="flex items-center gap-2 text-aurora-green text-xs uppercase tracking-[0.25em] mb-3 justify-center lg:justify-start">
             <Moon className="w-4 h-4" />
             {c.bearNightKicker}
           </div>
-          <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl tracking-wider mb-4 leading-tight">
+          <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl tracking-wider mb-4 leading-tight text-center lg:text-left">
             {c.bearNightH2}
           </h2>
-          <p className="text-snow/80 leading-relaxed mb-8 text-lg">{c.bearNightLead}</p>
+          <p className="text-snow/80 leading-relaxed mb-8 text-lg mx-auto w-fit lg:mx-0 lg:w-auto">{c.bearNightLead}</p>
 
           <ol className="space-y-5 mb-10">
             {c.bearNightSteps.map((s) => (
@@ -262,7 +262,7 @@ export default function Wildlife() {
           <h2 className="font-heading text-3xl sm:text-4xl text-deep-night tracking-wider mb-4">
             {c.finalH2}
           </h2>
-          <p className="text-deep-night/70 mb-7 max-w-xl mx-auto">{c.finalLead}</p>
+          <p className="text-deep-night/70 mb-7 max-w-xl mx-auto max-lg:w-fit max-lg:text-left">{c.finalLead}</p>
           <AffiliateCTA
             partner="activities"
             sid="wildlife_tour_cta"
@@ -289,11 +289,11 @@ export default function Wildlife() {
 
       <section className="pb-20 px-4 sm:px-6">
         <div className="max-w-4xl mx-auto">
-          <div className="flex items-center gap-2 text-aurora-green text-xs uppercase tracking-[0.25em] mb-3">
+          <div className="flex items-center gap-2 text-aurora-green text-xs uppercase tracking-[0.25em] mb-3 justify-center lg:justify-start">
             <HelpCircle className="w-4 h-4" />
             {c.faq.eyebrow}
           </div>
-          <h2 className="font-heading text-3xl sm:text-4xl text-deep-night tracking-wider mb-8">
+          <h2 className="font-heading text-3xl sm:text-4xl text-deep-night tracking-wider mb-8 text-center lg:text-left">
             {c.faq.h2}
           </h2>
           <div className="space-y-3">

@@ -207,3 +207,7 @@
 
 /* 26.9.2026: korea rivittyy sanaväleistä myös leipätekstissä ("초 / 지보다" katkesi kesken sanan). */
 .nw :is(p,li):lang(ko){word-break:keep-all}
+
+/* Tabletti ja puhelin (gate:tabletti 7.11.2026, Vesan sääntö 18.10.): osio-otsikko keskelle alle 1024 px,
+   kuten sivun muut osiot; tietokoneella vasen reuna ennallaan. */
+@media (max-width:1023.98px){.nw .nw-teaser .sechead{text-align:center}}

@@ -173,7 +173,7 @@ export default function Home() {
               <span className="w-1.5 h-1.5 rounded-full bg-aurora-green" />
               <span className="h-px w-10 bg-aurora-green/50" />
             </div>
-            <p className="text-deep-night/65 text-base sm:text-lg max-w-2xl mx-auto">
+            <p className="text-deep-night/65 text-base sm:text-lg max-w-2xl mx-auto max-lg:w-fit max-lg:text-left">
               {c.featured.lead}
             </p>
           </div>
@@ -250,7 +250,7 @@ export default function Home() {
             <p className="text-aurora-green uppercase tracking-[0.3em] text-xs sm:text-sm font-semibold mb-5">
               {c.band.kicker}
             </p>
-            <p className="font-heading text-3xl sm:text-4xl md:text-5xl text-snow tracking-wider leading-[1.12]">
+            <p className="font-heading text-3xl sm:text-4xl md:text-5xl text-snow tracking-wider leading-[1.12] max-lg:mx-auto max-lg:w-fit max-lg:text-left">
               {c.band.h}<span className="text-aurora-green">{c.band.hHighlight}</span>{c.band.hSuffix}
             </p>
           </div>
@@ -307,7 +307,7 @@ export default function Home() {
             <h2 className="font-heading text-4xl sm:text-5xl md:text-6xl text-deep-night tracking-wider mb-4">
               {c.map.h2}
             </h2>
-            <p className="text-deep-night/65 text-base sm:text-lg max-w-2xl mx-auto">
+            <p className="text-deep-night/65 text-base sm:text-lg max-w-2xl mx-auto max-lg:w-fit max-lg:text-left">
               {c.map.lead}
             </p>
           </div>
@@ -323,7 +323,7 @@ export default function Home() {
           <h2 className="font-heading text-3xl sm:text-4xl text-deep-night tracking-wider mb-4">
             {c.ctaBand.h2}
           </h2>
-          <p className="text-deep-night/70 text-base sm:text-lg max-w-2xl mx-auto mb-8">
+          <p className="text-deep-night/70 text-base sm:text-lg max-w-2xl mx-auto max-lg:w-fit max-lg:text-left mb-8">
             {c.ctaBand.lead}
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">

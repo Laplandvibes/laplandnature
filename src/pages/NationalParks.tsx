@@ -121,14 +121,14 @@ export default function NationalParks() {
 
       <section className="py-12 sm:py-16 px-4 sm:px-6 border-y border-deep-night/8 bg-snow">
         <div className="max-w-4xl mx-auto">
-          <div className="flex items-center gap-2 text-aurora-green text-xs uppercase tracking-[0.25em] mb-3">
+          <div className="flex items-center gap-2 text-aurora-green text-xs uppercase tracking-[0.25em] mb-3 justify-center lg:justify-start">
             <Backpack className="w-4 h-4" />
             {c.hettaKicker}
           </div>
-          <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl text-deep-night tracking-wider mb-4 leading-tight">
+          <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl text-deep-night tracking-wider mb-4 leading-tight text-center lg:text-left">
             {c.hettaH2}
           </h2>
-          <p className="text-deep-night/75 leading-relaxed mb-8">{c.hettaLead}</p>
+          <p className="text-deep-night/75 leading-relaxed mb-8 mx-auto w-fit lg:mx-0 lg:w-auto">{c.hettaLead}</p>
 
           <div className="grid sm:grid-cols-3 gap-5 sm:gap-6 mb-8">
             {c.days.map((d) => (
@@ -155,7 +155,7 @@ export default function NationalParks() {
             </div>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-3">
+          <div className="flex flex-col sm:flex-row gap-3 sm:justify-center lg:justify-start">
             <AffiliateCTA
               partner="hotels"
               sid="parks_hetta_pre_walk"
@@ -179,11 +179,11 @@ export default function NationalParks() {
 
       <section className="pt-12 sm:pt-16 pb-4 px-4 sm:px-6">
         <div className="max-w-4xl mx-auto">
-          <div className="flex items-center gap-2 text-aurora-green text-xs uppercase tracking-[0.25em] mb-3">
+          <div className="flex items-center gap-2 text-aurora-green text-xs uppercase tracking-[0.25em] mb-3 justify-center lg:justify-start">
             <HelpCircle className="w-4 h-4" />
             {c.faq.eyebrow}
           </div>
-          <h2 className="font-heading text-3xl sm:text-4xl text-deep-night tracking-wider mb-8">
+          <h2 className="font-heading text-3xl sm:text-4xl text-deep-night tracking-wider mb-8 text-center lg:text-left">
             {c.faq.h2}
           </h2>
           <div className="space-y-3">

@@ -266,12 +266,12 @@ export default function GygPicks() {
   return (
     <section className="py-16 sm:py-20 px-4 sm:px-6 bg-transparent">
       <div className="max-w-7xl mx-auto">
-        <div className="mb-10 sm:mb-12">
+        <div className="mb-10 sm:mb-12 text-center lg:text-left">
           <p className="font-bold tracking-[0.18em] uppercase text-sm mb-3 text-[#BE185D]">{t(L.kicker)}</p>
           <h2 className="font-heading text-4xl sm:text-5xl md:text-6xl tracking-wider mb-3 text-[#0F172A]">
             {t(L.headingProduct)}
           </h2>
-          <p className="max-w-2xl text-black/65">{t(L.ledeProduct)}</p>
+          <p className="max-w-2xl mx-auto w-fit text-left lg:mx-0 lg:w-auto text-black/65">{t(L.ledeProduct)}</p>
         </div>
 
         {/* The widget picks its own columns from its width: one (about 1 500 px of
