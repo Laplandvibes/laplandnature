@@ -30,6 +30,8 @@ export default function PageBreadcrumb({ currentLabel }: { currentLabel?: string
       currentLabel={currentLabel}
       className="bg-cream text-deep-night border-b border-deep-night/10"
       accentClassName="hover:text-vibe-pink hover:opacity-100"
+      // Alle 1024 px murupolku keskelle samalle akselille kuin keskitetty otsikko (Vesa 17.10.2026); tietokoneella vasen reuna ennallaan.
+      containerClassName="max-w-7xl mx-auto px-4 sm:px-6 max-lg:justify-center"
     />
   )
 }
