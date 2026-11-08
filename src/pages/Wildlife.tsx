@@ -273,16 +273,18 @@ export default function Wildlife() {
             <ArrowRight className="w-4 h-4" />
           </AffiliateCTA>
 
-          <div className="mt-10 pt-7 border-t border-deep-night/10 flex flex-wrap justify-center gap-2 text-sm">
-            <Link to={to('/conservation')} className="px-4 py-2 rounded-full bg-aurora-green/10 text-aurora-green border border-aurora-green/25 hover:bg-aurora-green hover:text-snow transition-colors font-semibold">
-              {c.crossLinks.conservation}
-            </Link>
-            <Link to={to('/national-parks')} className="px-4 py-2 rounded-full bg-aurora-green/10 text-aurora-green border border-aurora-green/25 hover:bg-aurora-green hover:text-snow transition-colors font-semibold">
-              {c.crossLinks.parks}
-            </Link>
-            <HubLink href="https://laplandhuskysafaris.com" placement="wildlife_husky" className="px-4 py-2 rounded-full bg-vibe-pink/10 text-vibe-pink border border-vibe-pink/25 hover:bg-vibe-pink hover:text-snow transition-colors font-semibold">
-              {c.crossLinks.husky}
-            </HubLink>
+          <div className="mt-10 pt-7 border-t border-deep-night/10">
+            <div className="flex flex-col items-stretch gap-2 max-w-sm mx-auto text-sm sm:max-w-none sm:flex-row sm:flex-wrap sm:justify-center">
+              <Link to={to('/conservation')} className="px-4 py-2 rounded-full bg-aurora-green/10 text-aurora-green border border-aurora-green/25 hover:bg-aurora-green hover:text-snow transition-colors font-semibold">
+                {c.crossLinks.conservation}
+              </Link>
+              <Link to={to('/national-parks')} className="px-4 py-2 rounded-full bg-aurora-green/10 text-aurora-green border border-aurora-green/25 hover:bg-aurora-green hover:text-snow transition-colors font-semibold">
+                {c.crossLinks.parks}
+              </Link>
+              <HubLink href="https://laplandhuskysafaris.com" placement="wildlife_husky" className="px-4 py-2 rounded-full bg-vibe-pink/10 text-vibe-pink border border-vibe-pink/25 hover:bg-vibe-pink hover:text-snow transition-colors font-semibold">
+                {c.crossLinks.husky}
+              </HubLink>
+            </div>
           </div>
         </div>
       </section>

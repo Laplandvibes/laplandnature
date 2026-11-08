@@ -89,7 +89,7 @@ export default function NorthernLights() {
 
       <section className="pb-16 sm:pb-20 px-4 sm:px-6">
         <div className="max-w-6xl mx-auto">
-          <h2 className="font-heading text-3xl sm:text-4xl text-deep-night tracking-wider mb-3 flex items-center gap-3 justify-center lg:justify-start">
+          <h2 className="font-heading text-3xl sm:text-4xl text-deep-night tracking-wider mb-3 flex flex-col items-center gap-2 sm:flex-row sm:gap-3 justify-center lg:justify-start text-center lg:text-left">
             <MapPin className="w-6 h-6 text-vibe-pink" />
             {c.spotsH2}
           </h2>
@@ -230,16 +230,18 @@ export default function NorthernLights() {
             <ArrowRight className="w-4 h-4" />
           </AffiliateCTA>
 
-          <div className="mt-12 pt-8 border-t border-deep-night/8 flex flex-wrap justify-center gap-2 text-sm">
-            <Link to={to('/seasons')} className="px-4 py-2 rounded-full bg-aurora-green/10 text-aurora-green border border-aurora-green/25 hover:bg-aurora-green hover:text-snow transition-colors font-semibold">
-              {c.crossLinks.aurora}
-            </Link>
-            <Link to={to('/national-parks')} className="px-4 py-2 rounded-full bg-aurora-green/10 text-aurora-green border border-aurora-green/25 hover:bg-aurora-green hover:text-snow transition-colors font-semibold">
-              {c.crossLinks.parks}
-            </Link>
-            <HubLink href="https://laplandstays.com" placement="aurora_stays" className="px-4 py-2 rounded-full bg-vibe-pink/10 text-vibe-pink border border-vibe-pink/25 hover:bg-vibe-pink hover:text-snow transition-colors font-semibold">
-              {c.crossLinks.igloos}
-            </HubLink>
+          <div className="mt-12 pt-8 border-t border-deep-night/8">
+            <div className="flex flex-col items-stretch gap-2 max-w-sm mx-auto text-sm sm:max-w-none sm:flex-row sm:flex-wrap sm:justify-center">
+              <Link to={to('/seasons')} className="px-4 py-2 rounded-full bg-aurora-green/10 text-aurora-green border border-aurora-green/25 hover:bg-aurora-green hover:text-snow transition-colors font-semibold">
+                {c.crossLinks.aurora}
+              </Link>
+              <Link to={to('/national-parks')} className="px-4 py-2 rounded-full bg-aurora-green/10 text-aurora-green border border-aurora-green/25 hover:bg-aurora-green hover:text-snow transition-colors font-semibold">
+                {c.crossLinks.parks}
+              </Link>
+              <HubLink href="https://laplandstays.com" placement="aurora_stays" className="px-4 py-2 rounded-full bg-vibe-pink/10 text-vibe-pink border border-vibe-pink/25 hover:bg-vibe-pink hover:text-snow transition-colors font-semibold">
+                {c.crossLinks.igloos}
+              </HubLink>
+            </div>
           </div>
         </div>
       </section>

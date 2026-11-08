@@ -236,20 +236,22 @@ export default function BearKuusamo() {
             {c.whereAfter}
           </p>
 
-          <div className="mt-8 pt-6 border-t border-deep-night/10 flex flex-wrap gap-2 text-sm">
-            <Link
-              to={to('/wildlife')}
-              className="px-4 py-2 rounded-full bg-aurora-green/10 text-aurora-green border border-aurora-green/25 hover:bg-aurora-green hover:text-snow transition-colors font-semibold"
-            >
-              {c.crossWildlife}
-            </Link>
-            <HubLink
-              href="https://laplandvibes.com"
-              placement="bear_kuusamo_hub"
-              className="px-4 py-2 rounded-full bg-vibe-pink/10 text-vibe-pink border border-vibe-pink/25 hover:bg-vibe-pink hover:text-snow transition-colors font-semibold"
-            >
-              {c.crossHub}
-            </HubLink>
+          <div className="mt-8 pt-6 border-t border-deep-night/10">
+            <div className="flex flex-col items-stretch gap-2 max-w-sm text-sm text-center sm:max-w-none sm:flex-row sm:flex-wrap sm:text-left">
+              <Link
+                to={to('/wildlife')}
+                className="px-4 py-2 rounded-full bg-aurora-green/10 text-aurora-green border border-aurora-green/25 hover:bg-aurora-green hover:text-snow transition-colors font-semibold"
+              >
+                {c.crossWildlife}
+              </Link>
+              <HubLink
+                href="https://laplandvibes.com"
+                placement="bear_kuusamo_hub"
+                className="px-4 py-2 rounded-full bg-vibe-pink/10 text-vibe-pink border border-vibe-pink/25 hover:bg-vibe-pink hover:text-snow transition-colors font-semibold"
+              >
+                {c.crossHub}
+              </HubLink>
+            </div>
           </div>
           <ShareBar lang={lang} title={c.hero.title} tone="light" />
         </div>

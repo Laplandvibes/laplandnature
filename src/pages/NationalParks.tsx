@@ -67,7 +67,7 @@ export default function NationalParks() {
       />
 
       <section className="pt-10 sm:pt-14 pb-12 sm:pb-16 px-4 sm:px-6">
-        <div className="max-w-6xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6 md:max-lg:[&>*:last-child:nth-child(odd)]:col-span-2 md:max-lg:[&>*:last-child:nth-child(odd)]:justify-self-center md:max-lg:[&>*:last-child:nth-child(odd)]:w-[calc(50%_-_0.75rem)]">
           {c.parks.map((park, i) => {
             const Icon = PARK_ICONS[i]
             return (
@@ -130,7 +130,7 @@ export default function NationalParks() {
           </h2>
           <p className="text-deep-night/75 leading-relaxed mb-8 mx-auto w-fit lg:mx-0 lg:w-auto">{c.hettaLead}</p>
 
-          <div className="grid sm:grid-cols-3 gap-5 sm:gap-6 mb-8">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6 mb-8">
             {c.days.map((d) => (
               <div key={d.day} className="rounded-2xl border border-deep-night/10 bg-cream p-6">
                 <div className="flex items-center gap-2 text-vibe-pink text-xs font-bold uppercase tracking-wider mb-2">
