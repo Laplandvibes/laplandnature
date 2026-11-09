@@ -15,6 +15,7 @@ import GygPicks from '../components/GygPicks';
 import FeaturedArticle from '../components/FeaturedArticle';
 import { AppPromoHero } from '../components/AppPromo';
 import { seasonal } from '../lib/season'
+import { Pinorivi } from '../shared/Erotin';
 
 /**
  * Uutisosion nosto etusivulle (24.9.2026). Laiskasti ladattu ja oma .nw-juuri, jotta
@@ -248,7 +249,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-5 sm:px-8 py-24 sm:py-32">
           <div className="text-center max-w-3xl mx-auto mb-16 sm:mb-20">
             <p className="text-aurora-green uppercase tracking-[0.3em] text-xs sm:text-sm font-semibold mb-5">
-              {c.band.kicker}
+              <Pinorivi text={c.band.kicker} />
             </p>
             <p className="font-heading text-3xl sm:text-4xl md:text-5xl text-snow tracking-wider leading-[1.12] max-lg:mx-auto max-lg:w-fit max-lg:text-left">
               {c.band.h}<span className="text-aurora-green">{c.band.hHighlight}</span>{c.band.hSuffix}

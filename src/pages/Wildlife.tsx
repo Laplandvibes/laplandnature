@@ -11,6 +11,7 @@ import FaqLinks, { type FaqNavKey } from '../components/FaqLinks'
 import AdUnit from '../shared/ads/AdUnit'
 import bearKuusamoAd from '../shared/ads/advertisers/bearkuusamo'
 import { trackPartnerClick } from '../lib/analytics'
+import { Erotinrivi, erotinOsat } from '../shared/Erotin';
 
 const ANIMAL_LATIN = [
   'Rangifer tarandus',
@@ -149,7 +150,7 @@ export default function Wildlife() {
 
       <section className="py-12 sm:py-16 px-4 sm:px-6 border-y border-deep-night/8 bg-snow">
         <div className="max-w-4xl mx-auto">
-          <p className="text-aurora-green uppercase tracking-[0.25em] text-xs mb-3 text-center lg:text-left">{c.bearKicker}</p>
+          <Erotinrivi pino className="text-aurora-green uppercase tracking-[0.25em] text-xs mb-3 text-center lg:text-left" osat={erotinOsat(c.bearKicker)} />
           <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl text-deep-night tracking-wider mb-5 text-center lg:text-left">
             {c.bearH2}
           </h2>

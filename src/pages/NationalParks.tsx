@@ -7,6 +7,7 @@ import HeroImage from '../components/HeroImage'
 import { useLang, useLocalePath } from '../i18n/useLang'
 import { COPY } from '../locales/copy'
 import FaqLinks, { type FaqNavKey } from '../components/FaqLinks'
+import { Erotinrivi, erotinOsat } from '../shared/Erotin';
 
 const PARK_LOCATIONS = ['Saariselkä', 'Muonio – Kittilä', 'Inari', 'Posio', 'Pelkosenniemi – Sodankylä']
 const PARK_ICONS = [Mountain, Footprints, Gem, Trees, Gem]
@@ -138,7 +139,7 @@ export default function NationalParks() {
                 </div>
                 <h3 className="font-heading text-xl text-deep-night tracking-wide mb-2">{d.title}</h3>
                 <p className="text-deep-night/75 text-sm leading-relaxed">{d.body}</p>
-                <p className="text-deep-night/55 text-xs mt-3 italic">{d.note}</p>
+                <Erotinrivi className="text-deep-night/55 text-xs mt-3 italic" osat={erotinOsat(d.note)} />
               </div>
             ))}
           </div>

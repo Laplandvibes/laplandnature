@@ -12,6 +12,7 @@ import { useLang, useLocalePath } from '../i18n/useLang'
 import { COPY } from '../locales/copy'
 import FaqLinks, { type FaqNavKey } from '../components/FaqLinks'
 import { AppPromoAurora } from '../components/AppPromo'
+import { Erotinrivi, erotinOsat } from '../shared/Erotin';
 
 const spotSids = ['aurora_spot_inari', 'aurora_spot_utsjoki', 'aurora_spot_kilpisjarvi', 'aurora_spot_enontekio']
 const spotDestinations = ['Inari, Finland', 'Utsjoki, Finland', 'Kilpisjärvi, Finland', 'Enontekiö, Finland']
@@ -73,9 +74,10 @@ export default function NorthernLights() {
         <div className="max-w-4xl mx-auto">
           <div className="inline-flex items-start gap-3 bg-aurora-green/10 border border-aurora-green/25 rounded-2xl px-4 py-2.5">
             <Calendar className="w-4 h-4 text-aurora-green shrink-0 mt-0.5" />
-            <span className="text-deep-night/80 text-sm leading-snug">
-              {c.bestSeason} <span className="font-semibold text-aurora-green">{c.bestSeasonValue}</span>{c.bestSeasonSuffix}
-            </span>
+            <Erotinrivi as="span" className="text-deep-night/80 text-sm leading-snug" osat={(([alku, ...loput]) => [
+              <>{c.bestSeason} <span className="font-semibold text-aurora-green">{c.bestSeasonValue}</span>{alku}</>,
+              ...loput.filter(Boolean),
+            ])(c.bestSeasonSuffix.split(/\s+·\s+/))} />
           </div>
         </div>
         {/* Appin revontuliyksikkö johdannon perään: nappi avaa appin revontulinäkymän (tämän yön todennäköisyys
@@ -179,7 +181,7 @@ export default function NorthernLights() {
                   <div key={card.title}>
                     <Icon className="w-5 h-5 text-aurora-green mb-2" />
                     <p className="font-heading text-base tracking-wide mb-1">{card.title}</p>
-                    <p className="text-snow/70 leading-relaxed">{card.body}</p>
+                    <Erotinrivi className="text-snow/70 leading-relaxed" osat={erotinOsat(card.body)} />
                   </div>
                 )
               })}

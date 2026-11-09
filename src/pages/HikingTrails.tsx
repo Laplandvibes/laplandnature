@@ -11,6 +11,7 @@ import { useLang, useLocalePath } from '../i18n/useLang'
 import { COPY } from '../locales/copy'
 import { trackAffiliateClick } from '../lib/analytics'
 import FaqLinks, { type FaqNavKey } from '../components/FaqLinks'
+import { Erotinrivi, erotinOsat } from '../shared/Erotin';
 
 const TRAIL_LOCATIONS = [
   'Pallas-Yllästunturi National Park',
@@ -101,8 +102,8 @@ export default function HikingTrails() {
       <section className="py-12 sm:py-16 px-4 sm:px-6 border-b border-deep-night/8">
         <div className="max-w-4xl mx-auto">
           <div className="flex items-center gap-2 text-aurora-green text-xs uppercase tracking-[0.25em] mb-3 justify-center lg:justify-start">
-            <Backpack className="w-4 h-4" />
-            {c.karhuKicker}
+            <Backpack className="w-4 h-4 shrink-0" />
+            <Erotinrivi as="span" pino osat={erotinOsat(c.karhuKicker)} />
           </div>
           <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl text-deep-night tracking-wider mb-4 leading-tight text-center lg:text-left">
             {c.karhuH2}
@@ -117,7 +118,7 @@ export default function HikingTrails() {
                 </div>
                 <h3 className="font-heading text-xl text-deep-night tracking-wide mb-2">{d.title}</h3>
                 <p className="text-deep-night/75 text-sm leading-relaxed">{d.body}</p>
-                <p className="text-deep-night/55 text-xs mt-3 italic">{d.note}</p>
+                <Erotinrivi className="text-deep-night/55 text-xs mt-3 italic" osat={erotinOsat(d.note)} />
               </div>
             ))}
           </div>

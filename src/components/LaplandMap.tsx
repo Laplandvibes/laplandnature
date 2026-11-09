@@ -3,6 +3,7 @@ import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import { useLang, langPrefix } from '../i18n/useLang'
 import { COPY } from '../locales/copy'
+import { Erotinrivi, erotinOsat } from '../shared/Erotin';
 
 type PinKind = 'park' | 'aurora' | 'trail' | 'wildlife'
 
@@ -352,9 +353,7 @@ export default function LaplandMap() {
                     <span className="block font-heading text-lg text-deep-night tracking-wide leading-tight">
                       {text.name}
                     </span>
-                    <span className="block text-[13px] text-deep-night/65 leading-snug mt-0.5">
-                      {text.note}
-                    </span>
+                    <Erotinrivi as="span" className="text-[13px] text-deep-night/65 leading-snug mt-0.5" osat={erotinOsat(text.note)} />
                   </span>
                 </button>
               </li>

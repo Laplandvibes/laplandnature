@@ -3,6 +3,7 @@ import PageBreadcrumb from './PageBreadcrumb'
 import PhotoCredit from './PhotoCredit'
 import { useLang } from '../i18n/useLang'
 import { bebasEm, Fraasit, ilmanValeja } from '../lib/otsikkoRivit'
+import { Erotinrivi, erotinOsat } from '../shared/Erotin';
 
 interface HeroImageProps {
   /** Path under /images/, e.g. `hero-northern-lights.webp` */
@@ -299,8 +300,8 @@ export default function HeroImage({
           className="absolute -inset-x-28 sm:-inset-x-40 -inset-y-20 -z-10 bg-[radial-gradient(closest-side,rgba(15,23,42,0.80)_0%,rgba(15,23,42,0.74)_50%,rgba(15,23,42,0.45)_78%,rgba(15,23,42,0)_100%)] sm:bg-[radial-gradient(closest-side,rgba(15,23,42,0.66)_0%,rgba(15,23,42,0.58)_50%,rgba(15,23,42,0.3)_78%,rgba(15,23,42,0)_100%)]"
         />
         {eyebrow && (
-          <p className="inline-block rounded-full bg-deep-night/75 px-3 py-1 text-snow uppercase tracking-[0.3em] text-xs sm:text-sm mb-5">
-            {eyebrow}
+          <p className="inline-block rounded-2xl sm:rounded-full bg-deep-night/75 px-3 py-1 text-snow uppercase tracking-[0.3em] text-xs sm:text-sm mb-5">
+            <Erotinrivi as="span" pino osat={typeof eyebrow === 'string' ? erotinOsat(eyebrow) : [eyebrow]} />
           </p>
         )}
         <h1

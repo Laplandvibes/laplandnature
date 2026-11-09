@@ -4,6 +4,7 @@ import PhotoCredit from './PhotoCredit'
 import { useLang, useLocalePath } from '../i18n/useLang'
 import { COPY } from '../locales/copy'
 import { trackPartnerClick } from '../lib/analytics'
+import { Erotinrivi, erotinOsat } from '../shared/Erotin';
 
 /**
  * Etusivun juttunosto (Vesa 4.10.2026): etusivulla oli Bear Kuusamon mainos kahdesti,
@@ -68,8 +69,8 @@ export default function FeaturedArticle() {
               className="inline-flex w-fit items-center gap-2 rounded-full px-3 py-1.5 text-xs font-semibold"
               style={{ color: BEAR_GREEN, backgroundColor: 'rgba(0,126,46,0.08)', border: '1px solid rgba(0,126,46,0.28)' }}
             >
-              <span className="h-2 w-2 rounded-full" style={{ backgroundColor: BEAR_GREEN }} aria-hidden="true" />
-              {c.partnership}
+              <span className="h-2 w-2 shrink-0 rounded-full" style={{ backgroundColor: BEAR_GREEN }} aria-hidden="true" />
+              <Erotinrivi as="span" osat={erotinOsat(c.partnership)} />
             </span>
 
             <h2 className="font-heading text-4xl leading-[1.05] tracking-wider text-deep-night">

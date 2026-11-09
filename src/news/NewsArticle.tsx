@@ -8,6 +8,7 @@ import NewsCard from './NewsCard';
 import { NewsAds, NewsChrome, NotFoundPage, SITE, useNewsHead } from './site';
 import type { NewsMeta } from './types';
 import ShareBar, { ShareButton } from '../shared/ShareBar/ShareBar';
+import { Erotinrivi } from '../shared/Erotin';
 
 export default function NewsArticle() {
   const { slug = '' } = useParams();
@@ -148,9 +149,7 @@ function ArticleView({ meta }: { meta: NewsMeta }) {
               const when = s.date ? formatDate(s.date, lang) : s.read ? `${ui.ui.read} ${formatDate(s.read, lang)}` : '';
               return (
                 <li key={i}>
-                  <span className="nw-src-pub">{s.publisher}</span>
-                  {when && <span className="nw-src-date"> · {when}</span>}
-                  <br />
+                  <Erotinrivi as="span" osat={[<span className="nw-src-pub">{s.publisher}</span>, when ? <span className="nw-src-date">{when}</span> : null]} />
                   {/* Lähteen oma otsikko jää alkuperäiskieleensä: <cite lang> kertoo kielen ruudunlukijalle ja
                       kielipuhtausportille. Lukijan kielinen versio (loc) on sivun kieltä, sille ei merkintää. */}
                   <a href={loc?.url ?? s.url} target="_blank" rel="noopener"><cite lang={loc ? undefined : s.lang}>{loc?.title ?? s.title}</cite></a>
