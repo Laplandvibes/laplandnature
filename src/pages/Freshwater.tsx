@@ -156,7 +156,7 @@ export default function Freshwater() {
           <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl text-deep-night tracking-wider mb-5">
             {c.introH2}
           </h2>
-          <p className="text-deep-night/75 text-base sm:text-lg leading-relaxed">{c.introLead}</p>
+          <p className="text-deep-night/75 text-base sm:text-lg leading-relaxed max-lg:mx-auto max-lg:w-fit max-lg:text-left">{c.introLead}</p>
         </div>
       </section>
 
@@ -220,7 +220,7 @@ export default function Freshwater() {
             <h2 className="font-heading text-3xl sm:text-4xl text-deep-night tracking-wider mb-4">
               {c.fish.title}
             </h2>
-            <p className="text-deep-night/75 text-sm sm:text-base leading-relaxed">{c.fish.lead}</p>
+            <p className="text-deep-night/75 text-sm sm:text-base leading-relaxed max-lg:mx-auto max-lg:w-fit max-lg:text-left">{c.fish.lead}</p>
           </div>
 
           <div className="grid sm:grid-cols-2 gap-5 sm:gap-6 mb-8">
@@ -258,11 +258,11 @@ export default function Freshwater() {
       {/* FAQ */}
       <section className="pb-16 px-4 sm:px-6">
         <div className="max-w-4xl mx-auto">
-          <div className="flex items-center gap-2 text-aurora-green text-xs uppercase tracking-[0.25em] mb-3">
+          <div className="flex items-center gap-2 text-aurora-green text-xs uppercase tracking-[0.25em] mb-3 justify-center lg:justify-start">
             <HelpCircle className="w-4 h-4" />
             {c.faq.eyebrow}
           </div>
-          <h2 className="font-heading text-3xl sm:text-4xl text-deep-night tracking-wider mb-8">
+          <h2 className="font-heading text-3xl sm:text-4xl text-deep-night tracking-wider mb-8 text-center lg:text-left">
             {c.faq.h2}
           </h2>
           <div className="space-y-3">
@@ -283,18 +283,18 @@ export default function Freshwater() {
       {/* Final — protect it, then enjoy it */}
       <section className="pb-20 px-4 sm:px-6">
         <div className="max-w-4xl mx-auto">
-          <p className="text-aurora-green uppercase tracking-[0.25em] text-xs mb-3">{c.finalKicker}</p>
-          <h2 className="font-heading text-3xl sm:text-4xl text-deep-night tracking-wider mb-4">
+          <p className="text-aurora-green uppercase tracking-[0.25em] text-xs mb-3 text-center lg:text-left">{c.finalKicker}</p>
+          <h2 className="font-heading text-3xl sm:text-4xl text-deep-night tracking-wider mb-4 text-center lg:text-left">
             {c.finalH2}
           </h2>
-          <p className="text-deep-night/75 leading-relaxed mb-8">{c.finalLead}</p>
+          <p className="text-deep-night/75 leading-relaxed mb-8 mx-auto w-fit lg:mx-0 lg:w-auto">{c.finalLead}</p>
 
-          <div className="flex flex-wrap gap-2 text-sm mb-8">
+          <div className="flex flex-col items-stretch gap-2 max-w-sm mx-auto text-sm text-center mb-8 sm:max-w-none sm:flex-row sm:flex-wrap sm:justify-center lg:justify-start lg:mx-0 lg:text-left">
             <a
               href="https://laplandactivities.fi/fishing/"
               target="_blank"
               rel="noopener"
-              className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-vibe-pink/10 text-vibe-pink border border-vibe-pink/25 hover:bg-vibe-pink hover:text-snow transition-colors font-semibold"
+              className="inline-flex items-center justify-center gap-1.5 px-4 py-2 rounded-full bg-vibe-pink/10 text-vibe-pink border border-vibe-pink/25 hover:bg-vibe-pink hover:text-snow transition-colors font-semibold"
             >
               {c.crossLinks.fishing}
             </a>

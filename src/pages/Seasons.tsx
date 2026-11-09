@@ -123,14 +123,14 @@ export default function Seasons() {
 
       <section className="py-12 sm:py-16 px-4 sm:px-6 border-y border-deep-night/8 bg-snow">
         <div className="max-w-4xl mx-auto">
-          <div className="flex items-center gap-2 text-aurora-green text-xs uppercase tracking-[0.25em] mb-3">
+          <div className="flex items-center gap-2 text-aurora-green text-xs uppercase tracking-[0.25em] mb-3 justify-center lg:justify-start">
             <Calendar className="w-4 h-4" />
             {c.ruskaKicker}
           </div>
-          <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl text-deep-night tracking-wider mb-4 leading-tight">
+          <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl text-deep-night tracking-wider mb-4 leading-tight text-center lg:text-left">
             {c.ruskaH2}
           </h2>
-          <p className="text-deep-night/75 leading-relaxed mb-8">{c.ruskaLead}</p>
+          <p className="text-deep-night/75 leading-relaxed mb-8 mx-auto w-fit lg:mx-0 lg:w-auto">{c.ruskaLead}</p>
 
           <div className="space-y-4 mb-8">
             {c.ruskaWeeks.map((w, i) => (
@@ -226,11 +226,11 @@ export default function Seasons() {
 
       <section className="pb-20 px-4 sm:px-6">
         <div className="max-w-4xl mx-auto">
-          <div className="flex items-center gap-2 text-aurora-green text-xs uppercase tracking-[0.25em] mb-3">
+          <div className="flex items-center gap-2 text-aurora-green text-xs uppercase tracking-[0.25em] mb-3 justify-center lg:justify-start">
             <HelpCircle className="w-4 h-4" />
             {c.faq.eyebrow}
           </div>
-          <h2 className="font-heading text-3xl sm:text-4xl text-deep-night tracking-wider mb-8">
+          <h2 className="font-heading text-3xl sm:text-4xl text-deep-night tracking-wider mb-8 text-center lg:text-left">
             {c.faq.h2}
           </h2>
           <div className="space-y-3">

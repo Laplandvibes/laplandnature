@@ -100,14 +100,14 @@ export default function HikingTrails() {
 
       <section className="py-12 sm:py-16 px-4 sm:px-6 border-b border-deep-night/8">
         <div className="max-w-4xl mx-auto">
-          <div className="flex items-center gap-2 text-aurora-green text-xs uppercase tracking-[0.25em] mb-3">
+          <div className="flex items-center gap-2 text-aurora-green text-xs uppercase tracking-[0.25em] mb-3 justify-center lg:justify-start">
             <Backpack className="w-4 h-4" />
             {c.karhuKicker}
           </div>
-          <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl text-deep-night tracking-wider mb-4 leading-tight">
+          <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl text-deep-night tracking-wider mb-4 leading-tight text-center lg:text-left">
             {c.karhuH2}
           </h2>
-          <p className="text-deep-night/75 leading-relaxed mb-8">{c.karhuLead}</p>
+          <p className="text-deep-night/75 leading-relaxed mb-8 mx-auto w-fit lg:mx-0 lg:w-auto">{c.karhuLead}</p>
 
           <div className="grid sm:grid-cols-2 gap-5 sm:gap-6 mb-8">
             {c.days.map((d) => (
@@ -134,7 +134,7 @@ export default function HikingTrails() {
             </div>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-3">
+          <div className="flex flex-col sm:flex-row gap-3 sm:justify-center lg:justify-start">
             <AffiliateCTA
               partner="hotels"
               sid="trip_report_ruka_post_walk"
@@ -170,11 +170,11 @@ export default function HikingTrails() {
 
       <section className="py-12 sm:py-16 px-4 sm:px-6">
         <div className="max-w-4xl mx-auto">
-          <p className="text-aurora-green uppercase tracking-[0.25em] text-xs mb-3">{c.listKicker}</p>
-          <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl text-deep-night tracking-wider mb-3">
+          <p className="text-aurora-green uppercase tracking-[0.25em] text-xs mb-3 text-center lg:text-left">{c.listKicker}</p>
+          <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl text-deep-night tracking-wider mb-3 text-center lg:text-left">
             {c.listH2}
           </h2>
-          <p className="text-deep-night/65 mb-8">{c.listLead}</p>
+          <p className="text-deep-night/65 mb-8 mx-auto w-fit lg:mx-0 lg:w-auto">{c.listLead}</p>
         </div>
 
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-5 sm:gap-6">
@@ -223,11 +223,11 @@ export default function HikingTrails() {
 
       <section className="pt-4 pb-4 px-4 sm:px-6">
         <div className="max-w-4xl mx-auto">
-          <div className="flex items-center gap-2 text-aurora-green text-xs uppercase tracking-[0.25em] mb-3">
+          <div className="flex items-center gap-2 text-aurora-green text-xs uppercase tracking-[0.25em] mb-3 justify-center lg:justify-start">
             <HelpCircle className="w-4 h-4" />
             {c.faq.eyebrow}
           </div>
-          <h2 className="font-heading text-3xl sm:text-4xl text-deep-night tracking-wider mb-8">
+          <h2 className="font-heading text-3xl sm:text-4xl text-deep-night tracking-wider mb-8 text-center lg:text-left">
             {c.faq.h2}
           </h2>
           <div className="space-y-3">
