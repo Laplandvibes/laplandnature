@@ -45,7 +45,7 @@ export default function SemboUkCodeStrip({ lang, surface, className = '' }: { la
     >
       <div className="flex items-center gap-3">
         <img src="/images/partners/sembo.png" alt="Sembo" width={300} height={100} loading="lazy" decoding="async" className="h-6 w-auto shrink-0" />
-        <p className="min-w-0 flex-1 text-[15px] font-bold leading-snug">Booking in November? £30 off at Sembo UK</p>
+        <p className="min-w-0 flex-1 text-base font-bold leading-snug">Booking in November? £30 off at Sembo UK</p>
       </div>
       <div className="mt-2.5 flex items-center justify-between gap-3 rounded-xl bg-[#F1F4F9] py-1.5 pl-3 pr-1.5">
         <span className="min-w-0">
@@ -63,7 +63,9 @@ export default function SemboUkCodeStrip({ lang, surface, className = '' }: { la
           <span aria-live="polite">{copied ? 'Copied' : 'Copy'}</span>
         </button>
       </div>
-      <p className="mt-2 text-[13px] leading-relaxed text-[#0F172A]/75">
+      {/* The terms are full sentences, so they are body text: 16 px and ink /75 at least
+          (network rule §33, gate:kuvateksti; at 13 px this line failed the gate on 10.11.2026). */}
+      <p className="mt-2 text-base leading-relaxed text-[#0F172A]/75">
         £30 off a booking of £300 or more on sembo.co.uk. Book from 1 to 30 November 2026; travel on any date in November or
         December 2026. Prices are in British pounds (£); offer and terms are set by Sembo UK.
       </p>
