@@ -1,0 +1,66 @@
+{
+  "title": "Staatliche Teiche in Lappland zur Fischereipacht gelistet",
+  "seoTitle": "Staatliche Teiche in Lappland zur Fischereipacht",
+  "description": "Metsähallitus hat erstmals eine Liste staatlicher Gewässer zur Fischereipacht veröffentlicht, darunter Teiche in Posio, Rovaniemi, Salla und Kemijärvi.",
+  "dek": "Die Liste ging Anfang November online und umfasst rund hundert Teiche und Seen, jeweils mit Größe, Lage und Jahrespreis, der bei 90 Euro zuzüglich Mehrwertsteuer beginnt.",
+  "heroAlt": "Ein kleiner See hinter kahlen Birken an der Straße zwischen Ruka und Posio: Der erste Schnee bedeckt den Boden, am gegenüberliegenden Ufer steht Fichtenwald.",
+  "heroCaption": "An der Straße Ruka–Posio im Oktober 2026. Die Gewässer auf der Pachtliste sind kleine Teiche abseits der Dörfer und der stark besuchten Angelplätze.",
+  "body": [
+    {
+      "t": "p",
+      "text": "Metsähallitus hat eine Liste der staatlichen Gewässer veröffentlicht, deren Fischereirechte verpachtet werden können. Die Liste ging Anfang November im Dienst Eräluvat.fi online und umfasst rund hundert Teiche und Seen mit Lage, Größe und Jahrespreis des jeweiligen Gewässers. Nach Angaben von Metsähallitus wird eine landesweite Liste der angebotenen Gewässer zum ersten Mal veröffentlicht."
+    },
+    {
+      "t": "h2",
+      "text": "Was im Norden auf der Liste steht"
+    },
+    {
+      "t": "p",
+      "text": "In der Landschaft Lappland stehen sieben Gewässer auf der Liste: Kuuliolampi in Kemijärvi, Lemmonlampi, Närhilampi und Pulkkalampi in Posio, Ristilampi und Salmilampi in Rovaniemi sowie Pilkkasiipilampi in Salla. Das kleinste davon, Salmilampi, misst 1,5 Hektar und kostet 90 Euro im Jahr zuzüglich Mehrwertsteuer. Das größte, Ristilampi, misst 20,1 Hektar und kostet 218 Euro."
+    },
+    {
+      "t": "p",
+      "text": "In Koillismaa und entlang des Flusses Iijoki ist die Liste länger, und Kuusamo, Taivalkoski und Pudasjärvi haben jeweils mehrere Teiche darauf. Dazu gehören Riihilampi in Kuusamo mit 9,1 Hektar und 175 Euro im Jahr, Ahvenlampi in Taivalkoski mit 12,9 Hektar und 230 Euro sowie Mustosenlampi in Pudasjärvi mit 14,9 Hektar und 260 Euro."
+    },
+    {
+      "t": "h2",
+      "text": "Eine Pacht sperrt das Gewässer nicht"
+    },
+    {
+      "t": "p",
+      "text": "Eine Pacht hebt die allgemeinen Fischereirechte nicht auf, die auf dem Gewässer gelten. Angeln mit einfacher Rute und Schnur sowie Eisangeln bleiben für alle kostenlos, und das Fischen mit Kunstköder und einer Rute ist nach Zahlung der staatlichen Fischereiabgabe erlaubt. Ein Pächter kann bei der Behörde Elinvoimakeskus eine Einschränkung dieser Rechte beantragen, und die Liste zeigt für jeden Teich, ob das überhaupt möglich ist. Nach Angaben von Metsähallitus liegen in der Nähe der verpachteten Gewässer meist eigene Lizenzgebiete der Behörde."
+    },
+    {
+      "t": "ul",
+      "items": [
+        "Die Pachtverträge sind befristet, auf höchstens zehn Jahre, und die Pacht folgt dem Lebenshaltungskostenindex.",
+        "Die Pacht gilt nur für das Fischen. Sie gibt kein Zugangsrecht und kein Recht auf Geländeverkehr, für den eine eigene Genehmigung nötig ist.",
+        "Der Pächter darf ein Bootsgestell, eine Feuerstelle aus Natursteinen und eine Kiste für Netze und Ausrüstung bauen. Alles andere muss gesondert vereinbart werden.",
+        "Besatz ist nur mit den Fischarten erlaubt, die im Nutzungs- und Pflegeplan des Fischereigebiets genehmigt sind. Die Maräne ist der häufigste Grund, einen Teich zu pachten.",
+        "Das Gewässer mit Fischsperren zu schließen, ist nicht erlaubt."
+      ]
+    },
+    {
+      "t": "h2",
+      "text": "Wer einen Teich pachten kann"
+    },
+    {
+      "t": "p",
+      "text": "Pächter können Privatpersonen oder andere gemeinnützige Zusammenschlüsse sein, und Regelungen mit Bezug zu einer Geschäftstätigkeit werden im Einzelfall vereinbart. Ein Unternehmen im Angeltourismus, das einen Teich für seine Kunden möchte, braucht zusätzlich einen eigenen Kooperationsvertrag. In Wildnisgebieten, in Schutzgebieten und im samischen Heimatgebiet werden keine Pachtverträge geschlossen."
+    },
+    {
+      "t": "p",
+      "text": "Derzeit sind 817 Fischereipachten in Kraft, und zusammen decken sie weniger als zwei Prozent der von Metsähallitus verwalteten staatlichen Wasserflächen ab. Olli Urpanen, der bei Metsähallitus die Fischerei leitet, sagt, Ziel der Liste sei Offenheit: Wer sich für einen Teich interessiert, muss sich nicht mehr an die Behörde wenden, um zu erfahren, was verfügbar sein könnte."
+    },
+    {
+      "t": "p",
+      "text": "Die Pacht wird über ein Formular auf der Seite Eräluvat.fi beantragt, und die Gewässer werden in der Reihenfolge des Eingangs verpachtet. Danach geht der Antrag an eine Fachkraft für Fischerei bei Metsähallitus, und der Vertrag enthält genaue Bedingungen für die Nutzung des Gewässers."
+    },
+    {
+      "t": "link",
+      "text": "Warum kaltes, sauberes Wasser zu den wertvollsten Dingen der nördlichen Natur gehört, erklärt unsere Seite zum Süßwasser.",
+      "label": "Süßwasser & Fischbestände",
+      "href": "/freshwater"
+    }
+  ]
+}

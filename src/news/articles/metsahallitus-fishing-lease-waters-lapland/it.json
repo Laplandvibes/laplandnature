@@ -1,0 +1,66 @@
+{
+  "title": "Stagni demaniali in Lapponia e Koillismaa in affitto per la pesca",
+  "seoTitle": "Stagni demaniali in affitto per la pesca in Lapponia",
+  "description": "Metsähallitus ha pubblicato il primo elenco pubblico delle acque demaniali con diritto di pesca affittabile, con stagni a Posio, Rovaniemi, Salla e Kemijärvi.",
+  "dek": "L'elenco è uscito online all'inizio di novembre con un centinaio di stagni e laghi, ciascuno con superficie, posizione e prezzo annuo, che parte da 90 euro più IVA.",
+  "heroAlt": "Un piccolo lago dietro betulle spoglie lungo la strada tra Ruka e Posio: la prima neve copre il terreno e un bosco di abeti rossi costeggia la riva opposta.",
+  "heroCaption": "Lungo la strada Ruka–Posio nell'ottobre 2026. Le acque dell'elenco sono piccoli stagni lontani dai villaggi e dai punti di pesca più frequentati.",
+  "body": [
+    {
+      "t": "p",
+      "text": "Metsähallitus ha pubblicato un elenco delle acque demaniali il cui diritto di pesca può essere affittato. L'elenco è uscito nel servizio Eräluvat.fi all'inizio di novembre e comprende un centinaio di stagni e laghi, con posizione, superficie e prezzo annuo di ciascuno. Secondo Metsähallitus, un elenco nazionale delle acque offerte viene pubblicato per la prima volta."
+    },
+    {
+      "t": "h2",
+      "text": "Che cosa c'è nell'elenco al Nord"
+    },
+    {
+      "t": "p",
+      "text": "La regione della Lapponia ha sette acque nell'elenco: Kuuliolampi a Kemijärvi, Lemmonlampi, Närhilampi e Pulkkalampi a Posio, Ristilampi e Salmilampi a Rovaniemi e Pilkkasiipilampi a Salla. Il più piccolo fra questi, Salmilampi, misura 1,5 ettari e costa 90 euro l'anno più IVA. Il più grande, Ristilampi, misura 20,1 ettari e costa 218 euro."
+    },
+    {
+      "t": "p",
+      "text": "In Koillismaa e lungo il fiume Iijoki l'elenco è più lungo, e Kuusamo, Taivalkoski e Pudasjärvi hanno ciascuno diversi stagni. Tra questi ci sono Riihilampi a Kuusamo, 9,1 ettari e 175 euro l'anno, Ahvenlampi a Taivalkoski, 12,9 ettari e 230 euro, e Mustosenlampi a Pudasjärvi, 14,9 ettari e 260 euro."
+    },
+    {
+      "t": "h2",
+      "text": "L'affitto non chiude lo specchio d'acqua"
+    },
+    {
+      "t": "p",
+      "text": "L'affitto non elimina i diritti di pesca generali che valgono su quell'acqua. Chiunque può ancora pescare gratuitamente con una semplice canna e lenza o praticare la pesca nel ghiaccio, e la pesca con esca artificiale e una sola canna è consentita dopo il pagamento del contributo nazionale per la gestione della pesca. L'affittuario può chiedere all'autorità Elinvoimakeskus di limitare quei diritti, e l'elenco indica per ogni stagno se ciò sia possibile o meno. Secondo Metsähallitus, vicino alle acque affittate si trovano di solito aree con permessi di pesca dell'ente stesso."
+    },
+    {
+      "t": "ul",
+      "items": [
+        "I contratti sono a tempo determinato, non oltre dieci anni, e il canone segue l'indice del costo della vita.",
+        "L'affitto riguarda solo la pesca. Non dà alcun diritto di accesso né diritto al traffico fuoristrada, per il quale serve un permesso separato.",
+        "L'affittuario può costruire una rastrelliera per la barca, un focolare di pietre naturali e una cassa per reti e attrezzatura. Tutto il resto va concordato a parte.",
+        "La semina è consentita solo per le specie ittiche approvate nel piano di gestione dell'area di pesca. Il coregone è il motivo più comune per affittare uno stagno.",
+        "Non è consentito chiudere lo specchio d'acqua con barriere per i pesci."
+      ]
+    },
+    {
+      "t": "h2",
+      "text": "Chi può affittare uno stagno"
+    },
+    {
+      "t": "p",
+      "text": "Gli affittuari possono essere privati cittadini o altri enti senza scopo di lucro, e le soluzioni legate a un'attività commerciale si concordano caso per caso. Un'azienda di turismo di pesca che vuole uno stagno per i propri clienti ha bisogno anche di un accordo di collaborazione separato. Non si stipulano contratti di affitto nelle aree di natura selvaggia, nelle aree protette né nel territorio d'origine dei Sami."
+    },
+    {
+      "t": "p",
+      "text": "Al momento sono in vigore 817 contratti di affitto di pesca, che insieme coprono meno del due per cento delle acque demaniali gestite da Metsähallitus. Olli Urpanen, responsabile della pesca presso Metsähallitus, afferma che lo scopo dell'elenco è la trasparenza: chi è interessato a uno stagno non deve più contattare l'ente per sapere che cosa potrebbe essere disponibile."
+    },
+    {
+      "t": "p",
+      "text": "L'affitto si richiede con un modulo sul sito Eräluvat.fi, e le acque vengono affittate nell'ordine di arrivo delle richieste. La richiesta passa poi a uno specialista della pesca di Metsähallitus, e il contratto fissa condizioni dettagliate per l'uso dello specchio d'acqua."
+    },
+    {
+      "t": "link",
+      "text": "La nostra pagina sulle acque dolci spiega perché l'acqua fredda e pulita è una delle cose più preziose della natura del Nord.",
+      "label": "Acque dolci di Lapponia",
+      "href": "/freshwater"
+    }
+  ]
+}

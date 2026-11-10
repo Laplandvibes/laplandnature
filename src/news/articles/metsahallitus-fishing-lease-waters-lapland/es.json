@@ -1,0 +1,66 @@
+{
+  "title": "Estanques estatales de Laponia y Koillismaa en alquiler para pescar",
+  "seoTitle": "Estanques estatales en alquiler para pescar en Laponia",
+  "description": "Metsähallitus publicó su primera lista pública de aguas estatales que se pueden alquilar para pescar, con estanques en Posio, Rovaniemi, Salla y Kemijärvi.",
+  "dek": "La lista salió en línea a principios de noviembre con alrededor de cien estanques y lagos, cada uno con su tamaño, su ubicación y su precio anual, que parte de 90 euros más IVA.",
+  "heroAlt": "Un lago pequeño detrás de abedules sin hojas junto al camino entre Ruka y Posio: la primera nieve cubre el suelo y un bosque de abetos bordea la orilla opuesta.",
+  "heroCaption": "Junto al camino Ruka–Posio en octubre de 2026. Las aguas de la lista de alquiler son estanques pequeños lejos de los pueblos y de los sitios de pesca concurridos.",
+  "body": [
+    {
+      "t": "p",
+      "text": "Metsähallitus publicó una lista de las aguas estatales cuyo derecho de pesca se puede alquilar. La lista salió en el servicio Eräluvat.fi a principios de noviembre y abarca alrededor de cien estanques y lagos, con la ubicación, el tamaño y el precio anual de cada uno. Según Metsähallitus, es la primera vez que se publica una lista de alcance nacional de las aguas en oferta."
+    },
+    {
+      "t": "h2",
+      "text": "Qué hay en la lista en el norte"
+    },
+    {
+      "t": "p",
+      "text": "La región de Laponia tiene siete aguas en la lista: Kuuliolampi en Kemijärvi, Lemmonlampi, Närhilampi y Pulkkalampi en Posio, Ristilampi y Salmilampi en Rovaniemi, y Pilkkasiipilampi en Salla. El más pequeño de ellos, Salmilampi, tiene 1,5 hectáreas y cuesta 90 euros al año más IVA. El más grande, Ristilampi, tiene 20,1 hectáreas y cuesta 218 euros."
+    },
+    {
+      "t": "p",
+      "text": "En Koillismaa y a lo largo del río Iijoki la lista es más larga, y Kuusamo, Taivalkoski y Pudasjärvi tienen varios estanques cada uno. Entre ellos están Riihilampi en Kuusamo, de 9,1 hectáreas y 175 euros al año; Ahvenlampi en Taivalkoski, de 12,9 hectáreas y 230 euros; y Mustosenlampi en Pudasjärvi, de 14,9 hectáreas y 260 euros."
+    },
+    {
+      "t": "h2",
+      "text": "El alquiler no cierra el agua"
+    },
+    {
+      "t": "p",
+      "text": "El alquiler no elimina los derechos generales de pesca que rigen en esa agua. Cualquiera puede seguir pescando gratis con caña y sedal simples o pescar en el hielo, y la pesca con señuelo y una sola caña está permitida tras pagar la tasa nacional de gestión pesquera. El arrendatario puede pedir a la autoridad Elinvoimakeskus que esos derechos se restrinjan, y la lista indica en cada estanque si eso es posible siquiera. Según Metsähallitus, cerca de las aguas alquiladas suele haber zonas de permiso del propio organismo."
+    },
+    {
+      "t": "ul",
+      "items": [
+        "Los contratos son de plazo fijo, de diez años como máximo, y la renta sigue el índice del costo de vida.",
+        "El alquiler cubre solo la pesca. No da derecho de acceso ni derecho al tránsito campo a través, que requiere un permiso aparte.",
+        "El arrendatario puede construir un soporte para botes, un fogón de piedras naturales y una caja para redes y equipo. Todo lo demás se acuerda por separado.",
+        "La siembra de peces solo se permite con las especies aprobadas en el plan de uso y manejo del área pesquera. El corégono es el motivo más común para alquilar un estanque.",
+        "No se permite cerrar el agua con barreras para peces."
+      ]
+    },
+    {
+      "t": "h2",
+      "text": "Quién puede alquilar un estanque"
+    },
+    {
+      "t": "p",
+      "text": "Los arrendatarios pueden ser personas particulares u otras organizaciones sin fines de lucro, y los arreglos ligados a una actividad comercial se acuerdan caso por caso. Una empresa de turismo de pesca que quiera un estanque para sus clientes necesita además un convenio de cooperación aparte. No se firman contratos de alquiler en áreas de naturaleza salvaje, en áreas protegidas ni en el territorio de origen sami."
+    },
+    {
+      "t": "p",
+      "text": "Ahora mismo hay 817 contratos de alquiler de pesca en vigor y, en conjunto, cubren menos del dos por ciento de las aguas estatales que administra Metsähallitus. Olli Urpanen, responsable de la pesca en Metsähallitus, dice que el sentido de la lista es la apertura: quien se interese por un estanque ya no tiene que contactar al organismo para saber qué podría estar disponible."
+    },
+    {
+      "t": "p",
+      "text": "El alquiler se solicita con un formulario en el sitio Eräluvat.fi, y las aguas se alquilan en el orden en que llegan las solicitudes. Después la solicitud pasa a un especialista en pesca de Metsähallitus, y el contrato fija condiciones detalladas para el uso del agua."
+    },
+    {
+      "t": "link",
+      "text": "Nuestra página sobre agua dulce explica por qué el agua fría y limpia es una de las cosas más valiosas de la naturaleza del norte.",
+      "label": "Agua dulce en Laponia",
+      "href": "/freshwater"
+    }
+  ]
+}

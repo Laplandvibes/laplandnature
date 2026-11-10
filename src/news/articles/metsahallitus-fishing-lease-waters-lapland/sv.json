@@ -1,0 +1,66 @@
+{
+  "title": "Statliga tjärnar i Lappland och Koillismaa på lista för fiskearrende",
+  "seoTitle": "Statliga tjärnar ut på arrende för fiske i Lappland",
+  "description": "Forststyrelsen har publicerat sin första lista över statliga vatten som går att arrendera för fiske, med tjärnar i Posio, Rovaniemi, Salla och Kemijärvi.",
+  "dek": "Listan kom ut på nätet i början av november med ett hundratal tjärnar och sjöar, var och en med storlek, läge och årspris som börjar på 90 euro plus moms.",
+  "heroAlt": "En liten sjö bakom kala björkar vid vägen mellan Ruka och Posio: den första snön täcker marken och granskog kantar den bortre stranden.",
+  "heroCaption": "Vid vägen Ruka–Posio i oktober 2026. Vattnen på arrendelistan är små tjärnar borta från byarna och de livligaste fiskeplatserna.",
+  "body": [
+    {
+      "t": "p",
+      "text": "Forststyrelsen (Metsähallitus) har publicerat en lista över de statliga vatten vars fiskerätt går att arrendera. Listan kom ut i tjänsten Eräluvat.fi i början av november och omfattar ett hundratal tjärnar och sjöar, med läge, storlek och årspris för var och en. Enligt Forststyrelsen publiceras en riksomfattande lista över de vatten som erbjuds nu för första gången."
+    },
+    {
+      "t": "h2",
+      "text": "Vad listan innehåller i norr"
+    },
+    {
+      "t": "p",
+      "text": "Landskapet Lappland har sju vatten på listan: Kuuliolampi i Kemijärvi, Lemmonlampi, Närhilampi och Pulkkalampi i Posio, Ristilampi och Salmilampi i Rovaniemi samt Pilkkasiipilampi i Salla. Den minsta av dem, Salmilampi, är 1,5 hektar och kostar 90 euro om året plus moms. Den största, Ristilampi, är 20,1 hektar och kostar 218 euro."
+    },
+    {
+      "t": "p",
+      "text": "I Koillismaa och längs älven Iijoki är listan längre, och Kuusamo, Taivalkoski och Pudasjärvi har flera tjärnar var på den. Bland dem finns Riihilampi i Kuusamo, 9,1 hektar och 175 euro om året, Ahvenlampi i Taivalkoski, 12,9 hektar och 230 euro, och Mustosenlampi i Pudasjärvi, 14,9 hektar och 260 euro."
+    },
+    {
+      "t": "h2",
+      "text": "Ett arrende stänger inte vattnet"
+    },
+    {
+      "t": "p",
+      "text": "Ett arrende tar inte bort de allmänna fiskerättigheter som gäller på vattnet. Vem som helst får fortfarande meta och pilka avgiftsfritt, och att fiska med ett spö och drag är tillåtet när den nationella fiskevårdsavgiften är betald. En arrendator kan ansöka hos myndigheten Elinvoimakeskus om att de rättigheterna begränsas, och listan visar för varje tjärn om det över huvud taget är möjligt. Enligt Forststyrelsen finns det oftast egna tillståndsområden nära de arrenderade vattnen."
+    },
+    {
+      "t": "ul",
+      "items": [
+        "Arrendena är tidsbundna, på högst tio år, och hyran följer levnadskostnadsindex.",
+        "Arrendet gäller bara fiske. Det ger ingen rätt att färdas till platsen och ingen rätt till terrängtrafik, som kräver ett eget tillstånd.",
+        "Arrendatorn får bygga ett båtställ, en eldplats av natursten och en låda för nät och redskap. Allt annat ska avtalas separat.",
+        "Utplantering är tillåten bara för de fiskarter som godkänts i fiskeområdets nyttjande- och vårdplan. Sik är det vanligaste skälet att arrendera en tjärn.",
+        "Det är inte tillåtet att stänga vattnet med fiskhinder."
+      ]
+    },
+    {
+      "t": "h2",
+      "text": "Vem som kan arrendera en tjärn"
+    },
+    {
+      "t": "p",
+      "text": "Arrendatorn kan vara en privatperson eller en annan sammanslutning utan vinstsyfte, och arrangemang som hänger ihop med affärsverksamhet avtalas från fall till fall. Ett fisketurismföretag som vill ha en tjärn för sina kunder behöver dessutom ett eget samarbetsavtal. Inga arrendeavtal ingås i ödemarksområden, i skyddsområden eller i samernas hembygdsområde."
+    },
+    {
+      "t": "p",
+      "text": "Just nu är 817 fiskearrenden i kraft, och tillsammans täcker de mindre än två procent av de statliga vattenområden som Forststyrelsen förvaltar. Olli Urpanen, som leder fisket vid Forststyrelsen, säger att poängen med listan är öppenhet: den som är intresserad av en tjärn behöver inte längre kontakta myndigheten för att få veta vad som kan finnas att tillgå."
+    },
+    {
+      "t": "p",
+      "text": "Arrende begärs med ett formulär på webbplatsen Eräluvat.fi, och vattnen arrenderas ut i den ordning begäran kommer in. Därefter går begäran vidare till en fiskerispecialist på Forststyrelsen, och avtalet innehåller detaljerade villkor för hur vattnet får användas."
+    },
+    {
+      "t": "link",
+      "text": "Varför kallt och rent vatten hör till det mest värdefulla i den nordliga naturen förklaras på vår sötvattenssida.",
+      "label": "Sötvatten & fiskbestånd",
+      "href": "/freshwater"
+    }
+  ]
+}

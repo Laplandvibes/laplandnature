@@ -1,0 +1,66 @@
+{
+  "title": "Valtion lammet Lapissa ja Koillismaalla vuokralistalle",
+  "seoTitle": "Valtion lampia vuokralle kalastukseen Lapissa",
+  "description": "Metsähallitus julkaisi ensimmäisen kattavan listan vuokrattavista valtion kalavesistä. Lapissa kohteita on Posiolla, Rovaniemellä, Sallassa ja Kemijärvellä.",
+  "dek": "Lista tuli verkkoon marraskuun alussa. Siinä on noin sata lampea ja järveä, ja jokaisesta näkyy koko, sijainti ja vuosihinta, joka alkaa 90 eurosta ilman arvonlisäveroa.",
+  "heroAlt": "Pieni järvi lehdettömien koivujen takana Rukan ja Posion välisen tien varressa: maassa on ensilumi ja vastarannalla kasvaa kuusimetsää.",
+  "heroCaption": "Ruka–Posio-tien varrella lokakuussa 2026. Vuokralistan vedet ovat pieniä lampia syrjässä kylistä ja vilkkaimmista kalapaikoista.",
+  "body": [
+    {
+      "t": "p",
+      "text": "Metsähallitus on julkaissut listan valtion vesistä, joiden kalastusoikeuden voi vuokrata. Lista tuli Eräluvat.fi-palveluun marraskuun alussa, ja siinä on noin sata lampea ja järveä sijainteineen, kokoineen ja vuosihintoineen. Metsähallituksen mukaan kattava luettelo vuokrattavana olevista vesistä julkaistaan nyt ensimmäistä kertaa."
+    },
+    {
+      "t": "h2",
+      "text": "Mitä listalla on pohjoisessa"
+    },
+    {
+      "t": "p",
+      "text": "Lapin maakunnassa listalla on seitsemän vettä: Kuuliolampi Kemijärvellä, Lemmonlampi, Närhilampi ja Pulkkalampi Posiolla, Ristilampi ja Salmilampi Rovaniemellä sekä Pilkkasiipilampi Sallassa. Niistä pienin, Salmilampi, on 1,5 hehtaaria ja maksaa 90 euroa vuodessa ilman arvonlisäveroa. Suurin, Ristilampi, on 20,1 hehtaaria ja maksaa 218 euroa."
+    },
+    {
+      "t": "p",
+      "text": "Koillismaalla ja Iijoen suunnalla lista on pidempi, ja Kuusamossa, Taivalkoskella ja Pudasjärvellä on kullakin useita lampia. Mukana ovat esimerkiksi Kuusamon Riihilampi, 9,1 hehtaaria ja 175 euroa vuodessa, Taivalkosken Ahvenlampi, 12,9 hehtaaria ja 230 euroa, sekä Pudasjärven Mustosenlampi, 14,9 hehtaaria ja 260 euroa."
+    },
+    {
+      "t": "h2",
+      "text": "Vuokraaminen ei sulje vettä muilta"
+    },
+    {
+      "t": "p",
+      "text": "Vuokrasopimus ei poista vesialueella voimassa olevia yleiskalastusoikeuksia. Vedessä saa yhä onkia ja pilkkiä maksutta, ja yhdellä vavalla saa viehekalastaa kalastonhoitomaksun maksettuaan. Vuokralainen voi hakea Elinvoimakeskukselta näiden oikeuksien rajoittamista, ja listasta näkee lammikohtaisesti, onko se ylipäänsä mahdollista. Metsähallituksen mukaan vuokravesien lähistöllä on tyypillisesti myös sen omia kalastuslupa-alueita."
+    },
+    {
+      "t": "ul",
+      "items": [
+        "Sopimukset ovat määräaikaisia, enintään kymmenen vuotta, ja vuokra seuraa elinkustannusindeksiä.",
+        "Vuokra koskee vain kalastusta. Se ei anna oikeutta kulkea alueelle eikä maastoliikenteeseen, johon tarvitaan erillinen lupa.",
+        "Vuokralainen saa rakentaa venetelan, luonnonkivistä ladotun tulipaikan sekä verkko- ja tarvikelaatikon. Muusta on sovittava erikseen.",
+        "Istuttaa saa vain niitä kalalajeja, jotka on hyväksytty alueen kalatalousalueen käyttö- ja hoitosuunnitelmassa. Yleisin syy lammen vuokraamiseen on siian istutus.",
+        "Vesistöä ei saa sulkea kalaesteillä."
+      ]
+    },
+    {
+      "t": "h2",
+      "text": "Kuka lammen voi vuokrata"
+    },
+    {
+      "t": "p",
+      "text": "Vuokralainen voi olla yksityishenkilö tai muu voittoa tavoittelematon yhteisö, ja liiketoimintaan liittyvistä järjestelyistä sovitaan tapauskohtaisesti. Kalastusmatkailuyritys, joka haluaa lammen asiakkailleen, tarvitsee lisäksi erillisen yhteistyösopimuksen. Kalastusvuokrasopimuksia ei tehdä erämaa-alueille, suojelualueille eikä saamelaisten kotiseutualueelle."
+    },
+    {
+      "t": "p",
+      "text": "Kalastusvuokrasopimuksia on voimassa 817 kappaletta, ja ne kattavat alle kaksi prosenttia Metsähallituksen hallinnoimista valtion vesialueista. Erätalouspäällikkö Olli Urpasen mukaan listan tarkoitus on avoimuus: lammesta kiinnostuneen ei tarvitse enää ottaa yhteyttä Metsähallitukseen saadakseen tietää, mitä vesiä voisi olla tarjolla."
+    },
+    {
+      "t": "p",
+      "text": "Vuokrausta pyydetään Eräluvat.fi-sivuston lomakkeella, ja vedet vuokrataan siinä järjestyksessä kuin pyynnöt saapuvat. Pyynnön käsittelee Metsähallituksen kalastuksen erityisasiantuntija, ja sopimuksessa on tarkat ehdot vesistön käytöstä."
+    },
+    {
+      "t": "link",
+      "text": "Miksi kylmä ja puhdas vesi on pohjoisen luonnon arvokkaimpia asioita, kerromme vesistösivullamme.",
+      "label": "Vesistöt ja kalakannat",
+      "href": "/freshwater"
+    }
+  ]
+}

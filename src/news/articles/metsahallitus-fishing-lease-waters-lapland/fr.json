@@ -1,0 +1,66 @@
+{
+  "title": "Étangs de l'État en Laponie et en Koillismaa à louer pour la pêche",
+  "seoTitle": "Étangs de l'État à louer pour la pêche en Laponie",
+  "description": "Metsähallitus a publié sa première liste publique des eaux de l'État dont le droit de pêche se loue, avec des étangs à Posio, Rovaniemi, Salla et Kemijärvi.",
+  "dek": "La liste est parue en ligne début novembre avec une centaine d'étangs et de lacs, chacun avec sa taille, sa situation et son prix annuel, qui débute à 90 euros hors taxes.",
+  "heroAlt": "Un petit lac derrière des bouleaux dénudés, au bord de la route entre Ruka et Posio : la première neige couvre le sol et une forêt d'épicéas borde la rive opposée.",
+  "heroCaption": "Au bord de la route Ruka–Posio en octobre 2026. Les eaux de la liste de location sont de petits étangs à l'écart des villages et des coins de pêche fréquentés.",
+  "body": [
+    {
+      "t": "p",
+      "text": "Metsähallitus a publié une liste des eaux de l'État dont les droits de pêche peuvent être loués. La liste est parue sur le service Eräluvat.fi début novembre et couvre une centaine d'étangs et de lacs, avec la situation, la taille et le prix annuel de chacun. Selon Metsähallitus, une liste nationale des eaux proposées est publiée pour la première fois."
+    },
+    {
+      "t": "h2",
+      "text": "Ce que contient la liste dans le Nord"
+    },
+    {
+      "t": "p",
+      "text": "La région de Laponie compte sept eaux sur la liste : Kuuliolampi à Kemijärvi, Lemmonlampi, Närhilampi et Pulkkalampi à Posio, Ristilampi et Salmilampi à Rovaniemi, et Pilkkasiipilampi à Salla. Le plus petit d'entre eux, Salmilampi, fait 1,5 hectare et coûte 90 euros par an hors taxes. Le plus grand, Ristilampi, fait 20,1 hectares et coûte 218 euros."
+    },
+    {
+      "t": "p",
+      "text": "En Koillismaa et le long de la rivière Iijoki, la liste est plus longue, et Kuusamo, Taivalkoski et Pudasjärvi comptent chacun plusieurs étangs. On y trouve Riihilampi à Kuusamo, 9,1 hectares et 175 euros par an, Ahvenlampi à Taivalkoski, 12,9 hectares et 230 euros, et Mustosenlampi à Pudasjärvi, 14,9 hectares et 260 euros."
+    },
+    {
+      "t": "h2",
+      "text": "Une location ne ferme pas le plan d'eau"
+    },
+    {
+      "t": "p",
+      "text": "Une location ne supprime pas les droits de pêche généraux qui s'appliquent sur le plan d'eau. Chacun peut toujours pêcher gratuitement à la ligne simple ou sous la glace, et la pêche au leurre avec une canne reste permise après paiement de la redevance nationale de gestion halieutique. Le locataire peut demander à l'autorité Elinvoimakeskus de restreindre ces droits, et la liste indique pour chaque étang si c'est possible ou non. Selon Metsähallitus, des zones de permis qui lui appartiennent se trouvent en général à proximité des eaux louées."
+    },
+    {
+      "t": "ul",
+      "items": [
+        "Les locations sont à durée déterminée, dix ans au maximum, et le loyer suit l'indice du coût de la vie.",
+        "La location ne porte que sur la pêche. Elle ne donne aucun droit d'accès ni droit à la circulation en milieu naturel, qui exige une autorisation distincte.",
+        "Le locataire peut construire un support à bateau, un foyer en pierres naturelles et un coffre pour les filets et le matériel. Tout le reste doit faire l'objet d'un accord séparé.",
+        "L'empoissonnement n'est autorisé que pour les espèces approuvées dans le plan de gestion de la zone halieutique. Le corégone est la raison la plus fréquente de louer un étang.",
+        "Fermer le plan d'eau avec des barrages à poissons n'est pas autorisé."
+      ]
+    },
+    {
+      "t": "h2",
+      "text": "Qui peut louer un étang"
+    },
+    {
+      "t": "p",
+      "text": "Les locataires peuvent être des particuliers ou d'autres organisations à but non lucratif, et les arrangements liés à une activité commerciale se règlent au cas par cas. Une entreprise de tourisme de pêche qui veut un étang pour ses clients a besoin en plus d'un accord de coopération distinct. Aucun contrat de location n'est conclu dans les zones de nature sauvage, dans les aires protégées ni sur le territoire d'origine des Samis."
+    },
+    {
+      "t": "p",
+      "text": "Il y a actuellement 817 contrats de location de pêche en vigueur, et ensemble ils couvrent moins de deux pour cent des eaux de l'État gérées par Metsähallitus. Olli Urpanen, responsable de la pêche chez Metsähallitus, explique que l'objectif de la liste est la transparence : une personne intéressée par un étang n'a plus besoin de contacter l'organisme pour savoir ce qui pourrait être disponible."
+    },
+    {
+      "t": "p",
+      "text": "La location se demande au moyen d'un formulaire sur le site Eräluvat.fi, et les eaux sont louées dans l'ordre d'arrivée des demandes. La demande passe ensuite à un spécialiste de la pêche de Metsähallitus, et le contrat fixe des conditions précises pour l'usage du plan d'eau."
+    },
+    {
+      "t": "link",
+      "text": "Notre page sur les eaux douces explique pourquoi une eau froide et propre compte parmi les biens les plus précieux de la nature du Nord.",
+      "label": "Eaux douces de Laponie",
+      "href": "/freshwater"
+    }
+  ]
+}

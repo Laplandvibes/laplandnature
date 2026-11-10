@@ -1605,6 +1605,56 @@
       "description": "En lokal älvförening och företaget Hiilipörssi lägger igen myrdiken och anlägger våtmarker så att mindre humus och färre näringsämnen når älven."
     }
   },
+  "/news/metsahallitus-fishing-lease-waters-lapland": {
+    "en": {
+      "title": "State ponds listed for fishing leases in Lapland",
+      "description": "Metsähallitus has published its first public list of state waters open for fishing leases, including ponds in Posio, Rovaniemi, Salla and Kemijärvi."
+    },
+    "fi": {
+      "title": "Valtion lampia vuokralle kalastukseen Lapissa",
+      "description": "Metsähallitus julkaisi ensimmäisen kattavan listan vuokrattavista valtion kalavesistä. Lapissa kohteita on Posiolla, Rovaniemellä, Sallassa ja Kemijärvellä."
+    },
+    "de": {
+      "title": "Staatliche Teiche in Lappland zur Fischereipacht",
+      "description": "Metsähallitus hat erstmals eine Liste staatlicher Gewässer zur Fischereipacht veröffentlicht, darunter Teiche in Posio, Rovaniemi, Salla und Kemijärvi."
+    },
+    "ja": {
+      "title": "ラップランドの国有の池、釣りの貸し出し一覧に",
+      "description": "Metsähallitusが、釣りの権利を貸し出す国有水域の一覧を初公開しました。Posio、Rovaniemi、Salla、Kemijärviの池が対象です。"
+    },
+    "es": {
+      "title": "Estanques estatales en alquiler para pescar en Laponia",
+      "description": "Metsähallitus publicó su primera lista pública de aguas estatales que se pueden alquilar para pescar, con estanques en Posio, Rovaniemi, Salla y Kemijärvi."
+    },
+    "pt-BR": {
+      "title": "Lagoas estatais para arrendamento de pesca na Lapônia",
+      "description": "A Metsähallitus publicou sua primeira lista pública de águas estatais com direito de pesca para arrendar, com lagoas em Posio, Rovaniemi, Salla e Kemijärvi."
+    },
+    "zh-CN": {
+      "title": "拉普兰国有池塘列入垂钓租赁名单",
+      "description": "Metsähallitus首次公开了可出租垂钓权的国有水域名单。名单覆盖全国，其中包括Posio、Rovaniemi、Salla和Kemijärvi的池塘。"
+    },
+    "ko": {
+      "title": "라플란드 국유 못, 낚시 임대 목록 공개",
+      "description": "Metsähallitus가 낚시 임대가 가능한 국유 수역 목록을 처음 공개했습니다. 라플란드에서는 Posio와 Salla에 못이 있습니다."
+    },
+    "fr": {
+      "title": "Étangs de l'État à louer pour la pêche en Laponie",
+      "description": "Metsähallitus a publié sa première liste publique des eaux de l'État dont le droit de pêche se loue, avec des étangs à Posio, Rovaniemi, Salla et Kemijärvi."
+    },
+    "it": {
+      "title": "Stagni demaniali in affitto per la pesca in Lapponia",
+      "description": "Metsähallitus ha pubblicato il primo elenco pubblico delle acque demaniali con diritto di pesca affittabile, con stagni a Posio, Rovaniemi, Salla e Kemijärvi."
+    },
+    "nl": {
+      "title": "Staatsvennen in Lapland te huur voor de visserij",
+      "description": "Metsähallitus heeft zijn eerste lijst gepubliceerd van staatswateren die voor de visserij te huur zijn, met vennen in Posio, Rovaniemi, Salla en Kemijärvi."
+    },
+    "sv": {
+      "title": "Statliga tjärnar ut på arrende för fiske i Lappland",
+      "description": "Forststyrelsen har publicerat sin första lista över statliga vatten som går att arrendera för fiske, med tjärnar i Posio, Rovaniemi, Salla och Kemijärvi."
+    }
+  },
   "/news/sakatti-mine-viiankiaapa-compensation": {
     "en": {
       "title": "Sakatti mine and Viiankiaapa: compensation plan falls short",

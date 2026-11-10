@@ -1,0 +1,66 @@
+{
+  "title": "Lagoas estatais da Lapônia em lista de arrendamento",
+  "seoTitle": "Lagoas estatais para arrendamento de pesca na Lapônia",
+  "description": "A Metsähallitus publicou sua primeira lista pública de águas estatais com direito de pesca para arrendar, com lagoas em Posio, Rovaniemi, Salla e Kemijärvi.",
+  "dek": "A lista entrou no ar no início de novembro com cerca de cem lagoas e lagos, cada um com tamanho, localização e preço anual, que começa em 90 euros mais IVA.",
+  "heroAlt": "Um lago pequeno atrás de bétulas sem folhas, à beira da estrada entre Ruka e Posio: a primeira neve cobre o chão e uma floresta de abetos acompanha a margem oposta.",
+  "heroCaption": "À beira da estrada Ruka–Posio em outubro de 2026. As águas da lista de arrendamento são lagoas pequenas longe dos vilarejos e dos pontos de pesca movimentados.",
+  "body": [
+    {
+      "t": "p",
+      "text": "A Metsähallitus publicou uma lista das águas estatais cujo direito de pesca pode ser arrendado. A lista entrou no ar no serviço Eräluvat.fi no início de novembro e reúne cerca de cem lagoas e lagos, com a localização, o tamanho e o preço anual de cada um. Segundo a Metsähallitus, uma lista nacional das águas oferecidas é publicada pela primeira vez."
+    },
+    {
+      "t": "h2",
+      "text": "O que está na lista no norte"
+    },
+    {
+      "t": "p",
+      "text": "A região da Lapônia tem sete águas na lista: Kuuliolampi, em Kemijärvi; Lemmonlampi, Närhilampi e Pulkkalampi, em Posio; Ristilampi e Salmilampi, em Rovaniemi; e Pilkkasiipilampi, em Salla. A menor delas, Salmilampi, tem 1,5 hectare e custa 90 euros por ano mais IVA. A maior, Ristilampi, tem 20,1 hectares e custa 218 euros."
+    },
+    {
+      "t": "p",
+      "text": "Em Koillismaa e ao longo do rio Iijoki a lista é mais longa, e Kuusamo, Taivalkoski e Pudasjärvi têm várias lagoas cada um. Entre elas estão Riihilampi, em Kuusamo, com 9,1 hectares e 175 euros por ano; Ahvenlampi, em Taivalkoski, com 12,9 hectares e 230 euros; e Mustosenlampi, em Pudasjärvi, com 14,9 hectares e 260 euros."
+    },
+    {
+      "t": "h2",
+      "text": "O arrendamento não fecha a água"
+    },
+    {
+      "t": "p",
+      "text": "O arrendamento não retira os direitos gerais de pesca que valem naquela água. Qualquer pessoa continua podendo pescar de graça com vara e linha simples ou pescar no gelo, e a pesca com isca artificial e uma vara é permitida depois do pagamento da taxa nacional de gestão pesqueira. O arrendatário pode pedir ao órgão Elinvoimakeskus que esses direitos sejam restringidos, e a lista mostra em cada lagoa se isso é possível. Segundo a Metsähallitus, perto das águas arrendadas costuma haver áreas de licença do próprio órgão."
+    },
+    {
+      "t": "ul",
+      "items": [
+        "Os contratos têm prazo determinado, de no máximo dez anos, e o aluguel acompanha o índice do custo de vida.",
+        "O arrendamento vale só para a pesca. Ele não dá direito de acesso nem direito ao tráfego fora de estrada, que exige licença separada.",
+        "O arrendatário pode construir um suporte para barco, uma fogueira de pedras naturais e uma caixa para redes e equipamentos. Qualquer outra coisa precisa ser combinada à parte.",
+        "O povoamento só é permitido com as espécies de peixe aprovadas no plano de manejo da área de pesca. O coregono é o motivo mais comum para arrendar uma lagoa.",
+        "Não é permitido fechar a água com barreiras para peixes."
+      ]
+    },
+    {
+      "t": "h2",
+      "text": "Quem pode arrendar uma lagoa"
+    },
+    {
+      "t": "p",
+      "text": "Os arrendatários podem ser pessoas físicas ou outras organizações sem fins lucrativos, e os arranjos ligados a atividade comercial são combinados caso a caso. Uma empresa de turismo de pesca que queira uma lagoa para seus clientes precisa ainda de um acordo de cooperação separado. Não são feitos contratos de arrendamento em áreas de natureza selvagem, em áreas protegidas nem no território de origem do povo sámi."
+    },
+    {
+      "t": "p",
+      "text": "Há 817 arrendamentos de pesca em vigor no momento e, juntos, eles cobrem menos de dois por cento das áreas de água estatais administradas pela Metsähallitus. Olli Urpanen, que chefia a pesca na Metsähallitus, diz que o objetivo da lista é a transparência: quem se interessa por uma lagoa não precisa mais procurar o órgão para saber o que pode estar disponível."
+    },
+    {
+      "t": "p",
+      "text": "O arrendamento é solicitado por um formulário no site Eräluvat.fi, e as águas são arrendadas na ordem em que os pedidos chegam. Depois o pedido vai para um especialista em pesca da Metsähallitus, e o contrato traz condições detalhadas para o uso da água."
+    },
+    {
+      "t": "link",
+      "text": "Nossa página sobre água doce explica por que a água fria e limpa é uma das coisas mais valiosas da natureza do norte.",
+      "label": "Água doce na Lapônia",
+      "href": "/freshwater"
+    }
+  ]
+}

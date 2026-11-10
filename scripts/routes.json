@@ -102,6 +102,22 @@
     }
   },
   {
+    "path": "/news/metsahallitus-fishing-lease-waters-lapland",
+    "fallbackTitle": "State ponds listed for fishing leases in Lapland",
+    "fallbackDescription": "Metsähallitus has published its first public list of state waters open for fishing leases, including ponds in Posio, Rovaniemi, Salla and Kemijärvi.",
+    "ogImage": "/og/news-metsahallitus-fishing-lease-waters-lapland.jpg",
+    "ogCard": {
+      "hero": "/images/news/posio-lampi-lokakuu-1600.webp",
+      "line": "State ponds listed for fishing leases",
+      "focus": "50% 55%"
+    },
+    "harvestRecord": {
+      "file": "node_modules/.cache/lv-news/metsahallitus-fishing-lease-waters-lapland/{lang}.json",
+      "key": "metsahallitus-fishing-lease-waters-lapland",
+      "mode": "jsonFile"
+    }
+  },
+  {
     "path": "/news/kuusinkijoki-catchment-restoration-kuusamo",
     "fallbackTitle": "Kuusinkijoki river catchment restoration begins in Kuusamo",
     "fallbackDescription": "A local river association and the company Hiilipörssi are blocking mire ditches and building wetlands so that less humus and fewer nutrients reach the river.",

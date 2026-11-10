@@ -808,5 +808,86 @@
         "samaKuinKesa": true
       }
     }
+  },
+  "news-metsahallitus-fishing-lease-waters-lapland": {
+    "route": "/news/metsahallitus-fishing-lease-waters-lapland",
+    "line": "State ponds listed for fishing leases",
+    "kaudet": {
+      "summer": {
+        "hero": "/images/news/posio-lampi-lokakuu-1600.webp",
+        "bytes": 204653,
+        "sha256": "5031c560a76793e1bec3d904930e3bac88bdf2455f5c195e7acd4c1879cc3ac4",
+        "heroSha": "90b304413064f791",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 17410,
+        "inkBox": [
+          352,
+          494,
+          847,
+          603
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 87.5,
+        "centerSq": 95.9,
+        "photoRegion": 105.6,
+        "photoRegionRef": 105.6,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 497,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": []
+      },
+      "winter": {
+        "hero": "/images/news/posio-lampi-lokakuu-1600.webp",
+        "bytes": 204653,
+        "sha256": "5031c560a76793e1bec3d904930e3bac88bdf2455f5c195e7acd4c1879cc3ac4",
+        "heroSha": "90b304413064f791",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 17410,
+        "inkBox": [
+          352,
+          494,
+          847,
+          603
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 87.5,
+        "centerSq": 95.9,
+        "photoRegion": 105.6,
+        "photoRegionRef": 105.6,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 497,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": [],
+        "samaKuinKesa": true
+      }
+    }
   }
 }
