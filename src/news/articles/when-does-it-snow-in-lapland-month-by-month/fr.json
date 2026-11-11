@@ -8,7 +8,18 @@
   "body": [
     {
       "t": "p",
-      "text": "En Laponie finlandaise, le premier manteau neigeux arrive en général en octobre : vers le 9 et le 10 octobre dans le nord de la région, et entre le 18 et le 21 octobre à Sodankylä, Kuusamo et Rovaniemi, selon les statistiques de l'Institut météorologique finlandais pour 1991–2020. La neige est à son maximum de la mi-mars au début d'avril. Elle fond en mai, et dans l'extrême nord de la Laponie, le manteau neigeux dure jusqu'à la fin mai."
+      "text": "En Laponie finlandaise, le premier manteau neigeux arrive en général en octobre, la neige est à son maximum de la mi-mars au début d'avril et elle fond en mai. Les chiffres proviennent des statistiques de l'Institut météorologique finlandais pour 1991–2020."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "La neige en Laponie en bref",
+      "items": [
+        "Premier manteau neigeux dans le nord : vers le 9 et le 10 octobre",
+        "Premier manteau neigeux à Sodankylä, Kuusamo et Rovaniemi : entre le 18 et le 21 octobre",
+        "Neige au maximum : de la mi-mars au début d'avril",
+        "Fonte de la neige : en mai, et dans l'extrême nord de la Laponie, le manteau neigeux dure jusqu'à la fin mai"
+      ]
     },
     {
       "t": "h2",
@@ -19,7 +30,8 @@
       "text": "L'institut enregistre le premier manteau neigeux le matin où une station météorologique mesure pour la première fois au moins 1 cm de neige. Dates typiques pour 1991–2020, avec la plus précoce et la plus tardive depuis 1961 :"
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "facts-ensilumi",
       "items": [
         "Kittilä (Pokka, au nord de Levi) : 9 octobre. Au plus tôt le 12 septembre 1973, au plus tard le 1er novembre 1987.",
         "Utsjoki (Kevo) : 10 octobre. Au plus tôt le 18 septembre 1993, au plus tard le 4 novembre 1987.",
@@ -41,7 +53,8 @@
       "text": "Les épaisseurs ci-dessous sont les médianes de l'institut pour le 15 de chaque mois en 1991–2020 à deux stations : Sodankylä, en Laponie centrale, et Utsjoki Kevo, à l'extrême nord. Elles décrivent la région, non une pente ou un sentier en particulier."
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "bars-kuukaudet",
       "items": [
         "Septembre : les premières chutes de neige tombent sur les sommets des fjälls, en général en août ou en septembre, et fondent.",
         "Octobre : le premier manteau neigeux arrive sur toute la Laponie et fond souvent de nouveau.",
@@ -75,7 +88,8 @@
       "text": "Ce que cela change pour choisir la date du voyage"
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "facts-ajoitus",
       "items": [
         "Voyage de Noël : la neige au sol est quasi certaine en décembre.",
         "Ski et motoneige : de février à la mi-avril, les médianes de mi-mois aux deux stations se situent entre 59 et 77 cm.",

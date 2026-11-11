@@ -8,7 +8,18 @@
   "body": [
     {
       "t": "p",
-      "text": "Na Lapônia finlandesa, a primeira cobertura de neve costuma chegar em outubro: por volta de 9 e 10 de outubro no norte da região e entre 18 e 21 de outubro em Sodankylä, Kuusamo e Rovaniemi, segundo as estatísticas do Instituto Meteorológico da Finlândia para 1991–2020. A neve atinge a maior altura de meados de março ao início de abril. Ela derrete em maio, e no extremo norte da Lapônia a cobertura de neve dura até o fim de maio."
+      "text": "Na Lapônia finlandesa, a primeira cobertura de neve costuma chegar em outubro, a neve atinge a maior altura de meados de março ao início de abril e derrete em maio. Os números são das estatísticas do Instituto Meteorológico da Finlândia para 1991–2020."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "A neve na Lapônia em resumo",
+      "items": [
+        "Primeira cobertura de neve no norte: por volta de 9 e 10 de outubro",
+        "Primeira cobertura de neve em Sodankylä, Kuusamo e Rovaniemi: entre 18 e 21 de outubro",
+        "Maior altura da neve: de meados de março ao início de abril",
+        "Derretimento da neve: em maio, e no extremo norte da Lapônia a cobertura de neve dura até o fim de maio"
+      ]
     },
     {
       "t": "h2",
@@ -19,7 +30,8 @@
       "text": "O instituto registra a primeira cobertura de neve na manhã em que uma estação meteorológica mede pela primeira vez pelo menos 1 cm de neve. Datas típicas para 1991–2020, com a mais precoce e a mais tardia desde 1961:"
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "facts-ensilumi",
       "items": [
         "Kittilä (Pokka, ao norte de Levi): 9 de outubro. A mais precoce, 12 de setembro de 1973; a mais tardia, 1º de novembro de 1987.",
         "Utsjoki (Kevo): 10 de outubro. A mais precoce, 18 de setembro de 1993; a mais tardia, 4 de novembro de 1987.",
@@ -41,7 +53,8 @@
       "text": "As alturas abaixo são as medianas do instituto para o dia 15 de cada mês em 1991–2020 em duas estações: Sodankylä, na Lapônia central, e Utsjoki Kevo, no extremo norte. Elas descrevem a região, não uma encosta ou trilha específica."
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "bars-kuukaudet",
       "items": [
         "Setembro: as primeiras nevadas caem sobre os topos dos fjälls, geralmente em agosto ou setembro, e derretem.",
         "Outubro: a primeira cobertura de neve chega a toda a Lapônia e muitas vezes derrete de novo.",
@@ -75,7 +88,8 @@
       "text": "O que isso significa para escolher a época da viagem"
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "facts-ajoitus",
       "items": [
         "Viagem de Natal: neve no chão é quase certa em dezembro.",
         "Esqui e moto de neve: de fevereiro a meados de abril, as medianas de meados de mês nas duas estações ficam entre 59 e 77 cm.",

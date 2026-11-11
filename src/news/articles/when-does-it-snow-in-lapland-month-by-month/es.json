@@ -8,7 +8,18 @@
   "body": [
     {
       "t": "p",
-      "text": "En la Laponia finlandesa la primera capa de nieve llega por lo general en octubre: hacia el 9 y el 10 de octubre en el norte de la región y entre el 18 y el 21 de octubre en Sodankylä, Kuusamo y Rovaniemi, según las estadísticas del Instituto Meteorológico de Finlandia para 1991–2020. La nieve alcanza su mayor espesor de mediados de marzo a principios de abril. Se derrite en mayo, y en el extremo norte de Laponia la capa de nieve dura hasta finales de mayo."
+      "text": "En la Laponia finlandesa la primera capa de nieve llega por lo general en octubre, la nieve alcanza su mayor espesor de mediados de marzo a principios de abril y se derrite en mayo. Las cifras proceden de las estadísticas del Instituto Meteorológico de Finlandia para 1991–2020."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "La nieve en Laponia, en breve",
+      "items": [
+        "Primera capa de nieve en el norte: hacia el 9 y el 10 de octubre",
+        "Primera capa de nieve en Sodankylä, Kuusamo y Rovaniemi: entre el 18 y el 21 de octubre",
+        "Mayor espesor de nieve: de mediados de marzo a principios de abril",
+        "Deshielo: en mayo, y en el extremo norte de Laponia la capa de nieve dura hasta finales de mayo"
+      ]
     },
     {
       "t": "h2",
@@ -19,7 +30,8 @@
       "text": "El instituto registra la primera capa de nieve en la mañana en que una estación meteorológica mide por primera vez al menos 1 cm de nieve. Fechas típicas para 1991–2020, con la más temprana y la más tardía desde 1961:"
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "facts-ensilumi",
       "items": [
         "Kittilä (Pokka, al norte de Levi): 9 de octubre. La más temprana, el 12 de septiembre de 1973; la más tardía, el 1 de noviembre de 1987.",
         "Utsjoki (Kevo): 10 de octubre. La más temprana, el 18 de septiembre de 1993; la más tardía, el 4 de noviembre de 1987.",
@@ -41,7 +53,8 @@
       "text": "Los espesores siguientes son las medianas del instituto para el día 15 de cada mes en 1991–2020 en dos estaciones: Sodankylä, en la Laponia central, y Utsjoki Kevo, en el extremo norte. Describen la región, no una pista o un sendero concretos."
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "bars-kuukaudet",
       "items": [
         "Septiembre: las primeras nevadas caen sobre las cumbres de los fjäll, por lo general en agosto o septiembre, y se derriten.",
         "Octubre: la primera capa de nieve llega a toda Laponia y a menudo se derrite de nuevo.",
@@ -75,7 +88,8 @@
       "text": "Qué significa esto para elegir la fecha del viaje"
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "facts-ajoitus",
       "items": [
         "Viaje de Navidad: la nieve en el suelo es casi segura en diciembre.",
         "Esquí y motos de nieve: de febrero a mediados de abril, las medianas de mediados de mes en las dos estaciones están entre 59 y 77 cm.",

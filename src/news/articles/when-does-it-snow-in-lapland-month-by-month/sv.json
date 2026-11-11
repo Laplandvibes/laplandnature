@@ -8,7 +8,18 @@
   "body": [
     {
       "t": "p",
-      "text": "I finska Lappland kommer det första snötäcket vanligen i oktober: omkring 9 och 10 oktober i regionens norra del och mellan 18 och 21 oktober i Sodankylä, Kuusamo och Rovaniemi, enligt Meteorologiska institutets statistik för 1991–2020. Snön är som djupast från mitten av mars till början av april. Den smälter i maj, och i nordligaste Lappland ligger snötäcket kvar till slutet av maj."
+      "text": "I finska Lappland kommer det första snötäcket vanligen i oktober, snön är som djupast från mitten av mars till början av april och den smälter i maj. Siffrorna kommer från Meteorologiska institutets statistik för 1991–2020."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "Snön i Lappland i korthet",
+      "items": [
+        "Första snötäcket i norr: omkring 9 och 10 oktober",
+        "Första snötäcket i Sodankylä, Kuusamo och Rovaniemi: mellan 18 och 21 oktober",
+        "Djupast snö: från mitten av mars till början av april",
+        "Snön smälter: i maj, och i nordligaste Lappland ligger snötäcket kvar till slutet av maj"
+      ]
     },
     {
       "t": "h2",
@@ -19,7 +30,8 @@
       "text": "Institutet noterar det första snötäcket på morgonen då en väderstation för första gången mäter minst 1 cm snö. Typiska datum för 1991–2020, med tidigaste och senaste datum sedan 1961:"
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "facts-ensilumi",
       "items": [
         "Kittilä (Pokka, norr om Levi): 9 oktober. Tidigast 12 september 1973, senast 1 november 1987.",
         "Utsjoki (Kevo): 10 oktober. Tidigast 18 september 1993, senast 4 november 1987.",
@@ -41,7 +53,8 @@
       "text": "Snödjupen nedan är institutets medianvärden för den 15:e i varje månad 1991–2020 vid två stationer: Sodankylä i centrala Lappland och Utsjoki Kevo längst i norr. De beskriver regionen, inte en enskild backe eller led."
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "bars-kuukaudet",
       "items": [
         "September: de första snöfallen landar på fjälltopparna, vanligen i augusti eller september, och smälter.",
         "Oktober: det första snötäcket kommer över hela Lappland och smälter ofta bort igen.",
@@ -75,7 +88,8 @@
       "text": "Vad detta betyder för resans tidpunkt"
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "facts-ajoitus",
       "items": [
         "Julresa: snö på marken är så gott som säker i december.",
         "Skidåkning och snöskoter: från februari till mitten av april ligger medianvärdena för mitten av månaden vid de två stationerna mellan 59 och 77 cm.",

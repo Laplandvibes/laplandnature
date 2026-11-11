@@ -22,6 +22,7 @@ import SEO from '../components/SEO'
 import { useLang, useLocalePath } from '../i18n/useLang'
 import { COPY } from '../locales/copy'
 import type { NewsBlock, NewsMeta } from './types'
+import { renderFactsEmbed } from './factsEmbeds'
 import { FenceFigure } from './embeds'
 import './news.css'
 
@@ -100,6 +101,8 @@ export function useNewsHead(m: {
 }
 
 export function renderEmbed(block: Extract<NewsBlock, { t: 'embed' }>, meta: NewsMeta): ReactNode {
+  const facts = renderFactsEmbed(block, meta)
+  if (facts) return facts
   const cfg = meta.embeds?.[block.id]
   if (!cfg) return null
   if (cfg.type === 'fence') return <FenceFigure config={cfg} block={block} />

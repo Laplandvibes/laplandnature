@@ -8,7 +8,18 @@
   "body": [
     {
       "t": "p",
-      "text": "In Finnish Lapland the first snow cover typically arrives in October: around 9 and 10 October in the north of the region and between 18 and 21 October in Sodankylä, Kuusamo and Rovaniemi, according to the Finnish Meteorological Institute's statistics for 1991–2020. The snow is at its deepest from mid-March to early April. It melts in May, and in northernmost Lapland the snow cover lasts until the end of May."
+      "text": "In Finnish Lapland the first snow cover typically arrives in October, the snow is at its deepest from mid-March to early April, and it melts in May. The figures come from the Finnish Meteorological Institute's statistics for 1991–2020."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "Snow in Lapland in brief",
+      "items": [
+        "First snow cover in the north: around 9 and 10 October",
+        "First snow cover in Sodankylä, Kuusamo and Rovaniemi: between 18 and 21 October",
+        "Deepest snow: from mid-March to early April",
+        "Snow melts: in May, and in northernmost Lapland the snow cover lasts until the end of May"
+      ]
     },
     {
       "t": "h2",
@@ -19,7 +30,8 @@
       "text": "The institute records the first snow cover on the morning a weather station first measures at least 1 cm of snow. Typical dates for 1991–2020, with the earliest and latest since 1961:"
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "facts-ensilumi",
       "items": [
         "Kittilä (Pokka, north of Levi): 9 October. Earliest 12 September 1973, latest 1 November 1987.",
         "Utsjoki (Kevo): 10 October. Earliest 18 September 1993, latest 4 November 1987.",
@@ -41,7 +53,8 @@
       "text": "The depths below are the institute's medians for the 15th of each month in 1991–2020 at two stations: Sodankylä in Central Lapland and Utsjoki Kevo in the far north. They describe the region, not one slope or trail."
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "bars-kuukaudet",
       "items": [
         "September: the first snowfalls land on the fell tops, usually in August or September, and melt.",
         "October: the first snow cover arrives across Lapland and often melts again.",
@@ -75,7 +88,8 @@
       "text": "What this means for timing a trip"
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "facts-ajoitus",
       "items": [
         "Christmas trip: snow on the ground is as good as certain in December.",
         "Skiing and snowmobiling: from February to mid-April the mid-month medians at the two stations are between 59 and 77 cm.",

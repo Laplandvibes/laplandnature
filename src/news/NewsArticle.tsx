@@ -96,11 +96,6 @@ function ArticleView({ meta }: { meta: NewsMeta }) {
             />
           </picture>
           <div className="nw-art-scrim" aria-hidden="true" />
-          {/* Kuvaaja + lisenssi kuvan oikeaan alakulmaan, kuten sivuston muissa kuvissa (PhotoCredit). */}
-          <p className="nw-art-credit">
-            {labelPrefix(ui.ui.photo, lang)}<a href={credit.sourceUrl} target="_blank" rel="noopener">{credit.author} / {credit.sourceName}</a>,{' '}
-            <a href={credit.licenseUrl} target="_blank" rel="noopener license">{credit.license}</a>
-          </p>
         </div>
         <div className="wrap nw-narrow nw-art-body">
           <nav className="crumbs" aria-label="Breadcrumb">
@@ -135,7 +130,14 @@ function ArticleView({ meta }: { meta: NewsMeta }) {
           </p>
           {/* Vesa 6.11.2026 (laplandchristmas): "miksi lähteet pitää olla ekana eikä artikkelin lopussa pohjalla": lähdeluettelo
               on vain jutun lopussa (nw-sources); alussa kirjoittaja, päivät, kuvateksti ja jakonappi. */}
-          {text.heroCaption && <p className="nw-art-cap">{text.heroCaption}</p>}
+          {/* Vesa 11.11.2026: "kamala kun on kamaa kuvan päällä": kuvaaja ja lisenssi kuvatekstin perään, ei kuvan päälle. */}
+          <p className="nw-art-cap">
+            {text.heroCaption && <span>{text.heroCaption} </span>}
+            <span className="nw-art-credit-line">
+              {labelPrefix(ui.ui.photo, lang)}<a href={credit.sourceUrl} target="_blank" rel="noopener">{credit.author} / {credit.sourceName}</a>,{' '}
+                          <a href={credit.licenseUrl} target="_blank" rel="noopener license">{credit.license}</a>
+            </span>
+          </p>
           {/* Jaa-nappi tekijärivin alle omalle rivilleen ja jako jutun loppuun (Vesa 24.10.2026). */}
           <ShareButton lang={lang} title={text.title} excerpt={text.dek} tone="light" className="mt-4" />
         </header>

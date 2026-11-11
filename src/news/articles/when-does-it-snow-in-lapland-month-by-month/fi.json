@@ -8,7 +8,18 @@
   "body": [
     {
       "t": "p",
-      "text": "Ensimmäinen lumipeite tulee Lappiin tyypillisesti lokakuussa: alueen pohjoisosaan 9. ja 10. lokakuuta tienoilla ja Sodankylään, Kuusamoon ja Rovaniemelle 18. ja 21. lokakuuta välillä, kertovat Ilmatieteen laitoksen tilastot vertailukaudelta 1991–2020. Lunta on eniten maaliskuun puolivälistä huhtikuun alkuun. Lumi sulaa toukokuussa, ja pohjoisimmassa Lapissa lumipeite viipyy toukokuun loppuun asti."
+      "text": "Ensimmäinen lumipeite tulee Lappiin tyypillisesti lokakuussa, lunta on eniten maaliskuun puolivälistä huhtikuun alkuun ja lumi sulaa toukokuussa. Luvut ovat Ilmatieteen laitoksen tilastoista vertailukaudelta 1991–2020."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "Lumi Lapissa lyhyesti",
+      "items": [
+        "Ensimmäinen lumipeite pohjoisessa: 9. ja 10. lokakuuta tienoilla",
+        "Ensimmäinen lumipeite Sodankylässä, Kuusamossa ja Rovaniemellä: 18. ja 21. lokakuuta välillä",
+        "Eniten lunta: maaliskuun puolivälistä huhtikuun alkuun",
+        "Lumi sulaa: toukokuussa, ja pohjoisimmassa Lapissa lumipeite viipyy toukokuun loppuun asti"
+      ]
     },
     {
       "t": "h2",
@@ -19,7 +30,8 @@
       "text": "Ilmatieteen laitos kirjaa ensimmäisen lumipeitteen sinä aamuna, jona sääasemalla mitataan ensimmäisen kerran vähintään 1 cm lunta. Alla ovat tyypilliset päivät vertailukaudelta 1991–2020 sekä aikaisin ja myöhäisin päivä vuodesta 1961 lähtien."
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "facts-ensilumi",
       "items": [
         "Kittilä (Pokka, Levin pohjoispuolella): 9. lokakuuta. Aikaisin 12. syyskuuta 1973, myöhäisin 1. marraskuuta 1987.",
         "Utsjoki (Kevo): 10. lokakuuta. Aikaisin 18. syyskuuta 1993, myöhäisin 4. marraskuuta 1987.",
@@ -41,7 +53,8 @@
       "text": "Alla olevat lumensyvyydet ovat Ilmatieteen laitoksen mediaaneja kunkin kuukauden 15. päivältä vertailukaudella 1991–2020 kahdelta asemalta: Sodankylästä Keski-Lapista ja Utsjoen Kevolta pohjoisimmasta Lapista. Ne kertovat alueen tason, eivät yhden rinteen tai reitin tilannetta."
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "bars-kuukaudet",
       "items": [
         "Syyskuu: ensimmäiset lumisateet tulevat tunturien huipuille, tavallisesti elo-syyskuussa, ja sulavat pois.",
         "Lokakuu: ensimmäinen lumipeite tulee koko Lappiin ja sulaa usein pois.",
@@ -75,7 +88,8 @@
       "text": "Mitä tämä tarkoittaa matkan ajoitukselle"
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "facts-ajoitus",
       "items": [
         "Joulumatka: joulukuussa lunta on maassa käytännössä varmasti.",
         "Hiihto ja kelkkailu: helmikuusta huhtikuun puoliväliin kuun puolivälin mediaanit ovat näillä kahdella asemalla 59 ja 77 cm:n välillä.",

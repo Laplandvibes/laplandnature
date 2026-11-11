@@ -8,7 +8,18 @@
   "body": [
     {
       "t": "p",
-      "text": "In Fins Lapland komt het eerste sneeuwdek doorgaans in oktober: rond 9 en 10 oktober in het noorden van de regio en tussen 18 en 21 oktober in Sodankylä, Kuusamo en Rovaniemi, volgens de statistieken van het Fins Meteorologisch Instituut voor 1991–2020. De sneeuw ligt het hoogst van half maart tot begin april. In mei smelt hij, en in het uiterste noorden van Lapland blijft het sneeuwdek tot eind mei liggen."
+      "text": "In Fins Lapland komt het eerste sneeuwdek doorgaans in oktober, ligt de sneeuw het hoogst van half maart tot begin april en smelt hij in mei. De cijfers komen uit de statistieken van het Fins Meteorologisch Instituut voor 1991–2020."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "Sneeuw in Lapland in het kort",
+      "items": [
+        "Eerste sneeuwdek in het noorden: rond 9 en 10 oktober",
+        "Eerste sneeuwdek in Sodankylä, Kuusamo en Rovaniemi: tussen 18 en 21 oktober",
+        "Meeste sneeuw: van half maart tot begin april",
+        "Sneeuw smelt: in mei, en in het uiterste noorden van Lapland blijft het sneeuwdek tot eind mei liggen"
+      ]
     },
     {
       "t": "h2",
@@ -19,7 +30,8 @@
       "text": "Het instituut noteert het eerste sneeuwdek op de ochtend waarop een weerstation voor het eerst minstens 1 cm sneeuw meet. Typische data voor 1991–2020, met de vroegste en laatste datum sinds 1961:"
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "facts-ensilumi",
       "items": [
         "Kittilä (Pokka, ten noorden van Levi): 9 oktober. Vroegst 12 september 1973, laatst 1 november 1987.",
         "Utsjoki (Kevo): 10 oktober. Vroegst 18 september 1993, laatst 4 november 1987.",
@@ -41,7 +53,8 @@
       "text": "De sneeuwdiktes hieronder zijn de medianen van het instituut voor de 15e van elke maand in 1991–2020 bij twee stations: Sodankylä in Midden-Lapland en Utsjoki Kevo in het uiterste noorden. Ze beschrijven de regio, niet één helling of route."
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "bars-kuukaudet",
       "items": [
         "September: de eerste sneeuwval valt op de fjälltoppen, meestal in augustus of september, en smelt weg.",
         "Oktober: het eerste sneeuwdek komt over heel Lapland en smelt vaak weer weg.",
@@ -75,7 +88,8 @@
       "text": "Wat dit betekent voor het kiezen van het reismoment"
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "facts-ajoitus",
       "items": [
         "Kerstreis: sneeuw op de grond is in december bijna zeker.",
         "Skiën en sneeuwscooterrijden: van februari tot half april liggen de medianen van halverwege de maand bij de twee stations tussen 59 en 77 cm.",

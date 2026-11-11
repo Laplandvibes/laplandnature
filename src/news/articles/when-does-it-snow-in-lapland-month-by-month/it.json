@@ -8,7 +8,18 @@
   "body": [
     {
       "t": "p",
-      "text": "Nella Lapponia finlandese il primo manto nevoso arriva di solito a ottobre: intorno al 9 e al 10 ottobre nella parte settentrionale della regione e tra il 18 e il 21 ottobre a Sodankylä, Kuusamo e Rovaniemi, secondo le statistiche dell'Istituto meteorologico finlandese per il 1991–2020. La neve è al massimo da metà marzo a inizio aprile. Si scioglie a maggio, e nell'estremo nord della Lapponia il manto nevoso dura fino a fine maggio."
+      "text": "Nella Lapponia finlandese il primo manto nevoso arriva di solito a ottobre, la neve è al massimo da metà marzo a inizio aprile e si scioglie a maggio. I dati provengono dalle statistiche dell'Istituto meteorologico finlandese per il 1991–2020."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "La neve in Lapponia in breve",
+      "items": [
+        "Primo manto nevoso nel nord: intorno al 9 e al 10 ottobre",
+        "Primo manto nevoso a Sodankylä, Kuusamo e Rovaniemi: tra il 18 e il 21 ottobre",
+        "Neve al massimo: da metà marzo a inizio aprile",
+        "Scioglimento della neve: a maggio, e nell'estremo nord della Lapponia il manto nevoso dura fino a fine maggio"
+      ]
     },
     {
       "t": "h2",
@@ -19,7 +30,8 @@
       "text": "L'istituto registra il primo manto nevoso la mattina in cui una stazione meteorologica misura per la prima volta almeno 1 cm di neve. Date tipiche per il 1991–2020, con la più precoce e la più tardiva dal 1961:"
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "facts-ensilumi",
       "items": [
         "Kittilä (Pokka, a nord di Levi): 9 ottobre. Al più presto il 12 settembre 1973, al più tardi il 1° novembre 1987.",
         "Utsjoki (Kevo): 10 ottobre. Al più presto il 18 settembre 1993, al più tardi il 4 novembre 1987.",
@@ -41,7 +53,8 @@
       "text": "Gli spessori qui sotto sono le mediane dell'istituto per il 15 di ogni mese nel 1991–2020 in due stazioni: Sodankylä, nella Lapponia centrale, e Utsjoki Kevo, nell'estremo nord. Descrivono la regione, non un singolo pendio o sentiero."
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "bars-kuukaudet",
       "items": [
         "Settembre: le prime nevicate cadono sulle cime dei fjäll, di solito ad agosto o settembre, e si sciolgono.",
         "Ottobre: il primo manto nevoso arriva in tutta la Lapponia e spesso si scioglie di nuovo.",
@@ -75,7 +88,8 @@
       "text": "Cosa significa per la scelta del periodo di viaggio"
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "facts-ajoitus",
       "items": [
         "Viaggio di Natale: la neve al suolo è praticamente certa a dicembre.",
         "Sci e motoslitta: da febbraio a metà aprile le mediane di metà mese nelle due stazioni sono tra 59 e 77 cm.",

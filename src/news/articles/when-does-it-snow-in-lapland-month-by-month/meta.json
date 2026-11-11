@@ -134,5 +134,100 @@
   "ogCard": {
     "line": "When does it snow in Lapland?",
     "focus": "50% 50%"
+  },
+  "embeds": {
+    "facts-ensilumi": {
+      "kind": "facts"
+    },
+    "bars-kuukaudet": {
+      "kind": "bars",
+      "unit": "cm",
+      "max": 80,
+      "values": [
+        null,
+        null,
+        [
+          13,
+          15
+        ],
+        [
+          33,
+          30
+        ],
+        [
+          53,
+          46
+        ],
+        [
+          68,
+          59
+        ],
+        [
+          77,
+          64
+        ],
+        [
+          70,
+          60
+        ],
+        null
+      ],
+      "legend": {
+        "en": [
+          "Sodankylä",
+          "Utsjoki"
+        ],
+        "fi": [
+          "Sodankylä",
+          "Utsjoki"
+        ],
+        "sv": [
+          "Sodankylä",
+          "Utsjoki"
+        ],
+        "de": [
+          "Sodankylä",
+          "Utsjoki"
+        ],
+        "fr": [
+          "Sodankylä",
+          "Utsjoki"
+        ],
+        "it": [
+          "Sodankylä",
+          "Utsjoki"
+        ],
+        "nl": [
+          "Sodankylä",
+          "Utsjoki"
+        ],
+        "es": [
+          "Sodankylä",
+          "Utsjoki"
+        ],
+        "pt-BR": [
+          "Sodankylä",
+          "Utsjoki"
+        ],
+        "ja": [
+          "ソダンキュラ",
+          "ウツヨキ"
+        ],
+        "ko": [
+          "소단퀼래",
+          "우츠요키"
+        ],
+        "zh-CN": [
+          "索丹屈莱",
+          "乌茨约基"
+        ]
+      }
+    },
+    "facts-ajoitus": {
+      "kind": "facts"
+    },
+    "facts-lyhyesti": {
+      "kind": "facts"
+    }
   }
 }

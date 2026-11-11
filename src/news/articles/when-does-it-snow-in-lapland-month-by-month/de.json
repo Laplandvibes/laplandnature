@@ -8,7 +8,18 @@
   "body": [
     {
       "t": "p",
-      "text": "In Finnisch-Lappland kommt die erste Schneedecke typischerweise im Oktober: im Norden der Region um den 9. und 10. Oktober, in Sodankylä, Kuusamo und Rovaniemi zwischen dem 18. und 21. Oktober, laut der Statistik des Finnischen Meteorologischen Instituts für 1991–2020. Am höchsten liegt der Schnee von Mitte März bis Anfang April. Im Mai schmilzt er, und im äußersten Norden Lapplands hält sich die Schneedecke bis Ende Mai."
+      "text": "In Finnisch-Lappland kommt die erste Schneedecke typischerweise im Oktober, am höchsten liegt der Schnee von Mitte März bis Anfang April, und im Mai schmilzt er. Die Zahlen stammen aus der Statistik des Finnischen Meteorologischen Instituts für 1991–2020."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "Schnee in Lappland in Kürze",
+      "items": [
+        "Erste Schneedecke im Norden: um den 9. und 10. Oktober",
+        "Erste Schneedecke in Sodankylä, Kuusamo und Rovaniemi: zwischen dem 18. und 21. Oktober",
+        "Höchste Schneedecke: von Mitte März bis Anfang April",
+        "Schneeschmelze: im Mai, und im äußersten Norden Lapplands hält sich die Schneedecke bis Ende Mai"
+      ]
     },
     {
       "t": "h2",
@@ -19,7 +30,8 @@
       "text": "Das Institut verzeichnet die erste Schneedecke an dem Morgen, an dem eine Wetterstation erstmals mindestens 1 cm Schnee misst. Typische Daten für 1991–2020, mit dem frühesten und spätesten Datum seit 1961:"
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "facts-ensilumi",
       "items": [
         "Kittilä (Pokka, nördlich von Levi): 9. Oktober. Frühestens 12. September 1973, spätestens 1. November 1987.",
         "Utsjoki (Kevo): 10. Oktober. Frühestens 18. September 1993, spätestens 4. November 1987.",
@@ -41,7 +53,8 @@
       "text": "Die folgenden Schneehöhen sind die Medianwerte des Instituts für den 15. jedes Monats in 1991–2020 an zwei Stationen: Sodankylä in Zentrallappland und Utsjoki Kevo im äußersten Norden. Sie beschreiben die Region, nicht einen einzelnen Hang oder eine einzelne Loipe."
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "bars-kuukaudet",
       "items": [
         "September: Die ersten Schneefälle erreichen die Fjällgipfel, meist im August oder September, und schmelzen wieder.",
         "Oktober: Die erste Schneedecke kommt in ganz Lappland und schmilzt oft wieder.",
@@ -75,7 +88,8 @@
       "text": "Was das für die Reisezeit bedeutet"
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "facts-ajoitus",
       "items": [
         "Weihnachtsreise: Schnee am Boden ist im Dezember so gut wie sicher.",
         "Skifahren und Schneemobilfahren: Von Februar bis Mitte April liegen die Medianwerte der Monatsmitte an den beiden Stationen zwischen 59 und 77 cm.",
