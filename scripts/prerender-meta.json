@@ -1805,6 +1805,56 @@
       "description": "Haparanda kommun har satt upp radarsensorer längs Torne älv. Mätvärdena visas i realtid på nätet och ska varna tidigt för översvämningsrisk, särskilt på våren."
     }
   },
+  "/news/when-does-it-snow-in-lapland-month-by-month": {
+    "en": {
+      "title": "When does it snow in Lapland? Snow month by month",
+      "description": "Snow in Lapland: the first snow cover typically comes in October, the snow is deepest in March and April, and it melts in May. Station figures for each month."
+    },
+    "fi": {
+      "title": "Milloin Lapissa on lunta? Lumitilanne kuukausittain",
+      "description": "Milloin Lappiin tulee lumi? Ensilumi tulee tyypillisesti lokakuussa, lunta on eniten maalis-huhtikuussa ja se sulaa toukokuussa. Luvut kuukausittain."
+    },
+    "de": {
+      "title": "Schnee in Lappland: wann und wie viel, Monat für Monat",
+      "description": "Wann liegt Schnee in Lappland? Die erste Schneedecke kommt meist im Oktober, am meisten Schnee liegt im März und April, im Mai schmilzt er. Werte je Monat."
+    },
+    "ja": {
+      "title": "フィンランド・ラップランドの雪はいつから？月別",
+      "description": "フィンランドで雪が積もり始めるのは、ラップランドではふつう10月ごろ。積雪が最も深いのは3月から4月で、5月に解けます。観測所の数値を月ごとにまとめました。"
+    },
+    "es": {
+      "title": "Cuándo nieva en Laponia: la nieve mes a mes",
+      "description": "Nieve en Laponia: la primera capa de nieve llega por lo general en octubre, el espesor máximo se da en marzo y abril, y se derrite en mayo. Datos mes a mes."
+    },
+    "pt-BR": {
+      "title": "Neve na Lapônia: quando cai e quanta, mês a mês",
+      "description": "Neve na Lapônia: a primeira cobertura de neve costuma chegar em outubro, a neve é mais alta em março e abril e derrete em maio. Valores mês a mês."
+    },
+    "zh-CN": {
+      "title": "芬兰拉普兰几月下雪？按月看积雪",
+      "description": "芬兰下雪的时间因地而异：拉普兰通常10月前后开始积雪，3月至4月积雪最深，5月融化。按月列出索丹屈莱和乌茨约基两个观测站每月中旬的积雪深度。"
+    },
+    "ko": {
+      "title": "핀란드 라플란드 눈 언제부터? 월별 정리",
+      "description": "핀란드 라플란드는 보통 10월에 눈이 쌓이기 시작해 3월과 4월에 가장 깊고 5월에 녹습니다. 관측소 수치를 월별로 정리했습니다."
+    },
+    "fr": {
+      "title": "Neige en Laponie : quand et combien, mois par mois",
+      "description": "Neige en Laponie : le premier manteau neigeux arrive en général en octobre, l'épaisseur maximale en mars et avril, la fonte en mai. Chiffres mois par mois."
+    },
+    "it": {
+      "title": "Neve in Lapponia: quando e quanta, mese per mese",
+      "description": "Neve in Lapponia: il primo manto nevoso arriva di solito a ottobre, la neve è più alta a marzo e aprile e si scioglie a maggio. Valori mese per mese."
+    },
+    "nl": {
+      "title": "Sneeuw in Lapland: wanneer en hoeveel, maand voor maand",
+      "description": "Sneeuw in Lapland: het eerste sneeuwdek komt meestal in oktober, de sneeuw ligt het hoogst in maart en april en smelt in mei. Cijfers per maand."
+    },
+    "sv": {
+      "title": "Snö i finska Lappland: när och hur mycket per månad",
+      "description": "Snö i finska Lappland: det första snötäcket kommer vanligen i oktober, snön är djupast i mars och april och smälter i maj. Stationsvärden för varje månad."
+    }
+  },
   "/news/wilderness-huts-tour-groups-metsahallitus": {
     "en": {
       "title": "Open wilderness huts in Finland: rules for hikers and groups",

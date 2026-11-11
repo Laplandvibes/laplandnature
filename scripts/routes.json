@@ -102,6 +102,22 @@
     }
   },
   {
+    "path": "/news/when-does-it-snow-in-lapland-month-by-month",
+    "fallbackTitle": "When does it snow in Lapland? Snow month by month",
+    "fallbackDescription": "Snow in Lapland: the first snow cover typically comes in October, the snow is deepest in March and April, and it melts in May. Station figures for each month.",
+    "ogImage": "/og/news-when-does-it-snow-in-lapland-month-by-month.jpg",
+    "ogCard": {
+      "hero": "/images/news/lapland-crown-snow-january-1600.webp",
+      "line": "When does it snow in Lapland?",
+      "focus": "50% 50%"
+    },
+    "harvestRecord": {
+      "file": "node_modules/.cache/lv-news/when-does-it-snow-in-lapland-month-by-month/{lang}.json",
+      "key": "when-does-it-snow-in-lapland-month-by-month",
+      "mode": "jsonFile"
+    }
+  },
+  {
     "path": "/news/metsahallitus-fishing-lease-waters-lapland",
     "fallbackTitle": "State ponds listed for fishing leases in Lapland",
     "fallbackDescription": "Metsähallitus has published its first public list of state waters open for fishing leases, including ponds in Posio, Rovaniemi, Salla and Kemijärvi.",

@@ -889,5 +889,86 @@
         "samaKuinKesa": true
       }
     }
+  },
+  "news-when-does-it-snow-in-lapland-month-by-month": {
+    "route": "/news/when-does-it-snow-in-lapland-month-by-month",
+    "line": "When does it snow in Lapland?",
+    "kaudet": {
+      "summer": {
+        "hero": "/images/news/lapland-crown-snow-january-1600.webp",
+        "bytes": 91020,
+        "sha256": "8d83d9c14ec259150161d0c84116e6653d36977b4760ddde902872418e7d526e",
+        "heroSha": "ad91c99ca5e70a4c",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 16496,
+        "inkBox": [
+          384,
+          494,
+          815,
+          603
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 82.4,
+        "centerSq": 81.8,
+        "photoRegion": 98.9,
+        "photoRegionRef": 98.9,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 433,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": []
+      },
+      "winter": {
+        "hero": "/images/news/lapland-crown-snow-january-1600.webp",
+        "bytes": 91020,
+        "sha256": "8d83d9c14ec259150161d0c84116e6653d36977b4760ddde902872418e7d526e",
+        "heroSha": "ad91c99ca5e70a4c",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 16496,
+        "inkBox": [
+          384,
+          494,
+          815,
+          603
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 82.4,
+        "centerSq": 81.8,
+        "photoRegion": 98.9,
+        "photoRegionRef": 98.9,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 433,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": [],
+        "samaKuinKesa": true
+      }
+    }
   }
 }

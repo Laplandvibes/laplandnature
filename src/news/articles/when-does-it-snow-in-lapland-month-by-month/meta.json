@@ -1,0 +1,138 @@
+{
+  "slug": "when-does-it-snow-in-lapland-month-by-month",
+  "date": "2026-11-11",
+  "hero": {
+    "src": "/images/news/lapland-crown-snow-january-1600.webp",
+    "srcSmall": "/images/news/lapland-crown-snow-january-800.webp",
+    "srcLarge": "/images/news/lapland-crown-snow-january-2400.webp",
+    "avif": {
+      "small": "/images/news/lapland-crown-snow-january-800.avif",
+      "src": "/images/news/lapland-crown-snow-january-1600.avif",
+      "large": "/images/news/lapland-crown-snow-january-2400.avif"
+    },
+    "width": 1600,
+    "height": 1071,
+    "position": "50% 50%",
+    "credit": {
+      "author": "Tatiana Bashinskaya",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lapland,_Finland_-_panoramio_(2).jpg",
+      "assetId": "File:Lapland, Finland - panoramio (2).jpg",
+      "sourceName": "Wikimedia Commons",
+      "taken": "2012-01-05",
+      "retrieved": "2026-11-11"
+    }
+  },
+  "sources": [
+    {
+      "publisher": "Ilmatieteen laitos",
+      "title": "Lumitilastot",
+      "lang": "fi",
+      "url": "https://www.ilmatieteenlaitos.fi/lumitilastot",
+      "read": "2026-11-11"
+    },
+    {
+      "publisher": "Finnish Meteorological Institute",
+      "title": "Snow statistics",
+      "lang": "en",
+      "url": "https://en.ilmatieteenlaitos.fi/snow-statistics",
+      "read": "2026-11-11"
+    },
+    {
+      "publisher": "Finnish Meteorological Institute",
+      "title": "Seasons in Finland",
+      "lang": "en",
+      "url": "https://en.ilmatieteenlaitos.fi/seasons-in-finland",
+      "read": "2026-11-11"
+    },
+    {
+      "publisher": "Finnish Meteorological Institute",
+      "title": "Probability of a white Christmas in Finland",
+      "lang": "en",
+      "url": "https://en.ilmatieteenlaitos.fi/christmas-weather",
+      "read": "2026-11-11"
+    },
+    {
+      "publisher": "Ilmatieteen laitos",
+      "title": "Marraskuun säätilastot",
+      "lang": "fi",
+      "url": "https://www.ilmatieteenlaitos.fi/marraskuu",
+      "read": "2026-11-11"
+    },
+    {
+      "publisher": "Ilmatieteen laitos",
+      "title": "Joulukuun säätilastot",
+      "lang": "fi",
+      "url": "https://www.ilmatieteenlaitos.fi/joulukuu",
+      "read": "2026-11-11"
+    },
+    {
+      "publisher": "Ilmatieteen laitos",
+      "title": "Tammikuun säätilastot",
+      "lang": "fi",
+      "url": "https://www.ilmatieteenlaitos.fi/tammikuu",
+      "read": "2026-11-11"
+    },
+    {
+      "publisher": "Ilmatieteen laitos",
+      "title": "Helmikuun säätilastot",
+      "lang": "fi",
+      "url": "https://www.ilmatieteenlaitos.fi/helmikuu",
+      "read": "2026-11-11"
+    },
+    {
+      "publisher": "Ilmatieteen laitos",
+      "title": "Maaliskuun säätilastot",
+      "lang": "fi",
+      "url": "https://www.ilmatieteenlaitos.fi/maaliskuu",
+      "read": "2026-11-11"
+    },
+    {
+      "publisher": "Ilmatieteen laitos",
+      "title": "Huhtikuun säätilastot",
+      "lang": "fi",
+      "url": "https://www.ilmatieteenlaitos.fi/huhtikuu",
+      "read": "2026-11-11"
+    },
+    {
+      "publisher": "Ilmatieteen laitos",
+      "title": "Toukokuun säätilastot",
+      "lang": "fi",
+      "url": "https://www.ilmatieteenlaitos.fi/toukokuu",
+      "read": "2026-11-11"
+    },
+    {
+      "publisher": "Ilmatieteen laitos",
+      "title": "Lumiennätyksiä",
+      "lang": "fi",
+      "url": "https://www.ilmatieteenlaitos.fi/lumiennatyksia",
+      "read": "2026-11-11"
+    },
+    {
+      "publisher": "Ilmatieteen laitos",
+      "title": "Kevätsään tilastot",
+      "lang": "fi",
+      "url": "https://www.ilmatieteenlaitos.fi/kevattilastot",
+      "read": "2026-11-11"
+    },
+    {
+      "publisher": "Ilmatieteen laitos",
+      "title": "Lokakuu oli Suomessa laajalti poikkeuksellisen lämmin",
+      "lang": "fi",
+      "url": "https://www.sttinfo.fi/tiedote/72464660/lokakuu-oli-suomessa-laajalti-poikkeuksellisen-lammin?publisherId=69820042",
+      "date": "2026-11-02"
+    },
+    {
+      "publisher": "Ilmatieteen laitos",
+      "title": "Sää muuttuu talvisemmaksi koko maassa",
+      "lang": "fi",
+      "url": "https://www.sttinfo.fi/tiedote/72487437/saa-muuttuu-talvisemmaksi-koko-maassa?publisherId=69820042",
+      "date": "2026-11-09"
+    }
+  ],
+  "ogCard": {
+    "line": "When does it snow in Lapland?",
+    "focus": "50% 50%"
+  }
+}
