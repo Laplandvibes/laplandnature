@@ -102,6 +102,22 @@
     }
   },
   {
+    "path": "/news/metsahallitus-visitor-centre-service-ends-lapland",
+    "fallbackTitle": "Lapland visitor centres lose Metsähallitus service",
+    "fallbackDescription": "Metsähallitus ended its own customer service at Kellokas, Hetta, Siida and Naava on 11 November 2026. What is still open, and where to get permits now.",
+    "ogImage": "/og/news-metsahallitus-visitor-centre-service-ends-lapland.jpg",
+    "ogCard": {
+      "hero": "/images/news/metsahallitus-siida-service-point-inari-october-1600.webp",
+      "line": "Lapland visitor centres: service ends",
+      "focus": "50% 40%"
+    },
+    "harvestRecord": {
+      "file": "node_modules/.cache/lv-news/metsahallitus-visitor-centre-service-ends-lapland/{lang}.json",
+      "key": "metsahallitus-visitor-centre-service-ends-lapland",
+      "mode": "jsonFile"
+    }
+  },
+  {
     "path": "/news/when-does-it-snow-in-lapland-month-by-month",
     "fallbackTitle": "When does it snow in Lapland? Snow month by month",
     "fallbackDescription": "Snow in Lapland: the first snow cover typically comes in October, the snow is deepest in March and April, and it melts in May. Station figures for each month.",

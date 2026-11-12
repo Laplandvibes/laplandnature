@@ -1655,6 +1655,56 @@
       "description": "Forststyrelsen har publicerat sin första lista över statliga vatten som går att arrendera för fiske, med tjärnar i Posio, Rovaniemi, Salla och Kemijärvi."
     }
   },
+  "/news/metsahallitus-visitor-centre-service-ends-lapland": {
+    "en": {
+      "title": "Lapland visitor centres lose Metsähallitus service",
+      "description": "Metsähallitus ended its own customer service at Kellokas, Hetta, Siida and Naava on 11 November 2026. What is still open, and where to get permits now."
+    },
+    "fi": {
+      "title": "Luontokeskusten asiakaspalvelu päättyi neljästä kohteesta",
+      "description": "Metsähallituksen oma asiakaspalvelu päättyi Kellokkaassa, Hetassa, Siidassa ja Naavassa 11.11.2026. Mikä on yhä auki ja mistä luvat saa nyt."
+    },
+    "de": {
+      "title": "Lappland: Besucherzentren ohne Metsähallitus-Service",
+      "description": "Metsähallitus beendete seinen eigenen Kundendienst in Kellokas, Hetta, Siida und Naava am 11. November 2026. Was offen bleibt und wo es Genehmigungen gibt."
+    },
+    "ja": {
+      "title": "ラップランドのビジターセンター、窓口業務が終了",
+      "description": "メッツァハッリトゥスは2026年11月11日、Kellokas、ヘッタ、Siida、Naavaでの窓口業務を終了しました。開いている場所と、許可証の入手先。"
+    },
+    "es": {
+      "title": "Laponia: centros de naturaleza sin Metsähallitus",
+      "description": "Metsähallitus cerró su propia atención en Kellokas, Hetta, Siida y Naava el 11 de noviembre de 2026. Esto sigue abierto y así se consiguen los permisos."
+    },
+    "pt-BR": {
+      "title": "Lapônia: centros de natureza sem Metsähallitus",
+      "description": "A Metsähallitus encerrou o próprio atendimento em Kellokas, Hetta, Siida e Naava em 11 de novembro de 2026. O que continua aberto e onde obter licenças."
+    },
+    "zh-CN": {
+      "title": "拉普兰游客中心：Metsähallitus窗口服务终止",
+      "description": "Metsähallitus于2026年11月11日终止了在Kellokas、Hetta、Siida和Naava的自有窗口服务。哪些还开着，许可在哪里买。"
+    },
+    "ko": {
+      "title": "라플란드 방문자 센터 Metsähallitus 창구 종료",
+      "description": "Metsähallitus는 2026년 11월 11일 Kellokas, 헤타, Siida, Naava의 창구를 닫았습니다. 무엇이 남았을까요?"
+    },
+    "fr": {
+      "title": "Laponie : quatre centres nature sans accueil Metsähallitus",
+      "description": "Metsähallitus a mis fin à son propre accueil à Kellokas, Hetta, Siida et Naava le 11 novembre 2026. Ce qui reste ouvert et où obtenir les permis."
+    },
+    "it": {
+      "title": "Lapponia: centri natura senza sportello Metsähallitus",
+      "description": "Metsähallitus ha chiuso il proprio servizio a Kellokas, Hetta, Siida e Naava l'11 novembre 2026. Quello che resta aperto e dove ottenere i permessi."
+    },
+    "nl": {
+      "title": "Lapland: bezoekerscentra zonder Metsähallitus-balie",
+      "description": "Metsähallitus stopte op 11 november 2026 met de eigen klantenservice in Kellokas, Hetta, Siida en Naava. Wat nog open is en waar u nu vergunningen krijgt."
+    },
+    "sv": {
+      "title": "Naturum i Lappland utan kundtjänst från Forststyrelsen",
+      "description": "Forststyrelsens egen kundtjänst upphörde i Kellokas, Hetta, Siida och Naava den 11 november 2026. Vad som är öppet och var du får tillstånd nu."
+    }
+  },
   "/news/sakatti-mine-viiankiaapa-compensation": {
     "en": {
       "title": "Sakatti mine and Viiankiaapa: compensation plan falls short",

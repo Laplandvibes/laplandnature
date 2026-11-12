@@ -1,0 +1,56 @@
+{
+  "slug": "metsahallitus-visitor-centre-service-ends-lapland",
+  "date": "2026-11-12",
+  "hero": {
+    "src": "/images/news/metsahallitus-siida-service-point-inari-october-1600.webp",
+    "srcSmall": "/images/news/metsahallitus-siida-service-point-inari-october-800.webp",
+    "width": 1600,
+    "height": 2842,
+    "position": "50% 40%",
+    "credit": {
+      "author": "LaplandVibes",
+      "license": "© LaplandVibes",
+      "licenseUrl": "https://laplandnature.com/terms",
+      "sourceUrl": "https://laplandnature.com/news/metsahallitus-visitor-centre-service-ends-lapland",
+      "sourceName": "LaplandVibes",
+      "assetId": "20261012_143159.jpg",
+      "place": "Siida, Inari",
+      "taken": "2026-10-12",
+      "retrieved": "2026-11-12"
+    }
+  },
+  "sources": [
+    {
+      "publisher": "Metsähallitus",
+      "title": "Metsähallituksen Luontopalvelujen muutosneuvottelut päätökseen – 10 työsuhdetta päättyy",
+      "lang": "fi",
+      "url": "https://www.epressi.com/tiedotteet/ymparisto-ja-luonto/metsahallituksen-luontopalvelujen-muutosneuvottelut-paatokseen-10-tyosuhdetta-paattyy.html",
+      "date": "2026-11-10"
+    },
+    {
+      "publisher": "Erä-lehti",
+      "title": "Luontopalvelut katosivat neljästä Metsähallituksen kohteesta",
+      "lang": "fi",
+      "url": "https://eralehti.fi/luontopalvelut-katosivat-tanaan-neljasta-metsahallituksen-kohteesta/",
+      "date": "2026-11-11"
+    },
+    {
+      "publisher": "Metsähallitus, Eräluvat",
+      "title": "Permit sales points",
+      "lang": "en",
+      "url": "https://eraluvat.fi/en/contact-us/permit-sales-points.html",
+      "read": "2026-11-12"
+    },
+    {
+      "publisher": "Sámi Museum Siida",
+      "title": "Siida",
+      "lang": "en",
+      "url": "https://siida.fi/en/",
+      "read": "2026-11-12"
+    }
+  ],
+  "ogCard": {
+    "line": "Lapland visitor centres: service ends",
+    "focus": "50% 40%"
+  }
+}

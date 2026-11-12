@@ -1018,5 +1018,90 @@
         "samaKuinKesa": true
       }
     }
+  },
+  "news-metsahallitus-visitor-centre-service-ends-lapland": {
+    "route": "/news/metsahallitus-visitor-centre-service-ends-lapland",
+    "line": "Lapland visitor centres: service ends",
+    "kaudet": {
+      "summer": {
+        "hero": "/images/news/metsahallitus-siida-service-point-inari-october-1600.webp",
+        "bytes": 134577,
+        "sha256": "480d38dfd7e51d114c5da61ceb33a996a038ab231f2a140f066e2b94f3cebd60",
+        "heroSha": "49980e2b360571bf",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 17141,
+        "inkBox": [
+          345,
+          27,
+          855,
+          136
+        ],
+        "safe": true,
+        "palkki": "yla",
+        "xVapaa": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 115.4,
+        "centerSq": 118.8,
+        "photoRegion": 143.8,
+        "photoRegionRef": 143.8,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 512,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": []
+      },
+      "winter": {
+        "hero": "/images/news/metsahallitus-siida-service-point-inari-october-1600.webp",
+        "bytes": 134577,
+        "sha256": "480d38dfd7e51d114c5da61ceb33a996a038ab231f2a140f066e2b94f3cebd60",
+        "heroSha": "49980e2b360571bf",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 17141,
+        "inkBox": [
+          345,
+          27,
+          855,
+          136
+        ],
+        "safe": true,
+        "palkki": "yla",
+        "xVapaa": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 115.4,
+        "centerSq": 118.8,
+        "photoRegion": 143.8,
+        "photoRegionRef": 143.8,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 512,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": [],
+        "samaKuinKesa": true
+      }
+    }
   }
 }
