@@ -8,7 +8,19 @@
   "body": [
     {
       "t": "p",
-      "text": "O direito de acesso à natureza não permite que um grupo de turistas se aposse de um refúgio em parque nacional, afirmou a Metsähallitus no jornal Maaseudun Tulevaisuus em 27 de setembro de 2026, acrescentando que é preciso reforçar a fiscalização. A Metsähallitus administra os parques nacionais da Finlândia e cuida da manutenção dos refúgios que ficam neles."
+      "text": "O direito de acesso à natureza não permite que um grupo de turistas se aposse de um refúgio em parque nacional, afirmou a Metsähallitus em setembro, acrescentando que é preciso reforçar a fiscalização. A Metsähallitus administra os parques nacionais da Finlândia e cuida da manutenção dos refúgios que ficam neles."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "Refúgios e fiscalização em resumo",
+      "items": [
+        "Declaração: no jornal Maaseudun Tulevaisuus em 27 de setembro de 2026",
+        "Dias de fiscalização: 11 em março de 2026",
+        "Grupos: cerca de 70, mais de 600 pessoas no total",
+        "Empresas parceiras: 730 no fim de 2025",
+        "Silêncio nos refúgios: das 23:00 às 06:00"
+      ]
     },
     {
       "t": "h2",
@@ -16,7 +28,11 @@
     },
     {
       "t": "p",
-      "text": "O refúgio aberto é um abrigo gratuito, compartilhado por todos, onde quem faz trilha por conta própria pode descansar e passar a noite sem reserva. As regras de convivência da Metsähallitus para os refúgios definem as condições: eles são destinados a caminhantes individuais, por uma noite, e grupos maiores e quem fica mais tempo devem usar barraca ou um refúgio com reserva ou de aluguel. Quem chega antes abre espaço para quem chega depois, e a prioridade é de quem se desloca pela própria força, sem motor."
+      "text": "O refúgio aberto é um abrigo gratuito, compartilhado por todos, onde quem faz trilha por conta própria pode descansar e passar a noite sem reserva."
+    },
+    {
+      "t": "p",
+      "text": "As regras de convivência da Metsähallitus para os refúgios definem as condições: eles são destinados a caminhantes individuais, por uma noite, e grupos maiores e quem fica mais tempo devem usar barraca ou um refúgio com reserva ou de aluguel. Quem chega antes abre espaço para quem chega depois, e a prioridade é de quem se desloca pela própria força, sem motor."
     },
     {
       "t": "p",
@@ -37,7 +53,11 @@
     },
     {
       "t": "p",
-      "text": "Uma empresa que leva clientes pagantes a áreas protegidas do Estado precisa de um acordo de cooperação com a Metsähallitus. O acordo permite usar trilhas, áreas de descanso e banheiros, mas não cobre a hospedagem de clientes nos refúgios abertos, e a empresa não pode reservar áreas de descanso para o próprio grupo. Com autorização da Metsähallitus, um refúgio pode servir de área de descanso, mas os clientes precisam passar a noite em refúgios com reserva ou de aluguel, ou em hospedagem particular."
+      "text": "Uma empresa que leva clientes pagantes a áreas protegidas do Estado precisa de um acordo de cooperação com a Metsähallitus. O acordo permite usar trilhas, áreas de descanso e banheiros, mas não cobre a hospedagem de clientes nos refúgios abertos, e a empresa não pode reservar áreas de descanso para o próprio grupo."
+    },
+    {
+      "t": "p",
+      "text": "Com autorização da Metsähallitus, um refúgio pode servir de área de descanso, mas os clientes precisam passar a noite em refúgios com reserva ou de aluguel, ou em hospedagem particular."
     },
     {
       "t": "p",
@@ -49,7 +69,11 @@
     },
     {
       "t": "p",
-      "text": "Em março de 2026, a Metsähallitus realizou 11 dias de fiscalização em destinos populares da Lapônia e de Koillismaa: os parques nacionais de Oulanka, Riisitunturi e Pallas-Yllästunturi, Korouoma, a área protegida de Valtavaara e Pyhävaara, e a área de trilhas de Napapiiri, perto de Rovaniemi. A equipe conversou com guias de cerca de 30 empresas e encontrou cerca de 70 grupos, mais de 600 pessoas no total. A maioria dos clientes das empresas eram viajantes internacionais."
+      "text": "Em março de 2026, a Metsähallitus realizou 11 dias de fiscalização em destinos populares da Lapônia e de Koillismaa: os parques nacionais de Oulanka, Riisitunturi e Pallas-Yllästunturi, Korouoma, a área protegida de Valtavaara e Pyhävaara, e a área de trilhas de Napapiiri, perto de Rovaniemi."
+    },
+    {
+      "t": "p",
+      "text": "A equipe conversou com guias de cerca de 30 empresas e encontrou cerca de 70 grupos, mais de 600 pessoas no total. A maioria dos clientes das empresas eram viajantes internacionais."
     },
     {
       "t": "p",

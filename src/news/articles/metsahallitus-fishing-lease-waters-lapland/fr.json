@@ -8,7 +8,19 @@
   "body": [
     {
       "t": "p",
-      "text": "Metsähallitus a publié une liste des eaux de l'État dont les droits de pêche peuvent être loués. La liste est parue sur le service Eräluvat.fi début novembre et couvre une centaine d'étangs et de lacs, avec la situation, la taille et le prix annuel de chacun. Selon Metsähallitus, une liste nationale des eaux proposées est publiée pour la première fois."
+      "text": "Metsähallitus a publié une liste des eaux de l'État dont les droits de pêche peuvent être loués. Elle couvre une centaine d'étangs et de lacs, et selon Metsähallitus, une liste nationale des eaux proposées est publiée pour la première fois."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "La liste en bref",
+      "items": [
+        "Publication : début novembre sur le service Eräluvat.fi",
+        "En région de Laponie : sept eaux",
+        "Prix annuel : à partir de 90 euros hors taxes",
+        "Location : à durée déterminée, dix ans au maximum",
+        "En vigueur : 817 contrats de location de pêche"
+      ]
     },
     {
       "t": "h2",
@@ -28,7 +40,11 @@
     },
     {
       "t": "p",
-      "text": "Une location ne supprime pas les droits de pêche généraux qui s'appliquent sur le plan d'eau. Chacun peut toujours pêcher gratuitement à la ligne simple ou sous la glace, et la pêche au leurre avec une canne reste permise après paiement de la redevance nationale de gestion halieutique. Le locataire peut demander à l'autorité Elinvoimakeskus de restreindre ces droits, et la liste indique pour chaque étang si c'est possible ou non. Selon Metsähallitus, des zones de permis qui lui appartiennent se trouvent en général à proximité des eaux louées."
+      "text": "Une location ne supprime pas les droits de pêche généraux qui s'appliquent sur le plan d'eau. Chacun peut toujours pêcher gratuitement à la ligne simple ou sous la glace, et la pêche au leurre avec une canne reste permise après paiement de la redevance nationale de gestion halieutique."
+    },
+    {
+      "t": "p",
+      "text": "Le locataire peut demander à l'autorité Elinvoimakeskus de restreindre ces droits, et la liste indique pour chaque étang si c'est possible ou non. Selon Metsähallitus, des zones de permis qui lui appartiennent se trouvent en général à proximité des eaux louées."
     },
     {
       "t": "ul",

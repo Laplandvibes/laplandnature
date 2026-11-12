@@ -8,15 +8,27 @@
   "body": [
     {
       "t": "p",
-      "text": "El pastoreo de renos cambia la relación entre flores e insectos en los montes de Laponia más que el aporte de nutrientes, según un estudio de la Universidad de Oulu difundido el 17.9.2026. Los efectos fueron mayores en la tundra pobre, y los prados que atrajeron más insectos fueron los vallados frente al pastoreo."
+      "text": "El pastoreo de renos cambia la relación entre flores e insectos en los montes de Laponia más que el aporte de nutrientes, según un estudio de la Universidad de Oulu. Los prados que atrajeron más insectos fueron los vallados frente al pastoreo."
     },
     {
-      "t": "h2",
-      "text": "Una valla, nutrientes añadidos y dos prados de montaña"
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "El estudio en breve",
+      "items": [
+        "Zonas experimentales: dos cerca de Kilpisjärvi",
+        "Parcelas: 16 por zona",
+        "Inicio: 2014–2015",
+        "Insectos observados: julio de 2022",
+        "Difundido: 17.9.2026"
+      ]
     },
     {
       "t": "p",
-      "text": "Los visitantes de las flores se contaron en dos zonas experimentales cerca de Kilpisjärvi. Una está por encima del límite del arbolado, en tundra pobre; la otra, en un prado más fértil dentro de la zona de abedul de montaña. En cada zona, 16 parcelas quedaron abiertas a los renos o se vallaron, con o sin nutrientes añadidos. Los tratamientos se establecieron en 2014–2015 y los insectos se observaron en julio de 2022. El trabajo forma parte del experimento internacional Nutrient Network."
+      "text": "Los visitantes de las flores se contaron en dos zonas experimentales cerca de Kilpisjärvi. Una está por encima del límite del arbolado, en tundra pobre; la otra, en un prado más fértil dentro de la zona de abedul de montaña."
+    },
+    {
+      "t": "p",
+      "text": "En cada zona, 16 parcelas quedaron abiertas a los renos o se vallaron, con o sin nutrientes añadidos. Los tratamientos se establecieron en 2014–2015 y los insectos se observaron en julio de 2022. El trabajo forma parte del experimento internacional Nutrient Network."
     },
     {
       "t": "embed",
@@ -34,7 +46,11 @@
     },
     {
       "t": "p",
-      "text": "Mantener fuera a los renos fue el factor que más pesó. La valla aumentó el número de polinizadores y de otros insectos que visitan las flores, la riqueza de familias de insectos y el número de visitas a las plantas. Los efectos fueron más fuertes en el prado de tundra pobre que en el prado más fértil entre los abedules. Muchas plantas árticas dependen de la polinización por insectos, recuerda Risto Virtanen, conservador jefe de la Universidad de Oulu."
+      "text": "Mantener fuera a los renos fue el factor que más pesó. La valla aumentó el número de polinizadores y de otros insectos que visitan las flores, la riqueza de familias de insectos y el número de visitas a las plantas. Los efectos fueron más fuertes en el prado de tundra pobre que en el prado más fértil entre los abedules."
+    },
+    {
+      "t": "p",
+      "text": "Muchas plantas árticas dependen de la polinización por insectos, recuerda Risto Virtanen, conservador jefe de la Universidad de Oulu."
     },
     {
       "t": "h2",
@@ -64,7 +80,7 @@
     },
     {
       "t": "h2",
-      "text": "Qué significa para la planificación de los pastos"
+      "text": "Qué significa para los pastos"
     },
     {
       "t": "p",

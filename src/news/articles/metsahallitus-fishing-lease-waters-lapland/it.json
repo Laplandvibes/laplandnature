@@ -8,7 +8,19 @@
   "body": [
     {
       "t": "p",
-      "text": "Metsähallitus ha pubblicato un elenco delle acque demaniali il cui diritto di pesca può essere affittato. L'elenco è uscito nel servizio Eräluvat.fi all'inizio di novembre e comprende un centinaio di stagni e laghi, con posizione, superficie e prezzo annuo di ciascuno. Secondo Metsähallitus, un elenco nazionale delle acque offerte viene pubblicato per la prima volta."
+      "text": "Metsähallitus ha pubblicato un elenco delle acque demaniali il cui diritto di pesca può essere affittato. Comprende un centinaio di stagni e laghi e, secondo Metsähallitus, un elenco nazionale delle acque offerte viene pubblicato per la prima volta."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "L'elenco in breve",
+      "items": [
+        "Pubblicazione: inizio novembre nel servizio Eräluvat.fi",
+        "Nella regione della Lapponia: sette acque",
+        "Prezzo annuo: da 90 euro più IVA",
+        "Contratto: a tempo determinato, non oltre dieci anni",
+        "In vigore ora: 817 contratti di affitto di pesca"
+      ]
     },
     {
       "t": "h2",
@@ -28,7 +40,11 @@
     },
     {
       "t": "p",
-      "text": "L'affitto non elimina i diritti di pesca generali che valgono su quell'acqua. Chiunque può ancora pescare gratuitamente con una semplice canna e lenza o praticare la pesca nel ghiaccio, e la pesca con esca artificiale e una sola canna è consentita dopo il pagamento del contributo nazionale per la gestione della pesca. L'affittuario può chiedere all'autorità Elinvoimakeskus di limitare quei diritti, e l'elenco indica per ogni stagno se ciò sia possibile o meno. Secondo Metsähallitus, vicino alle acque affittate si trovano di solito aree con permessi di pesca dell'ente stesso."
+      "text": "L'affitto non elimina i diritti di pesca generali che valgono su quell'acqua. Chiunque può ancora pescare gratuitamente con una semplice canna e lenza o praticare la pesca nel ghiaccio, e la pesca con esca artificiale e una sola canna è consentita dopo il pagamento del contributo nazionale per la gestione della pesca."
+    },
+    {
+      "t": "p",
+      "text": "L'affittuario può chiedere all'autorità Elinvoimakeskus di limitare quei diritti, e l'elenco indica per ogni stagno se ciò sia possibile o meno. Secondo Metsähallitus, vicino alle acque affittate si trovano di solito aree con permessi di pesca dell'ente stesso."
     },
     {
       "t": "ul",

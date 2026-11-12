@@ -8,7 +8,19 @@
   "body": [
     {
       "t": "p",
-      "text": "Everyman's rights do not let a tour group take over a wilderness hut in a national park, Metsähallitus said in the newspaper Maaseudun Tulevaisuus on 27 September 2026, adding that supervision needs to increase. Metsähallitus runs Finland's national parks and maintains the huts in them."
+      "text": "Everyman's rights do not let a tour group take over a wilderness hut in a national park, Metsähallitus said in September, adding that supervision needs to increase. Metsähallitus runs Finland's national parks and maintains the huts in them."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "Huts and supervision in brief",
+      "items": [
+        "Statement: in the newspaper Maaseudun Tulevaisuus on 27 September 2026",
+        "Supervision days: 11 in March 2026",
+        "Groups met: about 70, more than 600 people in all",
+        "Tourism partners: 730 at the end of 2025",
+        "Quiet hours in huts: 23:00 to 06:00"
+      ]
     },
     {
       "t": "h2",
@@ -16,7 +28,11 @@
     },
     {
       "t": "p",
-      "text": "An open wilderness hut is a free shelter, shared by everyone, where hikers travelling on their own can rest and spend the night without booking. Metsähallitus's hut etiquette sets the terms: the huts are meant for individual hikers for one night, and larger groups and anyone staying longer should use a tent or a reservable or rental hut. Earlier arrivals make room for later ones, and hikers who travel under their own power come first."
+      "text": "An open wilderness hut is a free shelter, shared by everyone, where hikers travelling on their own can rest and spend the night without booking."
+    },
+    {
+      "t": "p",
+      "text": "Metsähallitus's hut etiquette sets the terms: the huts are meant for individual hikers for one night, and larger groups and anyone staying longer should use a tent or a reservable or rental hut. Earlier arrivals make room for later ones, and hikers who travel under their own power come first."
     },
     {
       "t": "p",
@@ -37,7 +53,11 @@
     },
     {
       "t": "p",
-      "text": "A company that takes paying customers into state protected areas needs a cooperation agreement with Metsähallitus. The agreement lets it use trails, rest stops and toilets, but it does not cover lodging customers in wilderness huts, and the company cannot reserve rest stops for its own group. With Metsähallitus's permission a hut can serve as a rest stop, but customers must spend the night in reservable or rental huts or in private accommodation."
+      "text": "A company that takes paying customers into state protected areas needs a cooperation agreement with Metsähallitus. The agreement lets it use trails, rest stops and toilets, but it does not cover lodging customers in wilderness huts, and the company cannot reserve rest stops for its own group."
+    },
+    {
+      "t": "p",
+      "text": "With Metsähallitus's permission a hut can serve as a rest stop, but customers must spend the night in reservable or rental huts or in private accommodation."
     },
     {
       "t": "p",
@@ -49,7 +69,11 @@
     },
     {
       "t": "p",
-      "text": "In March 2026 Metsähallitus held 11 supervision days at popular destinations in Lapland and Koillismaa: Oulanka, Riisitunturi and Pallas-Yllästunturi national parks, Korouoma, the Valtavaara and Pyhävaara protected area, and the Napapiiri hiking area near Rovaniemi. Its staff spoke with guides from about 30 companies and met about 70 groups, more than 600 people in all. Most of the companies' customers were international travellers."
+      "text": "In March 2026 Metsähallitus held 11 supervision days at popular destinations in Lapland and Koillismaa: Oulanka, Riisitunturi and Pallas-Yllästunturi national parks, Korouoma, the Valtavaara and Pyhävaara protected area, and the Napapiiri hiking area near Rovaniemi."
+    },
+    {
+      "t": "p",
+      "text": "Its staff spoke with guides from about 30 companies and met about 70 groups, more than 600 people in all. Most of the companies' customers were international travellers."
     },
     {
       "t": "p",

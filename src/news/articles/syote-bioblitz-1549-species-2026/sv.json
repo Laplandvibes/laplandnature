@@ -8,14 +8,27 @@
   "body": [
     {
       "t": "p",
-      "text": "Omkring 50 artexperter inventerade Syöte nationalpark och friluftsområdet i Syöte från kl. 12.00 den 14 augusti till kl. 12.00 den 15 augusti 2026. Evenemanget pågick i 24 timmar och var en BioBlitz som ordnades av Naturtjänster vid Metsähallitus. Målet var att hitta 1 000 arter, och slutresultatet som publicerades i oktober blev 1 549."
+      "text": "Artexperter hittade 1 549 arter i Syöte nationalpark och friluftsområdet i Syöte under ett dygn i augusti. Evenemanget var en BioBlitz som ordnades av Naturtjänster vid Metsähallitus, och målet var att hitta 1 000 arter."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "BioBlitzen i korthet",
+      "items": [
+        "När: 24 timmar, från kl. 12.00 den 14 augusti till kl. 12.00 den 15 augusti 2026",
+        "Experter: omkring 50",
+        "Mål: 1 000 arter",
+        "Slutresultat: 1 549 arter, publicerat i oktober",
+        "Nya för området: 829 arter"
+      ]
     },
     {
       "t": "h2",
       "text": "Vad de hittade"
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "facts-loydot",
       "items": [
         "Svampar: 285 arter, fler än vid någon tidigare BioBlitz som Metsähallitus har ordnat. Av dem var 94 tickor och 191 till största delen skivlingar, och 170 är nya för parken.",
         "Växter: 246 arter.",

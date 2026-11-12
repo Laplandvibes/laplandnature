@@ -8,7 +8,19 @@
   "body": [
     {
       "t": "p",
-      "text": "Metsähallitus has published a list of the state waters whose fishing rights can be leased. The list went online in the Eräluvat.fi service in early November and covers about a hundred ponds and lakes, with the location, size and annual price of each one. According to Metsähallitus, a nationwide list of the waters on offer is being published for the first time."
+      "text": "Metsähallitus has published a list of the state waters whose fishing rights can be leased. It covers about a hundred ponds and lakes, and according to Metsähallitus a nationwide list of the waters on offer is being published for the first time."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "The list in brief",
+      "items": [
+        "Published: early November in the Eräluvat.fi service",
+        "In the Lapland region: seven waters",
+        "Annual price: from 90 euros plus VAT",
+        "Lease: fixed term, no more than ten years",
+        "In force now: 817 fishing leases"
+      ]
     },
     {
       "t": "h2",
@@ -28,7 +40,11 @@
     },
     {
       "t": "p",
-      "text": "A lease does not remove the general fishing rights that apply on the water. Anyone may still fish with a simple rod and line or ice fish free of charge, and lure fishing with one rod is allowed after paying the national fisheries management fee. A lessee can apply to the Elinvoimakeskus authority to have those rights restricted, and the list shows for each pond whether that is possible at all. Metsähallitus says there are usually permit areas of its own near the leased waters."
+      "text": "A lease does not remove the general fishing rights that apply on the water. Anyone may still fish with a simple rod and line or ice fish free of charge, and lure fishing with one rod is allowed after paying the national fisheries management fee."
+    },
+    {
+      "t": "p",
+      "text": "A lessee can apply to the Elinvoimakeskus authority to have those rights restricted, and the list shows for each pond whether that is possible at all. Metsähallitus says there are usually permit areas of its own near the leased waters."
     },
     {
       "t": "ul",

@@ -8,14 +8,27 @@
   "body": [
     {
       "t": "p",
-      "text": "Around 50 species experts searched Syöte National Park and the Syöte recreation area from 12:00 on 14 August to 12:00 on 15 August 2026. The 24-hour event, a BioBlitz organised by Metsähallitus Parks & Wildlife Finland, aimed to find 1,000 species, and the final count published in October was 1,549."
+      "text": "Species experts found 1,549 species in Syöte National Park and the Syöte recreation area in a single day in August. The event, a BioBlitz organised by Metsähallitus Parks & Wildlife Finland, aimed to find 1,000."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "The BioBlitz in brief",
+      "items": [
+        "When: 24 hours, from 12:00 on 14 August to 12:00 on 15 August 2026",
+        "Experts: around 50",
+        "Target: 1,000 species",
+        "Final count: 1,549 species, published in October",
+        "New to the area: 829 species"
+      ]
     },
     {
       "t": "h2",
       "text": "What they found"
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "facts-loydot",
       "items": [
         "Fungi: 285 species, more than in any earlier Metsähallitus BioBlitz. 94 of them were polypores and 191 mostly gilled fungi, and 170 are new to the park.",
         "Plants: 246 species.",

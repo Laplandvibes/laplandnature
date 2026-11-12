@@ -8,7 +8,19 @@
   "body": [
     {
       "t": "p",
-      "text": "Metsähallitus heeft een lijst gepubliceerd van de staatswateren waarvan het visrecht te huur is. De lijst kwam begin november online in de dienst Eräluvat.fi en omvat ongeveer honderd vennen en meren, met de ligging, de oppervlakte en de jaarprijs van elk water. Volgens Metsähallitus wordt een landelijke lijst van de aangeboden wateren voor het eerst gepubliceerd."
+      "text": "Metsähallitus heeft een lijst gepubliceerd van de staatswateren waarvan het visrecht te huur is. De lijst omvat ongeveer honderd vennen en meren, en volgens Metsähallitus wordt een landelijke lijst van de aangeboden wateren voor het eerst gepubliceerd."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "De lijst in het kort",
+      "items": [
+        "Gepubliceerd: begin november in de dienst Eräluvat.fi",
+        "In de regio Lapland: zeven wateren",
+        "Jaarprijs: vanaf 90 euro exclusief btw",
+        "Huurcontract: voor bepaalde tijd, ten hoogste tien jaar",
+        "Nu van kracht: 817 visserijhuurcontracten"
+      ]
     },
     {
       "t": "h2",
@@ -28,7 +40,11 @@
     },
     {
       "t": "p",
-      "text": "Huur neemt de algemene visrechten op het water niet weg. Men mag er nog steeds gratis met een eenvoudige hengel en lijn vissen of onder het ijs vissen, en vissen met kunstaas en één hengel mag na betaling van de landelijke visserijheffing. Een huurder kan bij de instantie Elinvoimakeskus vragen om die rechten te beperken, en de lijst laat per ven zien of dat überhaupt mogelijk is. Volgens Metsähallitus liggen er bij de verhuurde wateren meestal eigen vergunningsgebieden van de organisatie."
+      "text": "Huur neemt de algemene visrechten op het water niet weg. Men mag er nog steeds gratis met een eenvoudige hengel en lijn vissen of onder het ijs vissen, en vissen met kunstaas en één hengel mag na betaling van de landelijke visserijheffing."
+    },
+    {
+      "t": "p",
+      "text": "Een huurder kan bij de instantie Elinvoimakeskus vragen om die rechten te beperken, en de lijst laat per ven zien of dat überhaupt mogelijk is. Volgens Metsähallitus liggen er bij de verhuurde wateren meestal eigen vergunningsgebieden van de organisatie."
     },
     {
       "t": "ul",

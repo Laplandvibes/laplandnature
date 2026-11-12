@@ -64,5 +64,10 @@
     "line": "Wilderness huts are not for tour groups",
     "hero": "/images/og-source-news-piltuanjoki-hut.jpg",
     "focus": "50% 16%"
+  },
+  "embeds": {
+    "facts-lyhyesti": {
+      "kind": "facts"
+    }
   }
 }

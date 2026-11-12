@@ -8,14 +8,27 @@
   "body": [
     {
       "t": "p",
-      "text": "Ongeveer 50 soortenkenners doorzochten het nationale park Syöte en het wandelgebied Syöte van 12.00 uur op 14 augustus tot 12.00 uur op 15 augustus 2026. Het 24 uur durende evenement, een BioBlitz georganiseerd door Metsähallitus Parks & Wildlife Finland, had als doel 1.000 soorten te vinden, en de eindtelling die in oktober werd gepubliceerd kwam uit op 1.549."
+      "text": "Soortenkenners vonden in één etmaal in augustus 1.549 soorten in het nationale park Syöte en het wandelgebied Syöte. Het evenement, een BioBlitz georganiseerd door Metsähallitus Parks & Wildlife Finland, had als doel 1.000 soorten te vinden."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "De BioBlitz in het kort",
+      "items": [
+        "Wanneer: 24 uur, van 12.00 uur op 14 augustus tot 12.00 uur op 15 augustus 2026",
+        "Soortenkenners: ongeveer 50",
+        "Doel: 1.000 soorten",
+        "Eindtelling: 1.549 soorten, gepubliceerd in oktober",
+        "Nieuw voor het gebied: 829 soorten"
+      ]
     },
     {
       "t": "h2",
       "text": "Wat ze vonden"
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "facts-loydot",
       "items": [
         "Paddenstoelen: 285 soorten, meer dan bij welke eerdere BioBlitz van Metsähallitus ook. Daarvan waren er 94 gaatjeszwammen en 191 vooral plaatjeszwammen, en 170 zijn nieuw voor het park.",
         "Planten: 246 soorten.",

@@ -8,15 +8,27 @@
   "body": [
     {
       "t": "p",
-      "text": "Rendierbegrazing verandert de band tussen bloemen en insecten op de fjelden van Lapland sterker dan het toevoegen van voedingsstoffen. Dat blijkt uit een studie van de Universiteit van Oulu waarover op 17.9.2026 werd bericht. De effecten waren het grootst op schrale toendra, en de fjeldweiden die de meeste insecten trokken waren die met een raster tegen begrazing."
+      "text": "Rendierbegrazing verandert de band tussen bloemen en insecten op de fjelden van Lapland sterker dan het toevoegen van voedingsstoffen, blijkt uit een studie van de Universiteit van Oulu. De fjeldweiden die de meeste insecten trokken, waren die met een raster tegen begrazing."
     },
     {
-      "t": "h2",
-      "text": "Een raster, extra voedingsstoffen en twee fjeldweiden"
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "De studie in het kort",
+      "items": [
+        "Proefgebieden: twee bij Kilpisjärvi",
+        "Veldjes: 16 per gebied",
+        "Aangelegd: 2014–2015",
+        "Insecten geteld: juli 2022",
+        "Bekendgemaakt: 17.9.2026"
+      ]
     },
     {
       "t": "p",
-      "text": "De bloembezoekers werden geteld op twee proefgebieden bij Kilpisjärvi. Het ene ligt boven de boomgrens op schrale toendra, het andere op een voedselrijkere weide in de berkengordel. Op elk gebied bleven 16 veldjes open voor de rendieren of werden ze afgerasterd, met of zonder extra voedingsstoffen. De behandelingen werden in 2014–2015 aangelegd en de insecten werden in juli 2022 geteld. Het werk maakt deel uit van het internationale Nutrient Network-experiment."
+      "text": "De bloembezoekers werden geteld op twee proefgebieden bij Kilpisjärvi. Het ene ligt boven de boomgrens op schrale toendra, het andere op een voedselrijkere weide in de berkengordel."
+    },
+    {
+      "t": "p",
+      "text": "Op elk gebied bleven 16 veldjes open voor de rendieren of werden ze afgerasterd, met of zonder extra voedingsstoffen. De behandelingen werden in 2014–2015 aangelegd en de insecten werden in juli 2022 geteld. Het werk maakt deel uit van het internationale Nutrient Network-experiment."
     },
     {
       "t": "embed",
@@ -34,7 +46,11 @@
     },
     {
       "t": "p",
-      "text": "De rendieren buitenhouden was de factor die het zwaarst woog. Het raster verhoogde het aantal bestuivers en andere bloembezoekende insecten, de rijkdom aan insectenfamilies en het aantal bezoeken aan de planten. De effecten waren sterker op de schrale toendraweide dan op de voedselrijkere weide tussen de berken. Veel arctische planten zijn afhankelijk van bestuiving door insecten, herinnert Risto Virtanen, hoofdconservator aan de Universiteit van Oulu."
+      "text": "De rendieren buitenhouden was de factor die het zwaarst woog. Het raster verhoogde het aantal bestuivers en andere bloembezoekende insecten, de rijkdom aan insectenfamilies en het aantal bezoeken aan de planten. De effecten waren sterker op de schrale toendraweide dan op de voedselrijkere weide tussen de berken."
+    },
+    {
+      "t": "p",
+      "text": "Veel arctische planten zijn afhankelijk van bestuiving door insecten, herinnert Risto Virtanen, hoofdconservator aan de Universiteit van Oulu."
     },
     {
       "t": "h2",

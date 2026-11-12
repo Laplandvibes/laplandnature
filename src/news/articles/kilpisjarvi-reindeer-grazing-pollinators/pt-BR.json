@@ -8,15 +8,27 @@
   "body": [
     {
       "t": "p",
-      "text": "O pastoreio de renas muda a relação entre flores e insetos nas montanhas da Lapônia mais do que a adição de nutrientes, segundo um estudo da Universidade de Oulu divulgado em 17.9.2026. Os efeitos foram maiores na tundra pobre, e os campos que atraíram mais insetos foram os cercados contra o pastoreio."
+      "text": "O pastoreio de renas muda a relação entre flores e insetos nas montanhas da Lapônia mais do que a adição de nutrientes, segundo um estudo da Universidade de Oulu. Os campos que atraíram mais insetos foram os cercados contra o pastoreio."
     },
     {
-      "t": "h2",
-      "text": "Uma cerca, nutrientes adicionados e dois campos de montanha"
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "O estudo em resumo",
+      "items": [
+        "Áreas experimentais: duas perto de Kilpisjärvi",
+        "Parcelas: 16 por área",
+        "Montagem: 2014–2015",
+        "Insetos observados: julho de 2022",
+        "Divulgado: 17.9.2026"
+      ]
     },
     {
       "t": "p",
-      "text": "Os visitantes das flores foram contados em duas áreas experimentais perto de Kilpisjärvi. Uma fica acima do limite das árvores, em tundra pobre; a outra, em um campo mais fértil dentro da faixa de bétulas de montanha. Em cada área, 16 parcelas ficaram abertas às renas ou foram cercadas, com ou sem nutrientes adicionados. Os tratamentos foram montados em 2014–2015 e os insetos foram observados em julho de 2022. O trabalho faz parte do experimento internacional Nutrient Network."
+      "text": "Os visitantes das flores foram contados em duas áreas experimentais perto de Kilpisjärvi. Uma fica acima do limite das árvores, em tundra pobre; a outra, em um campo mais fértil dentro da faixa de bétulas de montanha."
+    },
+    {
+      "t": "p",
+      "text": "Em cada área, 16 parcelas ficaram abertas às renas ou foram cercadas, com ou sem nutrientes adicionados. Os tratamentos foram montados em 2014–2015 e os insetos foram observados em julho de 2022. O trabalho faz parte do experimento internacional Nutrient Network."
     },
     {
       "t": "embed",
@@ -34,7 +46,11 @@
     },
     {
       "t": "p",
-      "text": "Manter as renas fora foi o fator isolado que mais pesou. A cerca aumentou o número de polinizadores e de outros insetos que visitam flores, a riqueza de famílias de insetos e o número de visitas às plantas. Os efeitos foram mais fortes no campo de tundra pobre do que no campo mais fértil entre as bétulas. Muitas plantas árticas dependem da polinização por insetos, lembra Risto Virtanen, curador sênior da Universidade de Oulu."
+      "text": "Manter as renas fora foi o fator isolado que mais pesou. A cerca aumentou o número de polinizadores e de outros insetos que visitam flores, a riqueza de famílias de insetos e o número de visitas às plantas. Os efeitos foram mais fortes no campo de tundra pobre do que no campo mais fértil entre as bétulas."
+    },
+    {
+      "t": "p",
+      "text": "Muitas plantas árticas dependem da polinização por insetos, lembra Risto Virtanen, curador sênior da Universidade de Oulu."
     },
     {
       "t": "h2",
@@ -64,7 +80,7 @@
     },
     {
       "t": "h2",
-      "text": "O que isso significa para o planejamento das pastagens"
+      "text": "O que isso muda para as pastagens"
     },
     {
       "t": "p",

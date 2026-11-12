@@ -8,15 +8,27 @@
   "body": [
     {
       "t": "p",
-      "text": "Le pâturage des rennes modifie la relation entre les fleurs et les insectes sur les fjells de Laponie plus que l'apport de nutriments, selon une étude de l'université d'Oulu annoncée le 17.9.2026. Les effets ont été les plus forts sur la toundra pauvre, et les prairies de fjell qui ont attiré le plus d'insectes sont celles qui étaient clôturées contre le pâturage."
+      "text": "Le pâturage des rennes modifie la relation entre les fleurs et les insectes sur les fjells de Laponie plus que l'apport de nutriments, selon une étude de l'université d'Oulu. Les prairies de fjell qui ont attiré le plus d'insectes sont celles qui étaient clôturées contre le pâturage."
     },
     {
-      "t": "h2",
-      "text": "Une clôture, des nutriments ajoutés et deux prairies de fjell"
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "L'étude en bref",
+      "items": [
+        "Zones d'essai : deux près de Kilpisjärvi",
+        "Parcelles : 16 par zone",
+        "Mise en place : 2014–2015",
+        "Insectes observés : juillet 2022",
+        "Annonce : 17.9.2026"
+      ]
     },
     {
       "t": "p",
-      "text": "Les visiteurs des fleurs ont été comptés sur deux zones expérimentales près de Kilpisjärvi. L'une se trouve au-dessus de la limite des arbres, sur une toundra pauvre ; l'autre, sur une prairie plus fertile dans la zone des bouleaux de montagne. Sur chaque zone, 16 parcelles ont été soit laissées ouvertes aux rennes, soit clôturées, avec ou sans nutriments ajoutés. Les traitements ont été mis en place en 2014–2015 et les insectes observés en juillet 2022. Le travail fait partie de l'expérience internationale Nutrient Network."
+      "text": "Les visiteurs des fleurs ont été comptés sur deux zones expérimentales près de Kilpisjärvi. L'une se trouve au-dessus de la limite des arbres, sur une toundra pauvre ; l'autre, sur une prairie plus fertile dans la zone des bouleaux de montagne."
+    },
+    {
+      "t": "p",
+      "text": "Sur chaque zone, 16 parcelles ont été soit laissées ouvertes aux rennes, soit clôturées, avec ou sans nutriments ajoutés. Les traitements ont été mis en place en 2014–2015 et les insectes observés en juillet 2022. Le travail fait partie de l'expérience internationale Nutrient Network."
     },
     {
       "t": "embed",
@@ -34,11 +46,15 @@
     },
     {
       "t": "p",
-      "text": "Tenir les rennes à l'écart a été le facteur qui a le plus compté. La clôture a augmenté le nombre de pollinisateurs et d'autres insectes visiteurs de fleurs, la richesse en familles d'insectes et le nombre de visites aux plantes. Les effets ont été plus forts sur la prairie de toundra pauvre que sur la prairie plus fertile entre les bouleaux. Beaucoup de plantes arctiques dépendent de la pollinisation par les insectes, rappelle Risto Virtanen, conservateur principal à l'université d'Oulu."
+      "text": "Tenir les rennes à l'écart a été le facteur qui a le plus compté. La clôture a augmenté le nombre de pollinisateurs et d'autres insectes visiteurs de fleurs, la richesse en familles d'insectes et le nombre de visites aux plantes. Les effets ont été plus forts sur la prairie de toundra pauvre que sur la prairie plus fertile entre les bouleaux."
+    },
+    {
+      "t": "p",
+      "text": "Beaucoup de plantes arctiques dépendent de la pollinisation par les insectes, rappelle Risto Virtanen, conservateur principal à l'université d'Oulu."
     },
     {
       "t": "h2",
-      "text": "Combien de fleurs, et non combien d'espèces"
+      "text": "Plus de fleurs, pas plus d'espèces"
     },
     {
       "t": "p",
@@ -50,7 +66,7 @@
     },
     {
       "t": "h2",
-      "text": "Ce que l'on voit en marchant sur le fjell"
+      "text": "Ce que l'on voit sur le fjell"
     },
     {
       "t": "p",
@@ -64,7 +80,7 @@
     },
     {
       "t": "h2",
-      "text": "Ce que cela signifie pour la planification des pâturages"
+      "text": "Ce que cela change pour les pâturages"
     },
     {
       "t": "p",

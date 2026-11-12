@@ -8,7 +8,19 @@
   "body": [
     {
       "t": "p",
-      "text": "Forststyrelsen (Metsähallitus) har publicerat en lista över de statliga vatten vars fiskerätt går att arrendera. Listan kom ut i tjänsten Eräluvat.fi i början av november och omfattar ett hundratal tjärnar och sjöar, med läge, storlek och årspris för var och en. Enligt Forststyrelsen publiceras en riksomfattande lista över de vatten som erbjuds nu för första gången."
+      "text": "Forststyrelsen (Metsähallitus) har publicerat en lista över de statliga vatten vars fiskerätt går att arrendera. Den omfattar ett hundratal tjärnar och sjöar, och enligt Forststyrelsen publiceras en riksomfattande lista över de vatten som erbjuds nu för första gången."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "Listan i korthet",
+      "items": [
+        "Publicerad: i början av november i tjänsten Eräluvat.fi",
+        "I landskapet Lappland: sju vatten",
+        "Årspris: från 90 euro plus moms",
+        "Arrende: tidsbundet, högst tio år",
+        "I kraft nu: 817 fiskearrenden"
+      ]
     },
     {
       "t": "h2",
@@ -28,7 +40,11 @@
     },
     {
       "t": "p",
-      "text": "Ett arrende tar inte bort de allmänna fiskerättigheter som gäller på vattnet. Vem som helst får fortfarande meta och pilka avgiftsfritt, och att fiska med ett spö och drag är tillåtet när den nationella fiskevårdsavgiften är betald. En arrendator kan ansöka hos myndigheten Elinvoimakeskus om att de rättigheterna begränsas, och listan visar för varje tjärn om det över huvud taget är möjligt. Enligt Forststyrelsen finns det oftast egna tillståndsområden nära de arrenderade vattnen."
+      "text": "Ett arrende tar inte bort de allmänna fiskerättigheter som gäller på vattnet. Vem som helst får fortfarande meta och pilka avgiftsfritt, och att fiska med ett spö och drag är tillåtet när den nationella fiskevårdsavgiften är betald."
+    },
+    {
+      "t": "p",
+      "text": "En arrendator kan ansöka hos myndigheten Elinvoimakeskus om att de rättigheterna begränsas, och listan visar för varje tjärn om det över huvud taget är möjligt. Enligt Forststyrelsen finns det oftast egna tillståndsområden nära de arrenderade vattnen."
     },
     {
       "t": "ul",

@@ -8,14 +8,27 @@
   "body": [
     {
       "t": "p",
-      "text": "Unos 50 expertos en identificación de especies recorrieron el Parque nacional de Syöte y el área de senderismo de Syöte desde las 12:00 del 14 de agosto hasta las 12:00 del 15 de agosto de 2026. Este evento de 24 horas, un BioBlitz organizado por Parks & Wildlife Finland, la unidad de Metsähallitus que gestiona los parques nacionales de Finlandia, tenía como meta encontrar 1000 especies, y el recuento final, publicado en octubre, fue de 1549."
+      "text": "En un solo día de agosto, expertos hallaron 1549 especies en el Parque nacional de Syöte y el área de senderismo de Syöte. El BioBlitz, organizado por Parks & Wildlife Finland, la unidad de Metsähallitus que gestiona los parques nacionales de Finlandia, tenía como meta 1000."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "El BioBlitz en breve",
+      "items": [
+        "Cuándo: 24 horas, desde las 12:00 del 14 de agosto hasta las 12:00 del 15 de agosto de 2026",
+        "Expertos: unos 50",
+        "Meta: 1000 especies",
+        "Recuento final: 1549 especies, publicado en octubre",
+        "Nuevas en la zona: 829 especies"
+      ]
     },
     {
       "t": "h2",
       "text": "Qué encontraron"
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "facts-loydot",
       "items": [
         "Hongos: 285 especies, más que en cualquier BioBlitz anterior de Metsähallitus. De ellas, 94 eran políporos y 191, en su mayoría, hongos con láminas; 170 son nuevas para el parque.",
         "Plantas: 246 especies.",

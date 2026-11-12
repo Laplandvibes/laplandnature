@@ -51,5 +51,13 @@
   "inlineLanguages": {
     "sauvaneulajäkälä": "fi",
     "lapinnyppyjäkälä": "fi"
+  },
+  "embeds": {
+    "facts-lyhyesti": {
+      "kind": "facts"
+    },
+    "facts-loydot": {
+      "kind": "facts"
+    }
   }
 }

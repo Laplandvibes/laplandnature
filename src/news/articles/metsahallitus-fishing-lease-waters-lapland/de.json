@@ -8,7 +8,19 @@
   "body": [
     {
       "t": "p",
-      "text": "Metsähallitus hat eine Liste der staatlichen Gewässer veröffentlicht, deren Fischereirechte verpachtet werden können. Die Liste ging Anfang November im Dienst Eräluvat.fi online und umfasst rund hundert Teiche und Seen mit Lage, Größe und Jahrespreis des jeweiligen Gewässers. Nach Angaben von Metsähallitus wird eine landesweite Liste der angebotenen Gewässer zum ersten Mal veröffentlicht."
+      "text": "Metsähallitus hat eine Liste der staatlichen Gewässer veröffentlicht, deren Fischereirechte verpachtet werden können. Sie umfasst rund hundert Teiche und Seen, und nach Angaben von Metsähallitus wird eine landesweite Liste der angebotenen Gewässer zum ersten Mal veröffentlicht."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "Die Liste in Kürze",
+      "items": [
+        "Veröffentlicht: Anfang November im Dienst Eräluvat.fi",
+        "In der Landschaft Lappland: sieben Gewässer",
+        "Jahrespreis: ab 90 Euro zuzüglich Mehrwertsteuer",
+        "Pacht: befristet, höchstens zehn Jahre",
+        "Derzeit in Kraft: 817 Fischereipachten"
+      ]
     },
     {
       "t": "h2",
@@ -28,7 +40,11 @@
     },
     {
       "t": "p",
-      "text": "Eine Pacht hebt die allgemeinen Fischereirechte nicht auf, die auf dem Gewässer gelten. Angeln mit einfacher Rute und Schnur sowie Eisangeln bleiben für alle kostenlos, und das Fischen mit Kunstköder und einer Rute ist nach Zahlung der staatlichen Fischereiabgabe erlaubt. Ein Pächter kann bei der Behörde Elinvoimakeskus eine Einschränkung dieser Rechte beantragen, und die Liste zeigt für jeden Teich, ob das überhaupt möglich ist. Nach Angaben von Metsähallitus liegen in der Nähe der verpachteten Gewässer meist eigene Lizenzgebiete der Behörde."
+      "text": "Eine Pacht hebt die allgemeinen Fischereirechte nicht auf, die auf dem Gewässer gelten. Angeln mit einfacher Rute und Schnur sowie Eisangeln bleiben für alle kostenlos, und das Fischen mit Kunstköder und einer Rute ist nach Zahlung der staatlichen Fischereiabgabe erlaubt."
+    },
+    {
+      "t": "p",
+      "text": "Ein Pächter kann bei der Behörde Elinvoimakeskus eine Einschränkung dieser Rechte beantragen, und die Liste zeigt für jeden Teich, ob das überhaupt möglich ist. Nach Angaben von Metsähallitus liegen in der Nähe der verpachteten Gewässer meist eigene Lizenzgebiete der Behörde."
     },
     {
       "t": "ul",

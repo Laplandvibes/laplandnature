@@ -8,7 +8,19 @@
   "body": [
     {
       "t": "p",
-      "text": "Das Jedermannsrecht erlaubt es keiner Reisegruppe, eine Wildnishütte in einem Nationalpark in Beschlag zu nehmen. Darauf wies Metsähallitus am 27. September 2026 in der Zeitung Maaseudun Tulevaisuus hin und fügte hinzu, die Kontrollen müssten verstärkt werden. Metsähallitus verwaltet Finnlands Nationalparks und unterhält die Hütten darin."
+      "text": "Das Jedermannsrecht erlaubt es keiner Reisegruppe, eine Wildnishütte in einem Nationalpark in Beschlag zu nehmen. Darauf wies Metsähallitus im September hin und fügte hinzu, die Kontrollen müssten verstärkt werden. Metsähallitus verwaltet Finnlands Nationalparks und unterhält die Hütten darin."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "Hütten und Kontrollen in Kürze",
+      "items": [
+        "Hinweis: am 27. September 2026 in der Zeitung Maaseudun Tulevaisuus",
+        "Kontrolltage: 11 im März 2026",
+        "Gruppen: rund 70 mit insgesamt mehr als 600 Personen",
+        "Tourismuspartner: 730 Ende 2025",
+        "Nachtruhe in den Hütten: von 23 bis 6 Uhr"
+      ]
     },
     {
       "t": "h2",
@@ -16,7 +28,11 @@
     },
     {
       "t": "p",
-      "text": "Eine offene Wildnishütte ist ein kostenloser Unterschlupf, den sich alle teilen: Wer auf eigene Faust wandert, kann dort ohne Reservierung rasten und übernachten. Die Hüttenregeln von Metsähallitus geben den Rahmen vor: Die Hütten sind für einzelne Wanderer und eine Nacht gedacht, größere Gruppen und alle, die länger bleiben, sollen ein Zelt oder eine Reservierungs- oder Miethütte nutzen. Wer früher ankommt, rückt für später Ankommende zusammen, und Vorrang haben Wanderer, die aus eigener Kraft unterwegs sind."
+      "text": "Eine offene Wildnishütte ist ein kostenloser Unterschlupf, den sich alle teilen: Wer auf eigene Faust wandert, kann dort ohne Reservierung rasten und übernachten."
+    },
+    {
+      "t": "p",
+      "text": "Die Hüttenregeln von Metsähallitus geben den Rahmen vor: Die Hütten sind für einzelne Wanderer und eine Nacht gedacht, größere Gruppen und alle, die länger bleiben, sollen ein Zelt oder eine Reservierungs- oder Miethütte nutzen. Wer früher ankommt, rückt für später Ankommende zusammen, und Vorrang haben Wanderer, die aus eigener Kraft unterwegs sind."
     },
     {
       "t": "p",
@@ -37,7 +53,11 @@
     },
     {
       "t": "p",
-      "text": "Ein Unternehmen, das zahlende Kunden in staatliche Schutzgebiete führt, braucht einen Kooperationsvertrag mit Metsähallitus. Der Vertrag erlaubt die Nutzung von Wegen, Rastplätzen und Toiletten, deckt aber nicht die Unterbringung von Kunden in Wildnishütten ab, und das Unternehmen darf keine Rastplätze für die eigene Gruppe reservieren. Mit Erlaubnis von Metsähallitus kann eine Hütte als Rastplatz dienen, übernachten müssen die Kunden aber in Reservierungs- oder Miethütten oder in privaten Unterkünften."
+      "text": "Ein Unternehmen, das zahlende Kunden in staatliche Schutzgebiete führt, braucht einen Kooperationsvertrag mit Metsähallitus. Der Vertrag erlaubt die Nutzung von Wegen, Rastplätzen und Toiletten, deckt aber nicht die Unterbringung von Kunden in Wildnishütten ab, und das Unternehmen darf keine Rastplätze für die eigene Gruppe reservieren."
+    },
+    {
+      "t": "p",
+      "text": "Mit Erlaubnis von Metsähallitus kann eine Hütte als Rastplatz dienen, übernachten müssen die Kunden aber in Reservierungs- oder Miethütten oder in privaten Unterkünften."
     },
     {
       "t": "p",
@@ -49,7 +69,11 @@
     },
     {
       "t": "p",
-      "text": "Im März 2026 hielt Metsähallitus an beliebten Ausflugszielen in Lappland und Koillismaa 11 Kontrolltage ab: in den Nationalparks Oulanka, Riisitunturi und Pallas-Yllästunturi, in Korouoma, im Schutzgebiet Valtavaara und Pyhävaara sowie im Wandergebiet Napapiiri bei Rovaniemi. Das Personal sprach mit Guides von rund 30 Unternehmen und traf rund 70 Gruppen mit insgesamt mehr als 600 Personen. Die meisten Kunden der Unternehmen waren internationale Reisende."
+      "text": "Im März 2026 hielt Metsähallitus an beliebten Ausflugszielen in Lappland und Koillismaa 11 Kontrolltage ab: in den Nationalparks Oulanka, Riisitunturi und Pallas-Yllästunturi, in Korouoma, im Schutzgebiet Valtavaara und Pyhävaara sowie im Wandergebiet Napapiiri bei Rovaniemi."
+    },
+    {
+      "t": "p",
+      "text": "Das Personal sprach mit Guides von rund 30 Unternehmen und traf rund 70 Gruppen mit insgesamt mehr als 600 Personen. Die meisten Kunden der Unternehmen waren internationale Reisende."
     },
     {
       "t": "p",

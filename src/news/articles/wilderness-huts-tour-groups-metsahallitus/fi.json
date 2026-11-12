@@ -8,7 +8,19 @@
   "body": [
     {
       "t": "p",
-      "text": "Turistiryhmä ei voi vallata kansallispuiston autiotupaa jokaisenoikeudella, muistutti Metsähallitus Maaseudun Tulevaisuudessa 27. syyskuuta 2026. Sen mukaan valvontaa on tarve lisätä. Metsähallitus hoitaa Suomen kansallispuistoja ja ylläpitää niiden tupia."
+      "text": "Turistiryhmä ei voi vallata kansallispuiston autiotupaa jokaisenoikeudella, muistutti Metsähallitus syyskuussa. Sen mukaan valvontaa on tarve lisätä. Metsähallitus hoitaa Suomen kansallispuistoja ja ylläpitää niiden tupia."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "Autiotuvat ja valvonta lyhyesti",
+      "items": [
+        "Kannanotto: Maaseudun Tulevaisuudessa 27. syyskuuta 2026",
+        "Valvontapäiviä: 11 maaliskuussa 2026",
+        "Tavattuja ryhmiä: noin 70, yhteensä yli 600 ihmistä",
+        "Yhteistyöyrittäjiä: 730 vuoden 2025 lopussa",
+        "Hiljaisuus tuvissa: kello 23.00–06.00"
+      ]
     },
     {
       "t": "h2",
@@ -16,7 +28,11 @@
     },
     {
       "t": "p",
-      "text": "Autiotupa on jaettava ja maksuton levähdys- ja yöpymispaikka omatoimiretkeilijöille, eikä sitä tarvitse varata. Metsähallituksen tupaetiketti on selvä: autiotuvat on tarkoitettu yksittäisille retkeilijöille yhden yön majoitukseen, ja suuremmat ryhmät ja useamman yön viipyvät käyttävät telttaa tai varaus- ja vuokratupia. Aiemmin tullut tekee tilaa myöhemmin tulevalle, ja etusijalla ovat omin lihasvoimin kulkevat."
+      "text": "Autiotupa on jaettava ja maksuton levähdys- ja yöpymispaikka omatoimiretkeilijöille, eikä sitä tarvitse varata."
+    },
+    {
+      "t": "p",
+      "text": "Metsähallituksen tupaetiketti on selvä: autiotuvat on tarkoitettu yksittäisille retkeilijöille yhden yön majoitukseen, ja suuremmat ryhmät ja useamman yön viipyvät käyttävät telttaa tai varaus- ja vuokratupia. Aiemmin tullut tekee tilaa myöhemmin tulevalle, ja etusijalla ovat omin lihasvoimin kulkevat."
     },
     {
       "t": "p",
@@ -37,7 +53,11 @@
     },
     {
       "t": "p",
-      "text": "Maksavia asiakkaita valtion suojelualueille vievä yritys tarvitsee Metsähallituksen kanssa yhteistyösopimuksen. Sen nojalla yritys saa käyttää reittejä, taukopaikkoja ja käymälöitä, mutta sopimus ei kata asiakkaiden majoittamista autiotuvissa, eikä yritys voi varata taukopaikkoja oman ryhmänsä käyttöön. Metsähallituksen luvalla tupaa voi käyttää taukopaikkana, mutta asiakkaiden yöpymiseen on käytettävä varaus- ja vuokratupia tai yksityisiä majoituspalveluja."
+      "text": "Maksavia asiakkaita valtion suojelualueille vievä yritys tarvitsee Metsähallituksen kanssa yhteistyösopimuksen. Sen nojalla yritys saa käyttää reittejä, taukopaikkoja ja käymälöitä, mutta sopimus ei kata asiakkaiden majoittamista autiotuvissa, eikä yritys voi varata taukopaikkoja oman ryhmänsä käyttöön."
+    },
+    {
+      "t": "p",
+      "text": "Metsähallituksen luvalla tupaa voi käyttää taukopaikkana, mutta asiakkaiden yöpymiseen on käytettävä varaus- ja vuokratupia tai yksityisiä majoituspalveluja."
     },
     {
       "t": "p",
@@ -49,7 +69,11 @@
     },
     {
       "t": "p",
-      "text": "Maaliskuussa 2026 Metsähallitus järjesti 11 valvontapäivää Lapin ja Koillismaan suosituissa retkikohteissa: Oulangan, Riisitunturin ja Pallas-Yllästunturin kansallispuistoissa, Korouomalla, Valtavaaran ja Pyhävaaran suojelualueella sekä Napapiirin retkeilyalueella Rovaniemen lähellä. Henkilöstö jututti noin 30 yrityksen oppaita ja tapasi noin 70 ryhmää, yhteensä yli 600 ihmistä. Suurin osa yritysten asiakkaista oli kansainvälisiä matkailijoita."
+      "text": "Maaliskuussa 2026 Metsähallitus järjesti 11 valvontapäivää Lapin ja Koillismaan suosituissa retkikohteissa: Oulangan, Riisitunturin ja Pallas-Yllästunturin kansallispuistoissa, Korouomalla, Valtavaaran ja Pyhävaaran suojelualueella sekä Napapiirin retkeilyalueella Rovaniemen lähellä."
+    },
+    {
+      "t": "p",
+      "text": "Henkilöstö jututti noin 30 yrityksen oppaita ja tapasi noin 70 ryhmää, yhteensä yli 600 ihmistä. Suurin osa yritysten asiakkaista oli kansainvälisiä matkailijoita."
     },
     {
       "t": "p",

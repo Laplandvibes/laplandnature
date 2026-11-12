@@ -8,7 +8,19 @@
   "body": [
     {
       "t": "p",
-      "text": "Il diritto di accesso alla natura non consente a un gruppo turistico di occupare un rifugio libero in un parco nazionale, ha ricordato Metsähallitus sul giornale Maaseudun Tulevaisuus il 27 settembre 2026, aggiungendo che i controlli vanno intensificati. Metsähallitus gestisce i parchi nazionali della Finlandia e ne cura i rifugi."
+      "text": "Il diritto di accesso alla natura non consente a un gruppo turistico di occupare un rifugio libero in un parco nazionale, ha ricordato Metsähallitus a settembre, aggiungendo che i controlli vanno intensificati. Metsähallitus gestisce i parchi nazionali della Finlandia e ne cura i rifugi."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "Rifugi e controlli in breve",
+      "items": [
+        "Richiamo: sul giornale Maaseudun Tulevaisuus il 27 settembre 2026",
+        "Giornate di controllo: 11 nel marzo 2026",
+        "Gruppi incontrati: circa 70, in tutto più di 600 persone",
+        "Partner turistici: 730 alla fine del 2025",
+        "Silenzio nei rifugi: dalle 23 alle 6"
+      ]
     },
     {
       "t": "h2",
@@ -16,7 +28,11 @@
     },
     {
       "t": "p",
-      "text": "Un rifugio libero è un riparo gratuito e condiviso da tutti, dove gli escursionisti che viaggiano in autonomia possono riposare e passare la notte senza prenotare. Il galateo dei rifugi di Metsähallitus fissa le condizioni: i rifugi sono pensati per singoli escursionisti e per una notte, mentre i gruppi più numerosi e chi si ferma più di una notte dovrebbero usare una tenda, un rifugio su prenotazione o un rifugio in affitto. Chi arriva prima fa posto a chi arriva dopo, e la precedenza spetta a chi si sposta con la sola forza dei propri muscoli."
+      "text": "Un rifugio libero è un riparo gratuito e condiviso da tutti, dove gli escursionisti che viaggiano in autonomia possono riposare e passare la notte senza prenotare."
+    },
+    {
+      "t": "p",
+      "text": "Il galateo dei rifugi di Metsähallitus fissa le condizioni: i rifugi sono pensati per singoli escursionisti e per una notte, mentre i gruppi più numerosi e chi si ferma più di una notte dovrebbero usare una tenda, un rifugio su prenotazione o un rifugio in affitto. Chi arriva prima fa posto a chi arriva dopo, e la precedenza spetta a chi si sposta con la sola forza dei propri muscoli."
     },
     {
       "t": "p",
@@ -33,11 +49,15 @@
     },
     {
       "t": "h2",
-      "text": "Che cosa possono fare le aziende turistiche"
+      "text": "Che cosa possono fare le aziende"
     },
     {
       "t": "p",
-      "text": "Un'azienda che porta clienti paganti nelle aree protette dello Stato deve avere un accordo di collaborazione con Metsähallitus. L'accordo le consente di usare sentieri, punti di sosta e servizi igienici, ma non copre l'alloggio dei clienti nei rifugi liberi, e l'azienda non può riservare punti di sosta al proprio gruppo. Con il permesso di Metsähallitus un rifugio può servire da punto di sosta, ma i clienti devono pernottare in rifugi su prenotazione o in affitto oppure in strutture ricettive private."
+      "text": "Un'azienda che porta clienti paganti nelle aree protette dello Stato deve avere un accordo di collaborazione con Metsähallitus. L'accordo le consente di usare sentieri, punti di sosta e servizi igienici, ma non copre l'alloggio dei clienti nei rifugi liberi, e l'azienda non può riservare punti di sosta al proprio gruppo."
+    },
+    {
+      "t": "p",
+      "text": "Con il permesso di Metsähallitus un rifugio può servire da punto di sosta, ma i clienti devono pernottare in rifugi su prenotazione o in affitto oppure in strutture ricettive private."
     },
     {
       "t": "p",
@@ -49,7 +69,11 @@
     },
     {
       "t": "p",
-      "text": "Nel marzo 2026 Metsähallitus ha svolto 11 giornate di controllo in mete escursionistiche molto frequentate della Lapponia e del Koillismaa: i parchi nazionali di Oulanka, Riisitunturi e Pallas-Yllästunturi, Korouoma, l'area protetta di Valtavaara e Pyhävaara e l'area escursionistica di Napapiiri, vicino a Rovaniemi. Il personale ha parlato con le guide di circa 30 aziende e ha incontrato circa 70 gruppi, in tutto più di 600 persone. La maggior parte dei clienti delle aziende erano viaggiatori internazionali."
+      "text": "Nel marzo 2026 Metsähallitus ha svolto 11 giornate di controllo in mete escursionistiche molto frequentate della Lapponia e del Koillismaa: i parchi nazionali di Oulanka, Riisitunturi e Pallas-Yllästunturi, Korouoma, l'area protetta di Valtavaara e Pyhävaara e l'area escursionistica di Napapiiri, vicino a Rovaniemi."
+    },
+    {
+      "t": "p",
+      "text": "Il personale ha parlato con le guide di circa 30 aziende e ha incontrato circa 70 gruppi, in tutto più di 600 persone. La maggior parte dei clienti delle aziende erano viaggiatori internazionali."
     },
     {
       "t": "p",

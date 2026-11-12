@@ -8,7 +8,19 @@
   "body": [
     {
       "t": "p",
-      "text": "A Metsähallitus publicou uma lista das águas estatais cujo direito de pesca pode ser arrendado. A lista entrou no ar no serviço Eräluvat.fi no início de novembro e reúne cerca de cem lagoas e lagos, com a localização, o tamanho e o preço anual de cada um. Segundo a Metsähallitus, uma lista nacional das águas oferecidas é publicada pela primeira vez."
+      "text": "A Metsähallitus publicou uma lista das águas estatais cujo direito de pesca pode ser arrendado. Ela reúne cerca de cem lagoas e lagos e, segundo a Metsähallitus, uma lista nacional das águas oferecidas é publicada pela primeira vez."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "A lista em resumo",
+      "items": [
+        "Publicação: início de novembro no serviço Eräluvat.fi",
+        "Na região da Lapônia: sete águas",
+        "Preço anual: a partir de 90 euros mais IVA",
+        "Contrato: prazo determinado, no máximo dez anos",
+        "Em vigor agora: 817 arrendamentos de pesca"
+      ]
     },
     {
       "t": "h2",
@@ -28,7 +40,11 @@
     },
     {
       "t": "p",
-      "text": "O arrendamento não retira os direitos gerais de pesca que valem naquela água. Qualquer pessoa continua podendo pescar de graça com vara e linha simples ou pescar no gelo, e a pesca com isca artificial e uma vara é permitida depois do pagamento da taxa nacional de gestão pesqueira. O arrendatário pode pedir ao órgão Elinvoimakeskus que esses direitos sejam restringidos, e a lista mostra em cada lagoa se isso é possível. Segundo a Metsähallitus, perto das águas arrendadas costuma haver áreas de licença do próprio órgão."
+      "text": "O arrendamento não retira os direitos gerais de pesca que valem naquela água. Qualquer pessoa continua podendo pescar de graça com vara e linha simples ou pescar no gelo, e a pesca com isca artificial e uma vara é permitida depois do pagamento da taxa nacional de gestão pesqueira."
+    },
+    {
+      "t": "p",
+      "text": "O arrendatário pode pedir ao órgão Elinvoimakeskus que esses direitos sejam restringidos, e a lista mostra em cada lagoa se isso é possível. Segundo a Metsähallitus, perto das águas arrendadas costuma haver áreas de licença do próprio órgão."
     },
     {
       "t": "ul",

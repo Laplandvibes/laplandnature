@@ -8,7 +8,19 @@
   "body": [
     {
       "t": "p",
-      "text": "Allemansrätten ger inte en turistgrupp rätt att ta över en ödestuga i en nationalpark. Det påpekade Metsähallitus i tidningen Maaseudun Tulevaisuus den 27 september 2026 och tillade att tillsynen behöver öka. Metsähallitus förvaltar Finlands nationalparker och sköter stugorna i dem."
+      "text": "Allemansrätten ger inte en turistgrupp rätt att ta över en ödestuga i en nationalpark. Det påpekade Metsähallitus i september och tillade att tillsynen behöver öka. Metsähallitus förvaltar Finlands nationalparker och sköter stugorna i dem."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "Stugor och tillsyn i korthet",
+      "items": [
+        "Uttalande: i tidningen Maaseudun Tulevaisuus den 27 september 2026",
+        "Tillsynsdagar: 11 i mars 2026",
+        "Grupper: omkring 70, sammanlagt över 600 personer",
+        "Samarbetspartner: 730 i slutet av 2025",
+        "Tystnad i stugorna: kl. 23.00–06.00"
+      ]
     },
     {
       "t": "h2",
@@ -16,7 +28,11 @@
     },
     {
       "t": "p",
-      "text": "En ödestuga, en öppen stuga i vildmarken, är en gratis plats som alla delar på, där vandrare som rör sig på egen hand kan vila och övernatta utan att boka. Stugetiketten från Metsähallitus anger villkoren: stugorna är till för enskilda vandrare som stannar en natt, medan större grupper och den som stannar längre ska använda tält eller en reserverings- eller hyresstuga. Den som kommer först gör plats för den som kommer senare, och vandrare som tar sig fram med egen muskelkraft har företräde."
+      "text": "En ödestuga, en öppen stuga i vildmarken, är en gratis plats som alla delar på, där vandrare som rör sig på egen hand kan vila och övernatta utan att boka."
+    },
+    {
+      "t": "p",
+      "text": "Stugetiketten från Metsähallitus anger villkoren: stugorna är till för enskilda vandrare som stannar en natt, medan större grupper och den som stannar längre ska använda tält eller en reserverings- eller hyresstuga. Den som kommer först gör plats för den som kommer senare, och vandrare som tar sig fram med egen muskelkraft har företräde."
     },
     {
       "t": "p",
@@ -37,7 +53,11 @@
     },
     {
       "t": "p",
-      "text": "Ett företag som tar med betalande kunder till statens skyddsområden behöver ett samarbetsavtal med Metsähallitus. Avtalet ger rätt att använda leder, rastplatser och toaletter, men det omfattar inte inkvartering av kunder i ödestugor, och företaget kan inte reservera rastplatser för sin egen grupp. Med tillstånd från Metsähallitus kan en stuga användas som rastplats, men kunderna måste övernatta i reserverings- eller hyresstugor eller i privat inkvartering."
+      "text": "Ett företag som tar med betalande kunder till statens skyddsområden behöver ett samarbetsavtal med Metsähallitus. Avtalet ger rätt att använda leder, rastplatser och toaletter, men det omfattar inte inkvartering av kunder i ödestugor, och företaget kan inte reservera rastplatser för sin egen grupp."
+    },
+    {
+      "t": "p",
+      "text": "Med tillstånd från Metsähallitus kan en stuga användas som rastplats, men kunderna måste övernatta i reserverings- eller hyresstugor eller i privat inkvartering."
     },
     {
       "t": "p",
@@ -49,7 +69,11 @@
     },
     {
       "t": "p",
-      "text": "I mars 2026 höll Metsähallitus 11 tillsynsdagar på populära utflyktsmål i Lappland och Koillismaa: nationalparkerna Oulanka, Riisitunturi och Pallas-Yllästunturi, Korouoma, skyddsområdet Valtavaara och Pyhävaara samt friluftsområdet Napapiiri nära Rovaniemi. Personalen talade med guider från omkring 30 företag och träffade omkring 70 grupper, sammanlagt över 600 personer. De flesta av företagens kunder var internationella resenärer."
+      "text": "I mars 2026 höll Metsähallitus 11 tillsynsdagar på populära utflyktsmål i Lappland och Koillismaa: nationalparkerna Oulanka, Riisitunturi och Pallas-Yllästunturi, Korouoma, skyddsområdet Valtavaara och Pyhävaara samt friluftsområdet Napapiiri nära Rovaniemi."
+    },
+    {
+      "t": "p",
+      "text": "Personalen talade med guider från omkring 30 företag och träffade omkring 70 grupper, sammanlagt över 600 personer. De flesta av företagens kunder var internationella resenärer."
     },
     {
       "t": "p",

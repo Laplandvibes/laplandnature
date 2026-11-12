@@ -8,7 +8,19 @@
   "body": [
     {
       "t": "p",
-      "text": "Metsähallitus publicó una lista de las aguas estatales cuyo derecho de pesca se puede alquilar. La lista salió en el servicio Eräluvat.fi a principios de noviembre y abarca alrededor de cien estanques y lagos, con la ubicación, el tamaño y el precio anual de cada uno. Según Metsähallitus, es la primera vez que se publica una lista de alcance nacional de las aguas en oferta."
+      "text": "Metsähallitus publicó una lista de las aguas estatales cuyo derecho de pesca se puede alquilar. Abarca alrededor de cien estanques y lagos y, según Metsähallitus, es la primera vez que se publica una lista de alcance nacional de las aguas en oferta."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "La lista en breve",
+      "items": [
+        "Publicación: principios de noviembre en el servicio Eräluvat.fi",
+        "En la región de Laponia: siete aguas",
+        "Precio anual: desde 90 euros más IVA",
+        "Contrato: de plazo fijo, diez años como máximo",
+        "En vigor ahora: 817 contratos de alquiler de pesca"
+      ]
     },
     {
       "t": "h2",
@@ -28,7 +40,11 @@
     },
     {
       "t": "p",
-      "text": "El alquiler no elimina los derechos generales de pesca que rigen en esa agua. Cualquiera puede seguir pescando gratis con caña y sedal simples o pescar en el hielo, y la pesca con señuelo y una sola caña está permitida tras pagar la tasa nacional de gestión pesquera. El arrendatario puede pedir a la autoridad Elinvoimakeskus que esos derechos se restrinjan, y la lista indica en cada estanque si eso es posible siquiera. Según Metsähallitus, cerca de las aguas alquiladas suele haber zonas de permiso del propio organismo."
+      "text": "El alquiler no elimina los derechos generales de pesca que rigen en esa agua. Cualquiera puede seguir pescando gratis con caña y sedal simples o pescar en el hielo, y la pesca con señuelo y una sola caña está permitida tras pagar la tasa nacional de gestión pesquera."
+    },
+    {
+      "t": "p",
+      "text": "El arrendatario puede pedir a la autoridad Elinvoimakeskus que esos derechos se restrinjan, y la lista indica en cada estanque si eso es posible siquiera. Según Metsähallitus, cerca de las aguas alquiladas suele haber zonas de permiso del propio organismo."
     },
     {
       "t": "ul",

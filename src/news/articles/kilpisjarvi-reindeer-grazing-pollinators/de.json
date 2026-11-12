@@ -8,15 +8,27 @@
   "body": [
     {
       "t": "p",
-      "text": "Die Beweidung durch Rentiere verändert das Verhältnis von Blüten und Insekten in den Fjells Lapplands stärker als die Zugabe von Nährstoffen. Das zeigt eine Studie der Universität Oulu, über die am 17.9.2026 informiert wurde. Am stärksten waren die Effekte auf karger Tundra, und die meisten Insekten zogen jene Fjellwiesen an, die gegen Beweidung eingezäunt waren."
+      "text": "Die Beweidung durch Rentiere verändert das Verhältnis von Blüten und Insekten in den Fjells Lapplands stärker als die Zugabe von Nährstoffen, zeigt eine Studie der Universität Oulu. Die meisten Insekten zogen jene Fjellwiesen an, die gegen Beweidung eingezäunt waren."
     },
     {
-      "t": "h2",
-      "text": "Ein Zaun, zusätzliche Nährstoffe und zwei Fjellwiesen"
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "Die Studie in Kürze",
+      "items": [
+        "Versuchsflächen: zwei nahe Kilpisjärvi",
+        "Parzellen: 16 je Fläche",
+        "Angelegt: 2014–2015",
+        "Insekten beobachtet: Juli 2022",
+        "Bekannt gegeben: 17.9.2026"
+      ]
     },
     {
       "t": "p",
-      "text": "Die Blütenbesucher wurden auf zwei Versuchsflächen nahe Kilpisjärvi gezählt. Eine liegt oberhalb der Baumgrenze auf karger Tundra, die andere auf einer nährstoffreicheren Wiese im Fjellbirkengürtel. Auf jeder Fläche blieben 16 Parzellen entweder den Rentieren offen oder wurden eingezäunt, mit oder ohne Nährstoffzugabe. Die Behandlungen wurden 2014–2015 angelegt, die Insekten im Juli 2022 beobachtet. Die Arbeit ist Teil des internationalen Nutrient-Network-Versuchs."
+      "text": "Die Blütenbesucher wurden auf zwei Versuchsflächen nahe Kilpisjärvi gezählt. Eine liegt oberhalb der Baumgrenze auf karger Tundra, die andere auf einer nährstoffreicheren Wiese im Fjellbirkengürtel."
+    },
+    {
+      "t": "p",
+      "text": "Auf jeder Fläche blieben 16 Parzellen entweder den Rentieren offen oder wurden eingezäunt, mit oder ohne Nährstoffzugabe. Die Behandlungen wurden 2014–2015 angelegt, die Insekten im Juli 2022 beobachtet. Die Arbeit ist Teil des internationalen Nutrient-Network-Versuchs."
     },
     {
       "t": "embed",
@@ -34,7 +46,11 @@
     },
     {
       "t": "p",
-      "text": "Die Rentiere fernzuhalten war der einzelne Faktor mit der größten Wirkung. Der Zaun erhöhte die Zahl der Bestäuber und anderer Blütenbesucher, den Reichtum an Insektenfamilien und die Zahl der Besuche an den Pflanzen. Auf der kargen Tundrawiese waren die Effekte stärker als auf der nährstoffreicheren Wiese zwischen den Birken. Viele arktische Pflanzen sind auf die Bestäubung durch Insekten angewiesen, erinnert Risto Virtanen, Oberkustos an der Universität Oulu."
+      "text": "Die Rentiere fernzuhalten war der einzelne Faktor mit der größten Wirkung. Der Zaun erhöhte die Zahl der Bestäuber und anderer Blütenbesucher, den Reichtum an Insektenfamilien und die Zahl der Besuche an den Pflanzen. Auf der kargen Tundrawiese waren die Effekte stärker als auf der nährstoffreicheren Wiese zwischen den Birken."
+    },
+    {
+      "t": "p",
+      "text": "Viele arktische Pflanzen sind auf die Bestäubung durch Insekten angewiesen, erinnert Risto Virtanen, Oberkustos an der Universität Oulu."
     },
     {
       "t": "h2",

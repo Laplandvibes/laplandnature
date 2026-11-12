@@ -51,5 +51,10 @@
   "ogCard": {
     "line": "State ponds listed for fishing leases",
     "focus": "50% 55%"
+  },
+  "embeds": {
+    "facts-lyhyesti": {
+      "kind": "facts"
+    }
   }
 }

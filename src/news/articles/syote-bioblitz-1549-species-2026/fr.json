@@ -8,14 +8,27 @@
   "body": [
     {
       "t": "p",
-      "text": "Environ 50 naturalistes experts ont prospecté le parc national de Syöte et la zone de randonnée de Syöte du 14 août à 12 h au 15 août 2026 à 12 h. Organisé par Metsähallitus, l'organisme public qui gère les parcs nationaux finlandais, ce BioBlitz de 24 heures visait 1 000 espèces, et le décompte final publié en octobre s'élève à 1 549."
+      "text": "Des naturalistes experts ont recensé 1 549 espèces en une journée d'août dans le parc national de Syöte et la zone de randonnée de Syöte. Organisé par Metsähallitus, l'organisme public qui gère les parcs nationaux finlandais, ce BioBlitz visait 1 000 espèces."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "Le BioBlitz en bref",
+      "items": [
+        "Quand : 24 heures, du 14 août à 12 h au 15 août 2026 à 12 h",
+        "Experts : environ 50",
+        "Objectif : 1 000 espèces",
+        "Décompte final : 1 549 espèces, publié en octobre",
+        "Nouvelles pour la zone : 829 espèces"
+      ]
     },
     {
       "t": "h2",
       "text": "Ce qu'ils ont trouvé"
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "facts-loydot",
       "items": [
         "Champignons : 285 espèces, plus que lors de tous les BioBlitz précédents de Metsähallitus. On compte 94 polypores et 191 champignons, pour la plupart à lamelles, et 170 espèces sont nouvelles pour le parc.",
         "Plantes : 246 espèces.",

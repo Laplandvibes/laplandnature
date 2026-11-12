@@ -8,15 +8,27 @@
   "body": [
     {
       "t": "p",
-      "text": "Il pascolo delle renne cambia il rapporto tra fiori e insetti sui fjell della Lapponia più di quanto faccia l'aggiunta di nutrienti, secondo uno studio dell'Università di Oulu comunicato il 17.9.2026. Gli effetti sono stati più forti sulla tundra povera, e i prati che hanno attirato più insetti sono quelli recintati contro il pascolo."
+      "text": "Il pascolo delle renne cambia il rapporto tra fiori e insetti sui fjell della Lapponia più di quanto faccia l'aggiunta di nutrienti, secondo uno studio dell'Università di Oulu. I prati che hanno attirato più insetti sono quelli recintati contro il pascolo."
     },
     {
-      "t": "h2",
-      "text": "Una recinzione, nutrienti aggiunti e due prati del fjell"
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "Lo studio in breve",
+      "items": [
+        "Aree sperimentali: due vicino a Kilpisjärvi",
+        "Parcelle: 16 per area",
+        "Avvio: 2014–2015",
+        "Insetti osservati: luglio 2022",
+        "Comunicato: 17.9.2026"
+      ]
     },
     {
       "t": "p",
-      "text": "I visitatori dei fiori sono stati contati in due aree sperimentali vicino a Kilpisjärvi. Una si trova sopra il limite degli alberi, su tundra povera; l'altra su un prato più fertile nella fascia delle betulle di montagna. In ogni area 16 parcelle sono state lasciate aperte alle renne oppure recintate, con o senza nutrienti aggiunti. I trattamenti sono stati impostati nel 2014–2015 e gli insetti osservati nel luglio 2022. Il lavoro fa parte dell'esperimento internazionale Nutrient Network."
+      "text": "I visitatori dei fiori sono stati contati in due aree sperimentali vicino a Kilpisjärvi. Una si trova sopra il limite degli alberi, su tundra povera; l'altra su un prato più fertile nella fascia delle betulle di montagna."
+    },
+    {
+      "t": "p",
+      "text": "In ogni area 16 parcelle sono state lasciate aperte alle renne oppure recintate, con o senza nutrienti aggiunti. I trattamenti sono stati impostati nel 2014–2015 e gli insetti osservati nel luglio 2022. Il lavoro fa parte dell'esperimento internazionale Nutrient Network."
     },
     {
       "t": "embed",
@@ -34,7 +46,11 @@
     },
     {
       "t": "p",
-      "text": "Tenere fuori le renne è stato il fattore singolo che ha contato di più. La recinzione ha aumentato il numero di impollinatori e di altri insetti visitatori dei fiori, la ricchezza di famiglie di insetti e il numero di visite alle piante. Gli effetti sono stati più forti sul prato di tundra povera che sul prato più fertile tra le betulle. Molte piante artiche dipendono dall'impollinazione degli insetti, ricorda Risto Virtanen, conservatore capo dell'Università di Oulu."
+      "text": "Tenere fuori le renne è stato il fattore singolo che ha contato di più. La recinzione ha aumentato il numero di impollinatori e di altri insetti visitatori dei fiori, la ricchezza di famiglie di insetti e il numero di visite alle piante. Gli effetti sono stati più forti sul prato di tundra povera che sul prato più fertile tra le betulle."
+    },
+    {
+      "t": "p",
+      "text": "Molte piante artiche dipendono dall'impollinazione degli insetti, ricorda Risto Virtanen, conservatore capo dell'Università di Oulu."
     },
     {
       "t": "h2",
@@ -64,7 +80,7 @@
     },
     {
       "t": "h2",
-      "text": "Che cosa significa per la pianificazione dei pascoli"
+      "text": "Che cosa cambia per i pascoli"
     },
     {
       "t": "p",

@@ -8,14 +8,27 @@
   "body": [
     {
       "t": "p",
-      "text": "Rund 50 Artenexperten durchsuchten den Syöte-Nationalpark und das Wandergebiet Syöte von 12 Uhr am 14. August bis 12 Uhr am 15. August 2026. Die 24-stündige Aktion, ein von Metsähallitus Parks & Wildlife Finland veranstalteter BioBlitz, hatte 1.000 Arten zum Ziel, und das im Oktober veröffentlichte Endergebnis lag bei 1.549."
+      "text": "Artenexperten haben im Syöte-Nationalpark und im Wandergebiet Syöte an einem Tag im August 1.549 Arten nachgewiesen. Die Aktion, ein von Metsähallitus Parks & Wildlife Finland veranstalteter BioBlitz, hatte 1.000 Arten zum Ziel."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "Der BioBlitz in Kürze",
+      "items": [
+        "Wann: 24 Stunden, von 12 Uhr am 14. August bis 12 Uhr am 15. August 2026",
+        "Experten: rund 50",
+        "Ziel: 1.000 Arten",
+        "Endergebnis: 1.549 Arten, im Oktober veröffentlicht",
+        "Neu für das Gebiet: 829 Arten"
+      ]
     },
     {
       "t": "h2",
       "text": "Was gefunden wurde"
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "facts-loydot",
       "items": [
         "Pilze: 285 Arten, mehr als bei jedem früheren BioBlitz von Metsähallitus. Davon waren 94 Porlinge und 191 überwiegend Lamellenpilze, und 170 sind neu für den Park.",
         "Pflanzen: 246 Arten.",

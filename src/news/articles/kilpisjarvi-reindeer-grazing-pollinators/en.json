@@ -8,15 +8,27 @@
   "body": [
     {
       "t": "p",
-      "text": "Reindeer grazing changes the relationship between flowers and insects on the fells of Lapland more than added nutrients do, according to a study by the University of Oulu reported on 17.9.2026. The effects were strongest on barren tundra, and the fell meadows that drew the most insects were those fenced off from grazing."
+      "text": "Reindeer grazing changes the relationship between flowers and insects on the fells of Lapland more than added nutrients do, according to a University of Oulu study. The fell meadows that drew the most insects were those fenced off from grazing."
     },
     {
-      "t": "h2",
-      "text": "A fence, added nutrients and two fell meadows"
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "The study in brief",
+      "items": [
+        "Sites: two near Kilpisjärvi",
+        "Plots: 16 at each site",
+        "Set up: 2014–2015",
+        "Insects watched: July 2022",
+        "Reported: 17.9.2026"
+      ]
     },
     {
       "t": "p",
-      "text": "The flower visitors were counted on two experimental areas near Kilpisjärvi. One lies above the treeline on barren tundra, the other on a more fertile meadow in the mountain birch zone. At each site 16 plots were either left open to reindeer or fenced off, with or without added nutrients. The treatments were set up in 2014–2015 and the insects were watched in July 2022. The work is part of the international Nutrient Network experiment."
+      "text": "The flower visitors were counted on two experimental areas near Kilpisjärvi. One lies above the treeline on barren tundra, the other on a more fertile meadow in the mountain birch zone."
+    },
+    {
+      "t": "p",
+      "text": "At each site 16 plots were either left open to reindeer or fenced off, with or without added nutrients. The treatments were set up in 2014–2015 and the insects were watched in July 2022. The work is part of the international Nutrient Network experiment."
     },
     {
       "t": "embed",
@@ -34,7 +46,11 @@
     },
     {
       "t": "p",
-      "text": "Keeping reindeer out was the single factor that mattered most. Fencing raised the number of pollinators and other flower-visiting insects, the richness of insect families and the number of visits to plants. The effects were stronger on the barren tundra meadow than on the more fertile meadow among the birches. Many arctic plants depend on insect pollination, notes Risto Virtanen, senior curator at the University of Oulu."
+      "text": "Keeping reindeer out was the single factor that mattered most. Fencing raised the number of pollinators and other flower-visiting insects, the richness of insect families and the number of visits to plants. The effects were stronger on the barren tundra meadow than on the more fertile meadow among the birches."
+    },
+    {
+      "t": "p",
+      "text": "Many arctic plants depend on insect pollination, notes Risto Virtanen, senior curator at the University of Oulu."
     },
     {
       "t": "h2",

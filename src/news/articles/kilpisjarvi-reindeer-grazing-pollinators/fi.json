@@ -8,15 +8,27 @@
   "body": [
     {
       "t": "p",
-      "text": "Porojen laidunnus muokkaa Lapin tuntureiden kukkien ja hyönteisten suhteita voimakkaammin kuin ravinteiden lisääminen, kertoo Oulun yliopiston tutkimus, josta tiedotettiin 17.9.2026. Vaikutukset olivat voimakkaimpia karulla tundralla, ja eniten hyönteisiä houkuttelivat laidunnukselta aidatut tunturiniityt."
+      "text": "Porojen laidunnus muokkaa Lapin tuntureiden kukkien ja hyönteisten suhteita voimakkaammin kuin ravinteiden lisääminen, kertoo Oulun yliopiston tutkimus. Eniten hyönteisiä houkuttelivat laidunnukselta aidatut tunturiniityt."
     },
     {
-      "t": "h2",
-      "text": "Aita, ravinnelisäys ja kaksi tunturiniittyä"
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "Tutkimus lyhyesti",
+      "items": [
+        "Koealueet: kaksi Kilpisjärven lähellä",
+        "Koealoja: 16 kummallakin alueella",
+        "Koe perustettu: 2014–2015",
+        "Hyönteiset havainnoitu: heinäkuussa 2022",
+        "Tiedotettu: 17.9.2026"
+      ]
     },
     {
       "t": "p",
-      "text": "Kukilla vierailevat hyönteiset laskettiin kahdella koealueella Kilpisjärven lähellä. Toinen on puurajan yläpuolella karulla tundralla, toinen ravinteikkaammalla niityllä tunturikoivuvyöhykkeessä. Kummallakin alueella 16 koealaa jätettiin joko porojen laidunnettavaksi tai aidattiin, ravinnelisäyksen kanssa tai ilman. Käsittelyt perustettiin 2014–2015 ja hyönteisiä havainnoitiin heinäkuussa 2022. Työ on osa kansainvälistä Nutrient Network -koetta."
+      "text": "Kukilla vierailevat hyönteiset laskettiin kahdella koealueella Kilpisjärven lähellä. Toinen on puurajan yläpuolella karulla tundralla, toinen ravinteikkaammalla niityllä tunturikoivuvyöhykkeessä."
+    },
+    {
+      "t": "p",
+      "text": "Kummallakin alueella 16 koealaa jätettiin joko porojen laidunnettavaksi tai aidattiin, ravinnelisäyksen kanssa tai ilman. Käsittelyt perustettiin 2014–2015 ja hyönteisiä havainnoitiin heinäkuussa 2022. Työ on osa kansainvälistä Nutrient Network -koetta."
     },
     {
       "t": "embed",
@@ -34,7 +46,11 @@
     },
     {
       "t": "p",
-      "text": "Porojen pitäminen poissa oli yksittäisistä tekijöistä merkittävin. Aitaaminen lisäsi pölyttäjien ja muiden kukissa käyvien hyönteisten määrää, hyönteisheimojen rikkautta ja vierailuja kasveissa. Vaikutukset olivat voimakkaampia karulla tunturiniityllä kuin ravinteikkaammalla koivikon niityllä. Monet arktiset kasvit ovat riippuvaisia hyönteisten tekemästä pölytyksestä, muistuttaa Oulun yliopiston yli-intendentti Risto Virtanen."
+      "text": "Porojen pitäminen poissa oli yksittäisistä tekijöistä merkittävin. Aitaaminen lisäsi pölyttäjien ja muiden kukissa käyvien hyönteisten määrää, hyönteisheimojen rikkautta ja vierailuja kasveissa. Vaikutukset olivat voimakkaampia karulla tunturiniityllä kuin ravinteikkaammalla koivikon niityllä."
+    },
+    {
+      "t": "p",
+      "text": "Monet arktiset kasvit ovat riippuvaisia hyönteisten tekemästä pölytyksestä, muistuttaa Oulun yliopiston yli-intendentti Risto Virtanen."
     },
     {
       "t": "h2",
@@ -64,7 +80,7 @@
     },
     {
       "t": "h2",
-      "text": "Mitä tästä seuraa laidunten suunnittelulle"
+      "text": "Mitä tästä seuraa laitumille"
     },
     {
       "t": "p",
