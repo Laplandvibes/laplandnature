@@ -94,7 +94,7 @@ const scandinavianOutdoor: AdSpec = {
     fr: {
       eyebrow: 'Équipement d’expédition',
       headline: 'Scandinavian Outdoor, les marques outdoor nordiques dans une seule boutique',
-      sub: 'Un détaillant outdoor finlandais qui réunit les grandes marques nordiques: des sous-couches aux raquettes, des sacs de couchage aux lampes frontales. Les fiches produits détaillées aident à choisir le bon niveau de chaleur avant de monter au nord.',
+      sub: 'Un détaillant outdoor finlandais qui réunit les grandes marques nordiques : des sous-couches aux raquettes, des sacs de couchage aux lampes frontales. Les fiches produits détaillées aident à choisir le bon niveau de chaleur avant de monter au nord.',
       trust: ['Marques nordiques réunies', 'Des sous-couches aux raquettes', 'Boutique finlandaise'],
       cta: 'Parcourir la gamme',
       poweredBy: 'Équipement Scandinavian Outdoor',
