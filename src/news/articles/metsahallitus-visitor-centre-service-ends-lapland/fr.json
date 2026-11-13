@@ -8,13 +8,13 @@
   "body": [
     {
       "t": "p",
-      "text": "Metsähallitus a fermé son propre accueil dans quatre lieux de Laponie le 11 novembre 2026 : le centre nature Kellokas à Äkäslompolo, le centre nature de la Laponie des fjälls à Hetta, le point de service d'Inari à l'intérieur de Siida et le centre nature Naava au Pyhätunturi. Le randonneur qui entre aujourd'hui ne trouve plus personne derrière le comptoir pour le renseigner sur les itinéraires, les permis ou les conditions."
+      "text": "Metsähallitus a fermé son propre accueil dans quatre lieux de Laponie le 11 novembre 2026 : le centre nature Kellokas à Äkäslompolo, le centre nature de la Laponie des fjells à Hetta, le point de service d'Inari à l'intérieur de Siida et le centre nature Naava au Pyhätunturi. Le randonneur qui entre aujourd'hui ne trouve plus personne derrière le comptoir pour le renseigner sur les itinéraires, les permis ou les conditions."
     },
     {
       "t": "ul",
       "items": [
         "Kellokas, Äkäslompolo : le bâtiment a été vendu et les nouveaux propriétaires en reprendront la gestion en février 2027.",
-        "Centre nature de la Laponie des fjälls, Hetta : l'accueil assuré par Metsähallitus a cessé.",
+        "Centre nature de la Laponie des fjells, Hetta : l'accueil assuré par Metsähallitus a cessé.",
         "Point de service d'Inari : le musée sami Siida continue dans le même bâtiment.",
         "Naava, Pyhätunturi : le restaurant reste ouvert et l'exposition se visite toujours."
       ]
@@ -53,7 +53,7 @@
     },
     {
       "t": "p",
-      "text": "Les négociations de changement menées en octobre et en novembre mettent fin à l'emploi de 10 personnes et modifient les conditions essentielles de 10 autres. Metsähallitus attend de ces décisions des économies annuelles permanentes d'environ un million d'euros. Les Services de la nature doivent réduire leurs coûts d'environ cinq millions d'euros d'ici 2030, et les économies arrêtées aujourd'hui en sont une partie. Ces décisions prolongent un plan établi en 2025 qui prévoit d'abandonner par étapes le réseau de centres nature et de déplacer le poids du service client vers les services numériques nationaux."
+      "text": "Les négociations sur des suppressions de postes menées en octobre et en novembre mettent fin à l'emploi de 10 personnes et modifient les conditions essentielles de 10 autres. Metsähallitus attend de ces décisions des économies annuelles permanentes d'environ un million d'euros. Les Services de la nature doivent réduire leurs coûts d'environ cinq millions d'euros d'ici 2030, et les économies arrêtées aujourd'hui en sont une partie. Ces décisions prolongent un plan établi en 2025 qui prévoit d'abandonner par étapes le réseau de centres nature et de déplacer le poids du service client vers les services numériques nationaux."
     },
     {
       "t": "h2",

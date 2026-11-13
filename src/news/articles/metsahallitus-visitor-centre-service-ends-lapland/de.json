@@ -8,13 +8,13 @@
   "body": [
     {
       "t": "p",
-      "text": "Metsähallitus hat seinen eigenen Kundendienst am 11. November 2026 an vier Orten in Lappland geschlossen: im Besucherzentrum Kellokas in Äkäslompolo, im Besucherzentrum Fjäll-Lappland in Hetta, an der Servicestelle Inari im Siida und im Besucherzentrum Naava am Pyhätunturi. Wer jetzt als Wanderer hereinkommt, findet hinter dem Tresen niemanden mehr, der zu Routen, Genehmigungen oder Bedingungen berät."
+      "text": "Metsähallitus hat seinen eigenen Kundendienst am 11. November 2026 an vier Orten in Lappland geschlossen: im Besucherzentrum Kellokas in Äkäslompolo, im Besucherzentrum Fjell-Lappland in Hetta, an der Servicestelle Inari im Siida und im Besucherzentrum Naava am Pyhätunturi. Wer jetzt als Wanderer hereinkommt, findet hinter dem Tresen niemanden mehr, der zu Routen, Genehmigungen oder Bedingungen berät."
     },
     {
       "t": "ul",
       "items": [
         "Kellokas, Äkäslompolo: Das Haus ist verkauft, und die neuen Eigentümer übernehmen den Betrieb im Februar 2027.",
-        "Besucherzentrum Fjäll-Lappland, Hetta: Der von Metsähallitus erbrachte Kundendienst ist beendet.",
+        "Besucherzentrum Fjell-Lappland, Hetta: Der von Metsähallitus erbrachte Kundendienst ist beendet.",
         "Servicestelle Inari: Das Sámi-Museum Siida bleibt im selben Gebäude.",
         "Naava, Pyhätunturi: Das Restaurant bleibt offen, und die Ausstellung ist weiter zu sehen."
       ]
@@ -53,7 +53,7 @@
     },
     {
       "t": "p",
-      "text": "Die Änderungsverhandlungen im Oktober und November beenden das Arbeitsverhältnis von 10 Personen und ändern die wesentlichen Bedingungen von weiteren 10. Metsähallitus erwartet von den Entscheidungen dauerhafte jährliche Einsparungen von etwa einer Million Euro. Die Naturdienste müssen ihre Kosten bis 2030 um etwa fünf Millionen Euro senken, und die jetzt vereinbarten Einsparungen sind ein Teil davon. Die Entscheidungen setzen einen Plan aus dem Jahr 2025 fort, das Netz der Besucherzentren schrittweise aufzugeben und den Schwerpunkt des Kundendienstes auf landesweite digitale Dienste zu verlagern."
+      "text": "Die Verhandlungen über den Personalabbau im Oktober und November beenden das Arbeitsverhältnis von 10 Personen und ändern die wesentlichen Bedingungen von weiteren 10. Metsähallitus erwartet von den Entscheidungen dauerhafte jährliche Einsparungen von etwa einer Million Euro. Die Naturdienste müssen ihre Kosten bis 2030 um etwa fünf Millionen Euro senken, und die jetzt vereinbarten Einsparungen sind ein Teil davon. Die Entscheidungen setzen einen Plan aus dem Jahr 2025 fort, das Netz der Besucherzentren schrittweise aufzugeben und den Schwerpunkt des Kundendienstes auf landesweite digitale Dienste zu verlagern."
     },
     {
       "t": "h2",
