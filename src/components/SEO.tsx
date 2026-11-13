@@ -78,6 +78,34 @@ function injectInLanguage(node: unknown, bcp47: string): unknown {
   return node
 }
 
+// Rakenteisen datan sisäiset osoitteet samaan muotoon kuin kanoninen, hreflang ja sivukartta: sivun OMA
+// kieliversio ja loppukauttaviiva. Sivujen schema-oliot kirjoittivat englannin kauttaviivattomat osoitteet
+// (Article.mainEntityOfPage https://laplandnature.com/northern-lights, joka ohjautuu 308) joka kielellä.
+// Mitattu 12.–13.11.2026, mittari lv-ops scripts/audit_jsonld_osoitteet.mjs.
+// - polullinen osoite -> sivun kieliversio + kauttaviiva (/fi/northern-lights/); juuri -> https://laplandnature.com/
+// - tiedostot (.jpg, .svg), ankkurit ja ulkoiset osoitteet jäävät ennalleen
+// Sivun oma BreadcrumbList ei tulostu: esirenderöijä kirjoittaa jokaiselle sivulle murupolun sivun kielellä ja
+// oikeilla osoitteilla (sama ratkaisu kuin laplandcarrental 25.9. ja laplandwellness 12.11.2026).
+const INTERNAL_URL = /^https:\/\/laplandnature\.com((?:\/[A-Za-z0-9_-]+)*)\/?$/
+const LOCALE_SEGMENT = /^\/(fi|de|ja|es|br|cn|kr|fr|it|nl|sv)(?=\/|$)/
+function localizeUrls(node: unknown, prefix: string, key = ''): unknown {
+  if (typeof node === 'string') {
+    const m = INTERNAL_URL.exec(node)
+    if (!m) return node
+    const raw = m[1] || '/'
+    if (raw === '/' && key !== 'item') return `${SITE_URL}/`
+    const path = raw.replace(LOCALE_SEGMENT, '') || '/'
+    return `${SITE_URL}${prefix}${path === '/' ? '' : path}/`
+  }
+  if (Array.isArray(node)) return node.map((n) => localizeUrls(n, prefix, key))
+  if (node && typeof node === 'object') {
+    const out: Record<string, unknown> = {}
+    for (const [k, v] of Object.entries(node as Record<string, unknown>)) out[k] = localizeUrls(v, prefix, k)
+    return out
+  }
+  return node
+}
+
 export default function SEO({
   title,
   description,
@@ -94,10 +122,11 @@ export default function SEO({
   // JSON-LD is rendered as real <script> elements below (React 19 hoists them to
   // <head>) so the schema lands in the prerendered static HTML — a useEffect
   // injection does not run during SSG/prerender.
+  // Sisäiset osoitteet sivun kielelle + loppukauttaviiva (localizeUrls yllä); sivun oma BreadcrumbList pois.
   const jsonLdItems = jsonLd
-    ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]).map(
-        (obj) => injectInLanguage(JSON.parse(JSON.stringify(obj)), bcp47) as object,
-      )
+    ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd])
+        .filter((obj) => (obj as { '@type'?: unknown })['@type'] !== 'BreadcrumbList')
+        .map((obj) => localizeUrls(injectInLanguage(JSON.parse(JSON.stringify(obj)), bcp47), prefix) as object)
     : []
 
   useEffect(() => {
