@@ -88,7 +88,7 @@ const bearkuusamo: AdSpec = {
     fr: {
       eyebrow: 'Observation éthique des ours',
       headline: 'Une nuit dans un affût à ours, en lisière de Laponie',
-      sub: "Les guides ours originels de Kuusamo, plus de vingt ans dans les forêts de la frontière est. Observez ours bruns sauvages, gloutons et pygargues depuis un affût photo.",
+      sub: "Les guides ours originels de Kuusamo, plus de vingt ans dans les forêts de la frontière est. Observez des ours bruns sauvages, des gloutons et des pygargues depuis un affût photo.",
       trust: ['Plus de 20 ans', '7 affûts photo', 'Sorties du soir et de nuit'],
       cta: 'Réserver l\'observation',
       poweredBy: 'Bear Kuusamo',

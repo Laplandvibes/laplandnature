@@ -87,6 +87,10 @@ export interface AdSpec {
   linkFor: (sid: string, lang?: AdLang) => string
   accent: string
   accentDark: string
+  /** Napin tekstiväri tunnusvärin päällä, kun brändi parittaa täytön omalla musteellaan:
+   *  Lomarengas tummansininen #153D8A keltaisella #FDC300 (6,3:1, mitattu logosta ja
+   *  lomarengas.fi:stä 1.11.2026). Käytetään vain jos se ylittää 4,5:1 täyttöä vasten. */
+  accentInk?: string
   icon: LucideIcon
   /** Languages present here decide where the ad shows; missing lang + no `en` → renders nothing. */
   copy: Partial<Record<AdLang, AdCopy>>
@@ -100,7 +104,7 @@ export interface AdSpec {
  * `inkOn()` vaalentaa tunnusvärin kohti valkoista vain sen verran, että se
  * ylittää annetun kontrastin: brändin sävy säilyy, teksti luetaan.
  * Vaaleaa varianttia EI kosketa — se on mitattu kunnossa (audit_partner_logos). */
-const DARK_CARD_RGB: [number, number, number] = [20, 28, 44]
+export const DARK_CARD_RGB: [number, number, number] = [20, 28, 44]
 
 function hexToRgb(hex: string): [number, number, number] {
   const h = hex.replace('#', '')
@@ -118,7 +122,7 @@ function contrast(a: [number, number, number], b: [number, number, number]) {
   return (Math.max(l1, l2) + 0.05) / (Math.min(l1, l2) + 0.05)
 }
 /** Vaalentaa `hex`:iä kohti valkoista kunnes kontrasti `bg`:tä vasten ylittää `min`. */
-function inkOn(hex: string, bg: [number, number, number], min = 4.5): string {
+export function inkOn(hex: string, bg: [number, number, number], min = 4.5): string {
   const base = hexToRgb(hex)
   if (contrast(base, bg) >= min) return hex
   for (let t = 0.05; t <= 1; t += 0.05) {
@@ -189,7 +193,9 @@ export default function AdUnit({
   // Napin täyttö: valkoinen teksti vaatii 4,5:1. Jos brändiväri ei riitä, täyttö on
   // vaalennettu sävy ja teksti tummaa — nappi ei saa kadota korttiin.
   const ctaBg = !dark || contrast(WHITE, hexToRgb(spec.accent)) >= 4.5 ? spec.accent : ink
-  const ctaFg = contrast(WHITE, hexToRgb(ctaBg)) >= 4.5 ? '#FFFFFF' : '#0F172A'
+  const ctaFg = spec.accentInk && contrast(hexToRgb(spec.accentInk), hexToRgb(ctaBg)) >= 4.5
+    ? spec.accentInk
+    : contrast(WHITE, hexToRgb(ctaBg)) >= 4.5 ? '#FFFFFF' : '#0F172A'
   const logo = logoSrc ?? (dark && spec.logoDark ? spec.logoDark : spec.logo)
   const adLabel = AD_LABEL[lang] ?? AD_LABEL.en
   const photo = imageSrc ?? spec.image
@@ -232,7 +238,13 @@ export default function AdUnit({
             />
           </div>
         )}
-      <div className="relative p-6 sm:p-8">
+      {/* Bottom padding 3rem at every width, inline for the same reason as the wash above:
+          the ad label is absolute in the card's bottom-right corner (14 px up, ~19 px tall),
+          so the last row of the content — the "powered by" line or the disclosure — needs
+          room above it. With the default p-6 / sm:p-8 a wrapped last line ran into the
+          label: "Nouto Welcome Pickupsin kautta" (fi, 375 px) and "Autovermietung über
+          EconomyBookings" (de, 390 px) touched or went under MAINOS / ANZEIGE. */}
+      <div className="relative p-6 sm:p-8" style={{ paddingBottom: '3rem' }}>
         {/* Header: icon badge + eyebrow left, BIG real partner logo right.
             🔴 MOBILE (Vesa 2026-07-26: "logo näkyy vain puoliksi"): side by side,
             a wide wordmark (`shrink-0`) plus a long uppercase eyebrow with
@@ -244,7 +256,7 @@ export default function AdUnit({
             (col-reverse = logo first, full prominence), and the left block gets
             `min-w-0` so the eyebrow wraps instead of forcing overflow. From sm up
             the original two-column header is unchanged. */}
-        <div className="mb-4 flex flex-col-reverse items-start gap-3 sm:flex-row sm:items-start sm:justify-between sm:gap-4">
+        <div className="mb-4 flex flex-col-reverse items-start gap-3 xl:flex-row xl:items-start xl:justify-between xl:gap-4">
           <div className="flex min-w-0 items-center gap-3">
             <span
               className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl"
@@ -267,7 +279,7 @@ export default function AdUnit({
               height={80}
               loading="lazy"
               decoding="async"
-              className={`h-12 sm:h-16 w-auto max-w-[220px] shrink-0 ${dark && !spec.logoDark ? 'rounded-lg bg-white/95 px-3 py-1.5' : ''}`}
+              className={`h-16 w-auto max-w-full xl:max-w-[220px] object-contain shrink-0 ${dark && !spec.logoDark ? 'rounded-lg bg-white/95 px-3 py-1.5' : ''}`}
             />
           ) : (
             // Category advertiser without a brand logo (e.g. car rental): show the
