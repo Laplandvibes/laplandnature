@@ -79,7 +79,8 @@
 .nw .nw-by{color:var(--ink);font-weight:700}
 .nw .nw-dot{margin:0 9px;opacity:.55}
 .nw .nw-byline-src{margin-top:2px}
-.nw .nw-art-cap{font-size:14px;line-height:1.55;color:var(--muted);font-style:italic;margin:12px 0 0}
+/* 13.11.2026 lv_permanent_rules §33: kuvateksti on leipätekstiä ⇒ 16 px (oli 14). blogiarkki-portti mittaa sen nyt myös uutisista. */
+.nw .nw-art-cap{font-size:16px;line-height:1.55;color:var(--muted);font-style:italic;margin:12px 0 0}
 @media(max-width:640px){.nw{--lift:40px}.nw .nw-byline{flex-direction:column}.nw .nw-dot{display:none}}
 /* 14.10.2026: alle 375 px 36 px:n otsikko kiersi neljälle riville (360 px: en/fi/de, es/pt-BR); 34 px:llä
    enintään kolme riviä kaikilla 12 kielellä (puhelimessa kolme riviä saa olla, feedback_otsikot_ei_turhia_kolmirivisia). */
@@ -105,7 +106,8 @@
 .nw .nw-prose > h2:lang(ja),.nw .nw-prose > h2:lang(zh),.nw .nw-prose > h2:lang(ko){font-family:var(--font-body),system-ui,sans-serif;font-weight:700;font-size:24px;line-height:1.35;letter-spacing:0}
 .nw .nw-prose > ul{margin:0 0 18px;padding-left:1.25em;font-size:18px;line-height:1.65;color:var(--ink)}
 .nw .nw-prose > ul > li{margin:6px 0}
-.nw .nw-prose > .nw-note{font-size:15px;line-height:1.6;color:var(--ink2);border-left:3px solid var(--forest);padding-left:12px;margin:0 0 18px}
+/* 13.11.2026 §33: huomautus on täysi virke ⇒ 16 px (oli 15), kuten christmas/skiresorts/transport/flights/stays. */
+.nw .nw-prose > .nw-note{font-size:16px;line-height:1.6;color:var(--ink2);border-left:3px solid var(--forest);padding-left:12px;margin:0 0 18px}
 .nw .nw-prose > .nw-linkp{font-size:17px}
 .nw .nw-inlink{color:var(--link);font-weight:700;text-decoration:none;border-bottom:2px solid rgba(190,24,93,.3);padding-bottom:1px}
 .nw .nw-inlink:hover{border-color:var(--link)}
