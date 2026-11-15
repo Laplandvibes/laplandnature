@@ -1,5 +1,6 @@
 import type { CSSProperties } from 'react';
 
+import { LV_SANAMERKKI } from './lvSanamerkki';
 // Sanamerkin leveys 1 px:n fontilla (Bebas Neue + tracking-wide). Puhelin- ja tablettinavissa koko lasketaan
 // tästä ja vapaasta tilasta (index.css LV-NAV-SANAMERKKI): 24 px (tabletilla 28 px), pienempi vain kun ei mahdu.
 const WM_STYLE = { '--lv-wm-k': 5.8, '--lv-wm-max-md': '28px' } as CSSProperties;
@@ -34,9 +35,14 @@ export default function Logo({ variant = 'light', className = '', size = 'md', n
       style={nav ? WM_STYLE : undefined}
       aria-label="LaplandNature"
     >
-      <span className="text-vibe-pink">#</span>
-      <span className={lap}>LAPLAND</span>
-      <span className="text-aurora-green">NATURE</span>
+      {/* VIRALLINEN sanamerkki (Vesa 14.11.2026; yläpalkki 15.11.2026 "sama leveys kuin nyt"): piirros ./lvSanamerkki.ts,
+          leveys = entisen tekstin leveys, osat perivät entiset värinsä (currentColor). Teksti ruudunlukijalle ja hakukoneelle. */}
+      <svg viewBox={LV_SANAMERKKI.viewBox} aria-hidden="true" focusable="false" style={{ width: `${LV_SANAMERKKI.leveysEm}em`, height: 'auto', display: 'inline-block', verticalAlign: 'middle', overflow: 'visible' }}>
+        <path className="text-vibe-pink" fill="currentColor" d={LV_SANAMERKKI.d[0]} />
+        <path className={lap} fill="currentColor" d={LV_SANAMERKKI.d[1]} />
+        <path className="text-aurora-green" fill="currentColor" d={LV_SANAMERKKI.d[2]} />
+      </svg>
+      <span className="sr-only">#LAPLANDNATURE</span>
     </span>
   )
 }
