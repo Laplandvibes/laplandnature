@@ -38,9 +38,9 @@ export default function Logo({ variant = 'light', className = '', size = 'md', n
       {/* VIRALLINEN sanamerkki (Vesa 14.11.2026; yläpalkki 15.11.2026 "sama leveys kuin nyt"): piirros ./lvSanamerkki.ts,
           leveys = entisen tekstin leveys, osat perivät entiset värinsä (currentColor). Teksti ruudunlukijalle ja hakukoneelle. */}
       <svg viewBox={LV_SANAMERKKI.viewBox} aria-hidden="true" focusable="false" style={{ width: `${LV_SANAMERKKI.leveysEm}em`, height: 'auto', display: 'inline-block', verticalAlign: 'middle', overflow: 'visible' }}>
-        <path className="text-vibe-pink" fill="currentColor" d={LV_SANAMERKKI.d[0]} />
-        <path className={lap} fill="currentColor" d={LV_SANAMERKKI.d[1]} />
-        <path className="text-aurora-green" fill="currentColor" d={LV_SANAMERKKI.d[2]} />
+        <path className="text-vibe-pink" fill="currentColor" fillRule="evenodd" d={LV_SANAMERKKI.d[0]} />
+        <path className={lap} fill="currentColor" fillRule="evenodd" d={LV_SANAMERKKI.d[1]} />
+        <path className="text-aurora-green" fill="currentColor" fillRule="evenodd" d={LV_SANAMERKKI.d[2]} />
       </svg>
       <span className="sr-only">#LAPLANDNATURE</span>
     </span>
