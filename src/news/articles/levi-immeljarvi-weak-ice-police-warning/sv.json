@@ -1,0 +1,66 @@
+{
+  "title": "Polisen: turistgrupper på nyisen på Immeljärvi i Levi",
+  "seoTitle": "Isvarning i Levi: turistgrupper på Immeljärvi",
+  "description": "Lapplands polis fick flera anmälningar om turistgrupper på nyisen på Immeljärvi i Levi den 14 november 2026, och om renkrockar runt om i Lappland.",
+  "dek": "En ensam vandrare behöver minst 5 centimeter klar stålis under sig och en grupp 10. På lördagen visade ett par sjöar i norra Finland noll.",
+  "heroAlt": "En tallskog i skymningen med årets första tunna snö på marken, en tänd stolplykta mellan stammarna och de upplysta fönstren i ett trähus i flera våningar bakom träden.",
+  "heroCaption": "Den första tunna snön i byn Levi i Kittilä i oktober 2026. Immeljärvi, sjön som grupperna gick ut på, ligger alldeles intill byn.",
+  "body": [
+    {
+      "t": "p",
+      "text": "Lapplands polis tog emot flera anmälningar under ett dygn om turister som rörde sig på svag is. Enligt polisens meddelande hade flera turistgrupper gått ut på isen på Immeljärvi, sjön intill Levi i Kittilä. Isen har nyss bildats, så det finns inga garantier för hur mycket den bär, uppgav polisen den 14 november 2026."
+    },
+    {
+      "t": "p",
+      "text": "Isens bärighet mäts utifrån klar stålis, den hårda is som fryser direkt ur vattnet. Fast höstis på 5 centimeter bär en person, säger polisen. När ett större sällskap rör sig tillsammans måste isen vara 10 centimeter, och en snöskoter som väger omkring 500 kilo kräver minst 15. Finlands miljöcentral anger samma siffror för att gå på höstis: minst 5–10 centimeter klar stålis."
+    },
+    {
+      "t": "p",
+      "text": "Tjockleken ändras på några steg. Stränder och vikar fryser först, medan öppet vatten, djuphålor och allt som strömmar fryser sist, så is som bär vid stranden säger ingenting om mitten av sjön. Snö som faller på tunn is gör saken värre, eftersom snön isolerar isen och isen då slutar växa lika snabbt som ett bart istäcke. Blek stöpis, som bildas när vatten stiger upp på isen och snömodden fryser, bär bara ungefär hälften av vad klar is bär."
+    },
+    {
+      "t": "h2",
+      "text": "Vad en nolla på iskartan betyder"
+    },
+    {
+      "t": "p",
+      "text": "Vesi.fi visade noll centimeter för ett par sjöar i norra Finland på lördagen, och för många sjöar saknades siffran helt. En nolla kan betyda att sjön är isbelagd men att isen är för svag för att mätas. Finlands miljöcentral uppdaterar sin isbedömning tre gånger i månaden utifrån mätningar vid 46 observationsplatser runt om i landet, omkring den 10, den 20 och den 30, och färgerna mellan punkterna kommer från en modell. Den verkliga tjockleken på en enskild sjö går inte att läsa ur kartan, säger miljöcentralen, och ingen ska gå ut på isen med den som grund."
+    },
+    {
+      "t": "p",
+      "text": "Isen växer långsamt den här tiden på året: omkring 2 millimeter per dygn för varje köldgrad, så ett dygnsmedel på minus 10 grader ger ungefär 2 centimeter på 24 timmar. Finlands simundervisnings- och livräddningsförbund räknar med 18 drunkningar om året i Finland efter att någon gått genom isen, och förbundet uppmanar alla som ger sig ut att ha isdubbar inom räckhåll, hängande runt halsen."
+    },
+    {
+      "t": "h2",
+      "text": "Renar på vägen när det blivit mörkt"
+    },
+    {
+      "t": "p",
+      "text": "Säsongsstarten syntes också i trafiken. Renkrockar anmäldes runt om i Lappland, och lokalbor var inblandade lika ofta som besökare, uppgav polisen. Halt väglag och ett djur som kliver ut snabbt är en dålig kombination. På Ylläsjärventie i Kolari körde en bil av vägen och hamnade på sidan i diket efter att föraren väjt för en ren, och föraren misstänks för rattfylleri."
+    },
+    {
+      "t": "p",
+      "text": "Mellan 4000 och 5000 renar skadas eller dödas i trafiken i norra Finland varje år, de flesta i oktober, november och december, säger Sanna Hast, specialsakkunnig vid Renbeteslagsföreningen. Vägarna skär genom betesmarkerna, renarna har ingen instinkt att hålla sig undan fordon och saltet på vägen drar dem ut på den. Håll nere farten när ljuset avtar, slå på helljuset tidigt i skymningen, håll koll på vägkanterna där träd och buskage växer nära vägen, och sakta ner för allt som verkar avvikande, för en ren är sällan ensam."
+    },
+    {
+      "t": "ul",
+      "items": [
+        "Varna trafiken bakom dig och ställ ut varningstriangeln på vägen minst 100 meter från bilen.",
+        "Ge första hjälpen till skadade och ring 112, även om du bara snuddade vid djuret.",
+        "En ren som springer i väg är sannolikt skadad, så ring ändå och lämna den inte att lida.",
+        "Flytta kadavret till vägkanten och märk ut platsen tydligt. Du får inte ta det med dig.",
+        "Anmäl skadorna på bilen till ditt försäkringsbolag. Föraren betalar inte för själva renen."
+      ]
+    },
+    {
+      "t": "p",
+      "text": "I Rovaniemi hade besökare som körde längs Kajaanintie stannat vid trafikljusen, men vid fel ljusstolpe, och en lokal förare körde in i baken på deras bil. Ingen skadades, och de två parterna gjorde upp saken på plats med hjälp av en polispatrull."
+    },
+    {
+      "t": "link",
+      "text": "Sund, åmynningar och alla ställen med strömmande vatten kan vara tunna hela vintern igenom, vilket är värt att veta innan du planerar en vandring över någon sjö här uppe.",
+      "label": "Sjöar och älvar i Lappland",
+      "href": "/freshwater"
+    }
+  ]
+}

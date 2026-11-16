@@ -102,6 +102,22 @@
     }
   },
   {
+    "path": "/news/levi-immeljarvi-weak-ice-police-warning",
+    "fallbackTitle": "Levi ice warning: tourist groups on Immeljärvi",
+    "fallbackDescription": "Lapland police had several reports of tourist groups on the new ice of Immeljärvi at Levi on 14 November 2026, and reindeer collisions across Lapland.",
+    "ogImage": "/og/news-levi-immeljarvi-weak-ice-police-warning.jpg",
+    "ogCard": {
+      "hero": "/images/news/levi-first-snow-forest-path-october-1600.webp",
+      "line": "Levi: tourists on just-formed lake ice",
+      "focus": "50% 50%"
+    },
+    "harvestRecord": {
+      "file": "node_modules/.cache/lv-news/levi-immeljarvi-weak-ice-police-warning/{lang}.json",
+      "key": "levi-immeljarvi-weak-ice-police-warning",
+      "mode": "jsonFile"
+    }
+  },
+  {
     "path": "/news/metsahallitus-visitor-centre-service-ends-lapland",
     "fallbackTitle": "Lapland visitor centres lose Metsähallitus service",
     "fallbackDescription": "Metsähallitus ended its own customer service at Kellokas, Hetta, Siida and Naava on 11 November 2026. What is still open, and where to get permits now.",

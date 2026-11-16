@@ -1,0 +1,66 @@
+{
+  "title": "Lapland police report tourist groups on new ice at Levi's Immeljärvi",
+  "seoTitle": "Levi ice warning: tourist groups on Immeljärvi",
+  "description": "Lapland police had several reports of tourist groups on the new ice of Immeljärvi at Levi on 14 November 2026, and reindeer collisions across Lapland.",
+  "dek": "One walker needs at least 5 centimetres of clear steel ice under them and a group needs 10. On Saturday a couple of lakes in northern Finland were showing zero.",
+  "heroAlt": "A pine forest at dusk with the first thin snow on the ground, a lit path lamp between the trunks and the windows of a wooden apartment building glowing behind the trees.",
+  "heroCaption": "The first thin snow in the village of Levi in Kittilä in October 2026. Immeljärvi, the lake the groups walked onto, lies right next to the village.",
+  "body": [
+    {
+      "t": "p",
+      "text": "Lapland police took several reports in the space of a day about tourists walking on weak ice. According to the police bulletin, several tourist groups had gone onto the ice of Immeljärvi, the lake beside Levi in Kittilä. The ice has only just formed, so there is no guarantee of how much it holds, the police said on 14 November 2026."
+    },
+    {
+      "t": "p",
+      "text": "What ice holds is measured from clear steel ice, the hard ice that freezes straight out of the water. Solid autumn ice 5 centimetres thick carries one person, the police say. When a larger group is out together the ice has to be 10 centimetres, and a snowmobile weighing around 500 kilos needs at least 15. The Finnish Environment Institute gives the same figures for walking on autumn ice: at least 5 to 10 centimetres of clear steel ice."
+    },
+    {
+      "t": "p",
+      "text": "The thickness changes within a few steps. Shores and bays freeze first and the open water, the deeps and anything flowing freeze last, so ice that holds at the bank says nothing about the middle of the lake. Snow falling on thin ice makes matters worse, because it insulates the ice and the ice then stops strengthening as fast as a bare sheet would. Pale snow ice, which forms when water rises onto the ice and the slush freezes, carries only about half of what clear ice carries."
+    },
+    {
+      "t": "h2",
+      "text": "What a zero on the ice map means"
+    },
+    {
+      "t": "p",
+      "text": "Vesi.fi showed zero centimetres for a couple of lakes in northern Finland on Saturday, and for many lakes there was no figure at all. A zero can mean the lake is frozen but the ice is too weak to measure. The Finnish Environment Institute updates its ice estimate three times a month from measurements at 46 observation points around the country, taken around the 10th, the 20th and the 30th, and the colours between those points come from a model. The real thickness of any single lake cannot be read off that map, the institute says, and nobody should step onto ice on the strength of it."
+    },
+    {
+      "t": "p",
+      "text": "Ice grows slowly at this time of year: about 2 millimetres a day for every degree of frost, so an average of minus 10 degrees builds roughly 2 centimetres in 24 hours. The Finnish Swimming Teaching and Life Saving Federation counts 18 drownings a year in Finland after someone goes through the ice, and it asks anyone heading out to carry ice picks within reach, hanging around the neck."
+    },
+    {
+      "t": "h2",
+      "text": "Reindeer on the road after dark"
+    },
+    {
+      "t": "p",
+      "text": "The start of the tourist season showed in traffic as well. Reindeer collisions were reported from around Lapland, and locals were involved as often as visitors, the police said. Slippery conditions and an animal that steps out quickly make a poor combination. On Ylläsjärventie in Kolari a car ran off the road and ended on its side in the ditch after the driver avoided a reindeer, and that driver is suspected of drink driving."
+    },
+    {
+      "t": "p",
+      "text": "Between 4000 and 5000 reindeer are hurt or killed in traffic in northern Finland every year, most of them in October, November and December, says Sanna Hast, a specialist at the Reindeer Herders' Association. Roads cut through the grazing lands, reindeer have no instinct to keep clear of vehicles, and salt spread on the road draws them onto it. Keep your speed down as the light goes, switch the high beams on early in the dusk, watch the verges where trees and scrub grow close to the road, and slow down for anything odd, because a reindeer is rarely alone."
+    },
+    {
+      "t": "ul",
+      "items": [
+        "Warn the traffic behind you and put the warning triangle on the road at least 100 metres from the car.",
+        "Give first aid to anyone injured, and call 112 even if you only clipped the animal.",
+        "A reindeer that runs off is probably hurt, so make the call anyway and do not leave it to suffer.",
+        "Move the carcass to the verge and mark the spot clearly. You may not take it with you.",
+        "Tell your insurer about damage to the car. The driver does not pay for the reindeer itself."
+      ]
+    },
+    {
+      "t": "p",
+      "text": "In Rovaniemi, visitors driving along Kajaanintie stopped at the traffic lights but at the wrong light pole, and a local driver went into the back of their car. Nobody was hurt, and the two sides settled the matter at the roadside with a police patrol helping."
+    },
+    {
+      "t": "link",
+      "text": "Narrows, river mouths and anywhere with a current can stay thin right through the winter, which is worth knowing before you plan a walk across any lake up here.",
+      "label": "Lakes and rivers of Lapland",
+      "href": "/freshwater"
+    }
+  ]
+}

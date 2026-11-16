@@ -1605,6 +1605,56 @@
       "description": "En lokal älvförening och företaget Hiilipörssi lägger igen myrdiken och anlägger våtmarker så att mindre humus och färre näringsämnen når älven."
     }
   },
+  "/news/levi-immeljarvi-weak-ice-police-warning": {
+    "en": {
+      "title": "Levi ice warning: tourist groups on Immeljärvi",
+      "description": "Lapland police had several reports of tourist groups on the new ice of Immeljärvi at Levi on 14 November 2026, and reindeer collisions across Lapland."
+    },
+    "fi": {
+      "title": "Levin Immeljärvi: turistiryhmiä heikolla jäällä",
+      "description": "Lapin poliisille tuli vuorokaudessa useita ilmoituksia turistiryhmistä Levin Immeljärven jäällä 14.11.2026. Porokolareita sattui ympäri Lappia."
+    },
+    "de": {
+      "title": "Levi: Touristengruppen auf dem Eis des Immeljärvi",
+      "description": "Lapplands Polizei erhielt am 14. November 2026 mehrere Meldungen über Touristengruppen auf dem Neueis des Immeljärvi bei Levi, dazu Rentierunfälle in Lappland."
+    },
+    "ja": {
+      "title": "レヴィの氷に注意：イメルヤルヴィに観光客",
+      "description": "2026年11月14日、ラップランド警察にレヴィのイメルヤルヴィの新しい氷を歩く観光客グループの通報が相次ぎ、ラップランド各地でトナカイ衝突も起きました。"
+    },
+    "es": {
+      "title": "Levi, aviso de hielo: turistas en el Immeljärvi",
+      "description": "La policía de Laponia recibió el 14 de noviembre de 2026 varios avisos de grupos de turistas sobre el hielo nuevo del Immeljärvi, en Levi, y choques con renos."
+    },
+    "pt-BR": {
+      "title": "Levi, alerta de gelo: turistas no Immeljärvi",
+      "description": "A polícia da Lapônia recebeu em 14 de novembro de 2026 vários registros de grupos de turistas no gelo novo do Immeljärvi, em Levi, e colisões com renas."
+    },
+    "zh-CN": {
+      "title": "莱维冰情警告：游客走上伊梅尔耶尔维",
+      "description": "2026年11月14日，拉普兰警方在一天之内接到多起报警，称有游客团体走上莱维旁伊梅尔耶尔维湖刚结成的冰面，拉普兰各地同时发生多起驯鹿碰撞事故。"
+    },
+    "ko": {
+      "title": "레비 얼음 주의: 임멜야르비에 관광객 무리",
+      "description": "2026년 11월 14일 라플란드 경찰에 레비 임멜야르비의 갓 언 얼음을 걷는 관광객 무리 신고가 잇따랐고, 순록 충돌도 곳곳에서 났습니다."
+    },
+    "fr": {
+      "title": "Glace à Levi : des touristes sur l'Immeljärvi",
+      "description": "Plusieurs groupes de touristes ont marché sur la glace neuve de l'Immeljärvi, à Levi, le 14 novembre 2026. La police signale des collisions avec des rennes."
+    },
+    "it": {
+      "title": "Levi, allarme ghiaccio: turisti sull'Immeljärvi",
+      "description": "Il 14 novembre 2026 più gruppi di turisti sono saliti sul ghiaccio nuovo dell'Immeljärvi, a Levi. La polizia segnala anche incidenti con le renne in Lapponia."
+    },
+    "nl": {
+      "title": "Levi, ijswaarschuwing: toeristen op het Immeljärvi",
+      "description": "Toeristengroepen liepen op 14 november 2026 het nieuwe ijs van het Immeljärvi bij Levi op. De politie in Lapland meldt ook aanrijdingen met rendieren."
+    },
+    "sv": {
+      "title": "Isvarning i Levi: turistgrupper på Immeljärvi",
+      "description": "Lapplands polis fick flera anmälningar om turistgrupper på nyisen på Immeljärvi i Levi den 14 november 2026, och om renkrockar runt om i Lappland."
+    }
+  },
   "/news/metsahallitus-fishing-lease-waters-lapland": {
     "en": {
       "title": "State ponds listed for fishing leases in Lapland",

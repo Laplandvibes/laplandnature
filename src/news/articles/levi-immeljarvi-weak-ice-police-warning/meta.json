@@ -1,0 +1,83 @@
+{
+  "slug": "levi-immeljarvi-weak-ice-police-warning",
+  "date": "2026-11-15",
+  "hero": {
+    "src": "/images/news/levi-first-snow-forest-path-october-1600.webp",
+    "srcSmall": "/images/news/levi-first-snow-forest-path-october-800.webp",
+    "srcLarge": "/images/news/levi-first-snow-forest-path-october-2400.webp",
+    "avif": {
+      "small": "/images/news/levi-first-snow-forest-path-october-800.avif",
+      "src": "/images/news/levi-first-snow-forest-path-october-1600.avif",
+      "large": "/images/news/levi-first-snow-forest-path-october-2400.avif"
+    },
+    "width": 1600,
+    "height": 901,
+    "position": "50% 50%",
+    "credit": {
+      "author": "LaplandVibes",
+      "license": "© LaplandVibes",
+      "licenseUrl": "https://laplandnature.com/terms",
+      "sourceUrl": "https://laplandnature.com/news/levi-immeljarvi-weak-ice-police-warning",
+      "sourceName": "LaplandVibes",
+      "assetId": "20261014_183821.jpg",
+      "place": "Levi, Kittilä",
+      "taken": "2026-10-14",
+      "retrieved": "2026-11-15"
+    }
+  },
+  "sources": [
+    {
+      "publisher": "Yle Lappi",
+      "title": "Lapissa turistiryhmät lähtivät jo heikoille jäille",
+      "lang": "fi",
+      "url": "https://yle.fi/a/74-20256984?origin=rss",
+      "date": "2026-11-14"
+    },
+    {
+      "publisher": "Maaseudun Tulevaisuus",
+      "title": "Turisteja heikoilla jäillä, porokolareja, auton luistatusta: Talven tulo toi töitä Lapin poliisille",
+      "lang": "fi",
+      "url": "https://www.maaseuduntulevaisuus.fi/uutiset/451ddfcc-b4f6-46d2-9d1d-8361cce63f0e",
+      "date": "2026-11-14"
+    },
+    {
+      "publisher": "Poliisi",
+      "title": "Varo heikkoja jäitä, jäätilanne on vielä vaarallinen",
+      "lang": "fi",
+      "url": "https://poliisi.fi/-/varo-heikkoja-jaita-jaatilanne-on-viela-vaarallinen",
+      "date": "2021-12-03"
+    },
+    {
+      "publisher": "Vesi.fi, Suomen ympäristökeskus",
+      "title": "Jäätilanne",
+      "lang": "fi",
+      "url": "https://www.vesi.fi/jaatilanne/",
+      "read": "2026-11-15"
+    },
+    {
+      "publisher": "Suomen Uimaopetus- ja Hengenpelastusliitto",
+      "title": "Jäällä liikkumisen ABC, mitä jokaisen tulisi tietää jääturvallisuudesta",
+      "lang": "fi",
+      "url": "https://suh.fi/jaalla-liikkumisen-abc/",
+      "date": "2023-10-23"
+    },
+    {
+      "publisher": "Liikenneturva",
+      "title": "Porot liikkuvat nyt paljon, vähennä vauhtia ja varo poroa",
+      "lang": "fi",
+      "url": "https://www.liikenneturva.fi/ajankohtaista/porokolarit/",
+      "date": "2024-10-10"
+    },
+    {
+      "publisher": "Paliskuntain yhdistys",
+      "title": "Reindeer accident - what to do?",
+      "lang": "en",
+      "url": "https://paliskunnat.fi/reindeer-herders-association/reindeer-damages/traffic-damages/reindeer-accident/",
+      "read": "2026-11-15"
+    }
+  ],
+  "ogCard": {
+    "line": "Levi: tourists on just-formed lake ice",
+    "focus": "50% 50%"
+  }
+}

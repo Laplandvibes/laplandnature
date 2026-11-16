@@ -1129,5 +1129,92 @@
         "samaKuinKesa": true
       }
     }
+  },
+  "news-levi-immeljarvi-weak-ice-police-warning": {
+    "route": "/news/levi-immeljarvi-weak-ice-police-warning",
+    "line": "Levi: tourists on just-formed lake ice",
+    "kaudet": {
+      "summer": {
+        "hero": "/images/news/levi-first-snow-forest-path-october-1600.webp",
+        "bytes": 153948,
+        "sha256": "e2f856c9823d348bc0b32f28ba79d079bb7ee471c5cc72a9b006b1a28b1db63f",
+        "heroSha": "40cd4980c58e3526",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 20593,
+        "inkBox": [
+          347,
+          28,
+          853,
+          132
+        ],
+        "sanamerkki": "virallinen",
+        "safe": true,
+        "palkki": "yla",
+        "xVapaa": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 59.7,
+        "centerSq": 77.9,
+        "photoRegion": 66.8,
+        "photoRegionRef": 66.8,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 509,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": []
+      },
+      "winter": {
+        "hero": "/images/news/levi-first-snow-forest-path-october-1600.webp",
+        "bytes": 153948,
+        "sha256": "e2f856c9823d348bc0b32f28ba79d079bb7ee471c5cc72a9b006b1a28b1db63f",
+        "heroSha": "40cd4980c58e3526",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 20593,
+        "inkBox": [
+          347,
+          28,
+          853,
+          132
+        ],
+        "sanamerkki": "virallinen",
+        "safe": true,
+        "palkki": "yla",
+        "xVapaa": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 59.7,
+        "centerSq": 77.9,
+        "photoRegion": 66.8,
+        "photoRegionRef": 66.8,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 509,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": [],
+        "samaKuinKesa": true
+      }
+    }
   }
 }

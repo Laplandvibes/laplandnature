@@ -1,0 +1,66 @@
+{
+  "title": "Polícia: grupos de turistas no gelo novo do Immeljärvi, em Levi",
+  "seoTitle": "Levi, alerta de gelo: turistas no Immeljärvi",
+  "description": "A polícia da Lapônia recebeu em 14 de novembro de 2026 vários registros de grupos de turistas no gelo novo do Immeljärvi, em Levi, e colisões com renas.",
+  "dek": "Quem caminha sozinho precisa de pelo menos 5 centímetros de gelo transparente embaixo dos pés, e um grupo, 10. No sábado, alguns lagos do norte da Finlândia marcavam zero.",
+  "heroAlt": "Um pinheiral no fim da tarde com a primeira neve fina no chão, um poste de luz aceso entre os troncos e as janelas iluminadas de um prédio de madeira atrás das árvores.",
+  "heroCaption": "A primeira neve fina no vilarejo de Levi, em Kittilä, em outubro de 2026. O Immeljärvi, o lago em que os grupos entraram, fica bem ao lado do vilarejo.",
+  "body": [
+    {
+      "t": "p",
+      "text": "Em um dia, a polícia da Lapônia recebeu vários registros de turistas andando sobre gelo fraco. Segundo o comunicado da polícia, vários grupos de turistas tinham entrado no gelo do Immeljärvi, o lago ao lado de Levi, em Kittilä. O gelo acabou de se formar, então não há nenhuma garantia de quanto ele aguenta, disse a polícia em 14 de novembro de 2026."
+    },
+    {
+      "t": "p",
+      "text": "A resistência é medida pelo gelo transparente, o gelo duro que congela direto da água. Um gelo de outono firme de 5 centímetros aguenta uma pessoa, diz a polícia. Quando um grupo maior sai junto, o gelo precisa ter 10 centímetros, e uma motoneve de cerca de 500 quilos exige pelo menos 15. O Instituto Finlandês do Meio Ambiente dá os mesmos números para andar no gelo de outono: pelo menos 5 a 10 centímetros de gelo transparente."
+    },
+    {
+      "t": "p",
+      "text": "A espessura muda em poucos passos. As margens e as enseadas congelam primeiro e as águas abertas, as fossas e tudo o que corre congelam por último, então um gelo que aguenta na beira não diz nada sobre o meio do lago. A neve que cai sobre gelo fino piora a situação, porque isola o gelo, que deixa de ficar mais forte na velocidade de uma camada nua. O gelo de neve, claro, que se forma quando a água sobe no gelo e a neve derretida congela, aguenta só cerca de metade do que aguenta o gelo transparente."
+    },
+    {
+      "t": "h2",
+      "text": "O que significa um zero no mapa de gelo"
+    },
+    {
+      "t": "p",
+      "text": "No sábado, o Vesi.fi marcava zero centímetro para alguns lagos do norte da Finlândia, e em muitos lagos o número faltava por completo. Um zero pode querer dizer que o lago está congelado, mas que o gelo está fraco demais para ser medido. O Instituto Finlandês do Meio Ambiente atualiza sua estimativa três vezes por mês com medições de 46 pontos de observação espalhados pelo país, por volta dos dias 10, 20 e 30, e as cores entre esses pontos vêm de um modelo. A espessura real de um lago específico não dá para ler nesse mapa, diz o instituto, e ninguém deve pisar no gelo com base nele."
+    },
+    {
+      "t": "p",
+      "text": "Nesta época do ano o gelo cresce devagar: cerca de 2 milímetros por dia a cada grau de frio, ou seja, com média de 10 graus negativos se formam cerca de 2 centímetros em 24 horas. A federação finlandesa de ensino de natação e salvamento conta 18 afogamentos por ano na Finlândia depois de alguém cair no gelo, e pede que quem for ao gelo leve as pontas de gelo ao alcance da mão, penduradas no pescoço."
+    },
+    {
+      "t": "h2",
+      "text": "Renas na estrada depois do escurecer"
+    },
+    {
+      "t": "p",
+      "text": "O começo da temporada apareceu também no trânsito. Colisões com renas foram registradas por toda a Lapônia, e os moradores se envolveram com a mesma frequência que os visitantes, disse a polícia. Pista escorregadia e um animal que entra rápido na estrada são uma combinação ruim. Na Ylläsjärventie, em Kolari, um carro saiu da pista e parou de lado na vala depois que o motorista desviou de uma rena, e esse motorista é suspeito de dirigir embriagado."
+    },
+    {
+      "t": "p",
+      "text": "No norte da Finlândia, entre 4000 e 5000 renas ficam feridas ou morrem no trânsito todos os anos, a maior parte em outubro, novembro e dezembro, diz Sanna Hast, especialista da associação de criadores de renas. As estradas cortam as áreas de pastagem, as renas não têm instinto para se afastar dos veículos e o sal espalhado na pista as atrai para lá. Reduza a velocidade quando a luz cai, acenda o farol alto cedo no fim da tarde, observe os acostamentos onde árvores e arbustos crescem perto da estrada, e diminua diante de qualquer coisa estranha, porque uma rena raramente está sozinha."
+    },
+    {
+      "t": "ul",
+      "items": [
+        "Avise o trânsito atrás de você e coloque o triângulo na estrada a pelo menos 100 metros do carro.",
+        "Preste primeiros socorros aos feridos e ligue para o 112, mesmo que você só tenha encostado no animal.",
+        "Uma rena que foge provavelmente está ferida, então ligue mesmo assim e não a deixe sofrer.",
+        "Leve a carcaça para o acostamento e marque bem o local. Você não pode levá-la com você.",
+        "Comunique os danos do carro à sua seguradora. O motorista não paga pela rena em si."
+      ]
+    },
+    {
+      "t": "p",
+      "text": "Em Rovaniemi, visitantes que seguiam pela Kajaanintie pararam no semáforo, mas no poste errado, e um motorista local bateu na traseira do carro deles. Ninguém se feriu, e as duas partes resolveram o caso ali mesmo com a ajuda de uma patrulha da polícia."
+    },
+    {
+      "t": "link",
+      "text": "Estreitos, fozes de rios e qualquer ponto com correnteza podem continuar finos o inverno inteiro, o que vale saber antes de você planejar uma travessia a pé por qualquer lago daqui.",
+      "label": "Lagos e rios da Lapônia",
+      "href": "/freshwater"
+    }
+  ]
+}
