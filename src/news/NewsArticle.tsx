@@ -116,11 +116,12 @@ function ArticleView({ meta }: { meta: NewsMeta }) {
           and the sheet, on a wider column than the sheet itself. They are now the sheet's own
           header, and the sheet rises over the photo with a shadow. */}
       <article className="nw-sheet nw-sheet-lift">
-        <header className="nw-sheet-meta">
+        {/* Vesa 19.11.2026 tabletilta: "näin paljon kaikkea paskaa ennen kuin juttu edes alkaa". Tekijä ja jakonappi
+            samassa kohdassa; julkaisupäivä näkyy jo otsikon yläpuolella, joten sitä ei toisteta; kuvateksti ja
+            kuvaajatieto jutun loppuun lähteiden yläpuolelle. Jakonappi pysyy ylhäällä ja lopussa (Vesa 24.10.2026). */}
+        <header className="nw-sheet-meta nw-meta-row">
           <p className="nw-byline">
             <span className="nw-by">{ui.ui.byline}</span>
-            <span aria-hidden="true" className="nw-dot">·</span>
-            <span>{ui.ui.published} <time dateTime={meta.date}>{formatDate(meta.date, lang)}</time></span>
             {meta.updated && (
               <>
                 <span aria-hidden="true" className="nw-dot">·</span>
@@ -128,21 +129,17 @@ function ArticleView({ meta }: { meta: NewsMeta }) {
               </>
             )}
           </p>
-          {/* Vesa 6.11.2026 (laplandchristmas): "miksi lähteet pitää olla ekana eikä artikkelin lopussa pohjalla": lähdeluettelo
-              on vain jutun lopussa (nw-sources); alussa kirjoittaja, päivät, kuvateksti ja jakonappi. */}
-          {/* Vesa 11.11.2026: "kamala kun on kamaa kuvan päällä": kuvaaja ja lisenssi kuvatekstin perään, ei kuvan päälle. */}
-          <p className="nw-art-cap">
-            {text.heroCaption && <span>{text.heroCaption} </span>}
-            <span className="nw-art-credit-line">
-              {labelPrefix(ui.ui.photo, lang)}<a href={credit.sourceUrl} target="_blank" rel="noopener">{credit.author} / {credit.sourceName}</a>,{' '}
-                          <a href={credit.licenseUrl} target="_blank" rel="noopener license">{credit.license}</a>
-            </span>
-          </p>
-          {/* Jaa-nappi tekijärivin alle omalle rivilleen ja jako jutun loppuun (Vesa 24.10.2026). */}
-          <ShareButton lang={lang} title={text.title} excerpt={text.dek} tone="light" className="mt-4" />
+          <ShareButton lang={lang} title={text.title} excerpt={text.dek} tone="light" />
         </header>
         <Prose blocks={text.body} meta={meta} />
         <ShareBar lang={lang} title={text.title} tone="light" />
+        <p className="nw-art-cap nw-art-cap-end">
+          {text.heroCaption && <span>{text.heroCaption} </span>}
+          <span className="nw-art-credit-line">
+            {labelPrefix(ui.ui.photo, lang)}<a href={credit.sourceUrl} target="_blank" rel="noopener">{credit.author} / {credit.sourceName}</a>,{' '}
+                        <a href={credit.licenseUrl} target="_blank" rel="noopener license">{credit.license}</a>
+          </span>
+        </p>
         <section className="nw-sources" aria-labelledby="nw-sources-h">
           <h2 id="nw-sources-h" className="nw-sources-h">{ui.ui.sources}</h2>
           <ol>
