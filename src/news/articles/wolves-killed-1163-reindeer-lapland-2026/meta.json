@@ -1,0 +1,76 @@
+{
+  "slug": "wolves-killed-1163-reindeer-lapland-2026",
+  "date": "2026-11-23",
+  "hero": {
+    "src": "/images/news/inari-kaamanen-frosted-mire-october-1600.webp",
+    "srcSmall": "/images/news/inari-kaamanen-frosted-mire-october-800.webp",
+    "srcLarge": "/images/news/inari-kaamanen-frosted-mire-october-2400.webp",
+    "avif": {
+      "small": "/images/news/inari-kaamanen-frosted-mire-october-800.avif",
+      "src": "/images/news/inari-kaamanen-frosted-mire-october-1600.avif",
+      "large": "/images/news/inari-kaamanen-frosted-mire-october-2400.avif"
+    },
+    "width": 1600,
+    "height": 901,
+    "position": "50% 50%",
+    "credit": {
+      "author": "LaplandVibes",
+      "license": "© LaplandVibes",
+      "licenseUrl": "https://laplandnature.com/terms",
+      "sourceUrl": "https://laplandnature.com/news/wolves-killed-1163-reindeer-lapland-2026",
+      "sourceName": "LaplandVibes",
+      "assetId": "20261013_095413.jpg",
+      "place": "Inari",
+      "taken": "2026-10-13",
+      "retrieved": "2026-11-23"
+    }
+  },
+  "sources": [
+    {
+      "publisher": "Lapin Kansa",
+      "title": "Ennätykset nurin: sudet ovat saalistaneet Lapissa tänä vuonna jo 1163 poroa, myös metsästyskoiria on joutunut susien suuhun",
+      "lang": "fi",
+      "url": "https://www.lapinkansa.fi/ennatykset-nurin-sudet-ovat-saalistaneet-lapissa-t/13754085",
+      "date": "2026-11-22"
+    },
+    {
+      "publisher": "Riistavahingot.fi",
+      "title": "Riistavahingot, suurpetojen aiheuttamat vahingot 24.11.2025-23.11.2026",
+      "lang": "fi",
+      "url": "https://riistavahingot.fi/",
+      "read": "2026-11-23"
+    },
+    {
+      "publisher": "Luonnonvarakeskus",
+      "title": "Susikanta Suomessa maaliskuussa 2026",
+      "lang": "fi",
+      "url": "https://www.luke.fi/fi/luonnonvaratieto/tiedetta-ja-tietoa/susi/susikanta-suomessa-maaliskuussa-2026",
+      "date": "2026-06-25"
+    },
+    {
+      "publisher": "Paliskuntain yhdistys",
+      "title": "Susi (Canis lupus)",
+      "lang": "fi",
+      "url": "https://paliskunnat.fi/py/porovahingot/petoelainvahingot/susi/",
+      "read": "2026-11-23"
+    },
+    {
+      "publisher": "Suomen riistakeskus",
+      "title": "Susi ja metsästyskoira, miten pienentää vahingon riskiä?",
+      "lang": "fi",
+      "url": "https://riista.fi/ajankohtaista/susi-ja-metsastyskoira-miten-pienentaa-vahingon-riskia/",
+      "date": "2025-09-01"
+    },
+    {
+      "publisher": "Suomen riistakeskus",
+      "title": "Kun kohtaat suurpedon",
+      "lang": "fi",
+      "url": "https://riista.fi/tietoa-riistasta/kun-kohtaat-suurpedon/",
+      "read": "2026-11-23"
+    }
+  ],
+  "ogCard": {
+    "line": "Wolf passes wolverine in Lapland",
+    "focus": "50% 50%"
+  }
+}

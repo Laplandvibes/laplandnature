@@ -2005,6 +2005,56 @@
       "description": "Ödestugorna i Finlands nationalparker är gratis för vandrare. Turistföretag får inte inkvartera sina kunder i dem, säger Metsähallitus."
     }
   },
+  "/news/wolves-killed-1163-reindeer-lapland-2026": {
+    "en": {
+      "title": "Wolves killed 1163 reindeer in Lapland in 2026",
+      "description": "By 18 November 2026 Lapland's herding districts had recorded 1163 reindeer killed by wolves, and the wolf now does more damage up here than the wolverine."
+    },
+    "fi": {
+      "title": "Sudet tappoivat Lapissa 1163 poroa vuonna 2026",
+      "description": "Lapin paliskunnista on kirjattu 18. marraskuuta 2026 mennessä 1163 suden tappamaa poroa, ja susi tekee nyt poronhoitoalueella enemmän vahinkoa kuin ahma."
+    },
+    "de": {
+      "title": "Wölfe töteten 2026 in Lappland 1163 Rentiere",
+      "description": "Bis zum 18. November 2026 wurden in Lapplands Rentiergebieten 1163 von Wölfen getötete Rentiere erfasst, und der Wolf schadet dort nun mehr als der Vielfraß."
+    },
+    "ja": {
+      "title": "ラップランドのオオカミ被害、2026年にトナカイ1163頭",
+      "description": "2026年11月18日までにラップランドの放牧協同組合でトナカイ1163頭がオオカミに殺されました。オオカミによる被害は今やクズリを上回っています。"
+    },
+    "es": {
+      "title": "Los lobos mataron 1163 renos en Laponia en 2026",
+      "description": "Hasta el 18 de noviembre de 2026 las zonas de pastoreo de Laponia habían registrado 1163 renos muertos por lobos, y el lobo causa ya más daños que el glotón."
+    },
+    "pt-BR": {
+      "title": "Lobos mataram 1163 renas na Lapônia em 2026",
+      "description": "Até 18 de novembro de 2026 as áreas de criação da Lapônia registraram 1163 renas mortas por lobos, e o lobo já causa mais prejuízo do que o glutão."
+    },
+    "zh-CN": {
+      "title": "拉普兰狼害：2026年杀死1163头驯鹿",
+      "description": "截至2026年11月18日，拉普兰各驯鹿放牧合作社共记录到1163头驯鹿被狼杀死。狼如今在驯鹿放牧区造成的损失已超过狼獾，成为危害最大的大型食肉动物。"
+    },
+    "ko": {
+      "title": "라플란드 늑대 피해, 2026년 순록 1163마리",
+      "description": "2026년 11월 18일까지 라플란드에서 늑대가 죽인 순록 1163마리가 기록됐으며, 늑대 피해는 이제 순록 사육 지역에서 울버린보다 큽니다."
+    },
+    "fr": {
+      "title": "Les loups ont tué 1163 rennes en Laponie en 2026",
+      "description": "Au 18 novembre 2026, les zones d'élevage de Laponie avaient enregistré 1163 rennes tués par des loups : le loup y fait désormais plus de dégâts que le glouton."
+    },
+    "it": {
+      "title": "Lupi: 1163 renne uccise in Lapponia nel 2026",
+      "description": "Entro il 18 novembre 2026 le zone di allevamento della Lapponia avevano registrato 1163 renne uccise dai lupi, e il lupo ora causa più danni del ghiottone."
+    },
+    "nl": {
+      "title": "Wolven doodden 1163 rendieren in Lapland in 2026",
+      "description": "Tot 18 november 2026 registreerden de rendiergebieden van Lapland 1163 door wolven gedode rendieren. De wolf richt er nu meer schade aan dan de veelvraat."
+    },
+    "sv": {
+      "title": "Vargar dödade 1163 renar i Lappland 2026",
+      "description": "Fram till den 18 november 2026 hade Lapplands renbeteslag registrerat 1163 renar som dödats av varg, och vargen gör nu mer skada i renskötselområdet än järven."
+    }
+  },
   "/northern-lights": {
     "en": {
       "title": "Northern Lights in Lapland: Where & When to See Them",
