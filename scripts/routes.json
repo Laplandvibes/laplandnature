@@ -102,6 +102,22 @@
     }
   },
   {
+    "path": "/news/arctic-circle-hiking-area-management-plan-rovaniemi",
+    "fallbackTitle": "Arctic Circle Hiking Area plan starts near Rovaniemi",
+    "fallbackDescription": "Metsähallitus started management and tourism plans for the Arctic Circle Hiking Area in November 2026, and a public survey is open until the end of the year.",
+    "ogImage": "/og/news-arctic-circle-hiking-area-management-plan-rovaniemi.jpg",
+    "ogCard": {
+      "hero": "/images/news/koivusaari-boardwalk-rovaniemi-1600.webp",
+      "line": "Rovaniemi hiking area gets a new plan",
+      "focus": "50% 50%"
+    },
+    "harvestRecord": {
+      "file": "node_modules/.cache/lv-news/arctic-circle-hiking-area-management-plan-rovaniemi/{lang}.json",
+      "key": "arctic-circle-hiking-area-management-plan-rovaniemi",
+      "mode": "jsonFile"
+    }
+  },
+  {
     "path": "/news/wolves-killed-1163-reindeer-lapland-2026",
     "fallbackTitle": "Wolves killed 1163 reindeer in Lapland in 2026",
     "fallbackDescription": "By 18 November 2026 Lapland's herding districts had recorded 1163 reindeer killed by wolves, and the wolf now does more damage up here than the wolverine.",

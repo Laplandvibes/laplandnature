@@ -1303,5 +1303,92 @@
         "samaKuinKesa": true
       }
     }
+  },
+  "news-arctic-circle-hiking-area-management-plan-rovaniemi": {
+    "route": "/news/arctic-circle-hiking-area-management-plan-rovaniemi",
+    "line": "Rovaniemi hiking area gets a new plan",
+    "kaudet": {
+      "summer": {
+        "hero": "/images/news/koivusaari-boardwalk-rovaniemi-1600.webp",
+        "bytes": 197306,
+        "sha256": "a9feb3fb01c76d5509876283be2cf68f8e3fffe87dbfd1ba373104c81c1d3b20",
+        "heroSha": "e938a71955591415",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 21058,
+        "inkBox": [
+          339,
+          28,
+          861,
+          132
+        ],
+        "sanamerkki": "virallinen",
+        "safe": true,
+        "palkki": "yla",
+        "xVapaa": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 125.4,
+        "centerSq": 131.6,
+        "photoRegion": 156.2,
+        "photoRegionRef": 156.2,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 525,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": []
+      },
+      "winter": {
+        "hero": "/images/news/koivusaari-boardwalk-rovaniemi-1600.webp",
+        "bytes": 197306,
+        "sha256": "a9feb3fb01c76d5509876283be2cf68f8e3fffe87dbfd1ba373104c81c1d3b20",
+        "heroSha": "e938a71955591415",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 21058,
+        "inkBox": [
+          339,
+          28,
+          861,
+          132
+        ],
+        "sanamerkki": "virallinen",
+        "safe": true,
+        "palkki": "yla",
+        "xVapaa": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 125.4,
+        "centerSq": 131.6,
+        "photoRegion": 156.2,
+        "photoRegionRef": 156.2,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 525,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": [],
+        "samaKuinKesa": true
+      }
+    }
   }
 }

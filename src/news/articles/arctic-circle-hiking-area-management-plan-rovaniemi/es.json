@@ -1,0 +1,63 @@
+{
+  "title": "Metsähallitus planifica la zona de senderismo del Círculo Polar",
+  "seoTitle": "Zona de senderismo del Círculo Polar: empieza el plan",
+  "description": "Metsähallitus inició en noviembre de 2026 los planes de la zona de senderismo del Círculo Polar, y la encuesta en línea está abierta hasta fin de año.",
+  "dek": "El área recibió 130 000 visitas el año pasado, y las pasarelas de su sendero de turbera están en tan mal estado que Metsähallitus podría no mantener la ruta abierta el próximo verano.",
+  "heroAlt": "Una estrecha pasarela de madera cruza un prado abierto junto al río, entre hierba alta y amarillenta y matorral bajo; detrás hay sauces y abedules, y arriba un cielo gris uniforme.",
+  "heroCaption": "Una pasarela en la isla de Koivusaari, en Rovaniemi, en septiembre de 2022. La zona de senderismo del Círculo Polar y su propio sendero de turbera quedan a unos 25 kilómetros al norte de la ciudad.",
+  "body": [
+    {
+      "t": "p",
+      "text": "Metsähallitus empezó en noviembre de 2026 a redactar un plan de gestión y uso, además de un plan de turismo, para la zona de senderismo del Círculo Polar. El área de planificación abarca 3752 hectáreas a lo largo de la carretera 4, a unos 25 kilómetros al norte de Rovaniemi, e incluye el espacio protegido de turberas de Vianaava. El plan de gestión orientará el desarrollo de la zona y la forma en que encajan sus distintos usos durante los próximos 10 a 15 años, y el plan de turismo se redacta junto con las empresas turísticas que trabajan en el área."
+    },
+    {
+      "t": "p",
+      "text": "Puede opinar ya en esta fase temprana. Una encuesta en línea está abierta a los usuarios del área, a los vecinos de los alrededores y a cualquier otra persona interesada hasta el final de 2026, y los representantes de los grupos de interés serán invitados a talleres más adelante en el proceso. La zona de senderismo tiene muchos grupos de usuarios distintos, así que es importante que los distintos deseos puedan conciliarse, dice Ilkka Vaara, especialista sénior en uso del suelo de los Servicios Naturales de Metsähallitus."
+    },
+    {
+      "t": "p",
+      "text": "La planificación arranca en un terreno que ya está bajo presión. La zona de senderismo del Círculo Polar es la segunda zona de senderismo más popular de Finlandia y uno de los destinos naturales más visitados que gestiona Metsähallitus, con 130 000 visitas el año pasado. Los visitantes se reparten por igual entre los dos rápidos del área, Vikaköngäs y Vaattunkiköngäs, y en los dos los caminantes cruzan el Raudanjoki por un puente colgante."
+    },
+    {
+      "t": "h2",
+      "text": "¿Qué le piden los dos puentes colgantes?"
+    },
+    {
+      "t": "p",
+      "text": "En los dos puentes la distancia recomendada entre caminantes es de 5 metros, y en un puente no pueden estar más de 10 personas a la vez. Los carteles que lo indican son pequeños y están gastados. Las instrucciones se cumplen de forma desigual y el cumplimiento solo puede vigilarse de vez en cuando, dice Jarmo Asell, de los Servicios Naturales de Metsähallitus, que añade que en las próximas semanas se colocarán carteles nuevos y algo más grandes. En Lieto, en el suroeste de Finlandia, un puente colgante se derrumbó el domingo 22 de noviembre y seis personas cayeron al Aurajoki."
+    },
+    {
+      "t": "p",
+      "text": "El estado de los puentes lo revisa cada año Metsähallitus con sus propios medios, y un consultor externo hace un estudio más a fondo cada 5 a 8 años. En los puentes del Círculo Polar ese estudio se hizo por última vez en 2023, y las reparaciones se hacen a medida que aparece la necesidad. Las observaciones de los propios caminantes tienen peso, dice Asell, porque los recursos internos para las inspecciones son limitados, y los últimos comentarios fueron sobre el estado de los carteles."
+    },
+    {
+      "t": "h2",
+      "text": "El sendero de turbera quizá no siga abierto el próximo verano"
+    },
+    {
+      "t": "p",
+      "text": "Los Servicios Naturales no han podido aumentar lo que dedican a las estructuras del área al ritmo al que ha crecido el turismo, dice Asell. Eso se nota por tramos en el desgaste del terreno y en pasarelas que no se cambian tan rápido como haría falta. Las pasarelas del sendero natural de turbera, un circuito de 5,5 kilómetros que atraviesa la turbera de Vianaava, están por tramos en muy mal estado, y el próximo verano Metsähallitus tendrá que valorar si puede mantener la ruta abierta. El sendero de Könkäänvaara, en la misma zona, se cerró en noviembre de 2025 y se quitó del mapa."
+    },
+    {
+      "t": "ul",
+      "items": [
+        "Deje 5 metros con quien va delante en los puentes colgantes y, si ya hay 10 personas en el puente, espere en el extremo.",
+        "Empiece en el aparcamiento de Vikaköngäs o en el de Vaattunkiköngäs. Los dos se limpian de nieve en invierno, y en Vaattunkiköngäs hay sitio para unos 40 coches.",
+        "Los senderos no tienen mantenimiento invernal, pero los más populares suelen quedar lo bastante pisados para andar por ellos.",
+        "Consulte los avisos actuales del área antes de salir en coche. La pista de grava hasta Vaattunkiköngäs puede cerrarse un tiempo durante el deshielo de primavera.",
+        "Avise a Metsähallitus si encuentra una pasarela, un puente o un cartel roto, porque entre estudio y estudio las inspecciones se apoyan en las observaciones de los excursionistas.",
+        "Responda a la encuesta antes del final de 2026 si quiere que los planes tengan en cuenta su tipo de salida."
+      ]
+    },
+    {
+      "t": "note",
+      "text": "La zona de senderismo es terreno de pastoreo de renos. Los perros deben ir con correa, y se pide a los caminantes mantener suficiente distancia con los renos para no asustarlos."
+    },
+    {
+      "t": "link",
+      "text": "Aquí los rápidos, la turbera y los bosques antiguos quedan a una excursión de un día desde Rovaniemi, y lo mismo vale para varias otras rutas de Laponia.",
+      "label": "Senderos de Laponia",
+      "href": "/hiking-trails"
+    }
+  ]
+}

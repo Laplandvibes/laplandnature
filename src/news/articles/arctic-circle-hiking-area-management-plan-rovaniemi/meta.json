@@ -1,0 +1,76 @@
+{
+  "slug": "arctic-circle-hiking-area-management-plan-rovaniemi",
+  "date": "2026-11-26",
+  "hero": {
+    "src": "/images/news/koivusaari-boardwalk-rovaniemi-1600.webp",
+    "srcSmall": "/images/news/koivusaari-boardwalk-rovaniemi-800.webp",
+    "srcLarge": "/images/news/koivusaari-boardwalk-rovaniemi-2400.webp",
+    "avif": {
+      "small": "/images/news/koivusaari-boardwalk-rovaniemi-800.avif",
+      "src": "/images/news/koivusaari-boardwalk-rovaniemi-1600.avif",
+      "large": "/images/news/koivusaari-boardwalk-rovaniemi-2400.avif"
+    },
+    "width": 1600,
+    "height": 1071,
+    "position": "50% 50%",
+    "credit": {
+      "author": "Leonhard Lenz",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hiking_trail_on_Koivusaari_Rovaniemi_2022-09-15_23.jpg",
+      "sourceName": "Wikimedia Commons",
+      "assetId": "Hiking trail on Koivusaari Rovaniemi 2022-09-15 23.jpg",
+      "place": "Rovaniemi",
+      "taken": "2022-09-15",
+      "retrieved": "2026-11-26"
+    }
+  },
+  "sources": [
+    {
+      "publisher": "Yle Lappi",
+      "title": "Suositulla retkeilyalueella riippusilta hytkyy matkailijamäärän alla – Metsähallituksen resurssit eivät riitä valvontaan",
+      "lang": "fi",
+      "url": "https://yle.fi/a/74-20258822?origin=rss",
+      "date": "2026-11-25"
+    },
+    {
+      "publisher": "Metsähallitus",
+      "title": "Napapiirin retkeilyalueen tulevaisuutta suunnitellaan yhdessä – vastaa verkkokyselyyn!",
+      "lang": "fi",
+      "url": "https://www.epressi.com/tiedotteet/ymparisto-ja-luonto/napapiirin-retkeilyalueen-tulevaisuutta-suunnitellaan-yhdessa-vastaa-verkkokyselyyn.html",
+      "date": "2026-11-23"
+    },
+    {
+      "publisher": "Metsähallitus, Luontoon.fi",
+      "title": "Napapiirin retkeilyalue",
+      "lang": "fi",
+      "url": "https://www.luontoon.fi/fi/kohteet/napapiirin-retkeilyalue",
+      "read": "2026-11-26"
+    },
+    {
+      "publisher": "Metsähallitus, Luontoon.fi",
+      "title": "Retkeily & ulkoilu – Napapiirin retkeilyalue",
+      "lang": "fi",
+      "url": "https://www.luontoon.fi/fi/kohteet/napapiirin-retkeilyalue/aktiviteetit-ja-reitit/retkeily-ja-ulkoilu",
+      "read": "2026-11-26"
+    },
+    {
+      "publisher": "Metsähallitus, Luontoon.fi",
+      "title": "Suoluontopolku",
+      "lang": "fi",
+      "url": "https://www.luontoon.fi/fi/reitit/suoluontopolku-rovaniemi-16337",
+      "read": "2026-11-26"
+    },
+    {
+      "publisher": "Metsähallitus, Luontoon.fi",
+      "title": "Autolla Napapiirin retkeilyalueelle",
+      "lang": "fi",
+      "url": "https://www.luontoon.fi/fi/kohteet/napapiirin-retkeilyalue/saapuminen/autolla",
+      "read": "2026-11-26"
+    }
+  ],
+  "ogCard": {
+    "line": "Rovaniemi hiking area gets a new plan",
+    "focus": "50% 50%"
+  }
+}

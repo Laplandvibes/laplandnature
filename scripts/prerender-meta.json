@@ -1505,6 +1505,56 @@
       "description": "Nyheter om naturen i finska Lappland: forskning, skyddsområden och reglerna på lederna. Varje artikel namnger och länkar sina källor."
     }
   },
+  "/news/arctic-circle-hiking-area-management-plan-rovaniemi": {
+    "en": {
+      "title": "Arctic Circle Hiking Area plan starts near Rovaniemi",
+      "description": "Metsähallitus started management and tourism plans for the Arctic Circle Hiking Area in November 2026, and a public survey is open until the end of the year."
+    },
+    "fi": {
+      "title": "Napapiirin retkeilyalueen suunnittelu alkoi marraskuussa",
+      "description": "Metsähallitus aloitti Napapiirin retkeilyalueen hoidon ja matkailun suunnittelun marraskuussa 2026, ja alueen verkkokysely on auki vuoden loppuun."
+    },
+    "de": {
+      "title": "Wandergebiet Polarkreis: Planung startet bei Rovaniemi",
+      "description": "Metsähallitus hat im November 2026 die Planung für Pflege und Tourismus im Wandergebiet Polarkreis begonnen, und eine Online-Umfrage läuft bis zum Jahresende."
+    },
+    "ja": {
+      "title": "北極圏ハイキングエリア：ロヴァニエミ近郊で計画開始",
+      "description": "メッツァハッリトゥスは2026年11月、北極圏ハイキングエリアの管理と観光の計画づくりを始めました。だれでも答えられるアンケートは年末まで開いています。"
+    },
+    "es": {
+      "title": "Zona de senderismo del Círculo Polar: empieza el plan",
+      "description": "Metsähallitus inició en noviembre de 2026 los planes de la zona de senderismo del Círculo Polar, y la encuesta en línea está abierta hasta fin de año."
+    },
+    "pt-BR": {
+      "title": "Área de trilhas do Círculo Polar: planejamento começa",
+      "description": "A Metsähallitus começou em novembro de 2026 os planos de manejo e turismo da área de trilhas do Círculo Polar; a consulta online fica aberta até o fim do ano."
+    },
+    "zh-CN": {
+      "title": "北极圈徒步区：罗瓦涅米近郊启动规划",
+      "description": "Metsähallitus于2026年11月启动了北极圈徒步区的管理与旅游规划，面向区域使用者、当地居民和其他关心此事者的在线问卷开放至今年年底。"
+    },
+    "ko": {
+      "title": "북극권 하이킹 구역: 로바니에미 인근 계획 시작",
+      "description": "Metsähallitus가 2026년 11월 북극권 하이킹 구역의 관리·관광 계획을 시작했고, 온라인 설문은 연말까지 열려 있습니다."
+    },
+    "fr": {
+      "title": "Zone de randonnée du Cercle polaire : plan en préparation",
+      "description": "Metsähallitus a lancé en novembre 2026 les plans de la zone de randonnée du Cercle polaire ; l'enquête en ligne est ouverte jusqu'à la fin de l'année."
+    },
+    "it": {
+      "title": "Area escursionistica del Circolo polare: al via i piani",
+      "description": "Metsähallitus ha avviato a novembre 2026 i piani di gestione e turismo dell'area escursionistica del Circolo polare; sondaggio aperto fino a fine anno."
+    },
+    "nl": {
+      "title": "Wandelgebied Poolcirkel: planning start bij Rovaniemi",
+      "description": "Metsähallitus begon in november 2026 met de beheer- en toerismeplannen voor wandelgebied Poolcirkel, en een online enquête loopt tot het einde van het jaar."
+    },
+    "sv": {
+      "title": "Polcirkelns strövområde: planeringen startar nära Rovaniemi",
+      "description": "Forststyrelsen inledde i november 2026 planeringen av skötsel och turism i Polcirkelns strövområde, och en webbenkät är öppen till årets slut."
+    }
+  },
   "/news/kilpisjarvi-reindeer-grazing-pollinators": {
     "en": {
       "title": "Kilpisjärvi: reindeer grazing and arctic pollinators",
