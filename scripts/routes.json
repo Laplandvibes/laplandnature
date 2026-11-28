@@ -102,6 +102,22 @@
     }
   },
   {
+    "path": "/news/muonio-buys-wilderness-huts-metsahallitus",
+    "fallbackTitle": "Muonio takes over Metsähallitus huts in January",
+    "fallbackDescription": "Parks & Wildlife Finland and the municipality of Muonio agreed that several wilderness huts and lean-tos move to the municipality at the start of 2027.",
+    "ogImage": "/og/news-muonio-buys-wilderness-huts-metsahallitus.jpg",
+    "ogCard": {
+      "hero": "/images/news/mustavaara-wilderness-hut-muonio-1600.webp",
+      "line": "Muonio takes over its wilderness huts",
+      "focus": "60% 60%"
+    },
+    "harvestRecord": {
+      "file": "node_modules/.cache/lv-news/muonio-buys-wilderness-huts-metsahallitus/{lang}.json",
+      "key": "muonio-buys-wilderness-huts-metsahallitus",
+      "mode": "jsonFile"
+    }
+  },
+  {
     "path": "/news/arctic-circle-hiking-area-management-plan-rovaniemi",
     "fallbackTitle": "Arctic Circle Hiking Area plan starts near Rovaniemi",
     "fallbackDescription": "Metsähallitus started management and tourism plans for the Arctic Circle Hiking Area in November 2026, and a public survey is open until the end of the year.",

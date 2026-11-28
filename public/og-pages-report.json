@@ -1390,5 +1390,92 @@
         "samaKuinKesa": true
       }
     }
+  },
+  "news-muonio-buys-wilderness-huts-metsahallitus": {
+    "route": "/news/muonio-buys-wilderness-huts-metsahallitus",
+    "line": "Muonio takes over its wilderness huts",
+    "kaudet": {
+      "summer": {
+        "hero": "/images/news/mustavaara-wilderness-hut-muonio-1600.webp",
+        "bytes": 165696,
+        "sha256": "79e21f0dadb1a948acc36e2b721f8a985ab91eccf255900fa1b7c6ca7cc3eabb",
+        "heroSha": "d3ff45a98f91933b",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 20954,
+        "inkBox": [
+          339,
+          28,
+          861,
+          126
+        ],
+        "sanamerkki": "virallinen",
+        "safe": true,
+        "palkki": "yla",
+        "xVapaa": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 86.1,
+        "centerSq": 89.8,
+        "photoRegion": 102.7,
+        "photoRegionRef": 102.7,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 524,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": []
+      },
+      "winter": {
+        "hero": "/images/news/mustavaara-wilderness-hut-muonio-1600.webp",
+        "bytes": 165696,
+        "sha256": "79e21f0dadb1a948acc36e2b721f8a985ab91eccf255900fa1b7c6ca7cc3eabb",
+        "heroSha": "d3ff45a98f91933b",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 20954,
+        "inkBox": [
+          339,
+          28,
+          861,
+          126
+        ],
+        "sanamerkki": "virallinen",
+        "safe": true,
+        "palkki": "yla",
+        "xVapaa": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 86.1,
+        "centerSq": 89.8,
+        "photoRegion": 102.7,
+        "photoRegionRef": 102.7,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 524,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": [],
+        "samaKuinKesa": true
+      }
+    }
   }
 }

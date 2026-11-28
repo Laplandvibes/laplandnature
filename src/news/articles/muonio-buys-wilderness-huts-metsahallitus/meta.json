@@ -1,0 +1,97 @@
+{
+  "slug": "muonio-buys-wilderness-huts-metsahallitus",
+  "date": "2026-11-28",
+  "hero": {
+    "src": "/images/news/mustavaara-wilderness-hut-muonio-1600.webp",
+    "srcSmall": "/images/news/mustavaara-wilderness-hut-muonio-800.webp",
+    "srcLarge": "/images/news/mustavaara-wilderness-hut-muonio-2400.webp",
+    "avif": {
+      "small": "/images/news/mustavaara-wilderness-hut-muonio-800.avif",
+      "src": "/images/news/mustavaara-wilderness-hut-muonio-1600.avif",
+      "large": "/images/news/mustavaara-wilderness-hut-muonio-2400.avif"
+    },
+    "width": 1600,
+    "height": 1200,
+    "position": "60% 60%",
+    "credit": {
+      "author": "Htm",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mustavaaran_vanha_porok%C3%A4mpp%C3%A4_2013.jpg",
+      "sourceName": "Wikimedia Commons",
+      "assetId": "Mustavaaran vanha porokämppä 2013.jpg",
+      "place": "Muonio",
+      "taken": "2013-03-25",
+      "retrieved": "2026-11-28"
+    }
+  },
+  "sources": [
+    {
+      "publisher": "Metsähallitus Luontopalvelut ja Muonion kunta",
+      "title": "Muonion kunta ottaa vastuulleen useita retkeilyrakenteita",
+      "lang": "fi",
+      "url": "https://www.epressi.com/tiedotteet/ymparisto-ja-luonto/muonion-kunta-ottaa-vastuulleen-useita-retkeilyrakenteita.html",
+      "date": "2026-11-26"
+    },
+    {
+      "publisher": "Lapin Kansa",
+      "title": "Muonio ostaa seitsemän retkipaikkaa Metsähallitukselta – vastaavia neuvotteluja käydään myös muiden kuntien kanssa",
+      "lang": "fi",
+      "url": "https://www.lapinkansa.fi/muonio-ostaa-seitseman-retkipaikkaa-metsahallituks/13776323",
+      "date": "2026-11-27"
+    },
+    {
+      "publisher": "Yle Lappi",
+      "title": "Metsähallitus myy useita laavuja ja autiotupia Muoniossa – jatkossa ylläpidosta vastaa kunta",
+      "lang": "fi",
+      "url": "https://yle.fi/a/74-20259333",
+      "date": "2026-11-27"
+    },
+    {
+      "publisher": "Metsähallitus",
+      "title": "Retkeilypalvelujen priorisointi",
+      "lang": "fi",
+      "url": "https://www.metsa.fi/vapaa-aika-luonnossa/retkeily/retkeilypalvelujen-priorisointi/",
+      "read": "2026-11-28"
+    },
+    {
+      "publisher": "Metsähallitus, Luontoon.fi",
+      "title": "Vuontisjärvi autiotupa",
+      "lang": "fi",
+      "url": "https://luontoon.fi/fi/palvelut/vuontisjarvi-autiotupa-autiotupa-1796",
+      "read": "2026-11-28"
+    },
+    {
+      "publisher": "Metsähallitus, Luontoon.fi",
+      "title": "Kuusikonmaa autiotupa",
+      "lang": "fi",
+      "url": "https://luontoon.fi/fi/palvelut/kuusikonmaa-autiotupa-autiotupa-1822",
+      "read": "2026-11-28"
+    },
+    {
+      "publisher": "Metsähallitus, Luontoon.fi",
+      "title": "Tammikämppä autiotupa, Muonio",
+      "lang": "fi",
+      "url": "https://www.luontoon.fi/fi/palvelut/tammikamppa-autiotupa-muonio-autiotupa-9074",
+      "read": "2026-11-28"
+    },
+    {
+      "publisher": "Metsähallitus, Luontoon.fi",
+      "title": "Pahtavaara autiotupa",
+      "lang": "fi",
+      "url": "https://luontoon.fi/fi/palvelut/pahtavaara-autiotupa-autiotupa-46828",
+      "read": "2026-11-28"
+    },
+    {
+      "publisher": "Metsähallitus, Luontoon.fi",
+      "title": "Juuvanrova autiotupa",
+      "lang": "fi",
+      "url": "https://luontoon.fi/fi/palvelut/juuvanrova-autiotupa-autiotupa-1817",
+      "read": "2026-11-28"
+    }
+  ],
+  "ogCard": {
+    "line": "Muonio takes over its wilderness huts",
+    "focus": "60% 60%"
+  }
+}

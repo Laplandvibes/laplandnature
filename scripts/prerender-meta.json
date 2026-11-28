@@ -1805,6 +1805,56 @@
       "description": "Forststyrelsens egen kundtjänst upphörde i Kellokas, Hetta, Siida och Naava den 11 november 2026. Vad som är öppet och var du får tillstånd nu."
     }
   },
+  "/news/muonio-buys-wilderness-huts-metsahallitus": {
+    "en": {
+      "title": "Muonio takes over Metsähallitus huts in January",
+      "description": "Parks & Wildlife Finland and the municipality of Muonio agreed that several wilderness huts and lean-tos move to the municipality at the start of 2027."
+    },
+    "fi": {
+      "title": "Muonio ostaa Metsähallituksen autiotupia ja laavuja",
+      "description": "Metsähallituksen Luontopalvelut ja Muonion kunta sopivat, että useat autiotuvat ja laavut siirtyvät kunnan omistukseen ja ylläpitoon vuoden 2027 alussa."
+    },
+    "de": {
+      "title": "Muonio übernimmt im Januar Hütten von Metsähallitus",
+      "description": "Die Naturdienste von Metsähallitus und die Gemeinde Muonio haben vereinbart, dass mehrere Wildnishütten und Unterstände Anfang 2027 an die Gemeinde übergehen."
+    },
+    "ja": {
+      "title": "ムオニオ、メッツァハッリトゥスの小屋を1月に引き継ぐ",
+      "description": "メッツァハッリトゥスの自然局とムオニオの自治体は、いくつかの無人小屋と差し掛け小屋が2027年の初めに自治体の所有と管理に移ることで合意しました。"
+    },
+    "es": {
+      "title": "Muonio se hace cargo en enero de refugios de Metsähallitus",
+      "description": "Los Servicios Naturales de Metsähallitus y el municipio de Muonio acordaron que varios refugios abiertos y cobertizos pasarán al municipio a inicios de 2027."
+    },
+    "pt-BR": {
+      "title": "Muonio assume refúgios da Metsähallitus em janeiro",
+      "description": "Os Serviços de Natureza da Metsähallitus e o município de Muonio acertaram que vários refúgios abertos e abrigos passarão ao município no início de 2027."
+    },
+    "zh-CN": {
+      "title": "穆奥尼奥1月接手Metsähallitus山屋",
+      "description": "Parks & Wildlife Finland与穆奥尼奥市政府已经商定，多座开放式荒野山屋和单坡棚将于2027年年初转由该市政府所有和维护。"
+    },
+    "ko": {
+      "title": "무오니오, 1월에 Metsähallitus 산장 인수",
+      "description": "Metsähallitus의 자연 부문과 무오니오 지자체는 여러 황야 산장과 라부가 2027년 초에 지자체 소유와 관리로 넘어가기로 합의했습니다."
+    },
+    "fr": {
+      "title": "Muonio reprend des refuges de Metsähallitus en janvier",
+      "description": "Les Services de la nature de Metsähallitus et la commune de Muonio ont convenu que plusieurs refuges libres et abris ouverts passeront à la commune début 2027."
+    },
+    "it": {
+      "title": "Muonio rileva i rifugi di Metsähallitus da gennaio",
+      "description": "I Servizi per la natura di Metsähallitus e il comune di Muonio hanno concordato che diversi rifugi liberi e ripari aperti passeranno al comune a inizio 2027."
+    },
+    "nl": {
+      "title": "Muonio neemt in januari hutten van Metsähallitus over",
+      "description": "De Natuurdiensten van Metsähallitus en de gemeente Muonio hebben afgesproken dat meerdere wildernishutten en schuilhutten begin 2027 overgaan naar de gemeente."
+    },
+    "sv": {
+      "title": "Muonio tar över Forststyrelsens stugor i januari",
+      "description": "Forststyrelsens Naturtjänster och Muonio kommun har kommit överens om att flera ödestugor och vindskydd övergår till kommunen i början av 2027."
+    }
+  },
   "/news/sakatti-mine-viiankiaapa-compensation": {
     "en": {
       "title": "Sakatti mine and Viiankiaapa: compensation plan falls short",
